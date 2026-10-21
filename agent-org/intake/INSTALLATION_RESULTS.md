@@ -7,9 +7,9 @@
 - Owning Role: Coordinator
 - Related Requirements: REQ-000001 through REQ-000042
 - Related Tasks: TASK-000001, TASK-000006, TASK-000008, TASK-000021
-- Approval Requirements: APP-000001; final operator acceptance pending
+- Approval Requirements: APP-000001; APP-000008 final operator acceptance and root-entrypoint amendment
 
-State: **INCOMPLETE_OR_BLOCKED** only pending the mandatory post-installation operator gap interview and final acceptance. Implementation and PR integration are verified at merge 05842d7f28db763264a98c22304f7746c87fc52a. Original approved snapshots and rejected attempts remain immutable history.
+State: **FULLY_ACCEPTED** for the delivered installation under APP-000008. The separately authorized root-entrypoint amendment is tracked by TASK-000025; its integration evidence is recorded in factory/reports/ROOT_ENTRYPOINT.md.
 
 Final RUN-000019 passed **85 local tests** on macOS/Python3.15; actual hosted CI39677207668 passed **85 tests** on Linux/Python3.13. Fresh independent RUN-000020 passed **120 additional checks** and APP-000006 approved exact measurement1.0.1 adoption. Original22 observations/58 typed replay records and235-case validator comparison are distinct workloads, not additive unique scenarios.
 
@@ -21,7 +21,7 @@ RUN-000015 raw evidence: [first attempt](../factory/reports/RUN-000015/full-suit
 
 | Scenario | Required capability | Actual result and limitation |
 | --- | --- | --- |
-| O-01 | Coordinator startup | Actual fresh RUN-000010 explicitly loaded nested instructions from /Users/Shared; automatic nested startup is not claimed. |
+| O-01 | Coordinator startup | Initial RUN-000010 used explicit nested startup. Under APP-000008, fresh RUN-000026 automatically received root AGENTS.md and followed the bootstrap while preserving its assigned role. A new top-level Codex process was not launched. |
 | O-02 | Chief of Staff discovery | Filesystem/registry discovery and independent Chief of Staff runs RUN-000007/9/13/16 were observed. |
 | O-03 | Dynamic discovery / instruction loading | Actual fresh Coordinator inspected discovery/instructions; an isolated fixture exercised 8→9→8 roles. No fresh selected specialist or production role lifecycle was demonstrated. |
 | O-04 | Fresh and parallel delegation | Actual fresh parallel workers RUN-000002/3/4 used persisted tasks/runs and separate assigned source scopes. Shared files are not technical isolation. |
@@ -43,7 +43,7 @@ RUN-000015 raw evidence: [first attempt](../factory/reports/RUN-000015/full-suit
 | P-05 | Project tests | Three actual fixture tests and retained failing counterexamples have exact source/test hashes. Independent RUN-000012 reran the tests successfully. |
 | P-06 | Project review | Independent RUN-000012/EVAL-000004 accepted the product behavior separately from organization EVAL-000003. |
 | P-07 | Integration | Exact fixture source was integrated locally as commit 89e6d4b. The factory installation was separately integrated through PR1. |
-| P-08 | Intent / acceptance | Coordinator reconciled REQ-000041 intent after independent review and accepted the bounded fixture tasks. Parent installation acceptance remains pending. |
+| P-08 | Intent / acceptance | Coordinator reconciled REQ-000041 intent after independent review and accepted the bounded fixture tasks. APP-000008 records parent installation acceptance. |
 | X-01 | Project cannot modify organization | Project trial preserved role/policy pins. An executed wrong-system diff fixture detects project changes to organization scope. |
 | X-02 | Organization cannot modify project | EXP-000001 is limited to four frozen organization files; project/test/beta pins were preserved. Executed diff fixtures detect wrong-target changes. |
 | X-03 | Ambiguous testing request | Actual fresh Coordinator asked for the target of “Improve our testing” in a controlled dialogue; no real edits followed. |
@@ -89,14 +89,18 @@ RUN-000015 raw evidence: [first attempt](../factory/reports/RUN-000015/full-suit
 | G-02 | Git exclusions / worktrees | Ignore/exclusion checks cover old/, projects, worktrees and temporary fixtures. A clean detached worktree was created, inspected and removed. Final index audits exclude old/, temporary project contents and gitlinks; the copied rollback scratch tree was caught and removed from the index. |
 | G-03 | PR / CI | PR1 exists; initial hosted run39675768661 passed77 tests and all steps; EVAL-000007 accepts root integration. Final85-test head CI39677207668 passed; RUN-000023 independently verified the exact head. |
 | G-04 | Merge / release | PR1 merged through the allowed merge method as 05842d7f28db763264a98c22304f7746c87fc52a; parent/tree and approved-source hashes verified. |
-| A-01 | Post-installation gap interview | Ten-question interview presented after integration; awaiting operator response. |
-| A-02 | Final acceptance/report | PENDING: final operator acceptance. The 26-topic report and directory inventory are reporting artifacts, not acceptance. |
+| A-01 | Post-installation gap interview | All ten checks explicitly accepted by operator in APP-000008; root entrypoint requested as a separate amendment. |
+| A-02 | Final acceptance/report | APP-000008 records explicit final acceptance after the post-installation interview; reporting artifacts preserve evidence. |
 
 All 70 planned scenarios are accounted for. Rows marked pending are neither passes nor accepted exclusions. Executed synthetic cases and partial live demonstrations do not establish full operational coverage.
 
-Approved limits exclude a 24/7 daemon, calendar scheduler, automatic nested startup, universal interception, trusted actual-model cost feed, hostile-worker isolation, production data, legacy migration, new paid services and protection bypass. Real project enrollment and its external authorities remain future separately authorized work. Only the post-installation operator gap interview and final acceptance remain open.
+Approved limits exclude a 24/7 daemon, calendar scheduler, universal interception, trusted actual-model cost feed, hostile-worker isolation, production data, legacy migration, new paid services and protection bypass. Real project enrollment and its external authorities remain future separately authorized work. Post-installation interview and final acceptance are complete under APP-000008. Root entrypoint amendment follows TASK-000025.
 
 
 ## Current integrated candidate
 
-Final EVAL-000006 / APP-000006 / RUN-000023 supersede earlier qualification checkpoints for the exact candidate. PR1 merge 05842d7f28db763264a98c22304f7746c87fc52a preserves approved source hashes. Current final hosted CI passed85 tests. No unresolved implementation capability remains within the approved scope; the operator gap interview and final acceptance are still separate gates.
+Final EVAL-000006 / APP-000006 / RUN-000023 supersede earlier qualification checkpoints for the exact candidate. PR1 merge 05842d7f28db763264a98c22304f7746c87fc52a preserves approved source hashes. Current final hosted CI passed85 tests. No unresolved implementation capability remains within the approved scope; the operator gap interview and final acceptance are complete under APP-000008.
+
+## Root entrypoint amendment
+
+APP-000008 explicitly supersedes the earlier no-root-AGENTS restriction for a thin startup bridge only. REQ-000043 and TASK-000025 separate organization, host-project and integration obligations. Current behavior and evidence: [root entrypoint verification](../factory/reports/ROOT_ENTRYPOINT.md). Original snapshots and observed historical tests remain unchanged.

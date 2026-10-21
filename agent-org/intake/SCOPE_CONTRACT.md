@@ -1,6 +1,6 @@
-# Scope contract v0.1 — implementation approved; final acceptance pending
+# Scope contract v0.1 — implementation approved; operator accepted; root startup amendment
 
-Implementation approval recorded in [APP-000001](../approvals/APP-000001.md). Exact approved v0.1 is preserved under approved-v0.1/. Final acceptance remains pending.
+Implementation approval recorded in [APP-000001](../approvals/APP-000001.md). Exact approved v0.1 is preserved under approved-v0.1/. Final acceptance is recorded in APP-000008; the same grant authorizes the root startup bridge.
 - Target System: organization
 - Change Classification: organization
 - Authorized Scope: Current approved installation contract and evidence view under agent-org/intake; APP-000001 defines operational scope.
@@ -12,14 +12,14 @@ Implementation approval recorded in [APP-000001](../approvals/APP-000001.md). Ex
 
 ## Current authority
 
-Only provisional intake Markdown is writable under this interview grant. Discovery reads are authorized throughout /Users/Shared and through the connected GitHub repository tools. The proposed permissions below become installation authority only on explicit approval of this contract, baseline, acceptance contract and plan.
+Historical interview grant below is superseded by APP-000001 implementation approval and APP-000008 final acceptance/root entrypoint amendment. Organization writes and the named host integrations are authorized within those grants. Discovery reads are authorized throughout /Users/Shared and through the connected GitHub repository tools. The proposed permissions below become installation authority only on explicit approval of this contract, baseline, acceptance contract and plan.
 
 ## Systems and path ownership
 
 | System | Paths/resources | Proposed installation writes | Exclusions |
 | --- | --- | --- | --- |
-| Organization | /Users/Shared/agent-org/ | All organizational instructions, Markdown records, deterministic instrumentation/tests/telemetry, provenance, evaluations and reports | No root AGENTS, no new harness configuration directory, no replacement runtime/service |
-| Factory host integration | /Users/Shared/.gitignore; /Users/Shared/.github/workflows/agent-org.yml; factory Git branches/worktrees/PR/CI | Named integration files, atomic commits, task branch pushes, PR, CI verification and reviewed merge | No unrelated root files, no protected-rule bypass or admin policy changes |
+| Organization | /Users/Shared/agent-org/ | All organizational instructions, Markdown records, deterministic instrumentation/tests/telemetry, provenance, evaluations and reports | Root AGENTS.md startup bridge permitted by APP-000008; no new harness configuration directory, no replacement runtime/service |
+| Factory host integration | /Users/Shared/AGENTS.md (APP-000008); /Users/Shared/.gitignore; /Users/Shared/.github/workflows/agent-org.yml; factory Git branches/worktrees/PR/CI | Named integration files, atomic commits, task branch pushes, PR, CI verification and reviewed merge | No unrelated root files, no protected-rule bypass or admin policy changes |
 | Project acceptance fixtures | Unique task-owned temporary Git repositories under agent-org/factory/artifacts/installation/ or temporary paths, with durable manifests in agent-org | Synthetic source/tests, local fixture Git histories and task-scoped cleanup | No real product repo or external fixture remote mutation |
 | Existing projects / old | /Users/Shared/old/** | None during installation | Never stage/commit/migrate/delete old; historical permissions are not inherited |
 | Future portfolio | Recommended /Users/Shared/projects/<id>/ and explicit worktree roots | None until separate enrollment/task authorization | Never stage nested projects into outer Git; no automatic migration |
@@ -57,9 +57,13 @@ Preserve old/, unrelated project files, user modifications, other sessions' reso
 
 ## Approval
 
-Operator approval: PENDING. Contract revision: v0.1. Approved hash/time/source: PENDING. No project migration or production grant is included.
+Operator approval: APP-000001 for immutable v0.1; APP-000008 for final acceptance and the named root entrypoint amendment. Current contract revision: v0.2; original approved hashes remain in APP-000001. No project migration or production grant is included.
 
 
 ## Current evidence view
 
 Implementation approval is complete under APP-000001. Read [installation results](INSTALLATION_RESULTS.md), task/run/approval records and [final report](../artifacts/INSTALLATION_REPORT.md) for current outcomes. Original approved wording and hashes remain immutable in approved-v0.1/. Operator final acceptance remains separate.
+
+## Current operator disposition
+
+APP-000008 accepts the delivered installation and ten post-installation checks, and explicitly authorizes the root AGENTS.md bridge. TASK-000025 tracks the amendment through independent review and normal PR integration; prior snapshots remain historical.

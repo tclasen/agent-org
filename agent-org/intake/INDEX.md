@@ -11,7 +11,7 @@
 
 The operator approved the baseline, scope, acceptance contract, implementation plan and exclusions in [APP-000001](../approvals/APP-000001.md). Exact original bytes are preserved in [approved-v0.1](approved-v0.1/INDEX.md); their pending wording is historical. Do not ask for implementation permission again.
 
-Current state: **INCOMPLETE_OR_BLOCKED** while final verification, integration and operator acceptance remain. See [status](STATUS.md), [actual results](INSTALLATION_RESULTS.md) and [installation report](../artifacts/INSTALLATION_REPORT.md).
+Current state: **FULLY_ACCEPTED** under APP-000008; root startup amendment tracked by TASK-000025. See [status](STATUS.md), [results](INSTALLATION_RESULTS.md) and [report](../artifacts/INSTALLATION_REPORT.md).
 
 - [Requirements Baseline](REQUIREMENTS_BASELINE.md): accepted initial requirements; individual durable records live under requirements/.
 - [Scope Contract](SCOPE_CONTRACT.md): separate organization/project authority and named integration exceptions.

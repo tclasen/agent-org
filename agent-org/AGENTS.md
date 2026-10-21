@@ -1,10 +1,12 @@
 # Agent organization operating instructions
 
+Resolve paths in this file relative to agent-org/. The host root AGENTS.md is the operator-approved startup bridge (APP-000008); canonical organization state remains here.
+
 Read policies/AUTHORITY.md, policies/SCOPE_BOUNDARIES.md, agents/INDEX.md and tasks/INDEX.md when available. During initial construction use intake/approved-v0.1 as the approved authority. The operator approved that package on 2026-10-21; APP-000001 is the durable grant.
 
 Classify intended changes as organization, project, or cross_boundary before task registration/delegation. Clarification/status-only requests do not authorize mutation. Ask on materially ambiguous targets. Organization authority never implies project authority or vice versa. Cross-boundary work requires a parent and separately scoped children, independent approvals/evidence/acceptance.
 
-Keep organizational records in agent-org as Markdown. Only deterministic instrumentation and telemetry use native formats. No root AGENTS, harness directory, new runtime, service or daemon. Never edit/migrate/delete/stage old/. Each project retains its own Git remote and authoritative ticket/specification sources.
+Keep organizational records in agent-org as Markdown. Only deterministic instrumentation and telemetry use native formats. Only the root AGENTS.md startup bridge is permitted outside this namespace under APP-000008; no harness directory, new runtime, service or daemon. Never edit/migrate/delete/stage old/. Each project retains its own Git remote and authoritative ticket/specification sources.
 
 Every substantive delegation requires a durable task, authorized plan, checked dependencies, per-run model/reasoning choice, and run record before fresh worker spawn. Choose capabilities from discovered AGENTS directories/registry. Workers load their role AGENTS and CONTEXT plus task scope. Use independent fresh reviewers. Do not allocate IDs concurrently; Coordinator allocates them. Return a handoff with completed work, evidence, changed files, unresolved questions, external effects and exact next action. Worker done is not acceptance.
 

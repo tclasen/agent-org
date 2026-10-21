@@ -9,7 +9,7 @@
 - Related Tasks: TASK-000002
 - Approval Requirements: APP-000001; future revisions follow policies/APPROVALS.md
 
-From /Users/Shared explicitly request: “Read agent-org/AGENTS.md, initialize the Coordinator, reconcile open work and interrupted runs, and report the next authorized action.” No root AGENTS or automatic nested loading is assumed. Fresh workers receive explicit role AGENTS/CONTEXT and task/run/context manifest paths, not inherited conversation as authority.
+Start Codex in /Users/Shared. Its root AGENTS.md entrypoint directs loading of agent-org/AGENTS.md, authority/scope, this lifecycle, role/task registries and Coordinator instructions/context. No cd into agent-org or separate activation prompt is required when the harness loads the root AGENTS.md. Delegated workers retain their assigned role and scope. This is instruction loading through the existing harness, not a new runtime. If a client does not load AGENTS.md, the explicit fallback is: “Read /Users/Shared/AGENTS.md and initialize the organization.” Fresh workers receive explicit role AGENTS/CONTEXT and task/run/context manifest paths, not inherited conversation as authority.
 
 At startup discover active roles, read authority/scope and open tasks/runs/claims. Reconcile native worker status, actual artifacts/hashes, Git index/worktree/remotes and known external operations before resuming or retrying. Resolve ownership uncertainty first. Check trigger occurrence dedup, enabled state, authority and cumulative resources; active-session startup and every five accepted substantive tasks may propose improvement review. CI PR/push checks run only through installed native Actions. No daemon/calendar or post-session organization execution is claimed.
 

@@ -1,6 +1,6 @@
-# Installation Acceptance Contract v0.1 — implementation approved; final acceptance pending
+# Installation Acceptance Contract v0.1 — operator accepted; root startup amendment
 
-Implementation approval recorded in [APP-000001](../approvals/APP-000001.md). Exact approved v0.1 is preserved under approved-v0.1/. Final acceptance remains pending.
+Implementation approval recorded in [APP-000001](../approvals/APP-000001.md). Exact approved v0.1 is preserved under approved-v0.1/. APP-000008 records final operator acceptance and the root startup amendment.
 - Target System: organization
 - Change Classification: organization
 - Authorized Scope: Current approved installation contract and evidence view under agent-org/intake; APP-000001 defines operational scope.
@@ -10,7 +10,7 @@ Implementation approval recorded in [APP-000001](../approvals/APP-000001.md). Ex
 - Related Tasks: TASK-000001 and separately scoped linked children.
 - Approval Requirements: Recommendations delegated by SRC-005; implementation and final installation acceptance remain explicit operator gates.
 
-Installation state: INCOMPLETE_OR_BLOCKED — implementation and verification underway. Historical scenario cells are superseded by the current results in INSTALLATION_RESULTS.md. This contract defines agreed work and evidence; a documented capability is not operational.
+Installation state: FULLY_ACCEPTED for the delivered installation under APP-000008. Historical scenario cells below are superseded by INSTALLATION_RESULTS.md; root entrypoint amendment is independently verified under TASK-000025.
 
 ## Operator decisions
 
@@ -163,7 +163,7 @@ Every test must record tested revision/environment, expected result, actual resu
 | --- | --- | --- |
 | 24/7 organization execution after sessions end | Excluded; active native sessions plus durable resume | Autonomy is decision/execution authority while running, not a new permanent service |
 | Calendar scheduler / continuous monitors | Excluded initially | Active-session and native CI events only |
-| Automatic instruction loading in every root-started session | Excluded until a namespace-compatible native mechanism is qualified | User starts Coordinator with documented explicit load prompt; fresh-worker test verifies that path |
+| Root startup through AGENTS.md | APP-000008 authorizes the thin root bridge; no universal-client guarantee | Start Codex in /Users/Shared without cd or activation prompt. Fresh native worker RUN-000026 received root instructions automatically and followed the bootstrap; a separate top-level process was not launched. |
 | Universal tool interception / trusted hooks | Excluded from core acceptance | Explicit command wrapper and event import cover only invoked paths; bypasses reported |
 | Exact actual-model/token/cost metadata | Optional if observable; unknown otherwise | Requested selection must work; no exact cost-efficiency claim without evidence |
 | Hostile-worker isolation / tamper-proof ledger | Excluded | Shared filesystem and same identity remain; hashes/PR review detect covered changes but are not immutable storage |
@@ -188,8 +188,12 @@ FULLY_ACCEPTED requires all mandatory in-scope scenarios passing, explicit accep
 
 ## Approval and final acceptance
 
-Contract/implementation approval: APP-000001; original approved hashes and operator source retained there and in approved-v0.1/. Post-installation gap interview: presented after verified PR1 merge and successful main CI; awaiting operator response. Final operator acceptance: PENDING. This record must be updated with actual results; no approval of predicted outcomes is requested.
+Contract/implementation approval: APP-000001; original approved hashes and operator source retained there and in approved-v0.1/. Post-installation gap interview: presented after verified PR1 merge and successful main CI; operator accepted all ten checks under APP-000008. Final operator acceptance: APP-000008, explicit acceptance after the ten-question interview. This record must be updated with actual results; no approval of predicted outcomes is requested.
 
 ## Current evidence view
 
 Implementation approval is complete under APP-000001. Read [installation results](INSTALLATION_RESULTS.md), task/run/approval records and [final report](../artifacts/INSTALLATION_REPORT.md) for current outcomes. Original approved wording and hashes remain immutable in approved-v0.1/. Operator final acceptance remains separate.
+
+## Accepted outcome and operator amendment
+
+APP-000008 explicitly accepts the completed installation and limits. It also authorizes root AGENTS.md activation from /Users/Shared without cd or a special prompt. This supersedes only the root-entrypoint exclusion; all other scope protections remain. TASK-000025 / REQ-000043 require scoped review and integration evidence.

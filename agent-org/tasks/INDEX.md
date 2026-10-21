@@ -2,14 +2,14 @@
 
 Individual records own scope, current status and historical evidence.
 
-- [TASK-000001 — TASK-000001 — Install governed organization](cross-boundary/TASK-000001.md) — in_progress
+- [TASK-000001 — TASK-000001 — Install governed organization](cross-boundary/TASK-000001.md) — accepted
 - [TASK-000002 — TASK-000002 — Organization instructions and governance](organization/TASK-000002.md) — accepted
 - [TASK-000003 — TASK-000003 — Record validation and instrumentation](organization/TASK-000003.md) — accepted
 - [TASK-000004 — TASK-000004 — DORA and improvement gates](organization/TASK-000004.md) — accepted
 - [TASK-000005 — TASK-000005 — Root Git and CI integration](project/TASK-000005.md) — accepted
 - [TASK-000006 — TASK-000006 — Independent installation verification](cross-boundary/TASK-000006.md) — accepted
 - [TASK-000007 — TASK-000007 — Synthetic project workflow acceptance](project/TASK-000007.md) — accepted
-- [TASK-000008 — TASK-000008 — Gap interview and final acceptance](organization/TASK-000008.md) — awaiting_acceptance
+- [TASK-000008 — TASK-000008 — Gap interview and final acceptance](organization/TASK-000008.md) — accepted
 - [TASK-000009 — TASK-000009 — Independent governance and instrumentation review](organization/TASK-000009.md) — accepted
 - [TASK-000010 — TASK-000010 — Live synthetic project qualification](project/TASK-000010.md) — accepted
 - [TASK-000011 — TASK-000011 — Correct validated graph and record storage defects](organization/TASK-000011.md) — accepted
@@ -25,4 +25,8 @@ Individual records own scope, current status and historical evidence.
 - [TASK-000021 — Make final installation evidence clear and reviewable](organization/TASK-000021.md) — accepted
 - [TASK-000022 — Independent final measurement adoption decision](organization/TASK-000022.md) — accepted
 - [TASK-000023 — Independent host integration review](project/TASK-000023.md) — accepted
-- [TASK-000024 — Integrate installation release evidence](organization/TASK-000024.md) — in_review
+- [TASK-000024 — Integrate installation release evidence](organization/TASK-000024.md) — accepted
+- [TASK-000025 — Root startup entrypoint and accepted installation](cross-boundary/TASK-000025.md) — in_progress
+- [TASK-000026 — Align startup governance and record operator acceptance](organization/TASK-000026.md) — in_progress
+- [TASK-000027 — Create root startup entrypoint](project/TASK-000027.md) — in_progress
+- [TASK-000028 — Independently verify root startup integration](organization/TASK-000028.md) — in_progress
