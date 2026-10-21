@@ -1,0 +1,32 @@
+{
+  "args": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "test_dora",
+    "test_improvement",
+    "-v"
+  ],
+  "cwd": "/private/tmp/RUN-000015-evidence/isolated-restore",
+  "exit": 0,
+  "started_at": "2026-10-21T20:55:04.863009+00:00",
+  "seconds": 0.4480476250173524,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "a9f5d07810551aec450bc6f45016db55a7255bfdad34e245d3701288d0e1b7f1",
+  "candidate_copy_verified": true,
+  "restored_original_paths": {
+    "factory/quality-gates/improvement.py": "993eb4ebef688d603b68a28bcba1f0b4e83eb6c7909f2f8e56dbf49b676ace0b",
+    "factory/quality-gates/DEFINITION.md": "ff58cb05da66efafad1154811e0236a5e367b30b9cf4cef3b92ed00f5f32882b",
+    "factory/dora/calculator.py": "dc18dd59a7b41052227359df1dddb4ce0bb46e0867787f77f83b7f082c6f3057",
+    "factory/dora/DEFINITIONS.md": "2ab41b0fc05a8f79c350cac17ad347f1e2361dff58bd8d6605ca96511959660c",
+    "factory/tests/test_improvement.py": "21fe892268b6ffc59ad434ce63878956c6a10369222953d9b5c3cb26867b2d9d",
+    "factory/tests/test_dora.py": "79ea4c81ccd73ab70dbf38a5372b48c5a6952852c5b58d2065d703223badd34a",
+    "factory/tests/test_gate_regressions.py": null,
+    "factory/benchmarks/repair.json": "6d67129111ed5d3e6ff607400e947c856c76e4364cb1bac9ae5919807914b29e",
+    "factory/benchmarks/efficiency.json": "94dbba235889cd01477f5909ea39b31e0251669ac9045b7704c6e43c57732d81",
+    "factory/dora/fixtures/expected.json": "cfcb40eca9c010e813329f9cba39f2d32802af3b9fcf427aa0fc7f7ec3e9ac97"
+  },
+  "live_candidate_unchanged": true,
+  "method": "Copy candidate into isolated evidence directory, verify frozen hashes, overwrite only isolated files with exact pre-edit originals, remove newly-added regression file, execute retained original tests."
+}

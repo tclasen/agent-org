@@ -1,0 +1,12 @@
+{
+  "args": [
+    "python3",
+    "-B",
+    "/private/tmp/RUN-000015-evidence/extended-replay.py"
+  ],
+  "exit": 0,
+  "started_at": "2026-10-21T20:54:53.353114+00:00",
+  "seconds": 0.26247279200470075,
+  "stdout_sha256": "3418822a4a928ccdcc1073e083ee6d722320b6d9fad11a21ef1991fa9323d589",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,17 @@
+{
+  "claim": "synthetic fixture namespace only; no conflicting preexisting path",
+  "external_effects": "none",
+  "git_writes": 0,
+  "native_identity": "/root/coordinator_behavior",
+  "native_interrupts": 0,
+  "observed_at": "2026-10-21T20:43:23.837750+00:00",
+  "paid_or_network_operations": 0,
+  "retries": 0,
+  "run": "RUN-000010",
+  "scope": "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/** only",
+  "status": "completed fixture checks; live responses in HANDOFF.md",
+  "target": "organization",
+  "task": "TASK-000013",
+  "tokens_cost_model_actual": "unknown",
+  "worker_spawns": 0
+}

@@ -1,0 +1,18 @@
+{
+  "args": [
+    "python3",
+    "-B",
+    "factory/dora/calculator.py",
+    "factory/dora/fixtures/events.json",
+    "factory/dora/fixtures/classification.json",
+    "--start",
+    "2026-01-02T00:00:00Z",
+    "--end",
+    "2026-01-03T00:00:00Z"
+  ],
+  "exit": 0,
+  "started_at": "2026-10-21T20:54:54.012504+00:00",
+  "seconds": 0.08783645799849182,
+  "stdout_sha256": "ee1da12b8dc22f8fede894d61b60d2cd6689c3f065df874b6afffe08d141ae36",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

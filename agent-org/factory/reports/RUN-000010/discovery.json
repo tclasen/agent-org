@@ -1,0 +1,294 @@
+{
+  "after_add": [
+    {
+      "capabilities": "Design interfaces, adapters, system boundaries and technical decisions within an admitted task. Prefer existing native facilities and small deterministic utilities.",
+      "context_sha256": "e97baeecb2c6f73ec96a0eb4523232fa9c5c14e20a734ca45e94a9944db71412",
+      "directory": "architect",
+      "id": "AGENT-000005",
+      "instructions_sha256": "60a6678d167a46c8ab300135385da61abc4d30bd87e12f49d4b75a7d02b4e1b2",
+      "status": "active"
+    },
+    {
+      "capabilities": "Own organization governance, capability lifecycle and evidence-qualified recursive improvement under operator authority. Independently approve qualified organization changes autonomously; routine organization maintenance does not require another operator gate.",
+      "context_sha256": "c019cf11a44368aea564a8da0649ae47d9d23a9693dc00cbc709c81d95483d74",
+      "directory": "chief-of-staff",
+      "id": "AGENT-000002",
+      "instructions_sha256": "260a434eea486f4a2277bab89962b166fddc27028c4b4c82c7d591c4991e20d1",
+      "status": "active"
+    },
+    {
+      "capabilities": "Own operator intent, task admission, routing, resource accounting and final reconciliation. Classify each request before registration as organization, project, cross_boundary, clarification_only or status_or_information_only. Ask only when materially ambiguous target or missing authority blocks dependent work; ordinary clarification/status does not authorize mutation.",
+      "context_sha256": "caf4420165b908584458f20a1172850a140fe919230909bcf1f844f7a4aa36b8",
+      "directory": "coordinator",
+      "id": "AGENT-000001",
+      "instructions_sha256": "e8164f163414c6ec1151123b36bdeb39da8cda3224d29e6e5c9e263569cd517c",
+      "status": "active"
+    },
+    {
+      "capabilities": "Implement and test only the approved task deliverable. Inspect existing conventions and user changes before editing; use the smallest complete change that meets accepted criteria.",
+      "context_sha256": "e5c633582db14de50c3fb8a7b629114cce7d47814b094c1829752ca4bab21585",
+      "directory": "developer",
+      "id": "AGENT-000006",
+      "instructions_sha256": "659dc3adf83c3737fb16eac3fc8a381ca3270acbaccf64add78ea83d82da4b38",
+      "status": "active"
+    },
+    {
+      "capabilities": "Carry out bounded operational, document, business or tool actions specified by the task and plan. Confirm named resources, granted effects and rollback before each consequential operation.",
+      "context_sha256": "6a5ebc6136bf1aea932790cba573f6e980e985421e9b374838d40466f2a8b228",
+      "directory": "executor",
+      "id": "AGENT-000007",
+      "instructions_sha256": "9b5016594d3955f1770adf09913303d3b4fe9388cff7a1da2afbe754a6ff1b77",
+      "status": "active"
+    },
+    {
+      "capabilities": "Convert admitted intent and authoritative requirements into a scoped executable plan with dependencies and observable acceptance. Default to inspection and assigned planning records.",
+      "context_sha256": "270c1ed36cf59ec385cf71769ffa468fc4d191926b021d38dcb5d93aa40ff7e2",
+      "directory": "planner",
+      "id": "AGENT-000003",
+      "instructions_sha256": "690edfad4ea066e422fa7bcc540f8b9ddba911e2fa6ff5dc60eac547ff0006be",
+      "status": "active"
+    },
+    {
+      "capabilities": "Analyze only synthetic title-fixture observations; no production authority.",
+      "context_sha256": "03e505cb8d19338e9cbb31f123a7fffa6e6b7aa8f1775126b28b9723863cf429",
+      "directory": "qualification-specialist",
+      "id": "FIXTURE-SPECIALIST",
+      "instructions_sha256": "fce340ce4ebd6aa7fdaa9b9b40a175d7a690ad2d75f64b5e05a991b0a1e23ca1",
+      "status": "active"
+    },
+    {
+      "capabilities": "Produce bounded source-grounded research, analysis and writing artifacts. Default to read-only source inspection plus explicitly assigned evidence/document paths.",
+      "context_sha256": "df12bcdaed0259a0524d31eb6dba2d688d4b8d00899cb722c1c945f1d92038ca",
+      "directory": "researcher",
+      "id": "AGENT-000004",
+      "instructions_sha256": "2997e72b69b4f9dbeb460f990446c7b7cae7d15a14ba764a35547627d3d15e83",
+      "status": "active"
+    },
+    {
+      "capabilities": "Independently verify a pinned candidate against accepted requirements, scope and prior approved evaluation rules. Start fresh; implementation authors cannot review or approve their own candidate. Default to inspection and assigned review evidence paths.",
+      "context_sha256": "59009f5a84cb12e6dd9239159fcb7ec174fb5a10231f0afe561eb81cc623033c",
+      "directory": "reviewer",
+      "id": "AGENT-000008",
+      "instructions_sha256": "0606a090fb90d3f35284e6c942804ac8332d6640d6042747a101b86f01ed74dc",
+      "status": "active"
+    }
+  ],
+  "after_retire": [
+    {
+      "capabilities": "Design interfaces, adapters, system boundaries and technical decisions within an admitted task. Prefer existing native facilities and small deterministic utilities.",
+      "context_sha256": "e97baeecb2c6f73ec96a0eb4523232fa9c5c14e20a734ca45e94a9944db71412",
+      "directory": "architect",
+      "id": "AGENT-000005",
+      "instructions_sha256": "60a6678d167a46c8ab300135385da61abc4d30bd87e12f49d4b75a7d02b4e1b2",
+      "status": "active"
+    },
+    {
+      "capabilities": "Own organization governance, capability lifecycle and evidence-qualified recursive improvement under operator authority. Independently approve qualified organization changes autonomously; routine organization maintenance does not require another operator gate.",
+      "context_sha256": "c019cf11a44368aea564a8da0649ae47d9d23a9693dc00cbc709c81d95483d74",
+      "directory": "chief-of-staff",
+      "id": "AGENT-000002",
+      "instructions_sha256": "260a434eea486f4a2277bab89962b166fddc27028c4b4c82c7d591c4991e20d1",
+      "status": "active"
+    },
+    {
+      "capabilities": "Own operator intent, task admission, routing, resource accounting and final reconciliation. Classify each request before registration as organization, project, cross_boundary, clarification_only or status_or_information_only. Ask only when materially ambiguous target or missing authority blocks dependent work; ordinary clarification/status does not authorize mutation.",
+      "context_sha256": "caf4420165b908584458f20a1172850a140fe919230909bcf1f844f7a4aa36b8",
+      "directory": "coordinator",
+      "id": "AGENT-000001",
+      "instructions_sha256": "e8164f163414c6ec1151123b36bdeb39da8cda3224d29e6e5c9e263569cd517c",
+      "status": "active"
+    },
+    {
+      "capabilities": "Implement and test only the approved task deliverable. Inspect existing conventions and user changes before editing; use the smallest complete change that meets accepted criteria.",
+      "context_sha256": "e5c633582db14de50c3fb8a7b629114cce7d47814b094c1829752ca4bab21585",
+      "directory": "developer",
+      "id": "AGENT-000006",
+      "instructions_sha256": "659dc3adf83c3737fb16eac3fc8a381ca3270acbaccf64add78ea83d82da4b38",
+      "status": "active"
+    },
+    {
+      "capabilities": "Carry out bounded operational, document, business or tool actions specified by the task and plan. Confirm named resources, granted effects and rollback before each consequential operation.",
+      "context_sha256": "6a5ebc6136bf1aea932790cba573f6e980e985421e9b374838d40466f2a8b228",
+      "directory": "executor",
+      "id": "AGENT-000007",
+      "instructions_sha256": "9b5016594d3955f1770adf09913303d3b4fe9388cff7a1da2afbe754a6ff1b77",
+      "status": "active"
+    },
+    {
+      "capabilities": "Convert admitted intent and authoritative requirements into a scoped executable plan with dependencies and observable acceptance. Default to inspection and assigned planning records.",
+      "context_sha256": "270c1ed36cf59ec385cf71769ffa468fc4d191926b021d38dcb5d93aa40ff7e2",
+      "directory": "planner",
+      "id": "AGENT-000003",
+      "instructions_sha256": "690edfad4ea066e422fa7bcc540f8b9ddba911e2fa6ff5dc60eac547ff0006be",
+      "status": "active"
+    },
+    {
+      "capabilities": "Analyze only synthetic title-fixture observations; no production authority.",
+      "context_sha256": "03e505cb8d19338e9cbb31f123a7fffa6e6b7aa8f1775126b28b9723863cf429",
+      "directory": "qualification-specialist",
+      "id": "FIXTURE-SPECIALIST",
+      "instructions_sha256": "a5322c71884ac13337a279f58124780422bac6a69a12aa1c00b62f3d0ab3a7e8",
+      "status": "retired"
+    },
+    {
+      "capabilities": "Produce bounded source-grounded research, analysis and writing artifacts. Default to read-only source inspection plus explicitly assigned evidence/document paths.",
+      "context_sha256": "df12bcdaed0259a0524d31eb6dba2d688d4b8d00899cb722c1c945f1d92038ca",
+      "directory": "researcher",
+      "id": "AGENT-000004",
+      "instructions_sha256": "2997e72b69b4f9dbeb460f990446c7b7cae7d15a14ba764a35547627d3d15e83",
+      "status": "active"
+    },
+    {
+      "capabilities": "Independently verify a pinned candidate against accepted requirements, scope and prior approved evaluation rules. Start fresh; implementation authors cannot review or approve their own candidate. Default to inspection and assigned review evidence paths.",
+      "context_sha256": "59009f5a84cb12e6dd9239159fcb7ec174fb5a10231f0afe561eb81cc623033c",
+      "directory": "reviewer",
+      "id": "AGENT-000008",
+      "instructions_sha256": "0606a090fb90d3f35284e6c942804ac8332d6640d6042747a101b86f01ed74dc",
+      "status": "active"
+    }
+  ],
+  "baseline": [
+    {
+      "capabilities": "Design interfaces, adapters, system boundaries and technical decisions within an admitted task. Prefer existing native facilities and small deterministic utilities.",
+      "context_sha256": "e97baeecb2c6f73ec96a0eb4523232fa9c5c14e20a734ca45e94a9944db71412",
+      "directory": "architect",
+      "id": "AGENT-000005",
+      "instructions_sha256": "60a6678d167a46c8ab300135385da61abc4d30bd87e12f49d4b75a7d02b4e1b2",
+      "status": "active"
+    },
+    {
+      "capabilities": "Own organization governance, capability lifecycle and evidence-qualified recursive improvement under operator authority. Independently approve qualified organization changes autonomously; routine organization maintenance does not require another operator gate.",
+      "context_sha256": "c019cf11a44368aea564a8da0649ae47d9d23a9693dc00cbc709c81d95483d74",
+      "directory": "chief-of-staff",
+      "id": "AGENT-000002",
+      "instructions_sha256": "260a434eea486f4a2277bab89962b166fddc27028c4b4c82c7d591c4991e20d1",
+      "status": "active"
+    },
+    {
+      "capabilities": "Own operator intent, task admission, routing, resource accounting and final reconciliation. Classify each request before registration as organization, project, cross_boundary, clarification_only or status_or_information_only. Ask only when materially ambiguous target or missing authority blocks dependent work; ordinary clarification/status does not authorize mutation.",
+      "context_sha256": "caf4420165b908584458f20a1172850a140fe919230909bcf1f844f7a4aa36b8",
+      "directory": "coordinator",
+      "id": "AGENT-000001",
+      "instructions_sha256": "e8164f163414c6ec1151123b36bdeb39da8cda3224d29e6e5c9e263569cd517c",
+      "status": "active"
+    },
+    {
+      "capabilities": "Implement and test only the approved task deliverable. Inspect existing conventions and user changes before editing; use the smallest complete change that meets accepted criteria.",
+      "context_sha256": "e5c633582db14de50c3fb8a7b629114cce7d47814b094c1829752ca4bab21585",
+      "directory": "developer",
+      "id": "AGENT-000006",
+      "instructions_sha256": "659dc3adf83c3737fb16eac3fc8a381ca3270acbaccf64add78ea83d82da4b38",
+      "status": "active"
+    },
+    {
+      "capabilities": "Carry out bounded operational, document, business or tool actions specified by the task and plan. Confirm named resources, granted effects and rollback before each consequential operation.",
+      "context_sha256": "6a5ebc6136bf1aea932790cba573f6e980e985421e9b374838d40466f2a8b228",
+      "directory": "executor",
+      "id": "AGENT-000007",
+      "instructions_sha256": "9b5016594d3955f1770adf09913303d3b4fe9388cff7a1da2afbe754a6ff1b77",
+      "status": "active"
+    },
+    {
+      "capabilities": "Convert admitted intent and authoritative requirements into a scoped executable plan with dependencies and observable acceptance. Default to inspection and assigned planning records.",
+      "context_sha256": "270c1ed36cf59ec385cf71769ffa468fc4d191926b021d38dcb5d93aa40ff7e2",
+      "directory": "planner",
+      "id": "AGENT-000003",
+      "instructions_sha256": "690edfad4ea066e422fa7bcc540f8b9ddba911e2fa6ff5dc60eac547ff0006be",
+      "status": "active"
+    },
+    {
+      "capabilities": "Produce bounded source-grounded research, analysis and writing artifacts. Default to read-only source inspection plus explicitly assigned evidence/document paths.",
+      "context_sha256": "df12bcdaed0259a0524d31eb6dba2d688d4b8d00899cb722c1c945f1d92038ca",
+      "directory": "researcher",
+      "id": "AGENT-000004",
+      "instructions_sha256": "2997e72b69b4f9dbeb460f990446c7b7cae7d15a14ba764a35547627d3d15e83",
+      "status": "active"
+    },
+    {
+      "capabilities": "Independently verify a pinned candidate against accepted requirements, scope and prior approved evaluation rules. Start fresh; implementation authors cannot review or approve their own candidate. Default to inspection and assigned review evidence paths.",
+      "context_sha256": "59009f5a84cb12e6dd9239159fcb7ec174fb5a10231f0afe561eb81cc623033c",
+      "directory": "reviewer",
+      "id": "AGENT-000008",
+      "instructions_sha256": "0606a090fb90d3f35284e6c942804ac8332d6640d6042747a101b86f01ed74dc",
+      "status": "active"
+    }
+  ],
+  "limits": "Coordinator read selected fixture revision; not a fresh specialist execution or governed live role lifecycle.",
+  "native_specialist_spawned": false,
+  "observed_at": "2026-10-21T20:43:23.837750+00:00",
+  "real": [
+    {
+      "capabilities": "Design interfaces, adapters, system boundaries and technical decisions within an admitted task. Prefer existing native facilities and small deterministic utilities.",
+      "context_sha256": "e97baeecb2c6f73ec96a0eb4523232fa9c5c14e20a734ca45e94a9944db71412",
+      "directory": "architect",
+      "id": "AGENT-000005",
+      "instructions_sha256": "60a6678d167a46c8ab300135385da61abc4d30bd87e12f49d4b75a7d02b4e1b2",
+      "status": "active"
+    },
+    {
+      "capabilities": "Own organization governance, capability lifecycle and evidence-qualified recursive improvement under operator authority. Independently approve qualified organization changes autonomously; routine organization maintenance does not require another operator gate.",
+      "context_sha256": "c019cf11a44368aea564a8da0649ae47d9d23a9693dc00cbc709c81d95483d74",
+      "directory": "chief-of-staff",
+      "id": "AGENT-000002",
+      "instructions_sha256": "260a434eea486f4a2277bab89962b166fddc27028c4b4c82c7d591c4991e20d1",
+      "status": "active"
+    },
+    {
+      "capabilities": "Own operator intent, task admission, routing, resource accounting and final reconciliation. Classify each request before registration as organization, project, cross_boundary, clarification_only or status_or_information_only. Ask only when materially ambiguous target or missing authority blocks dependent work; ordinary clarification/status does not authorize mutation.",
+      "context_sha256": "caf4420165b908584458f20a1172850a140fe919230909bcf1f844f7a4aa36b8",
+      "directory": "coordinator",
+      "id": "AGENT-000001",
+      "instructions_sha256": "e8164f163414c6ec1151123b36bdeb39da8cda3224d29e6e5c9e263569cd517c",
+      "status": "active"
+    },
+    {
+      "capabilities": "Implement and test only the approved task deliverable. Inspect existing conventions and user changes before editing; use the smallest complete change that meets accepted criteria.",
+      "context_sha256": "e5c633582db14de50c3fb8a7b629114cce7d47814b094c1829752ca4bab21585",
+      "directory": "developer",
+      "id": "AGENT-000006",
+      "instructions_sha256": "659dc3adf83c3737fb16eac3fc8a381ca3270acbaccf64add78ea83d82da4b38",
+      "status": "active"
+    },
+    {
+      "capabilities": "Carry out bounded operational, document, business or tool actions specified by the task and plan. Confirm named resources, granted effects and rollback before each consequential operation.",
+      "context_sha256": "6a5ebc6136bf1aea932790cba573f6e980e985421e9b374838d40466f2a8b228",
+      "directory": "executor",
+      "id": "AGENT-000007",
+      "instructions_sha256": "9b5016594d3955f1770adf09913303d3b4fe9388cff7a1da2afbe754a6ff1b77",
+      "status": "active"
+    },
+    {
+      "capabilities": "Convert admitted intent and authoritative requirements into a scoped executable plan with dependencies and observable acceptance. Default to inspection and assigned planning records.",
+      "context_sha256": "270c1ed36cf59ec385cf71769ffa468fc4d191926b021d38dcb5d93aa40ff7e2",
+      "directory": "planner",
+      "id": "AGENT-000003",
+      "instructions_sha256": "690edfad4ea066e422fa7bcc540f8b9ddba911e2fa6ff5dc60eac547ff0006be",
+      "status": "active"
+    },
+    {
+      "capabilities": "Produce bounded source-grounded research, analysis and writing artifacts. Default to read-only source inspection plus explicitly assigned evidence/document paths.",
+      "context_sha256": "df12bcdaed0259a0524d31eb6dba2d688d4b8d00899cb722c1c945f1d92038ca",
+      "directory": "researcher",
+      "id": "AGENT-000004",
+      "instructions_sha256": "2997e72b69b4f9dbeb460f990446c7b7cae7d15a14ba764a35547627d3d15e83",
+      "status": "active"
+    },
+    {
+      "capabilities": "Independently verify a pinned candidate against accepted requirements, scope and prior approved evaluation rules. Start fresh; implementation authors cannot review or approve their own candidate. Default to inspection and assigned review evidence paths.",
+      "context_sha256": "59009f5a84cb12e6dd9239159fcb7ec174fb5a10231f0afe561eb81cc623033c",
+      "directory": "reviewer",
+      "id": "AGENT-000008",
+      "instructions_sha256": "0606a090fb90d3f35284e6c942804ac8332d6640d6042747a101b86f01ed74dc",
+      "status": "active"
+    }
+  ],
+  "real_registry_reconciled": true,
+  "selected_revision_loaded": {
+    "context": "# Synthetic specialist context\n\nRevision: 1\nOnly the directory-based discovery qualification; no live task, spawn or project write.\n",
+    "instructions": "# Synthetic qualification specialist \u2014 not a live role\n\n- Agent ID: FIXTURE-SPECIALIST\n- Status: active\n- Capabilities: Analyze only synthetic title-fixture observations; no production authority.\n- Revision: 1\n- Authorized Scope: isolated behavior fixture only\n",
+    "sha256": {
+      "AGENTS.md": "fce340ce4ebd6aa7fdaa9b9b40a175d7a690ad2d75f64b5e05a991b0a1e23ca1",
+      "CONTEXT.md": "03e505cb8d19338e9cbb31f123a7fffa6e6b7aa8f1775126b28b9723863cf429"
+    }
+  }
+}

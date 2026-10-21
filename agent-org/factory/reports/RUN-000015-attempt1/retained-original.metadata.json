@@ -1,0 +1,11 @@
+{
+  "args": [
+    "python3",
+    "-B",
+    "/Users/Shared/agent-org/factory/reports/RUN-000011/adversarial.py"
+  ],
+  "exit": 0,
+  "at": "2026-10-21T20:48:58.563961+00:00",
+  "observations": 22,
+  "stdout_sha256": "bf110ef57c1ead78d5491511be2ee5542bd9099b9888669f11b2fc1c58df43ca"
+}

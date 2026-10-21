@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "factory/instrumentation/check.py",
+    "--root",
+    "."
+  ],
+  "started_at": "2026-10-21T20:43:46.901111+00:00",
+  "completed_at": "2026-10-21T20:43:47.021475+00:00",
+  "exit_code": 0,
+  "stdout_sha256": "7dd5ec912f32eaa514f09b2060ba3313e560c5498270aa92227b2e9f78fd05df",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,36 @@
+--- original
++++ candidate
+@@ -27,7 +27,7 @@
+         self.addCleanup(self.tmp.cleanup)
+         self.root = Path(self.tmp.name)
+ 
+-    def write(self, item, directory='tasks'):
++    def write(self, item, directory='tasks/organization'):
+         path = self.root / directory / item.path
+         path.parent.mkdir(parents=True, exist_ok=True)
+         path.write_text('\n'.join('- ' + k + ': ' + v for k, v in item.fields.items()) + '\n')
+@@ -35,7 +35,7 @@
+ 
+     def candidate(self):
+         self.write(grant(), 'approvals')
+-        self.write(record('REQ-000001'), 'requirements')
++        self.write(record('REQ-000001'), 'requirements/organization')
+         return self.write(record())
+ 
+     def test_valid_tree_reload_and_references_not_definitions(self):
+@@ -49,12 +49,12 @@
+ 
+     def test_missing_scope_duplicate_id_and_missing_definition(self):
+         self.candidate()
+-        other = self.root / 'tasks' / 'nested' / 'TASK-000001.md'
++        other = self.root / 'tasks' / 'project' / 'TASK-000001.md'
+         other.parent.mkdir()
+-        other.write_text((self.root / 'tasks/TASK-000001.md').read_text())
++        other.write_text((self.root / 'tasks/organization/TASK-000001.md').read_text())
+         self.assertTrue(any('duplicate ID' in e for e in validate_tree(self.root)['errors']))
+         other.unlink()
+-        target = self.root / 'tasks/TASK-000001.md'
++        target = self.root / 'tasks/organization/TASK-000001.md'
+         target.write_text('- ID: TASK-000001\n')
+         self.assertTrue(any('missing Authorized Scope' in e for e in validate_tree(self.root)['errors']))
+         target.write_text('# TASK-000001\n')

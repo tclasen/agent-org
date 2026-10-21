@@ -1,0 +1,25 @@
+{
+  "reviewer": "/root/correction_project_review",
+  "role": "reviewer",
+  "decision": "approve",
+  "approved_at": "2026-10-21T20:51:15.830753Z",
+  "plan_hash": "5451f7a33735a6df58f5427be8019df0dd11b67b426de496d43d50b79671e0ee",
+  "evidence_hash": "d36d8f7047f973a062bbd00f1ec0313014370b53ef2ef62ea7f187e5c308f152",
+  "candidate_hash": "5de7a770d571cbb23d35b48fb28f646c42e33ce69a5ce06283e43e55131bb5e4",
+  "candidate_head": "worktree-manifest:5de7a770d571cbb23d35b48fb28f646c42e33ce69a5ce06283e43e55131bb5e4",
+  "qualification_file_sha256": "f40ee9fc78bb9847d79513c723c72bc3c6a3cdf2dcba44c6097038c628bd5c40",
+  "review_record_sha256": "755ae1807decadfcaacb7e42232f43e3e592d9afbf7fa7f4bb276efa25e90925",
+  "basis": "Prior independent RUN-000012 bounded source/regression/project/boundary review and initial approved normative contract; exact derived input aligned; no evaluator adoption or promotion by reviewer",
+  "resource_interpretation": {
+    "active_seconds": "908 is whole elapsed seconds from20:35:14 registration to20:50:22.977806 evidence completion, including preparation; exact elapsed908.977806. This is a wall-clock accounting proxy, not measured CPU/token/cost. Review/approval after evidence completion remains cumulative and must be added by Coordinator.",
+    "storage_bytes": "368512 exactly equals retained RUN-000008 reports143113 + RUN-000012 reports182274 + EXP-000001 baseline43125 bytes at inspection. It is an evidence-subtree measure, not all filesystem bytes. Candidate45607 and preregistration/qualification/temporary review copies add modest overhead and do not approach100MiB.",
+    "attempts_depth": "One comparison candidate attempt and direct Coordinator-to-worker delegation depth1; distinct approvals/review executions do not reset cumulative elapsed budget. No known retry or nested delegation in this experiment."
+  },
+  "conditions": [
+    "Approval binds exactly the evidence/plan/candidate hashes above; no evidence fields may change under this approval.",
+    "Distinct Chief of Staff approval and scoped PR/head verification remain required.",
+    "Guardrail true values apply only to this bounded four-file repair and previously disclosed coverage.",
+    "Rejected executable gate1.0.0 is supplemental only; this approval neither adopts nor promotes it.",
+    "All prior review limitations and independent project/nonsoftware decisions remain separate."
+  ]
+}

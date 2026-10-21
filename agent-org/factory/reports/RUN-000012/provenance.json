@@ -1,0 +1,148 @@
+{
+  "authority_pins": {
+    "authority": "7f49500a605e59c2e0367db6ee78384a37965f91be977cbda650a72c5b6b62f3",
+    "normative_contract": "9ac84a1c3ed82d3986b20067b5f3e83b2a82f0b67ce13ff5be6c5eb8593571b6",
+    "evaluator_code": "993eb4ebef688d603b68a28bcba1f0b4e83eb6c7909f2f8e56dbf49b676ace0b",
+    "common": "8c753fb410b3094f53c5e387c023adaf4c6e56f37e766a84959c3ab80a6e8fce",
+    "original_review": "7da8b4375489b5d137a2adc1006df44a8810083e4dcb05e689188d5dfe98f32d",
+    "amendment": "7b03e2b063c3a3778f29e7018f084d1988588d6c56f626b1a9ef82c1bc76002c"
+  },
+  "raw_run8_checks": {
+    "baseline": {
+      "stdout": [
+        [
+          "baseline.stdout.json",
+          "d7f5cbe37d2ec0cfe513230fe1e7974e8030ff7e4ec26b1def4f393051565b83",
+          true
+        ]
+      ],
+      "stderr": [
+        [
+          "baseline.stderr.txt",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          true
+        ]
+      ]
+    },
+    "candidate": {
+      "stdout": [
+        [
+          "candidate.stdout.json",
+          "b5d3ff40f68d103edb55f0ad2361cfcbec366fd1928a7e4e3972b7ab8a67c62e",
+          true
+        ]
+      ],
+      "stderr": [
+        [
+          "candidate.stderr.txt",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          true
+        ]
+      ]
+    },
+    "suite": {
+      "stdout": [
+        [
+          "suite.stdout.txt",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          true
+        ]
+      ],
+      "stderr": [
+        [
+          "suite.stderr.txt",
+          "71200160285223175f367a9ab6859857bf17c9c2fbac8b36de4f98d0d9a60189",
+          true
+        ]
+      ]
+    },
+    "records_cli": {
+      "stdout": [
+        [
+          "records_cli.stdout.txt",
+          "7dd5ec912f32eaa514f09b2060ba3313e560c5498270aa92227b2e9f78fd05df",
+          true
+        ]
+      ],
+      "stderr": [
+        [
+          "records_cli.stderr.txt",
+          "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          true
+        ]
+      ]
+    }
+  },
+  "unchanged_role_policy_pins": [
+    "agent-org/AGENTS.md",
+    "agent-org/agents/INDEX.md",
+    "agent-org/agents/architect/AGENTS.md",
+    "agent-org/agents/architect/CONTEXT.md",
+    "agent-org/agents/chief-of-staff/AGENTS.md",
+    "agent-org/agents/chief-of-staff/CONTEXT.md",
+    "agent-org/agents/coordinator/AGENTS.md",
+    "agent-org/agents/coordinator/CONTEXT.md",
+    "agent-org/agents/developer/AGENTS.md",
+    "agent-org/agents/developer/CONTEXT.md",
+    "agent-org/agents/executor/AGENTS.md",
+    "agent-org/agents/executor/CONTEXT.md",
+    "agent-org/agents/planner/AGENTS.md",
+    "agent-org/agents/planner/CONTEXT.md",
+    "agent-org/agents/researcher/AGENTS.md",
+    "agent-org/agents/researcher/CONTEXT.md",
+    "agent-org/agents/reviewer/AGENTS.md",
+    "agent-org/agents/reviewer/CONTEXT.md",
+    "agent-org/policies/ACCEPTANCE.md",
+    "agent-org/policies/APPROVALS.md",
+    "agent-org/policies/AUTHORITY.md",
+    "agent-org/policies/CHANGE_CONTROL.md",
+    "agent-org/policies/CROSS_BOUNDARY_CHANGES.md",
+    "agent-org/policies/DATA_HANDLING.md",
+    "agent-org/policies/GIT.md",
+    "agent-org/policies/INDEX.md",
+    "agent-org/policies/MEASUREMENT_INDEPENDENCE.md",
+    "agent-org/policies/MODEL_SELECTION.md",
+    "agent-org/policies/ORGANIZATION_CHANGES.md",
+    "agent-org/policies/PERMISSIONS.md",
+    "agent-org/policies/PLANNING.md",
+    "agent-org/policies/PROJECT_CHANGES.md",
+    "agent-org/policies/RESOURCE_BUDGETS.md",
+    "agent-org/policies/ROUTING.md",
+    "agent-org/policies/SCOPE_BOUNDARIES.md",
+    "agent-org/policies/SELF_IMPROVEMENT.md"
+  ],
+  "seven_original_guardrails": {
+    "blocked_by_ready_unaccepted": {
+      "baseline": true,
+      "candidate": true
+    },
+    "requires_ready_unaccepted": {
+      "baseline": true,
+      "candidate": true
+    },
+    "missing_review_subject": {
+      "baseline": true,
+      "candidate": true
+    },
+    "parent_selflink": {
+      "baseline": true,
+      "candidate": true
+    },
+    "parent_cycle": {
+      "baseline": true,
+      "candidate": true
+    },
+    "blocked_by_cycle": {
+      "baseline": true,
+      "candidate": true
+    },
+    "requires_cycle": {
+      "baseline": true,
+      "candidate": true
+    }
+  },
+  "current_head": "a9d57b9ecfa9d2324ece9c9a4ce1eb9195fc2465",
+  "current_tree": "4b825dc642cb6eb9a060e54bf8d69288fbee4904",
+  "git_tracked_changes": "",
+  "staged_changes": ""
+}

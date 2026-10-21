@@ -1,0 +1,15 @@
+{
+  "observed_at": "2026-10-21T20:48:44.179059+00:00",
+  "candidate_files": {
+    "factory/instrumentation/records.py": "e4bc284cececd7dcb02733eac5edf6a23209ba0b898cd17397facdcc36a35f08",
+    "factory/tests/test_validator_regressions.py": "dd7e110de12d8d92cd8b77efeef614bc317800e69634cf444b0c689df4f9205f",
+    "factory/tests/test_records.py": "d82018e58d0b22f865f455a27fb905d598d130b701710a8f7f6256253d8e2db9",
+    "shared/WORK_GRAPH.md": "cdd27373777e73ce61f06520ac5d078c234fc77ab8e20cbd2282024e8d32219f"
+  },
+  "project_files": {
+    "factory/artifacts/installation/projects/alpha/title.py": "9105cd8a84001780c17b72876902966cde5656912c00c2c0e440546a0b92768f",
+    "factory/artifacts/installation/projects/alpha/test_title.py": "cdbc00be90c2ee47764296dea42c7968b311cf9d677a6583b30926bf585651db",
+    "factory/artifacts/installation/projects/beta/sentinel.md": "c5fb8ea1def0cd7b39caffa7766393697686e5d12c89323e155f9bbfc2af4d7e"
+  },
+  "frozen_unchanged": true
+}

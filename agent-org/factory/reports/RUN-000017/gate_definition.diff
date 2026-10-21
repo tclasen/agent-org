@@ -1,0 +1,20 @@
+--- baselines/gate-1.0.0/DEFINITION.md
++++ quality-gates/DEFINITION.md
+@@ -1,4 +1,4 @@
+-# Improvement evidence gate 1.0.0
++# Improvement evidence gate 1.0.1
+ 
+ Task TASK-000004; REQ-000031, REQ-000032, REQ-000035, REQ-000036; approved Domain S/V. `improvement.py` validates evidence and returns pass, reject, or inconclusive. It does not implement an agent runtime, permission sandbox, approval issuer, PR creation, merge, or rollback executor. Shared writable files and source references do not authenticate evidence; independent review and a trusted durable context are still required.
+ 
+@@ -35,3 +35,11 @@
+ Evaluator/promotion changes require changes_evaluator true, prior_evaluator_hash, a context-pinned adversarial_fixtures_hash, and successful dual_version_replay. Execute the retained prior evaluator and match its source hash to the approved context; candidate code cannot approve its adoption. Keep the proposed evaluator a separate artifact until accepted. Missing recursive evidence is inconclusive; self-validation or altered prior fixtures reject.
+ 
+ `immutable_versions(existing_version_to_digest, proposed_version_to_content)` rejects semantic-version reuse with changed contents. Preserve that registry and previous artifacts externally. New evaluator semantics require a new version and their own prior-rule evaluation; versions and histories are not rewritten. S-01–S-10 named synthetic tests cover the decision logic. An actual harmless correction, fresh agents, PR promotion, host checks and actual rollback acceptance are separate integration evidence.
++
++## Version 1.0.1 correction (APP-000004)
++
++Retained 1.0.0 source, fixtures and the original experiment remain under baselines and reports. The prior normative contract remains the approval authority. This candidate does not adopt itself; synthetic source substitutions exercise behavior only.
++
++Required text fields and content pins must be actual nonempty strings, compared exactly without normalization. Required booleans, including changes_evaluator and recursive dual_version_replay, must be JSON booleans; successful replay is exactly true. Objects, arrays and numeric counters are validated before use. Missing data remains inconclusive; malformed contract types reject. Repair false baseline_pass remains a required valid boolean.
++
++Both outcome and efficiency claims require finite numeric attempt values and explicit passed/failed/blocked statuses. Unknown or malformed attempt observations cannot establish benefit. The total supplied baseline and candidate attempt record count must equal usage.attempts; observable attempts also consume the trusted limit. Failed or retried efficiency costs remain included. Usage may not conceal supplied records; uninstrumented omissions remain outside the tool's visibility. Checkpoint reporting uses prior_consumed_seconds plus current active_seconds against 80% of the same cumulative allocation.

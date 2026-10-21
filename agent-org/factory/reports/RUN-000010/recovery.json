@@ -1,0 +1,42 @@
+{
+  "artifacts": [
+    {
+      "expected_sha256": "9105cd8a84001780c17b72876902966cde5656912c00c2c0e440546a0b92768f",
+      "match": true,
+      "observed_sha256": "9105cd8a84001780c17b72876902966cde5656912c00c2c0e440546a0b92768f",
+      "path": "/Users/Shared/agent-org/factory/artifacts/installation/projects/alpha/title.py"
+    },
+    {
+      "expected_sha256": "cdbc00be90c2ee47764296dea42c7968b311cf9d677a6583b30926bf585651db",
+      "match": true,
+      "observed_sha256": "cdbc00be90c2ee47764296dea42c7968b311cf9d677a6583b30926bf585651db",
+      "path": "/Users/Shared/agent-org/factory/artifacts/installation/projects/alpha/test_title.py"
+    },
+    {
+      "expected_sha256": "c5fb8ea1def0cd7b39caffa7766393697686e5d12c89323e155f9bbfc2af4d7e",
+      "match": true,
+      "observed_sha256": "c5fb8ea1def0cd7b39caffa7766393697686e5d12c89323e155f9bbfc2af4d7e",
+      "path": "/Users/Shared/agent-org/factory/artifacts/installation/projects/beta/sentinel.md"
+    }
+  ],
+  "git_observations": {
+    "alpha": " M title.py; ?? __pycache__/",
+    "beta": "clean",
+    "root": "untracked .github/, .gitignore, agent-org/; no tracked diff or staged diff",
+    "root_head": "a9d57b9ecfa9d2324ece9c9a4ce1eb9195fc2465"
+  },
+  "native_owner": "/root/project_trial not in observed current native tree; lifetime and other sessions unknown",
+  "observed_at": "2026-10-21T20:43:23.837750+00:00",
+  "prior_results": "Handoff reports pre-fix exit1 (2/3 failed), post-fix exit0 (3/3 passed). Not independently rerun here.",
+  "probe_failures": [
+    "ls absent behavior directories exit1, expected before creation",
+    "initial sentinel.txt hash lookup MISSING, corrected to discovered sentinel.md; no fixture altered",
+    "rg agent-org/projects absent directory exit2; canonical requirement located separately"
+  ],
+  "resume": "No replay. Parent Coordinator may register a fresh independent review under APP-000001 after claim and boundary reconciliation; this worker may only report.",
+  "run": "RUN-000006",
+  "source": "durable task and run handoffs",
+  "task": "TASK-000010",
+  "task_state": "in_review",
+  "tests_rerun": false
+}

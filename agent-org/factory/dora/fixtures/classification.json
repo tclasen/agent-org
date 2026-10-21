@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "observation_kind": "synthetic",
+  "services": {
+    "service-a": {
+      "project_id": "project-a",
+      "environments": {
+        "prod": "production",
+        "stage": "staging"
+      },
+      "production_threshold": 1.0,
+      "stabilization_seconds": 1800,
+      "health_criteria": "all-required-probes-green"
+    }
+  }
+}

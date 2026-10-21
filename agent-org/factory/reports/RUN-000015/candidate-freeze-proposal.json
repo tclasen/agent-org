@@ -1,0 +1,228 @@
+{
+  "at": "2026-10-21T20:51:18.658290+00:00",
+  "comparison_or_full_suite_executed": false,
+  "fixture_substitutions": {
+    "factory/benchmarks/efficiency.json": [
+      {
+        "new": [
+          {
+            "agent_id": "reviewer-a",
+            "approved": true,
+            "approved_at": "2026-01-01T00:03:00Z",
+            "candidate_hash": "3f26accb254a243aca4e0ef539ce18e48f73a31a15f7e1057bf8dffc11977fbf",
+            "candidate_head": "head-a",
+            "evaluator_hash": "bd68442fa8e66d3f87299dfdcf4c71f32483a837046e0067cdb624558de89427",
+            "evidence_hash": "52c5b80f9a2a4dd9cb611ac4a81cfd846a867701818e5b5816c2d6b578d6e884",
+            "fresh_context": true,
+            "plan_hash": "5e80a07d8703bcc86c4882f5341abd945b5acc11d4355f409013bcd5b7c6037a",
+            "role": "reviewer"
+          },
+          {
+            "agent_id": "chief-a",
+            "approved": true,
+            "approved_at": "2026-01-01T00:03:00Z",
+            "candidate_hash": "3f26accb254a243aca4e0ef539ce18e48f73a31a15f7e1057bf8dffc11977fbf",
+            "candidate_head": "head-a",
+            "evaluator_hash": "bd68442fa8e66d3f87299dfdcf4c71f32483a837046e0067cdb624558de89427",
+            "evidence_hash": "52c5b80f9a2a4dd9cb611ac4a81cfd846a867701818e5b5816c2d6b578d6e884",
+            "fresh_context": true,
+            "plan_hash": "5e80a07d8703bcc86c4882f5341abd945b5acc11d4355f409013bcd5b7c6037a",
+            "role": "chief-of-staff"
+          }
+        ],
+        "old": [
+          {
+            "agent_id": "reviewer-a",
+            "approved": true,
+            "approved_at": "2026-01-01T00:03:00Z",
+            "candidate_hash": "3f26accb254a243aca4e0ef539ce18e48f73a31a15f7e1057bf8dffc11977fbf",
+            "candidate_head": "head-a",
+            "evaluator_hash": "bd68442fa8e66d3f87299dfdcf4c71f32483a837046e0067cdb624558de89427",
+            "evidence_hash": "e1c1e800c8550daf1339649fe9756390afe46acffaf7c01fb050281178a21051",
+            "fresh_context": true,
+            "plan_hash": "5b5a81f5a527ef94743b0d40a7d01b5dc2dd1e01659fd17423ff923952ba9cc2",
+            "role": "reviewer"
+          },
+          {
+            "agent_id": "chief-a",
+            "approved": true,
+            "approved_at": "2026-01-01T00:03:00Z",
+            "candidate_hash": "3f26accb254a243aca4e0ef539ce18e48f73a31a15f7e1057bf8dffc11977fbf",
+            "candidate_head": "head-a",
+            "evaluator_hash": "bd68442fa8e66d3f87299dfdcf4c71f32483a837046e0067cdb624558de89427",
+            "evidence_hash": "e1c1e800c8550daf1339649fe9756390afe46acffaf7c01fb050281178a21051",
+            "fresh_context": true,
+            "plan_hash": "5b5a81f5a527ef94743b0d40a7d01b5dc2dd1e01659fd17423ff923952ba9cc2",
+            "role": "chief-of-staff"
+          }
+        ],
+        "path": ".approvals"
+      },
+      {
+        "new": "2ba350786659ad93c499f44e7020c2143c701c30daaaab9399c3745c3cb90974",
+        "old": "993eb4ebef688d603b68a28bcba1f0b4e83eb6c7909f2f8e56dbf49b676ace0b",
+        "path": ".context.approved_evaluator_code_hash"
+      },
+      {
+        "new": "5e80a07d8703bcc86c4882f5341abd945b5acc11d4355f409013bcd5b7c6037a",
+        "old": "5b5a81f5a527ef94743b0d40a7d01b5dc2dd1e01659fd17423ff923952ba9cc2",
+        "path": ".context.registered_plan_hash"
+      },
+      {
+        "new": "5e80a07d8703bcc86c4882f5341abd945b5acc11d4355f409013bcd5b7c6037a",
+        "old": "5b5a81f5a527ef94743b0d40a7d01b5dc2dd1e01659fd17423ff923952ba9cc2",
+        "path": ".evidence.plan_hash"
+      },
+      {
+        "new": "2ba350786659ad93c499f44e7020c2143c701c30daaaab9399c3745c3cb90974",
+        "old": "993eb4ebef688d603b68a28bcba1f0b4e83eb6c7909f2f8e56dbf49b676ace0b",
+        "path": ".plan.evaluator_code_hash"
+      },
+      {
+        "new": "1.0.1",
+        "old": "1.0.0",
+        "path": ".plan.version"
+      }
+    ],
+    "factory/benchmarks/repair.json": [
+      {
+        "new": [
+          {
+            "agent_id": "reviewer-a",
+            "approved": true,
+            "approved_at": "2026-01-01T00:03:00Z",
+            "candidate_hash": "3f26accb254a243aca4e0ef539ce18e48f73a31a15f7e1057bf8dffc11977fbf",
+            "candidate_head": "head-a",
+            "evaluator_hash": "bd68442fa8e66d3f87299dfdcf4c71f32483a837046e0067cdb624558de89427",
+            "evidence_hash": "7d5a1259d2848b1427cfed43ad16e23e46088d5138e4ccf094af1d004e557998",
+            "fresh_context": true,
+            "plan_hash": "1f83d127e3199fd5e5b353fbfd1dc5f60768928478b33f28f5254e420bec2391",
+            "role": "reviewer"
+          },
+          {
+            "agent_id": "chief-a",
+            "approved": true,
+            "approved_at": "2026-01-01T00:03:00Z",
+            "candidate_hash": "3f26accb254a243aca4e0ef539ce18e48f73a31a15f7e1057bf8dffc11977fbf",
+            "candidate_head": "head-a",
+            "evaluator_hash": "bd68442fa8e66d3f87299dfdcf4c71f32483a837046e0067cdb624558de89427",
+            "evidence_hash": "7d5a1259d2848b1427cfed43ad16e23e46088d5138e4ccf094af1d004e557998",
+            "fresh_context": true,
+            "plan_hash": "1f83d127e3199fd5e5b353fbfd1dc5f60768928478b33f28f5254e420bec2391",
+            "role": "chief-of-staff"
+          }
+        ],
+        "old": [
+          {
+            "agent_id": "reviewer-a",
+            "approved": true,
+            "approved_at": "2026-01-01T00:03:00Z",
+            "candidate_hash": "3f26accb254a243aca4e0ef539ce18e48f73a31a15f7e1057bf8dffc11977fbf",
+            "candidate_head": "head-a",
+            "evaluator_hash": "bd68442fa8e66d3f87299dfdcf4c71f32483a837046e0067cdb624558de89427",
+            "evidence_hash": "54bb76d87fb962768b98932157b6ae409b8e672c46953926ec71ecf7e05f69b4",
+            "fresh_context": true,
+            "plan_hash": "3ce7ce6057546c30bbcbad2352285de5cbe1208b0e3aec4754206b45066c6a5e",
+            "role": "reviewer"
+          },
+          {
+            "agent_id": "chief-a",
+            "approved": true,
+            "approved_at": "2026-01-01T00:03:00Z",
+            "candidate_hash": "3f26accb254a243aca4e0ef539ce18e48f73a31a15f7e1057bf8dffc11977fbf",
+            "candidate_head": "head-a",
+            "evaluator_hash": "bd68442fa8e66d3f87299dfdcf4c71f32483a837046e0067cdb624558de89427",
+            "evidence_hash": "54bb76d87fb962768b98932157b6ae409b8e672c46953926ec71ecf7e05f69b4",
+            "fresh_context": true,
+            "plan_hash": "3ce7ce6057546c30bbcbad2352285de5cbe1208b0e3aec4754206b45066c6a5e",
+            "role": "chief-of-staff"
+          }
+        ],
+        "path": ".approvals"
+      },
+      {
+        "new": "2ba350786659ad93c499f44e7020c2143c701c30daaaab9399c3745c3cb90974",
+        "old": "993eb4ebef688d603b68a28bcba1f0b4e83eb6c7909f2f8e56dbf49b676ace0b",
+        "path": ".context.approved_evaluator_code_hash"
+      },
+      {
+        "new": "1f83d127e3199fd5e5b353fbfd1dc5f60768928478b33f28f5254e420bec2391",
+        "old": "3ce7ce6057546c30bbcbad2352285de5cbe1208b0e3aec4754206b45066c6a5e",
+        "path": ".context.registered_plan_hash"
+      },
+      {
+        "new": "1f83d127e3199fd5e5b353fbfd1dc5f60768928478b33f28f5254e420bec2391",
+        "old": "3ce7ce6057546c30bbcbad2352285de5cbe1208b0e3aec4754206b45066c6a5e",
+        "path": ".evidence.plan_hash"
+      },
+      {
+        "new": "2ba350786659ad93c499f44e7020c2143c701c30daaaab9399c3745c3cb90974",
+        "old": "993eb4ebef688d603b68a28bcba1f0b4e83eb6c7909f2f8e56dbf49b676ace0b",
+        "path": ".plan.evaluator_code_hash"
+      },
+      {
+        "new": "1.0.1",
+        "old": "1.0.0",
+        "path": ".plan.version"
+      }
+    ],
+    "factory/dora/fixtures/expected.json": [
+      {
+        "new": "1.0.1",
+        "old": "1.0.0",
+        "path": ".calculator_version"
+      },
+      {
+        "new": "57f5bf6c770385b2e621d884ae1d46600fc3b928d6a368182116f6256a0db05e",
+        "old": "9cddaa7f9500d9f8a34e1ffafa5f4ed28216b5e1e750e6977ec52feee5eaab66",
+        "path": ".definition_digest"
+      },
+      {
+        "new": "1.0.1",
+        "old": "1.0.0",
+        "path": ".definition_version"
+      }
+    ]
+  },
+  "inventory": {
+    "invalid_matrices": {
+      "attempt_value_status_both_claims": 26,
+      "changes_evaluator": 8,
+      "evidence_authority_plan_pins": 16,
+      "plan_context_approval_pin_types": 91,
+      "recursive_replay": 9,
+      "regression_pin": 8
+    },
+    "positive_controls": [
+      "repair/outcome/efficiency both versions",
+      "native ledger append/correction/sequence-asof/ingestion-asof",
+      "unchanged sparse arithmetic",
+      "exact true recursive replay",
+      "cumulative checkpoint boundary",
+      "DORA followup cutoff",
+      "empty production unavailable"
+    ],
+    "regression_tests": [
+      "test_retained_22_observations_and_controls",
+      "test_known_invalid_types_never_establish_benefit",
+      "test_required_pin_types_in_plan_context_and_approvals",
+      "test_recursive_exact_boolean_replay_and_positive_controls",
+      "test_attempt_accounting_unknown_rows_and_cumulative_checkpoint",
+      "test_dora_orphan_failure_rejected_causality_and_followup"
+    ],
+    "retained_cases": 22
+  },
+  "retained_protected_unchanged": true,
+  "sha256": {
+    "factory/benchmarks/efficiency.json": "408b93323d1a606fb344c332315dc14b10266a27a5efe60947f9b9655a0de234",
+    "factory/benchmarks/repair.json": "3f1296888de797df2240495c62878f7624765fc723fc39cce83ed4957c46f69c",
+    "factory/dora/DEFINITIONS.md": "3025b51e03da0a2b3777962c9e5cf780aa35b3536b2d89701ca26d175761a95e",
+    "factory/dora/calculator.py": "b458bca90e118fa9a381cea860202661191ea22cbb1cf752006eca3c988b0c7d",
+    "factory/dora/fixtures/expected.json": "ee1da12b8dc22f8fede894d61b60d2cd6689c3f065df874b6afffe08d141ae36",
+    "factory/quality-gates/DEFINITION.md": "2303a0dc02641378c2c85b6612c8edb4bece18f561e9791c0db35c2c1e3f3f88",
+    "factory/quality-gates/improvement.py": "2ba350786659ad93c499f44e7020c2143c701c30daaaab9399c3745c3cb90974",
+    "factory/tests/test_dora.py": "79ea4c81ccd73ab70dbf38a5372b48c5a6952852c5b58d2065d703223badd34a",
+    "factory/tests/test_gate_regressions.py": "9071471a5b572452082b8ff1f7cca89ad00ca21046cd6c65c5440d52b3ee503d",
+    "factory/tests/test_improvement.py": "b82bc722af21a9fc76442fad718cdc3cdde356b46ea6a1e35acd769d7cf7f517"
+  }
+}

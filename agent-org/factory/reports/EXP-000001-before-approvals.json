@@ -1,0 +1,17 @@
+{
+  "gate_version": "1.0.0",
+  "evaluator_code_hash": "993eb4ebef688d603b68a28bcba1f0b4e83eb6c7909f2f8e56dbf49b676ace0b",
+  "plan_hash": "5451f7a33735a6df58f5427be8019df0dd11b67b426de496d43d50b79671e0ee",
+  "evidence_hash": "d36d8f7047f973a062bbd00f1ec0313014370b53ef2ef62ea7f187e5c308f152",
+  "candidate_hash": "5de7a770d571cbb23d35b48fb28f646c42e33ce69a5ce06283e43e55131bb5e4",
+  "candidate_head": "worktree-manifest:5de7a770d571cbb23d35b48fb28f646c42e33ce69a5ce06283e43e55131bb5e4",
+  "decision": "inconclusive",
+  "reasons": [],
+  "measurement_gaps": [
+    "approval.chief-of-staff",
+    "approval.reviewer"
+  ],
+  "benefit": {},
+  "permission_effect": "none; pass only establishes eligibility for governed PR promotion",
+  "checkpoint_required": false
+}

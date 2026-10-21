@@ -1,0 +1,13 @@
+{
+  "git": true,
+  "repository_identity": "9d836d74d64d6340ff7c24df6d190fd7ef4b4c2b03d046781386e4f2945619a8",
+  "head": "a9d57b9ecfa9d2324ece9c9a4ce1eb9195fc2465",
+  "branch": "install/agent-organization",
+  "dirty": true,
+  "status_sha256": "0d2d29a13f22179f4a1fd03753f0e6ef7a58bb378c39968bf30f9d475807fb9f",
+  "remote_identity_sha256": "e0b3dd9580698974f6b299ece1109420ed0e6a5820a29cd37f3a8ba3f2dca001",
+  "ignored_and_nested_contents": "not observed; use explicit scoped snapshots",
+  "trusted_anchor": null,
+  "instruction_sha256": "f7991f50510b4f128676f0c329cf94406e04d004cb6741f9e9d9c671a9f1f394",
+  "policy_sha256": "082de2f8fec06bc6dc9027d2f8605ca61cda12a5f5c175d1c3019bd1035d1118"
+}

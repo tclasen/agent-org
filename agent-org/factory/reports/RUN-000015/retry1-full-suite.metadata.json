@@ -1,0 +1,19 @@
+{
+  "args": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "factory/tests",
+    "-p",
+    "test_*.py",
+    "-v"
+  ],
+  "exit": 0,
+  "started_at": "2026-10-21T20:54:25.200082+00:00",
+  "seconds": 2.8071132090117317,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "7c757b57b5458f65e2d98440539d4fc1cb043dc37083cb9463618281209d8f56"
+}

@@ -1,0 +1,621 @@
+{
+  "plan": {
+    "budget": {
+      "active_seconds": 3600,
+      "attempts": 100,
+      "depth": 3,
+      "storage_bytes": 1000000
+    },
+    "candidate_head": "head-a",
+    "changes_evaluator": false,
+    "claim": "efficiency",
+    "direction": "lower",
+    "expected_benefit": "fixed tested behavior",
+    "guardrails": [
+      "acceptance_traceability",
+      "critical_correctness",
+      "evidence_integrity",
+      "independent_review",
+      "project_correctness",
+      "required_tests",
+      "scope_authority",
+      "security"
+    ],
+    "hypothesis": "Repair retained behavior with no regression",
+    "implementer": "implementer-a",
+    "registered_at": "2026-01-01T00:00:00Z",
+    "rollback": {
+      "conditions": [
+        "any hard regression",
+        "post-promotion evidence failure"
+      ],
+      "known_good_hash": "41815864cfbb6ea9538456ff373cd5f3292fa6f0d4b3be305b98c1925f5b8100",
+      "reconcile_active_runs": true,
+      "revert_pr_required": true,
+      "stop_new_work": true
+    },
+    "scope": "organization",
+    "stopping_rule": {
+      "bootstrap_samples": 1000,
+      "case_ids": [
+        "case-0",
+        "case-1",
+        "case-2",
+        "case-3",
+        "case-4",
+        "case-5",
+        "case-6",
+        "case-7",
+        "case-8",
+        "case-9",
+        "case-10",
+        "case-11",
+        "case-12",
+        "case-13",
+        "case-14",
+        "case-15",
+        "case-16",
+        "case-17",
+        "case-18",
+        "case-19"
+      ],
+      "fixed_sample_size": 20,
+      "seed": 42
+    },
+    "target_metric": "latency_seconds",
+    "task_class": "synthetic qualification",
+    "version": "1.0.0",
+    "baseline_hash": "41815864cfbb6ea9538456ff373cd5f3292fa6f0d4b3be305b98c1925f5b8100",
+    "candidate_hash": "3f26accb254a243aca4e0ef539ce18e48f73a31a15f7e1057bf8dffc11977fbf",
+    "workload_hash": "1fbf0544c42068a552bc20946e13c4df4bc66ac1c3434c776afdc2350c2583ae",
+    "evaluator_hash": "bd68442fa8e66d3f87299dfdcf4c71f32483a837046e0067cdb624558de89427",
+    "criteria_hash": "32f0ac977eb16a1b6f1f1d59d893d923fc871d8e3930f516dbfb0c8f4478991c",
+    "evaluator_code_hash": "993eb4ebef688d603b68a28bcba1f0b4e83eb6c7909f2f8e56dbf49b676ace0b",
+    "hypothesis_hash": "ce712f8bf2d3767891234251b8d9877bd1cbf0f1890fd4c7c142397decf1b860"
+  },
+  "evidence": {
+    "started_at": "2026-01-01T00:01:00Z",
+    "completed_at": "2026-01-01T00:02:00Z",
+    "plan_hash": "5b5a81f5a527ef94743b0d40a7d01b5dc2dd1e01659fd17423ff923952ba9cc2",
+    "artifacts": {
+      "baseline": {
+        "instruction": "broken behavior"
+      },
+      "candidate": {
+        "instruction": "correct behavior"
+      },
+      "workload": {
+        "version": "1.0.0",
+        "cases": [
+          "case-0",
+          "case-1",
+          "case-2",
+          "case-3",
+          "case-4",
+          "case-5",
+          "case-6",
+          "case-7",
+          "case-8",
+          "case-9",
+          "case-10",
+          "case-11",
+          "case-12",
+          "case-13",
+          "case-14",
+          "case-15",
+          "case-16",
+          "case-17",
+          "case-18",
+          "case-19"
+        ]
+      },
+      "evaluator": {
+        "version": "1.0.0",
+        "rules": "prior approved pinned rules"
+      },
+      "criteria": {
+        "version": "1.0.0",
+        "confidence": 0.95,
+        "relative_efficiency_minimum": 0.05
+      }
+    },
+    "guardrails": {
+      "acceptance_traceability": true,
+      "evidence_integrity": true,
+      "scope_authority": true,
+      "project_correctness": true,
+      "independent_review": true,
+      "security": true,
+      "required_tests": true,
+      "critical_correctness": true
+    },
+    "usage": {
+      "active_seconds": 60,
+      "storage_bytes": 1000,
+      "depth": 1,
+      "attempts": 40
+    },
+    "authority_hash": "existing-authority",
+    "repair": {
+      "baseline_pass": false,
+      "candidate_pass": true,
+      "regression_pass": true,
+      "independent_regression_hash": "retained-regression"
+    },
+    "pairs": [
+      {
+        "case_id": "case-0",
+        "order": [
+          "baseline",
+          "candidate"
+        ],
+        "baseline": 100,
+        "candidate": 90,
+        "baseline_attempts": [
+          {
+            "value": 100,
+            "status": "passed"
+          }
+        ],
+        "candidate_attempts": [
+          {
+            "value": 90,
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "case_id": "case-1",
+        "order": [
+          "baseline",
+          "candidate"
+        ],
+        "baseline": 100,
+        "candidate": 90,
+        "baseline_attempts": [
+          {
+            "value": 100,
+            "status": "passed"
+          }
+        ],
+        "candidate_attempts": [
+          {
+            "value": 90,
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "case_id": "case-2",
+        "order": [
+          "candidate",
+          "baseline"
+        ],
+        "baseline": 100,
+        "candidate": 90,
+        "baseline_attempts": [
+          {
+            "value": 100,
+            "status": "passed"
+          }
+        ],
+        "candidate_attempts": [
+          {
+            "value": 90,
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "case_id": "case-3",
+        "order": [
+          "baseline",
+          "candidate"
+        ],
+        "baseline": 100,
+        "candidate": 90,
+        "baseline_attempts": [
+          {
+            "value": 100,
+            "status": "passed"
+          }
+        ],
+        "candidate_attempts": [
+          {
+            "value": 90,
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "case_id": "case-4",
+        "order": [
+          "baseline",
+          "candidate"
+        ],
+        "baseline": 100,
+        "candidate": 90,
+        "baseline_attempts": [
+          {
+            "value": 100,
+            "status": "passed"
+          }
+        ],
+        "candidate_attempts": [
+          {
+            "value": 90,
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "case_id": "case-5",
+        "order": [
+          "baseline",
+          "candidate"
+        ],
+        "baseline": 100,
+        "candidate": 90,
+        "baseline_attempts": [
+          {
+            "value": 100,
+            "status": "passed"
+          }
+        ],
+        "candidate_attempts": [
+          {
+            "value": 90,
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "case_id": "case-6",
+        "order": [
+          "baseline",
+          "candidate"
+        ],
+        "baseline": 100,
+        "candidate": 90,
+        "baseline_attempts": [
+          {
+            "value": 100,
+            "status": "passed"
+          }
+        ],
+        "candidate_attempts": [
+          {
+            "value": 90,
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "case_id": "case-7",
+        "order": [
+          "baseline",
+          "candidate"
+        ],
+        "baseline": 100,
+        "candidate": 90,
+        "baseline_attempts": [
+          {
+            "value": 100,
+            "status": "passed"
+          }
+        ],
+        "candidate_attempts": [
+          {
+            "value": 90,
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "case_id": "case-8",
+        "order": [
+          "candidate",
+          "baseline"
+        ],
+        "baseline": 100,
+        "candidate": 90,
+        "baseline_attempts": [
+          {
+            "value": 100,
+            "status": "passed"
+          }
+        ],
+        "candidate_attempts": [
+          {
+            "value": 90,
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "case_id": "case-9",
+        "order": [
+          "baseline",
+          "candidate"
+        ],
+        "baseline": 100,
+        "candidate": 90,
+        "baseline_attempts": [
+          {
+            "value": 100,
+            "status": "passed"
+          }
+        ],
+        "candidate_attempts": [
+          {
+            "value": 90,
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "case_id": "case-10",
+        "order": [
+          "baseline",
+          "candidate"
+        ],
+        "baseline": 100,
+        "candidate": 90,
+        "baseline_attempts": [
+          {
+            "value": 100,
+            "status": "passed"
+          }
+        ],
+        "candidate_attempts": [
+          {
+            "value": 90,
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "case_id": "case-11",
+        "order": [
+          "baseline",
+          "candidate"
+        ],
+        "baseline": 100,
+        "candidate": 90,
+        "baseline_attempts": [
+          {
+            "value": 100,
+            "status": "passed"
+          }
+        ],
+        "candidate_attempts": [
+          {
+            "value": 90,
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "case_id": "case-12",
+        "order": [
+          "baseline",
+          "candidate"
+        ],
+        "baseline": 100,
+        "candidate": 90,
+        "baseline_attempts": [
+          {
+            "value": 100,
+            "status": "passed"
+          }
+        ],
+        "candidate_attempts": [
+          {
+            "value": 90,
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "case_id": "case-13",
+        "order": [
+          "baseline",
+          "candidate"
+        ],
+        "baseline": 100,
+        "candidate": 90,
+        "baseline_attempts": [
+          {
+            "value": 100,
+            "status": "passed"
+          }
+        ],
+        "candidate_attempts": [
+          {
+            "value": 90,
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "case_id": "case-14",
+        "order": [
+          "baseline",
+          "candidate"
+        ],
+        "baseline": 100,
+        "candidate": 90,
+        "baseline_attempts": [
+          {
+            "value": 100,
+            "status": "passed"
+          }
+        ],
+        "candidate_attempts": [
+          {
+            "value": 90,
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "case_id": "case-15",
+        "order": [
+          "baseline",
+          "candidate"
+        ],
+        "baseline": 100,
+        "candidate": 90,
+        "baseline_attempts": [
+          {
+            "value": 100,
+            "status": "passed"
+          }
+        ],
+        "candidate_attempts": [
+          {
+            "value": 90,
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "case_id": "case-16",
+        "order": [
+          "candidate",
+          "baseline"
+        ],
+        "baseline": 100,
+        "candidate": 90,
+        "baseline_attempts": [
+          {
+            "value": 100,
+            "status": "passed"
+          }
+        ],
+        "candidate_attempts": [
+          {
+            "value": 90,
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "case_id": "case-17",
+        "order": [
+          "baseline",
+          "candidate"
+        ],
+        "baseline": 100,
+        "candidate": 90,
+        "baseline_attempts": [
+          {
+            "value": 100,
+            "status": "passed"
+          }
+        ],
+        "candidate_attempts": [
+          {
+            "value": 90,
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "case_id": "case-18",
+        "order": [
+          "candidate",
+          "baseline"
+        ],
+        "baseline": 100,
+        "candidate": 90,
+        "baseline_attempts": [
+          {
+            "value": 100,
+            "status": "passed"
+          }
+        ],
+        "candidate_attempts": [
+          {
+            "value": 90,
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "case_id": "case-19",
+        "order": [
+          "candidate",
+          "baseline"
+        ],
+        "baseline": 100,
+        "candidate": 90,
+        "baseline_attempts": [
+          {
+            "value": 100,
+            "status": "passed"
+          }
+        ],
+        "candidate_attempts": [
+          {
+            "value": 90,
+            "status": "passed"
+          }
+        ]
+      }
+    ]
+  },
+  "context": {
+    "approved_baseline_hash": "41815864cfbb6ea9538456ff373cd5f3292fa6f0d4b3be305b98c1925f5b8100",
+    "approved_evaluator_hash": "bd68442fa8e66d3f87299dfdcf4c71f32483a837046e0067cdb624558de89427",
+    "approved_evaluator_code_hash": "993eb4ebef688d603b68a28bcba1f0b4e83eb6c7909f2f8e56dbf49b676ace0b",
+    "current_candidate_hash": "3f26accb254a243aca4e0ef539ce18e48f73a31a15f7e1057bf8dffc11977fbf",
+    "current_head": "head-a",
+    "authority_hash": "existing-authority",
+    "prior_consumed_seconds": 0,
+    "prior_consumed_storage_bytes": 0,
+    "limits": {
+      "active_seconds": 3600,
+      "storage_bytes": 1000000,
+      "depth": 3,
+      "attempts": 100
+    },
+    "active_experiments": 1,
+    "independent_regression_hash": "retained-regression",
+    "registered_plan_hash": "5b5a81f5a527ef94743b0d40a7d01b5dc2dd1e01659fd17423ff923952ba9cc2",
+    "authorized_approvers": {
+      "reviewer": [
+        "reviewer-a"
+      ],
+      "chief-of-staff": [
+        "chief-a"
+      ]
+    }
+  },
+  "approvals": [
+    {
+      "role": "reviewer",
+      "agent_id": "reviewer-a",
+      "fresh_context": true,
+      "approved": true,
+      "candidate_hash": "3f26accb254a243aca4e0ef539ce18e48f73a31a15f7e1057bf8dffc11977fbf",
+      "candidate_head": "head-a",
+      "plan_hash": "5b5a81f5a527ef94743b0d40a7d01b5dc2dd1e01659fd17423ff923952ba9cc2",
+      "evidence_hash": "e1c1e800c8550daf1339649fe9756390afe46acffaf7c01fb050281178a21051",
+      "evaluator_hash": "bd68442fa8e66d3f87299dfdcf4c71f32483a837046e0067cdb624558de89427",
+      "approved_at": "2026-01-01T00:03:00Z"
+    },
+    {
+      "role": "chief-of-staff",
+      "agent_id": "chief-a",
+      "fresh_context": true,
+      "approved": true,
+      "candidate_hash": "3f26accb254a243aca4e0ef539ce18e48f73a31a15f7e1057bf8dffc11977fbf",
+      "candidate_head": "head-a",
+      "plan_hash": "5b5a81f5a527ef94743b0d40a7d01b5dc2dd1e01659fd17423ff923952ba9cc2",
+      "evidence_hash": "e1c1e800c8550daf1339649fe9756390afe46acffaf7c01fb050281178a21051",
+      "evaluator_hash": "bd68442fa8e66d3f87299dfdcf4c71f32483a837046e0067cdb624558de89427",
+      "approved_at": "2026-01-01T00:03:00Z"
+    }
+  ]
+}
