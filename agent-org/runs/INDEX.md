@@ -1,6 +1,6 @@
 # Runs registry
 
-Individual records own current status, scope and evidence; archived references do not allocate IDs.
+Individual records own scope, current status and historical evidence.
 
 - [RUN-000001 — RUN-000001](RUN-000001.md) — in_progress
 - [RUN-000002 — RUN-000002](RUN-000002.md) — completed
@@ -24,3 +24,6 @@ Individual records own current status, scope and evidence; archived references d
 - [RUN-000020 — Independent final retry measurement review](RUN-000020.md) — completed
 - [RUN-000021 — Independent final measurement Chief of Staff](RUN-000021.md) — completed
 - [RUN-000022 — Independent host integration reviewer](RUN-000022.md) — completed
+- [RUN-000023 — Final installation Git binding review](RUN-000023.md) — completed
+- [RUN-000024 — Release evidence Reviewer](RUN-000024.md) — completed
+- [RUN-000025 — Release evidence Chief of Staff](RUN-000025.md) — completed

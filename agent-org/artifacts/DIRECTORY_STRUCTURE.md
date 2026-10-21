@@ -1,13 +1,10 @@
 # Complete installation file structure
 
-Actual installation files below exclude ignored execution checkouts/bytecode. Root integration consists only of `.gitignore` and `.github/workflows/agent-org.yml`. No root AGENTS or harness configuration is added.
+Actual source and evidence paths exclude ignored execution checkouts and bytecode. Host integration is limited to `.gitignore` and `.github/workflows/agent-org.yml`. No root AGENTS or harness directory is installed.
 
 ```text
 agent-org/
-├── AGENTS.md
-├── README.md
 ├── agents/
-│   ├── INDEX.md
 │   ├── architect/
 │   │   ├── AGENTS.md
 │   │   └── CONTEXT.md
@@ -29,9 +26,10 @@ agent-org/
 │   ├── researcher/
 │   │   ├── AGENTS.md
 │   │   └── CONTEXT.md
-│   └── reviewer/
-│       ├── AGENTS.md
-│       └── CONTEXT.md
+│   ├── reviewer/
+│   │   ├── AGENTS.md
+│   │   └── CONTEXT.md
+│   └── INDEX.md
 ├── approvals/
 │   ├── APP-000001.md
 │   ├── APP-000002.md
@@ -39,6 +37,7 @@ agent-org/
 │   ├── APP-000004.md
 │   ├── APP-000005.md
 │   ├── APP-000006.md
+│   ├── APP-000007.md
 │   └── INDEX.md
 ├── artifacts/
 │   ├── ART-000001.md
@@ -91,13 +90,11 @@ agent-org/
 │   ├── INDEX.md
 │   └── TEMPLATE.md
 ├── factory/
-│   ├── README.md
 │   ├── artifacts/
 │   │   └── INDEX.md
 │   ├── baselines/
 │   │   ├── EXP-000001/
 │   │   │   └── records.py
-│   │   ├── INDEX.md
 │   │   ├── dora-1.0.0/
 │   │   │   ├── DEFINITIONS.md
 │   │   │   ├── calculator.py
@@ -118,10 +115,10 @@ agent-org/
 │   │   │   │   ├── efficiency.json
 │   │   │   │   └── repair.json
 │   │   │   ├── dora/
+│   │   │   │   ├── fixtures/
+│   │   │   │   │   └── expected.json
 │   │   │   │   ├── DEFINITIONS.md
-│   │   │   │   ├── calculator.py
-│   │   │   │   └── fixtures/
-│   │   │   │       └── expected.json
+│   │   │   │   └── calculator.py
 │   │   │   ├── quality-gates/
 │   │   │   │   ├── DEFINITION.md
 │   │   │   │   └── improvement.py
@@ -129,26 +126,27 @@ agent-org/
 │   │   │       ├── test_dora.py
 │   │   │       ├── test_gate_regressions.py
 │   │   │       └── test_improvement.py
-│   │   └── measurement-candidate-retry1/
-│   │       ├── benchmarks/
-│   │       │   ├── efficiency.json
-│   │       │   └── repair.json
-│   │       ├── quality-gates/
-│   │       │   └── improvement.py
-│   │       └── tests/
-│   │           └── test_gate_regressions.py
+│   │   ├── measurement-candidate-retry1/
+│   │   │   ├── benchmarks/
+│   │   │   │   ├── efficiency.json
+│   │   │   │   └── repair.json
+│   │   │   ├── quality-gates/
+│   │   │   │   └── improvement.py
+│   │   │   └── tests/
+│   │   │       └── test_gate_regressions.py
+│   │   └── INDEX.md
 │   ├── benchmarks/
 │   │   ├── README.md
 │   │   ├── efficiency.json
 │   │   └── repair.json
 │   ├── dora/
+│   │   ├── fixtures/
+│   │   │   ├── classification.json
+│   │   │   ├── events.json
+│   │   │   └── expected.json
 │   │   ├── DEFINITIONS.md
 │   │   ├── calculator.py
-│   │   ├── classification.json
-│   │   └── fixtures/
-│   │       ├── classification.json
-│   │       ├── events.json
-│   │       └── expected.json
+│   │   └── classification.json
 │   ├── events/
 │   │   ├── README.md
 │   │   └── installation.jsonl
@@ -172,11 +170,6 @@ agent-org/
 │   │   ├── DEFINITION.md
 │   │   └── improvement.py
 │   ├── reports/
-│   │   ├── EXP-000001-after-approvals.json
-│   │   ├── EXP-000001-before-approvals.json
-│   │   ├── EXP-000001-preregistration.json
-│   │   ├── EXP-000001-qualification.json
-│   │   ├── INDEX.md
 │   │   ├── RUN-000008/
 │   │   │   ├── baseline.metadata.json
 │   │   │   ├── baseline.stderr.txt
@@ -192,13 +185,8 @@ agent-org/
 │   │   │   ├── suite.stderr.txt
 │   │   │   └── suite.stdout.txt
 │   │   ├── RUN-000010/
-│   │   │   ├── HANDOFF.md
-│   │   │   ├── artifact-manifest.json
-│   │   │   ├── checkpoint.json
-│   │   │   ├── controlled-scenarios.json
 │   │   │   ├── discovery/
 │   │   │   │   └── agents/
-│   │   │   │       ├── INDEX.md
 │   │   │   │       ├── architect/
 │   │   │   │       │   ├── AGENTS.md
 │   │   │   │       │   └── CONTEXT.md
@@ -223,9 +211,14 @@ agent-org/
 │   │   │   │       ├── researcher/
 │   │   │   │       │   ├── AGENTS.md
 │   │   │   │       │   └── CONTEXT.md
-│   │   │   │       └── reviewer/
-│   │   │   │           ├── AGENTS.md
-│   │   │   │           └── CONTEXT.md
+│   │   │   │       ├── reviewer/
+│   │   │   │       │   ├── AGENTS.md
+│   │   │   │       │   └── CONTEXT.md
+│   │   │   │       └── INDEX.md
+│   │   │   ├── HANDOFF.md
+│   │   │   ├── artifact-manifest.json
+│   │   │   ├── checkpoint.json
+│   │   │   ├── controlled-scenarios.json
 │   │   │   ├── discovery.json
 │   │   │   ├── recovery.json
 │   │   │   └── source-pins.json
@@ -257,6 +250,22 @@ agent-org/
 │   │   │   ├── test_records.migration.diff
 │   │   │   └── test_records.original.py
 │   │   ├── RUN-000015/
+│   │   │   ├── original/
+│   │   │   │   └── factory/
+│   │   │   │       ├── benchmarks/
+│   │   │   │       │   ├── efficiency.json
+│   │   │   │       │   └── repair.json
+│   │   │   │       ├── dora/
+│   │   │   │       │   ├── fixtures/
+│   │   │   │       │   │   └── expected.json
+│   │   │   │       │   ├── DEFINITIONS.md
+│   │   │   │       │   └── calculator.py
+│   │   │   │       ├── quality-gates/
+│   │   │   │       │   ├── DEFINITION.md
+│   │   │   │       │   └── improvement.py
+│   │   │   │       └── tests/
+│   │   │   │           ├── test_dora.py
+│   │   │   │           └── test_improvement.py
 │   │   │   ├── artifact-sha256.json
 │   │   │   ├── before.json
 │   │   │   ├── candidate-freeze-proposal.json
@@ -283,22 +292,6 @@ agent-org/
 │   │   │   ├── isolated-restore.metadata.json
 │   │   │   ├── isolated-restore.stderr.txt
 │   │   │   ├── isolated-restore.stdout.txt
-│   │   │   ├── original/
-│   │   │   │   └── factory/
-│   │   │   │       ├── benchmarks/
-│   │   │   │       │   ├── efficiency.json
-│   │   │   │       │   └── repair.json
-│   │   │   │       ├── dora/
-│   │   │   │       │   ├── DEFINITIONS.md
-│   │   │   │       │   ├── calculator.py
-│   │   │   │       │   └── fixtures/
-│   │   │   │       │       └── expected.json
-│   │   │   │       ├── quality-gates/
-│   │   │   │       │   ├── DEFINITION.md
-│   │   │   │       │   └── improvement.py
-│   │   │   │       └── tests/
-│   │   │   │           ├── test_dora.py
-│   │   │   │           └── test_improvement.py
 │   │   │   ├── records-cli.metadata.json
 │   │   │   ├── records-cli.stderr.txt
 │   │   │   ├── records-cli.stdout.txt
@@ -315,6 +308,22 @@ agent-org/
 │   │   │   ├── retry1-full-suite.stderr.txt
 │   │   │   └── retry1-full-suite.stdout.txt
 │   │   ├── RUN-000015-attempt1/
+│   │   │   ├── original/
+│   │   │   │   └── factory/
+│   │   │   │       ├── benchmarks/
+│   │   │   │       │   ├── efficiency.json
+│   │   │   │       │   └── repair.json
+│   │   │   │       ├── dora/
+│   │   │   │       │   ├── fixtures/
+│   │   │   │       │   │   └── expected.json
+│   │   │   │       │   ├── DEFINITIONS.md
+│   │   │   │       │   └── calculator.py
+│   │   │   │       ├── quality-gates/
+│   │   │   │       │   ├── DEFINITION.md
+│   │   │   │       │   └── improvement.py
+│   │   │   │       └── tests/
+│   │   │   │           ├── test_dora.py
+│   │   │   │           └── test_improvement.py
 │   │   │   ├── before.json
 │   │   │   ├── candidate-freeze-proposal.json
 │   │   │   ├── dual-version.metadata.json
@@ -323,22 +332,6 @@ agent-org/
 │   │   │   ├── full-suite.metadata.json
 │   │   │   ├── full-suite.stderr.txt
 │   │   │   ├── full-suite.stdout.txt
-│   │   │   ├── original/
-│   │   │   │   └── factory/
-│   │   │   │       ├── benchmarks/
-│   │   │   │       │   ├── efficiency.json
-│   │   │   │       │   └── repair.json
-│   │   │   │       ├── dora/
-│   │   │   │       │   ├── DEFINITIONS.md
-│   │   │   │       │   ├── calculator.py
-│   │   │   │       │   └── fixtures/
-│   │   │   │       │       └── expected.json
-│   │   │   │       ├── quality-gates/
-│   │   │   │       │   ├── DEFINITION.md
-│   │   │   │       │   └── improvement.py
-│   │   │   │       └── tests/
-│   │   │   │           ├── test_dora.py
-│   │   │   │           └── test_improvement.py
 │   │   │   ├── retained-original.metadata.json
 │   │   │   ├── retained-original.stderr.txt
 │   │   │   └── retained-original.stdout.jsonl
@@ -366,6 +359,36 @@ agent-org/
 │   │   │   ├── rollback30.stderr
 │   │   │   └── rollback30.stdout
 │   │   ├── RUN-000019/
+│   │   │   ├── isolated-restore/
+│   │   │   │   ├── benchmarks/
+│   │   │   │   │   ├── efficiency.json
+│   │   │   │   │   └── repair.json
+│   │   │   │   ├── dora/
+│   │   │   │   │   ├── fixtures/
+│   │   │   │   │   │   ├── classification.json
+│   │   │   │   │   │   ├── events.json
+│   │   │   │   │   │   └── expected.json
+│   │   │   │   │   └── calculator.py
+│   │   │   │   ├── instrumentation/
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── common.py
+│   │   │   │   │   └── events.py
+│   │   │   │   ├── metrics/
+│   │   │   │   │   └── scorecards.py
+│   │   │   │   ├── quality-gates/
+│   │   │   │   │   └── improvement.py
+│   │   │   │   └── tests/
+│   │   │   │       ├── test_dora.py
+│   │   │   │       └── test_improvement.py
+│   │   │   ├── retry1-before/
+│   │   │   │   └── factory/
+│   │   │   │       ├── benchmarks/
+│   │   │   │       │   ├── efficiency.json
+│   │   │   │       │   └── repair.json
+│   │   │   │       ├── quality-gates/
+│   │   │   │       │   └── improvement.py
+│   │   │   │       └── tests/
+│   │   │   │           └── test_gate_regressions.py
 │   │   │   ├── before-git-readonly-safe.json
 │   │   │   ├── before-git-readonly.json
 │   │   │   ├── before-inventory.json
@@ -389,27 +412,6 @@ agent-org/
 │   │   │   ├── gate-repair-cli.stderr
 │   │   │   ├── gate-repair-cli.stdout
 │   │   │   ├── improvement.py.diff
-│   │   │   ├── isolated-restore/
-│   │   │   │   ├── benchmarks/
-│   │   │   │   │   ├── efficiency.json
-│   │   │   │   │   └── repair.json
-│   │   │   │   ├── dora/
-│   │   │   │   │   ├── calculator.py
-│   │   │   │   │   └── fixtures/
-│   │   │   │   │       ├── classification.json
-│   │   │   │   │       ├── events.json
-│   │   │   │   │       └── expected.json
-│   │   │   │   ├── instrumentation/
-│   │   │   │   │   ├── __init__.py
-│   │   │   │   │   ├── common.py
-│   │   │   │   │   └── events.py
-│   │   │   │   ├── metrics/
-│   │   │   │   │   └── scorecards.py
-│   │   │   │   ├── quality-gates/
-│   │   │   │   │   └── improvement.py
-│   │   │   │   └── tests/
-│   │   │   │       ├── test_dora.py
-│   │   │   │       └── test_improvement.py
 │   │   │   ├── isolated-restore-input-pins.json
 │   │   │   ├── isolated-restore30.metadata.json
 │   │   │   ├── isolated-restore30.stderr
@@ -418,15 +420,6 @@ agent-org/
 │   │   │   ├── original22.stderr
 │   │   │   ├── original22.stdout
 │   │   │   ├── repair.json.diff
-│   │   │   ├── retry1-before/
-│   │   │   │   └── factory/
-│   │   │   │       ├── benchmarks/
-│   │   │   │       │   ├── efficiency.json
-│   │   │   │       │   └── repair.json
-│   │   │   │       ├── quality-gates/
-│   │   │   │       │   └── improvement.py
-│   │   │   │       └── tests/
-│   │   │   │           └── test_gate_regressions.py
 │   │   │   ├── sixcase-sameversion.metadata.json
 │   │   │   ├── sixcase-sameversion.stderr
 │   │   │   ├── sixcase-sameversion.stdout
@@ -447,22 +440,40 @@ agent-org/
 │   │   │   ├── review_checks.py
 │   │   │   ├── reviewer-check-correction.txt
 │   │   │   └── test_gate_regressions.py.diff
+│   │   ├── EXP-000001-after-approvals.json
+│   │   ├── EXP-000001-before-approvals.json
+│   │   ├── EXP-000001-preregistration.json
+│   │   ├── EXP-000001-qualification.json
+│   │   ├── INDEX.md
+│   │   ├── INSTALLATION_INTEGRATION.md
+│   │   ├── INSTALLATION_RELEASE_MANIFEST.md
 │   │   ├── initial-ci.json
 │   │   ├── live-command-capture.json
 │   │   ├── scorecard-observations.json
 │   │   └── scorecards.json
-│   └── tests/
-│       ├── test_dora.py
-│       ├── test_events.py
-│       ├── test_gate_regressions.py
-│       ├── test_improvement.py
-│       ├── test_records.py
-│       ├── test_runner.py
-│       └── test_validator_regressions.py
+│   ├── tests/
+│   │   ├── test_dora.py
+│   │   ├── test_events.py
+│   │   ├── test_gate_regressions.py
+│   │   ├── test_improvement.py
+│   │   ├── test_records.py
+│   │   ├── test_runner.py
+│   │   └── test_validator_regressions.py
+│   └── README.md
 ├── initiatives/
 │   ├── INDEX.md
 │   └── INIT-000001.md
 ├── intake/
+│   ├── approved-v0.1/
+│   │   ├── ACCEPTANCE_CONTRACT.md
+│   │   ├── COVERAGE.md
+│   │   ├── DISCOVERY.md
+│   │   ├── INDEX.md
+│   │   ├── INSTALLATION_PLAN.md
+│   │   ├── INTERVIEW.md
+│   │   ├── REQUIREMENTS_BASELINE.md
+│   │   ├── REVIEW.md
+│   │   └── SCOPE_CONTRACT.md
 │   ├── ACCEPTANCE_CONTRACT.md
 │   ├── COVERAGE.md
 │   ├── DISCOVERY.md
@@ -470,29 +481,20 @@ agent-org/
 │   ├── INSTALLATION_PLAN.md
 │   ├── INSTALLATION_RESULTS.md
 │   ├── INTERVIEW.md
+│   ├── POST_INSTALLATION_REVIEW.md
 │   ├── REQUIREMENTS_BASELINE.md
 │   ├── REVIEW.md
 │   ├── SCOPE_CONTRACT.md
-│   ├── STATUS.md
-│   └── approved-v0.1/
-│       ├── ACCEPTANCE_CONTRACT.md
-│       ├── COVERAGE.md
-│       ├── DISCOVERY.md
-│       ├── INDEX.md
-│       ├── INSTALLATION_PLAN.md
-│       ├── INTERVIEW.md
-│       ├── REQUIREMENTS_BASELINE.md
-│       ├── REVIEW.md
-│       └── SCOPE_CONTRACT.md
+│   └── STATUS.md
 ├── intents/
 │   ├── INDEX.md
 │   └── INTENT-000001.md
 ├── knowledge/
+│   ├── projects/
+│   │   ├── INDEX.md
+│   │   └── TEMPLATE.md
 │   ├── INDEX.md
-│   ├── PROJECT_ENROLLMENT.md
-│   └── projects/
-│       ├── INDEX.md
-│       └── TEMPLATE.md
+│   └── PROJECT_ENROLLMENT.md
 ├── policies/
 │   ├── ACCEPTANCE.md
 │   ├── APPROVALS.md
@@ -513,8 +515,6 @@ agent-org/
 │   ├── SCOPE_BOUNDARIES.md
 │   └── SELF_IMPROVEMENT.md
 ├── requirements/
-│   ├── INDEX.md
-│   ├── TEMPLATE.md
 │   ├── cross-boundary/
 │   │   ├── REQ-000003.md
 │   │   ├── REQ-000004.md
@@ -557,9 +557,11 @@ agent-org/
 │   │   ├── REQ-000039.md
 │   │   ├── REQ-000040.md
 │   │   └── REQ-000042.md
-│   └── project/
-│       ├── REQ-000023.md
-│       └── REQ-000041.md
+│   ├── project/
+│   │   ├── REQ-000023.md
+│   │   └── REQ-000041.md
+│   ├── INDEX.md
+│   └── TEMPLATE.md
 ├── runs/
 │   ├── INDEX.md
 │   ├── RUN-000001.md
@@ -583,8 +585,18 @@ agent-org/
 │   ├── RUN-000019.md
 │   ├── RUN-000020.md
 │   ├── RUN-000021.md
-│   └── RUN-000022.md
+│   ├── RUN-000022.md
+│   ├── RUN-000023.md
+│   ├── RUN-000024.md
+│   └── RUN-000025.md
 ├── shared/
+│   ├── templates/
+│   │   ├── BOUNDARY_ASSESSMENT.md
+│   │   ├── CHECKPOINT.md
+│   │   ├── CLAIM.md
+│   │   ├── HANDOFF.md
+│   │   ├── INDEX.md
+│   │   └── SCORECARD.md
 │   ├── CONTEXT_MANAGEMENT.md
 │   ├── CONVENTIONS.md
 │   ├── HANDOFFS.md
@@ -597,17 +609,8 @@ agent-org/
 │   ├── RECORD_FORMATS.md
 │   ├── SCORECARDS.md
 │   ├── SESSION_LIFECYCLE.md
-│   ├── WORK_GRAPH.md
-│   └── templates/
-│       ├── BOUNDARY_ASSESSMENT.md
-│       ├── CHECKPOINT.md
-│       ├── CLAIM.md
-│       ├── HANDOFF.md
-│       ├── INDEX.md
-│       └── SCORECARD.md
+│   └── WORK_GRAPH.md
 ├── tasks/
-│   ├── INDEX.md
-│   ├── TEMPLATE.md
 │   ├── cross-boundary/
 │   │   ├── TASK-000001.md
 │   │   └── TASK-000006.md
@@ -627,23 +630,28 @@ agent-org/
 │   │   ├── TASK-000019.md
 │   │   ├── TASK-000020.md
 │   │   ├── TASK-000021.md
-│   │   └── TASK-000022.md
-│   └── project/
-│       ├── TASK-000005.md
-│       ├── TASK-000007.md
-│       ├── TASK-000010.md
-│       ├── TASK-000016.md
-│       └── TASK-000023.md
+│   │   ├── TASK-000022.md
+│   │   └── TASK-000024.md
+│   ├── project/
+│   │   ├── TASK-000005.md
+│   │   ├── TASK-000007.md
+│   │   ├── TASK-000010.md
+│   │   ├── TASK-000016.md
+│   │   └── TASK-000023.md
+│   ├── INDEX.md
+│   └── TEMPLATE.md
 ├── triggers/
 │   └── TRG-000001.md
-└── workflows/
-    ├── INDEX.md
-    ├── WF-000001.md
-    ├── WF-000002.md
-    ├── WF-000003.md
-    ├── WF-000004.md
-    ├── WF-000005.md
-    └── WF-000006.md
+├── workflows/
+│   ├── INDEX.md
+│   ├── WF-000001.md
+│   ├── WF-000002.md
+│   ├── WF-000003.md
+│   ├── WF-000004.md
+│   ├── WF-000005.md
+│   └── WF-000006.md
+├── AGENTS.md
+└── README.md
 ```
 
-Ignored live fixtures under factory/artifacts/installation contain alpha/beta Git repositories, behavior copies and the retained rollback scratch copy. Raw evidence and hashes remain in factory/reports. old/ is outside the organization and stays read-only/uncommitted.
+Ignored execution areas: factory/artifacts/installation contains isolated alpha/beta project fixtures, baseline restore checkouts and temporary native-worker artifacts; these are excluded from factory Git. old/, projects/ and .worktrees/ are excluded at the host root.
