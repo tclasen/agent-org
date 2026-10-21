@@ -1,0 +1,61 @@
+--- retry1/factory/benchmarks/repair.json
++++ retry2/factory/benchmarks/repair.json
+@@ -7,9 +7,9 @@
+       "candidate_hash": "3f26accb254a243aca4e0ef539ce18e48f73a31a15f7e1057bf8dffc11977fbf",
+       "candidate_head": "head-a",
+       "evaluator_hash": "bd68442fa8e66d3f87299dfdcf4c71f32483a837046e0067cdb624558de89427",
+-      "evidence_hash": "c9d0b19751716fd6b914478ab2bcbda3b676c9f46f23f413655e7eeccfce99ed",
++      "evidence_hash": "d0f5aaf432489a38c86db40d5cb2152f68b38d5f221c54116536a9ef2b36bdbf",
+       "fresh_context": true,
+-      "plan_hash": "a681d0edabd948923e3a341488f2d7010e80b419f5612098f7352a35b4020b70",
++      "plan_hash": "7d05913b19582bafe92d0ff492b70dd7d693fbef7f4cf776dc39f8dc0646d617",
+       "role": "reviewer"
+     },
+     {
+@@ -19,16 +19,16 @@
+       "candidate_hash": "3f26accb254a243aca4e0ef539ce18e48f73a31a15f7e1057bf8dffc11977fbf",
+       "candidate_head": "head-a",
+       "evaluator_hash": "bd68442fa8e66d3f87299dfdcf4c71f32483a837046e0067cdb624558de89427",
+-      "evidence_hash": "c9d0b19751716fd6b914478ab2bcbda3b676c9f46f23f413655e7eeccfce99ed",
++      "evidence_hash": "d0f5aaf432489a38c86db40d5cb2152f68b38d5f221c54116536a9ef2b36bdbf",
+       "fresh_context": true,
+-      "plan_hash": "a681d0edabd948923e3a341488f2d7010e80b419f5612098f7352a35b4020b70",
++      "plan_hash": "7d05913b19582bafe92d0ff492b70dd7d693fbef7f4cf776dc39f8dc0646d617",
+       "role": "chief-of-staff"
+     }
+   ],
+   "context": {
+     "active_experiments": 1,
+     "approved_baseline_hash": "41815864cfbb6ea9538456ff373cd5f3292fa6f0d4b3be305b98c1925f5b8100",
+-    "approved_evaluator_code_hash": "fd82a00452c2c334b8ca353312a0479b8fb1c846f2ec16c3f7d9548e399bb2d4",
++    "approved_evaluator_code_hash": "b85841b308ebe73cb0dcd9b33e9672ccc87eee1767c4e64eae5a2f7b62aa9c60",
+     "approved_evaluator_hash": "bd68442fa8e66d3f87299dfdcf4c71f32483a837046e0067cdb624558de89427",
+     "authority_hash": "existing-authority",
+     "authorized_approvers": {
+@@ -50,7 +50,7 @@
+     },
+     "prior_consumed_seconds": 0,
+     "prior_consumed_storage_bytes": 0,
+-    "registered_plan_hash": "a681d0edabd948923e3a341488f2d7010e80b419f5612098f7352a35b4020b70"
++    "registered_plan_hash": "7d05913b19582bafe92d0ff492b70dd7d693fbef7f4cf776dc39f8dc0646d617"
+   },
+   "evidence": {
+     "artifacts": {
+@@ -107,7 +107,7 @@
+       "scope_authority": true,
+       "security": true
+     },
+-    "plan_hash": "a681d0edabd948923e3a341488f2d7010e80b419f5612098f7352a35b4020b70",
++    "plan_hash": "7d05913b19582bafe92d0ff492b70dd7d693fbef7f4cf776dc39f8dc0646d617",
+     "repair": {
+       "baseline_pass": false,
+       "candidate_pass": true,
+@@ -136,7 +136,7 @@
+     "claim": "repair",
+     "criteria_hash": "32f0ac977eb16a1b6f1f1d59d893d923fc871d8e3930f516dbfb0c8f4478991c",
+     "direction": "lower",
+-    "evaluator_code_hash": "fd82a00452c2c334b8ca353312a0479b8fb1c846f2ec16c3f7d9548e399bb2d4",
++    "evaluator_code_hash": "b85841b308ebe73cb0dcd9b33e9672ccc87eee1767c4e64eae5a2f7b62aa9c60",
+     "evaluator_hash": "bd68442fa8e66d3f87299dfdcf4c71f32483a837046e0067cdb624558de89427",
+     "expected_benefit": "fixed tested behavior",
+     "guardrails": [

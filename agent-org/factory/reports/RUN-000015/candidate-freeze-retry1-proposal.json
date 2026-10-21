@@ -1,0 +1,165 @@
+{
+  "at": "2026-10-21T20:53:25.043097+00:00",
+  "comparison_or_full_suite_executed": false,
+  "fixture_substitutions": {
+    "factory/benchmarks/efficiency.json": [
+      {
+        "new": "47e4eaeb6fdc17f9a8448cbfa9c1c670cefa04d39ce5d6220895e58660f07981",
+        "old": "e1c1e800c8550daf1339649fe9756390afe46acffaf7c01fb050281178a21051",
+        "path": ".approvals[0].evidence_hash"
+      },
+      {
+        "new": "950732a739a482b94b65d0ae039299f3c253f67d78156d49cd0e6369de369c99",
+        "old": "5b5a81f5a527ef94743b0d40a7d01b5dc2dd1e01659fd17423ff923952ba9cc2",
+        "path": ".approvals[0].plan_hash"
+      },
+      {
+        "new": "47e4eaeb6fdc17f9a8448cbfa9c1c670cefa04d39ce5d6220895e58660f07981",
+        "old": "e1c1e800c8550daf1339649fe9756390afe46acffaf7c01fb050281178a21051",
+        "path": ".approvals[1].evidence_hash"
+      },
+      {
+        "new": "950732a739a482b94b65d0ae039299f3c253f67d78156d49cd0e6369de369c99",
+        "old": "5b5a81f5a527ef94743b0d40a7d01b5dc2dd1e01659fd17423ff923952ba9cc2",
+        "path": ".approvals[1].plan_hash"
+      },
+      {
+        "new": "fd82a00452c2c334b8ca353312a0479b8fb1c846f2ec16c3f7d9548e399bb2d4",
+        "old": "993eb4ebef688d603b68a28bcba1f0b4e83eb6c7909f2f8e56dbf49b676ace0b",
+        "path": ".context.approved_evaluator_code_hash"
+      },
+      {
+        "new": "950732a739a482b94b65d0ae039299f3c253f67d78156d49cd0e6369de369c99",
+        "old": "5b5a81f5a527ef94743b0d40a7d01b5dc2dd1e01659fd17423ff923952ba9cc2",
+        "path": ".context.registered_plan_hash"
+      },
+      {
+        "new": "950732a739a482b94b65d0ae039299f3c253f67d78156d49cd0e6369de369c99",
+        "old": "5b5a81f5a527ef94743b0d40a7d01b5dc2dd1e01659fd17423ff923952ba9cc2",
+        "path": ".evidence.plan_hash"
+      },
+      {
+        "new": "fd82a00452c2c334b8ca353312a0479b8fb1c846f2ec16c3f7d9548e399bb2d4",
+        "old": "993eb4ebef688d603b68a28bcba1f0b4e83eb6c7909f2f8e56dbf49b676ace0b",
+        "path": ".plan.evaluator_code_hash"
+      },
+      {
+        "new": "1.0.1",
+        "old": "1.0.0",
+        "path": ".plan.version"
+      }
+    ],
+    "factory/benchmarks/repair.json": [
+      {
+        "new": "c9d0b19751716fd6b914478ab2bcbda3b676c9f46f23f413655e7eeccfce99ed",
+        "old": "54bb76d87fb962768b98932157b6ae409b8e672c46953926ec71ecf7e05f69b4",
+        "path": ".approvals[0].evidence_hash"
+      },
+      {
+        "new": "a681d0edabd948923e3a341488f2d7010e80b419f5612098f7352a35b4020b70",
+        "old": "3ce7ce6057546c30bbcbad2352285de5cbe1208b0e3aec4754206b45066c6a5e",
+        "path": ".approvals[0].plan_hash"
+      },
+      {
+        "new": "c9d0b19751716fd6b914478ab2bcbda3b676c9f46f23f413655e7eeccfce99ed",
+        "old": "54bb76d87fb962768b98932157b6ae409b8e672c46953926ec71ecf7e05f69b4",
+        "path": ".approvals[1].evidence_hash"
+      },
+      {
+        "new": "a681d0edabd948923e3a341488f2d7010e80b419f5612098f7352a35b4020b70",
+        "old": "3ce7ce6057546c30bbcbad2352285de5cbe1208b0e3aec4754206b45066c6a5e",
+        "path": ".approvals[1].plan_hash"
+      },
+      {
+        "new": "fd82a00452c2c334b8ca353312a0479b8fb1c846f2ec16c3f7d9548e399bb2d4",
+        "old": "993eb4ebef688d603b68a28bcba1f0b4e83eb6c7909f2f8e56dbf49b676ace0b",
+        "path": ".context.approved_evaluator_code_hash"
+      },
+      {
+        "new": "a681d0edabd948923e3a341488f2d7010e80b419f5612098f7352a35b4020b70",
+        "old": "3ce7ce6057546c30bbcbad2352285de5cbe1208b0e3aec4754206b45066c6a5e",
+        "path": ".context.registered_plan_hash"
+      },
+      {
+        "new": "a681d0edabd948923e3a341488f2d7010e80b419f5612098f7352a35b4020b70",
+        "old": "3ce7ce6057546c30bbcbad2352285de5cbe1208b0e3aec4754206b45066c6a5e",
+        "path": ".evidence.plan_hash"
+      },
+      {
+        "new": "fd82a00452c2c334b8ca353312a0479b8fb1c846f2ec16c3f7d9548e399bb2d4",
+        "old": "993eb4ebef688d603b68a28bcba1f0b4e83eb6c7909f2f8e56dbf49b676ace0b",
+        "path": ".plan.evaluator_code_hash"
+      },
+      {
+        "new": "1.0.1",
+        "old": "1.0.0",
+        "path": ".plan.version"
+      }
+    ],
+    "factory/dora/fixtures/expected.json": [
+      {
+        "new": "1.0.1",
+        "old": "1.0.0",
+        "path": ".calculator_version"
+      },
+      {
+        "new": "57f5bf6c770385b2e621d884ae1d46600fc3b928d6a368182116f6256a0db05e",
+        "old": "9cddaa7f9500d9f8a34e1ffafa5f4ed28216b5e1e750e6977ec52feee5eaab66",
+        "path": ".definition_digest"
+      },
+      {
+        "new": "1.0.1",
+        "old": "1.0.0",
+        "path": ".definition_version"
+      }
+    ]
+  },
+  "inventory": {
+    "invalid_matrices": {
+      "attempt_value_status_both_claims": 26,
+      "changes_evaluator": 8,
+      "evidence_authority_plan_pins": 16,
+      "plan_context_approval_pin_types": 91,
+      "recursive_replay": 9,
+      "regression_pin": 8
+    },
+    "positive_controls": [
+      "repair/outcome/efficiency both versions",
+      "native ledger append/correction/sequence-asof/ingestion-asof",
+      "unchanged sparse arithmetic",
+      "exact true recursive replay",
+      "cumulative checkpoint boundary",
+      "DORA followup cutoff",
+      "empty production unavailable"
+    ],
+    "regression_tests": [
+      "test_retained_22_observations_and_controls",
+      "test_known_invalid_types_never_establish_benefit",
+      "test_required_pin_types_in_plan_context_and_approvals",
+      "test_recursive_exact_boolean_replay_and_positive_controls",
+      "test_attempt_accounting_unknown_rows_and_cumulative_checkpoint",
+      "test_dora_orphan_failure_rejected_causality_and_followup"
+    ],
+    "retained_cases": 22
+  },
+  "previous_manifest_sha256": "377d0b4507118074f391305355e9fddff219fc23c197fd5f6fa62b782cb1f9de",
+  "retained_protected_unchanged": true,
+  "retry": 1,
+  "retry_changes": {
+    "fixtures": "Evaluator source and dependent plan/evidenceapproval digests only.",
+    "gate": "Observable attempt lower bound always rejects underreporting. Complete workload requires exact count equality. Missing rows cannot reject solely because summary count exceeds supplied records; original S06 remains inconclusive. Observable attempt budget enforcement unchanged.",
+    "regression": "Retain prior health issues/status/counts and require precisely additional r1 missing_failure_causality on existing missing-causality case. Original22 script/criteria unchanged."
+  },
+  "sha256": {
+    "factory/benchmarks/efficiency.json": "7336061b8891991c4a934d1b6a971573295d92888fec2abb0b6c8b2abbe451aa",
+    "factory/benchmarks/repair.json": "f588a417bf2197903f083c3a03d904bcea8a6b7262b39cc8c9a92c3d09474b02",
+    "factory/dora/DEFINITIONS.md": "3025b51e03da0a2b3777962c9e5cf780aa35b3536b2d89701ca26d175761a95e",
+    "factory/dora/calculator.py": "b458bca90e118fa9a381cea860202661191ea22cbb1cf752006eca3c988b0c7d",
+    "factory/dora/fixtures/expected.json": "ee1da12b8dc22f8fede894d61b60d2cd6689c3f065df874b6afffe08d141ae36",
+    "factory/quality-gates/DEFINITION.md": "2303a0dc02641378c2c85b6612c8edb4bece18f561e9791c0db35c2c1e3f3f88",
+    "factory/quality-gates/improvement.py": "fd82a00452c2c334b8ca353312a0479b8fb1c846f2ec16c3f7d9548e399bb2d4",
+    "factory/tests/test_dora.py": "79ea4c81ccd73ab70dbf38a5372b48c5a6952852c5b58d2065d703223badd34a",
+    "factory/tests/test_gate_regressions.py": "b77c909d1c517aec9cf9515e6068229d499783fec6a3bf77402db12b3638fd90",
+    "factory/tests/test_improvement.py": "b82bc722af21a9fc76442fad718cdc3cdde356b46ea6a1e35acd769d7cf7f517"
+  }
+}

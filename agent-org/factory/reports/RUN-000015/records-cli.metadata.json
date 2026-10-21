@@ -1,0 +1,15 @@
+{
+  "args": [
+    "python3",
+    "-B",
+    "-m",
+    "instrumentation.check",
+    "--root",
+    "/Users/Shared/agent-org"
+  ],
+  "exit": 0,
+  "started_at": "2026-10-21T20:54:53.617105+00:00",
+  "seconds": 0.21354220900684595,
+  "stdout_sha256": "44072d97762deb0ad3f128513bbe247884320dda4fed68211509d1a563b60c2c",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

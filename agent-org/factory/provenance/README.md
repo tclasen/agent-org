@@ -1,0 +1,7 @@
+# Scoped provenance
+
+`instrumentation.scope` snapshots named small evidence roots. Snapshot content hash binds files, executable bits, symlink-target hashes and exclusions. Verification detects changed snapshot payloads; before/after comparison detects out-of-scope modifications, including deleted/untracked/ignored files within the evidence boundary. Symlinks escaping a root are rejected. Hashes are evidence identifiers, not secret redaction; exclude secrets and unrelated caches before capture.
+
+Git provenance records repository identity, HEAD (null for unborn), branch, dirty status, status hash and remote identity hash. Raw remote URLs/status paths are omitted to avoid copying credentials/sensitive names. Policy/instruction/input/output identities come from explicit file snapshots; they are not inferred from Git HEAD. Nested repositories and ignored contents require their own named snapshots. Preserve environment/interpreter identity in the acceptance report.
+
+Store Markdown evidence summaries with exact candidate/input/policy/instruction/event-snapshot hashes. Native snapshot JSON is allowed only under the factory telemetry/artifact exception. Published report snapshots are immutable evidence: new observations produce new snapshots/corrections. No trusted external signing/anchor, hostile-user isolation or universal tool capture is asserted. A same-user adversary can rewrite records and recompute hashes; independent review and trusted external evidence remain necessary.

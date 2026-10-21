@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "factory/tests",
+    "-v"
+  ],
+  "started_at": "2026-10-21T20:43:44.379505+00:00",
+  "completed_at": "2026-10-21T20:43:46.900381+00:00",
+  "exit_code": 0,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "71200160285223175f367a9ab6859857bf17c9c2fbac8b36de4f98d0d9a60189"
+}

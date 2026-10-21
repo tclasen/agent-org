@@ -1,0 +1,22 @@
+{
+  "python": {
+    "exit_code": 0,
+    "version": "Python 3.15.0"
+  },
+  "git": {
+    "exit_code": 0,
+    "version": "git version 2.56.0"
+  },
+  "codex": {
+    "exit_code": 0,
+    "version": "codex-cli 0.163.0"
+  },
+  "source": "actual local executable output",
+  "time": "2026-10-21T20:59:49.691890+00:00",
+  "dependencies": "Python standard library only; CI interpreter differs and must actually pass",
+  "environment": "macOS local; CI Ubuntu24.04/Python3.13 pending",
+  "native_permissions": "workspace-write under /Users/Shared and temporary directories; .git mutation reviewed by native tool approvals",
+  "actual_model": null,
+  "tokens": null,
+  "cost": null
+}

@@ -1,0 +1,2101 @@
+{
+  "case_count": 235,
+  "mode": "candidate",
+  "passing_cases": 235,
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "python": "3.15.0 (main, Oct  9 2026, 11:16:41) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "qualified": true,
+  "results": [
+    {
+      "actual_valid": true,
+      "case": "review_in_review_subject",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "blocked_by_ready_unaccepted",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000002"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "blocked_by_in_progress_unaccepted",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000002"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "requires_ready_unaccepted",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000002"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "requires_in_progress_unaccepted",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000002"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "awaits_approval_ready_unaccepted",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000002"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "awaits_approval_in_progress_unaccepted",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000002"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "awaits_condition_ready_unaccepted",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000002"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "awaits_condition_in_progress_unaccepted",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000002"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "missing_review_subject",
+      "errors": [
+        "TASK-000001: missing dependency TASK-000002"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "self_dependency_blocked_by",
+      "errors": [
+        "TASK-000001: dependency self-link",
+        "TASK-000001: unsatisfied prerequisite TASK-000001",
+        "TASK-000001: dependency/hierarchy cycle"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "self_dependency_requires",
+      "errors": [
+        "TASK-000001: dependency self-link",
+        "TASK-000001: unsatisfied prerequisite TASK-000001",
+        "TASK-000001: dependency/hierarchy cycle"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "self_dependency_validates",
+      "errors": [
+        "TASK-000001: dependency self-link"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "self_dependency_awaits_approval",
+      "errors": [
+        "TASK-000001: dependency self-link",
+        "TASK-000001: unsatisfied prerequisite TASK-000001",
+        "TASK-000001: dependency/hierarchy cycle"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "self_dependency_awaits_condition",
+      "errors": [
+        "TASK-000001: dependency self-link",
+        "TASK-000001: unsatisfied prerequisite TASK-000001",
+        "TASK-000001: dependency/hierarchy cycle"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "self_dependency_parent_of",
+      "errors": [
+        "TASK-000001: dependency self-link"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "self_dependency_discovered_from",
+      "errors": [
+        "TASK-000001: dependency self-link"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "self_dependency_supersedes",
+      "errors": [
+        "TASK-000001: dependency self-link"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "self_dependency_related_to",
+      "errors": [
+        "TASK-000001: dependency self-link"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "parent_selflink",
+      "errors": [
+        "TASK-000001: dependency/hierarchy cycle"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "parent_cycle",
+      "errors": [
+        "TASK-000001: dependency/hierarchy cycle"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "blocked_by_cycle",
+      "errors": [
+        "TASK-000001: dependency/hierarchy cycle"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "blocked_by_accepted_subject",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "requires_cycle",
+      "errors": [
+        "TASK-000001: dependency/hierarchy cycle"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "requires_accepted_subject",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "review_guard_Authorized",
+      "errors": [
+        "TASK-000001: not authorized"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "review_guard_Plan Approval",
+      "errors": [
+        "TASK-000001: missing approved plan grant"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "review_guard_Budget Available",
+      "errors": [
+        "TASK-000001: budget or capability unavailable"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "review_guard_Capability Available",
+      "errors": [
+        "TASK-000001: budget or capability unavailable"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "task_in_requirements",
+      "errors": [
+        "requirements/organization/TASK-000001.md: wrong record-family directory for TASK-000001"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "requirement_in_tasks",
+      "errors": [
+        "tasks/organization/REQ-000001.md: wrong record-family directory for REQ-000001"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_REQ",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "family_wrong_REQ",
+      "errors": [
+        "tasks/organization/REQ-000001.md: wrong record-family directory for REQ-000001"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_TASK",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "family_wrong_TASK",
+      "errors": [
+        "requirements/organization/TASK-000001.md: wrong record-family directory for TASK-000001"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_RUN",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "family_wrong_RUN",
+      "errors": [
+        "tasks/organization/RUN-000001.md: wrong record-family directory for RUN-000001"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_APP",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "family_wrong_APP",
+      "errors": [
+        "tasks/organization/APP-000001.md: wrong record-family directory for APP-000001"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_DEC",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "family_wrong_DEC",
+      "errors": [
+        "tasks/organization/DEC-000001.md: wrong record-family directory for DEC-000001"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_EVAL",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "family_wrong_EVAL",
+      "errors": [
+        "tasks/organization/EVAL-000001.md: wrong record-family directory for EVAL-000001"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_EXP",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "family_wrong_EXP",
+      "errors": [
+        "tasks/organization/EXP-000001.md: wrong record-family directory for EXP-000001"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_ART",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "family_wrong_ART",
+      "errors": [
+        "tasks/organization/ART-000001.md: wrong record-family directory for ART-000001"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_INIT",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "family_wrong_INIT",
+      "errors": [
+        "tasks/organization/INIT-000001.md: wrong record-family directory for INIT-000001"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_INTENT",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "family_wrong_INTENT",
+      "errors": [
+        "tasks/organization/INTENT-000001.md: wrong record-family directory for INTENT-000001"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_PLAN",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "family_wrong_PLAN",
+      "errors": [
+        "tasks/organization/PLAN-000001.md: wrong record-family directory for PLAN-000001"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_WF",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "family_wrong_WF",
+      "errors": [
+        "tasks/organization/WF-000001.md: wrong record-family directory for WF-000001"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_CAP",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "family_wrong_CAP",
+      "errors": [
+        "tasks/organization/CAP-000001.md: wrong record-family directory for CAP-000001"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_TRG",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "family_wrong_TRG",
+      "errors": [
+        "tasks/organization/TRG-000001.md: wrong record-family directory for TRG-000001"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "canonical_TASK_flat",
+      "errors": [
+        "tasks/TASK-000001.md: missing/invalid canonical target directory"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "canonical_TASK_/unknown",
+      "errors": [
+        "tasks/unknown/TASK-000001.md: missing/invalid canonical target directory"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "canonical_TASK_/cross_boundary",
+      "errors": [
+        "tasks/cross_boundary/TASK-000001.md: missing/invalid canonical target directory"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "canonical_TASK_/organization/deeper",
+      "errors": [
+        "tasks/organization/deeper/TASK-000001.md: missing/invalid canonical target directory"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "canonical_REQ_flat",
+      "errors": [
+        "requirements/REQ-000001.md: missing/invalid canonical target directory"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "canonical_REQ_/unknown",
+      "errors": [
+        "requirements/unknown/REQ-000001.md: missing/invalid canonical target directory"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "canonical_REQ_/cross_boundary",
+      "errors": [
+        "requirements/cross_boundary/REQ-000001.md: missing/invalid canonical target directory"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "canonical_REQ_/organization/deeper",
+      "errors": [
+        "requirements/organization/deeper/REQ-000001.md: missing/invalid canonical target directory"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_REQ_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_REQ_organization_in_project",
+      "errors": [
+        "requirements/project/REQ-000001.md: wrong classification directory for Target System",
+        "requirements/project/REQ-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_REQ_organization_in_cross-boundary",
+      "errors": [
+        "requirements/cross-boundary/REQ-000001.md: wrong classification directory for Target System",
+        "requirements/cross-boundary/REQ-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_REQ_organization",
+      "errors": [
+        "requirements/organization/REQ-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_REQ_project_in_organization",
+      "errors": [
+        "requirements/organization/REQ-000001.md: wrong classification directory for Target System",
+        "requirements/organization/REQ-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_REQ_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_REQ_project_in_cross-boundary",
+      "errors": [
+        "requirements/cross-boundary/REQ-000001.md: wrong classification directory for Target System",
+        "requirements/cross-boundary/REQ-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_REQ_project",
+      "errors": [
+        "requirements/project/REQ-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_REQ_cross_boundary_in_organization",
+      "errors": [
+        "requirements/organization/REQ-000001.md: wrong classification directory for Target System",
+        "requirements/organization/REQ-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_REQ_cross_boundary_in_project",
+      "errors": [
+        "requirements/project/REQ-000001.md: wrong classification directory for Target System",
+        "requirements/project/REQ-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_REQ_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_REQ_cross_boundary",
+      "errors": [
+        "requirements/cross-boundary/REQ-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_TASK_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_TASK_organization_in_project",
+      "errors": [
+        "tasks/project/TASK-000001.md: wrong classification directory for Target System",
+        "tasks/project/TASK-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_TASK_organization_in_cross-boundary",
+      "errors": [
+        "tasks/cross-boundary/TASK-000001.md: wrong classification directory for Target System",
+        "tasks/cross-boundary/TASK-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_TASK_organization",
+      "errors": [
+        "tasks/organization/TASK-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_TASK_project_in_organization",
+      "errors": [
+        "tasks/organization/TASK-000001.md: wrong classification directory for Target System",
+        "tasks/organization/TASK-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_TASK_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_TASK_project_in_cross-boundary",
+      "errors": [
+        "tasks/cross-boundary/TASK-000001.md: wrong classification directory for Target System",
+        "tasks/cross-boundary/TASK-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_TASK_project",
+      "errors": [
+        "tasks/project/TASK-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_TASK_cross_boundary_in_organization",
+      "errors": [
+        "tasks/organization/TASK-000001.md: wrong classification directory for Target System",
+        "tasks/organization/TASK-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_TASK_cross_boundary_in_project",
+      "errors": [
+        "tasks/project/TASK-000001.md: wrong classification directory for Target System",
+        "tasks/project/TASK-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_TASK_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_TASK_cross_boundary",
+      "errors": [
+        "tasks/cross-boundary/TASK-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_RUN_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_RUN_organization_in_project",
+      "errors": [
+        "runs/project/RUN-000001.md: wrong classification directory for Target System",
+        "runs/project/RUN-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_RUN_organization_in_cross-boundary",
+      "errors": [
+        "runs/cross-boundary/RUN-000001.md: wrong classification directory for Target System",
+        "runs/cross-boundary/RUN-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_RUN_organization",
+      "errors": [
+        "runs/organization/RUN-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_RUN_project_in_organization",
+      "errors": [
+        "runs/organization/RUN-000001.md: wrong classification directory for Target System",
+        "runs/organization/RUN-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_RUN_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_RUN_project_in_cross-boundary",
+      "errors": [
+        "runs/cross-boundary/RUN-000001.md: wrong classification directory for Target System",
+        "runs/cross-boundary/RUN-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_RUN_project",
+      "errors": [
+        "runs/project/RUN-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_RUN_cross_boundary_in_organization",
+      "errors": [
+        "runs/organization/RUN-000001.md: wrong classification directory for Target System",
+        "runs/organization/RUN-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_RUN_cross_boundary_in_project",
+      "errors": [
+        "runs/project/RUN-000001.md: wrong classification directory for Target System",
+        "runs/project/RUN-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_RUN_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_RUN_cross_boundary",
+      "errors": [
+        "runs/cross-boundary/RUN-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_APP_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_APP_organization_in_project",
+      "errors": [
+        "approvals/project/APP-000001.md: wrong classification directory for Target System",
+        "approvals/project/APP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_APP_organization_in_cross-boundary",
+      "errors": [
+        "approvals/cross-boundary/APP-000001.md: wrong classification directory for Target System",
+        "approvals/cross-boundary/APP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_APP_organization",
+      "errors": [
+        "approvals/organization/APP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_APP_project_in_organization",
+      "errors": [
+        "approvals/organization/APP-000001.md: wrong classification directory for Target System",
+        "approvals/organization/APP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_APP_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_APP_project_in_cross-boundary",
+      "errors": [
+        "approvals/cross-boundary/APP-000001.md: wrong classification directory for Target System",
+        "approvals/cross-boundary/APP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_APP_project",
+      "errors": [
+        "approvals/project/APP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_APP_cross_boundary_in_organization",
+      "errors": [
+        "approvals/organization/APP-000001.md: wrong classification directory for Target System",
+        "approvals/organization/APP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_APP_cross_boundary_in_project",
+      "errors": [
+        "approvals/project/APP-000001.md: wrong classification directory for Target System",
+        "approvals/project/APP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_APP_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_APP_cross_boundary",
+      "errors": [
+        "approvals/cross-boundary/APP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_DEC_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_DEC_organization_in_project",
+      "errors": [
+        "decisions/project/DEC-000001.md: wrong classification directory for Target System",
+        "decisions/project/DEC-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_DEC_organization_in_cross-boundary",
+      "errors": [
+        "decisions/cross-boundary/DEC-000001.md: wrong classification directory for Target System",
+        "decisions/cross-boundary/DEC-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_DEC_organization",
+      "errors": [
+        "decisions/organization/DEC-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_DEC_project_in_organization",
+      "errors": [
+        "decisions/organization/DEC-000001.md: wrong classification directory for Target System",
+        "decisions/organization/DEC-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_DEC_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_DEC_project_in_cross-boundary",
+      "errors": [
+        "decisions/cross-boundary/DEC-000001.md: wrong classification directory for Target System",
+        "decisions/cross-boundary/DEC-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_DEC_project",
+      "errors": [
+        "decisions/project/DEC-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_DEC_cross_boundary_in_organization",
+      "errors": [
+        "decisions/organization/DEC-000001.md: wrong classification directory for Target System",
+        "decisions/organization/DEC-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_DEC_cross_boundary_in_project",
+      "errors": [
+        "decisions/project/DEC-000001.md: wrong classification directory for Target System",
+        "decisions/project/DEC-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_DEC_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_DEC_cross_boundary",
+      "errors": [
+        "decisions/cross-boundary/DEC-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_EVAL_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_EVAL_organization_in_project",
+      "errors": [
+        "evaluations/project/EVAL-000001.md: wrong classification directory for Target System",
+        "evaluations/project/EVAL-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_EVAL_organization_in_cross-boundary",
+      "errors": [
+        "evaluations/cross-boundary/EVAL-000001.md: wrong classification directory for Target System",
+        "evaluations/cross-boundary/EVAL-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_EVAL_organization",
+      "errors": [
+        "evaluations/organization/EVAL-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_EVAL_project_in_organization",
+      "errors": [
+        "evaluations/organization/EVAL-000001.md: wrong classification directory for Target System",
+        "evaluations/organization/EVAL-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_EVAL_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_EVAL_project_in_cross-boundary",
+      "errors": [
+        "evaluations/cross-boundary/EVAL-000001.md: wrong classification directory for Target System",
+        "evaluations/cross-boundary/EVAL-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_EVAL_project",
+      "errors": [
+        "evaluations/project/EVAL-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_EVAL_cross_boundary_in_organization",
+      "errors": [
+        "evaluations/organization/EVAL-000001.md: wrong classification directory for Target System",
+        "evaluations/organization/EVAL-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_EVAL_cross_boundary_in_project",
+      "errors": [
+        "evaluations/project/EVAL-000001.md: wrong classification directory for Target System",
+        "evaluations/project/EVAL-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_EVAL_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_EVAL_cross_boundary",
+      "errors": [
+        "evaluations/cross-boundary/EVAL-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_EXP_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_EXP_organization_in_project",
+      "errors": [
+        "experiments/project/EXP-000001.md: wrong classification directory for Target System",
+        "experiments/project/EXP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_EXP_organization_in_cross-boundary",
+      "errors": [
+        "experiments/cross-boundary/EXP-000001.md: wrong classification directory for Target System",
+        "experiments/cross-boundary/EXP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_EXP_organization",
+      "errors": [
+        "experiments/organization/EXP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_EXP_project_in_organization",
+      "errors": [
+        "experiments/organization/EXP-000001.md: wrong classification directory for Target System",
+        "experiments/organization/EXP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_EXP_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_EXP_project_in_cross-boundary",
+      "errors": [
+        "experiments/cross-boundary/EXP-000001.md: wrong classification directory for Target System",
+        "experiments/cross-boundary/EXP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_EXP_project",
+      "errors": [
+        "experiments/project/EXP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_EXP_cross_boundary_in_organization",
+      "errors": [
+        "experiments/organization/EXP-000001.md: wrong classification directory for Target System",
+        "experiments/organization/EXP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_EXP_cross_boundary_in_project",
+      "errors": [
+        "experiments/project/EXP-000001.md: wrong classification directory for Target System",
+        "experiments/project/EXP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_EXP_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_EXP_cross_boundary",
+      "errors": [
+        "experiments/cross-boundary/EXP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_ART_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_ART_organization_in_project",
+      "errors": [
+        "artifacts/project/ART-000001.md: wrong classification directory for Target System",
+        "artifacts/project/ART-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_ART_organization_in_cross-boundary",
+      "errors": [
+        "artifacts/cross-boundary/ART-000001.md: wrong classification directory for Target System",
+        "artifacts/cross-boundary/ART-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_ART_organization",
+      "errors": [
+        "artifacts/organization/ART-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_ART_project_in_organization",
+      "errors": [
+        "artifacts/organization/ART-000001.md: wrong classification directory for Target System",
+        "artifacts/organization/ART-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_ART_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_ART_project_in_cross-boundary",
+      "errors": [
+        "artifacts/cross-boundary/ART-000001.md: wrong classification directory for Target System",
+        "artifacts/cross-boundary/ART-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_ART_project",
+      "errors": [
+        "artifacts/project/ART-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_ART_cross_boundary_in_organization",
+      "errors": [
+        "artifacts/organization/ART-000001.md: wrong classification directory for Target System",
+        "artifacts/organization/ART-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_ART_cross_boundary_in_project",
+      "errors": [
+        "artifacts/project/ART-000001.md: wrong classification directory for Target System",
+        "artifacts/project/ART-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_ART_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_ART_cross_boundary",
+      "errors": [
+        "artifacts/cross-boundary/ART-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_INIT_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_INIT_organization_in_project",
+      "errors": [
+        "initiatives/project/INIT-000001.md: wrong classification directory for Target System",
+        "initiatives/project/INIT-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_INIT_organization_in_cross-boundary",
+      "errors": [
+        "initiatives/cross-boundary/INIT-000001.md: wrong classification directory for Target System",
+        "initiatives/cross-boundary/INIT-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_INIT_organization",
+      "errors": [
+        "initiatives/organization/INIT-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_INIT_project_in_organization",
+      "errors": [
+        "initiatives/organization/INIT-000001.md: wrong classification directory for Target System",
+        "initiatives/organization/INIT-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_INIT_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_INIT_project_in_cross-boundary",
+      "errors": [
+        "initiatives/cross-boundary/INIT-000001.md: wrong classification directory for Target System",
+        "initiatives/cross-boundary/INIT-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_INIT_project",
+      "errors": [
+        "initiatives/project/INIT-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_INIT_cross_boundary_in_organization",
+      "errors": [
+        "initiatives/organization/INIT-000001.md: wrong classification directory for Target System",
+        "initiatives/organization/INIT-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_INIT_cross_boundary_in_project",
+      "errors": [
+        "initiatives/project/INIT-000001.md: wrong classification directory for Target System",
+        "initiatives/project/INIT-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_INIT_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_INIT_cross_boundary",
+      "errors": [
+        "initiatives/cross-boundary/INIT-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_INTENT_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_INTENT_organization_in_project",
+      "errors": [
+        "intents/project/INTENT-000001.md: wrong classification directory for Target System",
+        "intents/project/INTENT-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_INTENT_organization_in_cross-boundary",
+      "errors": [
+        "intents/cross-boundary/INTENT-000001.md: wrong classification directory for Target System",
+        "intents/cross-boundary/INTENT-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_INTENT_organization",
+      "errors": [
+        "intents/organization/INTENT-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_INTENT_project_in_organization",
+      "errors": [
+        "intents/organization/INTENT-000001.md: wrong classification directory for Target System",
+        "intents/organization/INTENT-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_INTENT_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_INTENT_project_in_cross-boundary",
+      "errors": [
+        "intents/cross-boundary/INTENT-000001.md: wrong classification directory for Target System",
+        "intents/cross-boundary/INTENT-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_INTENT_project",
+      "errors": [
+        "intents/project/INTENT-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_INTENT_cross_boundary_in_organization",
+      "errors": [
+        "intents/organization/INTENT-000001.md: wrong classification directory for Target System",
+        "intents/organization/INTENT-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_INTENT_cross_boundary_in_project",
+      "errors": [
+        "intents/project/INTENT-000001.md: wrong classification directory for Target System",
+        "intents/project/INTENT-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_INTENT_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_INTENT_cross_boundary",
+      "errors": [
+        "intents/cross-boundary/INTENT-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_PLAN_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_PLAN_organization_in_project",
+      "errors": [
+        "plans/project/PLAN-000001.md: wrong classification directory for Target System",
+        "plans/project/PLAN-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_PLAN_organization_in_cross-boundary",
+      "errors": [
+        "plans/cross-boundary/PLAN-000001.md: wrong classification directory for Target System",
+        "plans/cross-boundary/PLAN-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_PLAN_organization",
+      "errors": [
+        "plans/organization/PLAN-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_PLAN_project_in_organization",
+      "errors": [
+        "plans/organization/PLAN-000001.md: wrong classification directory for Target System",
+        "plans/organization/PLAN-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_PLAN_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_PLAN_project_in_cross-boundary",
+      "errors": [
+        "plans/cross-boundary/PLAN-000001.md: wrong classification directory for Target System",
+        "plans/cross-boundary/PLAN-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_PLAN_project",
+      "errors": [
+        "plans/project/PLAN-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_PLAN_cross_boundary_in_organization",
+      "errors": [
+        "plans/organization/PLAN-000001.md: wrong classification directory for Target System",
+        "plans/organization/PLAN-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_PLAN_cross_boundary_in_project",
+      "errors": [
+        "plans/project/PLAN-000001.md: wrong classification directory for Target System",
+        "plans/project/PLAN-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_PLAN_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_PLAN_cross_boundary",
+      "errors": [
+        "plans/cross-boundary/PLAN-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_WF_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_WF_organization_in_project",
+      "errors": [
+        "workflows/project/WF-000001.md: wrong classification directory for Target System",
+        "workflows/project/WF-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_WF_organization_in_cross-boundary",
+      "errors": [
+        "workflows/cross-boundary/WF-000001.md: wrong classification directory for Target System",
+        "workflows/cross-boundary/WF-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_WF_organization",
+      "errors": [
+        "workflows/organization/WF-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_WF_project_in_organization",
+      "errors": [
+        "workflows/organization/WF-000001.md: wrong classification directory for Target System",
+        "workflows/organization/WF-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_WF_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_WF_project_in_cross-boundary",
+      "errors": [
+        "workflows/cross-boundary/WF-000001.md: wrong classification directory for Target System",
+        "workflows/cross-boundary/WF-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_WF_project",
+      "errors": [
+        "workflows/project/WF-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_WF_cross_boundary_in_organization",
+      "errors": [
+        "workflows/organization/WF-000001.md: wrong classification directory for Target System",
+        "workflows/organization/WF-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_WF_cross_boundary_in_project",
+      "errors": [
+        "workflows/project/WF-000001.md: wrong classification directory for Target System",
+        "workflows/project/WF-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_WF_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_WF_cross_boundary",
+      "errors": [
+        "workflows/cross-boundary/WF-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_CAP_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_CAP_organization_in_project",
+      "errors": [
+        "capabilities/project/CAP-000001.md: wrong classification directory for Target System",
+        "capabilities/project/CAP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_CAP_organization_in_cross-boundary",
+      "errors": [
+        "capabilities/cross-boundary/CAP-000001.md: wrong classification directory for Target System",
+        "capabilities/cross-boundary/CAP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_CAP_organization",
+      "errors": [
+        "capabilities/organization/CAP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_CAP_project_in_organization",
+      "errors": [
+        "capabilities/organization/CAP-000001.md: wrong classification directory for Target System",
+        "capabilities/organization/CAP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_CAP_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_CAP_project_in_cross-boundary",
+      "errors": [
+        "capabilities/cross-boundary/CAP-000001.md: wrong classification directory for Target System",
+        "capabilities/cross-boundary/CAP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_CAP_project",
+      "errors": [
+        "capabilities/project/CAP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_CAP_cross_boundary_in_organization",
+      "errors": [
+        "capabilities/organization/CAP-000001.md: wrong classification directory for Target System",
+        "capabilities/organization/CAP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_CAP_cross_boundary_in_project",
+      "errors": [
+        "capabilities/project/CAP-000001.md: wrong classification directory for Target System",
+        "capabilities/project/CAP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_CAP_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_CAP_cross_boundary",
+      "errors": [
+        "capabilities/cross-boundary/CAP-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_TRG_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_TRG_organization_in_project",
+      "errors": [
+        "triggers/project/TRG-000001.md: wrong classification directory for Target System",
+        "triggers/project/TRG-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_TRG_organization_in_cross-boundary",
+      "errors": [
+        "triggers/cross-boundary/TRG-000001.md: wrong classification directory for Target System",
+        "triggers/cross-boundary/TRG-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_TRG_organization",
+      "errors": [
+        "triggers/organization/TRG-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_TRG_project_in_organization",
+      "errors": [
+        "triggers/organization/TRG-000001.md: wrong classification directory for Target System",
+        "triggers/organization/TRG-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_TRG_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_TRG_project_in_cross-boundary",
+      "errors": [
+        "triggers/cross-boundary/TRG-000001.md: wrong classification directory for Target System",
+        "triggers/cross-boundary/TRG-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_TRG_project",
+      "errors": [
+        "triggers/project/TRG-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_TRG_cross_boundary_in_organization",
+      "errors": [
+        "triggers/organization/TRG-000001.md: wrong classification directory for Target System",
+        "triggers/organization/TRG-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_TRG_cross_boundary_in_project",
+      "errors": [
+        "triggers/project/TRG-000001.md: wrong classification directory for Target System",
+        "triggers/project/TRG-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_TRG_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "class_metadata_TRG_cross_boundary",
+      "errors": [
+        "triggers/cross-boundary/TRG-000001.md: wrong classification directory for Change Classification"
+      ],
+      "expected_valid": false,
+      "passed": true
+    }
+  ],
+  "source_sha256": "e4bc284cececd7dcb02733eac5edf6a23209ba0b898cd17397facdcc36a35f08",
+  "workload_sha256": "dd7e110de12d8d92cd8b77efeef614bc317800e69634cf444b0c689df4f9205f"
+}

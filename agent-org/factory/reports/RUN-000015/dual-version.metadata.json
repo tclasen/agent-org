@@ -1,0 +1,13 @@
+{
+  "args": [
+    "python3",
+    "-B",
+    "/Users/Shared/agent-org/factory/tests/test_gate_regressions.py",
+    "--replay-json"
+  ],
+  "exit": 0,
+  "started_at": "2026-10-21T20:52:11.464646+00:00",
+  "seconds": 0.2566122499993071,
+  "stdout_sha256": "75787be4917160fbc46b963fa6ecb95eb6af3270843ccca3be7747ea9e682a4f",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

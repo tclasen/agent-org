@@ -1,0 +1,20 @@
+{
+  "started_at": "2026-10-21T20:44:02.138423+00:00",
+  "completed_at": "2026-10-21T20:44:02.161028+00:00",
+  "isolated_copy_only": true,
+  "initial_sha256": "8a7d94a6c357ced0086bb20cf5f9a53bd490f039c374b53a31453373fe3b2fa1",
+  "candidate_sha256": "e4bc284cececd7dcb02733eac5edf6a23209ba0b898cd17397facdcc36a35f08",
+  "restored_sha256": "8a7d94a6c357ced0086bb20cf5f9a53bd490f039c374b53a31453373fe3b2fa1",
+  "restored_byte_equal_baseline": true,
+  "shared_candidate_unchanged": true,
+  "pinned_artifacts_verified": {
+    "factory/baselines/EXP-000001/records.py": "8a7d94a6c357ced0086bb20cf5f9a53bd490f039c374b53a31453373fe3b2fa1",
+    "factory/instrumentation/records.py": "e4bc284cececd7dcb02733eac5edf6a23209ba0b898cd17397facdcc36a35f08",
+    "factory/tests/test_validator_regressions.py": "dd7e110de12d8d92cd8b77efeef614bc317800e69634cf444b0c689df4f9205f",
+    "factory/tests/test_records.py": "d82018e58d0b22f865f455a27fb905d598d130b701710a8f7f6256253d8e2db9",
+    "shared/WORK_GRAPH.md": "cdd27373777e73ce61f06520ac5d078c234fc77ab8e20cbd2282024e8d32219f",
+    "factory/quality-gates/improvement.py": "993eb4ebef688d603b68a28bcba1f0b4e83eb6c7909f2f8e56dbf49b676ace0b"
+  },
+  "temporary_trial_cleaned": true,
+  "exit_code": 0
+}

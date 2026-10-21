@@ -1,0 +1,57 @@
+{
+  "files": {
+    "benchmarks/efficiency.json": {
+      "sha256": "94dbba235889cd01477f5909ea39b31e0251669ac9045b7704c6e43c57732d81",
+      "source": "baselines/gate-1.0.0/efficiency.json"
+    },
+    "benchmarks/repair.json": {
+      "sha256": "6d67129111ed5d3e6ff607400e947c856c76e4364cb1bac9ae5919807914b29e",
+      "source": "baselines/gate-1.0.0/repair.json"
+    },
+    "dora/calculator.py": {
+      "sha256": "dc18dd59a7b41052227359df1dddb4ce0bb46e0867787f77f83b7f082c6f3057",
+      "source": "baselines/dora-1.0.0/calculator.py"
+    },
+    "dora/fixtures/classification.json": {
+      "sha256": "8d98fda46eec817959ed8c619631528db221df540c376fcfcb67f22919bde7b8",
+      "source": "baselines/dora-1.0.0/classification.json"
+    },
+    "dora/fixtures/events.json": {
+      "sha256": "3c9d618e86c19ce48c4d292d4a8221d7994b14b98f77adcc059c32f1b81d97f8",
+      "source": "baselines/dora-1.0.0/events.json"
+    },
+    "dora/fixtures/expected.json": {
+      "sha256": "cfcb40eca9c010e813329f9cba39f2d32802af3b9fcf427aa0fc7f7ec3e9ac97",
+      "source": "baselines/dora-1.0.0/expected.json"
+    },
+    "instrumentation/__init__.py": {
+      "sha256": "89879b7607289db6d24637d9588a4a04193317c972ea7d4cda53599ffa2bc676",
+      "source": "instrumentation/__init__.py"
+    },
+    "instrumentation/common.py": {
+      "sha256": "8c753fb410b3094f53c5e387c023adaf4c6e56f37e766a84959c3ab80a6e8fce",
+      "source": "instrumentation/common.py"
+    },
+    "instrumentation/events.py": {
+      "sha256": "9d3c83278f8618bda57925298131968840f6cd9a286181c48e4a5234fb9ad7d4",
+      "source": "instrumentation/events.py"
+    },
+    "metrics/scorecards.py": {
+      "sha256": "d71543fd80cb7c8d7bb161d4ad9d458549636c0ff2ede5b31b6dbcf49fc2b551",
+      "source": "metrics/scorecards.py"
+    },
+    "quality-gates/improvement.py": {
+      "sha256": "993eb4ebef688d603b68a28bcba1f0b4e83eb6c7909f2f8e56dbf49b676ace0b",
+      "source": "baselines/gate-1.0.0/improvement.py"
+    },
+    "tests/test_dora.py": {
+      "sha256": "79ea4c81ccd73ab70dbf38a5372b48c5a6952852c5b58d2065d703223badd34a",
+      "source": "baselines/dora-1.0.0/test_dora.py"
+    },
+    "tests/test_improvement.py": {
+      "sha256": "21fe892268b6ffc59ad434ce63878956c6a10369222953d9b5c3cb26867b2d9d",
+      "source": "baselines/gate-1.0.0/test_improvement.py"
+    }
+  },
+  "method": "Copy only fourteen enumerated required retained sources/fixtures and unchanged dependencies; no whole factory or Git directory copied"
+}

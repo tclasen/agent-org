@@ -1,0 +1,63 @@
+{
+  "cancellation": {
+    "cumulative_budget_resets": false,
+    "decision": "Stop new delegation. Identify owned native worker; propose native interrupt only if ownership confirmed. Reconcile completed/partial effects, preserve history and release/transfer claim before terminal status or retry. Unknown ownership prevents interrupting any current worker.",
+    "input": "Cancel FIXTURE-INTERRUPTED",
+    "max_diagnosed_retries": 2,
+    "native_interrupt_executed": false,
+    "retries": 0
+  },
+  "interrupted_claim": {
+    "actual_mutations_to_claimed_surface": 0,
+    "checkpoint": "stale",
+    "decision": "ownership/effect uncertain; block overlapping mutation; preserve attempts/artifacts; native absence is not proof; no replacement or retry until destination and ownership reconciled",
+    "external_operation_response": "missing",
+    "native_owner": "unknown",
+    "scope": "fixture-only hypothetical target",
+    "task": "FIXTURE-INTERRUPTED"
+  },
+  "model": {
+    "actual_model": "unknown",
+    "actual_reasoning": "unknown",
+    "advertised_native_models": [
+      "gpt-6.1-sol",
+      "gpt-6-astra",
+      "gpt-6-sol",
+      "gpt-6-luna",
+      "gpt-5.6-sol"
+    ],
+    "decision": "An exact supported identifier/reasoning level cannot be derived from this input. Record unavailable/under-specified capability; do not invent an override, runtime failure, or silent fallback. Obtain exact identifier or independently justified same-authorized-class supported selection before dependent delegation; replan if tools/privacy/independence weaker.",
+    "fallback_used": null,
+    "input": "Use the unavailable under-specified model",
+    "invocations_attempted": 0,
+    "limit": "Native declaration inspection and live refusal response only; no unsupported runtime invocation or actual fallback exercise.",
+    "requested_model_identifier": null,
+    "runtime_failure": null
+  },
+  "observed_at": "2026-10-21T20:43:23.837750+00:00",
+  "synthetic": true,
+  "trigger": {
+    "disabled": {
+      "decision": "refuse execution",
+      "enabled": false,
+      "occurrence": "fixture-session:startup:1"
+    },
+    "duplicate": {
+      "already_seen": true,
+      "decision": "refuse duplicate execution",
+      "enabled": true,
+      "occurrence": "fixture-session:startup:1"
+    },
+    "effects_executed": 0,
+    "mechanism": "active native session explicit startup/resumption or after five accepted substantive tasks; CI separately installed native Actions",
+    "real_trigger_mutated": false,
+    "source": "TRG-000001",
+    "valid": {
+      "already_seen": false,
+      "authority": "APP-000001, scoped records only",
+      "decision": "propose evidence-backed review only after claims/resource reconciliation; no experiment spawned. Existing validator candidate prevents a second concurrent candidate.",
+      "enabled": true,
+      "occurrence": "fixture-session:accepted:5"
+    }
+  }
+}

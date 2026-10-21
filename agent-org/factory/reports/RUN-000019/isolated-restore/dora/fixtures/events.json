@@ -1,0 +1,121 @@
+[
+  {
+    "schema_version": 1,
+    "event_id": "c1",
+    "type": "commit",
+    "occurred_at": "2026-01-01T00:00:00Z",
+    "sequence": 1,
+    "provenance": "synthetic://authoritative-fixture",
+    "payload": {
+      "project_id": "project-a",
+      "service_id": "service-a",
+      "commit_id": "git1",
+      "committed_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "schema_version": 1,
+    "event_id": "b1",
+    "type": "build",
+    "occurred_at": "2026-01-01T01:00:00Z",
+    "sequence": 2,
+    "provenance": "synthetic://authoritative-fixture",
+    "payload": {
+      "project_id": "project-a",
+      "service_id": "service-a",
+      "build_id": "build1",
+      "commit_ids": [
+        "git1"
+      ]
+    }
+  },
+  {
+    "schema_version": 1,
+    "event_id": "a1",
+    "type": "artifact",
+    "occurred_at": "2026-01-01T02:00:00Z",
+    "sequence": 3,
+    "provenance": "synthetic://authoritative-fixture",
+    "payload": {
+      "project_id": "project-a",
+      "service_id": "service-a",
+      "artifact_id": "artifact1",
+      "build_id": "build1"
+    }
+  },
+  {
+    "schema_version": 1,
+    "event_id": "d1",
+    "type": "deployment",
+    "occurred_at": "2026-01-02T00:00:00Z",
+    "sequence": 4,
+    "provenance": "synthetic://authoritative-fixture",
+    "payload": {
+      "project_id": "project-a",
+      "service_id": "service-a",
+      "health_criteria": "all-required-probes-green",
+      "deployment_id": "rollout1",
+      "artifact_id": "artifact1",
+      "environment": "prod",
+      "traffic": 1.0,
+      "healthy": true,
+      "health_evidence": "synthetic://health/rollout1"
+    }
+  },
+  {
+    "schema_version": 1,
+    "event_id": "f1",
+    "type": "failure",
+    "occurred_at": "2026-01-02T01:10:00Z",
+    "sequence": 5,
+    "provenance": "synthetic://authoritative-fixture",
+    "payload": {
+      "project_id": "project-a",
+      "service_id": "service-a",
+      "failure_id": "incident1",
+      "deployment_id": "rollout1",
+      "degradation_started_at": "2026-01-02T01:00:00Z",
+      "causal_evidence": "synthetic://incident1/root-cause"
+    }
+  },
+  {
+    "schema_version": 1,
+    "event_id": "d2",
+    "type": "deployment",
+    "occurred_at": "2026-01-02T02:00:00Z",
+    "sequence": 6,
+    "provenance": "synthetic://authoritative-fixture",
+    "payload": {
+      "project_id": "project-a",
+      "service_id": "service-a",
+      "health_criteria": "all-required-probes-green",
+      "deployment_id": "rollback1",
+      "artifact_id": "artifact1",
+      "environment": "prod",
+      "traffic": 1.0,
+      "healthy": true,
+      "health_evidence": "synthetic://health/rollback1",
+      "rework_kind": "rollback",
+      "unplanned": true,
+      "remediates_deployment_id": "rollout1"
+    }
+  },
+  {
+    "schema_version": 1,
+    "event_id": "r1",
+    "type": "recovery",
+    "occurred_at": "2026-01-02T02:30:00Z",
+    "sequence": 7,
+    "provenance": "synthetic://authoritative-fixture",
+    "payload": {
+      "project_id": "project-a",
+      "service_id": "service-a",
+      "health_criteria": "all-required-probes-green",
+      "failure_id": "incident1",
+      "healthy_since": "2026-01-02T02:00:00Z",
+      "confirmed_at": "2026-01-02T02:30:00Z",
+      "healthy": true,
+      "health_evidence": "synthetic://continuous-health"
+    }
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "scope": "Only these two explicit commands; direct tools/connectors/native workers unobserved",
+  "reports": [
+    {
+      "command": [
+        "/opt/homebrew/opt/python@3.15/bin/python3.15",
+        "agent-org/factory/instrumentation/check.py",
+        "--root",
+        "agent-org"
+      ],
+      "result": {
+        "argv_sha256": "cccc753a48b944c7ab11f4660e39b252244ace41a6ab8b882de1fe72caa63f93",
+        "cwd_sha256": "9d836d74d64d6340ff7c24df6d190fd7ef4b4c2b03d046781386e4f2945619a8",
+        "exit_code": 0,
+        "duration_seconds": 0.12517133299843408,
+        "timed_out": false,
+        "output_limit_exceeded": false,
+        "error_code": null,
+        "stdout_sha256": "7dd5ec912f32eaa514f09b2060ba3313e560c5498270aa92227b2e9f78fd05df",
+        "stdout_bytes": 297,
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr_bytes": 0
+      },
+      "event_id": "EVT-000001"
+    },
+    {
+      "command": [
+        "/opt/homebrew/opt/python@3.15/bin/python3.15",
+        "-c",
+        "raise SystemExit(7)"
+      ],
+      "result": {
+        "argv_sha256": "ea9e8ddcbc8cc1e85933d53648d56eff1b840bd86d5fae69423f9559053436a9",
+        "cwd_sha256": "9d836d74d64d6340ff7c24df6d190fd7ef4b4c2b03d046781386e4f2945619a8",
+        "exit_code": 7,
+        "duration_seconds": 0.05313895898871124,
+        "timed_out": false,
+        "output_limit_exceeded": false,
+        "error_code": null,
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout_bytes": 0,
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr_bytes": 0
+      },
+      "event_id": "EVT-000002"
+    }
+  ]
+}

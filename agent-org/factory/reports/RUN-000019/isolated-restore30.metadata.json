@@ -1,0 +1,20 @@
+{
+  "args": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_*.py",
+    "-v"
+  ],
+  "cwd": "/private/tmp/RUN-000019-evidence/isolated-restore",
+  "exit": 0,
+  "started_at": "2026-10-21T21:06:03.475664+00:00",
+  "seconds": 0.42274870799155906,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "925a85612d5d88f8d83ef5ba266437de91d4ce60b3b325989f61a3f0c6ae45d5"
+}

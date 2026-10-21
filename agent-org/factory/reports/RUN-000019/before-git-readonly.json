@@ -1,0 +1,11 @@
+{
+  "command": [
+    "git",
+    "status",
+    "--porcelain=v1",
+    "--untracked-files=all"
+  ],
+  "exit": 128,
+  "stdout": "",
+  "stderr": "fatal: detected dubious ownership in repository at '/Users/Shared'\nTo add an exception for this directory, call:\n\n\tgit config --global --add safe.directory /Users/Shared\n"
+}

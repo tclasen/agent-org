@@ -1,0 +1,8 @@
+test_blank (test_title.TitleTests.test_blank) ... ok
+test_collapses_whitespace (test_title.TitleTests.test_collapses_whitespace) ... ok
+test_preserves_case (test_title.TitleTests.test_preserves_case) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK

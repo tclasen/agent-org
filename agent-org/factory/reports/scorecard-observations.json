@@ -1,0 +1,83 @@
+{
+  "organization": [
+    {
+      "task_class": "validator initial qualification",
+      "configuration": "requested:gpt-6.1-sol/high;actual:unknown",
+      "delegation_attempt": true,
+      "accepted": false,
+      "handoff_complete": true,
+      "retained_scenario_failed": true,
+      "observed_cost": null,
+      "source": "EVAL-000001"
+    },
+    {
+      "task_class": "validator repair",
+      "configuration": "requested:gpt-6.1-sol/high;actual:unknown",
+      "delegation_attempt": true,
+      "accepted": true,
+      "handoff_complete": true,
+      "retained_scenario_failed": false,
+      "observed_cost": null,
+      "source": "EVAL-000003/APP-000005"
+    },
+    {
+      "task_class": "measurement initial qualification",
+      "configuration": "requested:gpt-6.1-sol/high;actual:unknown",
+      "delegation_attempt": true,
+      "accepted": false,
+      "handoff_complete": true,
+      "retained_scenario_failed": true,
+      "observed_cost": null,
+      "source": "EVAL-000002"
+    },
+    {
+      "task_class": "enrollment writing initial",
+      "configuration": "requested:gpt-6-luna/medium;actual:unknown",
+      "delegation_attempt": true,
+      "accepted": false,
+      "handoff_complete": true,
+      "rework": true,
+      "observed_cost": null,
+      "source": "RUN-000012 initial guide rejection"
+    },
+    {
+      "task_class": "enrollment writing repair",
+      "configuration": "root-native;actual:unknown",
+      "delegation_attempt": false,
+      "accepted": true,
+      "handoff_complete": true,
+      "rework": true,
+      "observed_cost": null,
+      "source": "RUN-000012 guide addendum"
+    },
+    {
+      "task_class": "recovery qualification",
+      "configuration": "requested:gpt-6.1-sol/high;actual:unknown",
+      "delegation_attempt": true,
+      "recovery_resumed": true,
+      "accepted": null,
+      "handoff_complete": true,
+      "source": "RUN-000010; read-only reconstruction, no mutation resume claimed"
+    }
+  ],
+  "projects": {
+    "installation-alpha-synthetic": [
+      {
+        "requirement_satisfaction": true,
+        "correctness": true,
+        "user_acceptance": null
+      }
+    ]
+  },
+  "measurement_health": {
+    "coverage_scope": "Explicit named qualification observations only; not census of all work or production",
+    "instrumented_commands": 2,
+    "known_direct_tool_and_connector_bypass": true,
+    "total_commands": null,
+    "actual_model_known": false,
+    "tokens": null,
+    "cost": null,
+    "production_services_enrolled": 0,
+    "invalid_event_fixture_cases": "test_events.py; distinct synthetic evidence"
+  }
+}

@@ -1,0 +1,29 @@
+--- baselines/dora-1.0.0/DEFINITIONS.md
++++ dora/DEFINITIONS.md
+@@ -1,4 +1,4 @@
+-# DORA definitions 1.0.0
++# DORA definitions 1.0.1
+ 
+ Task: TASK-000004. Requirements: REQ-000025, REQ-000026. Approved authority: APP-000001; approved-v0.1 Domain O. This is deterministic calculation tooling, without a runtime, production integration, or inferred LLM measurements. All checked-in observations are synthetic. No production service is enrolled; the live classification file deliberately has no services.
+ 
+@@ -11,7 +11,7 @@
+ 
+ The first command prints canonical, sorted compact JSON. Compare it byte for byte with fixtures/expected.json (including the CLI's final newline). No clock is read. End is required; start defaults to exactly 30 days before end. All timestamps require timezone offsets and normalize to UTC; windows are half-open [start,end). Explicit `--as-of N` selects ingestion sequences ≤N, and `--followup-until` sets the observation cutoff (default end, never earlier than end).
+ 
+-The Python API is `calculate(events, classification, start=None, end=..., as_of=None, followup_until=None, definition_version="1.0.0", definition_digest=None, classification_digest=None)`. `canonical_json`, `digest`, `replay`, and `ledger_events` are also available. Imports require no event store or third-party packages.
++The Python API is `calculate(events, classification, start=None, end=..., as_of=None, followup_until=None, definition_version="1.0.1", definition_digest=None, classification_digest=None)`. `canonical_json`, `digest`, `replay`, and `ledger_events` are also available. Imports require no event store or third-party packages.
+ 
+ ## Explicit classification input
+ 
+@@ -51,6 +51,10 @@
+ 
+ No observations or no duration samples produce unavailable/null. Empty deployment frequency is zero only when the service classification explicitly supplies source-backed `observation_coverage` with start/end spanning the window, `available_at_sequence` no later than the as-of snapshot, and nonempty provenance. Without that declaration an empty window remains unavailable; absence of rows cannot establish zero deployments. Ratio denominators of zero remain unavailable. A measured zero numerator with a nonzero denominator remains zero. Missing health, environment, chain, causality or recovery evidence appears in measurement_health and duration missing fields. Values describe only observed qualifying evidence and must be read with that health report; incomplete source coverage does not establish the absence of incidents. p50/p90 use sorted[ceil(p*n)-1]. No interpolation or time-only failure inference occurs.
+ 
+-Reports bind calculator version, definition version/digest, classification version/digest, selected as-of sequence and input snapshot digest. Snapshots sort by ingestion sequence/event ID independently of input list order. Corrections and late data create new snapshot digests. Reusing an old snapshot and version reproduces the old bytes. Retain input snapshots, definitions and classification artifacts alongside report digests; a digest cannot reconstruct deleted input. Version 1.0.0 is the only installed definition; unsupported versions and mismatched requested definition/classification digests reject. New semantics must add a version and retain the old implementation, never replace its meaning. The general immutable-version validator is available in quality-gates/improvement.py; the same registry discipline applies to classification releases.
++Reports bind calculator version, definition version/digest, classification version/digest, selected as-of sequence and input snapshot digest. Snapshots sort by ingestion sequence/event ID independently of input list order. Corrections and late data create new snapshot digests. Reusing an old snapshot and version reproduces the old bytes. Retain input snapshots, definitions and classification artifacts alongside report digests; a digest cannot reconstruct deleted input. Version 1.0.1 is the installed definition; unsupported versions and mismatched requested definition/classification digests reject. New semantics must add a version and retain the old implementation, never replace its meaning. The general immutable-version validator is available in quality-gates/improvement.py; the same registry discipline applies to classification releases.
+ 
+ D-01–D-13 map directly to named tests in tests/test_dora.py. This evidence tests the synthetic contract; source authenticity, live completeness and service enrollment remain separate obligations.
++
++## Version 1.0.1 disclosure correction (APP-000004)
++
++The retained 1.0.0 implementation and fixtures remain separately replayable under factory/baselines/dora-1.0.0. Version 1.0.1 preserves all deployment thresholds, arithmetic and causal requirements. An observed recovery at or before the follow-up cutoff with no qualifying attributed failure now reports missing_failure_causality and partial measurement health. It creates no failure count, duration or recovery sample. Future observations beyond the requested follow-up cutoff do not affect health for that snapshot. The prior normative contract governs independent qualification; candidate output supplies no adoption authority.

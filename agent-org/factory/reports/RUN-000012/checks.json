@@ -1,0 +1,133 @@
+{
+  "candidate": {
+    "command": [
+      "python3",
+      "factory/tests/test_validator_regressions.py"
+    ],
+    "exit": 0,
+    "stdout_sha256": "b5d3ff40f68d103edb55f0ad2361cfcbec366fd1928a7e4e3972b7ab8a67c62e",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "case_count": 235,
+    "passing_cases": 235,
+    "qualified": true,
+    "original_results_equal": true,
+    "original3": [
+      {
+        "actual_valid": true,
+        "case": "review_in_review_subject",
+        "errors": [],
+        "expected_valid": true,
+        "passed": true
+      },
+      {
+        "actual_valid": false,
+        "case": "self_dependency_related_to",
+        "errors": [
+          "TASK-000001: dependency self-link"
+        ],
+        "expected_valid": false,
+        "passed": true
+      },
+      {
+        "actual_valid": false,
+        "case": "task_in_requirements",
+        "errors": [
+          "requirements/organization/TASK-000001.md: wrong record-family directory for TASK-000001"
+        ],
+        "expected_valid": false,
+        "passed": true
+      }
+    ]
+  },
+  "preregistration_sha256": "f397193274e74cb54a2e97300771f24933df5872bc906910d4103262f1edcdfa",
+  "ART2_mismatches": [
+    {
+      "path": "agent-org/factory/instrumentation/events.py",
+      "expected": "62fdefd3954a07e78772174f5fcf8dd53f7c9515f28e30540a6820c07a3b58cd",
+      "actual": "9d3c83278f8618bda57925298131968840f6cd9a286181c48e4a5234fb9ad7d4"
+    },
+    {
+      "path": "agent-org/factory/instrumentation/records.py",
+      "expected": "8a7d94a6c357ced0086bb20cf5f9a53bd490f039c374b53a31453373fe3b2fa1",
+      "actual": "e4bc284cececd7dcb02733eac5edf6a23209ba0b898cd17397facdcc36a35f08"
+    },
+    {
+      "path": "agent-org/factory/tests/test_records.py",
+      "expected": "1278467601ed835179853a3c5d6cb01bb4860e5e19efbc2ab1f637cd06210d13",
+      "actual": "d82018e58d0b22f865f455a27fb905d598d130b701710a8f7f6256253d8e2db9"
+    },
+    {
+      "path": "agent-org/shared/WORK_GRAPH.md",
+      "expected": "467150d8b7d97b403278976dac3e0cef39600c1f168aa754120c3418183bff89",
+      "actual": "cdd27373777e73ce61f06520ac5d078c234fc77ab8e20cbd2282024e8d32219f"
+    }
+  ],
+  "ART2_count": 74,
+  "baseline": {
+    "command": [
+      "python3",
+      "factory/tests/test_validator_regressions.py",
+      "--baseline",
+      "factory/baselines/EXP-000001/records.py"
+    ],
+    "exit": 0,
+    "stdout_sha256": "d7f5cbe37d2ec0cfe513230fe1e7974e8030ff7e4ec26b1def4f393051565b83",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "case_count": 235,
+    "passing_cases": 80,
+    "qualified": true,
+    "original_results_equal": true,
+    "original3": [
+      {
+        "actual_valid": false,
+        "case": "review_in_review_subject",
+        "errors": [
+          "TASK-000001: unsatisfied prerequisite TASK-000002"
+        ],
+        "expected_valid": true,
+        "passed": false
+      },
+      {
+        "actual_valid": true,
+        "case": "self_dependency_related_to",
+        "errors": [],
+        "expected_valid": false,
+        "passed": false
+      },
+      {
+        "actual_valid": true,
+        "case": "task_in_requirements",
+        "errors": [],
+        "expected_valid": false,
+        "passed": false
+      }
+    ]
+  },
+  "suite": {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "factory/tests",
+      "-v"
+    ],
+    "exit": 0,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "cee19aebf8b35bda52a83bd2e6e63269b853214ee5f2eb9784eb86f05b76f29f",
+    "output_tail": "_records.RecordsTest.test_retries_budget_and_reconciliation) ... ok\ntest_state_transitions_and_premature_parent_acceptance (test_records.RecordsTest.test_state_transitions_and_premature_parent_acceptance) ... ok\ntest_valid_tree_reload_and_references_not_definitions (test_records.RecordsTest.test_valid_tree_reload_and_references_not_definitions) ... ok\ntest_X01_X02_X10_boundary_diff (test_records.ScopeTest.test_X01_X02_X10_boundary_diff) ... ok\ntest_real_independent_git_provenance (test_records.ScopeTest.test_real_independent_git_provenance) ... ok\ntest_snapshot_tamper_exclusions_bounds_and_deleted_file (test_records.ScopeTest.test_snapshot_tamper_exclusions_bounds_and_deleted_file) ... ok\ntest_traversal_and_symlink_escape (test_records.ScopeTest.test_traversal_and_symlink_escape) ... ok\ntest_invalid_arrays_limits_and_missing_command (test_runner.RunnerTest.test_invalid_arrays_limits_and_missing_command) ... ok\ntest_no_shell (test_runner.RunnerTest.test_no_shell) ... ok\ntest_nonzero_preserved (test_runner.RunnerTest.test_nonzero_preserved) ... ok\ntest_output_cap (test_runner.RunnerTest.test_output_cap) ... ok\ntest_success_hashes_and_no_raw_secret (test_runner.RunnerTest.test_success_hashes_and_no_raw_secret) ... ok\ntest_timeout (test_runner.RunnerTest.test_timeout) ... ok\ntest_independent_criteria (test_validator_regressions.ValidatorRegressions.test_independent_criteria) ... ok\n\n----------------------------------------------------------------------\nRan 71 tests in 2.248s\n\nOK\n"
+  },
+  "records": {
+    "command": [
+      "python3",
+      "factory/instrumentation/check.py",
+      "--root",
+      "."
+    ],
+    "exit": 0,
+    "stdout_sha256": "341d1f979662100e09ddde9cfe82f0443844ca591e95435788db8ab0915f6c57",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "output_tail": "{\n  \"errors\": [],\n  \"limits\": [\n    \"structural checks do not prove behavioral acceptance\",\n    \"approval exact-scope APIs must be called by admission workflow\",\n    \"no universal interception\",\n    \"provenance required by evidence-producing callers\"\n  ],\n  \"record_count\": 112,\n  \"valid\": true\n}\n"
+  }
+}

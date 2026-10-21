@@ -1,0 +1,130 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/HANDOFF.md": {
+      "bytes": 11239,
+      "sha256": "242c6e169a5ed93c30b0e67072a3724d84daba65e3deb8f2eefb4505558533c4"
+    },
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/checkpoint.json": {
+      "bytes": 631,
+      "sha256": "5bf376feae5150c6e401280dab4f64326097c29537ff8a1ef19804b8e4050132"
+    },
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/controlled-scenarios.json": {
+      "bytes": 2896,
+      "sha256": "bdd0a7d6b0d90fd3e72c3e67e97f184c01f99f84490f6afdf15fa70c22acac44"
+    },
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/discovery.json": {
+      "bytes": 18904,
+      "sha256": "471c88835c7ec9c7e70e7dfb33871fabcd3379171089fee6d2fce28df4584078"
+    },
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/discovery/agents/INDEX.md": {
+      "bytes": 2489,
+      "sha256": "7cecb9801f52d0d4532d74779897bb6b50b0a4996eb581fcd88c12b19ca89168"
+    },
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/discovery/agents/architect/AGENTS.md": {
+      "bytes": 2636,
+      "sha256": "60a6678d167a46c8ab300135385da61abc4d30bd87e12f49d4b75a7d02b4e1b2"
+    },
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/discovery/agents/architect/CONTEXT.md": {
+      "bytes": 1699,
+      "sha256": "e97baeecb2c6f73ec96a0eb4523232fa9c5c14e20a734ca45e94a9944db71412"
+    },
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/discovery/agents/chief-of-staff/AGENTS.md": {
+      "bytes": 2911,
+      "sha256": "260a434eea486f4a2277bab89962b166fddc27028c4b4c82c7d591c4991e20d1"
+    },
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/discovery/agents/chief-of-staff/CONTEXT.md": {
+      "bytes": 1815,
+      "sha256": "c019cf11a44368aea564a8da0649ae47d9d23a9693dc00cbc709c81d95483d74"
+    },
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/discovery/agents/coordinator/AGENTS.md": {
+      "bytes": 3059,
+      "sha256": "e8164f163414c6ec1151123b36bdeb39da8cda3224d29e6e5c9e263569cd517c"
+    },
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/discovery/agents/coordinator/CONTEXT.md": {
+      "bytes": 1913,
+      "sha256": "caf4420165b908584458f20a1172850a140fe919230909bcf1f844f7a4aa36b8"
+    },
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/discovery/agents/developer/AGENTS.md": {
+      "bytes": 2554,
+      "sha256": "659dc3adf83c3737fb16eac3fc8a381ca3270acbaccf64add78ea83d82da4b38"
+    },
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/discovery/agents/developer/CONTEXT.md": {
+      "bytes": 1714,
+      "sha256": "e5c633582db14de50c3fb8a7b629114cce7d47814b094c1829752ca4bab21585"
+    },
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/discovery/agents/executor/AGENTS.md": {
+      "bytes": 2554,
+      "sha256": "9b5016594d3955f1770adf09913303d3b4fe9388cff7a1da2afbe754a6ff1b77"
+    },
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/discovery/agents/executor/CONTEXT.md": {
+      "bytes": 1719,
+      "sha256": "6a5ebc6136bf1aea932790cba573f6e980e985421e9b374838d40466f2a8b228"
+    },
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/discovery/agents/planner/AGENTS.md": {
+      "bytes": 2566,
+      "sha256": "690edfad4ea066e422fa7bcc540f8b9ddba911e2fa6ff5dc60eac547ff0006be"
+    },
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/discovery/agents/planner/CONTEXT.md": {
+      "bytes": 1709,
+      "sha256": "270c1ed36cf59ec385cf71769ffa468fc4d191926b021d38dcb5d93aa40ff7e2"
+    },
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/discovery/agents/qualification-specialist/AGENTS.md": {
+      "bytes": 264,
+      "sha256": "a5322c71884ac13337a279f58124780422bac6a69a12aa1c00b62f3d0ab3a7e8"
+    },
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/discovery/agents/qualification-specialist/CONTEXT.md": {
+      "bytes": 132,
+      "sha256": "03e505cb8d19338e9cbb31f123a7fffa6e6b7aa8f1775126b28b9723863cf429"
+    },
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/discovery/agents/researcher/AGENTS.md": {
+      "bytes": 2566,
+      "sha256": "2997e72b69b4f9dbeb460f990446c7b7cae7d15a14ba764a35547627d3d15e83"
+    },
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/discovery/agents/researcher/CONTEXT.md": {
+      "bytes": 1701,
+      "sha256": "df12bcdaed0259a0524d31eb6dba2d688d4b8d00899cb722c1c945f1d92038ca"
+    },
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/discovery/agents/reviewer/AGENTS.md": {
+      "bytes": 2840,
+      "sha256": "0606a090fb90d3f35284e6c942804ac8332d6640d6042747a101b86f01ed74dc"
+    },
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/discovery/agents/reviewer/CONTEXT.md": {
+      "bytes": 1784,
+      "sha256": "59009f5a84cb12e6dd9239159fcb7ec174fb5a10231f0afe561eb81cc623033c"
+    },
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/recovery.json": {
+      "bytes": 2126,
+      "sha256": "32ce101cf311c44f9325508e97a2ddfc14fa37516391c1c80eafd6bfb15eba4d"
+    },
+    "/Users/Shared/agent-org/factory/artifacts/installation/behavior/coordinator-RUN-000010/source-pins.json": {
+      "bytes": 6028,
+      "sha256": "48af70701ce70544e51e121534604989e1ca65704ea701540a0fc105d88c835f"
+    }
+  },
+  "note": "Manifest excludes itself; Git inspection issued no mutation commands, but no before/after index metadata assertion is made.",
+  "scope": "only this output subtree",
+  "total_bytes": 80449,
+  "unchanged_real_sources_verified": [
+    "/Users/Shared/agent-org/agents/INDEX.md",
+    "/Users/Shared/agent-org/agents/architect/AGENTS.md",
+    "/Users/Shared/agent-org/agents/architect/CONTEXT.md",
+    "/Users/Shared/agent-org/agents/chief-of-staff/AGENTS.md",
+    "/Users/Shared/agent-org/agents/chief-of-staff/CONTEXT.md",
+    "/Users/Shared/agent-org/agents/coordinator/AGENTS.md",
+    "/Users/Shared/agent-org/agents/coordinator/CONTEXT.md",
+    "/Users/Shared/agent-org/agents/developer/AGENTS.md",
+    "/Users/Shared/agent-org/agents/developer/CONTEXT.md",
+    "/Users/Shared/agent-org/agents/executor/AGENTS.md",
+    "/Users/Shared/agent-org/agents/executor/CONTEXT.md",
+    "/Users/Shared/agent-org/agents/planner/AGENTS.md",
+    "/Users/Shared/agent-org/agents/planner/CONTEXT.md",
+    "/Users/Shared/agent-org/agents/researcher/AGENTS.md",
+    "/Users/Shared/agent-org/agents/researcher/CONTEXT.md",
+    "/Users/Shared/agent-org/agents/reviewer/AGENTS.md",
+    "/Users/Shared/agent-org/agents/reviewer/CONTEXT.md",
+    "/Users/Shared/agent-org/factory/artifacts/installation/projects/alpha/test_title.py",
+    "/Users/Shared/agent-org/factory/artifacts/installation/projects/alpha/title.py",
+    "/Users/Shared/agent-org/factory/artifacts/installation/projects/beta/sentinel.md"
+  ]
+}

@@ -1,0 +1,206 @@
+--- baselines/gate-1.0.0/improvement.py
++++ quality-gates/improvement.py
+@@ -9,7 +9,7 @@
+ import re
+ from datetime import datetime, timezone
+ 
+-VERSION = "1.0.0"
++VERSION = "1.0.1"
+ HARD_GUARDRAILS = {"scope_authority", "evidence_integrity", "required_tests", "independent_review",
+                    "critical_correctness", "security", "acceptance_traceability", "project_correctness"}
+ PINS = ("baseline", "candidate", "workload", "evaluator", "criteria")
+@@ -70,7 +70,7 @@
+     return [means[math.ceil(.025 * samples) - 1], means[math.ceil(.975 * samples) - 1]]
+ 
+ 
+-def evaluate(plan, evidence, approvals, context):
++def _evaluate(plan, evidence, approvals, context):
+     """Return pass/reject/inconclusive, exact digests and bounded benefit evidence.
+ 
+     Context is an independently supplied trust input, NOT an authority created by
+@@ -168,7 +168,7 @@
+         for key in ("prior_evaluator_hash", "adversarial_fixtures_hash", "dual_version_replay"):
+             require(evidence, key, "recursive." + key)
+         mismatch(evidence.get("prior_evaluator_hash") not in {None, context.get("approved_evaluator_hash")}, "recursive self-validation")
+-        mismatch(evidence.get("dual_version_replay") is False, "recursive dual-version replay failed")
++        mismatch(evidence.get("dual_version_replay") is not True, "recursive dual-version replay failed")
+         expected_adversarial = context.get("adversarial_fixtures_hash")
+         if not expected_adversarial:
+             missing.append("prior approved adversarial fixtures")
+@@ -248,6 +248,9 @@
+         rng = random.Random(stopping["seed"] if type(stopping.get("seed")) is int else 0)
+         orders = {case: (["baseline", "candidate"] if rng.randrange(2) == 0 else ["candidate", "baseline"]) for case in case_ids}
+         differences, baselines = [], []
++        observed_attempts = sum(len(pair[side + "_attempts"])
++                                for pair in pairs for side in ("baseline", "candidate")
++                                if isinstance(pair.get(side + "_attempts"), list))
+         for pair in pairs:
+             mismatch(type(stopping.get("seed")) is int and pair.get("order") != orders.get(pair.get("case_id")), "paired ordering differs from preregistration")
+             values = [pair.get("baseline"), pair.get("candidate")]
+@@ -258,16 +261,28 @@
+                 attempts = pair.get(side + "_attempts")
+                 if not isinstance(attempts, list) or not attempts:
+                     missing.append("all attempts including failures/retries required")
+-                elif plan.get("claim") == "efficiency":
+-                    if not all(_number(a.get("value")) and a["value"] >= 0 and a.get("status") in {"passed", "failed", "blocked"} for a in attempts):
+-                        missing.append("missing attempt resource telemetry")
+-                    else:
++                else:
++                    valid_attempts = all(isinstance(a, dict) and _number(a.get("value"))
++                                         and a.get("status") in ("passed", "failed", "blocked")
++                                         and (plan.get("claim") != "efficiency" or a["value"] >= 0)
++                                         for a in attempts)
++                    if not valid_attempts:
++                        missing.append("missing or invalid attempt telemetry")
++                    elif plan.get("claim") == "efficiency":
+                         mismatch(not math.isclose(sum(a["value"] for a in attempts), pair[side], rel_tol=1e-12), "failed/retried attempt omitted from efficiency total")
+             baseline, candidate = values
+             if plan.get("claim") == "efficiency" and (baseline <= 0 or candidate < 0):
+                 missing.append("positive baseline efficiency denominator required")
+             baselines.append(baseline)
+             differences.append(baseline - candidate if plan.get("direction") == "lower" else candidate - baseline)
++        if _number(usage.get("attempts")):
++            # Missing rows leave the full count unknown. Supplied records always
++            # provide a lower bound; a complete workload must reconcile exactly.
++            mismatch(usage["attempts"] < observed_attempts or
++                     (len(pairs) == len(case_ids) and usage["attempts"] != observed_attempts),
++                     "reported attempts differ from observable attempt records")
++        if _number(budget.get("attempts")) and observed_attempts >= budget["attempts"]:
++            missing.append("resource budget exhausted: attempts")
+         if differences and len(differences) == len(case_ids) and len(case_ids) >= 20 and not rejected and not missing:
+             interval = paired_interval(differences, stopping["seed"], stopping["bootstrap_samples"])
+             mean = sum(differences) / len(differences)
+@@ -284,7 +299,132 @@
+             "decision": "reject" if rejected else "inconclusive" if missing else "pass",
+             "reasons": sorted(set(rejected)), "measurement_gaps": sorted(set(missing)), "benefit": details,
+             "permission_effect": "none; pass only establishes eligibility for governed PR promotion",
+-            "checkpoint_required": bool(_number(usage.get("active_seconds")) and _number(budget.get("active_seconds")) and usage["active_seconds"] >= .8 * budget["active_seconds"])}
++            "checkpoint_required": bool(_number(usage.get("active_seconds")) and _number(budget.get("active_seconds")) and _number(context.get("prior_consumed_seconds")) and usage["active_seconds"] + context["prior_consumed_seconds"] >= .8 * budget["active_seconds"])}
++
++
++
++def evaluate(plan, evidence, approvals, context):
++    """Validate required JSON types before evaluating evidence; never coerce pins.
++
++    Missing data is inconclusive. Present malformed contract fields reject. Unknown
++    attempt telemetry is inconclusive in either stochastic claim. This function
++    confers no authority on its own source or result.
++    """
++    rejected, missing = [], []
++
++    def field(mapping, key, kind, prefix):
++        label = prefix + "." + key
++        if key not in mapping or mapping[key] is None:
++            missing.append(label)
++            return None
++        value = mapping[key]
++        valid = (_number(value) if kind == "number" else type(value) is kind)
++        if not valid:
++            rejected.append("invalid type: " + label)
++            return None
++        if kind is str and not value.strip():
++            missing.append(label)
++        return value
++
++    def fields(mapping, keys, kind, prefix):
++        for key in keys.split():
++            field(mapping, key, kind, prefix)
++
++    for label, value, kind in (("plan", plan, dict), ("evidence", evidence, dict),
++                                ("context", context, dict), ("approvals", approvals, list)):
++        if type(value) is not kind:
++            rejected.append("invalid type: " + label)
++    if not rejected:
++        fields(plan, "version registered_at hypothesis hypothesis_hash scope claim task_class expected_benefit target_metric direction implementer candidate_head evaluator_code_hash " + " ".join(n + "_hash" for n in PINS), str, "plan")
++        field(plan, "changes_evaluator", bool, "plan")
++        fields(context, "approved_baseline_hash approved_evaluator_hash approved_evaluator_code_hash current_candidate_hash current_head authority_hash registered_plan_hash", str, "context")
++        fields(context, "prior_consumed_seconds prior_consumed_storage_bytes", "number", "context")
++        field(context, "active_experiments", int, "context")
++        fields(evidence, "started_at completed_at plan_hash authority_hash", str, "evidence")
++        containers = [(plan, "rollback", "plan"), (plan, "budget", "plan"),
++                      (plan, "stopping_rule", "plan"), (evidence, "usage", "evidence"),
++                      (evidence, "artifacts", "evidence"), (evidence, "guardrails", "evidence"),
++                      (context, "limits", "context"), (context, "authorized_approvers", "context")]
++        for mapping, key, prefix in containers:
++            field(mapping, key, dict, prefix)
++        rails = field(plan, "guardrails", list, "plan")
++        if rails is not None and any(type(r) is not str or not r.strip() for r in rails):
++            rejected.append("invalid guardrail names")
++        for parent, key in ((plan, "budget"), (evidence, "usage"), (context, "limits")):
++            if type(parent.get(key)) is dict:
++                fields(parent[key], "active_seconds storage_bytes", "number", key)
++                fields(parent[key], "depth attempts", int, key)
++        if type(plan.get("rollback")) is dict:
++            rollback = plan["rollback"]
++            field(rollback, "known_good_hash", str, "rollback")
++            conditions = field(rollback, "conditions", list, "rollback")
++            if conditions is not None and (not conditions or any(type(c) is not str or not c.strip() for c in conditions)):
++                missing.append("rollback.conditions")
++            fields(rollback, "stop_new_work reconcile_active_runs revert_pr_required", bool, "rollback")
++        if type(evidence.get("guardrails")) is dict:
++            for name, value in evidence["guardrails"].items():
++                if value is not None and value is not True:
++                    rejected.append("guardrail failure: " + str(name))
++        if type(context.get("authorized_approvers")) is dict:
++            for role, identities in context["authorized_approvers"].items():
++                if type(identities) is not list or any(type(v) is not str or not v.strip() for v in identities):
++                    rejected.append("invalid assigned approver identities: " + str(role))
++        for approval in approvals:
++            if type(approval) is not dict:
++                rejected.append("invalid type: approval")
++                continue
++            fields(approval, "role agent_id approved_at candidate_hash candidate_head plan_hash evidence_hash evaluator_hash", str, "approval")
++            field(approval, "approved", bool, "approval")
++            if approval.get("role") == "reviewer":
++                field(approval, "fresh_context", bool, "approval")
++        if plan.get("claim") == "repair":
++            repair = field(evidence, "repair", dict, "evidence")
++            field(context, "independent_regression_hash", str, "context")
++            if repair is not None:
++                fields(repair, "baseline_pass candidate_pass regression_pass", bool, "repair")
++                field(repair, "independent_regression_hash", str, "repair")
++        if plan.get("changes_evaluator") is True:
++            fields(evidence, "prior_evaluator_hash adversarial_fixtures_hash", str, "recursive")
++            field(evidence, "dual_version_replay", bool, "recursive")
++            field(context, "adversarial_fixtures_hash", str, "context")
++        if plan.get("claim") in ("outcome", "efficiency"):
++            stopping = plan.get("stopping_rule")
++            if type(stopping) is dict:
++                fields(stopping, "seed bootstrap_samples fixed_sample_size", int, "stopping_rule")
++                ids = field(stopping, "case_ids", list, "stopping_rule")
++                if ids is not None and any(type(v) is not str or not v.strip() for v in ids):
++                    rejected.append("invalid paired case identities")
++            pairs = field(evidence, "pairs", list, "evidence")
++            if pairs is not None:
++                for pair in pairs:
++                    if type(pair) is not dict:
++                        rejected.append("invalid paired row")
++                        continue
++                    field(pair, "case_id", str, "pair")
++                    field(pair, "order", list, "pair")
++            artifacts = evidence.get("artifacts")
++            if type(artifacts) is dict and "workload" in artifacts and type(artifacts["workload"]) is not dict:
++                rejected.append("invalid workload object")
++    try:
++        plan_hash, evidence_hash = digest(plan), digest(evidence)
++    except (ValueError, TypeError):
++        plan_hash, evidence_hash = None, None
++        rejected.append("noncanonical JSON evidence")
++    if not rejected and not missing:
++        return _evaluate(plan, evidence, approvals, context)
++    usage = evidence.get("usage", {}) if type(evidence) is dict else {}
++    budget = plan.get("budget", {}) if type(plan) is dict else {}
++    prior = context.get("prior_consumed_seconds") if type(context) is dict else None
++    checkpoint = (type(usage) is dict and type(budget) is dict and _number(usage.get("active_seconds"))
++                  and _number(budget.get("active_seconds")) and _number(prior)
++                  and usage["active_seconds"] + prior >= .8 * budget["active_seconds"])
++    return {"gate_version": VERSION, "evaluator_code_hash": evaluator_digest(), "plan_hash": plan_hash,
++            "evidence_hash": evidence_hash, "candidate_hash": plan.get("candidate_hash") if type(plan) is dict else None,
++            "candidate_head": plan.get("candidate_head") if type(plan) is dict else None,
++            "decision": "reject" if rejected else "inconclusive", "reasons": sorted(set(rejected)),
++            "measurement_gaps": sorted(set(missing)), "benefit": {},
++            "permission_effect": "none; pass only establishes eligibility for governed PR promotion",
++            "checkpoint_required": bool(checkpoint)}
+ 
+ 
+ def main(argv=None):

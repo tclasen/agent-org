@@ -1,0 +1,9 @@
+# Independent TASK-000018 repair review addendum
+
+Decision: ACCEPT revised source-grounded guide at SHA256 d1e27d8391bdad0c9cd8fe7a68f83a70773d9f25c6d9c1b99c61373d25f8d67c against REQ-000042. Reviewer /root/correction_project_review did not author either candidate or repair. This is separate non-software deliverable acceptance, not project enrollment or installation acceptance.
+
+Read the retained original, revised guide, TASK-000018 repair history and cited SESSION_LIFECYCLE.md. Exact retained original SHA2563fe32d739fd8a5d93a2d723601e419f07c3c51d63f67794975eba2bccbef54bf matches the rejected candidate. Diff contains only a Start the Coordinator section with the explicit /Users/Shared load/reconciliation prompt, explanation that root startup does not automatically load nested instructions, and a lifecycle source link. The prompt and limitation are supported directly by SESSION_LIFECYCLE.md. All18relative links resolve. All previously verified source-grounded authority, canonical-source, repository, override and no-enrollment passages are byte-unchanged.
+
+The original rejection remains valid historical evidence: initial guide omitted the explicit-startup criterion. Task history records reopening and bounded repair without changing REQ-000042. This provides actual intent-mismatch detection and repair evidence relevant to O-14; it does not by itself validate O-14's separate scorecard obligations or the complete installation matrix.
+
+No source edits, tests, Git writes, network or external effects in this delta review. Only this temporary addendum written. Prior RUN-000012 evidence files and manifest remain unchanged. Exact next action: Coordinator retains addendum, reconciles TASK-000018 acceptance and preserves original rejection/repaired candidate identities. EXP-000001 and project review decisions are unaffected.

@@ -1,0 +1,1712 @@
+{
+  "case_count": 235,
+  "mode": "baseline_qualification",
+  "passing_cases": 80,
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "python": "3.15.0 (main, Oct  9 2026, 11:16:41) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "qualified": true,
+  "results": [
+    {
+      "actual_valid": false,
+      "case": "review_in_review_subject",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000002"
+      ],
+      "expected_valid": true,
+      "passed": false
+    },
+    {
+      "actual_valid": false,
+      "case": "blocked_by_ready_unaccepted",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000002"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "blocked_by_in_progress_unaccepted",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000002"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "requires_ready_unaccepted",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000002"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "requires_in_progress_unaccepted",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000002"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "awaits_approval_ready_unaccepted",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000002"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "awaits_approval_in_progress_unaccepted",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000002"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "awaits_condition_ready_unaccepted",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000002"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "awaits_condition_in_progress_unaccepted",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000002"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "missing_review_subject",
+      "errors": [
+        "TASK-000001: missing dependency TASK-000002"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "self_dependency_blocked_by",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000001",
+        "TASK-000001: dependency/hierarchy cycle"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "self_dependency_requires",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000001",
+        "TASK-000001: dependency/hierarchy cycle"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "self_dependency_validates",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000001",
+        "TASK-000001: dependency/hierarchy cycle"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "self_dependency_awaits_approval",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000001",
+        "TASK-000001: dependency/hierarchy cycle"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "self_dependency_awaits_condition",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000001",
+        "TASK-000001: dependency/hierarchy cycle"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "self_dependency_parent_of",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "self_dependency_discovered_from",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "self_dependency_supersedes",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "self_dependency_related_to",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": false,
+      "case": "parent_selflink",
+      "errors": [
+        "TASK-000001: dependency/hierarchy cycle"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "parent_cycle",
+      "errors": [
+        "TASK-000001: dependency/hierarchy cycle"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "blocked_by_cycle",
+      "errors": [
+        "TASK-000001: dependency/hierarchy cycle"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "blocked_by_accepted_subject",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "requires_cycle",
+      "errors": [
+        "TASK-000001: dependency/hierarchy cycle"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "requires_accepted_subject",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "review_guard_Authorized",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000002",
+        "TASK-000001: not authorized"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "review_guard_Plan Approval",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000002",
+        "TASK-000001: missing approved plan grant"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "review_guard_Budget Available",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000002",
+        "TASK-000001: budget or capability unavailable"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": false,
+      "case": "review_guard_Capability Available",
+      "errors": [
+        "TASK-000001: unsatisfied prerequisite TASK-000002",
+        "TASK-000001: budget or capability unavailable"
+      ],
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "task_in_requirements",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "requirement_in_tasks",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_REQ",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_wrong_REQ",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_TASK",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_wrong_TASK",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_RUN",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_wrong_RUN",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_APP",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_wrong_APP",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_DEC",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_wrong_DEC",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_EVAL",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_wrong_EVAL",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_EXP",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_wrong_EXP",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_ART",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_wrong_ART",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_INIT",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_wrong_INIT",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_INTENT",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_wrong_INTENT",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_PLAN",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_wrong_PLAN",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_WF",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_wrong_WF",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_CAP",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_wrong_CAP",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "family_valid_TRG",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "family_wrong_TRG",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "canonical_TASK_flat",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "canonical_TASK_/unknown",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "canonical_TASK_/cross_boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "canonical_TASK_/organization/deeper",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "canonical_REQ_flat",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "canonical_REQ_/unknown",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "canonical_REQ_/cross_boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "canonical_REQ_/organization/deeper",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_REQ_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_REQ_organization_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_REQ_organization_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_REQ_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_REQ_project_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_REQ_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_REQ_project_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_REQ_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_REQ_cross_boundary_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_REQ_cross_boundary_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_REQ_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_REQ_cross_boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_TASK_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_TASK_organization_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_TASK_organization_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_TASK_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_TASK_project_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_TASK_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_TASK_project_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_TASK_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_TASK_cross_boundary_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_TASK_cross_boundary_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_TASK_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_TASK_cross_boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_RUN_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_RUN_organization_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_RUN_organization_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_RUN_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_RUN_project_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_RUN_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_RUN_project_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_RUN_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_RUN_cross_boundary_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_RUN_cross_boundary_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_RUN_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_RUN_cross_boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_APP_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_APP_organization_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_APP_organization_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_APP_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_APP_project_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_APP_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_APP_project_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_APP_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_APP_cross_boundary_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_APP_cross_boundary_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_APP_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_APP_cross_boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_DEC_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_DEC_organization_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_DEC_organization_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_DEC_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_DEC_project_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_DEC_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_DEC_project_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_DEC_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_DEC_cross_boundary_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_DEC_cross_boundary_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_DEC_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_DEC_cross_boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_EVAL_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_EVAL_organization_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_EVAL_organization_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_EVAL_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_EVAL_project_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_EVAL_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_EVAL_project_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_EVAL_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_EVAL_cross_boundary_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_EVAL_cross_boundary_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_EVAL_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_EVAL_cross_boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_EXP_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_EXP_organization_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_EXP_organization_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_EXP_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_EXP_project_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_EXP_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_EXP_project_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_EXP_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_EXP_cross_boundary_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_EXP_cross_boundary_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_EXP_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_EXP_cross_boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_ART_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_ART_organization_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_ART_organization_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_ART_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_ART_project_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_ART_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_ART_project_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_ART_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_ART_cross_boundary_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_ART_cross_boundary_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_ART_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_ART_cross_boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_INIT_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_INIT_organization_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_INIT_organization_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_INIT_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_INIT_project_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_INIT_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_INIT_project_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_INIT_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_INIT_cross_boundary_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_INIT_cross_boundary_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_INIT_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_INIT_cross_boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_INTENT_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_INTENT_organization_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_INTENT_organization_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_INTENT_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_INTENT_project_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_INTENT_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_INTENT_project_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_INTENT_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_INTENT_cross_boundary_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_INTENT_cross_boundary_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_INTENT_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_INTENT_cross_boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_PLAN_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_PLAN_organization_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_PLAN_organization_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_PLAN_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_PLAN_project_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_PLAN_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_PLAN_project_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_PLAN_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_PLAN_cross_boundary_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_PLAN_cross_boundary_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_PLAN_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_PLAN_cross_boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_WF_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_WF_organization_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_WF_organization_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_WF_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_WF_project_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_WF_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_WF_project_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_WF_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_WF_cross_boundary_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_WF_cross_boundary_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_WF_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_WF_cross_boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_CAP_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_CAP_organization_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_CAP_organization_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_CAP_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_CAP_project_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_CAP_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_CAP_project_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_CAP_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_CAP_cross_boundary_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_CAP_cross_boundary_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_CAP_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_CAP_cross_boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_TRG_organization_in_organization",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_TRG_organization_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_TRG_organization_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_TRG_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_TRG_project_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_TRG_project_in_project",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_TRG_project_in_cross-boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_TRG_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_TRG_cross_boundary_in_organization",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_TRG_cross_boundary_in_project",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    },
+    {
+      "actual_valid": true,
+      "case": "class_TRG_cross_boundary_in_cross-boundary",
+      "errors": [],
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "actual_valid": true,
+      "case": "class_metadata_TRG_cross_boundary",
+      "errors": [],
+      "expected_valid": false,
+      "passed": false
+    }
+  ],
+  "source_sha256": "8a7d94a6c357ced0086bb20cf5f9a53bd490f039c374b53a31453373fe3b2fa1",
+  "workload_sha256": "dd7e110de12d8d92cd8b77efeef614bc317800e69634cf444b0c689df4f9205f"
+}

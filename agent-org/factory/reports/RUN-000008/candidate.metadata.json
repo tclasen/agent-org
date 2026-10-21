@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python3",
+    "factory/tests/test_validator_regressions.py"
+  ],
+  "started_at": "2026-10-21T20:43:29.828249+00:00",
+  "completed_at": "2026-10-21T20:43:30.829995+00:00",
+  "exit_code": 0,
+  "stdout_sha256": "b5d3ff40f68d103edb55f0ad2361cfcbec366fd1928a7e4e3972b7ab8a67c62e",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "case_count": 235,
+  "passing_cases": 235,
+  "qualified": true,
+  "source_sha256": "e4bc284cececd7dcb02733eac5edf6a23209ba0b898cd17397facdcc36a35f08",
+  "workload_sha256": "dd7e110de12d8d92cd8b77efeef614bc317800e69634cf444b0c689df4f9205f",
+  "failures": []
+}

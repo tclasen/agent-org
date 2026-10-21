@@ -1,0 +1,16 @@
+{
+  "source": "native GitHub connector read",
+  "repository": "tclasen/agent-org",
+  "pr": 1,
+  "head": "5ab279cb814437445c20cef71068891b15b671fe",
+  "run": 39675768661,
+  "job": 119485094113,
+  "conclusion": "success",
+  "steps": {
+    "records": "success",
+    "tests": "success",
+    "whitespace": "success"
+  },
+  "observed_at": "2026-10-21T21:06:11.893101Z",
+  "limitation": "Initial candidate only; final retry2 not part of this Git head; independent rejection still blocks adoption"
+}

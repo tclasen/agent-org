@@ -1,0 +1,13 @@
+{
+  "args": [
+    "python3",
+    "-B",
+    "/Users/Shared/agent-org/factory/reports/RUN-000015/extended-replay.py"
+  ],
+  "cwd": "/Users/Shared/agent-org",
+  "started_at": "2026-10-21T20:59:43.469185+00:00",
+  "seconds": 0.2593669579946436,
+  "exit": 0,
+  "stdout_sha256": "4632a8e685617782c8f43697856008e30bda80fabfa447acf68433c28bab2b87",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

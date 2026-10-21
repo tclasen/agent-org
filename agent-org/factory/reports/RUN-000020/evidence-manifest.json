@@ -1,0 +1,37 @@
+{
+  "run": "RUN-000020",
+  "task": "TASK-000020",
+  "at": "2026-10-21T21:09:21.133299+00:00",
+  "decision": "ACCEPT",
+  "whole_candidate": {
+    "factory/benchmarks/efficiency.json": "3541a267fa9a233196a191b6be89be58694bb3461ccc1ae66e6aa34b6c4e77e6",
+    "factory/benchmarks/repair.json": "6e5f534f4252c609be71c7216708af74e17563f42b11ef13f3d0556bb69f0b7b",
+    "factory/dora/DEFINITIONS.md": "3025b51e03da0a2b3777962c9e5cf780aa35b3536b2d89701ca26d175761a95e",
+    "factory/dora/calculator.py": "b458bca90e118fa9a381cea860202661191ea22cbb1cf752006eca3c988b0c7d",
+    "factory/dora/fixtures/expected.json": "ee1da12b8dc22f8fede894d61b60d2cd6689c3f065df874b6afffe08d141ae36",
+    "factory/quality-gates/DEFINITION.md": "2303a0dc02641378c2c85b6612c8edb4bece18f561e9791c0db35c2c1e3f3f88",
+    "factory/quality-gates/improvement.py": "b85841b308ebe73cb0dcd9b33e9672ccc87eee1767c4e64eae5a2f7b62aa9c60",
+    "factory/tests/test_dora.py": "79ea4c81ccd73ab70dbf38a5372b48c5a6952852c5b58d2065d703223badd34a",
+    "factory/tests/test_gate_regressions.py": "f8c8e17c9c520faa077181367f9985f2e0b3d1696d708e6bc3d161ae4784d688",
+    "factory/tests/test_improvement.py": "b82bc722af21a9fc76442fad718cdc3cdde356b46ea6a1e35acd769d7cf7f517"
+  },
+  "whole_candidate_mapping_sha256": "9e7669de130f4f3fc29a3857297a117324be3edaeac36207951ec5ca0af8b5e3",
+  "run19_final_manifest_sha256": "bfc056e0575a261e78a70680c769c89437960b04d7800075013b1ca97fb28a1f",
+  "run17_prior_manifest_sha256": "06ee5331fa8f6a928be6aeeb094fd49659e58c7d2a192f0b34f498c523efdee5",
+  "freeze_sha256": "215eb5a839bf36c27e22ecefc56380e1eb9ce1c5f309bd62698180373dcbb7fc",
+  "artifacts": {
+    "REVIEW.md": "8d54edee890e0de054ee975463faf038dc270df68207871182835c69c0ac178e",
+    "efficiency.json.diff": "084cfc8a232f71b54889557e9808c2b6a809332fbcf5731a90f6e0561cb3ff80",
+    "evidence-verification.json": "d0b5e7cff40f8fc2e2013803a6933836a3699f8722f21b82b08aa6a2f2c97d3c",
+    "evidence_checks.py": "efe537412bbef0bf43b404ff052add3e2ed6400cc3210ea4b5ded7357af6a309",
+    "finalize.py": "52fc22df16d45c810ff883dad3f7315b832181de8e42786864cf0587fece2798",
+    "focused-results.json": "4b42b8a85370c6ac349f7452a0fa103c10a72040aca79e4baa754a6e63b5dd1d",
+    "improvement.py.diff": "71f5943af25defae193c7b3c1dcb9200743316e918135e10a85e6b4eb0170233",
+    "pins-end.json": "c15f3c3f5bddacb68d2b645479b4e9ad9470c58c707d75fe49c171dc50ebf2c6",
+    "pins-start.json": "b1c8feefa602e3478303f28e5cc07e41786a859108e48eda2310e0d273d279aa",
+    "repair.json.diff": "5b0ee04743b158807ee7558d6dff850b326ca60e56645831133a9540cc8e959b",
+    "review_checks.py": "a5a305db062ab4c7fece6c151c6e50e0a43c714ecaea4ce7deb3481dd131be39",
+    "reviewer-check-correction.txt": "dc6f997c83f2bcc402982d0dee648a92dcc51b594a7e0f316ea758e96d10e9e1",
+    "test_gate_regressions.py.diff": "7fb424dbf571ae7e259d04cee501f75b7e79d9ed40aa0312b5bcddf923bfcc30"
+  }
+}

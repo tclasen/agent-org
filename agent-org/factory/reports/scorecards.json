@@ -1,0 +1,362 @@
+{
+  "version": "1.0.0",
+  "organization": {
+    "routing_accuracy": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": null,
+      "coverage": {
+        "observed": 0,
+        "total": 6
+      }
+    },
+    "delegation_acceptance": {
+      "numerator": 1,
+      "denominator": 4,
+      "value": 0.25,
+      "coverage": {
+        "observed": 4,
+        "total": 5
+      }
+    },
+    "rework": {
+      "numerator": 2,
+      "denominator": 2,
+      "value": 1.0,
+      "coverage": {
+        "observed": 2,
+        "total": 6
+      }
+    },
+    "by_task_class_configuration": [
+      {
+        "task_class": "enrollment writing initial",
+        "configuration": "requested:gpt-6-luna/medium;actual:unknown",
+        "acceptance": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "coverage": {
+            "observed": 1,
+            "total": 1
+          }
+        },
+        "latency_seconds": {
+          "observations": 0,
+          "missing": 1,
+          "total": null,
+          "mean": null
+        },
+        "observed_cost": {
+          "observations": 0,
+          "missing": 1,
+          "total": null,
+          "mean": null
+        },
+        "accepted_per_observed_cost": {
+          "accepted": 0,
+          "cost": null,
+          "comparable_observations": 0,
+          "value": null
+        }
+      },
+      {
+        "task_class": "enrollment writing repair",
+        "configuration": "root-native;actual:unknown",
+        "acceptance": {
+          "numerator": 1,
+          "denominator": 1,
+          "value": 1.0,
+          "coverage": {
+            "observed": 1,
+            "total": 1
+          }
+        },
+        "latency_seconds": {
+          "observations": 0,
+          "missing": 1,
+          "total": null,
+          "mean": null
+        },
+        "observed_cost": {
+          "observations": 0,
+          "missing": 1,
+          "total": null,
+          "mean": null
+        },
+        "accepted_per_observed_cost": {
+          "accepted": 0,
+          "cost": null,
+          "comparable_observations": 0,
+          "value": null
+        }
+      },
+      {
+        "task_class": "measurement initial qualification",
+        "configuration": "requested:gpt-6.1-sol/high;actual:unknown",
+        "acceptance": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "coverage": {
+            "observed": 1,
+            "total": 1
+          }
+        },
+        "latency_seconds": {
+          "observations": 0,
+          "missing": 1,
+          "total": null,
+          "mean": null
+        },
+        "observed_cost": {
+          "observations": 0,
+          "missing": 1,
+          "total": null,
+          "mean": null
+        },
+        "accepted_per_observed_cost": {
+          "accepted": 0,
+          "cost": null,
+          "comparable_observations": 0,
+          "value": null
+        }
+      },
+      {
+        "task_class": "recovery qualification",
+        "configuration": "requested:gpt-6.1-sol/high;actual:unknown",
+        "acceptance": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "coverage": {
+            "observed": 0,
+            "total": 1
+          }
+        },
+        "latency_seconds": {
+          "observations": 0,
+          "missing": 1,
+          "total": null,
+          "mean": null
+        },
+        "observed_cost": {
+          "observations": 0,
+          "missing": 1,
+          "total": null,
+          "mean": null
+        },
+        "accepted_per_observed_cost": {
+          "accepted": 0,
+          "cost": null,
+          "comparable_observations": 0,
+          "value": null
+        }
+      },
+      {
+        "task_class": "validator initial qualification",
+        "configuration": "requested:gpt-6.1-sol/high;actual:unknown",
+        "acceptance": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "coverage": {
+            "observed": 1,
+            "total": 1
+          }
+        },
+        "latency_seconds": {
+          "observations": 0,
+          "missing": 1,
+          "total": null,
+          "mean": null
+        },
+        "observed_cost": {
+          "observations": 0,
+          "missing": 1,
+          "total": null,
+          "mean": null
+        },
+        "accepted_per_observed_cost": {
+          "accepted": 0,
+          "cost": null,
+          "comparable_observations": 0,
+          "value": null
+        }
+      },
+      {
+        "task_class": "validator repair",
+        "configuration": "requested:gpt-6.1-sol/high;actual:unknown",
+        "acceptance": {
+          "numerator": 1,
+          "denominator": 1,
+          "value": 1.0,
+          "coverage": {
+            "observed": 1,
+            "total": 1
+          }
+        },
+        "latency_seconds": {
+          "observations": 0,
+          "missing": 1,
+          "total": null,
+          "mean": null
+        },
+        "observed_cost": {
+          "observations": 0,
+          "missing": 1,
+          "total": null,
+          "mean": null
+        },
+        "accepted_per_observed_cost": {
+          "accepted": 0,
+          "cost": null,
+          "comparable_observations": 0,
+          "value": null
+        }
+      }
+    ],
+    "planning_requirement_coverage": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": null,
+      "coverage": {
+        "observed": 0,
+        "total": 6
+      }
+    },
+    "unauthorized_deviations": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": null,
+      "coverage": {
+        "observed": 0,
+        "total": 6
+      }
+    },
+    "replan_causes": [],
+    "handoff_completeness": {
+      "numerator": 6,
+      "denominator": 6,
+      "value": 1.0,
+      "coverage": {
+        "observed": 6,
+        "total": 6
+      }
+    },
+    "independent_recovery_success": {
+      "numerator": 1,
+      "denominator": 1,
+      "value": 1.0,
+      "coverage": {
+        "observed": 1,
+        "total": 6
+      }
+    },
+    "retained_scenario_failures": {
+      "numerator": 2,
+      "denominator": 3,
+      "value": 0.6666666666666666,
+      "coverage": {
+        "observed": 3,
+        "total": 6
+      }
+    }
+  },
+  "projects": {
+    "installation-alpha-synthetic": {
+      "requirement_satisfaction": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0,
+        "coverage": {
+          "observed": 1,
+          "total": 1
+        }
+      },
+      "correctness": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0,
+        "coverage": {
+          "observed": 1,
+          "total": 1
+        }
+      },
+      "security": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null,
+        "coverage": {
+          "observed": 0,
+          "total": 1
+        }
+      },
+      "reliability": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null,
+        "coverage": {
+          "observed": 0,
+          "total": 1
+        }
+      },
+      "maintainability": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null,
+        "coverage": {
+          "observed": 0,
+          "total": 1
+        }
+      },
+      "escaped_defects": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null,
+        "coverage": {
+          "observed": 0,
+          "total": 1
+        }
+      },
+      "delivery_efficiency": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null,
+        "coverage": {
+          "observed": 0,
+          "total": 1
+        }
+      },
+      "rework": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null,
+        "coverage": {
+          "observed": 0,
+          "total": 1
+        }
+      },
+      "user_acceptance": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null,
+        "coverage": {
+          "observed": 0,
+          "total": 1
+        }
+      }
+    }
+  },
+  "measurement_health": {
+    "coverage_scope": "Explicit named qualification observations only; not census of all work or production",
+    "instrumented_commands": 2,
+    "known_direct_tool_and_connector_bypass": true,
+    "total_commands": null,
+    "actual_model_known": false,
+    "tokens": null,
+    "cost": null,
+    "production_services_enrolled": 0,
+    "invalid_event_fixture_cases": "test_events.py; distinct synthetic evidence"
+  }
+}

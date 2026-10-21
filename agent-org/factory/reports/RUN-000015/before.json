@@ -1,0 +1,34 @@
+{
+  "paths": {
+    "factory/quality-gates/improvement.py": "993eb4ebef688d603b68a28bcba1f0b4e83eb6c7909f2f8e56dbf49b676ace0b",
+    "factory/quality-gates/DEFINITION.md": "ff58cb05da66efafad1154811e0236a5e367b30b9cf4cef3b92ed00f5f32882b",
+    "factory/dora/calculator.py": "dc18dd59a7b41052227359df1dddb4ce0bb46e0867787f77f83b7f082c6f3057",
+    "factory/dora/DEFINITIONS.md": "2ab41b0fc05a8f79c350cac17ad347f1e2361dff58bd8d6605ca96511959660c",
+    "factory/tests/test_improvement.py": "21fe892268b6ffc59ad434ce63878956c6a10369222953d9b5c3cb26867b2d9d",
+    "factory/tests/test_dora.py": "79ea4c81ccd73ab70dbf38a5372b48c5a6952852c5b58d2065d703223badd34a",
+    "factory/tests/test_gate_regressions.py": null,
+    "factory/benchmarks/repair.json": "6d67129111ed5d3e6ff607400e947c856c76e4364cb1bac9ae5919807914b29e",
+    "factory/benchmarks/efficiency.json": "94dbba235889cd01477f5909ea39b31e0251669ac9045b7704c6e43c57732d81",
+    "factory/dora/fixtures/expected.json": "cfcb40eca9c010e813329f9cba39f2d32802af3b9fcf427aa0fc7f7ec3e9ac97"
+  },
+  "protected": {
+    "factory/baselines/INDEX.md": "41cf51f1b4d9aa35ad0d7fbab78df19fed63175de683ee5cb0f1abf2ce98dda5",
+    "factory/baselines/gate-1.0.0/DEFINITION.md": "ff58cb05da66efafad1154811e0236a5e367b30b9cf4cef3b92ed00f5f32882b",
+    "factory/baselines/gate-1.0.0/improvement.py": "993eb4ebef688d603b68a28bcba1f0b4e83eb6c7909f2f8e56dbf49b676ace0b",
+    "factory/baselines/gate-1.0.0/repair.json": "6d67129111ed5d3e6ff607400e947c856c76e4364cb1bac9ae5919807914b29e",
+    "factory/baselines/gate-1.0.0/test_improvement.py": "21fe892268b6ffc59ad434ce63878956c6a10369222953d9b5c3cb26867b2d9d",
+    "factory/baselines/gate-1.0.0/efficiency.json": "94dbba235889cd01477f5909ea39b31e0251669ac9045b7704c6e43c57732d81",
+    "factory/baselines/EXP-000001/records.py": "8a7d94a6c357ced0086bb20cf5f9a53bd490f039c374b53a31453373fe3b2fa1",
+    "factory/baselines/dora-1.0.0/expected.json": "cfcb40eca9c010e813329f9cba39f2d32802af3b9fcf427aa0fc7f7ec3e9ac97",
+    "factory/baselines/dora-1.0.0/events.json": "3c9d618e86c19ce48c4d292d4a8221d7994b14b98f77adcc059c32f1b81d97f8",
+    "factory/baselines/dora-1.0.0/test_dora.py": "79ea4c81ccd73ab70dbf38a5372b48c5a6952852c5b58d2065d703223badd34a",
+    "factory/baselines/dora-1.0.0/DEFINITIONS.md": "2ab41b0fc05a8f79c350cac17ad347f1e2361dff58bd8d6605ca96511959660c",
+    "factory/baselines/dora-1.0.0/calculator.py": "dc18dd59a7b41052227359df1dddb4ce0bb46e0867787f77f83b7f082c6f3057",
+    "factory/baselines/dora-1.0.0/classification.json": "8d98fda46eec817959ed8c619631528db221df540c376fcfcb67f22919bde7b8",
+    "factory/baselines/EXP-000001/__pycache__/records.cpython-315.pyc": "982ba1eea3685a0783a94cfde201a8800fb44b75fe4bb35f11bdbe0c91724aee",
+    "factory/reports/RUN-000011/adversarial.py": "fcdf4d23e1d089fcdc271b45232f93440fb0a522cd7155d3bc08edd24c7d7442",
+    "factory/reports/RUN-000011/adversarial-output.jsonl": "bf110ef57c1ead78d5491511be2ee5542bd9099b9888669f11b2fc1c58df43ca",
+    "factory/reports/RUN-000011/pins.json": "f83ba00181806c13607fee681f44d3ae54c626cdf6ca99b5a3a1acf04b35a9cc",
+    "factory/reports/EXP-000001-preregistration.json": "f397193274e74cb54a2e97300771f24933df5872bc906910d4103262f1edcdfa"
+  }
+}

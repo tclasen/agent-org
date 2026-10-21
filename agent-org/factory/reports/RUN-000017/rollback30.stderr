@@ -1,0 +1,35 @@
+test_D01_classification_threshold_health (test_dora.DoraTests.test_D01_classification_threshold_health) ... ok
+test_D02_chain_absence_not_inferred (test_dora.DoraTests.test_D02_chain_absence_not_inferred) ... ok
+test_D03_first_committer_lead_and_negative (test_dora.DoraTests.test_D03_first_committer_lead_and_negative) ... ok
+test_D04_frequency_half_open (test_dora.DoraTests.test_D04_frequency_half_open) ... ok
+test_D05_failure_causality_followup_denominator (test_dora.DoraTests.test_D05_failure_causality_followup_denominator) ... ok
+test_D06_recovery_onset_stabilization_unresolved (test_dora.DoraTests.test_D06_recovery_onset_stabilization_unresolved) ... ok
+test_D07_rework_explicit_causal_unplanned (test_dora.DoraTests.test_D07_rework_explicit_causal_unplanned) ... ok
+test_D08_idempotency_conflict_real_rollout (test_dora.DoraTests.test_D08_idempotency_conflict_real_rollout) ... ok
+test_D09_rollback_no_duplicate_commit_lead (test_dora.DoraTests.test_D09_rollback_no_duplicate_commit_lead) ... ok
+test_D10_fixforward_new_commit (test_dora.DoraTests.test_D10_fixforward_new_commit) ... ok
+test_D11_version_pins (test_dora.DoraTests.test_D11_version_pins) ... ok
+test_D12_replay_late_correction_asof (test_dora.DoraTests.test_D12_replay_late_correction_asof) ... ok
+test_D13_percentiles_timezone_empty_invalid (test_dora.DoraTests.test_D13_percentiles_timezone_empty_invalid) ... ok
+test_actual_eventstore_roundtrip_correction_and_replay (test_dora.DoraTests.test_actual_eventstore_roundtrip_correction_and_replay) ... ok
+test_complete_empty_observation_window_vs_missing_coverage (test_dora.DoraTests.test_complete_empty_observation_window_vs_missing_coverage) ... ok
+test_ledger_adapter_and_cli_fixture (test_dora.DoraTests.test_ledger_adapter_and_cli_fixture) ... ok
+test_rollout_progress_first_threshold_observation (test_dora.DoraTests.test_rollout_progress_first_threshold_observation) ... ok
+test_S01_hypothesis_predeclared (test_improvement.ImprovementTests.test_S01_hypothesis_predeclared) ... ok
+test_S02_pinned_baseline_workload_rules (test_improvement.ImprovementTests.test_S02_pinned_baseline_workload_rules) ... ok
+test_S03_repair_and_paired_comparison (test_improvement.ImprovementTests.test_S03_repair_and_paired_comparison) ... ok
+test_S04_hard_guardrails_dominate_speed (test_improvement.ImprovementTests.test_S04_hard_guardrails_dominate_speed) ... ok
+test_S05_approval_independence (test_improvement.ImprovementTests.test_S05_approval_independence) ... ok
+test_S06_inconclusive_measurement_samples_uncertainty_budget (test_improvement.ImprovementTests.test_S06_inconclusive_measurement_samples_uncertainty_budget) ... ok
+test_S07_anti_gaming_attempts_denominators_history (test_improvement.ImprovementTests.test_S07_anti_gaming_attempts_denominators_history) ... ok
+test_S08_exact_candidate_head_tree_evidence (test_improvement.ImprovementTests.test_S08_exact_candidate_head_tree_evidence) ... ok
+test_S09_prior_evaluator_limits_authority (test_improvement.ImprovementTests.test_S09_prior_evaluator_limits_authority) ... ok
+test_S10_rollback_containment_and_checkpoint (test_improvement.ImprovementTests.test_S10_rollback_containment_and_checkpoint) ... ok
+test_cli_repair_fixture (test_improvement.ImprovementTests.test_cli_repair_fixture) ... ok
+test_separate_scorecards_missing_cost_and_recovery (test_improvement.ImprovementTests.test_separate_scorecards_missing_cost_and_recovery) ... ok
+test_trusted_registration_role_and_missing_metadata (test_improvement.ImprovementTests.test_trusted_registration_role_and_missing_metadata) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.261s
+
+OK

@@ -1,0 +1,17 @@
+{
+  "args": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "test_dora",
+    "test_improvement",
+    "-v"
+  ],
+  "cwd": "/private/tmp/RUN-000017/rollback/factory/tests",
+  "started_at": "2026-10-21T20:59:43.797679+00:00",
+  "seconds": 0.47647970900288783,
+  "exit": 0,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "ac0e60c9abfbc510f677d1878daafcc3a7ee11f28aa418b1764133fa340cae02"
+}

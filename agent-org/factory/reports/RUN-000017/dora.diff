@@ -1,0 +1,46 @@
+--- baselines/dora-1.0.0/calculator.py
++++ dora/calculator.py
+@@ -9,10 +9,10 @@
+ import re
+ from pathlib import Path
+ 
+-CALCULATOR_VERSION = "1.0.0"
++CALCULATOR_VERSION = "1.0.1"
+ DEFINITIONS = {
+-    "1.0.0": {
+-        "version": "1.0.0", "window": "UTC [start,end)",
++    "1.0.1": {
++        "version": "1.0.1", "window": "UTC [start,end)",
+         "lead_time": "committer to first qualifying production per service/commit",
+         "frequency": "distinct qualifying rollout IDs / exact window days",
+         "failure_rate": "causally failed qualifying rollout IDs / cohort IDs",
+@@ -175,7 +175,7 @@
+ 
+ 
+ def calculate(events, classification, start=None, end=None, *, as_of=None,
+-              followup_until=None, definition_version="1.0.0", definition_digest=None, classification_digest=None):
++              followup_until=None, definition_version="1.0.1", definition_digest=None, classification_digest=None):
+     if definition_version not in DEFINITIONS:
+         raise ValueError("unsupported definition version")
+     definition = DEFINITIONS[definition_version]
+@@ -286,6 +286,11 @@
+             if onset < timestamp(deployments[deployment_id]["occurred_at"]) or onset > timestamp(event["occurred_at"]):
+                 raise ValueError("impossible degradation chronology")
+             failures[failure_id] = event
++        # Recovery cannot establish its own failure or deployment causality.
++        # Disclose unmatched or rejected failure links without inventing samples.
++        for (svc, failure_id), recovery in tables["recovery"].items():
++            if svc == service and timestamp(recovery["occurred_at"]) <= followup and failure_id not in failures:
++                issue(recovery, "missing_failure_causality")
+         recovery_samples, unresolved, rework = [], [], []
+         for failure_id, failure in failures.items():
+             onset = timestamp(failure["payload"]["degradation_started_at"])
+@@ -363,7 +368,7 @@
+     parser.add_argument("--start")
+     parser.add_argument("--as-of", type=int)
+     parser.add_argument("--followup-until")
+-    parser.add_argument("--definition-version", default="1.0.0")
++    parser.add_argument("--definition-version", default="1.0.1")
+     parser.add_argument("--ledger", action="store_true", help="project already-verified native v1 ledger JSON array")
+     args = parser.parse_args(argv)
+     try:

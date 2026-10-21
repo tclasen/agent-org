@@ -1,0 +1,8 @@
+/old/
+/projects/
+/.worktrees/
+/agent-org/factory/artifacts/**
+!/agent-org/factory/artifacts/INDEX.md
+**/__pycache__/
+*.py[cod]
+/agent-org/factory/events/*.lock
