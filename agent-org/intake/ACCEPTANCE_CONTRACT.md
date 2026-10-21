@@ -188,7 +188,7 @@ FULLY_ACCEPTED requires all mandatory in-scope scenarios passing, explicit accep
 
 ## Approval and final acceptance
 
-Contract/implementation approval: APP-000001; original approved hashes and operator source retained there and in approved-v0.1/. Post-installation gap interview: NOT STARTED. Final operator acceptance: PENDING. This record must be updated with actual results; no approval of predicted outcomes is requested.
+Contract/implementation approval: APP-000001; original approved hashes and operator source retained there and in approved-v0.1/. Post-installation gap interview: presented after verified PR1 merge and successful main CI; awaiting operator response. Final operator acceptance: PENDING. This record must be updated with actual results; no approval of predicted outcomes is requested.
 
 ## Current evidence view
 
