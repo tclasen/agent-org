@@ -1,0 +1,86 @@
+{
+  "observed_at": "2026-10-21T23:37:49.037550+00:00",
+  "artifacts": [
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/git-nested-audit.md",
+      "bytes": 13860,
+      "sha256": "3a7c7a9a6ddda35bb4856ca24099639eb7a4243e60c688098315bce183c41f3f"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/git-nested-audit.py",
+      "bytes": 4653,
+      "sha256": "56614918be7626c6a2050071f762607839b81f4b4453b1f64e65ac45cb7b4ba4"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/git-nested-classification.json",
+      "bytes": 555886,
+      "sha256": "08a751b5f13371d7f81c596069c15b9a9b0eb80e397f71fb1bae905f0ab0685a"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/git-nested-discovery.json",
+      "bytes": 325404,
+      "sha256": "5b71a4a1fcae3f588d5e9b6f7822c530fb09a6eda3bd3eaf033cdd90dc329dbc"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/git-nested-inventory.json",
+      "bytes": 2280190,
+      "sha256": "370c3ac5e79be6964bc1a1ba49936584cb7c50acb6ba163ffca8f3d70fc5739a"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/git-nested-metadata.json",
+      "bytes": 691217,
+      "sha256": "d0855a5288ab90aa0888bf3a9f763f71f87d1d424af670132ce40b4d175de1e8"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/git-nested-nonrepository.json",
+      "bytes": 4099,
+      "sha256": "b1965a4dc031e870e219e1e4b194d35bb9f9c323963058c9169430103da63d00"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/git-nested-orphan.json",
+      "bytes": 640,
+      "sha256": "b017d346bfb0004c784454563d18cc1ffbcbcef0c1c8a9b38f566a17e53f4779"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/git-nested-penny-test-outcomes.json",
+      "bytes": 229163,
+      "sha256": "3e1068d8458188c1e3987b40cdff0bd826cff77e07a2a2bf82a4601ec65da5a2"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/git-nested-recovery.json",
+      "bytes": 339824,
+      "sha256": "28dad6fcd3b6491326b5dfa0678fb6dbe222c7354501b85b2def2bca68449001"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/git-nested-recovery.py",
+      "bytes": 3457,
+      "sha256": "11a3cba78ff86610c0d36a919ae4f868a9fa1303b966b2f77330fc3adbf22ccd"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/git-nested-reflogs.json",
+      "bytes": 8727,
+      "sha256": "372bb8f07891b1b9447f41457aa4dab4058a3dd560036a986cd21205fe6242d8"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/git-nested-source-state.json",
+      "bytes": 67217,
+      "sha256": "4c51d7647ab4944464d0b40598bfc769906c411bfeee6200e8c2f4fbab39e4b7"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/git-nested-state.py",
+      "bytes": 2801,
+      "sha256": "acab0fb9944e28da319e34aec44cd0ed3ea5044108285fbac420b2ff2b68e3e2"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/git-nested-summarize.py",
+      "bytes": 6490,
+      "sha256": "a19996146c3bc80ff59e3f96ccaa6fb42b40f531167b3136751471acd56532e4"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/git-nested-worktree-evidence.json",
+      "bytes": 1640769,
+      "sha256": "186cbf13512d36739214b5c01c83219a06cac5ad9fde0605d7baf3a63ae61739"
+    }
+  ],
+  "total_bytes": 6174397
+}

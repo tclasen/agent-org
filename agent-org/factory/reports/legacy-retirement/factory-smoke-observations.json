@@ -1,0 +1,181 @@
+{
+  "status": "historical_source_claims_not_rerun",
+  "records": [
+    {
+      "path": "old/factory/.factory-planning/runtime-smoke-logs/run-20261004T014207Z.hd6GRY/result.json",
+      "bytes": 2179,
+      "sha256": "5c045142b494be32b712fd5177059988c30e7445622879808fa619830cc84d9f",
+      "fields": {
+        "started": "2026-10-04T01:42:09.714828+00:00",
+        "model_requested": "gpt-6-luna",
+        "reasoning_requested": "medium",
+        "model_limit_seconds": 600,
+        "outcome": "FAILED_OR_INCOMPLETE",
+        "stage": "model task",
+        "model_elapsed_seconds": 30.46,
+        "sandbox_stopped": true,
+        "finished": "2026-10-04T01:42:53.312427+00:00"
+      }
+    },
+    {
+      "path": "old/factory/.factory-planning/runtime-smoke-logs/run-20261004T014536Z.BeBVvU/result.json",
+      "bytes": 975,
+      "sha256": "208c5c9e8e603a2c214bd42233911b8c0a008d878c07f60731bed00188701f46",
+      "fields": {
+        "started": "2026-10-04T01:45:36.557018+00:00",
+        "model_requested": "gpt-6-luna",
+        "reasoning_requested": "medium",
+        "model_limit_seconds": 600,
+        "outcome": "MECHANICAL_PASS_REVIEW_REQUIRED",
+        "stage": "acceptance",
+        "model_elapsed_seconds": 56.76,
+        "review_required": [
+          "Runtime-observed Luna/Medium identity",
+          "Four factory skills read and applied",
+          "Network policy and absence of unauthorized actions",
+          "Implementation diff"
+        ],
+        "sandbox_stopped": true,
+        "finished": "2026-10-04T01:46:46.746629+00:00"
+      }
+    },
+    {
+      "path": "old/factory/.factory-planning/runtime-smoke-logs/run-20261004T015528Z.dK02Ta/result.json",
+      "bytes": 1185,
+      "sha256": "8ed45f97f2493d5a56fd31cd98ac068b511b61051177a6ffe7085a2893e2c506",
+      "fields": {
+        "started": "2026-10-04T01:55:29.049913+00:00",
+        "model_requested": "gpt-6-luna",
+        "reasoning_requested": "medium",
+        "model_limit_seconds": 600,
+        "outcome": "BLOCKED",
+        "stage": "model discovery",
+        "model_discovery": {
+          "ready": false,
+          "exact_model_present": false,
+          "medium_supported": false,
+          "configuration": {
+            "model": "gpt-6-luna",
+            "model_reasoning_effort": "medium",
+            "model_provider": "sandboxd"
+          },
+          "configuration_matches_request": true,
+          "error": null
+        },
+        "sandbox_stopped": true,
+        "finished": "2026-10-04T01:55:42.517525+00:00"
+      }
+    },
+    {
+      "path": "old/factory/.factory-planning/runtime-smoke-logs/run-20261004T020140Z.5asM6B/result.json",
+      "bytes": 2327,
+      "sha256": "d2fcc738748c934f85968d79f09fd62582ce1ef1d6b42b13a24e1c23bf26c9b1",
+      "fields": {
+        "started": "2026-10-04T02:01:40.966483+00:00",
+        "model_requested": "gpt-6-luna",
+        "reasoning_requested": "medium",
+        "model_limit_seconds": 600,
+        "outcome": "QUALIFIED_MECHANICAL_PASS",
+        "stage": "acceptance",
+        "model_discovery": {
+          "ready": true,
+          "exact_model_present": true,
+          "medium_supported": true,
+          "configuration": {
+            "model": "gpt-6-luna",
+            "model_reasoning_effort": "medium",
+            "model_provider": "sandboxd"
+          },
+          "configuration_matches_request": true,
+          "error": null
+        },
+        "model_elapsed_seconds": 33.91,
+        "model_identity_status": "Catalog and configured request verified; provider identity not independently attested.",
+        "review_required": [
+          "Runtime-observed Luna/Medium identity",
+          "Four factory skills read and applied",
+          "Network policy and absence of unauthorized actions",
+          "Implementation diff"
+        ],
+        "sandbox_stopped": true,
+        "finished": "2026-10-04T02:02:33.125357+00:00"
+      }
+    },
+    {
+      "path": "old/factory/.factory-planning/runtime-smoke-logs/run-20261004T022037Z.ACtgxu/result.json",
+      "bytes": 2549,
+      "sha256": "410ce682a7799a1681db9af6fddfcfa13d671142e866abd79d19797028c971bb",
+      "fields": {
+        "started": "2026-10-04T02:20:37.314479+00:00",
+        "model_requested": "gpt-6-luna",
+        "reasoning_requested": "medium",
+        "model_limit_seconds": 600,
+        "outcome": "MECHANICAL_PASS_REVIEW_REQUIRED",
+        "stage": "acceptance",
+        "mcp_compatibility": {
+          "changed": true,
+          "changes": [
+            "headers -> http_headers",
+            "remove legacy type"
+          ],
+          "backup": "/home/agent/.codex/config.toml.factory-smoke-backup",
+          "values_logged": false
+        },
+        "network_checks": {
+          "scope": "disposable sandbox only",
+          "global_policy_changed": false,
+          "denied_targets": [
+            "registry.npmjs.org:443",
+            "example.com:443"
+          ],
+          "registry_reachable_before": true,
+          "registry_reachable_after": false,
+          "observed_failure": {
+            "target": "https://registry.npmjs.org/",
+            "reachable": false,
+            "status": 403,
+            "failure": "HTTPError"
+          },
+          "limitation": "Selected explicit denies tested; global allow-all remains. This is not default-deny validation."
+        },
+        "model_discovery": {
+          "ready": true,
+          "exact_model_present": true,
+          "medium_supported": true,
+          "configuration": {
+            "model": "gpt-6-luna",
+            "model_reasoning_effort": "medium",
+            "model_provider": "sandboxd"
+          },
+          "configuration_matches_request": true,
+          "error": null
+        },
+        "model_elapsed_seconds": 29.24,
+        "model_identity_status": "Catalog and configured request verified; provider identity not independently attested.",
+        "review_required": [
+          "Runtime-observed Luna/Medium identity",
+          "Four factory skills read and applied",
+          "Network policy and absence of unauthorized actions",
+          "Implementation diff"
+        ],
+        "sandbox_stopped": true,
+        "finished": "2026-10-04T02:21:29.820563+00:00"
+      }
+    },
+    {
+      "path": "old/factory/.factory-planning/runtime-smoke-logs/run-20261004T023846Z.BtKDDP/result.json",
+      "bytes": 719,
+      "sha256": "421455d92970ecef8b4de991736cbba8dd8ed0ae43e5b48237c7c34773aa58bc",
+      "fields": {
+        "started": "2026-10-04T02:38:46.735421+00:00",
+        "model_requested": "gpt-6-luna",
+        "reasoning_requested": "medium",
+        "model_limit_seconds": 600,
+        "outcome": "INTERRUPTED",
+        "stage": "preparation",
+        "finished": "2026-10-04T02:38:48.664601+00:00"
+      }
+    }
+  ],
+  "limits": "All six original sibling result files inspected; private latest.log symlink target unavailable. Command/error/prompt bodies excluded. Config/catalog identity does not attest actual provider identity; selected denies are not default deny."
+}

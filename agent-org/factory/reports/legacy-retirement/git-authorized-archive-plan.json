@@ -1,0 +1,1219 @@
+{
+  "observed_at": "2026-10-21T23:33:44.043005+00:00",
+  "plans": [
+    {
+      "path": "projects/factory_catalog",
+      "destination": "https://github.com/tclasen/factory_catalog.git",
+      "refs": [
+        {
+          "source_ref": "refs/heads/apply-factory-to-catalog",
+          "oid": "3dd0ed22a6041c56a21e275f603f71457341712c",
+          "destination_ref": "refs/heads/archive/legacy-20261021/apply-factory-to-catalog"
+        },
+        {
+          "source_ref": "refs/heads/check-guidance-links",
+          "oid": "6ce5dbd28c2ba1183e687095d76bf2bfc939c1c0",
+          "destination_ref": "refs/heads/archive/legacy-20261021/check-guidance-links"
+        },
+        {
+          "source_ref": "refs/heads/chore/adopt-factory-v1",
+          "oid": "abc81650573ebc6f69c6ed3bcc9ac687f13d7b41",
+          "destination_ref": "refs/heads/archive/legacy-20261021/chore/adopt-factory-v1"
+        },
+        {
+          "source_ref": "refs/heads/codex/agent-completion-requirements",
+          "oid": "aa3220dc70a27d59426fd1d881da7b423e9e3e91",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/agent-completion-requirements"
+        },
+        {
+          "source_ref": "refs/heads/codex/agentpatterns-review",
+          "oid": "fc1338dda970053ac8055c8a3b93c865405ee5fc",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/agentpatterns-review"
+        },
+        {
+          "source_ref": "refs/heads/codex/ai-leaders-research",
+          "oid": "3b33860b6385fc2b7f9974786963f689d439443b",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/ai-leaders-research"
+        },
+        {
+          "source_ref": "refs/heads/codex/atlas-control-nodes",
+          "oid": "39ff0aa982e3f1bfee839d8324b8e085208ce590",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/atlas-control-nodes"
+        },
+        {
+          "source_ref": "refs/heads/codex/atlas-threat-assessment",
+          "oid": "4f940d16181b62ec42ea6294714ed87fc43b03d1",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/atlas-threat-assessment"
+        },
+        {
+          "source_ref": "refs/heads/codex/authority-assessment-notes",
+          "oid": "8c01e8167878b2c1819bc43bb13dc7510e9d6559",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/authority-assessment-notes"
+        },
+        {
+          "source_ref": "refs/heads/codex/catalog-check-edge-cases",
+          "oid": "42481b2ec240a603be2932d00685326a808db4a4",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/catalog-check-edge-cases"
+        },
+        {
+          "source_ref": "refs/heads/codex/catalog-ci",
+          "oid": "bf4e05f576065449a64e5d6cb0dd99662f860452",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/catalog-ci"
+        },
+        {
+          "source_ref": "refs/heads/codex/catalog-ci-review-checks",
+          "oid": "8282c28fca45bf6c6564c2d2c7191f0e4ad8a58b",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/catalog-ci-review-checks"
+        },
+        {
+          "source_ref": "refs/heads/codex/catalog-content-review",
+          "oid": "67339f53c606092da6d3882b1af39c120d35c327",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/catalog-content-review"
+        },
+        {
+          "source_ref": "refs/heads/codex/catalog-control-consolidation",
+          "oid": "a3656e10cbf0ab7f4b831a8cb0d6ddb34a17df6b",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/catalog-control-consolidation"
+        },
+        {
+          "source_ref": "refs/heads/codex/catalog-controls",
+          "oid": "41c5812fb4c6289bcd39aa3c0dc7e32efb7b6024",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/catalog-controls"
+        },
+        {
+          "source_ref": "refs/heads/codex/classwork-learnings",
+          "oid": "8e86c791f4502ed25289d700bf9f2d5a4f40ff5d",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/classwork-learnings"
+        },
+        {
+          "source_ref": "refs/heads/codex/contributing-workflow",
+          "oid": "f35acc7665c05120a830c19b67509dff59420fe9",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/contributing-workflow"
+        },
+        {
+          "source_ref": "refs/heads/codex/data-mesh-research",
+          "oid": "5e39dffa05f687abbf8c86d897cee60397869607",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/data-mesh-research"
+        },
+        {
+          "source_ref": "refs/heads/codex/domain-driven-design-research",
+          "oid": "6208a691670d00c95b6e4f9a621c494f38d4ec9e",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/domain-driven-design-research"
+        },
+        {
+          "source_ref": "refs/heads/codex/factory-implementation-tradeoffs",
+          "oid": "6e924e279f9d762003591d761d24e0e6674b9696",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/factory-implementation-tradeoffs"
+        },
+        {
+          "source_ref": "refs/heads/codex/factory-node-decomposition",
+          "oid": "6978c211e34e3dcc579ea989ce459a25cd91aafc",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/factory-node-decomposition"
+        },
+        {
+          "source_ref": "refs/heads/codex/government-airgap-examples",
+          "oid": "981e37ebdab7ea45ae061ae2f50c1aba34dccd7a",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/government-airgap-examples"
+        },
+        {
+          "source_ref": "refs/heads/codex/human-ai-authority",
+          "oid": "588acae6dc42bfd274b48e55fbcf0e56d093c5ef",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/human-ai-authority"
+        },
+        {
+          "source_ref": "refs/heads/codex/initial-catalog",
+          "oid": "aa49d1d435600ab56f22307d6e8e8566a1d71d88",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/initial-catalog"
+        },
+        {
+          "source_ref": "refs/heads/codex/lethal-trifecta",
+          "oid": "ad7a5f996b73454ed5440092db97570e56a244c1",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/lethal-trifecta"
+        },
+        {
+          "source_ref": "refs/heads/codex/okf-airgap-transfer",
+          "oid": "ac9420158a7d71ae3690269b59da6d3d78b17923",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/okf-airgap-transfer"
+        },
+        {
+          "source_ref": "refs/heads/codex/okf-delivery-links",
+          "oid": "4c63e4d74d937d86eb063f2f204d6eba6e89f7cd",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/okf-delivery-links"
+        },
+        {
+          "source_ref": "refs/heads/codex/okf-effect-links",
+          "oid": "2e369fa8f32c8ec7dec17c0107b7e4772d1f8e56",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/okf-effect-links"
+        },
+        {
+          "source_ref": "refs/heads/codex/okf-guide-links",
+          "oid": "5173245c7c3e9e154e4b1488db37fbaf9eb6f598",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/okf-guide-links"
+        },
+        {
+          "source_ref": "refs/heads/codex/okf-mechanism-notes",
+          "oid": "b380c1114fb15ad74985085e1afce0f45f6d9c8c",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/okf-mechanism-notes"
+        },
+        {
+          "source_ref": "refs/heads/codex/okf-risk-links",
+          "oid": "78b3e269c3e346f1f89f4c478849ab2363467b3f",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/okf-risk-links"
+        },
+        {
+          "source_ref": "refs/heads/codex/okf-semantic-links",
+          "oid": "569605a0b153a4ad18707af03a6dfaa65f04996d",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/okf-semantic-links"
+        },
+        {
+          "source_ref": "refs/heads/codex/okf-source-cleanup",
+          "oid": "a3b77a5928544c4364a4333a148d34cf189017e0",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/okf-source-cleanup"
+        },
+        {
+          "source_ref": "refs/heads/codex/open-group-guides",
+          "oid": "ca6567f4ec04300ab180e2faf0bbf29406204f41",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/open-group-guides"
+        },
+        {
+          "source_ref": "refs/heads/codex/open-group-research",
+          "oid": "809d747089e43e669f4194f316ecb24b8c624766",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/open-group-research"
+        },
+        {
+          "source_ref": "refs/heads/codex/parallel-okf",
+          "oid": "5d70eb6121b06419c4f2c6d2a38c8ded025d2796",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/parallel-okf"
+        },
+        {
+          "source_ref": "refs/heads/codex/pr-10-parallel-update",
+          "oid": "79f66677b463a973453f730384fe0165ca563505",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/pr-10-parallel-update"
+        },
+        {
+          "source_ref": "refs/heads/codex/pr-11-parallel-update",
+          "oid": "b662e5c3752dc7161e7b8598d63c1d7f792cb30f",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/pr-11-parallel-update"
+        },
+        {
+          "source_ref": "refs/heads/codex/pr-8-parallel-update",
+          "oid": "33ffd1dd4665c5551407cdaf882994360cd5a455",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/pr-8-parallel-update"
+        },
+        {
+          "source_ref": "refs/heads/codex/readme-adoption-prompts",
+          "oid": "f9f33196299f9c401af952df9ced9f3ffbbaaec8",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/readme-adoption-prompts"
+        },
+        {
+          "source_ref": "refs/heads/codex/reduce-catalog-wide-maintenance",
+          "oid": "3492cf3fba53365c6be99f5e21f9b1730492e1dd",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/reduce-catalog-wide-maintenance"
+        },
+        {
+          "source_ref": "refs/heads/codex/remove-obsolete-history",
+          "oid": "de7e96b0858313d08c49f7b9a6e93e8119a3278e",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/remove-obsolete-history"
+        },
+        {
+          "source_ref": "refs/heads/codex/semantic-search-learnings",
+          "oid": "3eacaccbc9e19236b140452543fe91d33ec95745",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/semantic-search-learnings"
+        },
+        {
+          "source_ref": "refs/heads/codex/software-factory-controls",
+          "oid": "ddff338075e3f70c886b3a2166becde609d0c043",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/software-factory-controls"
+        },
+        {
+          "source_ref": "refs/heads/codex/software-factory-learnings",
+          "oid": "eee3f528ee4f7ee43f9ed49c5971dde5e9fbc693",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/software-factory-learnings"
+        },
+        {
+          "source_ref": "refs/heads/docs/security-controls",
+          "oid": "73fcb5a853852059b96a68d085bc8850c05eb62d",
+          "destination_ref": "refs/heads/archive/legacy-20261021/docs/security-controls"
+        }
+      ],
+      "scanned_new_blobs": 38,
+      "scanned_bytes": 300688,
+      "findings": [],
+      "large_unscanned_blobs": [],
+      "scan_limits": "High-confidence token/private-key patterns and sensitive filenames only; not a comprehensive secret audit. Existing repository content only; no working-tree or ignored payload included."
+    },
+    {
+      "path": "projects/penny",
+      "destination": "https://github.com/Viixle/Penny.git",
+      "refs": [
+        {
+          "source_ref": "refs/heads/codex/1-engineering-guidance",
+          "oid": "ccd05aadd22c77786a4e3c2ef322c9205b2960b8",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/1-engineering-guidance"
+        },
+        {
+          "source_ref": "refs/heads/codex/105-ticket-questions",
+          "oid": "a8ccc97cfc3cbaf2d73ae00a845b424a88fd44a3",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/105-ticket-questions"
+        },
+        {
+          "source_ref": "refs/heads/codex/107-screenshot-integration",
+          "oid": "9bb0c1c248b784a55aca21cfb17efb81d7756cce",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/107-screenshot-integration"
+        },
+        {
+          "source_ref": "refs/heads/codex/107-screenshot-scale",
+          "oid": "9bb0c1c248b784a55aca21cfb17efb81d7756cce",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/107-screenshot-scale"
+        },
+        {
+          "source_ref": "refs/heads/codex/11-durable-decision-guidance",
+          "oid": "1940a813a3ac0b34557a0b50c9128a5ef92ea5f0",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/11-durable-decision-guidance"
+        },
+        {
+          "source_ref": "refs/heads/codex/113-human-review-handoff",
+          "oid": "c6d01a89f07ee222d2c15efdeec9f710614d8184",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/113-human-review-handoff"
+        },
+        {
+          "source_ref": "refs/heads/codex/113-published-review-index",
+          "oid": "dbece75bfd803b0072ae0b85db557da03ebdbd39",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/113-published-review-index"
+        },
+        {
+          "source_ref": "refs/heads/codex/114-retire-hourly-scheduler",
+          "oid": "4db869869faab976d71c594d5f7b0cf45ebfe393",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/114-retire-hourly-scheduler"
+        },
+        {
+          "source_ref": "refs/heads/codex/117-foundation",
+          "oid": "ecaca5d05c147d816ed2a62a607c58da4a2becec",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/117-foundation"
+        },
+        {
+          "source_ref": "refs/heads/codex/117-foundation-integrate",
+          "oid": "99a0540d9b77249a7f7293d342c0cfb2c485f87a",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/117-foundation-integrate"
+        },
+        {
+          "source_ref": "refs/heads/codex/118-citizen-crosswalk",
+          "oid": "605a9e9640b90f01156f540132dc845e1a31f156",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/118-citizen-crosswalk"
+        },
+        {
+          "source_ref": "refs/heads/codex/120-combined-copy",
+          "oid": "8f571087bbba955c10b9b70b9f4f4a4ccfbeb325",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/120-combined-copy"
+        },
+        {
+          "source_ref": "refs/heads/codex/120-copy-inventory",
+          "oid": "70b9eaa3bce4f445f631ded103a5478b2ed9c839",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/120-copy-inventory"
+        },
+        {
+          "source_ref": "refs/heads/codex/120-copy-review-recordings",
+          "oid": "b079499cca8f44f56d8b63556996fb7265518a5d",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/120-copy-review-recordings"
+        },
+        {
+          "source_ref": "refs/heads/codex/120-even-mobile-recording",
+          "oid": "c258f9c9bcc4d3b30e007a0c37177c3484b0c853",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/120-even-mobile-recording"
+        },
+        {
+          "source_ref": "refs/heads/codex/120-player-copy-guidance",
+          "oid": "facff84854fd62e20ea5483aa2955a89c4c4ef14",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/120-player-copy-guidance"
+        },
+        {
+          "source_ref": "refs/heads/codex/120-published-copy-review-index",
+          "oid": "3019f273d8b1bd8e42b0e95ab97bd04cccb9166b",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/120-published-copy-review-index"
+        },
+        {
+          "source_ref": "refs/heads/codex/120-quest-copy",
+          "oid": "86d8b0cc2757dc3f57bc7c84e463cbdaa6c8b3a0",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/120-quest-copy"
+        },
+        {
+          "source_ref": "refs/heads/codex/120-recording-contract",
+          "oid": "7c7e449f6e34f2e2848f3b39496cb264b6b267c5",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/120-recording-contract"
+        },
+        {
+          "source_ref": "refs/heads/codex/120-shell-copy",
+          "oid": "03c1e543cbc1def3b375eda8fed165b4926c1ba5",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/120-shell-copy"
+        },
+        {
+          "source_ref": "refs/heads/codex/120-test-alignment",
+          "oid": "26433f920e984389039f6dfe22ffcafa9ce3df66",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/120-test-alignment"
+        },
+        {
+          "source_ref": "refs/heads/codex/120-transfer-copy",
+          "oid": "e0ba468fa711dc2662e17bbbd273d0536c7264bd",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/120-transfer-copy"
+        },
+        {
+          "source_ref": "refs/heads/codex/121-blocker-guidance",
+          "oid": "9500e46203d20f918e354778032032dd803e1c7c",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/121-blocker-guidance"
+        },
+        {
+          "source_ref": "refs/heads/codex/121-feedback-blocker-guidance",
+          "oid": "710aaa57b86c801fc32549c9cf55e48b95f9ac70",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/121-feedback-blocker-guidance"
+        },
+        {
+          "source_ref": "refs/heads/codex/126-geometry-recorder-contract",
+          "oid": "338371066a05f1c72baacafbdf80476dc7c036cb",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/126-geometry-recorder-contract"
+        },
+        {
+          "source_ref": "refs/heads/codex/126-world-geometry",
+          "oid": "64e4b3a59588dd85749a07169de442023e8aba29",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/126-world-geometry"
+        },
+        {
+          "source_ref": "refs/heads/codex/127-tag-provenance-temporal-fix",
+          "oid": "7f39725951a469b48c171cf4d1bce30b2d710e09",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/127-tag-provenance-temporal-fix"
+        },
+        {
+          "source_ref": "refs/heads/codex/127-technical-source-tag-docs",
+          "oid": "774596308027b6c41f3b20a6f6a43c1a0f4706b7",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/127-technical-source-tag-docs"
+        },
+        {
+          "source_ref": "refs/heads/codex/127-unrecorded-tooling-profile",
+          "oid": "7f39725951a469b48c171cf4d1bce30b2d710e09",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/127-unrecorded-tooling-profile"
+        },
+        {
+          "source_ref": "refs/heads/codex/128-built-api-acceptance",
+          "oid": "4d5abfdf0d8f3028de0312640e66631243bc8436",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/128-built-api-acceptance"
+        },
+        {
+          "source_ref": "refs/heads/codex/128-current-compatibility",
+          "oid": "d640ed7365a5fb2adb5bf13678710f0bb5c0a92c",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/128-current-compatibility"
+        },
+        {
+          "source_ref": "refs/heads/codex/128-domain-session",
+          "oid": "9f64b245676aab46ece62d1d558b341fa464b305",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/128-domain-session"
+        },
+        {
+          "source_ref": "refs/heads/codex/128-invitation-integration",
+          "oid": "5be47971ecba1687f3409193adbdb71c38f2852a",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/128-invitation-integration"
+        },
+        {
+          "source_ref": "refs/heads/codex/128-retry-readiness",
+          "oid": "5be47971ecba1687f3409193adbdb71c38f2852a",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/128-retry-readiness"
+        },
+        {
+          "source_ref": "refs/heads/codex/13-reconcile-game-design",
+          "oid": "cd629a8be34012f19ecea481b281205d7d084525",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/13-reconcile-game-design"
+        },
+        {
+          "source_ref": "refs/heads/codex/141-layered-contract",
+          "oid": "1473a875b871d1bff03fe9dcea5491959dd33445",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/141-layered-contract"
+        },
+        {
+          "source_ref": "refs/heads/codex/141-product-reconciliation",
+          "oid": "26223e3d016e050a2ff29aae537f523a6ac62aff",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/141-product-reconciliation"
+        },
+        {
+          "source_ref": "refs/heads/codex/141-source-contract",
+          "oid": "f72e81c6fd949d7ef78e25e0c0f7bed4135d6d64",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/141-source-contract"
+        },
+        {
+          "source_ref": "refs/heads/codex/143-layout-acceptance",
+          "oid": "c5de34ec86671efb8ab364a184f258e091029f2b",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/143-layout-acceptance"
+        },
+        {
+          "source_ref": "refs/heads/codex/143-layout-core",
+          "oid": "4123913491aade8de1f96a4f37a26d1e583b1d7a",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/143-layout-core"
+        },
+        {
+          "source_ref": "refs/heads/codex/143-layout-template-seal",
+          "oid": "da3870205987f854ba3241089047e8a3065d2753",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/143-layout-template-seal"
+        },
+        {
+          "source_ref": "refs/heads/codex/145-exploration-acceptance",
+          "oid": "599f400029573af9cccec6f760dfbd5dee15a524",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/145-exploration-acceptance"
+        },
+        {
+          "source_ref": "refs/heads/codex/145-exploration-acceptance-repaired-v1",
+          "oid": "d10c7aa8a6528cc29a07df8c65a2ea04c20548cd",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/145-exploration-acceptance-repaired-v1"
+        },
+        {
+          "source_ref": "refs/heads/codex/145-exploration-core",
+          "oid": "7e5d0f55bc5e10e42222ffa9b946e422a6f8bcec",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/145-exploration-core"
+        },
+        {
+          "source_ref": "refs/heads/codex/145-exploration-fixture-observer-exports-v2",
+          "oid": "e2a32fda3530c748982859c33c1696f95f44a01d",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/145-exploration-fixture-observer-exports-v2"
+        },
+        {
+          "source_ref": "refs/heads/codex/145-exploration-ledger",
+          "oid": "4cab6283d9c97f58c60ed6566776eb0f8be59494",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/145-exploration-ledger"
+        },
+        {
+          "source_ref": "refs/heads/codex/145-exploration-native-acceptance",
+          "oid": "837612b1413775307520608d2f05582f4e5a0cfb",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/145-exploration-native-acceptance"
+        },
+        {
+          "source_ref": "refs/heads/codex/145-exploration-preload-observer-v3",
+          "oid": "dc15219f51df036afbab8740081020e1ef41d221",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/145-exploration-preload-observer-v3"
+        },
+        {
+          "source_ref": "refs/heads/codex/145-exploration-ui-acceptance",
+          "oid": "e73267fbb3e7eb0b4c3d024362084b7390999791",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/145-exploration-ui-acceptance"
+        },
+        {
+          "source_ref": "refs/heads/codex/145-native-oracle-repair-v1",
+          "oid": "cfc264e8bc88c1484e26e92b635f6f94aa6c64f8",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/145-native-oracle-repair-v1"
+        },
+        {
+          "source_ref": "refs/heads/codex/145-rendered-transfer-repair-v1",
+          "oid": "127e1bc5cc0d7d6b5c3c89fab308217423978e5c",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/145-rendered-transfer-repair-v1"
+        },
+        {
+          "source_ref": "refs/heads/codex/15-reconcile-planning-gaps",
+          "oid": "496633acbb5d55c44f54039bbd294ad9a7e77727",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/15-reconcile-planning-gaps"
+        },
+        {
+          "source_ref": "refs/heads/codex/17-autonomous-backlog",
+          "oid": "2f13cfb55112d181142d10a6341d531f5d379ed3",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/17-autonomous-backlog"
+        },
+        {
+          "source_ref": "refs/heads/codex/27-art-review",
+          "oid": "7703937f96e610d40c82b23c281d46167a01f1d2",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/27-art-review"
+        },
+        {
+          "source_ref": "refs/heads/codex/27-character-kit",
+          "oid": "06961059da304ff8fe464f1a00983144466fc6a6",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/27-character-kit"
+        },
+        {
+          "source_ref": "refs/heads/codex/27-guidance-repair",
+          "oid": "5da1b954b9a553a717a0c58f27ec384639637217",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/27-guidance-repair"
+        },
+        {
+          "source_ref": "refs/heads/codex/27-reference-kit",
+          "oid": "51131599af22dd108d97e9ae6da10095c03e7586",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/27-reference-kit"
+        },
+        {
+          "source_ref": "refs/heads/codex/27-world-kit",
+          "oid": "1bbab878018c563f11699389af1174f0edd8ae03",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/27-world-kit"
+        },
+        {
+          "source_ref": "refs/heads/codex/29-persistence-docs",
+          "oid": "98ad0bba584e0374f27b59aae04d1cc719c3a513",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/29-persistence-docs"
+        },
+        {
+          "source_ref": "refs/heads/codex/29-persistence-recovery",
+          "oid": "aee231c665895d65579434330832b1117da0ee5c",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/29-persistence-recovery"
+        },
+        {
+          "source_ref": "refs/heads/codex/29-release-lexical",
+          "oid": "77883f588a0cfb2b0da8605ee95afb88d3b6c870",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/29-release-lexical"
+        },
+        {
+          "source_ref": "refs/heads/codex/29-storage-repair",
+          "oid": "9364e13f4e81e58127f712dfa7515f0d281c463d",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/29-storage-repair"
+        },
+        {
+          "source_ref": "refs/heads/codex/29-transactional-persistence",
+          "oid": "d18fa4ff4d57da9735f9d6d70346015ffcad31dc",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/29-transactional-persistence"
+        },
+        {
+          "source_ref": "refs/heads/codex/3-game-vision-readme",
+          "oid": "2db05f69750d49147be670312dee6d6868111be4",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/3-game-vision-readme"
+        },
+        {
+          "source_ref": "refs/heads/codex/30-accessible-shell",
+          "oid": "9912e6c2d57f673f0b96d4b1668802df69aeb176",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/30-accessible-shell"
+        },
+        {
+          "source_ref": "refs/heads/codex/30-shell-acceptance",
+          "oid": "c0bd6dc9f667363d99f79acd5f0bde04c8425c40",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/30-shell-acceptance"
+        },
+        {
+          "source_ref": "refs/heads/codex/30-shell-ui",
+          "oid": "1047d810d57044b58e40c47b1bcff1de9648b231",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/30-shell-ui"
+        },
+        {
+          "source_ref": "refs/heads/codex/31-proposals-acceptance",
+          "oid": "dba19d4d7c61d73b74eb429e5e2a13650e333868",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/31-proposals-acceptance"
+        },
+        {
+          "source_ref": "refs/heads/codex/31-proposals-core",
+          "oid": "b7c266c858cddd53c10b4e2ed1cb4913445a554a",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/31-proposals-core"
+        },
+        {
+          "source_ref": "refs/heads/codex/31-proposals-synthesis",
+          "oid": "296c758cee5476a3d276397ef50eebd3b717738a",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/31-proposals-synthesis"
+        },
+        {
+          "source_ref": "refs/heads/codex/31-proposals-ui",
+          "oid": "bd8e53c060947231c2632cc501ee6df3474b30f0",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/31-proposals-ui"
+        },
+        {
+          "source_ref": "refs/heads/codex/31-recovery-delivery",
+          "oid": "296c758cee5476a3d276397ef50eebd3b717738a",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/31-recovery-delivery"
+        },
+        {
+          "source_ref": "refs/heads/codex/32-completion-core",
+          "oid": "f842d6b7e051f2da97d9d405d85d2296042882e0",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/32-completion-core"
+        },
+        {
+          "source_ref": "refs/heads/codex/32-completion-focus-repair",
+          "oid": "5b492ffc7d225a77240f2fbd845dc313b65f4edc",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/32-completion-focus-repair"
+        },
+        {
+          "source_ref": "refs/heads/codex/32-completion-growth",
+          "oid": "59ba59f072f772f8887eafa6fe4c2c937a2c3b81",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/32-completion-growth"
+        },
+        {
+          "source_ref": "refs/heads/codex/32-completion-receipt-repair",
+          "oid": "c157fc6723f3eab45ddd011f4e3a75273f9fa010",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/32-completion-receipt-repair"
+        },
+        {
+          "source_ref": "refs/heads/codex/32-completion-ui",
+          "oid": "6bf788b5ed799ba1eba9f38111fc82053febbf89",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/32-completion-ui"
+        },
+        {
+          "source_ref": "refs/heads/codex/32-delivery-repair",
+          "oid": "2ddc93967ba5c06fab502f8f281ecbe8b46dda3c",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/32-delivery-repair"
+        },
+        {
+          "source_ref": "refs/heads/codex/32-delivery-repair-core",
+          "oid": "d87941deeec8d13157736be8bd698fe66ba20fd2",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/32-delivery-repair-core"
+        },
+        {
+          "source_ref": "refs/heads/codex/33-art-composition-test-repair",
+          "oid": "19404beb0b78dd38579c0d6b8231b6dd6e854d99",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/33-art-composition-test-repair"
+        },
+        {
+          "source_ref": "refs/heads/codex/33-cosmetic-inventory",
+          "oid": "e3aebaae6a809255bb21f290fc1ad122a373fe52",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/33-cosmetic-inventory"
+        },
+        {
+          "source_ref": "refs/heads/codex/33-cosmetics-core",
+          "oid": "c9ef39358be833b67ce406c9a86d54f1421708a9",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/33-cosmetics-core"
+        },
+        {
+          "source_ref": "refs/heads/codex/33-cosmetics-ui",
+          "oid": "3dad373d7e85b5da706840ab9a2d7cc870e55892",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/33-cosmetics-ui"
+        },
+        {
+          "source_ref": "refs/heads/codex/33-current-main-acceptance",
+          "oid": "756baf7383a955febc50136770fe19d15c2e4c32",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/33-current-main-acceptance"
+        },
+        {
+          "source_ref": "refs/heads/codex/33-current-recording-tooling",
+          "oid": "fb8df9e61a73e28020659a78a4d98f09cfb0f236",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/33-current-recording-tooling"
+        },
+        {
+          "source_ref": "refs/heads/codex/33-current-status-docs",
+          "oid": "e4415793ccb9223e7f66be6638070d1447db2319",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/33-current-status-docs"
+        },
+        {
+          "source_ref": "refs/heads/codex/33-fresh-capture-evidence-docs",
+          "oid": "8f433243156f6cbec01255de69d8490b3bcf74b5",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/33-fresh-capture-evidence-docs"
+        },
+        {
+          "source_ref": "refs/heads/codex/33-receipt-followup",
+          "oid": "118564f4597ffb66036703a056848adb517224f3",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/33-receipt-followup"
+        },
+        {
+          "source_ref": "refs/heads/codex/33-toolkit-composition",
+          "oid": "e4415793ccb9223e7f66be6638070d1447db2319",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/33-toolkit-composition"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-app-reload-acceptance",
+          "oid": "422c2872eddbca1e0f2317c28936b8c154c5d1de",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-app-reload-acceptance"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-app-save-transfer",
+          "oid": "51f54486ac31b6fbf1b34e0670ba4e094f0342d1",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-app-save-transfer"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-capture-evidence-docs",
+          "oid": "52c60c6ad7491391e0198bdcf1562345e38cde8b",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-capture-evidence-docs"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-current-main-app-composition",
+          "oid": "78d166945de1232b767aa07ad52834eb89c2ed05",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-current-main-app-composition"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-current-transfer-docs",
+          "oid": "82db0fdc5ace64172c1e09df52446fc2c5327f03",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-current-transfer-docs"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-final-acceptance",
+          "oid": "ef1a424fd77948969e3354cfd07bf4facfc7b19d",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-final-acceptance"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-firefox-actionability-diagnostic",
+          "oid": "f6dd84827c5ba8a2d3e9aab94f231ab0a4bd10fd",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-firefox-actionability-diagnostic"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-guarded-fixture-adapters",
+          "oid": "adf78e943361a2c1c647f19328cc479c5d595da6",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-guarded-fixture-adapters"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-known-acceptance-repairs",
+          "oid": "22d2bbd8461ade5659c221d3bdea4a06165d9f19",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-known-acceptance-repairs"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-panel-recovery-copy",
+          "oid": "43d5aae160d6491f2aaba432abdae3cfc16915ff",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-panel-recovery-copy"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-publication-contract-docs",
+          "oid": "6f9c6b0ebb5bbe9233f16e49909e4f85400d8f85",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-publication-contract-docs"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-publication-guard-repair",
+          "oid": "e05954ef99421bf344c4d24ab92ec14cf4fb0273",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-publication-guard-repair"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-recorder-schema-contract",
+          "oid": "3c18d4d00762fd898f6ab7ed0a8e21978eb94892",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-recorder-schema-contract"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-recording-native-acceptance",
+          "oid": "6577bd6301e18ec08ee2a58a12addf9414b36665",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-recording-native-acceptance"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-recording-snapshot-compare",
+          "oid": "f6dd84827c5ba8a2d3e9aab94f231ab0a4bd10fd",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-recording-snapshot-compare"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-replacement-epoch-repair",
+          "oid": "51f54486ac31b6fbf1b34e0670ba4e094f0342d1",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-replacement-epoch-repair"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-reproducible-recording-history",
+          "oid": "7f1bc61175bdbcecba62f0964b5ee9e03f8b9e57",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-reproducible-recording-history"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-save-transfer",
+          "oid": "f9be676da66cca62aa9dbca3f108e25fce3624f0",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-save-transfer"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-transfer-core",
+          "oid": "d4ad2fabe765e2c07d791ad28c4b83e8ff573b65",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-transfer-core"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-transfer-journey",
+          "oid": "d235b0f3c6f9847cd47bfa70d0e6041a2e808e61",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-transfer-journey"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-transfer-journey-recovery",
+          "oid": "6248129d8121eb5409664cb4170e2b4c2f33e67e",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-transfer-journey-recovery"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-transfer-prose-basis",
+          "oid": "8b998ccf379f164a75eccbe7a5cb5d546c448898",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-transfer-prose-basis"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-transfer-recovery-integration",
+          "oid": "9964be31c9b9968d6ee36afcdc059855982a0e7c",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-transfer-recovery-integration"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-transfer-session",
+          "oid": "052ef3f4e1f331688f653791204ff5f9c9ee06c7",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-transfer-session"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-transfer-ui",
+          "oid": "efaab09ef5b597d46650a9ed10237a38c5742f52",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-transfer-ui"
+        },
+        {
+          "source_ref": "refs/heads/codex/36-whole-review-corrections",
+          "oid": "a85cf54c6aad32b759b4ea08d985340920f1fcb7",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/36-whole-review-corrections"
+        },
+        {
+          "source_ref": "refs/heads/codex/6-design-guide",
+          "oid": "a9c4df1491f557bb7f855e3482103579d138e5b9",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/6-design-guide"
+        },
+        {
+          "source_ref": "refs/heads/codex/75-factory-reference-docs",
+          "oid": "eafb0d1af3b317672376bc11d018669eceb12b86",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/75-factory-reference-docs"
+        },
+        {
+          "source_ref": "refs/heads/codex/75-hierarchical-factory",
+          "oid": "27ceff5f1e8fa0b0b3adbe9f503a87337a8714eb",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/75-hierarchical-factory"
+        },
+        {
+          "source_ref": "refs/heads/codex/79-capture-core",
+          "oid": "0bb4f5b740b93e4f9249a9cc5a0025fb1fbd1edf",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/79-capture-core"
+        },
+        {
+          "source_ref": "refs/heads/codex/79-factory-observation",
+          "oid": "46eb30af1dde6fe87db6b1e239220058c7473f87",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/79-factory-observation"
+        },
+        {
+          "source_ref": "refs/heads/codex/79-github-archive",
+          "oid": "0c33b679752abe46699443545610bde0353d0462",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/79-github-archive"
+        },
+        {
+          "source_ref": "refs/heads/codex/79-native-hooks",
+          "oid": "c1f8745575e98f035914666b81ad8a87d845dce3",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/79-native-hooks"
+        },
+        {
+          "source_ref": "refs/heads/codex/80-current-main-reconcile",
+          "oid": "69f5f01978d5ab51a7b80700046abab7bbe55444",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/80-current-main-reconcile"
+        },
+        {
+          "source_ref": "refs/heads/codex/80-gate-binding-repair",
+          "oid": "b37bbce39cbe5bfaa1b951d642f7f73d5ee9cc9c",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/80-gate-binding-repair"
+        },
+        {
+          "source_ref": "refs/heads/codex/80-gate-readback-correction",
+          "oid": "12723dae5faebdce932339da457ac680338bdcd7",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/80-gate-readback-correction"
+        },
+        {
+          "source_ref": "refs/heads/codex/80-highest-boundary-repair",
+          "oid": "b8f9bcee9b1d511655531819392c191a3e1d8681",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/80-highest-boundary-repair"
+        },
+        {
+          "source_ref": "refs/heads/codex/80-metrics-repair",
+          "oid": "84e484d96ab86de0201287edeb9141833467a6d0",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/80-metrics-repair"
+        },
+        {
+          "source_ref": "refs/heads/codex/80-receipts-core",
+          "oid": "0fd3db9a969add038c2788eec3f84999e719fe7a",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/80-receipts-core"
+        },
+        {
+          "source_ref": "refs/heads/codex/80-receipts-metrics",
+          "oid": "7e3b22f97a2b089c26e0f3bd6d85e3cfdeb3a136",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/80-receipts-metrics"
+        },
+        {
+          "source_ref": "refs/heads/codex/80-runner-cleanup",
+          "oid": "0e4a7e0bb66524791c7dc46294bc70d01ad2b27b",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/80-runner-cleanup"
+        },
+        {
+          "source_ref": "refs/heads/codex/80-runner-diagnostic",
+          "oid": "69f5f01978d5ab51a7b80700046abab7bbe55444",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/80-runner-diagnostic"
+        },
+        {
+          "source_ref": "refs/heads/codex/80-runner-ownership",
+          "oid": "9133c08a57bf2a0ac0a466482ff3d732e7822020",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/80-runner-ownership"
+        },
+        {
+          "source_ref": "refs/heads/codex/80-verification-receipts",
+          "oid": "b8f9bcee9b1d511655531819392c191a3e1d8681",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/80-verification-receipts"
+        },
+        {
+          "source_ref": "refs/heads/codex/80-whole-review-repair",
+          "oid": "1e8848a560b1330aa20f5ba28fb731a0f8f32dae",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/80-whole-review-repair"
+        },
+        {
+          "source_ref": "refs/heads/codex/88-core-journey-repair",
+          "oid": "6c9187696c81313ad51013c9f0885d5a3da231fd",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/88-core-journey-repair"
+        },
+        {
+          "source_ref": "refs/heads/codex/88-fresh-capture-evidence-docs",
+          "oid": "2db104ba95156f600ff9edb85d67d3175adf90cb",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/88-fresh-capture-evidence-docs"
+        },
+        {
+          "source_ref": "refs/heads/codex/88-growth-recording",
+          "oid": "471d74d75b7e0e77818439576aab56691b4ed4f1",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/88-growth-recording"
+        },
+        {
+          "source_ref": "refs/heads/codex/88-native-choice-diagnosis",
+          "oid": "b9e48a49073d5fe5787b247c1bff5ffd31fce11d",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/88-native-choice-diagnosis"
+        },
+        {
+          "source_ref": "refs/heads/codex/88-native-choice-repair",
+          "oid": "fa2d0073076d45c737a144f1318fe63ba9766321",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/88-native-choice-repair"
+        },
+        {
+          "source_ref": "refs/heads/codex/88-pacing-repair",
+          "oid": "e1237f9c120c50ada7a0d94a46b60627087c34ff",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/88-pacing-repair"
+        },
+        {
+          "source_ref": "refs/heads/codex/88-pacing-repair-2",
+          "oid": "757ea91bd5691018ce3aff7a392565f701f2ff96",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/88-pacing-repair-2"
+        },
+        {
+          "source_ref": "refs/heads/codex/88-production-npm-repair",
+          "oid": "fe387c5614b44d81d988462e9965c467705cd11f",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/88-production-npm-repair"
+        },
+        {
+          "source_ref": "refs/heads/codex/88-recording-environment-repair",
+          "oid": "fc6b282e537f1c21124c3b6708f6f4f798bdd7a8",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/88-recording-environment-repair"
+        },
+        {
+          "source_ref": "refs/heads/codex/88-recording-guards-repair",
+          "oid": "62231585a0e185ea18576b551241ec6b2bd0df1e",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/88-recording-guards-repair"
+        },
+        {
+          "source_ref": "refs/heads/codex/88-recording-selector",
+          "oid": "7a8d1986a5fb56be4d886f4c7c5382ccae777cfc",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/88-recording-selector"
+        },
+        {
+          "source_ref": "refs/heads/codex/88-recording-tooling",
+          "oid": "861b599171cb67a21dbc67cf6bfc5bd6689c1e4b",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/88-recording-tooling"
+        },
+        {
+          "source_ref": "refs/heads/codex/88-review-recordings",
+          "oid": "27e929babc0f7af19ca90578c4865d3d1516056a",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/88-review-recordings"
+        },
+        {
+          "source_ref": "refs/heads/codex/88-video-index",
+          "oid": "8f284d06c87a5a0e4b57c0a65f8ecc5bdd5d2999",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/88-video-index"
+        },
+        {
+          "source_ref": "refs/heads/codex/9-trunk-collaboration-guidance",
+          "oid": "28f630eaea9856b083b4fe5752f9f6a11d679de5",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/9-trunk-collaboration-guidance"
+        },
+        {
+          "source_ref": "refs/heads/codex/factory-concurrency-12",
+          "oid": "224933366f6456bbe05066c1f830ae2067953900",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/factory-concurrency-12"
+        }
+      ],
+      "scanned_new_blobs": 417,
+      "scanned_bytes": 8867729,
+      "findings": [],
+      "large_unscanned_blobs": [],
+      "scan_limits": "High-confidence token/private-key patterns and sensitive filenames only; not a comprehensive secret audit. Existing repository content only; no working-tree or ignored payload included."
+    },
+    {
+      "path": "projects/semantic_search",
+      "destination": "https://github.com/tclasen/semantic_search.git",
+      "refs": [
+        {
+          "source_ref": "refs/heads/codex/100-playlist-worker",
+          "oid": "779e87831fd7ad83b3f766cc82ec3b131873f2db",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/100-playlist-worker"
+        },
+        {
+          "source_ref": "refs/heads/codex/101-intake-cancellation",
+          "oid": "23a63f9078c401f7c4f9b3ccfacc314e2dfc0e1a",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/101-intake-cancellation"
+        },
+        {
+          "source_ref": "refs/heads/codex/102-portable-receipt-worker",
+          "oid": "d77d77367965b120c59a34e719303a41a7857849",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/102-portable-receipt-worker"
+        },
+        {
+          "source_ref": "refs/heads/codex/110-source-lifecycle-feature",
+          "oid": "a68356b2a875c18f65dfe935078b1994b18cf8c2",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/110-source-lifecycle-feature"
+        },
+        {
+          "source_ref": "refs/heads/codex/99-readiness-worker",
+          "oid": "fd210c6559e1e13ecd42510a881a0d331e929360",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/99-readiness-worker"
+        },
+        {
+          "source_ref": "refs/heads/codex/catalog-executable-admission",
+          "oid": "454b8a987d0034b9541b8c5fbcc810bc284e8057",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/catalog-executable-admission"
+        },
+        {
+          "source_ref": "refs/heads/codex/corpus-acquire-reservation",
+          "oid": "6422c300544054127fcfa00becc8e870f12cdb5c",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/corpus-acquire-reservation"
+        },
+        {
+          "source_ref": "refs/heads/codex/corpus-first-originals-admission",
+          "oid": "546098daba649238bd56c999857232b11af0c7a8",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/corpus-first-originals-admission"
+        },
+        {
+          "source_ref": "refs/heads/codex/corpus-manifest",
+          "oid": "ce519bbdd6a8bb17c19137c91bdc51324cc6b7e4",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/corpus-manifest"
+        },
+        {
+          "source_ref": "refs/heads/codex/corpus-source-provenance",
+          "oid": "dbf94ffac1ee8cef36e27fcb6140f3e7bb9b2b20",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/corpus-source-provenance"
+        },
+        {
+          "source_ref": "refs/heads/codex/corpus-throttle-receipt",
+          "oid": "28060671810c52a8b7885516c353608f1354b23c",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/corpus-throttle-receipt"
+        },
+        {
+          "source_ref": "refs/heads/codex/factory-evidence",
+          "oid": "b33a7c41ca3bd2d8ed5019b425ddda32eb5dbfb9",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/factory-evidence"
+        },
+        {
+          "source_ref": "refs/heads/codex/factory-migration",
+          "oid": "07647770dda0b9895bf898f5e52f84236576cb82",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/factory-migration"
+        },
+        {
+          "source_ref": "refs/heads/codex/factory-stages",
+          "oid": "aba52ed829dbcf98d29ad40a2d004c3653f48217",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/factory-stages"
+        },
+        {
+          "source_ref": "refs/heads/codex/frame-vision-readiness",
+          "oid": "274b4d62e33e1d2d92200a8cc832cef779f00858",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/frame-vision-readiness"
+        },
+        {
+          "source_ref": "refs/heads/codex/safari-ax-pilot-20261003",
+          "oid": "ecd117a8ff16e0af08f84c13c826b2443991c6fd",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/safari-ax-pilot-20261003"
+        },
+        {
+          "source_ref": "refs/heads/codex/seaweedfs-approved-listeners",
+          "oid": "56e8654313c05be78d62ead91e8722369c4828fe",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/seaweedfs-approved-listeners"
+        },
+        {
+          "source_ref": "refs/heads/codex/seaweedfs-capability-readiness",
+          "oid": "628389e0a2526c080770ddb91292abb86fdd15e4",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/seaweedfs-capability-readiness"
+        },
+        {
+          "source_ref": "refs/heads/codex/source-lifecycle-checkpoint-20261003",
+          "oid": "dddf41ad3bfda118bc573f6d407356a260149e53",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/source-lifecycle-checkpoint-20261003"
+        },
+        {
+          "source_ref": "refs/heads/codex/speech-zero-signal",
+          "oid": "7876be30bc5a39bb60fc521989a3c131d2b44491",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/speech-zero-signal"
+        },
+        {
+          "source_ref": "refs/heads/codex/url-acquisition-byte-limit",
+          "oid": "5b5fcf122de29fa2445f779c3ffc205792b5bb84",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/url-acquisition-byte-limit"
+        }
+      ],
+      "scanned_new_blobs": 82,
+      "scanned_bytes": 2045018,
+      "findings": [],
+      "large_unscanned_blobs": [],
+      "scan_limits": "High-confidence token/private-key patterns and sensitive filenames only; not a comprehensive secret audit. Existing repository content only; no working-tree or ignored payload included."
+    },
+    {
+      "path": "projects/wired_to_survive",
+      "destination": "https://github.com/tclasen/wired_to_survive.git",
+      "refs": [
+        {
+          "source_ref": "refs/heads/codex/factory-adoption-complete",
+          "oid": "4badd283c5f53ef10f90037f1c83db7cda35453f",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/factory-adoption-complete"
+        },
+        {
+          "source_ref": "refs/heads/codex/factory-experiments",
+          "oid": "be2e1ba0202f9e93c09a1286e27edc5f2738c76b",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/factory-experiments"
+        },
+        {
+          "source_ref": "refs/heads/codex/factory-experiments-delivery",
+          "oid": "5304bf498e663186861b751c74f30e13182eacae",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/factory-experiments-delivery"
+        },
+        {
+          "source_ref": "refs/heads/codex/factory-observation",
+          "oid": "28a925289161625a70f0a526edd3c84bfa78c380",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/factory-observation"
+        },
+        {
+          "source_ref": "refs/heads/codex/factory-observation-delivery",
+          "oid": "91c865746d74ff620183a923a6729999d8e58bbf",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/factory-observation-delivery"
+        },
+        {
+          "source_ref": "refs/heads/codex/factory-policy",
+          "oid": "d1e30ba22c44fede317d84599d8990c900d5358c",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/factory-policy"
+        },
+        {
+          "source_ref": "refs/heads/codex/factory-qualification",
+          "oid": "7c2eb499d733248f3f46af60fb949c4307dde10d",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/factory-qualification"
+        },
+        {
+          "source_ref": "refs/heads/codex/factory-qualification-prep",
+          "oid": "b55859e317691f0ac4ae8ee34c2ae380fe12e1fc",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/factory-qualification-prep"
+        },
+        {
+          "source_ref": "refs/heads/codex/factory-ready-backlog",
+          "oid": "2c4fab2132aea5ce7ae99976e20f7297d5f2900e",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/factory-ready-backlog"
+        },
+        {
+          "source_ref": "refs/heads/codex/factory-receipts",
+          "oid": "9f068ac057dd0d561eacac67e2e41d60a5330573",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/factory-receipts"
+        },
+        {
+          "source_ref": "refs/heads/codex/factory-receipts-delivery",
+          "oid": "9cc1cb00f6ef2d5b4cd7859bdc0a44fc11657c6b",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/factory-receipts-delivery"
+        },
+        {
+          "source_ref": "refs/heads/codex/native-qualification",
+          "oid": "f4bf33160fb6f907032384a279480bd55f9f7583",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/native-qualification"
+        },
+        {
+          "source_ref": "refs/heads/codex/planning-integration-reconcile",
+          "oid": "1ef01dbfbeeaa879ba4fa0d87e3fb13ac13d0969",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/planning-integration-reconcile"
+        },
+        {
+          "source_ref": "refs/heads/codex/planning-refinement",
+          "oid": "aa35d21a0245a4931b4d90ee678ffd170ea9d682",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/planning-refinement"
+        },
+        {
+          "source_ref": "refs/heads/codex/planning-repair",
+          "oid": "2f2b304ba1ad5e1313cbc8a0b728028e14703ddc",
+          "destination_ref": "refs/heads/archive/legacy-20261021/codex/planning-repair"
+        },
+        {
+          "source_ref": "refs/heads/docs/game-design-plan",
+          "oid": "8b40c5255fb963be3b89db89ced41f74e774e2dd",
+          "destination_ref": "refs/heads/archive/legacy-20261021/docs/game-design-plan"
+        },
+        {
+          "source_ref": "refs/heads/factory/onboard-wired-to-survive",
+          "oid": "299bbcf2074f86756f945f6921d15c6437cbe8a7",
+          "destination_ref": "refs/heads/archive/legacy-20261021/factory/onboard-wired-to-survive"
+        }
+      ],
+      "scanned_new_blobs": 48,
+      "scanned_bytes": 666961,
+      "findings": [],
+      "large_unscanned_blobs": [],
+      "scan_limits": "High-confidence token/private-key patterns and sensitive filenames only; not a comprehensive secret audit. Existing repository content only; no working-tree or ignored payload included."
+    }
+  ]
+}

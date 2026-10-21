@@ -1,0 +1,48 @@
+{
+  "answer_unique_content_counts": {
+    "{\"date\": \"2026-11-04\", \"sources\": [\"A\"]}": 2,
+    "{\"date\": \"2026-11-04\", \"sources\": [\"B\"]}": 1
+  },
+  "by_root": {
+    "old/agent-collaboration": {
+      "selected_paths": 1,
+      "unique_sources": 1
+    },
+    "old/agent-handoffs": {
+      "selected_paths": 1,
+      "unique_sources": 1
+    },
+    "old/factory": {
+      "selected_paths": 52274,
+      "unique_sources": 48834
+    },
+    "old/factory-eval-workspaces": {
+      "selected_paths": 4132,
+      "unique_sources": 231
+    },
+    "old/factory-evals-workspaces": {
+      "selected_paths": 22,
+      "unique_sources": 3
+    },
+    "old/work": {
+      "selected_paths": 212,
+      "unique_sources": 211
+    }
+  },
+  "completion_unique_content_counts": {
+    "{\"artifact_complete\": false, \"external_effect\": \"none\", \"required_check\": \"not_applicable\"}": 1,
+    "{\"artifact_complete\": true, \"external_effect\": \"draft_only\", \"required_check\": \"not_applicable\"}": 1,
+    "{\"artifact_complete\": true, \"external_effect\": \"none\", \"required_check\": \"not_applicable\"}": 2,
+    "{\"artifact_complete\": true, \"external_effect\": \"none\", \"required_check\": \"passed\"}": 1,
+    "{\"artifact_complete\": true, \"external_effect\": \"none\", \"required_check\": \"unavailable\"}": 1,
+    "{\"artifact_complete\": true, \"external_effect\": \"registered_once\", \"required_check\": \"not_applicable\"}": 1,
+    "{\"artifact_complete\": true, \"external_effect\": \"registered_once\", \"required_check\": \"unavailable\"}": 1
+  },
+  "counts": {
+    "duplicates": 7361,
+    "selected_paths": 56642,
+    "unique_sources": 49281
+  },
+  "errors": [],
+  "method": "Selected conclusions/paragraphs and sanitized high-level structured fields; exact content dedup; no command execution or raw log/transcript preservation. Duplicate completion counts represent unique content, not all211 paths; see fixture metrics separately."
+}

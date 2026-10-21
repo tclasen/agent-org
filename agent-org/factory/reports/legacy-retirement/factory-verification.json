@@ -1,0 +1,57 @@
+{
+  "checks": [
+    {
+      "cases": 5,
+      "check": "fence_blank_lines_matching_unclosed_indented_quote",
+      "passed": true
+    },
+    {
+      "check": "claims_exclusion_and_known_credential_patterns",
+      "claim_paragraphs": 17989,
+      "code_leading_claims": 0,
+      "credential_pattern_matches": 0,
+      "limits": "Pattern scan is not proof of absence of every possible secret or private fact.",
+      "passed": true,
+      "records": 49281,
+      "records_with_raw_exception_fields_removed": 265
+    },
+    {
+      "check": "complete_inventory_class_hash_group_accounting",
+      "entries": 340603,
+      "hashed_files": 307747,
+      "passed": true,
+      "unique_hashes": 148183,
+      "unreadable": [
+        "old/factory/.factory-planning/runtime-smoke-logs/latest.log"
+      ]
+    },
+    {
+      "answer_files": 22,
+      "check": "fixture_denominators",
+      "completion_files": 211,
+      "effect_counts": {
+        "draft_only": 60,
+        "none": 136,
+        "registered_once": 15
+      },
+      "passed": true,
+      "required_check_counts": {
+        "not_applicable": 142,
+        "passed": 42,
+        "unavailable": 27
+      }
+    },
+    {
+      "check": "source_table_current_hashes",
+      "passed": true,
+      "sources": 65
+    },
+    {
+      "check": "gzip_integrity_and_native_script_syntax",
+      "passed": true
+    }
+  ],
+  "retained_bytes_before_verification_record": 33302759,
+  "source_execution": "none; native collection/verification only",
+  "status": "passed"
+}

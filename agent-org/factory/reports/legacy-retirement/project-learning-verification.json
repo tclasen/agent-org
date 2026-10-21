@@ -1,0 +1,64 @@
+{
+  "checks": {
+    "all_51_project_rows": true,
+    "symlink_row": true,
+    "documentary_ids_resolve": true,
+    "local_links_resolve": true,
+    "source_registry_no_errors": true,
+    "all_reader_syntax_valid": true,
+    "penny_raw_counts_match": true,
+    "work_csv_primary_matches": true,
+    "broad_hash_denominator_matches": true,
+    "derived_under_100_MiB": true,
+    "bounded_credential_pattern_scan_no_hits": true
+  },
+  "passed": true,
+  "retained_failed_check": "Initial unbounded sk- substring pattern flagged645 path fragments inside ordinary words such as task/risk; all were preceded by alphanumeric characters. Token-boundary diagnostic found0 actual prefix matches. Corrected prefix-boundary scan is narrower and its limits remain explicit; no raw candidate value was printed.",
+  "limits": "Own artifact consistency checks and bounded credential patterns; not independent acceptance, comprehensive secret detection, legacy evaluator replay or source backup.",
+  "artifacts": {
+    "project-learning-coverage.json": {
+      "bytes": 8341,
+      "sha256": "74f2fa4e4b74bd4d954ed9e246c24a42b0a575ccd3ded499bf305b3f362224e4"
+    },
+    "project-learning-duplicates.json": {
+      "bytes": 7621105,
+      "sha256": "6548440ba3ed86c0e2088673b8fbb834afc85479afc4009e1bc80a6270569dc8"
+    },
+    "project-learning-evidence.json": {
+      "bytes": 647896,
+      "sha256": "17abe7cb8798318c4ce28132616be8b62bd46985f16c2b2816c3ea32ae686ce6"
+    },
+    "project-learning-evidence.py": {
+      "bytes": 9063,
+      "sha256": "034951c5b3d569130e846d335612d81317aa2de93763e6c326cc94bd8242fbc8"
+    },
+    "project-learning-finalize.py": {
+      "bytes": 6913,
+      "sha256": "e7d5a716850bd853d7c581340ee7f2e137b9517ac89f6e505fa0d63c80df2e1c"
+    },
+    "project-learning-inventory.json": {
+      "bytes": 193308,
+      "sha256": "079b2b79358f9730b80bc358e4d56f121ed3cc134d55f92ae33a7db032bbf6f6"
+    },
+    "project-learning-inventory.py": {
+      "bytes": 4228,
+      "sha256": "4288843ef6850cfa0858a4e28c4358374c8a4cffd8769971abc7393e7be99e56"
+    },
+    "project-learning-metrics.json": {
+      "bytes": 109014,
+      "sha256": "af451a40696553f9fcacc7766dd8ebfc848cb180d66071ceee9591ed698a81cf"
+    },
+    "project-learning-metrics.py": {
+      "bytes": 10452,
+      "sha256": "a42c0e7e900124e11a85a5311ec75aa5670aedd6a35cbff5bb6123d6050370ef"
+    },
+    "project-learning-sources.jsonl": {
+      "bytes": 46277911,
+      "sha256": "d7d565abbb43ef087bd0634ebbb121e4ff328c7a7434cc1562e81577d7d866ca"
+    },
+    "project-learnings.md": {
+      "bytes": 36464,
+      "sha256": "3b97b621327129fa11aec9b64ff814b1d6abf9976d6e4b6eed5b9f174112d2e8"
+    }
+  }
+}

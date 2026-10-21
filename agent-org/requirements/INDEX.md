@@ -46,3 +46,11 @@ Individual records own current status, scope and evidence; archived references d
 - [REQ-000042 — Source-grounded enrollment guide qualification](organization/REQ-000042.md) — accepted
 
 - [REQ-000043 — Root organization startup bridge](cross-boundary/REQ-000043.md) — accepted operator amendment APP-000008.
+
+- [REQ-000044 — Harvest legacy learning and prepare cleanup](cross-boundary/REQ-000044.md) — accepted
+
+- [REQ-000045 — Preserve useful source-grounded legacy lessons](organization/REQ-000045.md) — accepted
+
+- [REQ-000046 — Verify meaningful legacy source preservation](project/REQ-000046.md) — accepted
+
+- [REQ-000047 — Independently adopt legacy knowledge evidence](organization/REQ-000047.md) — accepted

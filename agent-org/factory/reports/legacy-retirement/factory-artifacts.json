@@ -1,0 +1,92 @@
+{
+  "status": "research_candidate_pending_independent_acceptance",
+  "artifacts": [
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/factory-extract.py",
+      "bytes": 8084,
+      "sha256": "ff141e29919aa006c729514f02c4fd09e7d07cdc3cad8de4cd81aef90d1c64da"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/factory-extraction-coverage.jsonl.gz",
+      "bytes": 2606777,
+      "sha256": "399115846fab05e7b05d71548c81885a22e4828af85bf9a68b614d8a3b0dbaf6"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/factory-extraction-summary.json",
+      "bytes": 1958,
+      "sha256": "09ccc507e9669c7ec9a63909f8d231d805623360a2a64ae123689c135a901f0c"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/factory-files.jsonl.gz",
+      "bytes": 11012394,
+      "sha256": "361ca7829a1b502580fc2e61f724af345524ac8621ccde934fddcb53efb78923"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/factory-finalize.py",
+      "bytes": 5895,
+      "sha256": "83b20d6a623da8fbf7cb901f7ccbadc20b4d9db6a1a77f5f41149a9e32115ec5"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/factory-hash-groups.jsonl.gz",
+      "bytes": 11041438,
+      "sha256": "764b16ca465f9a1fedcb839a93c59ed7d56d4f7d56e6a68be3ca74783e603a44"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/factory-inventory-summary.json",
+      "bytes": 2121,
+      "sha256": "74f60d8b9da392c3bf7680642453c5c67bb71227ccfe2fb14a979a9fa4e6e7ac"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/factory-inventory.py",
+      "bytes": 3433,
+      "sha256": "4a3abd574065a8c0811da293a083b29fc1e44433486241db03eb5e566727b008"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/factory-learnings.md",
+      "bytes": 58903,
+      "sha256": "cd32b5c28e08dc4fb7a095dfa91178cb91a80e3fe728aebef7e52f3c0257fd35"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/factory-metrics.py",
+      "bytes": 3512,
+      "sha256": "66d9c9c37c1846579062c76697c3f9a93a0cc73836a29f7459b3b38aecb9615b"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/factory-nested-capture-disposition.json",
+      "bytes": 37550,
+      "sha256": "07e058c676895f1bcf1cd8108840afb3f4773d85807e446e2ce3bad935086e1a"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/factory-quantitative-evidence.json",
+      "bytes": 166485,
+      "sha256": "7c1cd2774cef6b1f307218bb2b7822946e0c2f1bde3529a3a21b4a66c04e78b8"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/factory-smoke-observations.json",
+      "bytes": 6995,
+      "sha256": "41f64e6c2232584a9e42dec204daa9ca1f5db1a694e2b1e949e345c8a9505ece"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/factory-source-claims.jsonl.gz",
+      "bytes": 8331517,
+      "sha256": "689988a43b8c17bace457e9b171b39633e2f152a7faba331a9f3b7db29639565"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/factory-source-index.json",
+      "bytes": 12611,
+      "sha256": "87854f5a548c0b2cb7c119053273bd578dea230d6120c1054a37091d85fa1466"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/factory-verification.json",
+      "bytes": 1510,
+      "sha256": "3ae582925c36d19d2c6a95df44fabf69fdf632196142184980211d9e19204ec5"
+    },
+    {
+      "path": "agent-org/factory/reports/legacy-retirement/factory-verify.py",
+      "bytes": 5873,
+      "sha256": "fb11fed25df3195057529d947af8a1c2578444ca4d7b1993568e0cee7e3251ad"
+    }
+  ],
+  "retained_bytes_excluding_this_manifest": 33307056,
+  "authority": "APP-000010 and APP-000011; no source/Git/registry mutations or deletion"
+}

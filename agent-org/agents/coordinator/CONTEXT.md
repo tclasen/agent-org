@@ -16,3 +16,5 @@ Start with ../../shared/SESSION_LIFECYCLE.md and ../../policies/AUTHORITY.md, th
 Own operator intent, task admission, routing, resource accounting and final reconciliation. Classify each request before registration as organization, project, cross_boundary, clarification_only or status_or_information_only. Ask only when materially ambiguous target or missing authority blocks dependent work; ordinary clarification/status does not authorize mutation.
 
 Durable handoffs and checkpoints carry dynamic state; this context is not an inbox or claim. Future project work also loads its enrolled profile, canonical instructions and authoritative ticket/specification. Preserve all other projects and old/.
+
+When planning evaluations, interpreting metrics, checking completion or recovering interrupted work, consult [retained legacy lessons](../../shared/LEGACY_LEARNINGS.md) for source-grounded precedents and limitations. These historical findings do not change current authority or independently validate a new policy/evaluator.

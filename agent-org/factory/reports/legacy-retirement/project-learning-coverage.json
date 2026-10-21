@@ -1,0 +1,309 @@
+{
+  "scope": "Broad source candidates plus ignored-build exception and explicitly parsed DB/raw report sources; excludes dependency/cache internals and noncandidate product binaries/code. Categories are deterministic path heuristics, not semantic validation. Review and parsed source sets overlap and cannot be added as disjoint coverage.",
+  "broad_files_outside_pruned_subtrees": 586009,
+  "broad_hidden_path_files": 210038,
+  "broad_candidates": 192163,
+  "broad_unique_hashes": 139133,
+  "broad_duplicate_instances": 53004,
+  "union_candidate_files": 194931,
+  "union_unique_hashes": 141690,
+  "union_duplicate_instances": 53215,
+  "categories": {
+    "other-documentation-and-data": {
+      "files": 20398,
+      "bytes": 1468719390,
+      "hashed_files": 20393,
+      "documentary_review_sources": 33,
+      "parsed_metric_sources": 3
+    },
+    "instructions-context-skills": {
+      "files": 387,
+      "bytes": 11806852,
+      "hashed_files": 387,
+      "documentary_review_sources": 12
+    },
+    "telemetry-evaluation-evidence": {
+      "files": 173950,
+      "bytes": 12517236926,
+      "hashed_files": 173929,
+      "parsed_metric_sources": 291,
+      "documentary_review_sources": 11
+    },
+    "governance-and-task-records": {
+      "files": 196,
+      "bytes": 635490,
+      "hashed_files": 196
+    }
+  },
+  "projects": {
+    "K8s_app_demo": {
+      "candidate_files": 1,
+      "candidate_bytes": 674,
+      "hashed_files": 1
+    },
+    "PlenuMesh": {
+      "candidate_files": 3,
+      "candidate_bytes": 33238,
+      "hashed_files": 3
+    },
+    "agent": {
+      "candidate_files": 1,
+      "candidate_bytes": 4003,
+      "hashed_files": 1,
+      "documentary_review_sources": 1
+    },
+    "ashwake": {
+      "candidate_files": 19,
+      "candidate_bytes": 96935,
+      "hashed_files": 19,
+      "documentary_review_sources": 1
+    },
+    "atelier": {
+      "candidate_files": 4,
+      "candidate_bytes": 4176,
+      "hashed_files": 4,
+      "documentary_review_sources": 1
+    },
+    "atmospheric-processes-knowledge-graph": {
+      "candidate_files": 1172,
+      "candidate_bytes": 32073689,
+      "hashed_files": 1172,
+      "documentary_review_sources": 1
+    },
+    "backup.resume": {
+      "candidate_files": 20,
+      "candidate_bytes": 159789,
+      "hashed_files": 20,
+      "documentary_review_sources": 1
+    },
+    "backup.resume-final": {
+      "candidate_files": 4783,
+      "candidate_bytes": 17872191,
+      "hashed_files": 4783
+    },
+    "backup.resume2": {
+      "candidate_files": 20,
+      "candidate_bytes": 161755,
+      "hashed_files": 20
+    },
+    "backup.resume3": {
+      "candidate_files": 20,
+      "candidate_bytes": 158688,
+      "hashed_files": 20
+    },
+    "cards": {
+      "candidate_files": 2,
+      "candidate_bytes": 28299,
+      "hashed_files": 2,
+      "documentary_review_sources": 1
+    },
+    "classwork": {
+      "candidate_files": 129,
+      "candidate_bytes": 489630,
+      "hashed_files": 129,
+      "documentary_review_sources": 1
+    },
+    "coding_evals": {
+      "candidate_files": 22,
+      "candidate_bytes": 14802,
+      "hashed_files": 22,
+      "documentary_review_sources": 1
+    },
+    "commons": {
+      "candidate_files": 959,
+      "candidate_bytes": 826098107,
+      "hashed_files": 957,
+      "parsed_metric_sources": 2,
+      "documentary_review_sources": 5
+    },
+    "competition": {
+      "candidate_files": 147115,
+      "candidate_bytes": 8309905331,
+      "hashed_files": 147109,
+      "documentary_review_sources": 5,
+      "parsed_metric_sources": 63
+    },
+    "drag-and-drop-kanban-board": {
+      "candidate_files": 1,
+      "candidate_bytes": 8386,
+      "hashed_files": 1
+    },
+    "every_game": {
+      "candidate_files": 11270,
+      "candidate_bytes": 170953926,
+      "hashed_files": 11270,
+      "documentary_review_sources": 4
+    },
+    "example": {
+      "candidate_files": 2,
+      "candidate_bytes": 17905,
+      "hashed_files": 2,
+      "documentary_review_sources": 1
+    },
+    "exploring": {
+      "candidate_files": 3,
+      "candidate_bytes": 1116,
+      "hashed_files": 3
+    },
+    "factory": {
+      "candidate_files": 14,
+      "candidate_bytes": 21180,
+      "hashed_files": 14,
+      "documentary_review_sources": 2
+    },
+    "factory_catalog": {
+      "candidate_files": 2949,
+      "candidate_bytes": 153186067,
+      "hashed_files": 2949,
+      "documentary_review_sources": 3,
+      "parsed_metric_sources": 215
+    },
+    "factory_evals": {
+      "candidate_files": 193,
+      "candidate_bytes": 3377402,
+      "hashed_files": 193,
+      "parsed_metric_sources": 2
+    },
+    "features-and-futures-builders": {
+      "candidate_files": 378,
+      "candidate_bytes": 614373,
+      "hashed_files": 378
+    },
+    "features-and-futures-deployments": {
+      "candidate_files": 4682,
+      "candidate_bytes": 5036027,
+      "hashed_files": 4682
+    },
+    "fmodel": {
+      "candidate_files": 3,
+      "candidate_bytes": 59332,
+      "hashed_files": 3,
+      "documentary_review_sources": 1
+    },
+    "games": {
+      "candidate_files": 416,
+      "candidate_bytes": 258977855,
+      "hashed_files": 416,
+      "documentary_review_sources": 1
+    },
+    "meertecha_arcade": {
+      "candidate_files": 471,
+      "candidate_bytes": 63554708,
+      "hashed_files": 471,
+      "documentary_review_sources": 2
+    },
+    "onboarding": {
+      "candidate_files": 1,
+      "candidate_bytes": 2445,
+      "hashed_files": 1,
+      "documentary_review_sources": 1
+    },
+    "penny": {
+      "candidate_files": 12781,
+      "candidate_bytes": 1939442764,
+      "hashed_files": 12769,
+      "documentary_review_sources": 2,
+      "parsed_metric_sources": 3
+    },
+    "penny-evidence": {
+      "candidate_files": 3284,
+      "candidate_bytes": 1468241304,
+      "hashed_files": 3278
+    },
+    "penny-hook-review-79": {
+      "candidate_files": 15,
+      "candidate_bytes": 234070,
+      "hashed_files": 15
+    },
+    "reactive_space": {
+      "candidate_files": 3,
+      "candidate_bytes": 56306,
+      "hashed_files": 3,
+      "documentary_review_sources": 1
+    },
+    "resume": {
+      "candidate_files": 9,
+      "candidate_bytes": 42887,
+      "hashed_files": 9,
+      "documentary_review_sources": 1
+    },
+    "resume-skill": {
+      "candidate_files": 2,
+      "candidate_bytes": 62,
+      "hashed_files": 2
+    },
+    "semantic_search": {
+      "candidate_files": 796,
+      "candidate_bytes": 8425302,
+      "hashed_files": 796,
+      "documentary_review_sources": 1
+    },
+    "sparkle-eval-evidence": {
+      "candidate_files": 1,
+      "candidate_bytes": 352,
+      "hashed_files": 1
+    },
+    "splunker": {
+      "candidate_files": 1,
+      "candidate_bytes": 1433,
+      "hashed_files": 1
+    },
+    "sudoku": {
+      "candidate_files": 1,
+      "candidate_bytes": 8,
+      "hashed_files": 1
+    },
+    "svkg": {
+      "candidate_files": 24,
+      "candidate_bytes": 583426,
+      "hashed_files": 24,
+      "documentary_review_sources": 1
+    },
+    "tclasen": {
+      "candidate_files": 114,
+      "candidate_bytes": 334663,
+      "hashed_files": 114,
+      "documentary_review_sources": 1
+    },
+    "udop": {
+      "candidate_files": 23,
+      "candidate_bytes": 268605,
+      "hashed_files": 23,
+      "documentary_review_sources": 1
+    },
+    "videos": {
+      "candidate_files": 1,
+      "candidate_bytes": 6121,
+      "hashed_files": 1,
+      "documentary_review_sources": 1
+    },
+    "voldenites": {
+      "candidate_files": 2374,
+      "candidate_bytes": 722894231,
+      "hashed_files": 2374,
+      "documentary_review_sources": 9
+    },
+    "wired_to_survive": {
+      "candidate_files": 781,
+      "candidate_bytes": 13554563,
+      "hashed_files": 781,
+      "documentary_review_sources": 3,
+      "parsed_metric_sources": 2
+    },
+    "work": {
+      "candidate_files": 67,
+      "candidate_bytes": 1398840,
+      "hashed_files": 67,
+      "documentary_review_sources": 2,
+      "parsed_metric_sources": 7
+    },
+    "workflow": {
+      "candidate_files": 1,
+      "candidate_bytes": 1692,
+      "hashed_files": 1
+    }
+  },
+  "explicit_documentary_review_sources": 56,
+  "explicitly_parsed_metric_sources": 294,
+  "remaining_candidate_paths": "All paths not in reviewed or parsed sets are fingerprint-only, not semantically audited; exact source locations remain in source/evidence manifests."
+}

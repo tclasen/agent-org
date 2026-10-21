@@ -1,0 +1,145 @@
+{
+  "scope": "Six immediate project/work children without .git markers; metadata/file hashes only; Git directories not descended. No dependency pruning.",
+  "directories": [
+    {
+      "path": "projects/features-and-futures-builders",
+      "stats": {
+        "git_dirs": 454,
+        "files": 2568,
+        "bytes": 16370827,
+        "extension:.js": 1151,
+        "extension:": 453,
+        "extension:.json": 454,
+        "extension:.html": 214,
+        "extension:.css": 134,
+        "extension:.md": 155,
+        "extension:.db": 4,
+        "extension:.sqlite": 1,
+        "extension:.txt": 2
+      },
+      "file_evidence": [],
+      "errors": [],
+      "symlinks": []
+    },
+    {
+      "path": "projects/features-and-futures-deployments",
+      "stats": {
+        "files": 30160,
+        "bytes": 448104908,
+        "extension:.js": 9990,
+        "extension:": 3744,
+        "extension:.json": 3753,
+        "extension:.sqlite": 3738,
+        "extension:.log": 3738,
+        "extension:.html": 2401,
+        "extension:.css": 1352,
+        "extension:.md": 1426,
+        "extension:.db": 16,
+        "extension:.pid": 2
+      },
+      "file_evidence": [],
+      "errors": [],
+      "symlinks": []
+    },
+    {
+      "path": "projects/onboarding",
+      "stats": {
+        "files": 3,
+        "bytes": 22249,
+        "extension:.sh": 1,
+        "extension:.md": 1,
+        "extension:.py": 1
+      },
+      "file_evidence": [
+        {
+          "path": "projects/onboarding/create-project.sh",
+          "size": 10321,
+          "sha256": "c54006a78a4f922c10f351d4f015824859503b0c132b8b30b9dcb286dded3ffa"
+        },
+        {
+          "path": "projects/onboarding/README.md",
+          "size": 2445,
+          "sha256": "bf9ede13664be4ad2fe0b6074370b2a7880106c784710cb415b3e1269b373c5f"
+        },
+        {
+          "path": "projects/onboarding/tests/test_cli.py",
+          "size": 9483,
+          "sha256": "1b0a95d78c29dc88714337cee1080d085e5812f14a1e27a3db6d4a18a80c7402"
+        }
+      ],
+      "errors": [],
+      "symlinks": []
+    },
+    {
+      "path": "projects/penny-evidence",
+      "stats": {
+        "files": 20579,
+        "bytes": 12242921844,
+        "extension:.md": 647,
+        "extension:.json": 2451,
+        "extension:": 57,
+        "extension:.png": 13430,
+        "extension:.log": 656,
+        "extension:.html": 139,
+        "extension:.css": 101,
+        "extension:.js": 226,
+        "extension:.ttf": 14,
+        "extension:.webmanifest": 14,
+        "extension:.svg": 64,
+        "extension:.zip": 280,
+        "extension:.webm": 337,
+        "extension:.mjs": 122,
+        "extension:.py": 231,
+        "extension:.txt": 183,
+        "extension:.diff": 42,
+        "extension:.ts": 83,
+        "extension:.patch": 23,
+        "extension:.initial": 1,
+        "extension:.exit": 4,
+        "extension:.mp4": 4,
+        "extension:.sha256": 29,
+        "extension:.stderr": 32,
+        "extension:.unexecuted-v1": 2,
+        "extension:.network": 210,
+        "extension:.trace": 194,
+        "extension:.jpeg": 889,
+        "extension:.jsonl": 4,
+        "extension:.mts": 2,
+        "extension:.stdout": 24,
+        "extension:.url": 1,
+        "extension:.ndjson": 5,
+        "extension:.cjs": 28,
+        "extension:.pyc": 48,
+        "extension:.npmrc": 2,
+        "git_dirs": 12
+      },
+      "file_evidence": [],
+      "errors": [],
+      "symlinks": [
+        {
+          "path": "projects/penny-evidence/ticket-88-2026-10-02/guards-repair/pre-fix-cli-synthetic-f3e1369c-e48d-43b4-863a-670b789b720f/frozen-4b3699f/node_modules",
+          "target": "/Users/agent/.codex/worktrees/88-recording-guards-repair/penny/node_modules"
+        }
+      ]
+    },
+    {
+      "path": "projects/sparkle-eval-evidence",
+      "stats": {
+        "files": 3,
+        "bytes": 13033613,
+        "extension:.json": 1,
+        "extension:.gz": 2
+      },
+      "file_evidence": [],
+      "errors": [],
+      "symlinks": []
+    },
+    {
+      "path": "work/foundry",
+      "stats": {},
+      "file_evidence": [],
+      "errors": [],
+      "symlinks": []
+    }
+  ]
+}

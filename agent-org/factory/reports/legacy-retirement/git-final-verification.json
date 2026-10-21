@@ -1,0 +1,442 @@
+{
+  "observed_at": "2026-10-21T23:41:24.705505+00:00",
+  "repositories": [
+    {
+      "path": "projects/DriftWise",
+      "disposition": "operator-waived-after-learning",
+      "head": "c73597dbdb12ceaf658e07582e905c25ea0c5a39"
+    },
+    {
+      "path": "projects/Foundry",
+      "disposition": "operator-waived-after-learning",
+      "head": "a67622cc845057c686894aaf7655f4c764278381"
+    },
+    {
+      "path": "projects/K8s_app_demo",
+      "disposition": "remote-verified",
+      "head": "acf5a8c4da9f2a012645b4a5239bb5217bd2a990",
+      "local_ref_count": 1,
+      "remote_urls": [
+        "https://github.com/Ctandersonjr/K8s_app_demo.git"
+      ],
+      "uncovered_refs": [],
+      "missing_tag_objects": [],
+      "verification_repo": "/private/tmp/agent-org-legacy-k8s-audit.git",
+      "method": "Commit reachability from live advertised heads/tags; annotated tag object identity also checked",
+      "rev_list_code": 0,
+      "initial_source_status": ""
+    },
+    {
+      "path": "projects/PlenuMesh",
+      "disposition": "operator-waived-after-learning",
+      "head": "1827faf6742e1dcba53c2804340545099dcaeabb"
+    },
+    {
+      "path": "projects/agent",
+      "disposition": "operator-waived-after-learning",
+      "head": "3d23a5751d78d1031beddca947d92670aaaa896f"
+    },
+    {
+      "path": "projects/ashwake",
+      "disposition": "operator-waived-after-learning",
+      "head": "228f4aff00e571a9c160682837e20c7a90433251"
+    },
+    {
+      "path": "projects/atelier",
+      "disposition": "operator-waived-after-learning",
+      "head": "cd218f867551c8ccdbd1c80061e66f18d14b5840"
+    },
+    {
+      "path": "projects/atmospheric-processes-knowledge-graph",
+      "disposition": "operator-waived-after-learning",
+      "head": "c8c0c0457499855ba4bc0ce529df48e09ad28cbe"
+    },
+    {
+      "path": "projects/backup.resume",
+      "disposition": "operator-waived-after-learning",
+      "head": "dc9fb5d3c236c755c8fcaf83397c00cbe54c2abd"
+    },
+    {
+      "path": "projects/backup.resume-final",
+      "disposition": "operator-waived-after-learning",
+      "head": "09a0531330bcc62b1fe2d2a7f4724daf63f27a7f"
+    },
+    {
+      "path": "projects/backup.resume2",
+      "disposition": "operator-waived-after-learning",
+      "head": "9405e0772477dc4fefa948958601725eb37fd6ba"
+    },
+    {
+      "path": "projects/backup.resume3",
+      "disposition": "operator-waived-after-learning",
+      "head": "7cf052aebb3af42a643924cad5c254828d649b98"
+    },
+    {
+      "path": "projects/cards",
+      "disposition": "operator-waived-after-learning",
+      "head": "b79b1742a97efb688161adbf47cdcac71e67fd6f"
+    },
+    {
+      "path": "projects/classwork",
+      "disposition": "operator-waived-after-learning",
+      "head": "e18a4bd9f6a1ada454bb1461ac4b002628972e40"
+    },
+    {
+      "path": "projects/coding_evals",
+      "disposition": "operator-waived-after-learning",
+      "head": "6c1a3f9fb97c02c34b7137c3fa71a2687b7d4aea"
+    },
+    {
+      "path": "projects/commons",
+      "disposition": "remote-verified",
+      "head": "ce2d170f78ef7e88be35e5368a1faae8de83aa7a",
+      "local_ref_count": 1,
+      "remote_urls": [
+        "https://github.com/tclasen/commons.git"
+      ],
+      "uncovered_refs": [],
+      "missing_tag_objects": [],
+      "verification_repo": "/Users/Shared/old/projects/commons",
+      "method": "Commit reachability from live advertised heads/tags; annotated tag object identity also checked",
+      "rev_list_code": 0,
+      "initial_source_status": ""
+    },
+    {
+      "path": "projects/competition",
+      "disposition": "remote-verified",
+      "head": "531754c00561454a792ad7f3d42fd11ee1fffba3",
+      "local_ref_count": 8697,
+      "remote_urls": [
+        "https://github.com/tclasen/features_and_futures.git"
+      ],
+      "uncovered_refs": [],
+      "missing_tag_objects": [],
+      "verification_repo": "/Users/Shared/old/projects/competition",
+      "method": "Commit reachability from live advertised heads/tags; annotated tag object identity also checked",
+      "rev_list_code": 0,
+      "initial_source_status": "?? runs/instruction-effects/eval-014/tasks/task-020/attempts/b001/attempt-001/accepted.sqlite-shm\n?? runs/instruction-effects/eval-014/tasks/task-020/attempts/b001/attempt-001/accepted.sqlite-wal\n?? runs/instruction-effects/eval-014/tasks/task-021/attempts/b001/attempt-001/accepted.sqlite-shm\n?? runs/instruction-effects/eval-014/tasks/task-021/attempts/b001/attempt-001/accepted.sqlite-wal\n?? runs/instruction-effects/eval-014/tasks/task-022/attempts/b001/attempt-001/accepted.sqlite-shm\n?? runs/instruction-effects/eval-014/tasks/task-022/attempts/b001/attempt-001/accepted.sqlite-wal\n?? runs/instruction-effects/eval-014/tasks/task-023/attempts/b001/attempt-001/accepted.sqlite-shm\n?? runs/instruction-effects/eval-014/tasks/task-023/attempts/b001/attempt-001/accepted.sqlite-wal\n?? runs/instruction-effects/eval-014/tasks/task-024/attempts/b001/attempt-001/accepted.sqlite-shm\n?? runs/instruction-effects/eval-014/tasks/task-024/attempts/b001/attempt-001/accepted.sqlite-wal\n?? runs/instruction-effects/eval-016/tasks/task-020/attempts/b003/attempt-001/accepted.sqlite-shm\n?? runs/instruction-effects/eval-016/tasks/task-020/attempts/b003/attempt-001/accepted.sqlite-wal\n?? runs/instruction-effects/eval-016/tasks/task-022/attempts/b003/attempt-003/retired.sqlite-shm\n?? runs/instruction-effects/eval-016/tasks/task-022/attempts/b003/attempt-003/retired.sqlite-wal\n?? runs/instruction-effects/eval-016/tasks/task-022/attempts/b003/attempt-005/retired.sqlite-shm\n?? runs/instruction-effects/eval-016/tasks/task-022/attempts/b003/attempt-005/retired.sqlite-wal\n"
+    },
+    {
+      "path": "projects/drag-and-drop-kanban-board",
+      "disposition": "operator-waived-after-learning",
+      "head": "f72b006b894ea5f05212782a59dc3fcf45dad22c"
+    },
+    {
+      "path": "projects/every_game",
+      "disposition": "remote-verified",
+      "head": "80bf7a748cc45c419d6f0df88b84c64e4fdba8ca",
+      "local_ref_count": 92,
+      "remote_urls": [
+        "https://github.com/tclasen/every_game.git"
+      ],
+      "uncovered_refs": [],
+      "missing_tag_objects": [],
+      "verification_repo": "/Users/Shared/old/projects/every_game",
+      "method": "Commit reachability from live advertised heads/tags; annotated tag object identity also checked",
+      "rev_list_code": 0,
+      "initial_source_status": ""
+    },
+    {
+      "path": "projects/example",
+      "disposition": "operator-waived-after-learning",
+      "head": "45fbf467c5d85a2561846e0043bb6a2da07563b1"
+    },
+    {
+      "path": "projects/exploring",
+      "disposition": "operator-waived-after-learning",
+      "head": "7e2c274cb706396773b3d8cbc3b36c4dff6dbce7"
+    },
+    {
+      "path": "projects/factory",
+      "disposition": "operator-waived-after-learning",
+      "head": "d805db18ea05199ae5bde42242119c355b16bef3"
+    },
+    {
+      "path": "projects/factory_catalog",
+      "disposition": "remote-verified",
+      "head": "8ed6618f173cfebc464e2268a9dd3a35386449ee",
+      "local_ref_count": 86,
+      "remote_urls": [
+        "https://github.com/tclasen/factory_catalog.git"
+      ],
+      "uncovered_refs": [],
+      "missing_tag_objects": [],
+      "verification_repo": "/Users/Shared/old/projects/factory_catalog",
+      "method": "Commit reachability from live advertised heads/tags; annotated tag object identity also checked",
+      "rev_list_code": 0,
+      "initial_source_status": ""
+    },
+    {
+      "path": "projects/factory_evals",
+      "disposition": "remote-verified",
+      "head": "0559d82db5da43beda51f2ca7676ec268313026e",
+      "local_ref_count": 1,
+      "remote_urls": [
+        "https://github.com/tclasen/factory_evals.git"
+      ],
+      "uncovered_refs": [],
+      "missing_tag_objects": [],
+      "verification_repo": "/Users/Shared/old/projects/factory_evals",
+      "method": "Commit reachability from live advertised heads/tags; annotated tag object identity also checked",
+      "rev_list_code": 0,
+      "initial_source_status": ""
+    },
+    {
+      "path": "projects/fmodel",
+      "disposition": "operator-waived-after-learning",
+      "head": "0866a7bbbb9d61ebda279817ed16c64c3da58a90"
+    },
+    {
+      "path": "projects/games",
+      "disposition": "operator-waived-after-learning",
+      "head": "ebd59822ee46d2f7079f82fc763fc89dcbfe098f"
+    },
+    {
+      "path": "projects/gof",
+      "disposition": "operator-waived-after-learning",
+      "head": "4e7859b75286b18a8600660de7fb010b5ac153ba"
+    },
+    {
+      "path": "projects/meertecha_arcade",
+      "disposition": "remote-verified",
+      "head": "69b85887495050aeaa7b062b741f701502e8f4ae",
+      "local_ref_count": 1,
+      "remote_urls": [
+        "https://github.com/tclasen/meertecha-arcade.git"
+      ],
+      "uncovered_refs": [],
+      "missing_tag_objects": [],
+      "verification_repo": "/Users/Shared/old/projects/meertecha_arcade",
+      "method": "Commit reachability from live advertised heads/tags; annotated tag object identity also checked",
+      "rev_list_code": 0,
+      "initial_source_status": ""
+    },
+    {
+      "path": "projects/models",
+      "disposition": "operator-waived-after-learning",
+      "head": "d2101c52c87c8fd598cda115c54b89d6f68a47ae"
+    },
+    {
+      "path": "projects/myshellium",
+      "disposition": "operator-waived-after-learning",
+      "head": "9ea1b317940b46a56c3c43c1536e929171eb9f78"
+    },
+    {
+      "path": "projects/penny",
+      "disposition": "remote-verified",
+      "head": "0fe4aba481de07088dfe7a1647666662fdbea4bb",
+      "local_ref_count": 169,
+      "remote_urls": [
+        "https://github.com/Viixle/Penny.git"
+      ],
+      "uncovered_refs": [],
+      "missing_tag_objects": [],
+      "verification_repo": "/Users/Shared/old/projects/penny",
+      "method": "Commit reachability from live advertised heads/tags; annotated tag object identity also checked",
+      "rev_list_code": 0,
+      "initial_source_status": ""
+    },
+    {
+      "path": "projects/penny-hook-review-79",
+      "disposition": "remote-verified",
+      "head": "46eb30af1dde6fe87db6b1e239220058c7473f87",
+      "local_ref_count": 1,
+      "remote_urls": [
+        "https://github.com/Viixle/Penny.git"
+      ],
+      "uncovered_refs": [],
+      "missing_tag_objects": [],
+      "verification_repo": "/Users/Shared/old/projects/penny",
+      "method": "Commit reachability from live advertised heads/tags; annotated tag object identity also checked",
+      "rev_list_code": 0,
+      "initial_source_status": ""
+    },
+    {
+      "path": "projects/reactive_space",
+      "disposition": "operator-waived-after-learning",
+      "head": "af9134fec7294bff8579b77a7c88d16e2f88cbcb"
+    },
+    {
+      "path": "projects/resume",
+      "disposition": "operator-waived-after-learning",
+      "head": "c5e5dec571e76042d32024d40a685c9a22a0e701"
+    },
+    {
+      "path": "projects/resume-skill",
+      "disposition": "operator-waived-after-learning",
+      "head": "d22adab212bce6ffad0fd5f4c1cfc5ade7c811da"
+    },
+    {
+      "path": "projects/semantic_search",
+      "disposition": "remote-verified",
+      "head": "00cd8b698720caa20ba42ee9fde007e02b3e862b",
+      "local_ref_count": 34,
+      "remote_urls": [
+        "https://github.com/tclasen/semantic_search.git"
+      ],
+      "uncovered_refs": [],
+      "missing_tag_objects": [],
+      "verification_repo": "/Users/Shared/old/projects/semantic_search",
+      "method": "Commit reachability from live advertised heads/tags; annotated tag object identity also checked",
+      "rev_list_code": 0,
+      "initial_source_status": ""
+    },
+    {
+      "path": "projects/splunker",
+      "disposition": "operator-waived-after-learning",
+      "head": "95e8d4bd743f1cef12756d0f7b9a437042a7c8e1"
+    },
+    {
+      "path": "projects/sudoku",
+      "disposition": "operator-waived-after-learning",
+      "head": "3f162d6ecca10258eb3785fdb74d3fb88e13a0fc"
+    },
+    {
+      "path": "projects/svkg",
+      "disposition": "operator-waived-after-learning",
+      "head": "c029bb0c4f93f44a1ba775a96f0f67f5731e3b99"
+    },
+    {
+      "path": "projects/tclasen",
+      "disposition": "operator-waived-after-learning",
+      "head": "981d3a2fe41e0ed7736516cfa8a9e009acb2cf75"
+    },
+    {
+      "path": "projects/udop",
+      "disposition": "operator-waived-after-learning",
+      "head": "6ab0ebb85050a5bd1139fe5b597d80b6011d07d1"
+    },
+    {
+      "path": "projects/videos",
+      "disposition": "operator-waived-after-learning",
+      "head": "46b6eba9496538c6cb38f009503d004ddb567723"
+    },
+    {
+      "path": "projects/voldenites",
+      "disposition": "remote-verified",
+      "head": "c2acec27e97309a5fa01dca5adc9db385f62aae1",
+      "local_ref_count": 38,
+      "remote_urls": [
+        "https://github.com/tclasen/voldenites"
+      ],
+      "uncovered_refs": [],
+      "missing_tag_objects": [],
+      "verification_repo": "/Users/Shared/old/projects/voldenites",
+      "method": "Commit reachability from live advertised heads/tags; annotated tag object identity also checked",
+      "rev_list_code": 0,
+      "initial_source_status": "?? agent-org/factory/factory_tool/__pycache__/__init__.cpython-315.pyc\n?? agent-org/factory/factory_tool/__pycache__/common.cpython-315.pyc\n?? agent-org/factory/factory_tool/__pycache__/records.cpython-315.pyc\n"
+    },
+    {
+      "path": "projects/wired_to_survive",
+      "disposition": "remote-verified",
+      "head": "f4ccf2e0a422d3266fdb37951889b416fb3186a0",
+      "local_ref_count": 19,
+      "remote_urls": [
+        "https://github.com/tclasen/wired_to_survive.git"
+      ],
+      "uncovered_refs": [],
+      "missing_tag_objects": [],
+      "verification_repo": "/Users/Shared/old/projects/wired_to_survive",
+      "method": "Commit reachability from live advertised heads/tags; annotated tag object identity also checked",
+      "rev_list_code": 0,
+      "initial_source_status": ""
+    },
+    {
+      "path": "projects/work",
+      "disposition": "remote-verified",
+      "head": "711b47fed1abb2cbc7d047e9901edc3aeb04ccc2",
+      "local_ref_count": 12,
+      "remote_urls": [
+        "https://github.com/tclasen/sparkle.git"
+      ],
+      "uncovered_refs": [],
+      "missing_tag_objects": [],
+      "verification_repo": "/Users/Shared/old/projects/work",
+      "method": "Commit reachability from live advertised heads/tags; annotated tag object identity also checked",
+      "rev_list_code": 0,
+      "initial_source_status": ""
+    },
+    {
+      "path": "projects/workflow",
+      "disposition": "operator-waived-after-learning",
+      "head": "e4125a4eb6d2758c3d87822563d3d47651a2657e"
+    },
+    {
+      "path": "work/AegisTrace",
+      "disposition": "operator-waived-after-learning",
+      "head": "d85a8d7c497efd225f69f0ea09cd19c238e262a9"
+    },
+    {
+      "path": "work/CognitionGrid",
+      "disposition": "operator-waived-after-learning",
+      "head": "93091501ed5aeb6120d32cd08a4fafa958057751"
+    },
+    {
+      "path": "work/Exaptra",
+      "disposition": "operator-waived-after-learning",
+      "head": "0d6ffac0c20b93b0d22339cc6acb3499be06a36a"
+    },
+    {
+      "path": "work/PortionGuard",
+      "disposition": "operator-waived-after-learning",
+      "head": "e1bb765be4b495732cf8c8e98f3f757a03a5873f"
+    },
+    {
+      "path": "work/ai_cost",
+      "disposition": "operator-waived-after-learning",
+      "head": "c12f8fed9af96da52d594c73e414fb6924307cfd"
+    },
+    {
+      "path": "work/coding_evals",
+      "disposition": "operator-waived-after-learning",
+      "head": "3aaf59fa5add319b22ca4ae45d4a7e17de6967b6"
+    },
+    {
+      "path": "work/factory",
+      "disposition": "operator-waived-after-learning",
+      "head": "2c1fb6c7c3180ae9c1f5deb8f1f514abc462bb44"
+    },
+    {
+      "path": "work/ism-tools",
+      "disposition": "operator-waived-after-learning",
+      "head": "0ddbb10468e71004e5d0f7efeef2f791b4e40693"
+    },
+    {
+      "path": "work/marked",
+      "disposition": "operator-waived-after-learning",
+      "head": "2062f7dead7b6747ae2562d032dcc5a29aa4da4e"
+    },
+    {
+      "path": "work/odni-sdk",
+      "disposition": "operator-waived-after-learning",
+      "head": "72f3d944690efd2e42fdf222d74e73d9be038693"
+    },
+    {
+      "path": "work/portions",
+      "disposition": "operator-waived-after-learning",
+      "head": "0014a02dfaad73c9080047d663b8ae6b6e62701e"
+    },
+    {
+      "path": "factory",
+      "disposition": "remote-verified",
+      "head": "bfd0ba68d4cc078f157f4461d0565eb919b3264d",
+      "local_ref_count": 1,
+      "remote_urls": [
+        "https://github.com/tclasen/meta-factory"
+      ],
+      "uncovered_refs": [],
+      "missing_tag_objects": [],
+      "verification_repo": "/Users/Shared/old/factory",
+      "method": "Commit reachability from live advertised heads/tags; annotated tag object identity also checked",
+      "rev_list_code": 0,
+      "initial_source_status": ""
+    }
+  ],
+  "additional_preserved_penny_reflog": {
+    "oid": "16342ccc52864b1cc3a917b1c743280a18dbf1ff",
+    "ref": "refs/heads/archive/legacy-20261021/reflog-16342ccc5286",
+    "verified_remote_readback": true
+  },
+  "source_status_disposition": "Competition8 WALs zero bytes, shared-memory indexes ephemeral; Voldenites3 untracked bytecode generated; tclasen empty note in operator-waived copy. No meaningful primary tracked/untracked source change omitted.",
+  "limits": "Remote commit/ref verification is not restoration of ignored runtime, raw recordings, LFS/submodule payloads, or all reflog-only objects. No legacy code executed."
+}

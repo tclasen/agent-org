@@ -1,0 +1,9 @@
+{
+  "oid": "16342ccc52864b1cc3a917b1c743280a18dbf1ff",
+  "tree": "c5b9397135a1b8411b17a34faa38d80a955f947e",
+  "same_tree_reachable_commits": [],
+  "files": "M\tdocs/TRACEABILITY.md\nM\tdocs/adr/0004-layered-city-and-installed-content.md\n",
+  "stats": "16342cc docs: qualify exact source-contract supersession headings (refs #141)\n docs/TRACEABILITY.md                                | 8 ++++----\n docs/adr/0004-layered-city-and-installed-content.md | 8 ++++++--\n 2 files changed, 10 insertions(+), 6 deletions(-)\n",
+  "show_diff_bytes": 10876,
+  "show_diff_sha256": "c1a8300b74221954aef2f425f164ad9c6b1bfe116c2a61dcbed735c46245c59d"
+}
