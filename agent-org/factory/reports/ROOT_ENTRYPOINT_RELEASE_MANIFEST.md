@@ -11,7 +11,9 @@
 
 Every candidate outside APP9's expressly authorized factual envelope matches its approved hash. Departures are solely APP9 decision/mapping, RUN27 actual outcome, ROOT_ENTRYPOINT actual review results and directly derived indexes/ledger/inventory. No code, tests, prior approvals, frozen snapshots or raw evidence changed. This manifest excludes its own bytes; Git supplies provenance.
 
-Canonical sorted compact JSON mapping SHA256: b3e503b3587213cf7ca40eb53189a37e29f6c9dbab67d0d69bd5c482f67c221b
+Closure follows verified PR3 merge2a25c4404754f61eccb5807ec278805eeb2603a5 under APP9: only TASK25–28 acceptance fields/handoffs, task index, current STATUS and ROOT_ENTRYPOINT actual integration evidence were updated. All other original delivered source bytes remain unchanged. Original approved mapping remains durably preserved in APP9. This refreshed manifest records final factual closure bytes, excluding itself.
+
+Canonical sorted compact JSON mapping SHA256: 264f308e7427bf80f456d5c54ad7effa57fd1efa2c4fb82169dd3007ed9a69c2
 
 | Path | SHA256 |
 | --- | --- |
@@ -61,7 +63,7 @@ Canonical sorted compact JSON mapping SHA256: b3e503b3587213cf7ca40eb53189a37e29
 | agent-org/capabilities/CAP-000020.md | cfe51ff099cbbe9da36fd114df227b94af87afeb28605501d5b14453024cdfc3 |
 | agent-org/capabilities/CAP-000021.md | b91df73e482994d0ebdc7fd015cd74185849ca8d706f6e1b8d656867a05f183c |
 | agent-org/capabilities/CAP-000022.md | 1575920e7aacddedc37f2d8fe298d391a45ed4bef22ea62e75a51dafa903e943 |
-| agent-org/factory/reports/ROOT_ENTRYPOINT.md | c977769c0ac20503c9beca5b2ed1cfd6d59c1292c5ad300c84b8e11b3649726b |
+| agent-org/factory/reports/ROOT_ENTRYPOINT.md | 459d3ae95213030e82537e3c545c2210bb7ca2ca278e1a9bffb8a05d279825b1 |
 | agent-org/intake/ACCEPTANCE_CONTRACT.md | 6d8b6288776ab23c3b7bce6ad2f37d727e27597d280a845fbcdd71d9e11fb125 |
 | agent-org/intake/COVERAGE.md | a74e36fe59dced44b9053751f8cba5587b40afdc0f640a306858f9a2c01594d2 |
 | agent-org/intake/INDEX.md | c59c00e340330f80caf4770854a44d8d32e5ebb43e461d54a9fb2d9bcebd3063 |
@@ -70,7 +72,7 @@ Canonical sorted compact JSON mapping SHA256: b3e503b3587213cf7ca40eb53189a37e29
 | agent-org/intake/POST_INSTALLATION_REVIEW.md | 16cf6cd3c820f65f3e86d1af197ccbf8d0fa3bc27dca58b2ad57b8cda329c12a |
 | agent-org/intake/REQUIREMENTS_BASELINE.md | cc0ae7f02e4a8d5e0529c697c56d2d48a9a165cf3351944a9395208f232c257c |
 | agent-org/intake/SCOPE_CONTRACT.md | 06aed3c4d9f06a6a221c5b2760bebb39fcac987430d638f6e97d2cdc0d0e5e2a |
-| agent-org/intake/STATUS.md | 7134d8bc206ed60d80b61c558605667d1fce3b5f33168d45864d51810fb81b99 |
+| agent-org/intake/STATUS.md | 874fe80b77a9fed2d879b4ded1822f6f13c22e322750e58a17c41823f32a41b9 |
 | agent-org/knowledge/PROJECT_ENROLLMENT.md | b07f0e62b15ea63dfe431a28a92b6f3b8ac5402a456fee804ea54047fada5b11 |
 | agent-org/policies/SCOPE_BOUNDARIES.md | fc60f7184e429f4f267a245a081755a4a889b109ef65bdaeff67c84fa47a7c8f |
 | agent-org/requirements/INDEX.md | 8841a2c876078791dca77e2879957aa2e3df95358a101a96486ca8e46c20d9e7 |
@@ -84,11 +86,11 @@ Canonical sorted compact JSON mapping SHA256: b3e503b3587213cf7ca40eb53189a37e29
 | agent-org/runs/RUN-000028.md | a936d41cc6baea5aabe81a7b50d1251c88a1a717690c3e129d39c20912258cef |
 | agent-org/shared/ID_LEDGER.md | d01118ab47270ad2d7942bec26d4c961e46e67a170228607f5d9e6d60d643445 |
 | agent-org/shared/SESSION_LIFECYCLE.md | 33c4c66620e9cd31fd98157d97cce528fa6d8634f590ced7db7a3fe41632e3bf |
-| agent-org/tasks/INDEX.md | 4473cc5d00de7dcc30af18a55c7a27a93884de9f35cdad191f23e40ea14374bc |
+| agent-org/tasks/INDEX.md | 86706aaacda2e1cf9627c2edf8cacfa3fbfa63187f6ef53147e390ac75b12d5b |
 | agent-org/tasks/cross-boundary/TASK-000001.md | 1631eb32d9c5249a3a294af9441214ba619673b2a776e0964fc1dc72ad04b834 |
-| agent-org/tasks/cross-boundary/TASK-000025.md | afd686a822f9336106bbc13b2bd6c88fe4d77fec93e70cfcc23267251b922a21 |
+| agent-org/tasks/cross-boundary/TASK-000025.md | 39efc85d16ab855fc6b72c987397fcecef668301c39e7a90fb39975dce8d2b50 |
 | agent-org/tasks/organization/TASK-000008.md | f30a46511ac2afebd69c0bb41351a82e456eef8d7069951b54d063e6fafb7cbc |
 | agent-org/tasks/organization/TASK-000024.md | fea0c39330ed5cef4529298f91062db5202526767c3fc9348095240436f66478 |
-| agent-org/tasks/organization/TASK-000026.md | baa7591b5ad0e91df44cabbc4de4bc100c8bf52e64ea4d1808450722a5823c4b |
-| agent-org/tasks/organization/TASK-000028.md | a98eecea0f946e2969dba4fd388f216ad239b4b6e5a8f2b878095f932d6afd6c |
-| agent-org/tasks/project/TASK-000027.md | 135e69d06736a44f1164fa6f5aca479e23c5db0132542eb12933b945581f8b52 |
+| agent-org/tasks/organization/TASK-000026.md | 5c1c14b942841bfbbcc174d84b799d1f6ecbbadd1d873b10b8a9ab892f6e4381 |
+| agent-org/tasks/organization/TASK-000028.md | 2cb79028c439176267cefffdb3057d9a9c60d32518eb9ea745c8f33f3797f7aa |
+| agent-org/tasks/project/TASK-000027.md | c806aa2040068e24e35da58347fd5bd667b57ce201de500502f8c00ab6f28c0d |

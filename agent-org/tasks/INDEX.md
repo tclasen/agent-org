@@ -26,7 +26,7 @@ Individual records own scope, current status and historical evidence.
 - [TASK-000022 — Independent final measurement adoption decision](organization/TASK-000022.md) — accepted
 - [TASK-000023 — Independent host integration review](project/TASK-000023.md) — accepted
 - [TASK-000024 — Integrate installation release evidence](organization/TASK-000024.md) — accepted
-- [TASK-000025 — Root startup entrypoint and accepted installation](cross-boundary/TASK-000025.md) — in_progress
-- [TASK-000026 — Align startup governance and record operator acceptance](organization/TASK-000026.md) — in_progress
-- [TASK-000027 — Create root startup entrypoint](project/TASK-000027.md) — in_progress
-- [TASK-000028 — Independently verify root startup integration](organization/TASK-000028.md) — in_progress
+- [TASK-000025 — Root startup entrypoint and accepted installation](cross-boundary/TASK-000025.md) — accepted
+- [TASK-000026 — Align startup governance and record operator acceptance](organization/TASK-000026.md) — accepted
+- [TASK-000027 — Create root startup entrypoint](project/TASK-000027.md) — accepted
+- [TASK-000028 — Independently verify root startup integration](organization/TASK-000028.md) — accepted
