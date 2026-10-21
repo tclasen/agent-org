@@ -1,0 +1,392 @@
+[
+  {
+    "id": "F01",
+    "path": "old/factory/evaluation/reports/req007-three-arm-v2.md",
+    "bytes": 8338,
+    "sha256": "a22a3b164f706bb0bec781218e3521f72edfabe6df1309115cab44cc14a6436c"
+  },
+  {
+    "id": "F02",
+    "path": "old/factory/.factory-planning/REQ-007-THREE-ARM-V2-COMPARISON-SNAPSHOT.json",
+    "bytes": 26967,
+    "sha256": "9c4ee272b923f2a0459770146a81ea6f50d987275d1b0fdbd6763f4d27880897"
+  },
+  {
+    "id": "F03",
+    "path": "old/factory/.factory-planning/REQ-007-MATCHED-PILOT-STATUS.md",
+    "bytes": 352835,
+    "sha256": "8ed07a128b4300a03aef76908387c2ca70c6532109405b5d2cf0a184aa9c8c1a"
+  },
+  {
+    "id": "F04",
+    "path": "old/factory/.factory-planning/REQ-007-COMPLETION-AUDIT.md",
+    "bytes": 185215,
+    "sha256": "cb667b9d2735727a0961a4561d8ff0627b60f4f2e9188094df98788e3582a3fa"
+  },
+  {
+    "id": "F05",
+    "path": "old/factory/.factory-planning/NEXT-CALIBRATION-REVIEW.md",
+    "bytes": 3646,
+    "sha256": "87dc27c655c9098e6354c76ec8223fbb2d114cd13aa61e1ff38b2d836d1f1782"
+  },
+  {
+    "id": "F06",
+    "path": "old/factory/.factory-planning/REQ-007-NATURAL-CALIBRATION-V5-TERMINAL-REVIEW.json",
+    "bytes": 1269,
+    "sha256": "8029afa6b0281a693883d487cab5993e611a4af787118e15ce3c3df0cc4682ff"
+  },
+  {
+    "id": "F07",
+    "path": "old/factory/.factory-planning/REQ-007-NATURAL-CALIBRATION-V6-TERMINAL-REVIEW.json",
+    "bytes": 1298,
+    "sha256": "055db83e170ef7842491934f348ad740adeaab0c980f13e5bbbd65a022b3d4bb"
+  },
+  {
+    "id": "F08",
+    "path": "old/factory/.factory-planning/REQ-007-NATURAL-CALIBRATION-V8-TERMINAL-REVIEW.json",
+    "bytes": 1900,
+    "sha256": "b936e17aaa1d16e6909da401421c6fa535646a08499c02f055c2f4d1c94a4b20"
+  },
+  {
+    "id": "F09",
+    "path": "old/factory/.factory-planning/REQ-007-CHECKPOINT-NATURAL-CALIBRATION-V9-TERMINAL.json",
+    "bytes": 1332,
+    "sha256": "cfc73ef043d1795adf3aa05591443d8e66be67b66ad643746b71a94acae6174f"
+  },
+  {
+    "id": "F10",
+    "path": "old/factory/.factory-planning/REQ-007-CALIBRATION-V9-GRADE-V1-ACTUALS.json",
+    "bytes": 501,
+    "sha256": "15d9fd11477e324f9962ddb944ba11eda7a761723117cb5291ff1302c55fb4d5"
+  },
+  {
+    "id": "F11",
+    "path": "old/factory/.factory-planning/REQ-007-CALIBRATION-V9-GRADE-V1-REVIEW.json",
+    "bytes": 2580,
+    "sha256": "b11b52b49bd0f7daee8928ac56455a0a979394be037fa499011cb7cc30f206b2"
+  },
+  {
+    "id": "F12",
+    "path": "agent-org/factory/reports/legacy-retirement/factory-quantitative-evidence.json",
+    "bytes": 166485,
+    "sha256": "7c1cd2774cef6b1f307218bb2b7822946e0c2f1bde3529a3a21b4a66c04e78b8"
+  },
+  {
+    "id": "F13",
+    "path": "old/factory/.factory-planning/REQ-007-STORAGE-GROWTH-COMPARISON.json",
+    "bytes": 3385,
+    "sha256": "c2cf8d581891faa28acda3b8fbc3fa874769b08a70bcca017def37d332ff212e"
+  },
+  {
+    "id": "F14",
+    "path": "old/work/factory/docs/evidence/lean-acceptance-review.md",
+    "bytes": 13848,
+    "sha256": "f7b24fc0388768b90ade637c82fa648500b075d3d6082044166b761c8bd14de7"
+  },
+  {
+    "id": "F15",
+    "path": "old/work/factory/docs/i0-evidence.md",
+    "bytes": 161738,
+    "sha256": "016d8626f8a8967c70721a19ed102d1be2ad95572b86300048e343a140f1934c"
+  },
+  {
+    "id": "F16",
+    "path": "old/work/factory/docs/decisions/0006-terminated-agent-capture.md",
+    "bytes": 3987,
+    "sha256": "aa60dfa8f31d585bbfd963d324c198270ad4fa84614c8cf11b474aff9ac4c2b2"
+  },
+  {
+    "id": "F17",
+    "path": "old/work/factory/docs/decisions/0007-fresh-patch-verification.md",
+    "bytes": 3083,
+    "sha256": "38f206071f037a7cd5869a4865dcc6d5f0d1aa0f3b09ee7167e699623b4bda92"
+  },
+  {
+    "id": "F18",
+    "path": "old/work/factory/docs/decisions/0008-node-cleanup-evidence.md",
+    "bytes": 10618,
+    "sha256": "7f96a629abe3d8094144ca6f743afd63c9548cde387bc2789b505364d99eb335"
+  },
+  {
+    "id": "F19",
+    "path": "old/work/factory/docs/decisions/0012-unstarted-run-cleanup.md",
+    "bytes": 23837,
+    "sha256": "461fca819bdd0a0b1d822e78f63b917a62dac6b25fc4f274164e0f913293f5ce"
+  },
+  {
+    "id": "F20",
+    "path": "old/work/factory/docs/decisions/0003-collector-supervision.md",
+    "bytes": 3282,
+    "sha256": "479ab0ce5074d3c7bcba9ccf5b18a331376197b2d26d07b1eac09486e8dc70e0"
+  },
+  {
+    "id": "F21",
+    "path": "old/work/factory/docs/decisions/0009-lean-audit-ledger.md",
+    "bytes": 3298,
+    "sha256": "df1ff93af6d42fb529bc0ab549e230ec368b6d38c486273d104d94c520118ee3"
+  },
+  {
+    "id": "F22",
+    "path": "old/work/factory/docs/decisions/0010-lean-metrics-buffer.md",
+    "bytes": 3280,
+    "sha256": "23644445b495a28d64e545e6c57d9754cf8202a525af8c6dfee8c091c4736a02"
+  },
+  {
+    "id": "F23",
+    "path": "old/work/factory/docs/decisions/0005-lean-mvp.md",
+    "bytes": 2823,
+    "sha256": "832956cf37da08047d40937174c2ec08b24af9e35d26e77d82a5ef8515402026"
+  },
+  {
+    "id": "F24",
+    "path": "old/work/factory/docs/decisions/0011-lean-storage-cleanup.md",
+    "bytes": 4151,
+    "sha256": "221270c6926bab340b86661e919705ed7e0bf7380a8e9e41c2582aeaa2d28435"
+  },
+  {
+    "id": "F25",
+    "path": "old/work/factory/docs/evidence/lean-schema38-isolated-restore.json",
+    "bytes": 3080,
+    "sha256": "b03f4f79c1cb3b6705b67eef577cb32d2f0f2e9cf19960d2af284ca63838ef02"
+  },
+  {
+    "id": "F26",
+    "path": "old/work/factory/docs/evidence/workspace-consolidation.json",
+    "bytes": 1490,
+    "sha256": "f005921aaa71ea4aa9967357bb96e5bce555a6173163c7322757537a4f63ea5e"
+  },
+  {
+    "id": "F27",
+    "path": "old/work/factory/.local/installed-recovery37-footprint/summary.json",
+    "bytes": 2223,
+    "sha256": "6b99f041e97da23248ca1e56c780dbddf63227126bd94393b6374487244dd971"
+  },
+  {
+    "id": "F28",
+    "path": "old/work/factory/.local/scheduled-recovery-footprint-with-helper/summary.json",
+    "bytes": 754,
+    "sha256": "b32b86dab48554c725f4ad2b349e48afc597eb9910ea5752318f27db1c5008bb"
+  },
+  {
+    "id": "F29",
+    "path": "old/work/factory/docs/garage-candidate-review.md",
+    "bytes": 11579,
+    "sha256": "4e3e85e79b0595a829b08b159ebe1acd4557187912b846c7353db52b223e19b9"
+  },
+  {
+    "id": "F30",
+    "path": "old/work/factory/docs/seaweed-candidate-review.md",
+    "bytes": 16927,
+    "sha256": "8774b094ac9b47b4e48bd9a07c1d06b5490bb3f890219a53024ce934cd941179"
+  },
+  {
+    "id": "F31",
+    "path": "old/work/factory/docs/evidence/lean-dependency-review.md",
+    "bytes": 3952,
+    "sha256": "314c630f885099ed82ac2bfd9f0b677264bb6235b5d6819b8b44ad38812d4708"
+  },
+  {
+    "id": "F32",
+    "path": "old/work/AegisTrace/docs/governance/acceptance.md",
+    "bytes": 1113,
+    "sha256": "ac2ed22c705f1ec25848384f665a82a6c542d3e8c22c5112f0897f81f920b881"
+  },
+  {
+    "id": "F33",
+    "path": "old/work/AegisTrace/docs/engineering/test-strategy.md",
+    "bytes": 1289,
+    "sha256": "6711fde9b301f9932ff4c0de7415fc73752427c1002d10cb0d984f214b37c795"
+  },
+  {
+    "id": "F34",
+    "path": "old/work/AegisTrace/TASKS.md",
+    "bytes": 18894,
+    "sha256": "5e04b66a6bb22d7eb034f0bcb58d5750c2cd2209fcecfd9d5b4d0cd810de9abb"
+  },
+  {
+    "id": "F35",
+    "path": "old/work/CognitionGrid/.codex-notes.md",
+    "bytes": 128418,
+    "sha256": "11472a3a86faaaf0221f66c84b6b74dfdacf5431a1680587bba5163d6e4b7466"
+  },
+  {
+    "id": "F36",
+    "path": "old/work/CognitionGrid/db/migrations/README.md",
+    "bytes": 5947,
+    "sha256": "e97937136ffc0645e4158ef8fc6721d5cf042a4e09ddc4e950edb04582ad1c2f"
+  },
+  {
+    "id": "F37",
+    "path": "old/work/CognitionGrid/README.md",
+    "bytes": 20308,
+    "sha256": "84bdf4082775ae247c4277da920c13b6647a4fc8c823b4b88fe29861965f3a45"
+  },
+  {
+    "id": "F38",
+    "path": "old/work/Exaptra/README.md",
+    "bytes": 8490,
+    "sha256": "65466ec8be62ed07ca742e4c62a7103040f72449004ef15c0b7618b1ebd94cc9"
+  },
+  {
+    "id": "F39",
+    "path": "old/work/Exaptra/WORKFLOW.md",
+    "bytes": 732,
+    "sha256": "8c00489bf62eb5f7f53161b4402fa7a9a52593ec6c976aeeb40d41ec1bce6aad"
+  },
+  {
+    "id": "F40",
+    "path": "old/work/PortionGuard/docs/design-decisions.md",
+    "bytes": 14678,
+    "sha256": "3222a6abeef6d0ec3a31a8da04eb49ab3ab6e23ba2f3d85a1f59c75b110241a7"
+  },
+  {
+    "id": "F41",
+    "path": "old/work/PortionGuard/docs/public-contract-review.md",
+    "bytes": 9988,
+    "sha256": "634c051509236ca28509a3adeaea5e67023a80b2200b4bebc74bf5cc1f0b10e8"
+  },
+  {
+    "id": "F42",
+    "path": "old/work/PortionGuard/docs/phase-1-release-readiness.md",
+    "bytes": 12196,
+    "sha256": "dc87fda0ef0d076aff38c7abf01c6e3f9a2f858dda0705e55da43881c6f8b3fd"
+  },
+  {
+    "id": "F43",
+    "path": "old/work/PortionGuard/docs/security-limits.md",
+    "bytes": 9024,
+    "sha256": "709c14f6067cb54f0c5a180d49d9937b491df7a892bbb9bc04dd2883b977a62c"
+  },
+  {
+    "id": "F44",
+    "path": "old/work/PortionGuard/docs/source-locations.md",
+    "bytes": 9114,
+    "sha256": "81735b8efe3eeff575aef73e167a69c303408ab43fcb7d3be6fa4d5249f53d6f"
+  },
+  {
+    "id": "F45",
+    "path": "old/work/PortionGuard/NOTES.md",
+    "bytes": 37335,
+    "sha256": "a16f96e4999e94dee5215a5f1f8c24d55c06bfea7d8ec344df9a2fa6bc3938a6"
+  },
+  {
+    "id": "F46",
+    "path": "old/work/PortionGuard/benchmarks/baselines/2026-07-21-darwin-arm64.md",
+    "bytes": 3548,
+    "sha256": "8eb3ec61bbb4f27a4b702d9ee5ecb78a7cb17253a1a1fc4e688abcb3d416f300"
+  },
+  {
+    "id": "F47",
+    "path": "old/work/ai_cost/src/calculator.ts",
+    "bytes": 7721,
+    "sha256": "8753cb798ec311ee86d61d0a14ba66db49f31e15cabec253f5372685267d4507"
+  },
+  {
+    "id": "F48",
+    "path": "old/work/ai_cost/src/defaultScenario.ts",
+    "bytes": 1305,
+    "sha256": "dd0101badbd3e40c59431c085574c1eb197b7a430f6f3e45a4fdc2726ba73ffd"
+  },
+  {
+    "id": "F49",
+    "path": "old/work/ai_cost/src/calculator.test.ts",
+    "bytes": 3549,
+    "sha256": "3a0f49387aaa96a575d4f3a1a9f53b5e47859ecdae516848634eb959c11480e8"
+  },
+  {
+    "id": "F50",
+    "path": "old/work/coding_evals/README.md",
+    "bytes": 2961,
+    "sha256": "b7806fdaa7d747da2d83c9a09b423b2b29d3eb5cb5616b06410b90f83df571cc"
+  },
+  {
+    "id": "F51",
+    "path": "old/work/coding_evals/docs/ADDING_PROJECTS.md",
+    "bytes": 3994,
+    "sha256": "76cb627d60c59c5385eef3237bda072e1fae7533e2e640922c807662b3170ceb"
+  },
+  {
+    "id": "F52",
+    "path": "old/work/ism-tools/README.md",
+    "bytes": 47359,
+    "sha256": "4bc121e01c2ab5c36ad039fe07282ce2f331da7a5ece11561c696adf83ab744c"
+  },
+  {
+    "id": "F53",
+    "path": "old/work/marked/docs/architecture.md",
+    "bytes": 2310,
+    "sha256": "dc03abcc72d8b81d8c5727f968b098fec1137af7f88bca04be77b1d65802a198"
+  },
+  {
+    "id": "F54",
+    "path": "old/work/marked/docs/supply-chain.md",
+    "bytes": 2432,
+    "sha256": "72d7d4af01673ab3348b6b95dcaf1b3f1d0e02a0f88943764f99480a77e111c5"
+  },
+  {
+    "id": "F55",
+    "path": "old/work/marked/README.md",
+    "bytes": 28111,
+    "sha256": "c949def58cdd95af8ae41195993d16299452d7a7eb82e5b9f1b37df5e36bb655"
+  },
+  {
+    "id": "F56",
+    "path": "old/work/odni-sdk/index.md",
+    "bytes": 338,
+    "sha256": "b69c7aed7e9c81ac7f008389345ddb048d1e687927469cf8951c673f928b2a07"
+  },
+  {
+    "id": "F57",
+    "path": "old/work/odni-sdk/specifications/index.md",
+    "bytes": 2659,
+    "sha256": "651d5f20283c1cf39212ecedc306930466642b99c233d5b48930d8eee18c3574"
+  },
+  {
+    "id": "F58",
+    "path": "old/work/odni-sdk/AGENTS.md",
+    "bytes": 11975,
+    "sha256": "70aaa343627bc35186f5f41ac4b79cbd6bf1c1e4408ab84f573e7e769f47c036"
+  },
+  {
+    "id": "F59",
+    "path": "old/work/portions/docs/POLICY-PROVENANCE.md",
+    "bytes": 3403,
+    "sha256": "838c616e75db7410c6310cdc45735de6dc1b42f5248f07d364244cb702887a1d"
+  },
+  {
+    "id": "F60",
+    "path": "old/work/portions/SECURITY.md",
+    "bytes": 2031,
+    "sha256": "c4a5682e0c62b4559771a8e42dad4da209563303204b7b4d33b67f8d2f3d9e69"
+  },
+  {
+    "id": "F61",
+    "path": "old/work/portions/CHANGELOG.md",
+    "bytes": 2139,
+    "sha256": "64a9b64775acca9a187383704849bfdf608962b66c4733d2f1c73e2430b37f73"
+  },
+  {
+    "id": "F62",
+    "path": "old/agent-collaboration/factory_catalog/taxonomy-discussion-2026-09-28.md",
+    "bytes": 23938,
+    "sha256": "c26b810f73993ae1ec3da18a92662eaa03d5f36f1f7640b87228e993bc7daaa4"
+  },
+  {
+    "id": "F63",
+    "path": "old/agent-handoffs/factory-catalog-knowledge-work-taxonomy-2026-09-28.md",
+    "bytes": 10194,
+    "sha256": "feffeae467b97b046fa8f1a75ac4a8fa852f7a920e90d9d46090262260050837"
+  },
+  {
+    "id": "F64",
+    "path": "old/factory/.factory-planning/DECISIONS.md",
+    "bytes": 32688,
+    "sha256": "53372eb1c91a2c5caed3b7968061016f5851aee1878bdabf687bbb483f6f3ece"
+  },
+  {
+    "id": "F65",
+    "path": "old/factory/.factory-planning/EVALUATION.md",
+    "bytes": 28476,
+    "sha256": "c55ebff377e2b65e3db18ca01c270b61de93a868cd85da62554d5535fe9e658d"
+  }
+]

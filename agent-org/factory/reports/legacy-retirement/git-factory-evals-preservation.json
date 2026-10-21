@@ -1,0 +1,9 @@
+{
+  "repository": "projects/factory_evals",
+  "blobs_scanned": 46,
+  "findings": [],
+  "limit": "high-confidence pattern scan only; not proof of secret absence",
+  "planned_destination": "https://github.com/tclasen/factory_evals.git",
+  "planned_ref": "refs/heads/main",
+  "planned_oid": "0559d82db5da43beda51f2ca7676ec268313026e"
+}

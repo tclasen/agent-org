@@ -1,0 +1,85 @@
+{
+  "aggregate_correction": "Class counts recomputed from per-path records to include one read PermissionError; original error retained. No source outcome changed.",
+  "errors": [
+    {
+      "error": "PermissionError",
+      "path": "old/factory/.factory-planning/runtime-smoke-logs/latest.log"
+    }
+  ],
+  "method": "factory-inventory.py; SHA-256; sorted os.walk including hidden/ignored; no symlink traversal; no legacy execution; exclusions explicit per path",
+  "roots": {
+    "old/agent-collaboration": {
+      "classes": {
+        "hashed-text": 1
+      },
+      "counts": {
+        "bytes": 23938,
+        "entries": 1,
+        "hashed": 1
+      }
+    },
+    "old/agent-handoffs": {
+      "classes": {
+        "hashed-text": 1
+      },
+      "counts": {
+        "bytes": 10194,
+        "entries": 1,
+        "hashed": 1
+      }
+    },
+    "old/factory": {
+      "classes": {
+        "dependency-cache-not-reviewed": 8701,
+        "git-metadata-not-reviewed": 4763,
+        "hashed-binary": 545,
+        "hashed-text": 272218,
+        "large-payload-not-reviewed": 23,
+        "symlink-not-followed": 20,
+        "unreadable": 1
+      },
+      "counts": {
+        "bytes": 6234877518,
+        "entries": 286271,
+        "hashed": 272763
+      }
+    },
+    "old/factory-eval-workspaces": {
+      "classes": {
+        "dependency-cache-not-reviewed": 101,
+        "hashed-text": 4603
+      },
+      "counts": {
+        "bytes": 19802420,
+        "entries": 4704,
+        "hashed": 4603
+      }
+    },
+    "old/factory-evals-workspaces": {
+      "classes": {
+        "hashed-text": 44
+      },
+      "counts": {
+        "bytes": 2378,
+        "entries": 44,
+        "hashed": 44
+      }
+    },
+    "old/work": {
+      "classes": {
+        "dependency-cache-not-reviewed": 15426,
+        "git-metadata-not-reviewed": 3608,
+        "hashed-binary": 4633,
+        "hashed-text": 25702,
+        "large-payload-not-reviewed": 63,
+        "symlink-not-followed": 150
+      },
+      "counts": {
+        "bytes": 252243410487,
+        "entries": 49582,
+        "hashed": 30335
+      }
+    }
+  },
+  "unique_hashes": 148183
+}

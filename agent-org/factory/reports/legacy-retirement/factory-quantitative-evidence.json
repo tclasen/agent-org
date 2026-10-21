@@ -1,0 +1,3802 @@
+{
+  "actuals": [
+    {
+      "bytes": 936,
+      "fields": {
+        "acceptance": false,
+        "delivered": "Conservative private partial log reader, native diagnostic failure evidence, verified cleanup and published documentation",
+        "effort_minutes": null,
+        "effort_missing_reason": "No continuous effort instrumentation; native elapsed is measured, not labor effort",
+        "grading_elapsed_seconds": 73.16487245901953,
+        "native_elapsed_seconds": 197.997749
+      },
+      "path": "old/factory/.factory-planning/REQ-007-AUDIT-DIAGNOSTIC-V1-ACTUALS.json",
+      "sha256": "66fd28588f8f9557715dca94f5c87fbb7b15b94f79f40047dc646d6060084072"
+    },
+    {
+      "bytes": 1364,
+      "fields": {
+        "attempts": [
+          {
+            "all_owned_resources_removed": true,
+            "bootstrap_exit_code": 1,
+            "bootstrap_seconds": 100.63248283299617,
+            "case_count_executed": 0,
+            "classification": "original_grade",
+            "forecast_missing": false,
+            "forecast_record": ".factory-planning/REQ-007-CALIBRATION-V8-GRADE-V1-ESTIMATE.json",
+            "logs": ".factory-planning/req007-calibration-v8-grade-v1-logs/run-z6lni2gc",
+            "model_calls": 0,
+            "original_capture_unchanged": true,
+            "outcome": "captured_application_grading_observed",
+            "overall_wall_seconds": 118.743633
+          },
+          {
+            "all_owned_resources_removed": true,
+            "bootstrap_exit_code": 1,
+            "bootstrap_seconds": 104.56992279202677,
+            "case_count_executed": 0,
+            "classification": "separate_bootstrap_diagnostic",
+            "forecast_missing": true,
+            "forecast_record": null,
+            "logs": ".factory-planning/req007-calibration-v8-bootstrap-diagnostic-v2-logs/run-iie78m1w",
+            "model_calls": 0,
+            "original_capture_unchanged": true,
+            "outcome": "unchanged_capture_bootstrap_diagnostic_observed",
+            "overall_wall_seconds": 122.36741
+          }
+        ]
+      },
+      "path": "old/factory/.factory-planning/REQ-007-CALIBRATION-V8-GRADING-ACTUALS-V1.json",
+      "sha256": "4214ba15f4a14dfacdbb991c221e7ba9e8518004e2ecd5a9c1ef704b7149c850"
+    },
+    {
+      "bytes": 501,
+      "fields": {
+        "delivered_scope": "Unchanged native bootstrap and17 attempted cases;16pass/1inconclusive shared-fixture abort, remaining22selected and41unsupported untested; cleanup verified. No full39-case completion or authoritative acceptance.",
+        "effort_minutes": null,
+        "effort_missing": true,
+        "elapsed_minutes": 82.96375768333334,
+        "original_minutes": [
+          20,
+          170
+        ]
+      },
+      "path": "old/factory/.factory-planning/REQ-007-CALIBRATION-V9-GRADE-V1-ACTUALS.json",
+      "sha256": "15d9fd11477e324f9962ddb944ba11eda7a761723117cb5291ff1302c55fb4d5"
+    },
+    {
+      "bytes": 1071,
+      "fields": {
+        "completed_at": "2026-10-10T04:55:56.060025+00:00",
+        "delivered": "Nine original-cookie content read surfaces;63faulty models;154direct137wire2regression controls;4native groups;27remaining mutation coverage cells explicitly traced",
+        "elapsed_since_forecast_minutes": 10.261703033333333,
+        "elapsed_through_publication_minutes": 14.583690233333334,
+        "forecast": ".factory-planning/REQ-007-CONTENT-READS-V41-ESTIMATE.json",
+        "native_attempt_elapsed_seconds": 160.1470725000836
+      },
+      "path": "old/factory/.factory-planning/REQ-007-CONTENT-READS-V41-ACTUALS.json",
+      "sha256": "6ed0ac447f8d0133ea4262d3ad006c1e25b449c8de7ac4699bac66aab535be7d"
+    },
+    {
+      "bytes": 848,
+      "fields": {
+        "elapsed_since_forecast_minutes": 15.44303605,
+        "forecast_minutes": [
+          5,
+          86
+        ],
+        "native_elapsed_seconds": 323.560777,
+        "preforecast_inspection_missing": true
+      },
+      "path": "old/factory/.factory-planning/REQ-007-CORE-HTTP-V1-ACTUALS.json",
+      "sha256": "73e9896052d917dc38ec45c4cfe1aedf8db16dd3edb6793e99a512c52d160679"
+    },
+    {
+      "bytes": 826,
+      "fields": {
+        "elapsed_since_forecast_minutes": 7.366550616666667,
+        "forecast_minutes": [
+          8,
+          26
+        ],
+        "native_elapsed_seconds": 214.973845,
+        "preforecast_inspection_missing": true
+      },
+      "path": "old/factory/.factory-planning/REQ-007-EXPORT-REVOCATION-V44-ACTUALS.json",
+      "sha256": "89440199e974e0f06dc64efd02aeced56f9dff748ede58cfb2b894027e0117c9"
+    },
+    {
+      "bytes": 875,
+      "fields": {
+        "acceptance": false,
+        "delivered": "39 protected controls, fresh native two-tenant integrated journey,17 independent identity checks,verified cleanup and published docs",
+        "effort_minutes": null,
+        "effort_missing_reason": "Measured attempt wall clock; no continuous labor instrumentation",
+        "grading_elapsed_seconds": 5.3315717499936,
+        "native_elapsed_seconds": 149.481672
+      },
+      "path": "old/factory/.factory-planning/REQ-007-INTEGRATED-NATIVE-V1-ACTUALS.json",
+      "sha256": "b94572a471fcfd17bea4cc53509be5a808475dac4d9967e95942e0e67b5e280a"
+    },
+    {
+      "bytes": 222,
+      "fields": {
+        "effort_minutes": null,
+        "effort_missing": true,
+        "elapsed_minutes": 0.0028779166666666666,
+        "original_minutes": [
+          4,
+          12
+        ],
+        "outcome": "incomplete"
+      },
+      "path": "old/factory/.factory-planning/REQ-007-INTEGRATION-PUBLICATION-V1-ACTUALS.json",
+      "sha256": "bb040a66c6b94faade1a09340a6f5840d810c8f5a19ef516befc04d82dd83764"
+    },
+    {
+      "bytes": 219,
+      "fields": {
+        "effort_minutes": null,
+        "effort_missing": true,
+        "elapsed_minutes": 0.9996696833333334,
+        "original_minutes": [
+          4,
+          12
+        ],
+        "outcome": "incomplete"
+      },
+      "path": "old/factory/.factory-planning/REQ-007-INTEGRATION-PUBLICATION-V2-ACTUALS.json",
+      "sha256": "65b63306183726855e2886576768ab8228ec3db9efff20ec1c0d80a9e938bc07"
+    },
+    {
+      "bytes": 219,
+      "fields": {
+        "effort_minutes": null,
+        "effort_missing": true,
+        "elapsed_minutes": 1.7364403499999999,
+        "original_minutes": [
+          4,
+          12
+        ],
+        "outcome": "incomplete"
+      },
+      "path": "old/factory/.factory-planning/REQ-007-INTEGRATION-PUBLICATION-V3-ACTUALS.json",
+      "sha256": "9bc0fa841fa9a7cc8a34969fd2facc72f5e5b28c440357d25cffedcda2f0e70c"
+    },
+    {
+      "bytes": 211,
+      "fields": {
+        "effort_minutes": null,
+        "effort_missing": true,
+        "elapsed_minutes": 2.83998855,
+        "original_minutes": [
+          4,
+          12
+        ],
+        "outcome": "incomplete"
+      },
+      "path": "old/factory/.factory-planning/REQ-007-INTEGRATION-PUBLICATION-V4-ACTUALS.json",
+      "sha256": "5d4aacc64b817a9f5b0ce10cbac0a0a00dd95d6352c2cb9a60564a73d8763202"
+    },
+    {
+      "bytes": 243,
+      "fields": {
+        "effort_minutes": null,
+        "effort_missing": true,
+        "elapsed_minutes": 4.40477545,
+        "original_minutes": [
+          4,
+          12
+        ],
+        "outcome": "integration_evidence_required_pr_published"
+      },
+      "path": "old/factory/.factory-planning/REQ-007-INTEGRATION-PUBLICATION-V5-ACTUALS.json",
+      "sha256": "06ff459af9c123a540a780ffd7c1da92badcad80182002422d4dece2fbd7ebbd"
+    },
+    {
+      "bytes": 1214,
+      "fields": {
+        "completed_at": "2026-10-10T04:38:03.508107+00:00",
+        "delivered": "Auditor and administrator current-cookie lifecycle; real self role changes; typed role-set correction;91direct74wire2regression controls and4native groups passed",
+        "elapsed_since_correction_forecast_minutes": 5.2146672333333335,
+        "elapsed_since_initial_forecast_minutes": 12.644748166666666,
+        "native_v40_elapsed_seconds": 153.48377429204993
+      },
+      "path": "old/factory/.factory-planning/REQ-007-MANAGEMENT-READS-V40-ACTUALS.json",
+      "sha256": "f2e3213579a3a6246eca8cb533e229ec788e9169fa1a9a276b941c829f6c9a5d"
+    },
+    {
+      "bytes": 719,
+      "fields": {
+        "actual_minutes_since_recorded_forecast": 10.546943883333334,
+        "completed_at": "2026-10-10T03:50:11.831694+00:00",
+        "delivered_scope": "Protected V36 current-session promotion oracle, seven new direct/HTTP negative controls, one-login wire invariant, four-case AC-008 mapping;42 direct and25 final wire controls; signed documentation published.",
+        "full_goal_complete": false,
+        "native_application_acceptance": null
+      },
+      "path": "old/factory/.factory-planning/REQ-007-MEMBERSHIP-PROMOTION-V36-ACTUALS.json",
+      "sha256": "d32599f703f1cc424c1b174ab889dcac404111e3afe801ad93fab1700bcc40bc"
+    },
+    {
+      "bytes": 398,
+      "fields": {
+        "acceptance": false,
+        "effort_minutes": null,
+        "effort_missing_reason": "No independent active-effort accounting; elapsed time is not effort.",
+        "elapsed_minutes": 28.133167116666666,
+        "native_elapsed_seconds": 125.28649895905983,
+        "original_forecast_minutes": [
+          20,
+          45
+        ],
+        "revised_forecast_minutes": [
+          23,
+          54
+        ]
+      },
+      "path": "old/factory/.factory-planning/REQ-007-MIGRATION-DDL-CONTRACT-V1-ACTUALS.json",
+      "sha256": "677502209766134c4cfed78331c26070d3919515db2b8a5ef1332c7a11b60f4e"
+    },
+    {
+      "bytes": 766,
+      "fields": {
+        "acceptance": false,
+        "component_complete": true,
+        "effort_minutes": null,
+        "effort_missing": true,
+        "elapsed_minutes": 5.257623316666667,
+        "original_minutes": [
+          12,
+          33
+        ],
+        "scope": "Fresh controlled reference: eight opaque usernames and two opaque tenant names selected after image build; defaults retained. Original integrated API case uses only the independently verified alternate tenant projection. Same deployment storage canary, before/after five-role content/process/source/identity binding. Two prior declared configuration corrections remain; no full fixture-bypass, undocumented-setup, malicious-builder, authoritative acceptance or promotion claim."
+      },
+      "path": "old/factory/.factory-planning/REQ-007-NATIVE-ALTERNATE-STORAGE-V1-ACTUALS.json",
+      "sha256": "80c9d49cfe6b72e1953de89051b11b839f2d013ca273f36b40dc1e2261c6c346"
+    },
+    {
+      "bytes": 621,
+      "fields": {
+        "acceptance": false,
+        "component_complete": true,
+        "effort_minutes": null,
+        "effort_missing": true,
+        "elapsed_minutes": 5.84796365,
+        "original_minutes": [
+          3,
+          10
+        ],
+        "scope": "Fresh controlled reference with default9 users only: map independently observed multi_analyst to membership_subject without extra seed command or source edits; exact original protected membership case and all9 before/after identity checks. Preserve two declared development configuration corrections. No V9 rerun/rescore or full acceptance."
+      },
+      "path": "old/factory/.factory-planning/REQ-007-NATIVE-DEFAULT-SUBJECT-V1-ACTUALS.json",
+      "sha256": "9e56b154207fc4e6ad452ac2b389ffc1ced49d926d3d030173a6a8540b1bc3be"
+    },
+    {
+      "bytes": 905,
+      "fields": {
+        "acceptance": false,
+        "delivered": "12 preservation and7 protected controls, knownexit73native test, two destroys, independent canary preservation, source/cleanup verification, published documentation",
+        "effort_minutes": null,
+        "effort_missing_reason": "Attempt elapsed measured; no continuous labor instrumentation",
+        "grading_elapsed_seconds": 0.042324624955654144,
+        "native_elapsed_seconds": 105.605534
+      },
+      "path": "old/factory/.factory-planning/REQ-007-NATIVE-DISPOSAL-V1-ACTUALS.json",
+      "sha256": "a5d655832a235b95896b5743da020e7cddb986f30ede68a2e62d23ccb4a92773"
+    },
+    {
+      "bytes": 340,
+      "fields": {
+        "acceptance": false,
+        "effort_minutes": null,
+        "effort_missing_reason": "Independent active-effort accounting unavailable; elapsed is not effort.",
+        "elapsed_minutes": 6.327003183333333,
+        "forecast_minutes": [
+          12,
+          28
+        ],
+        "native_elapsed_seconds": 149.87708837492391
+      },
+      "path": "old/factory/.factory-planning/REQ-007-NATIVE-DOCUMENTED-WORKER-V1-ACTUALS.json",
+      "sha256": "b2829ea39729d67f28ab7ef4f484359e5414b5b013a9813948ebf60a852b5253"
+    },
+    {
+      "bytes": 370,
+      "fields": {
+        "acceptance": false,
+        "effort_minutes": null,
+        "effort_missing": true,
+        "elapsed_minutes": 13.261633966666666,
+        "native_attempts": 2,
+        "original_forecast_minutes": [
+          25,
+          60
+        ],
+        "scope_complete": true
+      },
+      "path": "old/factory/.factory-planning/REQ-007-NATIVE-FIVE-ROLE-IMAGES-V1-ACTUALS.json",
+      "sha256": "b34ee32f99c87ec389ec4b577bd8d1c948111d5973b1921db045c3de435217e1"
+    },
+    {
+      "bytes": 1787,
+      "fields": {
+        "acceptance": false,
+        "attempts": [
+          {
+            "case_verdicts": null,
+            "cleanup_verified": true,
+            "elapsed_seconds": 102.251164,
+            "logs": ".factory-planning/req007-native-foundation-replay-v1-logs/run-_qx1dtc3",
+            "outcome": "incomplete",
+            "version": "v1"
+          },
+          {
+            "case_verdicts": null,
+            "cleanup_verified": true,
+            "elapsed_seconds": 107.920939,
+            "logs": ".factory-planning/req007-native-foundation-replay-v2-logs/run-bolybdhz",
+            "outcome": "incomplete",
+            "version": "v2"
+          },
+          {
+            "case_verdicts": {
+              "foundation-bootstrap": "inconclusive"
+            },
+            "cleanup_verified": true,
+            "elapsed_seconds": 140.851806,
+            "logs": ".factory-planning/req007-native-foundation-replay-v3-logs/run-0gk10pq5",
+            "outcome": "native_foundation_replay_fixture_observed",
+            "version": "v3"
+          }
+        ],
+        "delivered": "14private peer controls; supported live11table78column schema matches independent full5file replay; baseline and all3VM cleanup; complete foundation remains inconclusive",
+        "effort_minutes": null,
+        "effort_missing_reason": "Measured attempt elapsed, no continuous effort instrumentation"
+      },
+      "path": "old/factory/.factory-planning/REQ-007-NATIVE-FOUNDATION-REPLAY-V1-ACTUALS.json",
+      "sha256": "1c351c6041f741334d271fa8e2dc41b61a48845c7bc9d74dc7d3a8283744bf25"
+    },
+    {
+      "bytes": 1067,
+      "fields": {
+        "acceptance_granted": false,
+        "effort_minutes": null,
+        "effort_missing": true,
+        "elapsed_from_forecast_minutes": 14.21806185,
+        "forecast_minutes": [
+          10,
+          32
+        ],
+        "native_elapsed_seconds": 123.287956
+      },
+      "path": "old/factory/.factory-planning/REQ-007-NATIVE-FOUNDATION-STORAGE-V1-ACTUALS.json",
+      "sha256": "79d28c82afddb2908e7603b89a8087df4972a243e96a18243facd025678883f0"
+    },
+    {
+      "bytes": 633,
+      "fields": {
+        "acceptance": false,
+        "effort_minutes": null,
+        "effort_missing_reason": "Independent active-effort accounting unavailable; elapsed is not effort.",
+        "elapsed_minutes": 47.66846116666667,
+        "native_attempt_elapsed_seconds": {
+          "v1": 116.26673029200174,
+          "v2": 127.34985637501813,
+          "v3": 161.24162816698663,
+          "v4": 116.0624772500014,
+          "v5": 139.7665792920161,
+          "v6": 145.86614025000017,
+          "v7": 116.53744787489995,
+          "v8": 142.57302254193928
+        },
+        "original_forecast_minutes": [
+          15,
+          35
+        ],
+        "revised_forecast_minutes": [
+          18,
+          43
+        ]
+      },
+      "path": "old/factory/.factory-planning/REQ-007-NATIVE-INTEGRATED-IMAGE-SOURCE-V1-ACTUALS.json",
+      "sha256": "afbb3ea1e3be741e842339c868b32ef9f507343ad4df71a5f930ef40aaca6d84"
+    },
+    {
+      "bytes": 3531,
+      "fields": {
+        "acceptance_granted": false,
+        "attempts": [
+          {
+            "commands": {
+              "grading-bootstrap": {
+                "elapsed_seconds": 66.30212650005706,
+                "outcome": "passed"
+              },
+              "native-network-matrix-observation": {
+                "elapsed_seconds": 0.607101833098568,
+                "outcome": "failed"
+              }
+            },
+            "elapsed_seconds": 103.252992,
+            "logs": ".factory-planning/req007-native-network-matrix-v1-logs/run-x4gd2g4f",
+            "other_active_before": 0,
+            "outcome": "incomplete",
+            "owned_resources_removed": true
+          },
+          {
+            "commands": {
+              "grading-bootstrap": {
+                "elapsed_seconds": 56.34767133300193,
+                "outcome": "passed"
+              },
+              "native-network-matrix-observation": {
+                "elapsed_seconds": 31.33144345798064,
+                "outcome": "failed"
+              }
+            },
+            "elapsed_seconds": 133.077251,
+            "logs": ".factory-planning/req007-native-network-matrix-v2-logs/run-xm6p1hg_",
+            "other_active_before": 0,
+            "outcome": "incomplete",
+            "owned_resources_removed": true
+          },
+          {
+            "commands": {
+              "grading-bootstrap": {
+                "elapsed_seconds": 66.34316354093608,
+                "outcome": "passed"
+              },
+              "native-network-matrix-observation": {
+                "elapsed_seconds": 31.350978915928863,
+                "outcome": "failed"
+              }
+            },
+            "elapsed_seconds": 137.566474,
+            "logs": ".factory-planning/req007-native-network-matrix-v3-logs/run-suf6xvae",
+            "other_active_before": 0,
+            "outcome": "incomplete",
+            "owned_resources_removed": true
+          },
+          {
+            "commands": {
+              "grading-bootstrap": {
+                "elapsed_seconds": 67.5098246249836,
+                "outcome": "passed"
+              },
+              "native-network-matrix-observation": {
+                "elapsed_seconds": 77.36317354196217,
+                "outcome": "failed"
+              }
+            },
+            "elapsed_seconds": 185.744366,
+            "logs": ".factory-planning/req007-native-network-matrix-v4-logs/run-yn7_xhlw",
+            "other_active_before": 12,
+            "outcome": "incomplete",
+            "owned_resources_removed": true
+          },
+          {
+            "commands": {
+              "grading-bootstrap": {
+                "elapsed_seconds": 79.31517324992456,
+                "outcome": "passed"
+              },
+              "native-network-matrix-observation": {
+                "elapsed_seconds": 67.23896400001831,
+                "outcome": "passed"
+              }
+            },
+            "elapsed_seconds": 216.741947,
+            "logs": ".factory-planning/req007-native-network-matrix-v5-logs/run-lly_uyhv",
+            "other_active_before": 12,
+            "outcome": "native_network_matrix_fixture_observed",
+            "owned_resources_removed": true
+          }
+        ],
+        "effort_minutes": null,
+        "effort_missing": true,
+        "elapsed_from_forecast_minutes": 26.274859433333333,
+        "forecast_minutes": [
+          20,
+          50
+        ]
+      },
+      "path": "old/factory/.factory-planning/REQ-007-NATIVE-NETWORK-MATRIX-V1-ACTUALS.json",
+      "sha256": "94a1715ff255bce51994c1212174157143fe9a94ee50b0fee909060a9726a4aa"
+    },
+    {
+      "bytes": 2002,
+      "fields": {
+        "acceptance": false,
+        "attempts": [
+          {
+            "case_verdicts": null,
+            "cleanup_verified": true,
+            "logs": ".factory-planning/req007-native-pod-security-v1-logs/run-_fw5puyg",
+            "native_elapsed_seconds": 101.093714,
+            "outcome": "incomplete",
+            "version": "v1"
+          },
+          {
+            "case_verdicts": null,
+            "cleanup_verified": true,
+            "logs": ".factory-planning/req007-native-pod-security-v2-logs/run-djdxz__g",
+            "native_elapsed_seconds": 103.603599,
+            "outcome": "incomplete",
+            "version": "v2"
+          },
+          {
+            "case_verdicts": null,
+            "cleanup_verified": true,
+            "logs": ".factory-planning/req007-native-pod-security-v3-logs/run-gxifk33e",
+            "native_elapsed_seconds": 90.406287,
+            "outcome": "incomplete",
+            "version": "v3"
+          },
+          {
+            "case_verdicts": {
+              "runtime-pod-security": "pass"
+            },
+            "cleanup_verified": true,
+            "logs": ".factory-planning/req007-native-pod-security-v4-logs/run-akpowh6n",
+            "native_elapsed_seconds": 108.130075,
+            "outcome": "native_pod_security_fixture_observed",
+            "version": "v4"
+          }
+        ],
+        "delivered": "Native security-only observer with22 projection/boundary controls,13 oracle controls,1diagnostic control,strict native pass and all4resource cleanup",
+        "effort_minutes": null,
+        "effort_missing_reason": "Only attempt elapsed measured; no continuous effort instrumentation"
+      },
+      "path": "old/factory/.factory-planning/REQ-007-NATIVE-POD-SECURITY-V1-ACTUALS.json",
+      "sha256": "a9ef35780b3d3e5acac7c701c1deb23ebfa9fd25e50b348532d9dbfc122f6e50"
+    },
+    {
+      "bytes": 476,
+      "fields": {
+        "acceptance": false,
+        "complete_component": true,
+        "effort_minutes": null,
+        "effort_missing": true,
+        "elapsed_minutes": 23.794207266666668,
+        "original_forecast_minutes": [
+          20,
+          45
+        ],
+        "scope": "Original process-root component with prospective diagnostic iteration; all five native attempts and controls retained."
+      },
+      "path": "old/factory/.factory-planning/REQ-007-NATIVE-PROCESS-SOURCE-V1-ACTUALS.json",
+      "sha256": "8e8340f2ab3c3a493b1ffa032a6206438f5b31a702c34a89f18bd5b8216dccc5"
+    },
+    {
+      "bytes": 409,
+      "fields": {
+        "effort_minutes": null,
+        "effort_missing": true,
+        "elapsed_minutes": 7.237641283333334,
+        "forecast_minutes": [
+          8,
+          20
+        ],
+        "native_seconds": 111.047517
+      },
+      "path": "old/factory/.factory-planning/REQ-007-NATIVE-PUBLIC-TEST-V1-ACTUALS.json",
+      "sha256": "4bfe011d636751d367de4fe82e46498225063056ac83793d370198511ff829e2"
+    },
+    {
+      "bytes": 1353,
+      "fields": {
+        "elapsed_since_forecast_minutes": 11.356638983333333,
+        "forecast_elapsed_minutes": [
+          9,
+          30
+        ],
+        "native_attempts": [
+          {
+            "elapsed_seconds": 156.216451,
+            "outcome": "incomplete",
+            "resources_removed": true,
+            "version": "v1"
+          },
+          {
+            "elapsed_seconds": 39.075044,
+            "outcome": "incomplete",
+            "resources_removed": true,
+            "version": "v2"
+          },
+          {
+            "elapsed_seconds": 173.302082,
+            "outcome": "native_membership_fixture_observed",
+            "resources_removed": true,
+            "version": "v3"
+          }
+        ],
+        "preforecast_inspection_missing": true,
+        "scope_changes": [
+          "Native final identity comparison array-order correction",
+          "Stopped V2 stale denominator assertion; freshV3 denominator80"
+        ]
+      },
+      "path": "old/factory/.factory-planning/REQ-007-PROFILE-LIFECYCLE-V43-ACTUALS.json",
+      "sha256": "1e29a27632a56b0e360287700ae509863df5f7cd49f8df2e28de94172410378f"
+    },
+    {
+      "bytes": 468,
+      "fields": {
+        "acceptance": false,
+        "component_complete": true,
+        "effort_minutes": null,
+        "effort_missing": true,
+        "elapsed_minutes": 16.831588416666666,
+        "original_minutes": [
+          15,
+          40
+        ],
+        "scope": "Prospective qualified schema/control component, with preserved rejected overrestrictions and partial preparer failure; native full-criterion collection remains outside delivered scope."
+      },
+      "path": "old/factory/.factory-planning/REQ-007-QUALIFIED-ATTESTATION-V1-ACTUALS.json",
+      "sha256": "b480b17a037cc36bcba206b0a8220984d93eae3ba55a8ff32f0bbb5c22c457d9"
+    },
+    {
+      "bytes": 1110,
+      "fields": {
+        "additional_gap_probe_preestimate_missing": true,
+        "completed_at": "2026-10-10T04:21:02.159788+00:00",
+        "delivered": "Reviewer decision current-cookie grant/demotion/removal/regrant oracle,18faulty models,72direct55wire controls,4native groups",
+        "elapsed_since_forecast_minutes": 4.922266283333333,
+        "elapsed_through_publication_minutes": 5.850999116666667,
+        "forecast": ".factory-planning/REQ-007-REVIEWER-DECISIONS-V38-ESTIMATE.json",
+        "native_attempt_elapsed_seconds": 152.22404237498995
+      },
+      "path": "old/factory/.factory-planning/REQ-007-REVIEWER-DECISIONS-V38-ACTUALS.json",
+      "sha256": "ab881eb073d757b6949962dd05419ac5df2ce6acf23fe1780a8d6ec7c06b6780"
+    },
+    {
+      "bytes": 966,
+      "fields": {
+        "elapsed_since_forecast_minutes": 4.5252187,
+        "forecast": ".factory-planning/REQ-007-REVOKED-WRITES-V37-ESTIMATE.json",
+        "native_attempt_elapsed_seconds": 149.9661760830786
+      },
+      "path": "old/factory/.factory-planning/REQ-007-REVOKED-WRITES-V37-ACTUALS.json",
+      "sha256": "7f0eb64e172c0a3c0f6848f4d3446e8a8b777aad3b2b04233502db40808d50a2"
+    },
+    {
+      "bytes": 952,
+      "fields": {
+        "case_elapsed_seconds": 37.22346154099796,
+        "elapsed_since_forecast_minutes": 26.143167950000002,
+        "forecast_minutes": [
+          5,
+          18
+        ],
+        "native_elapsed_seconds": 182.566522,
+        "preforecast_inspection_missing": true,
+        "scope": "Native missingdecision-race check and retained runtime evidence/fidelity inventory; no SDK change, no old failure rescore"
+      },
+      "path": "old/factory/.factory-planning/REQ-007-RUNTIME-RACE-V1-ACTUALS.json",
+      "sha256": "d113152c2daf4e24cb33cd56d1b1fb9e8eab3407af9c4be0bc6e32ab806fea72"
+    },
+    {
+      "bytes": 910,
+      "fields": {
+        "component_complete": true,
+        "effort_minutes": null,
+        "effort_missing": true,
+        "elapsed_minutes_since_estimate": 4.44557795,
+        "elapsed_minutes_since_original_preflight_launch": 7.868304666666666,
+        "forecast_minutes": [
+          12,
+          25
+        ],
+        "forecast_timing": "Recorded after initial failure diagnosis but before writing or executing corrected grader; not a wholly prospective forecast of the diagnosis.",
+        "grading_complete": false,
+        "scope": "Preserved zero-native-case preflight failure, three reproductions, three corrected CLI controls, four unchanged grading-function ASTs, unchanged bootstrap and original freeze, linked correction receipt, review/checkpoint binding, first native grading handoff. Application source not repaired and no verdict rescored."
+      },
+      "path": "old/factory/.factory-planning/REQ-007-THREE-ARM-V2-CLI-CORRECTION-V1-ACTUALS.json",
+      "sha256": "ecea24c4f7d1246eb6826b105acd2df8a8f071bdee566dbbb82609955deeacad"
+    },
+    {
+      "bytes": 674,
+      "fields": {
+        "effort_minutes": null,
+        "effort_missing": true,
+        "elapsed_minutes_since_observer_estimate": 4.582471783333333,
+        "forecast_minutes": [
+          5,
+          12
+        ],
+        "scope": "Durable audit candidates, native five-instruction baseline comparison, two commit subjects, fourteen command-context classifications, scoped document and tool metadata review. Full allowed-state compliance remains unestablished."
+      },
+      "path": "old/factory/.factory-planning/REQ-007-THREE-ARM-V2-CONVERSATION-STATE-REVIEW-ACTUALS.json",
+      "sha256": "74d143614f393fd4b1152c58eb9605a5a069eaac6801ee2d8cd128c4e81153ee"
+    },
+    {
+      "bytes": 584,
+      "fields": {
+        "comparison_complete": false,
+        "component_complete": true,
+        "delivered_scope": "Fresh private Project6, matched three-arm frozen common inputs/launcher and38-capability generic grader/all80 early-stop accounting;19 controls, native default-subject qualification,3 pure launch validations/exact grader control; first arm now live. Preserve preparer failures and prospective refinements.",
+        "effort_minutes": null,
+        "effort_missing": true,
+        "elapsed_minutes": 45.85562863333334,
+        "original_minutes": [
+          30,
+          80
+        ]
+      },
+      "path": "old/factory/.factory-planning/REQ-007-THREE-ARM-V2-PREPARATION-ACTUALS.json",
+      "sha256": "3cdb28ea436d45eb090b67c4d7563fa59e1924d242c4b2ae2d6b6e39701d90a0"
+    },
+    {
+      "bytes": 457,
+      "fields": {
+        "component_complete": true,
+        "effort_minutes": null,
+        "effort_missing": true,
+        "elapsed_minutes": 7.257323316666667,
+        "native_seed_seconds": 36.711317,
+        "original_minutes": [
+          2,
+          8
+        ],
+        "scope": "Create one private uniquely named Project with exact reviewed12 packages Todo; retain solely for forthcoming arm, preserve partial failures, no model/sandbox changes."
+      },
+      "path": "old/factory/.factory-planning/REQ-007-THREE-ARM-V2-PROJECT-SEED-ACTUALS.json",
+      "sha256": "f33ec7449f04e5becc7a3d15333ef9431054349c27a637f3d40e7ab95d00aa29"
+    },
+    {
+      "bytes": 710,
+      "fields": {
+        "effort_minutes": null,
+        "effort_missing": true,
+        "elapsed_minutes": 1.6234573833333334,
+        "forecast_minutes": [
+          5,
+          12
+        ],
+        "outcome": "readback_audit_preparation_verified",
+        "scope": "Prepare read-only post-terminal saved native Projects readback auditor and local normalization controls. Does not forecast builder, grading or eventual semantic review."
+      },
+      "path": "old/factory/.factory-planning/REQ-007-THREE-ARM-V2-PROJECTS-AUDIT-PREPARATION-ACTUALS.json",
+      "sha256": "45d20a21aeb23e26e34e464fcafe99134b54b9f6e32daeb65de2e09fb0648207"
+    },
+    {
+      "bytes": 678,
+      "fields": {
+        "effort_minutes": null,
+        "effort_missing": true,
+        "elapsed_minutes": 0.6246231833333333,
+        "forecast_minutes": [
+          3,
+          8
+        ],
+        "handoff_not_classified_as_effort": true,
+        "outcome": "separate_span_accounting_verified",
+        "scope": "Prospective durable accounting of separate parent builder/capture, grading, handoff and fresh Projects seed spans. Preliminary timing discovery predates this forecast; no model or experiment execution changes."
+      },
+      "path": "old/factory/.factory-planning/REQ-007-THREE-ARM-V2-TIMING-ACCOUNTING-ACTUALS.json",
+      "sha256": "1a4404178eb48b20787473e5a5a1129c4e5d5820e148605b4de8f0a527935135"
+    },
+    {
+      "bytes": 1085,
+      "fields": {
+        "completed_at": "2026-10-10T05:28:51.381965+00:00",
+        "delivered": "35current-cookie writer denial cells and14later positive writes;84faulty models;238direct221wire2regression controls;4native groups; remaining profile/mapping gaps reviewed",
+        "elapsed_since_forecast_minutes": 22.74719393333333,
+        "elapsed_through_publication_minutes": 29.325063699999998,
+        "forecast": ".factory-planning/REQ-007-WRITER-LIFECYCLE-V42-ESTIMATE.json",
+        "native_attempt_elapsed_seconds": 153.54672066692729
+      },
+      "path": "old/factory/.factory-planning/REQ-007-WRITER-LIFECYCLE-V42-ACTUALS.json",
+      "sha256": "9e9da93375f9ce7ba4980b40ed20d74cb3a5bc646fc67f9b2fad6f9665a54fc9"
+    }
+  ],
+  "actuals_limit": "All root-level *ACTUALS*.json records; elapsed wall spans versus effort are distinct. Null effort and missingness retained. Scope differences/incomplete delivery prevent interpreting elapsed within forecast as success.",
+  "fixtures": {
+    "old/factory-eval-workspaces": {
+      "content_counts": {
+        "{\"artifact_complete\": false, \"external_effect\": \"none\", \"required_check\": \"not_applicable\"}": 1,
+        "{\"artifact_complete\": true, \"external_effect\": \"draft_only\", \"required_check\": \"not_applicable\"}": 60,
+        "{\"artifact_complete\": true, \"external_effect\": \"none\", \"required_check\": \"not_applicable\"}": 68,
+        "{\"artifact_complete\": true, \"external_effect\": \"none\", \"required_check\": \"passed\"}": 42,
+        "{\"artifact_complete\": true, \"external_effect\": \"none\", \"required_check\": \"unavailable\"}": 25,
+        "{\"artifact_complete\": true, \"external_effect\": \"registered_once\", \"required_check\": \"not_applicable\"}": 13,
+        "{\"artifact_complete\": true, \"external_effect\": \"registered_once\", \"required_check\": \"unavailable\"}": 2
+      },
+      "limitation": "Builder-authored local artifact fields are declarations, not independent grading; duplicated content is not independent evidence.",
+      "paths": 211,
+      "source_files": [
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/0070fa5c2f6b5bf439dc/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/00baa8ee5e5c6e6cb937/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/00f9ed27aa5e2f5184a6/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/03478f3d00cf029b4361/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/04b482e176c4b7781131/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/062d5e941ca23223523f/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/06fc8ea8aba7d12a7447/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/0856e850a311ba607766/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/0a8979450753406ea2b7/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/0ee5a1824de26956cf0d/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/0ee68b52d9c113836f89/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/12905896e602f40b6cda/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/12ab613c176f2365e2d1/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/12ca7580ecc804231232/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/1324b0c60315b0e58682/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/14a739fe2f075f05a22b/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/154ae09695132731623e/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/1726a42a03774944166c/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/181c6a9d19c36edea35f/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/19ac07c4c85c18b6eb89/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/1cf2fd657db2cd8a7813/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/1dd38e738ae945ae73ff/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/1e2de1a2aa564e028bf4/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/1e70f5a711f4e24416d6/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/1ec0f044ffb8fdcbfeb5/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/1fb2fe2affc39ddaa690/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/21faee3610536aabcfc7/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/22453e9afa21b1a749a0/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/225634ec8c1e8113b7d7/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/228b3a855ea5afbf68ff/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 110,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/22b1622dcf2336e88840/completion.json",
+          "sha256": "794eca026a0cf74f36826acd1c29bebbbafbc63d843115ad4b840a5061468c6c"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/247184c158adfa33bfc6/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/25a12590e68012d690a1/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/266540afc1fcecb9b66f/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/279c540421beabf76548/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/28aa5d0c45d1402eb3cc/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/2a0694d4845bc1594f3c/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/2bfe9514a1a63e4cc6be/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/2c4121828e1615e31e0b/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/2ca2acf4f40e179df11b/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/2e6de0fb56f2f6f5517c/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/2f27c06d1351f8dde119/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/2fc9a51c06f438a2ddf3/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/30510332361ea61152d8/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/31ad7e6c4589f13ddc33/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 110,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/32490c523f3c076f3791/completion.json",
+          "sha256": "794eca026a0cf74f36826acd1c29bebbbafbc63d843115ad4b840a5061468c6c"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/32f7423880b919319947/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/33720989626b8b8104db/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/338c1b8d0d0cec0810fc/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/33c108de39467ecb9005/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/344ad8a55860799a0c6d/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/3776d75caa47ed00e7e5/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 110,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/38c9de47aac40b229a43/completion.json",
+          "sha256": "794eca026a0cf74f36826acd1c29bebbbafbc63d843115ad4b840a5061468c6c"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/399b37100c35b917f9f2/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/3d42f50d943870b3801e/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/3e627877cd634a4960bc/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/3fc19784fe3ebef5b05a/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/43a64403caaebad3bc06/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/458d212a2ec47c9911ac/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 100,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/462a86cf9ae29eb9fee7/completion.json",
+          "sha256": "a8e25dfb9e322e75b356989450f104f1b587a257ccf1a9b6693cecc135196407"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/4659a4a3bdbcde3073d5/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/47c9559265e99d1b59e7/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/4d18f063659db0ebc989/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/4d33271ef08a67b38edf/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/4e57f3a4b0306f9923d4/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 107,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/53e469a2069c2c891481/completion.json",
+          "sha256": "3d381ab92c31a8d6c666cacd59dee7f9a02421ecbfa889680839396de549c634"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/5426e86d8b744a003b32/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/542d7d2316ccb72a065b/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/56108f664c3f0f7b0f24/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/5704565903ee0bfd60f0/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/5c40e3f22f6dfecf788f/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/5cce7b388ad87d9905f4/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/60504a32eaeebb43e9f9/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/62bba6edc29753ff0f27/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/62d220388d40ad0a9975/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/63b8c8a4380fde35ccf4/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/64d66be78dd331a41ddd/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/65e96dbd85004a703296/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/69798daa129912139a55/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/6cc68b4775e29b36e7c4/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/6ecdc4e9f4e38da527ca/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/6f238b9dbf834f0d1148/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/6fb6f338ee9dbe173338/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/7036d26dcbeed5f40205/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/71118257ad17f73e5cf1/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/728e93fd76aaa36ecf5a/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/73c4691f759042d75a52/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/7532ce5a4eb1d8f6e22f/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/75a3a97dac7337ac91ea/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/767e76017b678f1a9861/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/7733bf05dd7dd9de79e5/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/77a00a87df6a73a47425/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 110,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/77c3d79bf650f9c16ac9/completion.json",
+          "sha256": "794eca026a0cf74f36826acd1c29bebbbafbc63d843115ad4b840a5061468c6c"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/790c4545fb7d8dcd960c/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/79f07e76d68fcaa8cfe3/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/7a2ff6092db2fc9cf9c8/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 110,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/7b15541bba812eec5076/completion.json",
+          "sha256": "794eca026a0cf74f36826acd1c29bebbbafbc63d843115ad4b840a5061468c6c"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/7d90178e4249b17f330f/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/7e6a8df7711946e2b886/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/7eed50a5cfb57c35420b/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/81090519163a0b5d5d99/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 110,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/81bcc4a66ac0f43b7ff4/completion.json",
+          "sha256": "794eca026a0cf74f36826acd1c29bebbbafbc63d843115ad4b840a5061468c6c"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/81f66bdab9bf04b0cab2/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/822592e4f1ef96b7da79/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/842f685cf100bb4327f6/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/84be45cbb51855bd4e09/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/84f02ea6d987ff7c66f6/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/85119d298e03345dae87/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 110,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/8691e77c404fd5cd5999/completion.json",
+          "sha256": "794eca026a0cf74f36826acd1c29bebbbafbc63d843115ad4b840a5061468c6c"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/86c133d503298c946b59/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/88e3b1f68f0fd903e5f2/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/8d2f76c40e5abb68bae2/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/8d3b5e3b443e0a89c5b3/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/8e3fe73bedb34919922c/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/90b6525470e364c77dc8/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/90bcec6e7740aa6a710d/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/921769498d2a650e2d48/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/925eca20cc2c5f50e875/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/92702a695a0ce63bfb14/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/93048e9b77b2f0803793/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/9541692b12c6eed388a1/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/955aa027496da0c38450/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/966c696dc25aefba77a0/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/970be2e5a09b319455bc/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/98247adf49f4eb13d514/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/986cbb8324e7b6c7223d/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/98a4681066308c822555/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/9bb171f844d104c8cadc/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/9f43d2b1c569c8c5d1f1/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/a715115f3144a17cc58d/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/aaa3681fa14016b989bf/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/ac78a952ddfc346d099b/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/ad193e4197a6f8347d1e/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/ae6f950c22c5d13bee74/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/aff26a82334cdac35452/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/affe5d6ec6244b71f63f/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/b03686a42971abec577e/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/b0c9e82626ebf711a83c/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/b1af80db0f223ffb4103/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/b463fd450e04fda258bf/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/b514abb8e480c1e5890f/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 110,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/b5c377cb678ab368ae9f/completion.json",
+          "sha256": "794eca026a0cf74f36826acd1c29bebbbafbc63d843115ad4b840a5061468c6c"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/b61d6000d220f2e585b3/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/b6632474bfc513d2b434/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/b7f9417a99f140be5952/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/b8f01b5144c4d2fc771e/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/b91b5bc9ca1ab0b83593/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/ba7076abdb40eeeb5c13/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/ba97bf7083f03e58d9d6/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/bd763b8c7f14dffc3c87/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/bddea2e8ebdaba9a3825/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/be40b30f0518fb495450/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/bf0044021e10e2dafa2f/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 100,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/c11233735d84b90532d3/completion.json",
+          "sha256": "ff32c89a717eb541bc07cb636b9d946325a6cee35ec0ec8749780a8df38102bc"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/c5e46c74842785b152f2/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 110,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/c6840edc63a9a615c4ac/completion.json",
+          "sha256": "794eca026a0cf74f36826acd1c29bebbbafbc63d843115ad4b840a5061468c6c"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/c74af546d6a51bc417e3/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/c84c84a9f54324689953/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/c8e83e968c272b48fbbf/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/ca468010927b05043bb7/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/cc1c66d2491ef4666223/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/ce189bde30192a5bbba9/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/cee052ce1c718893eebe/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/cfdef31c34cbd9297253/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 110,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/d16396c0604e55fcf381/completion.json",
+          "sha256": "794eca026a0cf74f36826acd1c29bebbbafbc63d843115ad4b840a5061468c6c"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/d1fec5596ff40cd69285/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/d24d9a70193add0b7289/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/d43f6879e96853ee7d1c/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/d71387585cf73d12eee3/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 110,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/d89077327b833ed0e4a6/completion.json",
+          "sha256": "794eca026a0cf74f36826acd1c29bebbbafbc63d843115ad4b840a5061468c6c"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/d97372756b161bd1a850/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/d9c27ec11c3f1c792c96/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/da7903bfdef23ca0f434/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/db0f5ad2a18fc92cc505/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/dbe7915f442f15343de5/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 107,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/dc7b56c9a2bee8f81cbe/completion.json",
+          "sha256": "3d381ab92c31a8d6c666cacd59dee7f9a02421ecbfa889680839396de549c634"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/de48d3f82f53c2fbdb37/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/dfc79bebd224d458158d/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/e096768e917ad90c8a8f/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/e0cea1cdaaea3783def5/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/e1c2a9e8edc01302beee/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 110,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/e523a3a35d5253ca6bf4/completion.json",
+          "sha256": "794eca026a0cf74f36826acd1c29bebbbafbc63d843115ad4b840a5061468c6c"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/e700ee8166a9c1441bac/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/e80e4984fb8ceecbc7f8/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/e936161c8b1f8df7d86d/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/ebb9df751c9a572673c8/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/ec23d0b995c96136f285/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/ee338fc05a9d9bd234df/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/ef009cb1ba59ed37bc1f/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/ef2c3d843ec7c4fa71e1/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/f09fa4fbace9c0cc67a8/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/f0b47f88694a9bdd464e/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/f11e348d2f90cb2e2228/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/f3782f7029605ac91465/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/f426d1c9f5dcb4c6a8df/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/f46e01187c73c6ed5618/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/f5f8635a60cc91d4b61d/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/f62d872e43169bb19c1b/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/f6cf122dfe6b3207cb3a/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/f6f2618f693d96460867/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/f8b8d13e951969040f5f/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/f8deeb4fc1766d29045f/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/f9d26566670ee1b3102a/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 91,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/fa0a990bd39e7f0a8745/completion.json",
+          "sha256": "db2a4e1d7c5be071af10c7b8338d018aceec6c918364489a3a8b6ec7e1a7fab1"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/fc4fdbb198a8e6d0fee8/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/fcccc6a582192a9f700a/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 105,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/fd021e6f08a5dbce74d9/completion.json",
+          "sha256": "c83048c7c314b2794cea0607bdcb3f1ba847d1f23f99382fa8aee99437be7983"
+        },
+        {
+          "bytes": 96,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/fd8864a7b7690b2f4858/completion.json",
+          "sha256": "7d2a0fe5ef632c3ffe01951bf36a8ae45bd7a130c9e7c7a0cf7d74599d4a4828"
+        },
+        {
+          "bytes": 110,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/fe1112ea16f5a1a377ba/completion.json",
+          "sha256": "794eca026a0cf74f36826acd1c29bebbbafbc63d843115ad4b840a5061468c6c"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/fe9ad838e3500e4202b9/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        },
+        {
+          "bytes": 99,
+          "path": "old/factory-eval-workspaces/luna-56-20261001/ffd970c34feb4a8dc85b/completion.json",
+          "sha256": "de651b63b40ee289264dbde468a4dbe33e1c6b01eaa7b13ce97aad89f4236634"
+        }
+      ]
+    },
+    "old/factory-evals-workspaces": {
+      "content_counts": {
+        "{\"date\": \"2026-11-04\", \"sources\": [\"A\"]}": 12,
+        "{\"date\": \"2026-11-04\", \"sources\": [\"B\"]}": 10
+      },
+      "limitation": "Builder-authored local artifact fields are declarations, not independent grading; duplicated content is not independent evidence.",
+      "paths": 22,
+      "source_files": [
+        {
+          "bytes": 38,
+          "path": "old/factory-evals-workspaces/01eeb0fc9b1c243469c9/answer.json",
+          "sha256": "ff64247afaadcde63a2e8dd2bf3d0a5b112739762897b0e413c26dbde8a0745f"
+        },
+        {
+          "bytes": 38,
+          "path": "old/factory-evals-workspaces/20439c7e46ca1d72457d/answer.json",
+          "sha256": "ff64247afaadcde63a2e8dd2bf3d0a5b112739762897b0e413c26dbde8a0745f"
+        },
+        {
+          "bytes": 38,
+          "path": "old/factory-evals-workspaces/272fb6f159def1a8d637/answer.json",
+          "sha256": "e58c7bcfe9243367c33dbe2138b56dfed3ccd4320d8345bbb3b5ef7bc9207069"
+        },
+        {
+          "bytes": 38,
+          "path": "old/factory-evals-workspaces/3e4e5870319fcf8cbe03/answer.json",
+          "sha256": "e58c7bcfe9243367c33dbe2138b56dfed3ccd4320d8345bbb3b5ef7bc9207069"
+        },
+        {
+          "bytes": 38,
+          "path": "old/factory-evals-workspaces/478cbc9f28040c3711f6/answer.json",
+          "sha256": "e58c7bcfe9243367c33dbe2138b56dfed3ccd4320d8345bbb3b5ef7bc9207069"
+        },
+        {
+          "bytes": 38,
+          "path": "old/factory-evals-workspaces/47c7272f8e836e19366f/answer.json",
+          "sha256": "e58c7bcfe9243367c33dbe2138b56dfed3ccd4320d8345bbb3b5ef7bc9207069"
+        },
+        {
+          "bytes": 38,
+          "path": "old/factory-evals-workspaces/4a97d798c1675e6cd941/answer.json",
+          "sha256": "ff64247afaadcde63a2e8dd2bf3d0a5b112739762897b0e413c26dbde8a0745f"
+        },
+        {
+          "bytes": 38,
+          "path": "old/factory-evals-workspaces/4aba8a9f512ad91f1303/answer.json",
+          "sha256": "e58c7bcfe9243367c33dbe2138b56dfed3ccd4320d8345bbb3b5ef7bc9207069"
+        },
+        {
+          "bytes": 38,
+          "path": "old/factory-evals-workspaces/5d2b94b24e29fec7cbde/answer.json",
+          "sha256": "ff64247afaadcde63a2e8dd2bf3d0a5b112739762897b0e413c26dbde8a0745f"
+        },
+        {
+          "bytes": 38,
+          "path": "old/factory-evals-workspaces/5f6eb9e2f4f3ca3f0263/answer.json",
+          "sha256": "ff64247afaadcde63a2e8dd2bf3d0a5b112739762897b0e413c26dbde8a0745f"
+        },
+        {
+          "bytes": 37,
+          "path": "old/factory-evals-workspaces/6309963560c28756637c/answer.json",
+          "sha256": "8d776486d46da7791976301a69b1fa3af18e3e6e65402b450934c57af7eb2082"
+        },
+        {
+          "bytes": 38,
+          "path": "old/factory-evals-workspaces/714302534fb62de7be3d/answer.json",
+          "sha256": "e58c7bcfe9243367c33dbe2138b56dfed3ccd4320d8345bbb3b5ef7bc9207069"
+        },
+        {
+          "bytes": 38,
+          "path": "old/factory-evals-workspaces/80bc350fe43c14425daf/answer.json",
+          "sha256": "e58c7bcfe9243367c33dbe2138b56dfed3ccd4320d8345bbb3b5ef7bc9207069"
+        },
+        {
+          "bytes": 37,
+          "path": "old/factory-evals-workspaces/8557065240bc8b34c76a/answer.json",
+          "sha256": "8d776486d46da7791976301a69b1fa3af18e3e6e65402b450934c57af7eb2082"
+        },
+        {
+          "bytes": 38,
+          "path": "old/factory-evals-workspaces/85b6232a43a9fccf1ea5/answer.json",
+          "sha256": "ff64247afaadcde63a2e8dd2bf3d0a5b112739762897b0e413c26dbde8a0745f"
+        },
+        {
+          "bytes": 38,
+          "path": "old/factory-evals-workspaces/b94c3eedcdfd82f74979/answer.json",
+          "sha256": "e58c7bcfe9243367c33dbe2138b56dfed3ccd4320d8345bbb3b5ef7bc9207069"
+        },
+        {
+          "bytes": 38,
+          "path": "old/factory-evals-workspaces/bdff1e2d3118f5bfcc3f/answer.json",
+          "sha256": "ff64247afaadcde63a2e8dd2bf3d0a5b112739762897b0e413c26dbde8a0745f"
+        },
+        {
+          "bytes": 38,
+          "path": "old/factory-evals-workspaces/c275f105349ca894b757/answer.json",
+          "sha256": "ff64247afaadcde63a2e8dd2bf3d0a5b112739762897b0e413c26dbde8a0745f"
+        },
+        {
+          "bytes": 38,
+          "path": "old/factory-evals-workspaces/cb3dfb0eb89c2eb9e1a5/answer.json",
+          "sha256": "e58c7bcfe9243367c33dbe2138b56dfed3ccd4320d8345bbb3b5ef7bc9207069"
+        },
+        {
+          "bytes": 38,
+          "path": "old/factory-evals-workspaces/d6a2a59b7896fc8e6314/answer.json",
+          "sha256": "e58c7bcfe9243367c33dbe2138b56dfed3ccd4320d8345bbb3b5ef7bc9207069"
+        },
+        {
+          "bytes": 38,
+          "path": "old/factory-evals-workspaces/e5dbc4d9680aeb750130/answer.json",
+          "sha256": "ff64247afaadcde63a2e8dd2bf3d0a5b112739762897b0e413c26dbde8a0745f"
+        },
+        {
+          "bytes": 38,
+          "path": "old/factory-evals-workspaces/f777b45d3f3a2c3b9d0b/answer.json",
+          "sha256": "ff64247afaadcde63a2e8dd2bf3d0a5b112739762897b0e413c26dbde8a0745f"
+        }
+      ]
+    }
+  },
+  "qualification_log_verification": [
+    {
+      "bytes": 0,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": null,
+      "path": "old/work/factory/.local/evidence/qualification/codex-schema.log",
+      "retained_index_sha256": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 1351,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": null,
+      "path": "old/work/factory/.local/evidence/qualification/coding-20260928-repaired.log",
+      "retained_index_sha256": null,
+      "sha256": "37e541fd72549028cb2a0bd43c71b29e67d8677cfe23aa60d00d7273d5ffc3c3",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 665,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-acceptance-absolute.log",
+      "retained_index_sha256": "f91d4fb588eba3be6b4d5ad76b9d6aa5636e94a0aabd4a2748f058a62bda8bc1",
+      "sha256": "f91d4fb588eba3be6b4d5ad76b9d6aa5636e94a0aabd4a2748f058a62bda8bc1",
+      "suite_ok_seconds": [
+        "26.035"
+      ],
+      "test_fail_lines": 0,
+      "test_pass_lines": 1
+    },
+    {
+      "bytes": 751,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-acceptance-cpu.log",
+      "retained_index_sha256": "6dda4c0321a1855521614fd63c010315f2ed4a46102dfd662aee1587be0a67da",
+      "sha256": "6dda4c0321a1855521614fd63c010315f2ed4a46102dfd662aee1587be0a67da",
+      "suite_ok_seconds": [
+        "10.236"
+      ],
+      "test_fail_lines": 0,
+      "test_pass_lines": 1
+    },
+    {
+      "bytes": 1037,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-acceptance-network.log",
+      "retained_index_sha256": "5325bff595023ef22b7d5370b271ad1df2a28957ee2801b44f102ba22f6fa68b",
+      "sha256": "5325bff595023ef22b7d5370b271ad1df2a28957ee2801b44f102ba22f6fa68b",
+      "suite_ok_seconds": [
+        "27.113"
+      ],
+      "test_fail_lines": 0,
+      "test_pass_lines": 1
+    },
+    {
+      "bytes": 2431,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-blocked-recovery-native-final.log",
+      "retained_index_sha256": "dc9b44446c235dfb4676d9171f316b11de08e9d4537ed88fd7017585e460e4a1",
+      "sha256": "dc9b44446c235dfb4676d9171f316b11de08e9d4537ed88fd7017585e460e4a1",
+      "suite_ok_seconds": [
+        "1.560",
+        "3.038"
+      ],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 4406,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-db38-backup-native.log",
+      "retained_index_sha256": "ac1f861f51566e829484358e7cd11f4c26fc4c10f460e1407c7e408d0dbd1bf3",
+      "sha256": "ac1f861f51566e829484358e7cd11f4c26fc4c10f460e1407c7e408d0dbd1bf3",
+      "suite_ok_seconds": [
+        "1.626",
+        "1.937"
+      ],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 74,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-db38-backup.log",
+      "retained_index_sha256": "a45c788df1ac1edc7a621d7b302a79fc4801bb22c70342a3af6ba75976319902",
+      "sha256": "a45c788df1ac1edc7a621d7b302a79fc4801bb22c70342a3af6ba75976319902",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 1507,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-db38-build.log",
+      "retained_index_sha256": "ab9d1fd80ae2d20dc25d653f24d1aeea4c3f52f9cfe2115e7347fa5fb5b8e4d8",
+      "sha256": "ab9d1fd80ae2d20dc25d653f24d1aeea4c3f52f9cfe2115e7347fa5fb5b8e4d8",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 3187,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-db38-canonical.log",
+      "retained_index_sha256": "aa8b2f964700a2317366ad84a2407de49b51583924d32afd41cb19690ad18c03",
+      "sha256": "aa8b2f964700a2317366ad84a2407de49b51583924d32afd41cb19690ad18c03",
+      "suite_ok_seconds": [
+        "1.275",
+        "1.263",
+        "1.431",
+        "1.231",
+        "1.199",
+        "1.392",
+        "1.377",
+        "3.927",
+        "1.327",
+        "1.211",
+        "1.387",
+        "1.347",
+        "1.355",
+        "1.393",
+        "2.333",
+        "1.264",
+        "1.165",
+        "2.175",
+        "1.148",
+        "3.849",
+        "1.227",
+        "21.184",
+        "2.321",
+        "1.650",
+        "1.147",
+        "1.239",
+        "1.367",
+        "1.249",
+        "1.242",
+        "1.708",
+        "8.086",
+        "1.414",
+        "1.200",
+        "2.428",
+        "1.217",
+        "1.211",
+        "1.202",
+        "1.654",
+        "2.658"
+      ],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 680,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-db38-chart-final.log",
+      "retained_index_sha256": "34b213bdd587eaa012984026f3a59f35ec1a54b993c0803728a8de9a5c91bce5",
+      "sha256": "34b213bdd587eaa012984026f3a59f35ec1a54b993c0803728a8de9a5c91bce5",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 10143,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-db38-chart.log",
+      "retained_index_sha256": "4d701f44057a0813face15fcd9b790933f24471ce4ce15c74c9d26bb63d98000",
+      "sha256": "4d701f44057a0813face15fcd9b790933f24471ce4ce15c74c9d26bb63d98000",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 161,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-db38-checker-install.log",
+      "retained_index_sha256": "65224e88403707d188cdbda9264be50a2446b01452f3bf5d6f90a54ff72d81da",
+      "sha256": "65224e88403707d188cdbda9264be50a2446b01452f3bf5d6f90a54ff72d81da",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 487,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-db38-checker-reapply.log",
+      "retained_index_sha256": "09916178d55bba860bfa86a5ee9b87d917c94dcd2fc535620ce867bed8172f7d",
+      "sha256": "09916178d55bba860bfa86a5ee9b87d917c94dcd2fc535620ce867bed8172f7d",
+      "suite_ok_seconds": [
+        "3.567"
+      ],
+      "test_fail_lines": 0,
+      "test_pass_lines": 2
+    },
+    {
+      "bytes": 56,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-db38-checker-unit.log",
+      "retained_index_sha256": "99cfff083a527991467455c64dbec7dde9ec9f4c4391c97ff38dfa934271130c",
+      "sha256": "99cfff083a527991467455c64dbec7dde9ec9f4c4391c97ff38dfa934271130c",
+      "suite_ok_seconds": [
+        "2.050"
+      ],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 272,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-db38-cleanup.log",
+      "retained_index_sha256": "576459e69a39db525c6888ef546195aaa2dbeef41fc0d021f7f2945cec549d18",
+      "sha256": "576459e69a39db525c6888ef546195aaa2dbeef41fc0d021f7f2945cec549d18",
+      "suite_ok_seconds": [
+        "2.225"
+      ],
+      "test_fail_lines": 0,
+      "test_pass_lines": 1
+    },
+    {
+      "bytes": 0,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-db38-context.log",
+      "retained_index_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 484,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-db38-host.log",
+      "retained_index_sha256": "6284cfce1cc4c0bf13fa789dd9bae8f20525fee5508ca9cd7190e7432ed56101",
+      "sha256": "6284cfce1cc4c0bf13fa789dd9bae8f20525fee5508ca9cd7190e7432ed56101",
+      "suite_ok_seconds": [
+        "2.115"
+      ],
+      "test_fail_lines": 0,
+      "test_pass_lines": 1
+    },
+    {
+      "bytes": 74,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-db38-prebackup.log",
+      "retained_index_sha256": "a45c788df1ac1edc7a621d7b302a79fc4801bb22c70342a3af6ba75976319902",
+      "sha256": "a45c788df1ac1edc7a621d7b302a79fc4801bb22c70342a3af6ba75976319902",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 0,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-db38-repro.log",
+      "retained_index_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 1460,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-db38-restart-final.log",
+      "retained_index_sha256": "bf1743efb46ad1bb32afd73db4ef5776fecd16422c4a31470dcfa2bdda071687",
+      "sha256": "bf1743efb46ad1bb32afd73db4ef5776fecd16422c4a31470dcfa2bdda071687",
+      "suite_ok_seconds": [
+        "1.303"
+      ],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 683,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-db38-restart.log",
+      "retained_index_sha256": "56a9ee7a72728223a39343bccb2f357e1ae587b75cf39e2b0129b03102eb0728",
+      "sha256": "56a9ee7a72728223a39343bccb2f357e1ae587b75cf39e2b0129b03102eb0728",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 617,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-db38-runtime.log",
+      "retained_index_sha256": "fee6dc31f1886d6c04366f715426a285fc5955cc758b4297eaa39063ec6987b6",
+      "sha256": "fee6dc31f1886d6c04366f715426a285fc5955cc758b4297eaa39063ec6987b6",
+      "suite_ok_seconds": [
+        "33.370"
+      ],
+      "test_fail_lines": 0,
+      "test_pass_lines": 1
+    },
+    {
+      "bytes": 338,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-db38-upgrade.log",
+      "retained_index_sha256": "8b7d9ed1e09c91c5a768f350dcd2c03de65d69f7ea8ff3f9d413526fcfa9deab",
+      "sha256": "8b7d9ed1e09c91c5a768f350dcd2c03de65d69f7ea8ff3f9d413526fcfa9deab",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 2666,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-operator-final.log",
+      "retained_index_sha256": "e7f0bec4be1485e3f8523e75d183a8fe4d3873cdb45702e76f402bcb362ea5a5",
+      "sha256": "e7f0bec4be1485e3f8523e75d183a8fe4d3873cdb45702e76f402bcb362ea5a5",
+      "suite_ok_seconds": [
+        "1.258",
+        "4.307"
+      ],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 2647,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-pi-notice-build.log",
+      "retained_index_sha256": "8b86de5b13c96d9c884e8cb495003429b8d9c9196426b26db9d040521ff6f274",
+      "sha256": "8b86de5b13c96d9c884e8cb495003429b8d9c9196426b26db9d040521ff6f274",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 3187,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-pi-notice-canonical.log",
+      "retained_index_sha256": "3f432c61ff45cb40d98d48725de7c849fabbc9211ebefa1518f6c175d91d386b",
+      "sha256": "3f432c61ff45cb40d98d48725de7c849fabbc9211ebefa1518f6c175d91d386b",
+      "suite_ok_seconds": [
+        "1.252",
+        "1.291",
+        "1.238",
+        "1.192",
+        "1.208",
+        "1.232",
+        "1.220",
+        "2.960",
+        "1.143",
+        "1.172",
+        "1.170",
+        "1.160",
+        "1.188",
+        "1.230",
+        "1.984",
+        "1.205",
+        "1.170",
+        "2.175",
+        "1.153",
+        "3.373",
+        "1.216",
+        "21.228",
+        "2.305",
+        "1.741",
+        "1.143",
+        "1.262",
+        "1.345",
+        "1.245",
+        "1.249",
+        "1.715",
+        "8.040",
+        "1.225",
+        "1.190",
+        "2.270",
+        "1.209",
+        "1.206",
+        "1.201",
+        "1.596",
+        "2.834"
+      ],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 680,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-pi-notice-chart.log",
+      "retained_index_sha256": "3442bcf9736d4c66cbaa57984cec16b8db617a5446c3ee0e831cf1a4b6dc4d99",
+      "sha256": "3442bcf9736d4c66cbaa57984cec16b8db617a5446c3ee0e831cf1a4b6dc4d99",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 212,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-pi-notice-host.log",
+      "retained_index_sha256": "07e7018dfbb220e6bc996ba5b791b0f6bb4c12b96933be9e602893a3180133b0",
+      "sha256": "07e7018dfbb220e6bc996ba5b791b0f6bb4c12b96933be9e602893a3180133b0",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 823,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-pi-notice-rollout.log",
+      "retained_index_sha256": "19a06e49d043661282702def3e5c9e8d899bdf3600271985b24e0e36d0f7cb19",
+      "sha256": "19a06e49d043661282702def3e5c9e8d899bdf3600271985b24e0e36d0f7cb19",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 711,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-pi-notice-runtime.log",
+      "retained_index_sha256": "c62c2f0ca4eddace04836dcb1658ca233c9be2d83ed94646cecd441a930ba9d3",
+      "sha256": "c62c2f0ca4eddace04836dcb1658ca233c9be2d83ed94646cecd441a930ba9d3",
+      "suite_ok_seconds": [
+        "10.132"
+      ],
+      "test_fail_lines": 0,
+      "test_pass_lines": 1
+    },
+    {
+      "bytes": 13016,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-pi-notice-scheduled.log",
+      "retained_index_sha256": "c58cab0876f99542338e0fc992ab5faf1e00690da9f24db9073907e0d5eaf4d0",
+      "sha256": "c58cab0876f99542338e0fc992ab5faf1e00690da9f24db9073907e0d5eaf4d0",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 23
+    },
+    {
+      "bytes": 101,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-pi-notice-tls.log",
+      "retained_index_sha256": "047dabc87c9370d2e6d99ab3d72985844a9cff02c48448b2ff81414efc5fb179",
+      "sha256": "047dabc87c9370d2e6d99ab3d72985844a9cff02c48448b2ff81414efc5fb179",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 416,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-pi-notice-upgrade-native.log",
+      "retained_index_sha256": "405d7d86f7086090d03e10b3b89a6e701aa82a85ead689cca3fbb231f08f4f4a",
+      "sha256": "405d7d86f7086090d03e10b3b89a6e701aa82a85ead689cca3fbb231f08f4f4a",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 314,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-activation.log",
+      "retained_index_sha256": "b0c3fe12590f24d9226bfdd78e19ecd6af2d9cad342944e168dc596c3cbb824c",
+      "sha256": "b0c3fe12590f24d9226bfdd78e19ecd6af2d9cad342944e168dc596c3cbb824c",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 209,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-chart.log",
+      "retained_index_sha256": "b3c00825379c10d2dbb84260c45cdd83afe73526303fed5cdb7988be85b3176f",
+      "sha256": "b3c00825379c10d2dbb84260c45cdd83afe73526303fed5cdb7988be85b3176f",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 161,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-checker.log",
+      "retained_index_sha256": "65224e88403707d188cdbda9264be50a2446b01452f3bf5d6f90a54ff72d81da",
+      "sha256": "65224e88403707d188cdbda9264be50a2446b01452f3bf5d6f90a54ff72d81da",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 3169,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-cluster.log",
+      "retained_index_sha256": "26ad09de570241317901e2bc5cdf8c645ea31d716b9f00092119116a1f3591b2",
+      "sha256": "26ad09de570241317901e2bc5cdf8c645ea31d716b9f00092119116a1f3591b2",
+      "suite_ok_seconds": [
+        "1.249",
+        "1.300",
+        "1.520",
+        "1.214",
+        "1.237",
+        "1.256",
+        "1.340",
+        "3.085",
+        "1.213",
+        "1.249",
+        "1.249",
+        "1.213",
+        "1.249",
+        "1.413",
+        "2.239",
+        "1.234",
+        "1.154",
+        "2.158",
+        "1.144",
+        "3.388",
+        "1.221",
+        "21.292",
+        "2.316",
+        "1.713",
+        "1.142",
+        "1.266",
+        "1.352",
+        "1.244",
+        "1.281",
+        "1.715",
+        "8.095",
+        "1.230",
+        "1.193",
+        "2.144",
+        "1.237",
+        "1.220",
+        "1.201",
+        "1.581",
+        "86.841"
+      ],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 3886,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-compare.log",
+      "retained_index_sha256": "1879c9258ccd0e2b2c312c638dd56f0cd6d10b0aa951cfa4eafae4a7131adb21",
+      "sha256": "1879c9258ccd0e2b2c312c638dd56f0cd6d10b0aa951cfa4eafae4a7131adb21",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 257,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-dryrun.log",
+      "retained_index_sha256": "34fa87738da2ccf2230207b18db330da516eae3c6b39838acefd4d730b84053c",
+      "sha256": "34fa87738da2ccf2230207b18db330da516eae3c6b39838acefd4d730b84053c",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 135,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-finish-stop.log",
+      "retained_index_sha256": "9366ee507534434ce39e46063694ae24cd552e24947d837e678759238e179688",
+      "sha256": "9366ee507534434ce39e46063694ae24cd552e24947d837e678759238e179688",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 148,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-gvisor.log",
+      "retained_index_sha256": "931015df6033f75fa7d5df781cd97eecf7cb63e2289124b5bcc9cc2115c93d3f",
+      "sha256": "931015df6033f75fa7d5df781cd97eecf7cb63e2289124b5bcc9cc2115c93d3f",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 239,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-host-storage.log",
+      "retained_index_sha256": "6645faf8a91167130424b2eaf76917339d72cece17883bf5675a7e8b6980095e",
+      "sha256": "6645faf8a91167130424b2eaf76917339d72cece17883bf5675a7e8b6980095e",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 0,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-image-load.log",
+      "retained_index_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 112,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-import.log",
+      "retained_index_sha256": "d273651d23c46c8e65aa535257a92feb6c756938487d1c4fe0ac25097b9c7efe",
+      "sha256": "d273651d23c46c8e65aa535257a92feb6c756938487d1c4fe0ac25097b9c7efe",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 288,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-maintain.log",
+      "retained_index_sha256": "98aae5cce07ac7b015638e9b5a1d87fc8a82c2f992fcc448bf99b8edd1fc77bd",
+      "sha256": "98aae5cce07ac7b015638e9b5a1d87fc8a82c2f992fcc448bf99b8edd1fc77bd",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 128,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-payloads.log",
+      "retained_index_sha256": "767a39c90dfebc9e5f8ee3df75fa261a82b01d4501098cb750ef1c87b8921447",
+      "sha256": "767a39c90dfebc9e5f8ee3df75fa261a82b01d4501098cb750ef1c87b8921447",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 144,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-pid.log",
+      "retained_index_sha256": "10643e07ca7d7dbed19b31986e10ae4e53729e57de0be0d633812c86cd697798",
+      "sha256": "10643e07ca7d7dbed19b31986e10ae4e53729e57de0be0d633812c86cd697798",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 193,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-reads.log",
+      "retained_index_sha256": "b9476e41ac9f53b2af851818b85fc84e424cafdeac69815fe51116da837c409b",
+      "sha256": "b9476e41ac9f53b2af851818b85fc84e424cafdeac69815fe51116da837c409b",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 722,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-resume-source.log",
+      "retained_index_sha256": "2b6137364c132442a26cb0df40b36b44dac4827075d77340d8902766170180b2",
+      "sha256": "2b6137364c132442a26cb0df40b36b44dac4827075d77340d8902766170180b2",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 174,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-retained.log",
+      "retained_index_sha256": "ac352db542b7a1a1f50687148440e261b34010a22ca17d58d17153366846ce50",
+      "sha256": "ac352db542b7a1a1f50687148440e261b34010a22ca17d58d17153366846ce50",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 1585,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-return-source.log",
+      "retained_index_sha256": "ab35f322c1aa421b8762a83ad43e919cc3b93cb2b3705ba1c87782e20e5a256a",
+      "sha256": "ab35f322c1aa421b8762a83ad43e919cc3b93cb2b3705ba1c87782e20e5a256a",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 23,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-source-account.log",
+      "retained_index_sha256": "efbea95e5b2d5db9aee16b40088161d4fb515ed8f1eb810eb515c57c5f278b16",
+      "sha256": "efbea95e5b2d5db9aee16b40088161d4fb515ed8f1eb810eb515c57c5f278b16",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 484,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-source-host-qualified.log",
+      "retained_index_sha256": "ad695048aa865681a06585d94aac4796e4d0e5d331a4a9de16e3a8c95d9ba382",
+      "sha256": "ad695048aa865681a06585d94aac4796e4d0e5d331a4a9de16e3a8c95d9ba382",
+      "suite_ok_seconds": [
+        "2.088"
+      ],
+      "test_fail_lines": 0,
+      "test_pass_lines": 1
+    },
+    {
+      "bytes": 1452,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-source-host.log",
+      "retained_index_sha256": "3216875e06b3e6420675376a995f936108026fd19cb7ec09795ceb60fd7a3f74",
+      "sha256": "3216875e06b3e6420675376a995f936108026fd19cb7ec09795ceb60fd7a3f74",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 1,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 101,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-source-tls.log",
+      "retained_index_sha256": "047dabc87c9370d2e6d99ab3d72985844a9cff02c48448b2ff81414efc5fb179",
+      "sha256": "047dabc87c9370d2e6d99ab3d72985844a9cff02c48448b2ff81414efc5fb179",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 872,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-start.log",
+      "retained_index_sha256": "6b33bba7fdd5c2621b61c4e384a987edfec1a15ab127887c06c7c179f6cfb0d1",
+      "sha256": "6b33bba7fdd5c2621b61c4e384a987edfec1a15ab127887c06c7c179f6cfb0d1",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 503,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-stop-source.log",
+      "retained_index_sha256": "793f026fe0584d9bc89a27f3ca7737c1df579427f67a23ada156ebdaa0156630",
+      "sha256": "793f026fe0584d9bc89a27f3ca7737c1df579427f67a23ada156ebdaa0156630",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 55,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-tls-create.log",
+      "retained_index_sha256": "0f90aecf5ca5aa76b15797f09fffdb3ea898672ba9646719fb1f067acaea4df0",
+      "sha256": "0f90aecf5ca5aa76b15797f09fffdb3ea898672ba9646719fb1f067acaea4df0",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 131,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-verify-source.log",
+      "retained_index_sha256": "7d4283ca371c3a56b3dd0a1fe12f2dfab6b981719642712144c5cf198b5c5f2d",
+      "sha256": "7d4283ca371c3a56b3dd0a1fe12f2dfab6b981719642712144c5cf198b5c5f2d",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 1110,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-volume-check.log",
+      "retained_index_sha256": "bb628f52160905dfe0ed4c5d364cea52653c89eb392d4089b12ac54850db40bc",
+      "sha256": "bb628f52160905dfe0ed4c5d364cea52653c89eb392d4089b12ac54850db40bc",
+      "suite_ok_seconds": [
+        "3.656",
+        "15.393"
+      ],
+      "test_fail_lines": 0,
+      "test_pass_lines": 4
+    },
+    {
+      "bytes": 37,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": true,
+      "path": "old/work/factory/.local/evidence/qualification/factory-r38-volume.log",
+      "retained_index_sha256": "73b0d9ae774a4e7ef7733f77718e39378a2f03bc005f52034ce301d24e7306fc",
+      "sha256": "73b0d9ae774a4e7ef7733f77718e39378a2f03bc005f52034ce301d24e7306fc",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 2239,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": null,
+      "path": "old/work/factory/.local/evidence/qualification/startup-20260928-repaired.log",
+      "retained_index_sha256": null,
+      "sha256": "fcee380910883e0e01d62c53649c3696306c7d8e0b74292808c27c121edce3ef",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 2399,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": null,
+      "path": "old/work/factory/.local/evidence/qualification/startup-20260928.log",
+      "retained_index_sha256": null,
+      "sha256": "655ccc4188a2496ace7438274b495e6fde1d55d1b0d438b8544ba8377e0414ea",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 3828,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": null,
+      "path": "old/work/factory/.local/evidence/qualification/web-mvp-canonical-final.log",
+      "retained_index_sha256": null,
+      "sha256": "91f1d8dc26c78089c2cfe995363a60491e5208a8378f68fc689056e982052aca",
+      "suite_ok_seconds": [
+        "1.539",
+        "1.622",
+        "1.307",
+        "1.216",
+        "1.344",
+        "1.569",
+        "1.174",
+        "2.744",
+        "1.126",
+        "1.158",
+        "1.160",
+        "1.134",
+        "1.177",
+        "1.271",
+        "1.910",
+        "1.371",
+        "1.153",
+        "2.283",
+        "1.129",
+        "4.026",
+        "1.201",
+        "20.950",
+        "2.294",
+        "1.572",
+        "1.137",
+        "1.210",
+        "1.346",
+        "1.236",
+        "1.191",
+        "1.706",
+        "8.756",
+        "1.194",
+        "1.147",
+        "2.416",
+        "1.171",
+        "1.186",
+        "1.227",
+        "16.887",
+        "1.629",
+        "2.774"
+      ],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 3299,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": null,
+      "path": "old/work/factory/.local/evidence/qualification/web-mvp-canonical-pinned.log",
+      "retained_index_sha256": null,
+      "sha256": "1c8bce8d2ddc194484181987eca47b2f2cfa587c05da78acfe59cc9e6bbf1acb",
+      "suite_ok_seconds": [
+        "1.228",
+        "1.222",
+        "1.269",
+        "1.112",
+        "1.089",
+        "1.229",
+        "1.271",
+        "2.354",
+        "1.058",
+        "1.230",
+        "1.088",
+        "1.059",
+        "1.102",
+        "1.106",
+        "1.745",
+        "1.122",
+        "1.091",
+        "2.216",
+        "1.055",
+        "2.253",
+        "1.131",
+        "21.573",
+        "2.230",
+        "1.510",
+        "1.063",
+        "1.151",
+        "1.193",
+        "1.192",
+        "1.118",
+        "1.635",
+        "6.891",
+        "1.216",
+        "1.101",
+        "2.215",
+        "1.140",
+        "1.132",
+        "1.157",
+        "11.685",
+        "1.499",
+        "2.632"
+      ],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 5010,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": null,
+      "path": "old/work/factory/.local/evidence/qualification/web-mvp-canonical.log",
+      "retained_index_sha256": null,
+      "sha256": "52a45ac8ae76491bf0a350bf420b9c22c70d6dfe24c7c85b666ee14012a76182",
+      "suite_ok_seconds": [
+        "1.271",
+        "1.221",
+        "1.255",
+        "1.230",
+        "1.210",
+        "1.484",
+        "1.476",
+        "3.356",
+        "1.200",
+        "1.732",
+        "1.220",
+        "1.288",
+        "1.254",
+        "1.761",
+        "2.527",
+        "1.260",
+        "1.180",
+        "2.349",
+        "1.145",
+        "3.321",
+        "1.219",
+        "21.344",
+        "2.299",
+        "1.594",
+        "1.160",
+        "1.362",
+        "1.344",
+        "1.233",
+        "1.188",
+        "1.735",
+        "7.860",
+        "1.211",
+        "1.156",
+        "2.172",
+        "1.171",
+        "1.205",
+        "1.144",
+        "11.917",
+        "1.542"
+      ],
+      "test_fail_lines": 2,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 1690,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": null,
+      "path": "old/work/factory/.local/evidence/qualification/web-mvp-image-build-2.log",
+      "retained_index_sha256": null,
+      "sha256": "80643cfc358509294b61bd3b520f887b7ec14fbd95f7c697c9b821d57e1c398f",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 1586,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": null,
+      "path": "old/work/factory/.local/evidence/qualification/web-mvp-image-build.log",
+      "retained_index_sha256": null,
+      "sha256": "202333caba75d862a097ba22125e151d6c26a8b10b4bbfa15b23d3833ab18757",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 143,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": null,
+      "path": "old/work/factory/.local/evidence/qualification/web-mvp-node-inspector.log",
+      "retained_index_sha256": null,
+      "sha256": "6608030e8a9e019febe5baf3ee9684be7d3ee8c7bbc0f4b236c595689e266d9d",
+      "suite_ok_seconds": [
+        "1.718"
+      ],
+      "test_fail_lines": 0,
+      "test_pass_lines": 1
+    },
+    {
+      "bytes": 112,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": null,
+      "path": "old/work/factory/.local/evidence/qualification/web-mvp-runtime.log",
+      "retained_index_sha256": null,
+      "sha256": "8477c2d5d6c510625501423e1fc388f1b2beff614833fb7b64634ff32276b7b7",
+      "suite_ok_seconds": [
+        "7.268",
+        "1.264"
+      ],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    },
+    {
+      "bytes": 475,
+      "limitation": "Syntactic retained log counters, not new execution, independent acceptance or all test coverage.",
+      "matches_retained_index": null,
+      "path": "old/work/factory/.local/evidence/qualification/web-mvp-scan.log",
+      "retained_index_sha256": null,
+      "sha256": "5f14f1c6eb5705090a9953683bb7a07b85451248bab9ed4977cc9444c0408d61",
+      "suite_ok_seconds": [],
+      "test_fail_lines": 0,
+      "test_pass_lines": 0
+    }
+  ],
+  "resource_measurements": [
+    {
+      "bytes": 2223,
+      "fields": {
+        "host_memory_bytes": 137438953472,
+        "limits": [
+          "RSS can count shared pages more than once; sampled maxima are not guaranteed peaks",
+          "Guest working set overlaps host VM memory and must not be added",
+          "Scheduled gate uses real Pi/tools with a simulated provider and a disposable native PostgreSQL fixture",
+          "Tracked harness RSS covers sampler descendants; daemonized native PostgreSQL fixture processes are excluded",
+          "Official subscription App Server resident memory is not measured in this scenario"
+        ],
+        "phase_summaries": {
+          "installed_after_cleanup": {
+            "count": 1,
+            "max_application_pods": 1,
+            "max_guest_working_set_bytes": 3237093376,
+            "max_installed_host_rss_bytes": 153976832,
+            "max_memory_sample_age_seconds": 9.342000246047974,
+            "max_node_and_pod_memory_sample_age_seconds": 18.342000246047974,
+            "max_platform_ps_cpu_percent": 22.4,
+            "max_platform_rss_bytes": 9057468416,
+            "max_vm_rss_bytes": 8903491584,
+            "max_with_tracked_harness_rss_bytes": 9105735680
+          },
+          "installed_idle": {
+            "count": 12,
+            "max_application_pods": 1,
+            "max_guest_working_set_bytes": 3232595968,
+            "max_installed_host_rss_bytes": 305905664,
+            "max_memory_sample_age_seconds": 10.678729057312012,
+            "max_node_and_pod_memory_sample_age_seconds": 19.294084072113037,
+            "max_platform_ps_cpu_percent": 164.0,
+            "max_platform_rss_bytes": 8940011520,
+            "max_vm_rss_bytes": 8634613760,
+            "max_with_tracked_harness_rss_bytes": 8981430272
+          },
+          "scheduled_simulated_provider": {
+            "count": 41,
+            "max_application_pods": 4,
+            "max_guest_working_set_bytes": 3386130432,
+            "max_installed_host_rss_bytes": 205668352,
+            "max_memory_sample_age_seconds": 9.149653911590576,
+            "max_node_and_pod_memory_sample_age_seconds": 20.060148000717163,
+            "max_platform_ps_cpu_percent": 167.8,
+            "max_platform_rss_bytes": 9094627328,
+            "max_vm_rss_bytes": 8903475200,
+            "max_with_tracked_harness_rss_bytes": 9458876416
+          }
+        },
+        "revision": "d8c305bcc578f70b04619df0cf73a1d992947205",
+        "vm_allocation": {
+          "CPUs": 8,
+          "DiskSize": 51200,
+          "Driver": "vfkit",
+          "Memory": 49152
+        }
+      },
+      "path": "old/work/factory/.local/installed-recovery37-footprint/summary.json",
+      "sha256": "6b99f041e97da23248ca1e56c780dbddf63227126bd94393b6374487244dd971"
+    },
+    {
+      "bytes": 754,
+      "fields": {
+        "application_pod_count_range": [
+          1,
+          4
+        ],
+        "host_physical_bytes": 137438953472,
+        "limitations": "12 sampled points; not guaranteed peaks; excludes host service, temporary test/Go/PostgreSQL overhead and unrelated macOS processes; VM guest working set and host RSS are different metrics and must not be added",
+        "maximum_guest_sample_age_seconds": 7.3866188526153564,
+        "maximum_sampled_guest_working_set_bytes": 3163820032,
+        "maximum_sampled_vm_plus_helper_cpu_percent": 87.5,
+        "maximum_sampled_vm_plus_helper_rss_bytes": 7847297024,
+        "phase": "scheduled simulated-provider integration with disposable host PostgreSQL; installed host service stopped",
+        "samples": 12,
+        "source_revision": "9505f59bb5b37f6b8f41f7414c79eb2f9c2d2364"
+      },
+      "path": "old/work/factory/.local/scheduled-recovery-footprint-with-helper/summary.json",
+      "sha256": "b32b86dab48554c725f4ad2b349e48afc597eb9910ea5752318f27db1c5008bb"
+    }
+  ],
+  "status": "historical_source_observations_not_reexecuted_or_accepted",
+  "study_observations": [
+    {
+      "bytes": 26967,
+      "fields": {
+        "acceptance": false,
+        "accepted_packages": [],
+        "application_strict_success": null,
+        "arms": {
+          "conversation": {
+            "acceptance": false,
+            "accepted_packages": [],
+            "application_strict_success": null,
+            "bootstrap_elapsed_seconds": 105.81194104196038,
+            "bootstrap_exit_code": 0,
+            "bootstrap_outcome": "passed",
+            "builder_declared_status": "blocked",
+            "builder_elapsed_seconds": 4863.264377832995,
+            "builder_outcome": "builder_declared_blocked",
+            "builder_usage": {
+              "cacheWriteInputTokens": 0,
+              "cachedInputTokens": 56084992,
+              "inputTokens": 57067452,
+              "outputTokens": 250294,
+              "reasoningOutputTokens": 127196,
+              "totalTokens": 57317746
+            },
+            "cleanup_terminal_review_verified": true,
+            "full_allowed_state_compliance": null,
+            "grading_outcome": "captured_application_grading_observed",
+            "grading_reason": null,
+            "missing_original_case_entries": 0,
+            "monetary_cost": null,
+            "native_overhead": "Included in continuous builder elapsed time and model usage; component time/token attribution unallocated.",
+            "natural_compactions": 1,
+            "original_case_entries": 80,
+            "original_verdict_counts": {
+              "fail": 6,
+              "pass": 17,
+              "untested": 57
+            },
+            "registered_cases": 80,
+            "selected_cases": 38,
+            "source_bytes": 285329,
+            "source_files": 135,
+            "state_subset_review_available": true,
+            "terminal_review_available": true,
+            "timed_case_measurements": {
+              "session-expiry": {
+                "elapsed_seconds": 3601.104610374896,
+                "ended": "2026-10-10T15:12:24.421410+00:00",
+                "original_exit_code": 0,
+                "original_verdict": "pass",
+                "scope": "Original real-time case command including orchestration; no case rerun, timer change or rescoring.",
+                "started": "2026-10-10T14:12:23.290331+00:00",
+                "timing_receipt_sha256": "90025e421a62ab466819fba6a6671344d0a324172026dd188140bc23fe3d7f10",
+                "verdict_receipt_sha256": "7606e351b7e988bc8789f1ba46facd43d3ad2b5beacb699a5d092933aa790bb0"
+              }
+            },
+            "timing_accounting": {
+              "bounds": "These spans exclude other shared preparation, correction, audits and publication. Handoff is a wall gap, not measured active effort or state cost. No overlap or nested-runtime summation.",
+              "builder_capture_parent": {
+                "accounting": "One parent span; nested runtime and commands are subsets, not additive extra costs.",
+                "elapsed_seconds": 4913.266611458035,
+                "ended": "2026-10-10T14:05:35.276008+00:00",
+                "events_sha256": "a8abc040f8e60e49dd24f5e24cf612c34315985b858705a52eba2af945d84f01",
+                "manifest_sha256": "2cfc658088399c7863fb5d07d84155d3e7aa82ce595c37f8a98f673e6366b233",
+                "phases": [
+                  {
+                    "elapsed_seconds": 0.0022011250257492065,
+                    "to": "preflight",
+                    "utc": "2026-10-10T12:43:41.966089+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 38.98838087497279,
+                    "to": "ready",
+                    "utc": "2026-10-10T12:44:20.952593+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 38.98920854204334,
+                    "to": "running",
+                    "utc": "2026-10-10T12:44:20.953422+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 4903.133081333013,
+                    "to": "stopping",
+                    "utc": "2026-10-10T14:05:25.142378+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 4910.452543292078,
+                    "to": "captured",
+                    "utc": "2026-10-10T14:05:32.461913+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 4910.453150417074,
+                    "to": "grading",
+                    "utc": "2026-10-10T14:05:32.462519+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 4913.266611458035,
+                    "to": "finalized",
+                    "utc": "2026-10-10T14:05:35.276008+00:00"
+                  }
+                ],
+                "started": "2026-10-10T12:43:41.964119+00:00"
+              },
+              "calendar_from_builder_attempt_to_grading_terminal_seconds": 9060.445338,
+              "disjoint_builder_capture_plus_grading_seconds": 8775.534592166077,
+              "grading_parent": {
+                "accounting": "One parent span; nested runtime and commands are subsets, not additive extra costs.",
+                "elapsed_seconds": 3862.267980708042,
+                "ended": "2026-10-10T15:14:42.409457+00:00",
+                "events_sha256": "6bba4ed8f165e876de31f9b0a0a823cd366cec7660d6c901c1f78385c2ef9bb0",
+                "manifest_sha256": "3d303e3abd6ae1b3075317745f2f5c7647547e203dd1c3c2ec68eef90b8cb59c",
+                "phases": [
+                  {
+                    "elapsed_seconds": 0.0025980829959735274,
+                    "to": "preflight",
+                    "utc": "2026-10-10T14:10:20.115480+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 3862.2664875419578,
+                    "to": "failed",
+                    "utc": "2026-10-10T15:14:42.407958+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 3862.267980708042,
+                    "to": "finalized",
+                    "utc": "2026-10-10T15:14:42.409457+00:00"
+                  }
+                ],
+                "started": "2026-10-10T14:10:20.113105+00:00"
+              },
+              "handoff_wall_gap_seconds": 284.837097,
+              "parent_post_runtime_phase_seconds": 10.133530125021935,
+              "parent_pre_runtime_phase_seconds": 38.98920854204334,
+              "phase_label_qualification": "The builder/capture parent grading phase is capture bookkeeping. Independent application grading is the separate grading_parent span.",
+              "projects_seed_attempt": null,
+              "runtime_phase_seconds": 4864.14387279097,
+              "seed_and_native_attempt_segment_sum_seconds": 8775.534592166077,
+              "utc_vs_monotonic_reconciliation_residual_seconds": 0.07364883392256161
+            },
+            "uncached_input_tokens": 982460,
+            "unsupported_cases": 42
+          },
+          "git-file": {
+            "acceptance": false,
+            "accepted_packages": [],
+            "application_strict_success": null,
+            "bootstrap_elapsed_seconds": 252.56936754204798,
+            "bootstrap_exit_code": 1,
+            "bootstrap_outcome": "failed",
+            "builder_declared_status": "complete",
+            "builder_elapsed_seconds": 4625.249618917005,
+            "builder_outcome": "completed",
+            "builder_usage": {
+              "cacheWriteInputTokens": 0,
+              "cachedInputTokens": 68950784,
+              "inputTokens": 70274447,
+              "outputTokens": 264716,
+              "reasoningOutputTokens": 127940,
+              "totalTokens": 70539163
+            },
+            "cleanup_terminal_review_verified": true,
+            "full_allowed_state_compliance": null,
+            "grading_outcome": "captured_application_grading_observed",
+            "grading_reason": "bootstrap_failed",
+            "missing_original_case_entries": 80,
+            "monetary_cost": null,
+            "native_overhead": "Included in continuous builder elapsed time and model usage; component time/token attribution unallocated.",
+            "natural_compactions": 2,
+            "original_case_entries": 0,
+            "original_verdict_counts": {},
+            "registered_cases": 80,
+            "selected_cases": 38,
+            "source_bytes": 377964,
+            "source_files": 226,
+            "state_subset_review_available": true,
+            "terminal_review_available": true,
+            "timed_case_measurements": {},
+            "timing_accounting": {
+              "bounds": "These spans exclude other shared preparation, correction, audits and publication. Handoff is a wall gap, not measured active effort or state cost. No overlap or nested-runtime summation.",
+              "builder_capture_parent": {
+                "accounting": "One parent span; nested runtime and commands are subsets, not additive extra costs.",
+                "elapsed_seconds": 4675.642752374988,
+                "ended": "2026-10-10T16:33:32.264895+00:00",
+                "events_sha256": "c12644a961bd85e666c0e12cf8e2c23aa4a1a9e578dbbc700705d2117951a796",
+                "manifest_sha256": "97f6a8d3fbd84fdff6022741073c711f98db26d06c65e2435c990e52ba93b536",
+                "phases": [
+                  {
+                    "elapsed_seconds": 0.002136708004400134,
+                    "to": "preflight",
+                    "utc": "2026-10-10T15:15:36.582455+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 38.467757166945376,
+                    "to": "ready",
+                    "utc": "2026-10-10T15:16:15.048383+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 38.46855262492318,
+                    "to": "running",
+                    "utc": "2026-10-10T15:16:15.049180+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 4664.620894374908,
+                    "to": "stopping",
+                    "utc": "2026-10-10T16:33:21.242938+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 4673.0467371669365,
+                    "to": "captured",
+                    "utc": "2026-10-10T16:33:29.668855+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 4673.047164416988,
+                    "to": "grading",
+                    "utc": "2026-10-10T16:33:29.669284+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 4675.642752374988,
+                    "to": "finalized",
+                    "utc": "2026-10-10T16:33:32.264895+00:00"
+                  }
+                ],
+                "started": "2026-10-10T15:15:36.580509+00:00"
+              },
+              "calendar_from_builder_attempt_to_grading_terminal_seconds": 4969.217175,
+              "disjoint_builder_capture_plus_grading_seconds": 4942.803740666946,
+              "grading_parent": {
+                "accounting": "One parent span; nested runtime and commands are subsets, not additive extra costs.",
+                "elapsed_seconds": 267.16098829195835,
+                "ended": "2026-10-10T16:38:25.797684+00:00",
+                "events_sha256": "9139f26b5e27853112791d6d24318b0bde2c4d4e473867c8c6154ee2171ea960",
+                "manifest_sha256": "c679d7e46821c15f8a5b68c0286563a174ce45fc45b95ef0ca6eddbdc6323d5b",
+                "phases": [
+                  {
+                    "elapsed_seconds": 0.0016306249890476465,
+                    "to": "preflight",
+                    "utc": "2026-10-10T16:33:58.636006+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 267.1601139999693,
+                    "to": "failed",
+                    "utc": "2026-10-10T16:38:25.796802+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 267.16098829195835,
+                    "to": "finalized",
+                    "utc": "2026-10-10T16:38:25.797684+00:00"
+                  }
+                ],
+                "started": "2026-10-10T16:33:58.634530+00:00"
+              },
+              "handoff_wall_gap_seconds": 26.369635,
+              "parent_post_runtime_phase_seconds": 11.021858000080101,
+              "parent_pre_runtime_phase_seconds": 38.46855262492318,
+              "phase_label_qualification": "The builder/capture parent grading phase is capture bookkeeping. Independent application grading is the separate grading_parent span.",
+              "projects_seed_attempt": null,
+              "runtime_phase_seconds": 4626.152341749985,
+              "seed_and_native_attempt_segment_sum_seconds": 4942.803740666946,
+              "utc_vs_monotonic_reconciliation_residual_seconds": 0.04379933305335726
+            },
+            "uncached_input_tokens": 1323663,
+            "unsupported_cases": 42
+          },
+          "github-projects": {
+            "acceptance": false,
+            "accepted_packages": [],
+            "application_strict_success": null,
+            "bootstrap_elapsed_seconds": 90.19471312500536,
+            "bootstrap_exit_code": 0,
+            "bootstrap_outcome": "passed",
+            "builder_declared_status": "complete",
+            "builder_elapsed_seconds": 5488.89741799992,
+            "builder_outcome": "completed",
+            "builder_usage": {
+              "cacheWriteInputTokens": 0,
+              "cachedInputTokens": 69954816,
+              "inputTokens": 71381324,
+              "outputTokens": 304701,
+              "reasoningOutputTokens": 145095,
+              "totalTokens": 71686025
+            },
+            "cleanup_terminal_review_verified": true,
+            "full_allowed_state_compliance": null,
+            "grading_outcome": "captured_application_grading_observed",
+            "grading_reason": null,
+            "missing_original_case_entries": 0,
+            "monetary_cost": null,
+            "native_overhead": "Included in continuous builder elapsed time and model usage; component time/token attribution unallocated.",
+            "natural_compactions": 2,
+            "original_case_entries": 80,
+            "original_verdict_counts": {
+              "fail": 6,
+              "pass": 32,
+              "untested": 42
+            },
+            "registered_cases": 80,
+            "selected_cases": 38,
+            "source_bytes": 238945,
+            "source_files": 124,
+            "state_subset_review_available": true,
+            "terminal_review_available": true,
+            "timed_case_measurements": {
+              "session-expiry": {
+                "elapsed_seconds": 3601.147337249946,
+                "ended": "2026-10-10T19:16:21.760135+00:00",
+                "original_exit_code": 0,
+                "original_verdict": "pass",
+                "scope": "Original real-time case command including orchestration; no case rerun, timer change or rescoring.",
+                "started": "2026-10-10T18:16:20.580490+00:00",
+                "timing_receipt_sha256": "2d77738cd4ee363fedc1cd7ab8ee8be7d4e44ee2238ba9f111fb2993409ca872",
+                "verdict_receipt_sha256": "7606e351b7e988bc8789f1ba46facd43d3ad2b5beacb699a5d092933aa790bb0"
+              }
+            },
+            "timing_accounting": {
+              "bounds": "These spans exclude other shared preparation, correction, audits and publication. Handoff is a wall gap, not measured active effort or state cost. No overlap or nested-runtime summation.",
+              "builder_capture_parent": {
+                "accounting": "One parent span; nested runtime and commands are subsets, not additive extra costs.",
+                "elapsed_seconds": 5542.07484787493,
+                "ended": "2026-10-10T18:13:39.797098+00:00",
+                "events_sha256": "cf16aa4d2a8552fd88b543ff0e89e60e321b8a1dc79a67a897e598606226892b",
+                "manifest_sha256": "33ce1695acc6d8b39e0fa1f0dce97205a52045c1bf3b3247d644387d15f512b3",
+                "phases": [
+                  {
+                    "elapsed_seconds": 0.0020695419516414404,
+                    "to": "preflight",
+                    "utc": "2026-10-10T16:41:17.675758+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 37.55634554196149,
+                    "to": "ready",
+                    "utc": "2026-10-10T16:41:55.230376+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 37.557059832965024,
+                    "to": "running",
+                    "utc": "2026-10-10T16:41:55.231093+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 5527.516691291938,
+                    "to": "stopping",
+                    "utc": "2026-10-10T18:13:25.238809+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 5538.48950204195,
+                    "to": "captured",
+                    "utc": "2026-10-10T18:13:36.211720+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 5538.490287332912,
+                    "to": "grading",
+                    "utc": "2026-10-10T18:13:36.212504+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 5542.07484787493,
+                    "to": "finalized",
+                    "utc": "2026-10-10T18:13:39.797098+00:00"
+                  }
+                ],
+                "started": "2026-10-10T16:41:17.673928+00:00"
+              },
+              "calendar_from_builder_attempt_to_grading_terminal_seconds": 9448.967003,
+              "disjoint_builder_capture_plus_grading_seconds": 9401.511490874924,
+              "grading_parent": {
+                "accounting": "One parent span; nested runtime and commands are subsets, not additive extra costs.",
+                "elapsed_seconds": 3859.4366429999936,
+                "ended": "2026-10-10T19:18:46.640931+00:00",
+                "events_sha256": "df8adb40e707179b18b48d57e8b946b79fa6162b43049a013c232963d1fb75ae",
+                "manifest_sha256": "d768a9305c5700608ec8e1231f6b7e439a2fd48f66b6744a0c8d035b2eef22ef",
+                "phases": [
+                  {
+                    "elapsed_seconds": 0.0022757500410079956,
+                    "to": "preflight",
+                    "utc": "2026-10-10T18:14:27.171088+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 3859.429294917034,
+                    "to": "failed",
+                    "utc": "2026-10-10T19:18:46.633578+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 3859.4366429999936,
+                    "to": "finalized",
+                    "utc": "2026-10-10T19:18:46.640931+00:00"
+                  }
+                ],
+                "started": "2026-10-10T18:14:27.168998+00:00"
+              },
+              "handoff_wall_gap_seconds": 47.3719,
+              "parent_post_runtime_phase_seconds": 14.558156582992524,
+              "parent_pre_runtime_phase_seconds": 37.557059832965024,
+              "phase_label_qualification": "The builder/capture parent grading phase is capture bookkeeping. Independent application grading is the separate grading_parent span.",
+              "projects_seed_attempt": {
+                "accounting": "One parent span; nested runtime and commands are subsets, not additive extra costs.",
+                "allocated_once_to": "github-projects",
+                "already_in_builder_parent_span": false,
+                "classification": "Single-use Projects treatment setup attempt including its preflight and native operations; not pure API service time.",
+                "elapsed_seconds": 36.7138685840182,
+                "ended": "2026-10-10T12:06:03.605743+00:00",
+                "events_sha256": "b0f62e7bcab6efc804dc0de8086328cb444e026e69c8f7e1ce06d0daed3696a5",
+                "manifest_sha256": "0f467d5c8e6a3cbbe475e76a22b407239cae75a3bf64d4eee00c3b2c28f1eb23",
+                "model_calls": 0,
+                "native_commands": 61,
+                "phases": [
+                  {
+                    "elapsed_seconds": 0.0023329589748755097,
+                    "to": "preflight",
+                    "utc": "2026-10-10T12:05:26.893905+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 36.70999458397273,
+                    "to": "failed",
+                    "utc": "2026-10-10T12:06:03.601878+00:00"
+                  },
+                  {
+                    "elapsed_seconds": 36.7138685840182,
+                    "to": "finalized",
+                    "utc": "2026-10-10T12:06:03.605743+00:00"
+                  }
+                ],
+                "started": "2026-10-10T12:05:26.891945+00:00"
+              },
+              "runtime_phase_seconds": 5489.959631458973,
+              "seed_and_native_attempt_segment_sum_seconds": 9438.225359458942,
+              "utc_vs_monotonic_reconciliation_residual_seconds": 0.08361212507588789
+            },
+            "uncached_input_tokens": 1426508,
+            "unsupported_cases": 42
+          }
+        },
+        "limits": [
+          "One workload and one attempt per arm; fixed sequential order and prior exposure.",
+          "Partial unapproved suite; no reliability-floor or accepted-task cost ranking.",
+          "Shared-fixture/session assumptions qualify original failures; no repairs or rescoring.",
+          "State reviews are scoped subsets; hidden channels and malicious guest tampering remain uncertain.",
+          "Configured16g retained; usable-memory interpretation unresolved; no inferred performance acceptance.",
+          "No production boundary or validated production deployment linkage: DORA metrics unavailable.",
+          "Wall time includes native state work, but no defensible component-only causal overhead attribution.",
+          "No isolation claim, automatic promotion or default winner."
+        ]
+      },
+      "path": "old/factory/.factory-planning/REQ-007-THREE-ARM-V2-COMPARISON-SNAPSHOT.json",
+      "sha256": "9c4ee272b923f2a0459770146a81ea6f50d987275d1b0fdbd6763f4d27880897"
+    },
+    {
+      "bytes": 2580,
+      "fields": {
+        "abort_classification": "Harness fixture mapping missing; precautionary shared-fixture abort. No application failure inferred from this missing mapping.",
+        "acceptance": false,
+        "accepted_packages": [],
+        "adapter_unavailable": 41,
+        "application_strict_success": null,
+        "attempted_native_cases": 17,
+        "bootstrap_seconds": 92.43978229095228,
+        "calibration_pooled_with_comparison": false,
+        "candidate_repaired": false,
+        "comparison_complete": false,
+        "fail_cases": 0,
+        "fixture_gap": "Default observer verifies multi_analyst but V9 loader omitted membership_subject; last-admin-race also requires an unavailable isolated two-administrator fixture. Preserve V9 and correct future adapter capabilities before launch.",
+        "frozen_inputs_verified_before_fastforward": true,
+        "grading_aborted": true,
+        "inconclusive_cases": 1,
+        "limits": "16 observed native passes and one inconclusive, not a complete39-case result.41 unsupported adapters and22 selected-but-unexecuted cases remain. This derived80-case accounting does not change the original58-entry receipt or rescore the candidate.",
+        "model_calls": 0,
+        "native_logs": ".factory-planning/req007-calibration-v9-grade-v1-logs/run-1msn7thz",
+        "natural_compactions": 3,
+        "original_candidate_unchanged": true,
+        "original_case_result_map_entries": 58,
+        "original_suite_sha256": "7a584e24372f8ebbfea080777e7214965506c74b31f329db831e40ba81eba04d",
+        "outcome": "unchanged_v9_partial_grading_review_recorded",
+        "owned_resources_removed": true,
+        "pass_cases": 16,
+        "prior_outcomes_rescored": false,
+        "real_hour_elapsed_seconds": 3601.1022264159983,
+        "real_hour_expiry_pass": true,
+        "recorded_at": "2026-10-10T12:19:43.179145+00:00",
+        "registry_cases": 80,
+        "reported_missing_denominator_entries": [
+          "audit-closure-events",
+          "audit-content-events",
+          "audit-export-events",
+          "audit-membership-events",
+          "audit-pagination",
+          "case-input-contract",
+          "case-search-contract",
+          "case-update-atomicity",
+          "closure-addition-race",
+          "closure-addition-supersession",
+          "closure-lifecycle",
+          "closure-race",
+          "comment-count-race",
+          "comments-contract",
+          "evidence-contract",
+          "evidence-count-race",
+          "export-download-authorization",
+          "export-request-contract",
+          "export-separation",
+          "last-admin-race",
+          "read-permission-matrix",
+          "write-permission-matrix"
+        ],
+        "review_logs": ".factory-planning/req007-calibration-v9-grade-v1-review-logs/run-t242w0b_",
+        "selected_native_cases": 39,
+        "selected_not_executed_after_abort": 22,
+        "suite_approved": false
+      },
+      "path": "old/factory/.factory-planning/REQ-007-CALIBRATION-V9-GRADE-V1-REVIEW.json",
+      "sha256": "b11b52b49bd0f7daee8928ac56455a0a979394be037fa499011cb7cc30f206b2"
+    },
+    {
+      "bytes": 1332,
+      "fields": {
+        "acceptance_granted": false,
+        "builder_elapsed_seconds": 7500.7398093750235,
+        "calibration_usable": null,
+        "compactions": 3,
+        "comparison_complete": false,
+        "independent_grading_pending": true,
+        "logs": ".factory-planning/req007-natural-calibration-v9-logs/run-50fj445i",
+        "next_work": "Complete the active process-source component, then grade the unchanged V9 terminal capture and publish queued evidence summaries in atomic units.",
+        "outcome": "calibration_v9_terminal_capture_verified",
+        "owned_builder_and_capture_vms_removed": true,
+        "policy_monitor_released": true,
+        "preparation_labels_prior_correction_retained": true,
+        "prior_attempts_unchanged": true,
+        "recorded_at": "2026-10-10T10:54:30.411017+00:00",
+        "requirement": "REQ-007",
+        "runtime_outcome": "builder_declared_blocked",
+        "source_bytes": 480930,
+        "source_capture_sha256": "ceb13d01625007d6586d3462e33a6f2c793144751a6d98e7b3748d6237100d2e",
+        "source_files": 252,
+        "target3_observed": true,
+        "terminal_verification": ".factory-planning/req007-calibration-v9-terminal-verification-logs/run-tgpf615e",
+        "tool_session": null,
+        "usage_total": {
+          "cacheWriteInputTokens": 0,
+          "cachedInputTokens": 110525184,
+          "inputTokens": 112670926,
+          "outputTokens": 395853,
+          "reasoningOutputTokens": 196895,
+          "totalTokens": 113066779
+        }
+      },
+      "path": "old/factory/.factory-planning/REQ-007-CHECKPOINT-NATURAL-CALIBRATION-V9-TERMINAL.json",
+      "sha256": "cfc73ef043d1795adf3aa05591443d8e66be67b66ad643746b71a94acae6174f"
+    },
+    {
+      "bytes": 3385,
+      "fields": {
+        "limits": "Development diagnosis: two distinct fresh owned deployments. No original candidate mutation/rescore, performance, healthy-service-duration or acceptance/freeze claim. Runtime metadata collection differed; original free-slot and collection classifications were not captured.",
+        "observations": [
+          {
+            "all_owned_cleanup_verified": true,
+            "attempt": "req007-native-storage-connectivity-diagnostic-v4-logs/run-lf59wrpf",
+            "bridge_connections": 188,
+            "label": "unchanged-storage-config",
+            "late_collection_counts": null,
+            "late_topology_numeric": null,
+            "late_volume_count": 4,
+            "source_boundary": {
+              "changed_files": [
+                "k8s/02-services.yaml"
+              ],
+              "original_candidate_unchanged": true,
+              "other_files_preserved": true
+            },
+            "storage": [
+              {
+                "cleanup_request_completed": true,
+                "elapsed_seconds": 3.0111866679999935,
+                "error_type": "ReadTimeoutError",
+                "mode": "default",
+                "outcome": "exception",
+                "size": 1048576
+              },
+              {
+                "cleanup_request_completed": true,
+                "elapsed_seconds": 3.0152778760000274,
+                "error_type": "ReadTimeoutError",
+                "mode": "required-checksum",
+                "outcome": "exception",
+                "size": 1048576
+              }
+            ],
+            "upload": {
+              "cause_type": "TimeoutError",
+              "elapsed_seconds": 30.040243625000585,
+              "error_type": "Inconclusive",
+              "outcome": "exception",
+              "size": 1048576
+            }
+          },
+          {
+            "all_owned_cleanup_verified": true,
+            "attempt": "req007-native-storage-growth-reference-v5-logs/run-71988ps2",
+            "bridge_connections": 188,
+            "label": "separate-growth1-reference",
+            "late_collection_counts": {
+              "default": 1
+            },
+            "late_topology_numeric": {
+              "Free": 3,
+              "Max": 4
+            },
+            "late_volume_count": 1,
+            "source_boundary": {
+              "changed_files": [
+                "k8s/02-services.yaml"
+              ],
+              "configuration_changes": [
+                "PGDATA diagnostic directory",
+                "Seaweed single-copy volume growth1 reference"
+              ],
+              "network_policy_unchanged": true,
+              "original_candidate_unchanged": true,
+              "other_files_preserved": true
+            },
+            "storage": [
+              {
+                "bytes_equal": true,
+                "cleanup_request_completed": true,
+                "elapsed_seconds": 0.011634209000021656,
+                "mode": "default",
+                "outcome": "completed",
+                "size": 1048576
+              },
+              {
+                "bytes_equal": true,
+                "cleanup_request_completed": true,
+                "elapsed_seconds": 0.008302958999991006,
+                "mode": "required-checksum",
+                "outcome": "completed",
+                "size": 1048576
+              }
+            ],
+            "upload": {
+              "declared_size": 1048576,
+              "elapsed_seconds": 0.27566095802467316,
+              "outcome": "completed",
+              "sha256_matches": true,
+              "size": 1048576
+            }
+          }
+        ],
+        "outcome": "separate_growth_reference_prevents_observed_slot_exhaustion",
+        "sources": [
+          "https://github.com/seaweedfs/seaweedfs/blob/3.80/weed/topology/volume_growth.go",
+          "https://github.com/seaweedfs/seaweedfs/blob/3.80/weed/server/master_server.go",
+          "https://kubernetes.io/docs/concepts/services-networking/network-policies/"
+        ]
+      },
+      "path": "old/factory/.factory-planning/REQ-007-STORAGE-GROWTH-COMPARISON.json",
+      "sha256": "c2cf8d581891faa28acda3b8fbc3fa874769b08a70bcca017def37d332ff212e"
+    }
+  ]
+}

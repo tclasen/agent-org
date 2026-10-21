@@ -1,0 +1,16 @@
+[
+  {
+    "artifact": "/Users/Shared/agent-org/factory/reports/legacy-retirement/git-recovery-onboarding.md",
+    "sha256": "ed3cc62d2ad1408f7d35cdc01b8be783e701bd4971832281b7358faee7ba46bb",
+    "files": 3,
+    "payload_bytes": 22249,
+    "round_trip_verified": true
+  },
+  {
+    "artifact": "/Users/Shared/agent-org/factory/reports/legacy-retirement/git-recovery-ollama-metered-source.md",
+    "sha256": "625e9398e6129c8f9a04925d5d9fec50ed8d49f9f9cb9ff9e0e23255839d1ba4",
+    "files": 5,
+    "payload_bytes": 200301,
+    "round_trip_verified": true
+  }
+]

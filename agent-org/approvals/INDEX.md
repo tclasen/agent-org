@@ -11,3 +11,7 @@ Individual records own scope, current status and historical evidence.
 - [APP-000007 — Independent release evidence approval](APP-000007.md) — approved
 - [APP-000008 — Operator final acceptance and root entrypoint amendment](APP-000008.md) — approved
 - [APP-000009 — Independent root entrypoint adoption approval](APP-000009.md) — approved
+
+- [APP-000010 — Legacy learning preservation and sync](APP-000010.md) — approved
+
+- [APP-000011 — Disposal after learning harvest](APP-000011.md) — approved

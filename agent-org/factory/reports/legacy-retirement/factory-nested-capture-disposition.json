@@ -1,0 +1,1076 @@
+{
+  "source": "agent-org/factory/reports/legacy-retirement/git-nested-source-state.json",
+  "source_sha256": "4c51d7647ab4944464d0b40598bfc769906c411bfeee6200e8c2f4fbab39e4b7",
+  "captured_fixture_paths": 6,
+  "unique_change_sets": 4,
+  "records": [
+    {
+      "path": "old/factory/.factory-planning/req007-matched-pilot-logs/run-7w1x7t3a/captured-source",
+      "baseline": "6093585d81b74de7efa5868bbc9cf970f9cc1793",
+      "change_set": "capture-set-1",
+      "file_payload_bytes": 10121,
+      "source_payload_bytes": 10121,
+      "files": [
+        {
+          "path": ".factory/project/task-state.md",
+          "status": " M",
+          "bytes": 5790,
+          "sha256": "2bd688f8f853541fb0ff5f86b1f4e0ebab4465018af96f94ee1dda9ceab5be43",
+          "generated": false
+        },
+        {
+          "path": "ops/deploy-app.sh",
+          "status": " M",
+          "bytes": 1693,
+          "sha256": "f1b92fe9351bc32f61fd355da7320069a10958f047e1cd7354aceb6050337550",
+          "generated": false
+        },
+        {
+          "path": "k8s/network-policy.yaml",
+          "status": "??",
+          "bytes": 2638,
+          "sha256": "2a4f0017cb136aa46efa96e631a09630df1f4793fdeb43c0f081358b2d011c44",
+          "generated": false
+        }
+      ],
+      "disposition": "generated benchmark/capture fixture; learning summarized; no independent project publication or wholesale app import",
+      "raw_recovery": "not required to understand extracted lessons; exact replay would need optional source archive; operator disposition remains Coordinator-owned"
+    },
+    {
+      "path": "old/factory/.factory-planning/req007-matched-pilot-logs/run-p0jplbet/captured-source",
+      "baseline": "328dcead7075cbad546b8d54a42d620bc2dab8a4",
+      "change_set": "capture-set-2",
+      "file_payload_bytes": 104258,
+      "source_payload_bytes": 44379,
+      "files": [
+        {
+          "path": ".dockerignore",
+          "status": "??",
+          "bytes": 65,
+          "sha256": "9551357a83be64ce8737e7988b1b8475468b977280fb599b141d144f2aa5c25e",
+          "generated": false
+        },
+        {
+          "path": "app/Dockerfile",
+          "status": "??",
+          "bytes": 412,
+          "sha256": "cfd76ea598b9584b92abc6f8e8e7858ea16936038e28bd1f4d1d72c48308664b",
+          "generated": false
+        },
+        {
+          "path": "app/app/__init__.py",
+          "status": "??",
+          "bytes": 1,
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "generated": false
+        },
+        {
+          "path": "app/app/__pycache__/__init__.cpython-314.pyc",
+          "status": "??",
+          "bytes": 118,
+          "sha256": "7f0206e9b7088a8ff453a469c5f9fce35d86eb836cb385f9170e79fea151be0f",
+          "generated": true
+        },
+        {
+          "path": "app/app/__pycache__/auth.cpython-314.pyc",
+          "status": "??",
+          "bytes": 10943,
+          "sha256": "8a23d6f2e8172b8f10cc0976ed26b44b7dfc15bdd644a9923fed43696ea7c31c",
+          "generated": true
+        },
+        {
+          "path": "app/app/__pycache__/cases.cpython-314.pyc",
+          "status": "??",
+          "bytes": 32853,
+          "sha256": "3b86a47fb8a3173a9f0baf0f130c8ea1ce09e36e3867f1a250c5cd41757360e9",
+          "generated": true
+        },
+        {
+          "path": "app/app/__pycache__/common.cpython-314.pyc",
+          "status": "??",
+          "bytes": 2381,
+          "sha256": "c2008f14f8c13698ae7acab8a725fef7d3234d807564b340e832df1d5755ffd3",
+          "generated": true
+        },
+        {
+          "path": "app/app/__pycache__/db.cpython-314.pyc",
+          "status": "??",
+          "bytes": 946,
+          "sha256": "4dd5736fae56473b787d33ab1a36b71136925aa2c75449c64f4b86b3321d6764",
+          "generated": true
+        },
+        {
+          "path": "app/app/__pycache__/main.cpython-314.pyc",
+          "status": "??",
+          "bytes": 5507,
+          "sha256": "6d453f3f7918040b1b1e51cf5dce997a3509bfaaa39dfeb774a2cef0b1655f67",
+          "generated": true
+        },
+        {
+          "path": "app/app/__pycache__/migrate.cpython-314.pyc",
+          "status": "??",
+          "bytes": 3787,
+          "sha256": "a0bdb16da978043012f5c6377e0f45f18a888617e3727ea86b203a731574f6f3",
+          "generated": true
+        },
+        {
+          "path": "app/app/__pycache__/seed.cpython-314.pyc",
+          "status": "??",
+          "bytes": 2270,
+          "sha256": "f5271d05a1e01335c976512c67cedad24c0850250acc6a2272a99955bcca9d78",
+          "generated": true
+        },
+        {
+          "path": "app/app/auth.py",
+          "status": "??",
+          "bytes": 5083,
+          "sha256": "87605df644a8e0d639a9e4bb63817905c8dde3891dfbd33ef7edcd66455009b8",
+          "generated": false
+        },
+        {
+          "path": "app/app/cases.py",
+          "status": "??",
+          "bytes": 16865,
+          "sha256": "baf07aa3c1acd483279cbdd19f2396cd34c04920ea92f3df0c97e4d0b28a97d5",
+          "generated": false
+        },
+        {
+          "path": "app/app/common.py",
+          "status": "??",
+          "bytes": 1110,
+          "sha256": "bf2dc241c2955bd5a048e52f55fdf545df65005aac3ca887e89f03be0cf6e962",
+          "generated": false
+        },
+        {
+          "path": "app/app/db.py",
+          "status": "??",
+          "bytes": 515,
+          "sha256": "cae198a96a2b6feda18343d8cfdc9dac1c85a56ab7664c8dcde96e97a76b1a18",
+          "generated": false
+        },
+        {
+          "path": "app/app/main.py",
+          "status": "??",
+          "bytes": 2850,
+          "sha256": "df4ff35aff679ab5c17a35a27107afce98abbb9128699605b23c5ce8bbebf1f4",
+          "generated": false
+        },
+        {
+          "path": "app/app/migrate.py",
+          "status": "??",
+          "bytes": 3298,
+          "sha256": "fdc1d1ae096391618393a1e5255a8990503ed2395d848fe24c931975f3ee7a63",
+          "generated": false
+        },
+        {
+          "path": "app/app/seed.py",
+          "status": "??",
+          "bytes": 1159,
+          "sha256": "ac9d1a2def12c52a1b355fa0f654bdc7a3874bc17b638520496478ee0de364da",
+          "generated": false
+        },
+        {
+          "path": "ops/bootstrap.sh",
+          "status": "??",
+          "bytes": 3526,
+          "sha256": "8015995aeef3b1f745f229b157526db406089e14dbee2c89b2ffdc51bb3fcb77",
+          "generated": false
+        },
+        {
+          "path": "ops/destroy.sh",
+          "status": "??",
+          "bytes": 146,
+          "sha256": "6b37e97009620b4bd1ebaed98164e434efb5b4af3017adfb3f6b7de2a55d5609",
+          "generated": false
+        },
+        {
+          "path": "ops/fixture-ids.json",
+          "status": "??",
+          "bytes": 1295,
+          "sha256": "668ccc229ba88a991c84e4d5d2217756f35c09eb8922c77d8d45c42772ad7c32",
+          "generated": false
+        },
+        {
+          "path": "ops/manifests/base.yaml",
+          "status": "??",
+          "bytes": 4787,
+          "sha256": "a20a7a81ecec3d8870ecc83130090baa06b892833082380669c6ef01361cb591",
+          "generated": false
+        },
+        {
+          "path": "ops/seed.sh",
+          "status": "??",
+          "bytes": 1664,
+          "sha256": "2f89924fb0a6d501eb06eab9f7410b4e5bbdb2d816cc941c13911adc750edd3d",
+          "generated": false
+        },
+        {
+          "path": "ops/test.sh",
+          "status": "??",
+          "bytes": 187,
+          "sha256": "8a690746bf03afd6860c9426947eec669ea479e469ff565b061c1acef8821fe6",
+          "generated": false
+        },
+        {
+          "path": "requirements.lock",
+          "status": "??",
+          "bytes": 577,
+          "sha256": "a479e88fa92cf7ac2dad13fbaab249bc0dd0db6d33713b54f5adce65462a0138",
+          "generated": false
+        },
+        {
+          "path": "requirements.txt",
+          "status": "??",
+          "bytes": 126,
+          "sha256": "33a67686209effeb0ba3789faad16e87646694244600de8b2c1b760fb8c34654",
+          "generated": false
+        },
+        {
+          "path": "worker/Dockerfile",
+          "status": "??",
+          "bytes": 325,
+          "sha256": "e53dd9402e8fea4822ec1ecaeba238d689c5e8443066f9ba8c525663a656b946",
+          "generated": false
+        },
+        {
+          "path": "worker/worker/__init__.py",
+          "status": "??",
+          "bytes": 1,
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "generated": false
+        },
+        {
+          "path": "worker/worker/__pycache__/__init__.cpython-314.pyc",
+          "status": "??",
+          "bytes": 124,
+          "sha256": "90cd2080fc5d8c75db8df3524b277501e7a1f0d7928d48e4e22f3c2d3e4a8e40",
+          "generated": true
+        },
+        {
+          "path": "worker/worker/__pycache__/main.cpython-314.pyc",
+          "status": "??",
+          "bytes": 950,
+          "sha256": "5462ffe15e0c4e2d20344f5928a8bb710d32ee1169c14bca0618f2ee5a30f3eb",
+          "generated": true
+        },
+        {
+          "path": "worker/worker/main.py",
+          "status": "??",
+          "bytes": 387,
+          "sha256": "8baab07825f63aa127f43dc3987602c3415c84993d8c4ae470da9461423bc4eb",
+          "generated": false
+        }
+      ],
+      "disposition": "generated benchmark/capture fixture; learning summarized; no independent project publication or wholesale app import",
+      "raw_recovery": "not required to understand extracted lessons; exact replay would need optional source archive; operator disposition remains Coordinator-owned"
+    },
+    {
+      "path": "old/factory/.factory-planning/req007-native-git-capture-integration-v1-logs/run-enmdcyui/capture",
+      "baseline": "92d566e9a03044c8ffd9b52df918a2c4f9ad1a1a",
+      "change_set": "capture-set-3",
+      "file_payload_bytes": 292298,
+      "source_payload_bytes": 135499,
+      "files": [
+        {
+          "path": ".factory/project/config.json",
+          "status": " M",
+          "bytes": 459,
+          "sha256": "99f442d82dd9d1ac3642c101971788bf6b04b126953b345ff80a87f0c4fe74b3",
+          "generated": false
+        },
+        {
+          "path": ".dockerignore",
+          "status": "??",
+          "bytes": 45,
+          "sha256": "4972826b6a7ac40d31666cd00a7e1920344888bb993e3e7da1b84753cd7c92f9",
+          "generated": false
+        },
+        {
+          "path": "README.md",
+          "status": "??",
+          "bytes": 1102,
+          "sha256": "e5435afc8a7518e732040edb06c5ad11d9e0b43266a6dd56e7c2674a3413e0ca",
+          "generated": false
+        },
+        {
+          "path": "api/Dockerfile",
+          "status": "??",
+          "bytes": 564,
+          "sha256": "d4f5c4229e6fe1d9c333f964b5b681e1c9298e4b6fee36c3148ec9df271da146",
+          "generated": false
+        },
+        {
+          "path": "api/app/fixture_ids.py",
+          "status": "??",
+          "bytes": 315,
+          "sha256": "6fc44e7fbd999ff90567b1f0a832cc85730ebef53b358f7bbab469f710d3ce0e",
+          "generated": false
+        },
+        {
+          "path": "api/app/main.py",
+          "status": "??",
+          "bytes": 35804,
+          "sha256": "5335a40d197e5166245461d47575f6357c3f6c2302dd823b7373ef522436ea4d",
+          "generated": false
+        },
+        {
+          "path": "api/app/migrate.py",
+          "status": "??",
+          "bytes": 1357,
+          "sha256": "2fe6d4e1b80c15efa07cfad5ce0ade73dfa77bc29e90358e612bff83e33bbb85",
+          "generated": false
+        },
+        {
+          "path": "api/app/object_store.py",
+          "status": "??",
+          "bytes": 3399,
+          "sha256": "8c42ff09bfdc40f509f408f21fd92430f92e60a79f51358096559ce706b60fd4",
+          "generated": false
+        },
+        {
+          "path": "api/app/seed.py",
+          "status": "??",
+          "bytes": 1103,
+          "sha256": "0f5d4b3efcfa78daa70c2df7ec8f689b8c08fcf475ca4bec9aafeba26761a5de",
+          "generated": false
+        },
+        {
+          "path": "api/app/worker.py",
+          "status": "??",
+          "bytes": 3879,
+          "sha256": "df5cb9fc7a879947ace6061efcc145f24e0df8df1e468452177687206e399e2e",
+          "generated": false
+        },
+        {
+          "path": "api/app/worker_health.py",
+          "status": "??",
+          "bytes": 318,
+          "sha256": "49ebebd18eefd7cfd715fc888f75a4b5e3933f984e870e8b9f7124a56d941ca1",
+          "generated": false
+        },
+        {
+          "path": "api/requirements.lock",
+          "status": "??",
+          "bytes": 579,
+          "sha256": "39305728ce596a5a0d2f11b65477abafaa954d824a9c57b5e1eab706ddf7b057",
+          "generated": false
+        },
+        {
+          "path": "api/requirements.txt",
+          "status": "??",
+          "bytes": 127,
+          "sha256": "5c3f8eedddc734a7a07e0d65d4d7e007b83f50511c1de44886decbba831b9a95",
+          "generated": false
+        },
+        {
+          "path": "k8s/app.yaml",
+          "status": "??",
+          "bytes": 2580,
+          "sha256": "fbd2a88a5895767453475d4db577ab6346b6486c91bff667041d697c01d3a6b1",
+          "generated": false
+        },
+        {
+          "path": "k8s/base.yaml",
+          "status": "??",
+          "bytes": 2988,
+          "sha256": "fabbcd54ba9fe99e5d875bec6aebe64b50e5f2bfc110b03329d9b0188bd07e37",
+          "generated": false
+        },
+        {
+          "path": "k8s/migrate.yaml",
+          "status": "??",
+          "bytes": 672,
+          "sha256": "868b38e5275a8195ec137349105beebdb5f5211cc195d3e2f686392c06ba024f",
+          "generated": false
+        },
+        {
+          "path": "k8s/netprobe.yaml",
+          "status": "??",
+          "bytes": 512,
+          "sha256": "e56e93687c60976117e109a1f20e79ceddaaaf7585dfbf366f93f04bd644ed57",
+          "generated": false
+        },
+        {
+          "path": "k8s/policies.yaml",
+          "status": "??",
+          "bytes": 2903,
+          "sha256": "e8f3191423984a85aeec9df6847028910dbadf349e74cc9a04bd86a95ac11970",
+          "generated": false
+        },
+        {
+          "path": "ops/bootstrap.sh",
+          "status": "??",
+          "bytes": 5962,
+          "sha256": "c3901172370f8352e8bb2dc3c643977f86f5b2459d1a87655d25d7996aa39033",
+          "generated": false
+        },
+        {
+          "path": "ops/cluster.sh",
+          "status": "??",
+          "bytes": 710,
+          "sha256": "2e80ff9c6f5bd54ed65bd833ea92b1f54c83c31e78868b26c9a4adbd161a09e0",
+          "generated": false
+        },
+        {
+          "path": "ops/destroy.sh",
+          "status": "??",
+          "bytes": 96,
+          "sha256": "974881f5c6b7b1d4db675e718febcca5ca0e9e760d9ba54b9082f699c2f1faaf",
+          "generated": false
+        },
+        {
+          "path": "ops/fixture-ids.json",
+          "status": "??",
+          "bytes": 627,
+          "sha256": "14321d08f0c6edeb0d520d91f8635c19491a07e8d2965eaa6fc02f8b96466f03",
+          "generated": false
+        },
+        {
+          "path": "ops/probe-network.sh",
+          "status": "??",
+          "bytes": 831,
+          "sha256": "3cbf30e02c465d75e92a5c424877233bfa40bb4b20b6da2b6f7b361d7f21010d",
+          "generated": false
+        },
+        {
+          "path": "ops/seed.json",
+          "status": "??",
+          "bytes": 945,
+          "sha256": "ee9458109a263bba1aad8ede7205a1cc907a9aaf46a3a36a32500a50332ad888",
+          "generated": false
+        },
+        {
+          "path": "ops/seed.sh",
+          "status": "??",
+          "bytes": 362,
+          "sha256": "8cb650feda30c0321a5e5ac2e70c4f8cd1a7f710f29b1f79afc548b654bc8781",
+          "generated": false
+        },
+        {
+          "path": "ops/test.sh",
+          "status": "??",
+          "bytes": 140,
+          "sha256": "b873c41bcc699cfbad9812d8844cf12066eaefe0c006d6fb66fa391782784217",
+          "generated": false
+        },
+        {
+          "path": "web/dist/assets/index-DnxYnaaL.css",
+          "status": "??",
+          "bytes": 955,
+          "sha256": "7110dfef9ea551f974dc41c0f473af3bc3b954dd9d2c59eba46185e6cd20baa6",
+          "generated": true
+        },
+        {
+          "path": "web/dist/assets/index-LUAFYsgw.js",
+          "status": "??",
+          "bytes": 155490,
+          "sha256": "786f7f339b359a7809c42a7ed860d3c9f9a5b8324cc04488fa3f4636f33b72fe",
+          "generated": true
+        },
+        {
+          "path": "web/dist/index.html",
+          "status": "??",
+          "bytes": 354,
+          "sha256": "0f1d685216aef63d442464cd49f6d39630f017103d964560f78f4487c6fe3756",
+          "generated": true
+        },
+        {
+          "path": "web/index.html",
+          "status": "??",
+          "bytes": 255,
+          "sha256": "4ccc388382095d462e02c78a303dd83938fef926bccb5ebbf2912cf6bbbca6fd",
+          "generated": false
+        },
+        {
+          "path": "web/package-lock.json",
+          "status": "??",
+          "bytes": 53319,
+          "sha256": "ba9d777eed2ea553299b4680c6be90803fdccf74238db47b048f1977b27404dc",
+          "generated": false
+        },
+        {
+          "path": "web/package.json",
+          "status": "??",
+          "bytes": 249,
+          "sha256": "afd0b1c4f45484eb677c6b0ff807f48b636fe074984537075e4ee9337b4f6406",
+          "generated": false
+        },
+        {
+          "path": "web/src/main.jsx",
+          "status": "??",
+          "bytes": 12341,
+          "sha256": "7cd475b390bfc8001cb33a8b1252c8fa456d265aaf370b20a97176beca2aca62",
+          "generated": false
+        },
+        {
+          "path": "web/src/style.css",
+          "status": "??",
+          "bytes": 956,
+          "sha256": "4cbf05cc467d5d188fa481c40b6b5b0f4246afae716e19c49cbb3907f00adfa8",
+          "generated": false
+        }
+      ],
+      "disposition": "generated benchmark/capture fixture; learning summarized; no independent project publication or wholesale app import",
+      "raw_recovery": "not required to understand extracted lessons; exact replay would need optional source archive; operator disposition remains Coordinator-owned"
+    },
+    {
+      "path": "old/factory/.factory-planning/req007-native-git-capture-integration-v1-logs/run-enmdcyui/captured-source",
+      "baseline": "92d566e9a03044c8ffd9b52df918a2c4f9ad1a1a",
+      "change_set": "capture-set-3",
+      "file_payload_bytes": 292298,
+      "source_payload_bytes": 135499,
+      "files": [
+        {
+          "path": ".factory/project/config.json",
+          "status": " M",
+          "bytes": 459,
+          "sha256": "99f442d82dd9d1ac3642c101971788bf6b04b126953b345ff80a87f0c4fe74b3",
+          "generated": false
+        },
+        {
+          "path": ".dockerignore",
+          "status": "??",
+          "bytes": 45,
+          "sha256": "4972826b6a7ac40d31666cd00a7e1920344888bb993e3e7da1b84753cd7c92f9",
+          "generated": false
+        },
+        {
+          "path": "README.md",
+          "status": "??",
+          "bytes": 1102,
+          "sha256": "e5435afc8a7518e732040edb06c5ad11d9e0b43266a6dd56e7c2674a3413e0ca",
+          "generated": false
+        },
+        {
+          "path": "api/Dockerfile",
+          "status": "??",
+          "bytes": 564,
+          "sha256": "d4f5c4229e6fe1d9c333f964b5b681e1c9298e4b6fee36c3148ec9df271da146",
+          "generated": false
+        },
+        {
+          "path": "api/app/fixture_ids.py",
+          "status": "??",
+          "bytes": 315,
+          "sha256": "6fc44e7fbd999ff90567b1f0a832cc85730ebef53b358f7bbab469f710d3ce0e",
+          "generated": false
+        },
+        {
+          "path": "api/app/main.py",
+          "status": "??",
+          "bytes": 35804,
+          "sha256": "5335a40d197e5166245461d47575f6357c3f6c2302dd823b7373ef522436ea4d",
+          "generated": false
+        },
+        {
+          "path": "api/app/migrate.py",
+          "status": "??",
+          "bytes": 1357,
+          "sha256": "2fe6d4e1b80c15efa07cfad5ce0ade73dfa77bc29e90358e612bff83e33bbb85",
+          "generated": false
+        },
+        {
+          "path": "api/app/object_store.py",
+          "status": "??",
+          "bytes": 3399,
+          "sha256": "8c42ff09bfdc40f509f408f21fd92430f92e60a79f51358096559ce706b60fd4",
+          "generated": false
+        },
+        {
+          "path": "api/app/seed.py",
+          "status": "??",
+          "bytes": 1103,
+          "sha256": "0f5d4b3efcfa78daa70c2df7ec8f689b8c08fcf475ca4bec9aafeba26761a5de",
+          "generated": false
+        },
+        {
+          "path": "api/app/worker.py",
+          "status": "??",
+          "bytes": 3879,
+          "sha256": "df5cb9fc7a879947ace6061efcc145f24e0df8df1e468452177687206e399e2e",
+          "generated": false
+        },
+        {
+          "path": "api/app/worker_health.py",
+          "status": "??",
+          "bytes": 318,
+          "sha256": "49ebebd18eefd7cfd715fc888f75a4b5e3933f984e870e8b9f7124a56d941ca1",
+          "generated": false
+        },
+        {
+          "path": "api/requirements.lock",
+          "status": "??",
+          "bytes": 579,
+          "sha256": "39305728ce596a5a0d2f11b65477abafaa954d824a9c57b5e1eab706ddf7b057",
+          "generated": false
+        },
+        {
+          "path": "api/requirements.txt",
+          "status": "??",
+          "bytes": 127,
+          "sha256": "5c3f8eedddc734a7a07e0d65d4d7e007b83f50511c1de44886decbba831b9a95",
+          "generated": false
+        },
+        {
+          "path": "k8s/app.yaml",
+          "status": "??",
+          "bytes": 2580,
+          "sha256": "fbd2a88a5895767453475d4db577ab6346b6486c91bff667041d697c01d3a6b1",
+          "generated": false
+        },
+        {
+          "path": "k8s/base.yaml",
+          "status": "??",
+          "bytes": 2988,
+          "sha256": "fabbcd54ba9fe99e5d875bec6aebe64b50e5f2bfc110b03329d9b0188bd07e37",
+          "generated": false
+        },
+        {
+          "path": "k8s/migrate.yaml",
+          "status": "??",
+          "bytes": 672,
+          "sha256": "868b38e5275a8195ec137349105beebdb5f5211cc195d3e2f686392c06ba024f",
+          "generated": false
+        },
+        {
+          "path": "k8s/netprobe.yaml",
+          "status": "??",
+          "bytes": 512,
+          "sha256": "e56e93687c60976117e109a1f20e79ceddaaaf7585dfbf366f93f04bd644ed57",
+          "generated": false
+        },
+        {
+          "path": "k8s/policies.yaml",
+          "status": "??",
+          "bytes": 2903,
+          "sha256": "e8f3191423984a85aeec9df6847028910dbadf349e74cc9a04bd86a95ac11970",
+          "generated": false
+        },
+        {
+          "path": "ops/bootstrap.sh",
+          "status": "??",
+          "bytes": 5962,
+          "sha256": "c3901172370f8352e8bb2dc3c643977f86f5b2459d1a87655d25d7996aa39033",
+          "generated": false
+        },
+        {
+          "path": "ops/cluster.sh",
+          "status": "??",
+          "bytes": 710,
+          "sha256": "2e80ff9c6f5bd54ed65bd833ea92b1f54c83c31e78868b26c9a4adbd161a09e0",
+          "generated": false
+        },
+        {
+          "path": "ops/destroy.sh",
+          "status": "??",
+          "bytes": 96,
+          "sha256": "974881f5c6b7b1d4db675e718febcca5ca0e9e760d9ba54b9082f699c2f1faaf",
+          "generated": false
+        },
+        {
+          "path": "ops/fixture-ids.json",
+          "status": "??",
+          "bytes": 627,
+          "sha256": "14321d08f0c6edeb0d520d91f8635c19491a07e8d2965eaa6fc02f8b96466f03",
+          "generated": false
+        },
+        {
+          "path": "ops/probe-network.sh",
+          "status": "??",
+          "bytes": 831,
+          "sha256": "3cbf30e02c465d75e92a5c424877233bfa40bb4b20b6da2b6f7b361d7f21010d",
+          "generated": false
+        },
+        {
+          "path": "ops/seed.json",
+          "status": "??",
+          "bytes": 945,
+          "sha256": "ee9458109a263bba1aad8ede7205a1cc907a9aaf46a3a36a32500a50332ad888",
+          "generated": false
+        },
+        {
+          "path": "ops/seed.sh",
+          "status": "??",
+          "bytes": 362,
+          "sha256": "8cb650feda30c0321a5e5ac2e70c4f8cd1a7f710f29b1f79afc548b654bc8781",
+          "generated": false
+        },
+        {
+          "path": "ops/test.sh",
+          "status": "??",
+          "bytes": 140,
+          "sha256": "b873c41bcc699cfbad9812d8844cf12066eaefe0c006d6fb66fa391782784217",
+          "generated": false
+        },
+        {
+          "path": "web/dist/assets/index-DnxYnaaL.css",
+          "status": "??",
+          "bytes": 955,
+          "sha256": "7110dfef9ea551f974dc41c0f473af3bc3b954dd9d2c59eba46185e6cd20baa6",
+          "generated": true
+        },
+        {
+          "path": "web/dist/assets/index-LUAFYsgw.js",
+          "status": "??",
+          "bytes": 155490,
+          "sha256": "786f7f339b359a7809c42a7ed860d3c9f9a5b8324cc04488fa3f4636f33b72fe",
+          "generated": true
+        },
+        {
+          "path": "web/dist/index.html",
+          "status": "??",
+          "bytes": 354,
+          "sha256": "0f1d685216aef63d442464cd49f6d39630f017103d964560f78f4487c6fe3756",
+          "generated": true
+        },
+        {
+          "path": "web/index.html",
+          "status": "??",
+          "bytes": 255,
+          "sha256": "4ccc388382095d462e02c78a303dd83938fef926bccb5ebbf2912cf6bbbca6fd",
+          "generated": false
+        },
+        {
+          "path": "web/package-lock.json",
+          "status": "??",
+          "bytes": 53319,
+          "sha256": "ba9d777eed2ea553299b4680c6be90803fdccf74238db47b048f1977b27404dc",
+          "generated": false
+        },
+        {
+          "path": "web/package.json",
+          "status": "??",
+          "bytes": 249,
+          "sha256": "afd0b1c4f45484eb677c6b0ff807f48b636fe074984537075e4ee9337b4f6406",
+          "generated": false
+        },
+        {
+          "path": "web/src/main.jsx",
+          "status": "??",
+          "bytes": 12341,
+          "sha256": "7cd475b390bfc8001cb33a8b1252c8fa456d265aaf370b20a97176beca2aca62",
+          "generated": false
+        },
+        {
+          "path": "web/src/style.css",
+          "status": "??",
+          "bytes": 956,
+          "sha256": "4cbf05cc467d5d188fa481c40b6b5b0f4246afae716e19c49cbb3907f00adfa8",
+          "generated": false
+        }
+      ],
+      "disposition": "generated benchmark/capture fixture; learning summarized; no independent project publication or wholesale app import",
+      "raw_recovery": "not required to understand extracted lessons; exact replay would need optional source archive; operator disposition remains Coordinator-owned"
+    },
+    {
+      "path": "old/factory/.factory-planning/req007-natural-calibration-v4-logs/run-l_ulr06h/captured-source",
+      "baseline": "1e8395f96a310e72368d6e6d09ef345db29cb3b9",
+      "change_set": "capture-set-4",
+      "file_payload_bytes": 5120,
+      "source_payload_bytes": 5120,
+      "files": [
+        {
+          "path": "k8s/namespace.yaml",
+          "status": "??",
+          "bytes": 62,
+          "sha256": "616c510c8a8850eec9a60d77dd3263ef45a208d1af1186e68eaba1f5c65cb618",
+          "generated": false
+        },
+        {
+          "path": "k8s/platform.yaml",
+          "status": "??",
+          "bytes": 2483,
+          "sha256": "fe7c5b1fe0ec24219509d93700289b346d8a371ff9e22c2ee86aed2fc61638d2",
+          "generated": false
+        },
+        {
+          "path": "ops/bootstrap.sh",
+          "status": "??",
+          "bytes": 1221,
+          "sha256": "f11261463ed38c5674970de1ca3d56747c2ae2313bc7688956d64b4610813fc0",
+          "generated": false
+        },
+        {
+          "path": "ops/destroy.sh",
+          "status": "??",
+          "bytes": 158,
+          "sha256": "52fbdd71d7000a32da69b98dd4d7be0d5a0de45a4d7febfe8622adf716471f5a",
+          "generated": false
+        },
+        {
+          "path": "ops/seed.sh",
+          "status": "??",
+          "bytes": 1053,
+          "sha256": "abb479147499339820acfc7576e8a9f87b935738691c094c347971a39bcf6e51",
+          "generated": false
+        },
+        {
+          "path": "ops/test.sh",
+          "status": "??",
+          "bytes": 143,
+          "sha256": "4ba16df5856a172a46b93f5c797134028c99398d16007f89b4964b7e06debf8f",
+          "generated": false
+        }
+      ],
+      "disposition": "generated benchmark/capture fixture; learning summarized; no independent project publication or wholesale app import",
+      "raw_recovery": "not required to understand extracted lessons; exact replay would need optional source archive; operator disposition remains Coordinator-owned"
+    },
+    {
+      "path": "old/factory/.factory-planning/req007-stopped-source-selection-v1-logs/run-y1bqxhnj/selected-source",
+      "baseline": "92d566e9a03044c8ffd9b52df918a2c4f9ad1a1a",
+      "change_set": "capture-set-3",
+      "file_payload_bytes": 292298,
+      "source_payload_bytes": 135499,
+      "files": [
+        {
+          "path": ".factory/project/config.json",
+          "status": " M",
+          "bytes": 459,
+          "sha256": "99f442d82dd9d1ac3642c101971788bf6b04b126953b345ff80a87f0c4fe74b3",
+          "generated": false
+        },
+        {
+          "path": ".dockerignore",
+          "status": "??",
+          "bytes": 45,
+          "sha256": "4972826b6a7ac40d31666cd00a7e1920344888bb993e3e7da1b84753cd7c92f9",
+          "generated": false
+        },
+        {
+          "path": "README.md",
+          "status": "??",
+          "bytes": 1102,
+          "sha256": "e5435afc8a7518e732040edb06c5ad11d9e0b43266a6dd56e7c2674a3413e0ca",
+          "generated": false
+        },
+        {
+          "path": "api/Dockerfile",
+          "status": "??",
+          "bytes": 564,
+          "sha256": "d4f5c4229e6fe1d9c333f964b5b681e1c9298e4b6fee36c3148ec9df271da146",
+          "generated": false
+        },
+        {
+          "path": "api/app/fixture_ids.py",
+          "status": "??",
+          "bytes": 315,
+          "sha256": "6fc44e7fbd999ff90567b1f0a832cc85730ebef53b358f7bbab469f710d3ce0e",
+          "generated": false
+        },
+        {
+          "path": "api/app/main.py",
+          "status": "??",
+          "bytes": 35804,
+          "sha256": "5335a40d197e5166245461d47575f6357c3f6c2302dd823b7373ef522436ea4d",
+          "generated": false
+        },
+        {
+          "path": "api/app/migrate.py",
+          "status": "??",
+          "bytes": 1357,
+          "sha256": "2fe6d4e1b80c15efa07cfad5ce0ade73dfa77bc29e90358e612bff83e33bbb85",
+          "generated": false
+        },
+        {
+          "path": "api/app/object_store.py",
+          "status": "??",
+          "bytes": 3399,
+          "sha256": "8c42ff09bfdc40f509f408f21fd92430f92e60a79f51358096559ce706b60fd4",
+          "generated": false
+        },
+        {
+          "path": "api/app/seed.py",
+          "status": "??",
+          "bytes": 1103,
+          "sha256": "0f5d4b3efcfa78daa70c2df7ec8f689b8c08fcf475ca4bec9aafeba26761a5de",
+          "generated": false
+        },
+        {
+          "path": "api/app/worker.py",
+          "status": "??",
+          "bytes": 3879,
+          "sha256": "df5cb9fc7a879947ace6061efcc145f24e0df8df1e468452177687206e399e2e",
+          "generated": false
+        },
+        {
+          "path": "api/app/worker_health.py",
+          "status": "??",
+          "bytes": 318,
+          "sha256": "49ebebd18eefd7cfd715fc888f75a4b5e3933f984e870e8b9f7124a56d941ca1",
+          "generated": false
+        },
+        {
+          "path": "api/requirements.lock",
+          "status": "??",
+          "bytes": 579,
+          "sha256": "39305728ce596a5a0d2f11b65477abafaa954d824a9c57b5e1eab706ddf7b057",
+          "generated": false
+        },
+        {
+          "path": "api/requirements.txt",
+          "status": "??",
+          "bytes": 127,
+          "sha256": "5c3f8eedddc734a7a07e0d65d4d7e007b83f50511c1de44886decbba831b9a95",
+          "generated": false
+        },
+        {
+          "path": "k8s/app.yaml",
+          "status": "??",
+          "bytes": 2580,
+          "sha256": "fbd2a88a5895767453475d4db577ab6346b6486c91bff667041d697c01d3a6b1",
+          "generated": false
+        },
+        {
+          "path": "k8s/base.yaml",
+          "status": "??",
+          "bytes": 2988,
+          "sha256": "fabbcd54ba9fe99e5d875bec6aebe64b50e5f2bfc110b03329d9b0188bd07e37",
+          "generated": false
+        },
+        {
+          "path": "k8s/migrate.yaml",
+          "status": "??",
+          "bytes": 672,
+          "sha256": "868b38e5275a8195ec137349105beebdb5f5211cc195d3e2f686392c06ba024f",
+          "generated": false
+        },
+        {
+          "path": "k8s/netprobe.yaml",
+          "status": "??",
+          "bytes": 512,
+          "sha256": "e56e93687c60976117e109a1f20e79ceddaaaf7585dfbf366f93f04bd644ed57",
+          "generated": false
+        },
+        {
+          "path": "k8s/policies.yaml",
+          "status": "??",
+          "bytes": 2903,
+          "sha256": "e8f3191423984a85aeec9df6847028910dbadf349e74cc9a04bd86a95ac11970",
+          "generated": false
+        },
+        {
+          "path": "ops/bootstrap.sh",
+          "status": "??",
+          "bytes": 5962,
+          "sha256": "c3901172370f8352e8bb2dc3c643977f86f5b2459d1a87655d25d7996aa39033",
+          "generated": false
+        },
+        {
+          "path": "ops/cluster.sh",
+          "status": "??",
+          "bytes": 710,
+          "sha256": "2e80ff9c6f5bd54ed65bd833ea92b1f54c83c31e78868b26c9a4adbd161a09e0",
+          "generated": false
+        },
+        {
+          "path": "ops/destroy.sh",
+          "status": "??",
+          "bytes": 96,
+          "sha256": "974881f5c6b7b1d4db675e718febcca5ca0e9e760d9ba54b9082f699c2f1faaf",
+          "generated": false
+        },
+        {
+          "path": "ops/fixture-ids.json",
+          "status": "??",
+          "bytes": 627,
+          "sha256": "14321d08f0c6edeb0d520d91f8635c19491a07e8d2965eaa6fc02f8b96466f03",
+          "generated": false
+        },
+        {
+          "path": "ops/probe-network.sh",
+          "status": "??",
+          "bytes": 831,
+          "sha256": "3cbf30e02c465d75e92a5c424877233bfa40bb4b20b6da2b6f7b361d7f21010d",
+          "generated": false
+        },
+        {
+          "path": "ops/seed.json",
+          "status": "??",
+          "bytes": 945,
+          "sha256": "ee9458109a263bba1aad8ede7205a1cc907a9aaf46a3a36a32500a50332ad888",
+          "generated": false
+        },
+        {
+          "path": "ops/seed.sh",
+          "status": "??",
+          "bytes": 362,
+          "sha256": "8cb650feda30c0321a5e5ac2e70c4f8cd1a7f710f29b1f79afc548b654bc8781",
+          "generated": false
+        },
+        {
+          "path": "ops/test.sh",
+          "status": "??",
+          "bytes": 140,
+          "sha256": "b873c41bcc699cfbad9812d8844cf12066eaefe0c006d6fb66fa391782784217",
+          "generated": false
+        },
+        {
+          "path": "web/dist/assets/index-DnxYnaaL.css",
+          "status": "??",
+          "bytes": 955,
+          "sha256": "7110dfef9ea551f974dc41c0f473af3bc3b954dd9d2c59eba46185e6cd20baa6",
+          "generated": true
+        },
+        {
+          "path": "web/dist/assets/index-LUAFYsgw.js",
+          "status": "??",
+          "bytes": 155490,
+          "sha256": "786f7f339b359a7809c42a7ed860d3c9f9a5b8324cc04488fa3f4636f33b72fe",
+          "generated": true
+        },
+        {
+          "path": "web/dist/index.html",
+          "status": "??",
+          "bytes": 354,
+          "sha256": "0f1d685216aef63d442464cd49f6d39630f017103d964560f78f4487c6fe3756",
+          "generated": true
+        },
+        {
+          "path": "web/index.html",
+          "status": "??",
+          "bytes": 255,
+          "sha256": "4ccc388382095d462e02c78a303dd83938fef926bccb5ebbf2912cf6bbbca6fd",
+          "generated": false
+        },
+        {
+          "path": "web/package-lock.json",
+          "status": "??",
+          "bytes": 53319,
+          "sha256": "ba9d777eed2ea553299b4680c6be90803fdccf74238db47b048f1977b27404dc",
+          "generated": false
+        },
+        {
+          "path": "web/package.json",
+          "status": "??",
+          "bytes": 249,
+          "sha256": "afd0b1c4f45484eb677c6b0ff807f48b636fe074984537075e4ee9337b4f6406",
+          "generated": false
+        },
+        {
+          "path": "web/src/main.jsx",
+          "status": "??",
+          "bytes": 12341,
+          "sha256": "7cd475b390bfc8001cb33a8b1252c8fa456d265aaf370b20a97176beca2aca62",
+          "generated": false
+        },
+        {
+          "path": "web/src/style.css",
+          "status": "??",
+          "bytes": 956,
+          "sha256": "4cbf05cc467d5d188fa481c40b6b5b0f4246afae716e19c49cbb3907f00adfa8",
+          "generated": false
+        }
+      ],
+      "disposition": "generated benchmark/capture fixture; learning summarized; no independent project publication or wholesale app import",
+      "raw_recovery": "not required to understand extracted lessons; exact replay would need optional source archive; operator disposition remains Coordinator-owned"
+    }
+  ],
+  "lessons": [
+    "Git-file interrupted final working tracker can differ from committed tracker; preserve status/progress/next-action and uncertainty instead of inferring completed acceptance.",
+    "Untracked application files and deployment/network manifests form part of a captured builder attempt even with a valid Git baseline; HEAD alone cannot identify trial source.",
+    "Copies with identical per-file digests are one substantive change set, not independent trial outcomes.",
+    "Capture/materialization should bind source type/mode/content and control/config identity; generated bytecode/dist is separated from authored source.",
+    "Early infrastructure-only calibration artifacts are evidence of partial progress rather than an accepted application."
+  ],
+  "scope": "native read-only path/hash metadata and selected source inspection; no application execution, no adoption or current security assessment"
+}

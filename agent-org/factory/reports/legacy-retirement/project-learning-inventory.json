@@ -1,0 +1,5474 @@
+{
+  "observed_utc": "2026-10-21T23:41:08.710983+00:00",
+  "root": "/Users/Shared/old/projects",
+  "method": "os.walk no ignore rules, no symlink traversal; metadata and bounded sha256 only",
+  "hash_limit_bytes": 33554432,
+  "pruned_directory_names": [
+    ".cache",
+    ".git",
+    ".mypy_cache",
+    ".next",
+    ".nuxt",
+    ".pytest_cache",
+    ".ruff_cache",
+    ".svelte-kit",
+    ".turbo",
+    ".venv",
+    "__pycache__",
+    "build",
+    "dist",
+    "node_modules",
+    "target",
+    "vendor",
+    "venv"
+  ],
+  "projects": [
+    {
+      "project": "DriftWise",
+      "directories": 4,
+      "pruned_directories": 3,
+      "files": 15,
+      "hidden_path_files": 1,
+      "extensions": {
+        "": 1,
+        ".html": 1,
+        ".json": 5,
+        ".ts": 4,
+        ".tsx": 3,
+        ".css": 1
+      }
+    },
+    {
+      "project": "Foundry",
+      "directories": 1,
+      "pruned_directories": 1,
+      "extensions": {}
+    },
+    {
+      "project": "K8s_app_demo",
+      "directories": 4,
+      "pruned_directories": 1,
+      "files": 10,
+      "hidden_path_files": 2,
+      "hashed_candidates": 1,
+      "extensions": {
+        "": 3,
+        ".md": 1,
+        ".toml": 1,
+        ".lock": 1,
+        ".yaml": 2,
+        ".py": 2
+      }
+    },
+    {
+      "project": "PlenuMesh",
+      "directories": 6,
+      "pruned_directories": 2,
+      "files": 12,
+      "hidden_path_files": 1,
+      "hashed_candidates": 3,
+      "extensions": {
+        "": 1,
+        ".lock": 1,
+        ".toml": 3,
+        ".rs": 4,
+        ".md": 3
+      }
+    },
+    {
+      "project": "agent",
+      "directories": 3,
+      "pruned_directories": 2,
+      "files": 14,
+      "hidden_path_files": 1,
+      "hashed_candidates": 1,
+      "extensions": {
+        "": 1,
+        ".md": 1,
+        ".go": 9,
+        ".json": 1,
+        ".mod": 1,
+        ".sum": 1
+      }
+    },
+    {
+      "project": "ashwake",
+      "directories": 10,
+      "pruned_directories": 1,
+      "files": 28,
+      "hidden_path_files": 10,
+      "hashed_candidates": 19,
+      "extensions": {
+        "": 2,
+        ".md": 19,
+        ".json": 4,
+        ".yaml": 1,
+        ".csv": 1,
+        ".ttl": 1
+      }
+    },
+    {
+      "project": "atelier",
+      "directories": 12,
+      "pruned_directories": 3,
+      "files": 23,
+      "hidden_path_files": 3,
+      "hashed_candidates": 4,
+      "extensions": {
+        "": 5,
+        ".md": 3,
+        ".lock": 1,
+        ".nix": 1,
+        ".json": 8,
+        ".txt": 1,
+        ".py": 3,
+        ".yaml": 1
+      }
+    },
+    {
+      "project": "atmospheric-processes-knowledge-graph",
+      "directories": 698,
+      "pruned_directories": 1,
+      "files": 1546,
+      "hidden_path_files": 18,
+      "hashed_candidates": 1172,
+      "extensions": {
+        "": 11,
+        ".md": 833,
+        ".json": 6,
+        ".pdf": 277,
+        ".sh": 2,
+        ".txt": 339,
+        ".jpg": 49,
+        ".html": 6,
+        ".xml": 18,
+        ".invalid-empty": 5
+      }
+    },
+    {
+      "project": "backup.resume",
+      "directories": 19,
+      "pruned_directories": 1,
+      "files": 24,
+      "hidden_path_files": 1,
+      "hashed_candidates": 20,
+      "extensions": {
+        "": 2,
+        ".md": 20,
+        ".html": 1,
+        ".pdf": 1
+      }
+    },
+    {
+      "project": "backup.resume-final",
+      "directories": 221,
+      "pruned_directories": 2,
+      "files": 4789,
+      "hidden_path_files": 1,
+      "hashed_candidates": 4783,
+      "extensions": {
+        "": 2,
+        ".md": 4783,
+        ".json": 2,
+        ".py": 1,
+        ".rb": 1
+      }
+    },
+    {
+      "project": "backup.resume2",
+      "directories": 19,
+      "pruned_directories": 1,
+      "files": 24,
+      "hidden_path_files": 1,
+      "hashed_candidates": 20,
+      "extensions": {
+        "": 2,
+        ".md": 20,
+        ".html": 1,
+        ".pdf": 1
+      }
+    },
+    {
+      "project": "backup.resume3",
+      "directories": 19,
+      "pruned_directories": 1,
+      "files": 24,
+      "hidden_path_files": 1,
+      "hashed_candidates": 20,
+      "extensions": {
+        "": 2,
+        ".md": 20,
+        ".html": 1,
+        ".pdf": 1
+      }
+    },
+    {
+      "project": "cards",
+      "directories": 17,
+      "pruned_directories": 3,
+      "files": 25,
+      "hidden_path_files": 1,
+      "hashed_candidates": 2,
+      "extensions": {
+        "": 2,
+        ".md": 2,
+        ".lock": 1,
+        ".toml": 10,
+        ".html": 2,
+        ".rs": 8
+      }
+    },
+    {
+      "project": "classwork",
+      "directories": 30,
+      "pruned_directories": 1,
+      "files": 157,
+      "hidden_path_files": 33,
+      "hashed_candidates": 129,
+      "extensions": {
+        "": 2,
+        ".md": 129,
+        ".yaml": 6,
+        ".json": 5,
+        ".pdf": 1,
+        ".ttl": 8,
+        ".owl": 6
+      }
+    },
+    {
+      "project": "coding_evals",
+      "directories": 61,
+      "pruned_directories": 5,
+      "files": 56,
+      "hidden_path_files": 6,
+      "hashed_candidates": 22,
+      "extensions": {
+        "": 16,
+        ".md": 19,
+        ".json": 3,
+        ".toml": 9,
+        ".lock": 1,
+        ".py": 8
+      }
+    },
+    {
+      "project": "commons",
+      "directories": 149,
+      "pruned_directories": 5,
+      "files": 1417,
+      "hidden_path_files": 2,
+      "hashed_candidates": 957,
+      "oversize_candidates": 2,
+      "extensions": {
+        "": 41,
+        ".lock": 1,
+        ".toml": 2,
+        ".md": 270,
+        ".rs": 41,
+        ".py": 5,
+        ".mjs": 5,
+        ".patch": 1,
+        ".json": 520,
+        ".ts": 38,
+        ".yaml": 1,
+        ".c": 1,
+        ".txt": 162,
+        ".log": 86,
+        ".stderr": 6,
+        ".stdout": 2,
+        ".db": 150,
+        ".gz": 24,
+        ".png": 10,
+        ".js": 16,
+        ".html": 8,
+        ".css": 8,
+        ".jsonl": 16,
+        ".tar": 3
+      }
+    },
+    {
+      "project": "competition",
+      "directories": 85428,
+      "pruned_directories": 21,
+      "files": 374959,
+      "hidden_path_files": 84953,
+      "hashed_candidates": 147109,
+      "oversize_candidates": 6,
+      "extensions": {
+        "": 230,
+        ".md": 5274,
+        ".json": 140349,
+        ".mjs": 20661,
+        ".py": 1223,
+        ".bundle": 8721,
+        ".gz": 8946,
+        ".log": 73597,
+        ".png": 4074,
+        ".zip": 3787,
+        ".sqlite": 3907,
+        ".tar": 8147,
+        ".txt": 31,
+        ".network": 452,
+        ".trace": 442,
+        ".dat": 2890,
+        ".html": 6194,
+        ".jpeg": 41397,
+        ".stderr": 4,
+        ".jsonl": 4395,
+        ".lock": 1,
+        ".paths": 1,
+        ".js": 117,
+        ".css": 15,
+        ".db": 1,
+        ".yaml": 9,
+        ".mod": 1,
+        ".sum": 1,
+        ".go": 891,
+        ".h": 44,
+        ".m": 4,
+        ".iss": 1,
+        ".rc": 1,
+        ".ts": 50,
+        ".svg": 32,
+        ".tsx": 59,
+        ".plist": 14,
+        ".c": 4,
+        ".cc": 1,
+        ".icns": 4,
+        ".ico": 3,
+        ".bmp": 1,
+        ".sql": 2,
+        ".cmake": 6,
+        ".gotmpl": 22,
+        ".mdx": 59,
+        ".sh": 11,
+        ".ps1": 2,
+        ".example": 1,
+        ".xml": 1,
+        ".applescript": 1,
+        ".yml": 2,
+        ".jinja2": 6,
+        ".jinja": 2,
+        ".cpp": 4,
+        ".bpe": 1,
+        ".patch": 4,
+        ".headless_shell": 1,
+        ".pak": 226,
+        ".dylib": 8,
+        ".bin": 3,
+        ".car": 3,
+        ".sdef": 1,
+        ".strings": 58,
+        ".manifest": 1,
+        ".pb": 2,
+        ".1": 1,
+        ".sha256": 35,
+        ".raw": 38292,
+        ".sqlite-shm": 113,
+        ".sqlite-wal": 113,
+        ".csv": 2
+      }
+    },
+    {
+      "project": "drag-and-drop-kanban-board",
+      "directories": 1,
+      "pruned_directories": 1,
+      "files": 5,
+      "hidden_path_files": 1,
+      "hashed_candidates": 1,
+      "extensions": {
+        "": 1,
+        ".md": 1,
+        ".py": 3
+      }
+    },
+    {
+      "project": "every_game",
+      "directories": 284,
+      "pruned_directories": 2,
+      "files": 12169,
+      "hidden_path_files": 1,
+      "hashed_candidates": 11270,
+      "extensions": {
+        "": 513,
+        ".md": 87,
+        ".lock": 4,
+        ".toml": 28,
+        ".mp4": 1,
+        ".wasm": 8,
+        ".json": 11200,
+        ".png": 127,
+        ".jsonl": 1,
+        ".rs": 135,
+        ".ttf": 1,
+        ".txt": 8,
+        ".wit": 3,
+        ".jpg": 1,
+        ".sh": 11,
+        ".swift": 3,
+        ".py": 26,
+        ".patch": 1,
+        ".wat": 9,
+        ".wav": 1,
+        ".glb": 1
+      }
+    },
+    {
+      "project": "example",
+      "directories": 1,
+      "pruned_directories": 1,
+      "files": 2,
+      "hashed_candidates": 2,
+      "extensions": {
+        ".md": 2
+      }
+    },
+    {
+      "project": "exploring",
+      "directories": 1,
+      "pruned_directories": 1,
+      "files": 3,
+      "hashed_candidates": 3,
+      "extensions": {
+        ".md": 3
+      }
+    },
+    {
+      "project": "factory",
+      "directories": 10,
+      "pruned_directories": 3,
+      "files": 24,
+      "hidden_path_files": 6,
+      "hashed_candidates": 14,
+      "extensions": {
+        "": 1,
+        ".md": 10,
+        ".yml": 1,
+        ".txt": 1,
+        ".py": 4,
+        ".json": 2,
+        ".jsonl": 1,
+        ".jinja": 4
+      }
+    },
+    {
+      "project": "factory_catalog",
+      "directories": 19,
+      "pruned_directories": 7,
+      "files": 209,
+      "hidden_path_files": 2,
+      "hashed_candidates": 183,
+      "extensions": {
+        "": 4,
+        ".md": 177,
+        ".json": 6,
+        ".py": 21,
+        ".yml": 1
+      }
+    },
+    {
+      "project": "factory_evals",
+      "directories": 55,
+      "pruned_directories": 5,
+      "files": 204,
+      "hidden_path_files": 165,
+      "hashed_candidates": 193,
+      "extensions": {
+        "": 3,
+        ".md": 11,
+        ".toml": 1,
+        ".lock": 1,
+        ".json": 157,
+        ".txt": 1,
+        ".jsonl": 24,
+        ".py": 6
+      }
+    },
+    {
+      "project": "features-and-futures-builders",
+      "directories": 813,
+      "pruned_directories": 454,
+      "files": 2568,
+      "hidden_path_files": 453,
+      "hashed_candidates": 378,
+      "extensions": {
+        "": 453,
+        ".json": 454,
+        ".js": 1151,
+        ".html": 214,
+        ".css": 134,
+        ".md": 155,
+        ".db": 4,
+        ".sqlite": 1,
+        ".txt": 2
+      }
+    },
+    {
+      "project": "features-and-futures-deployments",
+      "directories": 13998,
+      "files": 30160,
+      "hidden_path_files": 11221,
+      "hashed_candidates": 4682,
+      "extensions": {
+        "": 3744,
+        ".json": 3753,
+        ".js": 9990,
+        ".sqlite": 3738,
+        ".log": 3738,
+        ".html": 2401,
+        ".css": 1352,
+        ".md": 1426,
+        ".db": 16,
+        ".pid": 2
+      }
+    },
+    {
+      "project": "fmodel",
+      "directories": 1,
+      "pruned_directories": 1,
+      "files": 3,
+      "hashed_candidates": 3,
+      "extensions": {
+        ".md": 3
+      }
+    },
+    {
+      "project": "games",
+      "directories": 799,
+      "pruned_directories": 7,
+      "files": 1554,
+      "hidden_path_files": 54,
+      "hashed_candidates": 416,
+      "extensions": {
+        "": 28,
+        ".md": 90,
+        ".yaml": 3,
+        ".json": 399,
+        ".ts": 85,
+        ".png": 50,
+        ".webm": 562,
+        ".log": 270,
+        ".html": 11,
+        ".css": 8,
+        ".tsv": 1,
+        ".mjs": 7,
+        ".swift": 5,
+        ".yml": 2,
+        ".zip": 11,
+        ".js": 7,
+        ".svg": 4,
+        ".xcconfig": 1,
+        ".pbxproj": 1,
+        ".xcscheme": 1,
+        ".entitlements": 1,
+        ".plist": 1,
+        ".xml": 1,
+        ".storyboard": 2,
+        ".podspec": 1,
+        ".storekit": 2
+      }
+    },
+    {
+      "project": "gof",
+      "directories": 2,
+      "pruned_directories": 1,
+      "files": 5,
+      "extensions": {
+        ".mod": 1,
+        ".go": 4
+      }
+    },
+    {
+      "project": "meertecha_arcade",
+      "directories": 876,
+      "pruned_directories": 20,
+      "files": 2051,
+      "hidden_path_files": 35,
+      "hashed_candidates": 471,
+      "extensions": {
+        "": 28,
+        ".md": 133,
+        ".yaml": 9,
+        ".json": 442,
+        ".ts": 188,
+        ".png": 369,
+        ".webm": 527,
+        ".log": 240,
+        ".html": 24,
+        ".css": 27,
+        ".tsv": 1,
+        ".mjs": 14,
+        ".swift": 6,
+        ".yml": 4,
+        ".zip": 3,
+        ".js": 10,
+        ".svg": 16,
+        ".py": 1,
+        ".xcconfig": 1,
+        ".pbxproj": 1,
+        ".xcscheme": 1,
+        ".entitlements": 1,
+        ".plist": 1,
+        ".storyboard": 2,
+        ".storekit": 2
+      }
+    },
+    {
+      "project": "models",
+      "directories": 1,
+      "pruned_directories": 1,
+      "files": 1,
+      "extensions": {
+        ".html": 1
+      }
+    },
+    {
+      "project": "myshellium",
+      "directories": 8,
+      "pruned_directories": 3,
+      "files": 28,
+      "hidden_path_files": 1,
+      "extensions": {
+        "": 1,
+        ".html": 1,
+        ".json": 4,
+        ".ts": 16,
+        ".wasm": 1,
+        ".mjs": 1,
+        ".tsx": 3,
+        ".css": 1
+      }
+    },
+    {
+      "project": "onboarding",
+      "directories": 2,
+      "files": 3,
+      "hashed_candidates": 1,
+      "extensions": {
+        ".md": 1,
+        ".sh": 1,
+        ".py": 1
+      }
+    },
+    {
+      "project": "penny",
+      "directories": 20111,
+      "pruned_directories": 303,
+      "files": 103734,
+      "hidden_path_files": 103333,
+      "hashed_candidates": 12768,
+      "oversize_candidates": 12,
+      "extensions": {
+        "": 39744,
+        ".md": 7416,
+        ".js": 1407,
+        ".html": 344,
+        ".json": 5118,
+        ".ts": 22194,
+        ".py": 3677,
+        ".tsx": 3870,
+        ".docx": 117,
+        ".png": 9671,
+        ".jpg": 117,
+        ".toml": 205,
+        ".svg": 1062,
+        ".yml": 292,
+        ".sqlite3": 1,
+        ".txt": 86,
+        ".jsonl": 167,
+        ".log": 416,
+        ".sha256": 26,
+        ".ok": 1,
+        ".patch": 15,
+        ".npmrc": 2,
+        ".diff": 47,
+        ".mjs": 31,
+        ".gypi": 2,
+        ".h": 2808,
+        ".1": 1,
+        ".map": 1033,
+        ".cjs": 3,
+        ".gz": 24,
+        ".bin": 21,
+        ".css": 1157,
+        ".webm": 316,
+        ".network": 259,
+        ".trace": 254,
+        ".jpeg": 1519,
+        ".zip": 197,
+        ".ttf": 6,
+        ".webmanifest": 6,
+        ".bytes": 2,
+        ".p9ttca": 1,
+        ".sqlite": 49,
+        ".sqlite-shm": 6,
+        ".sqlite-wal": 10,
+        ".lz4": 6,
+        ".db": 9,
+        ".ini": 3,
+        ".bak": 3,
+        ".sqlite-journal": 3,
+        ".mozlz4": 3,
+        ".jsonlz4": 3,
+        ".little": 3,
+        ".jsonstream": 1
+      }
+    },
+    {
+      "project": "penny-evidence",
+      "directories": 4878,
+      "files": 20288,
+      "hashed_candidates": 3278,
+      "hidden_path_files": 1760,
+      "pruned_directories": 22,
+      "oversize_candidates": 6,
+      "extensions": {
+        ".md": 647,
+        "": 56,
+        ".json": 2445,
+        ".png": 13270,
+        ".log": 656,
+        ".html": 131,
+        ".css": 85,
+        ".ttf": 14,
+        ".js": 166,
+        ".webmanifest": 14,
+        ".svg": 24,
+        ".webm": 337,
+        ".zip": 280,
+        ".mjs": 122,
+        ".py": 231,
+        ".txt": 183,
+        ".diff": 42,
+        ".ts": 83,
+        ".patch": 23,
+        ".initial": 1,
+        ".exit": 4,
+        ".mp4": 4,
+        ".sha256": 29,
+        ".stderr": 32,
+        ".unexecuted-v1": 2,
+        ".network": 210,
+        ".trace": 194,
+        ".jpeg": 889,
+        ".jsonl": 4,
+        ".mts": 2,
+        ".stdout": 24,
+        ".url": 1,
+        ".ndjson": 5,
+        ".cjs": 28,
+        ".pyc": 48,
+        ".npmrc": 2
+      }
+    },
+    {
+      "project": "penny-hook-review-79",
+      "directories": 18,
+      "pruned_directories": 1,
+      "files": 76,
+      "hidden_path_files": 6,
+      "hashed_candidates": 15,
+      "extensions": {
+        "": 3,
+        ".md": 13,
+        ".js": 1,
+        ".html": 1,
+        ".json": 8,
+        ".ts": 23,
+        ".py": 16,
+        ".png": 6,
+        ".toml": 1,
+        ".yml": 1,
+        ".tsx": 2,
+        ".css": 1
+      }
+    },
+    {
+      "project": "reactive_space",
+      "directories": 19,
+      "pruned_directories": 5,
+      "files": 64,
+      "hidden_path_files": 8,
+      "hashed_candidates": 3,
+      "extensions": {
+        "": 5,
+        ".example": 1,
+        ".md": 3,
+        ".html": 1,
+        ".json": 8,
+        ".tsbuildinfo": 1,
+        ".ts": 15,
+        ".mdc": 4,
+        ".conf": 1,
+        ".rego": 5,
+        ".yaml": 10,
+        ".tpl": 1,
+        ".js": 1,
+        ".sh": 5,
+        ".tsx": 2,
+        ".css": 1
+      }
+    },
+    {
+      "project": "resume",
+      "directories": 7,
+      "pruned_directories": 2,
+      "files": 13,
+      "hidden_path_files": 4,
+      "hashed_candidates": 9,
+      "extensions": {
+        "": 2,
+        ".md": 9,
+        ".json": 2
+      }
+    },
+    {
+      "project": "resume-skill",
+      "directories": 13,
+      "pruned_directories": 3,
+      "files": 13,
+      "hidden_path_files": 2,
+      "hashed_candidates": 2,
+      "extensions": {
+        "": 3,
+        ".txt": 2,
+        ".py": 6,
+        ".typ": 1,
+        ".json": 1
+      }
+    },
+    {
+      "project": "semantic_search",
+      "directories": 4376,
+      "pruned_directories": 67,
+      "files": 17150,
+      "hidden_path_files": 7894,
+      "hashed_candidates": 796,
+      "extensions": {
+        "": 2448,
+        ".md": 137,
+        ".toml": 1,
+        ".lock": 28,
+        ".json": 1259,
+        ".html": 26,
+        ".py": 2132,
+        ".txt": 325,
+        ".sqlite3": 18,
+        ".gplv3": 1,
+        ".go": 1546,
+        ".jsonstream": 1,
+        ".mod": 13,
+        ".0": 4,
+        ".0-20260908163034-4bcc4b2ee518": 1,
+        ".info": 5,
+        ".zip": 598,
+        ".ziphash": 5,
+        ".cfg": 7,
+        ".sum": 6,
+        ".p": 5,
+        ".css": 25,
+        ".js": 29,
+        ".ico": 3,
+        ".tmpl": 14,
+        ".y": 1,
+        ".golden": 94,
+        ".txtar": 87,
+        ".obj": 2,
+        ".c": 121,
+        ".s": 23,
+        ".gox": 17,
+        ".a": 7,
+        ".h": 3275,
+        ".test": 2,
+        ".pprof": 1,
+        ".sh": 45,
+        ".deps": 1,
+        ".imports": 1,
+        ".work": 1,
+        ".bash": 1,
+        ".in": 27,
+        ".gz": 931,
+        ".ct": 50,
+        ".blob": 10,
+        ".ts": 38,
+        ".map": 11,
+        ".svg": 2,
+        ".log": 19,
+        ".mp4": 411,
+        ".png": 847,
+        ".webm": 583,
+        ".cjs": 6,
+        ".bin": 15,
+        ".aiff": 2,
+        ".wav": 4,
+        ".dockerfile": 7,
+        ".cmake": 91,
+        ".cpp": 292,
+        ".mk": 4,
+        ".cmd": 3,
+        ".ps1": 2,
+        ".gbnf": 3,
+        ".mp3": 1,
+        ".hpp": 76,
+        ".nvim": 1,
+        ".vim": 1,
+        ".pbxproj": 2,
+        ".plist": 3,
+        ".xcscheme": 1,
+        ".swift": 8,
+        ".entitlements": 1,
+        ".bat": 6,
+        ".gradle": 9,
+        ".properties": 6,
+        ".jpg": 2,
+        ".pro": 2,
+        ".java": 45,
+        ".xml": 25,
+        ".jar": 3,
+        ".xcworkspacedata": 1,
+        ".m": 9,
+        ".storyboard": 2,
+        ".kt": 12,
+        ".last": 1,
+        ".yml": 23,
+        ".rb": 33,
+        ".gemspec": 1,
+        ".rbs": 1,
+        ".yaml": 2,
+        ".ld": 1,
+        ".wgsl": 43,
+        ".inf": 1,
+        ".idl": 1,
+        ".cu": 189,
+        ".cuh": 90,
+        ".metal": 20,
+        ".cl": 175,
+        ".comp": 152,
+        ".glsl": 27,
+        ".mm": 1,
+        ".pc": 6,
+        ".dylib": 22,
+        ".check_cache": 1,
+        ".marks": 15,
+        ".out": 2,
+        ".make": 80,
+        ".o": 34,
+        ".d": 33,
+        ".ffconcat": 2,
+        ".mjs": 1,
+        ".ttl": 10,
+        ".13": 4,
+        ".13-config": 1,
+        ".tcl": 83,
+        ".eps": 2,
+        ".gif": 19,
+        ".enc": 83,
+        ".tm": 5,
+        ".so": 3,
+        ".ctypes": 1,
+        ".bootstrap": 1,
+        ".local": 1,
+        ".stdlib": 1,
+        ".ini": 2,
+        ".apache": 3,
+        ".bsd": 3,
+        ".typed": 27,
+        ".rst": 5,
+        ".exe": 6,
+        ".pem": 2,
+        ".whl": 1,
+        ".def": 4,
+        ".pyw": 1,
+        ".1": 3,
+        ".tag": 1,
+        ".http": 21,
+        ".msgpack": 2,
+        ".pyi": 1,
+        ".spec": 1,
+        ".pickle": 4,
+        ".gypi": 2
+      }
+    },
+    {
+      "project": "sparkle-eval-evidence",
+      "directories": 3,
+      "files": 3,
+      "hashed_candidates": 1,
+      "extensions": {
+        ".json": 1,
+        ".gz": 2
+      }
+    },
+    {
+      "project": "splunker",
+      "directories": 4,
+      "pruned_directories": 3,
+      "files": 6,
+      "hidden_path_files": 1,
+      "hashed_candidates": 1,
+      "extensions": {
+        "": 1,
+        ".md": 1,
+        ".toml": 1,
+        ".lock": 1,
+        ".py": 2
+      }
+    },
+    {
+      "project": "sudoku",
+      "directories": 1,
+      "pruned_directories": 1,
+      "files": 5,
+      "hashed_candidates": 1,
+      "extensions": {
+        "": 1,
+        ".md": 1,
+        ".js": 1,
+        ".html": 1,
+        ".css": 1
+      }
+    },
+    {
+      "project": "svkg",
+      "directories": 9,
+      "pruned_directories": 8,
+      "files": 44,
+      "hidden_path_files": 8,
+      "hashed_candidates": 24,
+      "extensions": {
+        "": 6,
+        ".md": 23,
+        ".toml": 1,
+        ".lock": 1,
+        ".json": 2,
+        ".py": 5,
+        ".yml": 2,
+        ".seaweed": 1,
+        ".yaml": 1,
+        ".txt": 1,
+        ".sh": 1
+      }
+    },
+    {
+      "project": "tclasen",
+      "directories": 15,
+      "pruned_directories": 1,
+      "files": 123,
+      "hidden_path_files": 10,
+      "hashed_candidates": 114,
+      "extensions": {
+        "": 1,
+        ".md": 114,
+        ".json": 5,
+        ".yaml": 1,
+        ".csv": 1,
+        ".ttl": 1
+      }
+    },
+    {
+      "project": "udop",
+      "directories": 131,
+      "pruned_directories": 11,
+      "files": 434,
+      "hidden_path_files": 4,
+      "hashed_candidates": 23,
+      "extensions": {
+        "": 4,
+        ".md": 19,
+        ".ini": 1,
+        ".toml": 1,
+        ".lock": 1,
+        ".pyi": 3,
+        ".py": 42,
+        ".json": 118,
+        ".ttl": 3,
+        ".png": 111,
+        ".sh": 1,
+        ".yml": 1,
+        ".html": 12,
+        ".webm": 1,
+        ".log": 110,
+        ".css": 1,
+        ".svg": 3,
+        ".js": 2
+      }
+    },
+    {
+      "project": "videos",
+      "directories": 1,
+      "pruned_directories": 2,
+      "files": 2,
+      "hashed_candidates": 1,
+      "extensions": {
+        ".md": 1,
+        ".py": 1
+      }
+    },
+    {
+      "project": "voldenites",
+      "directories": 1094,
+      "pruned_directories": 6,
+      "files": 4616,
+      "hidden_path_files": 7,
+      "hashed_candidates": 2374,
+      "extensions": {
+        "": 96,
+        ".md": 1132,
+        ".json": 1195,
+        ".txt": 37,
+        ".py": 189,
+        ".lean": 1065,
+        ".toml": 13,
+        ".stderr": 407,
+        ".stdout": 409,
+        ".jsonl": 38,
+        ".diff": 11,
+        ".attempt01": 2,
+        ".bin": 22
+      }
+    },
+    {
+      "project": "wired_to_survive",
+      "directories": 204,
+      "pruned_directories": 10,
+      "files": 7188,
+      "hidden_path_files": 23,
+      "hashed_candidates": 780,
+      "extensions": {
+        "": 2,
+        ".md": 28,
+        ".lock": 1,
+        ".toml": 3,
+        ".json": 492,
+        ".log": 291,
+        ".jsonl": 266,
+        ".mp4": 24,
+        ".png": 6025,
+        ".h264": 1,
+        ".rs": 6,
+        ".py": 36,
+        ".sqlite3": 2,
+        ".zip": 10,
+        ".yml": 1
+      }
+    },
+    {
+      "project": "work",
+      "directories": 28,
+      "pruned_directories": 4,
+      "files": 109,
+      "hidden_path_files": 2,
+      "hashed_candidates": 67,
+      "extensions": {
+        "": 1,
+        ".md": 38,
+        ".json": 40,
+        ".py": 23,
+        ".csv": 2,
+        ".sha256": 2,
+        ".toml": 1,
+        ".ts": 1,
+        ".yml": 1
+      }
+    },
+    {
+      "project": "workflow",
+      "directories": 16,
+      "pruned_directories": 1,
+      "files": 29,
+      "hidden_path_files": 2,
+      "hashed_candidates": 1,
+      "extensions": {
+        "": 2,
+        ".md": 1,
+        ".toml": 5,
+        ".lock": 1,
+        ".py": 20
+      }
+    }
+  ],
+  "symlinks": [
+    {
+      "path": "ai_bullet_heaven",
+      "target": "/Users/Shared/projects/wired_to_survive",
+      "followed": false
+    },
+    {
+      "path": "competition/.local/browsers/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Google Chrome for Testing Framework",
+      "target": "Versions/Current/Google Chrome for Testing Framework",
+      "followed": false
+    },
+    {
+      "path": "competition/.local/ollama-provider/bin/lib/ollama/llama-quantize",
+      "target": "/opt/homebrew/Cellar/ollama/0.40.1/libexec/lib/ollama/llama-quantize",
+      "followed": false
+    },
+    {
+      "path": "competition/.local/ollama-provider/bin/lib/ollama/llama-server",
+      "target": "/opt/homebrew/Cellar/ollama/0.40.1/libexec/lib/ollama/llama-server",
+      "followed": false
+    },
+    {
+      "path": "competition/.local/ollama-provider/models/blobs/sha256-51376b1f8d42acfa998396c5e6d17672a1b26c3c660ae0c995ad36b04cb9eff5",
+      "target": "/Users/agent/.ollama/models/blobs/sha256-51376b1f8d42acfa998396c5e6d17672a1b26c3c660ae0c995ad36b04cb9eff5",
+      "followed": false
+    },
+    {
+      "path": "competition/.local/ollama-provider/models/blobs/sha256-a5b03e4c678e1671191c0115861445b61529f518e751ce38a2bb6030cca9b1d0",
+      "target": "/Users/agent/.ollama/models/blobs/sha256-a5b03e4c678e1671191c0115861445b61529f518e751ce38a2bb6030cca9b1d0",
+      "followed": false
+    },
+    {
+      "path": "competition/.local/ollama-provider/models/blobs/sha256-d8ba2f9a17b3bbdeb5690efaa409b3fcb0b56296a777c7a69c78aa33bbddf182",
+      "target": "/Users/agent/.ollama/models/blobs/sha256-d8ba2f9a17b3bbdeb5690efaa409b3fcb0b56296a777c7a69c78aa33bbddf182",
+      "followed": false
+    },
+    {
+      "path": "competition/.local/ollama-provider/models/blobs/sha256-f60356777647e927149cbd4c0ec1314a90caba9400ad205ddc4ce47ed001c2d6",
+      "target": "/Users/agent/.ollama/models/blobs/sha256-f60356777647e927149cbd4c0ec1314a90caba9400ad205ddc4ce47ed001c2d6",
+      "followed": false
+    },
+    {
+      "path": "competition/.local/ollama-provider/models/blobs/sha256-fa6710a93d78da62641e192361344be7a8c0a1c3737f139cf89f20ce1626b99c",
+      "target": "/Users/agent/.ollama/models/blobs/sha256-fa6710a93d78da62641e192361344be7a8c0a1c3737f139cf89f20ce1626b99c",
+      "followed": false
+    },
+    {
+      "path": "penny/.penny-factory/evidence/145-exploration/ledger/runtime/node-v24.21.0-linux-arm64/bin/corepack",
+      "target": "../lib/node_modules/corepack/dist/corepack.js",
+      "followed": false
+    },
+    {
+      "path": "penny/.penny-factory/evidence/145-exploration/ledger/runtime/node-v24.21.0-linux-arm64/bin/npm",
+      "target": "../lib/node_modules/npm/bin/npm-cli.js",
+      "followed": false
+    },
+    {
+      "path": "penny/.penny-factory/evidence/145-exploration/ledger/runtime/node-v24.21.0-linux-arm64/bin/npx",
+      "target": "../lib/node_modules/npm/bin/npx-cli.js",
+      "followed": false
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-profile-diagnostic/profiles55/PW002-device55/lock",
+      "target": "172.17.0.29:+1599058",
+      "followed": false
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-profile-diagnostic/profiles55/PW011-device55/lock",
+      "target": "172.17.0.29:+1600071",
+      "followed": false
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-profile-diagnostic/profiles55/PW010-device55/lock",
+      "target": "172.17.0.29:+1599556",
+      "followed": false
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/145-rendered-transfer-repair-v1/node_modules",
+      "target": "/Users/Shared/projects/penny/.penny-factory/worktrees/145-exploration-native-acceptance/node_modules",
+      "followed": false
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/145-exploration-fixture-repair-v2/node_modules",
+      "target": "/Users/Shared/projects/penny/.penny-factory/evidence/145-exploration/browser-execution/dependencies/repaired-v2/node_modules",
+      "followed": false
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/145-native-oracle-repair-v1/node_modules",
+      "target": "/Users/Shared/projects/penny/.penny-factory/worktrees/145-exploration-native-acceptance/node_modules",
+      "followed": false
+    },
+    {
+      "path": "penny-evidence/ticket-88-2026-10-02/guards-repair/pre-fix-cli-synthetic-f3e1369c-e48d-43b4-863a-670b789b720f/frozen-4b3699f/node_modules",
+      "target": "/Users/agent/.codex/worktrees/88-recording-guards-repair/penny/node_modules",
+      "followed": false
+    },
+    {
+      "path": "semantic_search/artifacts/w3-model-provisioning/whisper-build/bin/libggml-base.0.dylib",
+      "target": "libggml-base.0.23.0.dylib",
+      "followed": false
+    },
+    {
+      "path": "semantic_search/artifacts/w3-model-provisioning/whisper-build/bin/libggml-base.dylib",
+      "target": "libggml-base.0.dylib",
+      "followed": false
+    },
+    {
+      "path": "semantic_search/artifacts/w3-model-provisioning/whisper-build/bin/libggml-blas.0.dylib",
+      "target": "libggml-blas.0.23.0.dylib",
+      "followed": false
+    },
+    {
+      "path": "semantic_search/artifacts/w3-model-provisioning/whisper-build/bin/libggml-blas.dylib",
+      "target": "libggml-blas.0.dylib",
+      "followed": false
+    },
+    {
+      "path": "semantic_search/artifacts/w3-model-provisioning/whisper-build/bin/libggml-cpu.0.dylib",
+      "target": "libggml-cpu.0.23.0.dylib",
+      "followed": false
+    },
+    {
+      "path": "semantic_search/artifacts/w3-model-provisioning/whisper-build/bin/libggml-cpu.dylib",
+      "target": "libggml-cpu.0.dylib",
+      "followed": false
+    },
+    {
+      "path": "semantic_search/artifacts/w3-model-provisioning/whisper-build/bin/libggml.0.dylib",
+      "target": "libggml.0.23.0.dylib",
+      "followed": false
+    },
+    {
+      "path": "semantic_search/artifacts/w3-model-provisioning/whisper-build/bin/libggml.dylib",
+      "target": "libggml.0.dylib",
+      "followed": false
+    },
+    {
+      "path": "semantic_search/artifacts/w3-model-provisioning/whisper-build/bin/libwhisper.1.dylib",
+      "target": "libwhisper.1.9.4.dylib",
+      "followed": false
+    },
+    {
+      "path": "semantic_search/artifacts/w3-model-provisioning/whisper-build/bin/libwhisper.dylib",
+      "target": "libwhisper.1.dylib",
+      "followed": false
+    },
+    {
+      "path": "semantic_search/.tools/python/bin/idle3",
+      "target": "idle3.13",
+      "followed": false
+    },
+    {
+      "path": "semantic_search/.tools/python/bin/pydoc3",
+      "target": "pydoc3.13",
+      "followed": false
+    },
+    {
+      "path": "semantic_search/.tools/python/bin/python",
+      "target": "python3.13",
+      "followed": false
+    },
+    {
+      "path": "semantic_search/.tools/python/bin/python3",
+      "target": "python3.13",
+      "followed": false
+    },
+    {
+      "path": "semantic_search/.tools/python/bin/python3-config",
+      "target": "python3.13-config",
+      "followed": false
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/pkgconfig/python3-embed.pc",
+      "target": "python-3.13-embed.pc",
+      "followed": false
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/pkgconfig/python3.pc",
+      "target": "python-3.13.pc",
+      "followed": false
+    },
+    {
+      "path": "semantic_search/.tools/python/share/man/man1/python3.1",
+      "target": "python3.13.1",
+      "followed": false
+    },
+    {
+      "path": "semantic_search/.tools/node/bin/corepack",
+      "target": "../lib/node_modules/corepack/dist/corepack.js",
+      "followed": false
+    },
+    {
+      "path": "semantic_search/.tools/node/bin/npm",
+      "target": "../lib/node_modules/npm/bin/npm-cli.js",
+      "followed": false
+    },
+    {
+      "path": "semantic_search/.tools/node/bin/npx",
+      "target": "../lib/node_modules/npm/bin/npx-cli.js",
+      "followed": false
+    }
+  ],
+  "exclusions": [
+    {
+      "path": "DriftWise/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "DriftWise/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "DriftWise/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "Foundry/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "K8s_app_demo/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "PlenuMesh/target",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "PlenuMesh/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "agent/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "agent/vendor",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "ashwake/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "atelier/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "atelier/runner/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "atelier/tests/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "atmospheric-processes-knowledge-graph/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "backup.resume/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "backup.resume-final/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "backup.resume-final/vendor",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "backup.resume2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "backup.resume3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "cards/target",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "cards/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "cards/web/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "classwork/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "coding_evals/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "coding_evals/.venv",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "coding_evals/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "coding_evals/evals/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "coding_evals/tests/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "commons/target",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "commons/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "commons/tools/proxy/upstream/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "commons/tools/proxy/upstream/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "commons/tools/viewer/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "competition/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "competition/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "competition/experiments/instruction-effects/revisions/research-v014/preflight/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "competition/experiments/instruction-effects/revisions/research-v014/preflight/preparation-controllers/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "competition/experiments/instruction-effects/revisions/research-v011/preflight/preparation-controllers/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "competition/.local/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "competition/.local/recovery-1791562718469764000/source/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "competition/.local/ollama-metered-source/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "competition/.local/observer-proof-original-source/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "competition/.local/browsers/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Resources",
+      "reason": "symlink-not-followed",
+      "target": "Versions/Current/Resources"
+    },
+    {
+      "path": "competition/.local/browsers/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Libraries",
+      "reason": "symlink-not-followed",
+      "target": "Versions/Current/Libraries"
+    },
+    {
+      "path": "competition/.local/browsers/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Helpers",
+      "reason": "symlink-not-followed",
+      "target": "Versions/Current/Helpers"
+    },
+    {
+      "path": "competition/.local/browsers/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/Current",
+      "reason": "symlink-not-followed",
+      "target": "156.0.8078.4"
+    },
+    {
+      "path": "competition/.local/observer-proof-original-source-b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "competition/.local/pi-prompt-transport001-shadow.pm-shadow/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "competition/.local/pi-prompt-transport001-shadow/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "competition/tests/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "competition/scripts/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "competition/orchestrator/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "competition/orchestrator/providers/ollama/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "competition/orchestrator/proposals/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "drag-and-drop-kanban-board/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "every_game/target",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "every_game/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "example/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "exploring/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "factory/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "factory/evals/template/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "factory/evals/state-handoff/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "factory_catalog/.ruff_cache",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "factory_catalog/.mypy_cache",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "factory_catalog/build",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "factory_catalog/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "factory_catalog/vendor",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "factory_catalog/evals/desktop/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "factory_catalog/scripts/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "factory_evals/.pytest_cache",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "factory_evals/.venv",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "factory_evals/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "factory_evals/tests/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "factory_evals/src/factory_evals/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-011/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-011/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-011/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-011/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-011/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-011/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-011/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-011/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-011/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-011/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-011/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-011/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-011/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-016/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-016/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-016/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-016/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-016/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-016/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-016/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-016/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-016/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-016/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-016/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-016/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-016/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-010/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-010/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-010/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-010/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-010/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-010/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-010/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-010/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-010/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-010/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-010/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-010/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-010/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-004/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-004/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-004/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-004/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-004/b018/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-004/b016/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-004/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-004/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-004/b017/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-004/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-004/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-004/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-004/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-004/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-004/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-004/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-004/b015/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-004/b014/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-004/b013/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-003/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-003/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-003/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-003/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-003/b018/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-003/b016/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-003/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-003/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-003/b017/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-003/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-003/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-003/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-003/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-003/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-003/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-003/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-003/b015/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-003/b014/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-003/b013/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-002/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-002/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-002/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-002/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-002/b018/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-002/b016/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-002/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-002/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-002/b017/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-002/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-002/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-002/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-002/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-002/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-002/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-002/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-002/b015/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-002/b014/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-002/b013/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-005/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-005/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-005/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-005/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-005/b018/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-005/b016/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-005/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-005/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-005/b017/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-005/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-005/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-005/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-005/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-005/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-005/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-005/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-005/b015/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-005/b014/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-005/b013/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-011/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-011/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-011/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-011/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-011/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-011/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-011/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-011/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-011/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-011/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-011/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-011/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-011/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-010/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-010/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-010/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-010/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-010/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-010/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-010/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-010/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-010/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-010/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-010/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-010/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-010/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-003/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-003/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-003/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-003/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-003/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-003/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-003/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-003/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-003/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-003/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-003/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-003/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-003/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-004/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-004/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-004/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-004/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-004/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-004/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-004/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-004/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-004/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-004/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-004/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-004/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-004/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-005/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-005/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-005/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-005/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-005/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-005/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-005/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-005/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-005/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-005/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-005/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-005/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-005/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-002/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-002/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-002/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-002/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-002/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-002/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-002/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-002/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-002/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-002/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-002/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-002/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-002/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-015/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-015/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-015/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-015/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-015/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-015/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-015/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-015/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-015/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-015/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-015/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-015/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-015/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-012/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-012/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-012/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-012/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-012/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-012/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-012/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-012/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-012/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-012/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-012/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-012/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-012/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-013/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-013/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-013/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-013/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-013/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-013/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-013/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-013/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-013/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-013/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-013/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-013/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-013/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-014/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-014/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-014/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-014/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-014/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-014/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-014/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-014/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-014/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-014/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-014/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-014/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-014/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-007/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-007/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-007/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-007/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-007/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-007/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-007/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-007/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-007/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-007/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-007/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-007/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-007/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-009/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-009/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-009/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-009/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-009/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-009/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-009/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-009/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-009/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-009/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-009/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-009/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-009/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-008/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-008/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-008/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-008/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-008/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-008/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-008/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-008/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-008/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-008/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-008/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-008/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-008/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-006/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-006/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-006/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-006/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-006/b018/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-006/b016/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-006/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-006/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-006/b017/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-006/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-006/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-006/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-006/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-006/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-006/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-006/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-006/b015/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-006/b014/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-006/b013/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-001/storage-shadow2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-001/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-001/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-001/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-001/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-001/b018/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-001/b016/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-001/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-001/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-001/b017/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-001/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-001/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-001/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-001/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-001/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-001/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-001/storage-shadow.pm-shadow/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-001/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-001/b015/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-001/b014/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-001/b013/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-012/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-012/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-012/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-012/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-012/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-012/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-012/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-012/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-012/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-012/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-012/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-012/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-012/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-015/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-015/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-015/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-015/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-015/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-015/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-015/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-015/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-015/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-015/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-015/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-015/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-015/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-014/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-014/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-014/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-014/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-014/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-014/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-014/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-014/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-014/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-014/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-014/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-014/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-014/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-013/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-013/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-013/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-013/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-013/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-013/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-013/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-013/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-013/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-013/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-013/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-013/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/pilot-013/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-009/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-009/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-009/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-009/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-009/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-009/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-009/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-009/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-009/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-009/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-009/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-009/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-009/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-007/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-007/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-007/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-007/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-007/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-007/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-007/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-007/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-007/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-007/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-007/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-007/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-007/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-006/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-006/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-006/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-006/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-006/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-006/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-006/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-006/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-006/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-006/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-006/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-006/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-006/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-008/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-008/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-008/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-008/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-008/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-008/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-008/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-008/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-008/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-008/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-008/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-008/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-008/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001-repeat-001/b004/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001-repeat-001/b003/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001-repeat-001/b002/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001-repeat-001/b005/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001-repeat-001/b011/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001-repeat-001/b010/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001-repeat-001/b007/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001-repeat-001/b009/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001-repeat-001/b008/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001-repeat-001/b006/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001-repeat-001/starter/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001-repeat-001/b001/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "features-and-futures-builders/eval-001-repeat-001/b012/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "fmodel/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "games/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "games/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "games/website/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "games/games/molt-mountain/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "games/games/pocket-undertow/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "games/apps/arcade-ios/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "games/apps/arcade-ios/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "gof/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "meertecha_arcade/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "meertecha_arcade/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "meertecha_arcade/games/shadow-sprout/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "meertecha_arcade/games/shadow-sprout/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "meertecha_arcade/games/moon-bounce/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "meertecha_arcade/games/moon-bounce/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "meertecha_arcade/games/lantern-lines/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "meertecha_arcade/games/lantern-lines/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "meertecha_arcade/games/molt-mountain/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "meertecha_arcade/games/molt-mountain/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "meertecha_arcade/games/pocket-undertow/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "meertecha_arcade/games/pocket-undertow/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "meertecha_arcade/games/pebble-pond/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "meertecha_arcade/games/pebble-pond/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "meertecha_arcade/games/jelly-stack/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "meertecha_arcade/games/jelly-stack/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "meertecha_arcade/games/folded-forest/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "meertecha_arcade/games/folded-forest/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "meertecha_arcade/apps/arcade-ios/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "meertecha_arcade/apps/arcade-ios/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "models/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "myshellium/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "myshellium/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "myshellium/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/scripts/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/scripts/factory_runtime/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/145-exploration/ledger/runtime/node-v24.21.0-linux-arm64/lib/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/145-exploration/core/unit-runtime/penny-recording-3mVpIU/approved-repair73/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/145-exploration/browser-execution/runtime/penny-historical-fixtures/original-LcKH7Z/application/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/145-exploration/browser-execution/runtime/penny-historical-fixtures/original-LcKH7Z/application/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/145-exploration/browser-execution/runtime/penny-original1-exploration-lTuunW/application/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/145-exploration/browser-execution/dependencies/repaired-v2/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/145-exploration/browser-execution/waves/repaired-application-v4/runtime/penny-historical-fixtures/original-lXcXpk/application/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/145-exploration/browser-execution/waves/repaired-application-v4/runtime/penny-historical-fixtures/original-lXcXpk/application/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-edUl8D/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-edUl8D/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-edUl8D/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-72r5oI/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-72r5oI/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-72r5oI/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-0Vd7SL/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-0Vd7SL/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-0Vd7SL/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-0ugUdH/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-0ugUdH/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-0ugUdH/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-csCUDC/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-csCUDC/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-csCUDC/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-ebOjDG/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-ebOjDG/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-ebOjDG/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-Vws6NL/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-Vws6NL/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-Vws6NL/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-FhxwIW/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-FhxwIW/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-FhxwIW/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-U2V6xO/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-U2V6xO/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-U2V6xO/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-aMvULl/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-aMvULl/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-aMvULl/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-80QFLM/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-80QFLM/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-80QFLM/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-7khTEK/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-7khTEK/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-workers1-full-final/test-results/invitation-history/originals-7khTEK/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-final/test-results/invitation-history/originals-zDkvnw/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-final/test-results/invitation-history/originals-zDkvnw/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-final/test-results/invitation-history/originals-zDkvnw/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-final/test-results/invitation-history/originals-IicZqd/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-final/test-results/invitation-history/originals-IicZqd/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-final/test-results/invitation-history/originals-IicZqd/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-final/test-results/invitation-history/originals-vASfWf/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-final/test-results/invitation-history/originals-vASfWf/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-final/test-results/invitation-history/originals-vASfWf/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-final/test-results/invitation-history/originals-INkBdT/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-final/test-results/invitation-history/originals-INkBdT/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-final/test-results/invitation-history/originals-INkBdT/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-final/test-results/invitation-history/originals-0NFuge/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-final/test-results/invitation-history/originals-0NFuge/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-final/test-results/invitation-history/originals-0NFuge/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-final/test-results/invitation-history/originals-VAqHeQ/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-final/test-results/invitation-history/originals-VAqHeQ/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-final/test-results/invitation-history/originals-VAqHeQ/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/affected-after-seal-results/invitation-history/originals-BN2qO8/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/affected-after-seal-results/invitation-history/originals-BN2qO8/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/affected-after-seal-results/invitation-history/originals-BN2qO8/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-full-cap-stop-final/test-results/invitation-history/originals-IzQdnX/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-full-cap-stop-final/test-results/invitation-history/originals-IzQdnX/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-full-cap-stop-final/test-results/invitation-history/originals-IzQdnX/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-full-cap-stop-final/test-results/invitation-history/originals-JzPQL3/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-full-cap-stop-final/test-results/invitation-history/originals-JzPQL3/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-full-cap-stop-final/test-results/invitation-history/originals-JzPQL3/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-full-cap-stop-final/test-results/invitation-history/originals-XeC1AK/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-full-cap-stop-final/test-results/invitation-history/originals-XeC1AK/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-full-cap-stop-final/test-results/invitation-history/originals-XeC1AK/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-full-cap-stop-final/test-results/invitation-history/originals-XSbpha/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-full-cap-stop-final/test-results/invitation-history/originals-XSbpha/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-full-cap-stop-final/test-results/invitation-history/originals-XSbpha/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/focused-layout-results/invitation-history/originals-92dwQS/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/focused-layout-results/invitation-history/originals-92dwQS/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/focused-layout-results/invitation-history/originals-92dwQS/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-before-stop/test-results/invitation-history/originals-zDkvnw/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-before-stop/test-results/invitation-history/originals-zDkvnw/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-before-stop/test-results/invitation-history/originals-zDkvnw/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-before-stop/test-results/invitation-history/originals-IicZqd/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-before-stop/test-results/invitation-history/originals-IicZqd/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-before-stop/test-results/invitation-history/originals-IicZqd/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-before-stop/test-results/invitation-history/originals-vASfWf/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-before-stop/test-results/invitation-history/originals-vASfWf/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-before-stop/test-results/invitation-history/originals-vASfWf/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-before-stop/test-results/invitation-history/originals-INkBdT/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-before-stop/test-results/invitation-history/originals-INkBdT/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/interrupted-full-playwright-before-stop/test-results/invitation-history/originals-INkBdT/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-controls-preserved/test-results/invitation-history/originals-4MhTAe/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-controls-preserved/test-results/invitation-history/originals-4MhTAe/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/acceptance/native-browser-controls-preserved/test-results/invitation-history/originals-4MhTAe/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-dy80rs/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-dy80rs/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-dy80rs/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-4O7XfY/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-4O7XfY/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-4O7XfY/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-Rd5Ls2/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-Rd5Ls2/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-Rd5Ls2/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-og3ZwC/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-og3ZwC/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-og3ZwC/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-5udCVx/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-5udCVx/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-5udCVx/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-cDHKdD/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-cDHKdD/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-cDHKdD/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-6xLd19/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-6xLd19/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-6xLd19/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-WQEPZh/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-WQEPZh/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-WQEPZh/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-JfQhq4/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-JfQhq4/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-JfQhq4/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-7Nx8wa/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-7Nx8wa/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-7Nx8wa/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-z868MA/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-z868MA/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-z868MA/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-YCk4qV/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-YCk4qV/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/143-layout/integrated-acceptance/test-results/invitation-history/originals-YCk4qV/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/setup-corrected-v2/focused/invitation-history/originals-tnXFkk/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/setup-corrected-v2/focused/invitation-history/originals-tnXFkk/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/setup-corrected-v2/focused/invitation-history/originals-tnXFkk/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/setup-corrected-v2/focused/invitation-history/originals-XwacAL/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/setup-corrected-v2/focused/invitation-history/originals-XwacAL/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/setup-corrected-v2/focused/invitation-history/originals-XwacAL/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/setup-corrected-v2/focused/invitation-history/originals-i8L41B/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/setup-corrected-v2/focused/invitation-history/originals-i8L41B/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/setup-corrected-v2/focused/invitation-history/originals-i8L41B/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/setup-corrected-v2/focused/invitation-history/originals-shG8QX/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/setup-corrected-v2/focused/invitation-history/originals-shG8QX/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/setup-corrected-v2/focused/invitation-history/originals-shG8QX/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/setup-corrected-v2/focused/invitation-history/originals-TEjCYh/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/setup-corrected-v2/focused/invitation-history/originals-TEjCYh/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/setup-corrected-v2/focused/invitation-history/originals-TEjCYh/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/setup-corrected-v2/focused/invitation-history/originals-09A7cG/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/setup-corrected-v2/focused/invitation-history/originals-09A7cG/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/setup-corrected-v2/focused/invitation-history/originals-09A7cG/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/focused/invitation-history/originals-sNzLIY/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/focused/invitation-history/originals-sNzLIY/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/focused/invitation-history/originals-sNzLIY/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/focused/invitation-history/originals-aXFP4C/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/focused/invitation-history/originals-aXFP4C/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/focused/invitation-history/originals-aXFP4C/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/focused/invitation-history/originals-GUymUD/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/focused/invitation-history/originals-GUymUD/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-acceptance-overlay1/focused/invitation-history/originals-GUymUD/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/integrated-main-preparation/integrated-main-run-v3/invitation-history/originals-7p8acB/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/integrated-main-preparation/integrated-main-run-v3/invitation-history/originals-7p8acB/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/integrated-main-preparation/integrated-main-run-v3/invitation-history/originals-7p8acB/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/integrated-main-preparation/integrated-main-run-v3/invitation-history/originals-Ei03a0/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/integrated-main-preparation/integrated-main-run-v3/invitation-history/originals-Ei03a0/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/integrated-main-preparation/integrated-main-run-v3/invitation-history/originals-Ei03a0/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/integrated-main-preparation/integrated-main-run-v3/invitation-history/originals-sfJ6XY/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/integrated-main-preparation/integrated-main-run-v3/invitation-history/originals-sfJ6XY/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/integrated-main-preparation/integrated-main-run-v3/invitation-history/originals-sfJ6XY/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/integrated-main-preparation/integrated-main-run-v3/invitation-history/originals-cXw2zP/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/integrated-main-preparation/integrated-main-run-v3/invitation-history/originals-cXw2zP/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/integrated-main-preparation/integrated-main-run-v3/invitation-history/originals-cXw2zP/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/integrated-main-preparation/integrated-main-run-v3/invitation-history/originals-prTN2w/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/integrated-main-preparation/integrated-main-run-v3/invitation-history/originals-prTN2w/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/integrated-main-preparation/integrated-main-run-v3/invitation-history/originals-prTN2w/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/integrated-main-preparation/integrated-main-run-v3/invitation-history/originals-nhzaQX/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/integrated-main-preparation/integrated-main-run-v3/invitation-history/originals-nhzaQX/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/integrated-main-preparation/integrated-main-run-v3/invitation-history/originals-nhzaQX/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-verification/focused/invitation-history/originals-VgWmpa/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-verification/focused/invitation-history/originals-VgWmpa/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-verification/focused/invitation-history/originals-VgWmpa/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-verification/focused/invitation-history/originals-Jh0Hog/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-verification/focused/invitation-history/originals-Jh0Hog/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-verification/focused/invitation-history/originals-Jh0Hog/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-verification/focused/invitation-history/originals-EbMZTp/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-verification/focused/invitation-history/originals-EbMZTp/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-verification/focused/invitation-history/originals-EbMZTp/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-verification/focused/invitation-history/originals-F4RSNG/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-verification/focused/invitation-history/originals-F4RSNG/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-verification/focused/invitation-history/originals-F4RSNG/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-verification/focused/invitation-history/originals-COn43u/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-verification/focused/invitation-history/originals-COn43u/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-verification/focused/invitation-history/originals-COn43u/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-verification/focused/invitation-history/originals-eaQJkz/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-verification/focused/invitation-history/originals-eaQJkz/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/browser-verification/focused/invitation-history/originals-eaQJkz/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/full/invitation-history/originals-UwPdWO/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/full/invitation-history/originals-UwPdWO/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/full/invitation-history/originals-UwPdWO/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/full/invitation-history/originals-IpSeUF/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/full/invitation-history/originals-IpSeUF/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/full/invitation-history/originals-IpSeUF/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/full/invitation-history/originals-DR8fx5/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/full/invitation-history/originals-DR8fx5/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/full/invitation-history/originals-DR8fx5/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v1/shard-1/invitation-history/originals-aZVIsR/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v1/shard-1/invitation-history/originals-aZVIsR/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v1/shard-1/invitation-history/originals-aZVIsR/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v1/shard-1/invitation-history/originals-7DQ1vD/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v1/shard-1/invitation-history/originals-7DQ1vD/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v1/shard-1/invitation-history/originals-7DQ1vD/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v1/shard-1/invitation-history/originals-jYYbVD/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v1/shard-1/invitation-history/originals-jYYbVD/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v1/shard-1/invitation-history/originals-jYYbVD/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v2/shard-1/invitation-history/originals-EjdvAV/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v2/shard-1/invitation-history/originals-EjdvAV/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v2/shard-1/invitation-history/originals-EjdvAV/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v2/shard-1/invitation-history/originals-HH2bo6/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v2/shard-1/invitation-history/originals-HH2bo6/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v2/shard-1/invitation-history/originals-HH2bo6/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v2/shard-1/invitation-history/originals-CRBaDh/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v2/shard-1/invitation-history/originals-CRBaDh/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v2/shard-1/invitation-history/originals-CRBaDh/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v2/shard-2/invitation-history/originals-Pvk4tz/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v2/shard-2/invitation-history/originals-Pvk4tz/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v2/shard-2/invitation-history/originals-Pvk4tz/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v2/shard-2/invitation-history/originals-WUZVD2/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v2/shard-2/invitation-history/originals-WUZVD2/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v2/shard-2/invitation-history/originals-WUZVD2/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v2/shard-2/invitation-history/originals-Nm5o5J/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v2/shard-2/invitation-history/originals-Nm5o5J/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/evidence/128-implementation/full-browser-matrix/sequential-shards-v2/shard-2/invitation-history/originals-Nm5o5J/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/145-exploration-ledger/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-layout-template-seal/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-layout-template-seal/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-layout-acceptance/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-layout-acceptance/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-layout-acceptance/scripts/factory_runtime/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-layout-core/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-layout-core/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/145-exploration-acceptance/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/128-built-api-acceptance/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/128-built-api-acceptance/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/145-exploration-acceptance-repaired-v1/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/145-exploration-acceptance-repaired-v1/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/128-domain-session/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/128-domain-session/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/128-domain-session/tests/unit/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/128-domain-session/scripts/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/128-domain-session/scripts/factory_runtime/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/128-invitation-integration/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/128-invitation-integration/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/128-invitation-integration/scripts/factory_runtime/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/145-exploration-core/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/145-exploration-native-acceptance/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/145-exploration-native-acceptance/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/145-exploration-native-acceptance/tests/unit/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/145-exploration-native-acceptance/scripts/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/145-exploration-native-acceptance/scripts/factory_runtime/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/128-current-compatibility/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-dy80rs/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-dy80rs/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-dy80rs/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-4O7XfY/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-4O7XfY/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-4O7XfY/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-Rd5Ls2/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-Rd5Ls2/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-Rd5Ls2/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-og3ZwC/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-og3ZwC/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-og3ZwC/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-5udCVx/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-5udCVx/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-5udCVx/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-cDHKdD/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-cDHKdD/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-cDHKdD/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-6xLd19/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-6xLd19/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-6xLd19/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-WQEPZh/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-WQEPZh/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-WQEPZh/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-JfQhq4/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-JfQhq4/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-JfQhq4/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-7Nx8wa/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-7Nx8wa/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-7Nx8wa/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-z868MA/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-z868MA/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-z868MA/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-YCk4qV/schema1/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-YCk4qV/schema3/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/143-integrated-acceptance/test-results/invitation-history/originals-YCk4qV/schema2/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/145-exploration-fixture-repair-v2/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny/.penny-factory/worktrees/145-exploration-ui-acceptance/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny-evidence/ticket-36-2026-10-02/app-mount/check01/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny-evidence/ticket-36-2026-10-02/app-mount/check05/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny-evidence/ticket-36-2026-10-02/app-mount/check03/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny-evidence/ticket-36-2026-10-02/app-mount/check04/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny-evidence/ticket-36-2026-10-02/publication-guard-repair2/check02/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny-evidence/ticket-36-2026-10-02/publication-guard-repair2/check04/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny-evidence/ticket-36-2026-10-02/epoch-repair/check-01/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny-evidence/ticket-88-2026-10-02/production-npm-review/synthetic-a35fefda-ec82-4695-bf03-809c56c41075/app/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny-evidence/ticket-88-2026-10-02/production-npm-review/synthetic-a35fefda-ec82-4695-bf03-809c56c41075/other/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny-evidence/ticket-88-2026-10-02/production-npm-review/independent-paths-6OgpN6/fictional app/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny-evidence/ticket-88-2026-10-02/production-npm-review/independent-paths-6OgpN6/fictional tools/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny-evidence/ticket-88-2026-10-02/code-review/synthetic-probes-BojXeO/app/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny-evidence/ticket-88-2026-10-02/guards-review/synthetic-aff0901c-9281-4515-b620-b08790fda7d4/app/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny-evidence/ticket-88-2026-10-02/production-npm-repair/synthetic-4759f3b7-d29a-4d01-b32a-bf9d034b61bd/app/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny-evidence/ticket-88-2026-10-02/production-npm-repair/synthetic-4759f3b7-d29a-4d01-b32a-bf9d034b61bd/other/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny-evidence/ticket-88-2026-10-02/production-npm-repair/original-reproduction/synthetic-npm-config-68bcb000-5fa7-4366-8b28-ae0e8a36567e/app/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny-evidence/ticket-88-2026-10-02/environment-review/synthetic-f1cea9f0-247d-42f0-b995-fdf601a4b8a0/app/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny-evidence/ticket-88-2026-10-02/environment-review/synthetic-f1cea9f0-247d-42f0-b995-fdf601a4b8a0/other/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny-evidence/ticket-88-2026-10-02/environment-review/synthetic-npm-config-d52663f5-2481-4c13-ad73-5c76cac59cb1/app/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny-evidence/ticket-88-2026-10-02/environment-repair/synthetic-40572263-1a91-495a-a488-35fcaad7aa51/app/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny-evidence/ticket-88-2026-10-02/environment-repair/synthetic-40572263-1a91-495a-a488-35fcaad7aa51/other/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny-evidence/ticket-33-2026-10-02/final-acceptance-check/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "penny-hook-review-79/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "reactive_space/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "reactive_space/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "reactive_space/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "reactive_space/spacetimedb/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "reactive_space/spacetimedb/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "resume/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "resume/skills/resume/references/vendor",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "resume-skill/.venv",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "resume-skill/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "resume-skill/references/vendor",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.pytest_cache",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.ruff_cache",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.venv",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/vendor",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/web/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/tests/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/tests/unit/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/tests/integration/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/tests/operator/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/ontology/video-profile-0.3/vendor",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/ontology/video-profile-0.2/vendor",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/scripts/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/scripts/factory_runtime/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/venv",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/encodings/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/unittest/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/tomllib/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/pathlib/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/multiprocessing/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/urllib/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/zipfile/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/zipfile/_path/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/site-packages/pip/_internal/operations/build",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/html/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/xml/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/xml/parsers/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/xml/sax/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/xml/dom/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/xml/etree/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/json/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/http/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/sqlite3/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/concurrent/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/concurrent/futures/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/sysconfig/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/importlib/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/importlib/resources/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/importlib/metadata/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/collections/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/asyncio/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/logging/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/email/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/python/lib/python3.13/re/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "semantic_search/.tools/uv-cache/wheels-v6/pypi/ruff/0.16.8-py3-none-macosx_11_0_arm64",
+      "reason": "symlink-not-followed",
+      "target": "../../../archive-v0/uO_1-wZHoADDmnRG"
+    },
+    {
+      "path": "semantic_search/.tools/uv-cache/wheels-v6/pypi/packaging/26.3-py3-none-any",
+      "reason": "symlink-not-followed",
+      "target": "../../../archive-v0/fZWL2yclGEykCeif"
+    },
+    {
+      "path": "semantic_search/.tools/uv-cache/wheels-v6/pypi/wcwidth/0.9.1-cp310-abi3-macosx_11_0_arm64",
+      "reason": "symlink-not-followed",
+      "target": "../../../archive-v0/-2VEx_Xk35iWfiWz"
+    },
+    {
+      "path": "semantic_search/.tools/uv-cache/wheels-v6/pypi/s3transfer/0.14.0-py3-none-any",
+      "reason": "symlink-not-followed",
+      "target": "../../../archive-v0/qt5-vGwtqMGqz8lk"
+    },
+    {
+      "path": "semantic_search/.tools/uv-cache/wheels-v6/pypi/pygments/2.21.0-py3-none-any",
+      "reason": "symlink-not-followed",
+      "target": "../../../archive-v0/5XFdhAXougn-XQ3q"
+    },
+    {
+      "path": "semantic_search/.tools/uv-cache/wheels-v6/pypi/python-dateutil/2.9.0.post0-py2.py3-none-any",
+      "reason": "symlink-not-followed",
+      "target": "../../../archive-v0/dQ9t40uieHwQ60Mf"
+    },
+    {
+      "path": "semantic_search/.tools/uv-cache/wheels-v6/pypi/pytest/9.1.1-py3-none-any",
+      "reason": "symlink-not-followed",
+      "target": "../../../archive-v0/MmIMF7dunh1TJH9n"
+    },
+    {
+      "path": "semantic_search/.tools/uv-cache/wheels-v6/pypi/pyparsing/3.3.3-py3-none-any",
+      "reason": "symlink-not-followed",
+      "target": "../../../archive-v0/ujib1OTvh2tRMmO6"
+    },
+    {
+      "path": "semantic_search/.tools/uv-cache/wheels-v6/pypi/ty/0.0.84-py3-none-macosx_11_0_arm64",
+      "reason": "symlink-not-followed",
+      "target": "../../../archive-v0/nm_XH5PVpscJBLia"
+    },
+    {
+      "path": "semantic_search/.tools/uv-cache/wheels-v6/pypi/pyshacl/0.30.1-py3-none-any",
+      "reason": "symlink-not-followed",
+      "target": "../../../archive-v0/6V64h3qaekNTnzF7"
+    },
+    {
+      "path": "semantic_search/.tools/uv-cache/wheels-v6/pypi/rdflib/7.6.0-py3-none-any",
+      "reason": "symlink-not-followed",
+      "target": "../../../archive-v0/kr6wsRMEjq79qqjU"
+    },
+    {
+      "path": "semantic_search/.tools/uv-cache/wheels-v6/pypi/botocore/1.40.76-py3-none-any",
+      "reason": "symlink-not-followed",
+      "target": "../../../archive-v0/n9lzySwSE0GE313Y"
+    },
+    {
+      "path": "semantic_search/.tools/uv-cache/wheels-v6/pypi/owlrl/7.6.2-py3-none-any",
+      "reason": "symlink-not-followed",
+      "target": "../../../archive-v0/45P_W6iEpEPCAQcm"
+    },
+    {
+      "path": "semantic_search/.tools/uv-cache/wheels-v6/pypi/pluggy/1.6.0-py3-none-any",
+      "reason": "symlink-not-followed",
+      "target": "../../../archive-v0/9PEB5NqhGgtxf6_2"
+    },
+    {
+      "path": "semantic_search/.tools/uv-cache/wheels-v6/pypi/jmespath/1.1.0-py3-none-any",
+      "reason": "symlink-not-followed",
+      "target": "../../../archive-v0/gbw6-VlHFC1_BWko"
+    },
+    {
+      "path": "semantic_search/.tools/uv-cache/wheels-v6/pypi/urllib3/2.8.0-py3-none-any",
+      "reason": "symlink-not-followed",
+      "target": "../../../archive-v0/z4hWhTXsCdpAVw7x"
+    },
+    {
+      "path": "semantic_search/.tools/uv-cache/wheels-v6/pypi/six/1.17.0-py2.py3-none-any",
+      "reason": "symlink-not-followed",
+      "target": "../../../archive-v0/nUxkvSTqDh63qZmy"
+    },
+    {
+      "path": "semantic_search/.tools/uv-cache/wheels-v6/pypi/html5rdf/1.2.1-py2.py3-none-any",
+      "reason": "symlink-not-followed",
+      "target": "../../../archive-v0/AO47F9OEvY291dR7"
+    },
+    {
+      "path": "semantic_search/.tools/uv-cache/wheels-v6/pypi/iniconfig/2.3.0-py3-none-any",
+      "reason": "symlink-not-followed",
+      "target": "../../../archive-v0/vLSwz6zRVMYVTM5j"
+    },
+    {
+      "path": "semantic_search/.tools/uv-cache/wheels-v6/pypi/prettytable/3.18.0-py3-none-any",
+      "reason": "symlink-not-followed",
+      "target": "../../../archive-v0/ycPIZs63Gea59mvg"
+    },
+    {
+      "path": "semantic_search/.tools/uv-cache/wheels-v6/pypi/boto3/1.40.74-py3-none-any",
+      "reason": "symlink-not-followed",
+      "target": "../../../archive-v0/I9Y7Fg7gpIFpopQm"
+    },
+    {
+      "path": "semantic_search/.tools/node/lib/node_modules",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "splunker/.venv",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "splunker/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "splunker/src/splunker/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "sudoku/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "svkg/.pytest_cache",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "svkg/.ruff_cache",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "svkg/.mypy_cache",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "svkg/.venv",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "svkg/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "svkg/scripts/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "svkg/qualification/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "svkg/qualification/s3/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "tclasen/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "udop/.pytest_cache",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "udop/dist",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "udop/.ruff_cache",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "udop/.venv",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "udop/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "udop/.cache",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "udop/tests/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "udop/scripts/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "udop/src/udop/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "udop/src/udop/migrations/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "udop/src/udop/migrations/versions/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "videos/.ruff_cache",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "videos/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "voldenites/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "voldenites/vendor",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "voldenites/formal/evidence/f11/build",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "voldenites/formal/evidence/f12/build",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "voldenites/formal/evidence/f13/build",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "voldenites/agent-org/factory/factory_tool/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "wired_to_survive/target",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "wired_to_survive/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "wired_to_survive/tests/factory_ops/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "wired_to_survive/tests/project_queue/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "wired_to_survive/tests/verification/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "wired_to_survive/tests/factory/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "wired_to_survive/scripts/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "wired_to_survive/scripts/factory_runtime/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "wired_to_survive/factory/vendor",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "wired_to_survive/factory/runner/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "work/.git",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "work/tests/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "work/scripts/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "work/scripts/evals/__pycache__",
+      "reason": "dependency-git-build-cache-directory"
+    },
+    {
+      "path": "workflow/.git",
+      "reason": "dependency-git-build-cache-directory"
+    }
+  ],
+  "candidate_count": 192163,
+  "unique_candidate_hashes": 139133,
+  "duplicate_candidate_instances": 53004,
+  "not_claimed": "No exhaustive semantic reading, raw backup, Git preservation, or deletion readiness.",
+  "root_nondirectory_entries": [
+    {
+      "path": ".DS_Store",
+      "bytes": 18436,
+      "disposition": "OS metadata excluded from learning; not a project"
+    }
+  ]
+}

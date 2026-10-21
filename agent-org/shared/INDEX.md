@@ -23,3 +23,5 @@ Start with [SESSION_LIFECYCLE](SESSION_LIFECYCLE.md) and [RECORD_FORMATS](RECORD
 - [Intent-to-outcome reconciliation](INTENT_RECONCILIATION.md)
 - [Separate scorecards and measurement health](SCORECARDS.md)
 - [Copyable schemas](templates/INDEX.md)
+
+- [Historical lessons from legacy organizations](LEGACY_LEARNINGS.md)

@@ -1,0 +1,254 @@
+{
+  "scope": "Penny 30 linked-worktree HEAD reflogs only; excludes branch/general reflogs and arbitrary dangling-object fsck.",
+  "rev_list_all_exit": 0,
+  "reachable_commit_count": 459,
+  "worktree_reflogs": {
+    "projects/penny/.penny-factory/worktrees/128-built-api-acceptance": {
+      "lines": 4,
+      "oids": [
+        "4d5abfdf0d8f3028de0312640e66631243bc8436",
+        "9f64b245676aab46ece62d1d558b341fa464b305",
+        "ec9fb19fca438de3d56cf5573f14b43376bd36cf"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/128-current-compatibility": {
+      "lines": 5,
+      "oids": [
+        "6ca4ca67cc91826e7f6e33963df5ec963852daf9",
+        "9f64b245676aab46ece62d1d558b341fa464b305",
+        "d640ed7365a5fb2adb5bf13678710f0bb5c0a92c",
+        "ec9fb19fca438de3d56cf5573f14b43376bd36cf"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/128-domain-session": {
+      "lines": 3,
+      "oids": [
+        "9f64b245676aab46ece62d1d558b341fa464b305",
+        "ec9fb19fca438de3d56cf5573f14b43376bd36cf"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/128-invitation-integration": {
+      "lines": 5,
+      "oids": [
+        "4d5abfdf0d8f3028de0312640e66631243bc8436",
+        "573bf3e300f12651597fa73c0646c76b66133915",
+        "5be47971ecba1687f3409193adbdb71c38f2852a",
+        "ec9fb19fca438de3d56cf5573f14b43376bd36cf"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/128-neutral-invitation": {
+      "lines": 2,
+      "oids": [
+        "ec9fb19fca438de3d56cf5573f14b43376bd36cf"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/128-retry-readiness": {
+      "lines": 3,
+      "oids": [
+        "573bf3e300f12651597fa73c0646c76b66133915",
+        "5be47971ecba1687f3409193adbdb71c38f2852a"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/139-layout-scope-review": {
+      "lines": 1,
+      "oids": [
+        "b45b5048b76272f43d5f2acd3150d4902cda2712"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/141-contract-review": {
+      "lines": 1,
+      "oids": [
+        "203caca3a03df1c13c9323004d0fcedd690ad2ce"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/141-contract-review-round2": {
+      "lines": 1,
+      "oids": [
+        "1473a875b871d1bff03fe9dcea5491959dd33445"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/141-layered-contract": {
+      "lines": 8,
+      "oids": [
+        "1473a875b871d1bff03fe9dcea5491959dd33445",
+        "203caca3a03df1c13c9323004d0fcedd690ad2ce",
+        "3c637fbf0286df225dfb22fd62017c7139d50434",
+        "7f70aad79d3d17288b76256538c1d01de914c456",
+        "89a9d6a351885823b76b47069d23af405bd2b9d1",
+        "ce71f3950abea81a0821e2fd635f32bd1fe76f1b",
+        "fc7ea87311ac16925fa5ac134416038ac76924a3"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/141-product-reconciliation": {
+      "lines": 5,
+      "oids": [
+        "16342ccc52864b1cc3a917b1c743280a18dbf1ff",
+        "26223e3d016e050a2ff29aae537f523a6ac62aff",
+        "2795f600fe395d09bb14c6476dccb41fec47a107",
+        "89a9d6a351885823b76b47069d23af405bd2b9d1"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/141-source-contract": {
+      "lines": 4,
+      "oids": [
+        "89a9d6a351885823b76b47069d23af405bd2b9d1",
+        "df3ef66be718c1a7216abcf4925e00f8b1f873e2",
+        "f72e81c6fd949d7ef78e25e0c0f7bed4135d6d64"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/143-integrated-acceptance": {
+      "lines": 1,
+      "oids": [
+        "0fe4aba481de07088dfe7a1647666662fdbea4bb"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/143-layout-acceptance": {
+      "lines": 6,
+      "oids": [
+        "4123913491aade8de1f96a4f37a26d1e583b1d7a",
+        "642aead755351066127211618522ab76c35c23d0",
+        "7c35cad77cefe1c2863cf1b96445c56354325ea3",
+        "b45b5048b76272f43d5f2acd3150d4902cda2712",
+        "c5de34ec86671efb8ab364a184f258e091029f2b"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/143-layout-core": {
+      "lines": 3,
+      "oids": [
+        "4123913491aade8de1f96a4f37a26d1e583b1d7a",
+        "b45b5048b76272f43d5f2acd3150d4902cda2712"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/143-layout-review": {
+      "lines": 1,
+      "oids": [
+        "c5de34ec86671efb8ab364a184f258e091029f2b"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/143-layout-template-seal": {
+      "lines": 4,
+      "oids": [
+        "4123913491aade8de1f96a4f37a26d1e583b1d7a",
+        "b45b5048b76272f43d5f2acd3150d4902cda2712",
+        "da3870205987f854ba3241089047e8a3065d2753"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/145-exploration-acceptance": {
+      "lines": 4,
+      "oids": [
+        "0fe4aba481de07088dfe7a1647666662fdbea4bb",
+        "599f400029573af9cccec6f760dfbd5dee15a524",
+        "7e5d0f55bc5e10e42222ffa9b946e422a6f8bcec"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/145-exploration-acceptance-repaired-v1": {
+      "lines": 4,
+      "oids": [
+        "0fe4aba481de07088dfe7a1647666662fdbea4bb",
+        "cfc264e8bc88c1484e26e92b635f6f94aa6c64f8",
+        "d10c7aa8a6528cc29a07df8c65a2ea04c20548cd"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/145-exploration-core": {
+      "lines": 3,
+      "oids": [
+        "0fe4aba481de07088dfe7a1647666662fdbea4bb",
+        "7e5d0f55bc5e10e42222ffa9b946e422a6f8bcec"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/145-exploration-fixture-repair-v2": {
+      "lines": 7,
+      "oids": [
+        "0fe4aba481de07088dfe7a1647666662fdbea4bb",
+        "d10c7aa8a6528cc29a07df8c65a2ea04c20548cd",
+        "dc15219f51df036afbab8740081020e1ef41d221",
+        "e2a32fda3530c748982859c33c1696f95f44a01d"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/145-exploration-ledger": {
+      "lines": 5,
+      "oids": [
+        "0fe4aba481de07088dfe7a1647666662fdbea4bb",
+        "4cab6283d9c97f58c60ed6566776eb0f8be59494",
+        "599f400029573af9cccec6f760dfbd5dee15a524",
+        "75aee10d84d86b33951bc5baaeb0ddc34a782155"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/145-exploration-native-acceptance": {
+      "lines": 5,
+      "oids": [
+        "0fe4aba481de07088dfe7a1647666662fdbea4bb",
+        "837612b1413775307520608d2f05582f4e5a0cfb",
+        "94f461f0de8ee325a6356a4792eeea8de3451976",
+        "e73267fbb3e7eb0b4c3d024362084b7390999791"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/145-exploration-ui-acceptance": {
+      "lines": 5,
+      "oids": [
+        "0fe4aba481de07088dfe7a1647666662fdbea4bb",
+        "4cab6283d9c97f58c60ed6566776eb0f8be59494",
+        "599f400029573af9cccec6f760dfbd5dee15a524",
+        "e73267fbb3e7eb0b4c3d024362084b7390999791"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/145-native-oracle-repair-v1": {
+      "lines": 4,
+      "oids": [
+        "0fe4aba481de07088dfe7a1647666662fdbea4bb",
+        "837612b1413775307520608d2f05582f4e5a0cfb",
+        "cfc264e8bc88c1484e26e92b635f6f94aa6c64f8"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/145-rendered-transfer-repair-v1": {
+      "lines": 4,
+      "oids": [
+        "0fe4aba481de07088dfe7a1647666662fdbea4bb",
+        "127e1bc5cc0d7d6b5c3c89fab308217423978e5c",
+        "837612b1413775307520608d2f05582f4e5a0cfb"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/80-current-main": {
+      "lines": 3,
+      "oids": [
+        "69f5f01978d5ab51a7b80700046abab7bbe55444",
+        "ec9fb19fca438de3d56cf5573f14b43376bd36cf"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/80-runner-cleanup": {
+      "lines": 4,
+      "oids": [
+        "0e4a7e0bb66524791c7dc46294bc70d01ad2b27b",
+        "69f5f01978d5ab51a7b80700046abab7bbe55444",
+        "ec9fb19fca438de3d56cf5573f14b43376bd36cf"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/80-runner-diagnostic": {
+      "lines": 3,
+      "oids": [
+        "69f5f01978d5ab51a7b80700046abab7bbe55444",
+        "ec9fb19fca438de3d56cf5573f14b43376bd36cf"
+      ]
+    },
+    "projects/penny/.penny-factory/worktrees/80-runner-ownership": {
+      "lines": 4,
+      "oids": [
+        "0e4a7e0bb66524791c7dc46294bc70d01ad2b27b",
+        "9133c08a57bf2a0ac0a466482ff3d732e7822020",
+        "ec9fb19fca438de3d56cf5573f14b43376bd36cf"
+      ]
+    }
+  },
+  "reflog_oids_not_reachable_from_any_current_local_ref": [
+    {
+      "oid": "16342ccc52864b1cc3a917b1c743280a18dbf1ff",
+      "type": "commit",
+      "type_exit": 0,
+      "summary": "16342ccc52864b1cc3a917b1c743280a18dbf1ff 1791193028 docs: qualify exact source-contract supersession headings (refs #141)",
+      "summary_exit": 0,
+      "worktrees": [
+        "projects/penny/.penny-factory/worktrees/141-product-reconciliation"
+      ]
+    }
+  ]
+}
