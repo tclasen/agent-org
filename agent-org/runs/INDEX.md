@@ -2,7 +2,7 @@
 
 Individual records own scope, current status and historical evidence.
 
-- [RUN-000001 — RUN-000001](RUN-000001.md) — in_progress
+- [RUN-000001 — RUN-000001](RUN-000001.md) — completed
 - [RUN-000002 — RUN-000002](RUN-000002.md) — completed
 - [RUN-000003 — RUN-000003](RUN-000003.md) — completed
 - [RUN-000004 — RUN-000004](RUN-000004.md) — completed
@@ -27,3 +27,6 @@ Individual records own scope, current status and historical evidence.
 - [RUN-000023 — Final installation Git binding review](RUN-000023.md) — completed
 - [RUN-000024 — Release evidence Reviewer](RUN-000024.md) — completed
 - [RUN-000025 — Release evidence Chief of Staff](RUN-000025.md) — completed
+- [RUN-000026 — Root entrypoint Reviewer verification](RUN-000026.md) — completed
+- [RUN-000027 — Root entrypoint Chief of Staff verification](RUN-000027.md) — completed
+- [RUN-000028 — Corrected root entrypoint review](RUN-000028.md) — completed

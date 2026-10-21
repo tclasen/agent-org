@@ -11,7 +11,7 @@
 
 ## Start the Coordinator
 
-From `/Users/Shared`, start a Codex session and request: “Read agent-org/AGENTS.md, initialize the Coordinator, reconcile open work and interrupted runs, and report the next authorized action.” This explicit loading step is required; merely starting at the workspace root does not automatically load nested instructions. See [session lifecycle](../shared/SESSION_LIFECYCLE.md).
+Start Codex from `/Users/Shared`. The [root AGENTS.md](../../AGENTS.md) entrypoint loads the organization and initializes the Coordinator, without cd into agent-org or an additional activation prompt. Delegated workers retain their assigned roles. If a client does not load AGENTS.md, explicitly reading the root entrypoint remains a fallback. See [session lifecycle](../shared/SESSION_LIFECYCLE.md).
 
 ## Before enrollment
 
@@ -54,3 +54,5 @@ Keep project-specific instructions and canonical tickets/specifications in their
 - [REQ-000007: Project enrollment and overrides](../requirements/cross-boundary/REQ-000007.md)
 - [REQ-000042: Source-grounded enrollment guide](../requirements/organization/REQ-000042.md)
 - [Installation authorization](../approvals/APP-000001.md)
+
+Startup guidance amended by APP-000008 / REQ-000043; other enrollment authority and project boundaries are unchanged. Prior guide revision and acceptance hashes remain historical evidence.

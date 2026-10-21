@@ -1,6 +1,6 @@
 # Complete installation file structure
 
-Actual source and evidence paths exclude ignored execution checkouts and bytecode. Host integration is limited to `.gitignore` and `.github/workflows/agent-org.yml`. No root AGENTS or harness directory is installed.
+Actual source and evidence paths exclude ignored execution checkouts and bytecode. Host integration consists of root `AGENTS.md` (startup bridge), `.gitignore` and `.github/workflows/agent-org.yml`. Canonical organization state remains under agent-org; no harness directory is installed.
 
 ```text
 agent-org/
@@ -38,6 +38,8 @@ agent-org/
 │   ├── APP-000005.md
 │   ├── APP-000006.md
 │   ├── APP-000007.md
+│   ├── APP-000008.md
+│   ├── APP-000009.md
 │   └── INDEX.md
 ├── artifacts/
 │   ├── ART-000001.md
@@ -447,6 +449,8 @@ agent-org/
 │   │   ├── INDEX.md
 │   │   ├── INSTALLATION_INTEGRATION.md
 │   │   ├── INSTALLATION_RELEASE_MANIFEST.md
+│   │   ├── ROOT_ENTRYPOINT.md
+│   │   ├── ROOT_ENTRYPOINT_RELEASE_MANIFEST.md
 │   │   ├── initial-ci.json
 │   │   ├── live-command-capture.json
 │   │   ├── scorecard-observations.json
@@ -524,7 +528,8 @@ agent-org/
 │   │   ├── REQ-000021.md
 │   │   ├── REQ-000024.md
 │   │   ├── REQ-000029.md
-│   │   └── REQ-000030.md
+│   │   ├── REQ-000030.md
+│   │   └── REQ-000043.md
 │   ├── organization/
 │   │   ├── REQ-000001.md
 │   │   ├── REQ-000002.md
@@ -588,7 +593,10 @@ agent-org/
 │   ├── RUN-000022.md
 │   ├── RUN-000023.md
 │   ├── RUN-000024.md
-│   └── RUN-000025.md
+│   ├── RUN-000025.md
+│   ├── RUN-000026.md
+│   ├── RUN-000027.md
+│   └── RUN-000028.md
 ├── shared/
 │   ├── templates/
 │   │   ├── BOUNDARY_ASSESSMENT.md
@@ -613,7 +621,8 @@ agent-org/
 ├── tasks/
 │   ├── cross-boundary/
 │   │   ├── TASK-000001.md
-│   │   └── TASK-000006.md
+│   │   ├── TASK-000006.md
+│   │   └── TASK-000025.md
 │   ├── organization/
 │   │   ├── TASK-000002.md
 │   │   ├── TASK-000003.md
@@ -631,13 +640,16 @@ agent-org/
 │   │   ├── TASK-000020.md
 │   │   ├── TASK-000021.md
 │   │   ├── TASK-000022.md
-│   │   └── TASK-000024.md
+│   │   ├── TASK-000024.md
+│   │   ├── TASK-000026.md
+│   │   └── TASK-000028.md
 │   ├── project/
 │   │   ├── TASK-000005.md
 │   │   ├── TASK-000007.md
 │   │   ├── TASK-000010.md
 │   │   ├── TASK-000016.md
-│   │   └── TASK-000023.md
+│   │   ├── TASK-000023.md
+│   │   └── TASK-000027.md
 │   ├── INDEX.md
 │   └── TEMPLATE.md
 ├── triggers/

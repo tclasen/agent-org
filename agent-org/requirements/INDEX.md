@@ -44,3 +44,5 @@ Individual records own current status, scope and evidence; archived references d
 - [REQ-000040 — REQ-000040](organization/REQ-000040.md) — accepted
 - [REQ-000041 — Synthetic title normalization requirement](project/REQ-000041.md) — accepted
 - [REQ-000042 — Source-grounded enrollment guide qualification](organization/REQ-000042.md) — accepted
+
+- [REQ-000043 — Root organization startup bridge](cross-boundary/REQ-000043.md) — accepted operator amendment APP-000008.

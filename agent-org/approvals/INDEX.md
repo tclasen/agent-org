@@ -9,3 +9,5 @@ Individual records own scope, current status and historical evidence.
 - [APP-000005 — Independent validator correction eligibility approval](APP-000005.md) — approved
 - [APP-000006 — Independent measurement1.0.1 adoption eligibility](APP-000006.md) — approved
 - [APP-000007 — Independent release evidence approval](APP-000007.md) — approved
+- [APP-000008 — Operator final acceptance and root entrypoint amendment](APP-000008.md) — approved
+- [APP-000009 — Independent root entrypoint adoption approval](APP-000009.md) — approved

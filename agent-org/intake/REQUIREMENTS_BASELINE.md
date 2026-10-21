@@ -1,6 +1,6 @@
-# Requirements baseline v0.1 — implementation approved; final acceptance pending
+# Requirements baseline v0.1 — implementation approved; operator accepted; root startup amendment
 
-Implementation approval recorded in [APP-000001](../approvals/APP-000001.md). Exact approved v0.1 is preserved under approved-v0.1/. Final acceptance remains pending.
+Implementation approval recorded in [APP-000001](../approvals/APP-000001.md). Exact approved v0.1 is preserved under approved-v0.1/. Final acceptance is recorded in APP-000008; the same grant authorizes the root startup bridge.
 - Target System: organization
 - Change Classification: organization
 - Authorized Scope: Current approved installation contract and evidence view under agent-org/intake; APP-000001 defines operational scope.
@@ -30,7 +30,7 @@ The row supplies Target System, Affected Paths or Resources, Owning Role, Relate
 | ID / related requirement | Target System | Owning Role | Affected Paths or Resources | Requirement | Acceptance criterion / evidence |
 | --- | --- | --- | --- | --- | --- |
 | REQ-000001 | organization | Coordinator | agent-org/ | **Classify every substantive request before admission:** Record intended target; clarify ambiguity; status/clarification create no mutation tasks. | AC-000001: Five-way classification and ambiguous-request live scenarios; all ten boundary scenarios. |
-| REQ-000002 | organization | Chief of Staff | agent-org/ | **Single organization namespace:** Keep durable organization records in Markdown under agent-org; native telemetry/program exceptions only; no root AGENTS/harness directory or replacement runtime. | AC-000002: Namespace scan, record-type validation, directory review. |
+| REQ-000002 | organization | Chief of Staff | agent-org/ | **Single organization namespace:** Keep durable organization records in Markdown under agent-org; native telemetry/program exceptions only; root AGENTS.md startup bridge permitted by APP-000008 / REQ-000043; no harness directory or replacement runtime. | AC-000002: Namespace scan, record-type validation, directory review. |
 | REQ-000005 | organization | Coordinator | agent-org/agents/ and workflows/ | **General-purpose work:** Route software, research, analysis, writing, operations, planning and organizational tasks through authorized native tools. | AC-000005: Representative software, research and writing/planning task trials. |
 | REQ-000006 | organization | Coordinator | agent-org/intents/, tasks/, artifacts/ | **Intent and outcome reconciliation:** Bind user intent to requirements and evidence; do not accept worker completion as user satisfaction. | AC-000006: Mismatch/reopen and successful reconciliation scenarios. |
 | REQ-000008 | organization | Chief of Staff | agent-org/ | **Autonomous recursive self-improvement:** Autonomously observe, propose, plan, experiment, independently approve and promote proven organization changes through PRs within inherited authority. | AC-000008: Actual harmless governed correction plus promotion/rejection/inconclusive tests. |
@@ -97,8 +97,12 @@ Core capabilities to install are detailed in ACCEPTANCE_CONTRACT.md. Exclusions 
 
 ## Approval
 
-Operator approval: PENDING. Approved revision/hash: PENDING. Approval source/time: PENDING. Material changes reopen affected approvals. Initial installation acceptance is distinct from baseline approval.
+Operator approval: APP-000001 initial baseline; APP-000008 final acceptance and root startup amendment. Approved v0.1 revision/hash/source are preserved in APP-000001; current root amendment and operator acceptance source are APP-000008. Material changes reopen affected approvals. Initial installation acceptance is distinct from baseline approval.
 
 ## Current evidence view
 
 Implementation approval is complete under APP-000001. Read [installation results](INSTALLATION_RESULTS.md), task/run/approval records and [final report](../artifacts/INSTALLATION_REPORT.md) for current outcomes. Original approved wording and hashes remain immutable in approved-v0.1/. Operator final acceptance remains separate.
+
+## Current operator disposition
+
+APP-000008 accepts the delivered installation and ten post-installation checks, and explicitly authorizes the root AGENTS.md bridge. TASK-000025 tracks the amendment through independent review and normal PR integration; prior snapshots remain historical.

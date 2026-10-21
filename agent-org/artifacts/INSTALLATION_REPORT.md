@@ -7,9 +7,9 @@
 - Owning Role: Coordinator
 - Related Requirements: REQ-000001 through REQ-000042
 - Related Tasks: TASK-000001, TASK-000006, TASK-000008, TASK-000021
-- Approval Requirements: APP-000001; final operator acceptance pending
+- Approval Requirements: APP-000001; APP-000008 final operator acceptance and root-entrypoint amendment
 
-Current state: **INCOMPLETE_OR_BLOCKED**. Implementation, independent qualification and PR integration are verified; the post-installation gap interview and final operator acceptance remain pending. This report describes observed evidence, not predicted acceptance.
+State: **FULLY_ACCEPTED** for the delivered installation under APP-000008. The separately authorized root-entrypoint amendment is tracked by TASK-000025; its integration evidence is recorded in factory/reports/ROOT_ENTRYPOINT.md.
 
 | Required topic | Installed design, actual evidence or explicit limit |
 | --- | --- |
@@ -35,10 +35,10 @@ Current state: **INCOMPLETE_OR_BLOCKED**. Implementation, independent qualificat
 | 20 Quality gates | Record/scope/approval/evidence validation and positive/negative tests exist. Final RUN-000019 passed 85 tests, original22/58 replays, six independent regressions and30 restoration tests; fresh RUN-000020 passed120 additional cases. Earlier failed candidates remain retained. Final hosted CI39677207668 passed85 tests at exact head947bf6028817869ab061a1e5ca4ad46d624fd62a; RUN-000023 independently verified source and CI binding. |
 | 21 Self-improvement controls | Observation, evidence, preregistration, baseline comparison, guardrails, independent review, distinct approval, PR delivery and rollback bound improvement. EXP-000001 demonstrates a bounded repair under the original normative contract. Gate1.0.0 and intermediate1.0.1 candidates were rejected and retained. Exact final1.0.1 is independently qualified by APP-000006 for PR adoption. No change may grant itself authority or rewrite its scoreboard. |
 | 22 Executed tests | The [70-scenario matrix](../intake/INSTALLATION_RESULTS.md) distinguishes actual workers, executed synthetic tests and pending acceptance. Raw reports preserve failures, versions, hashes, exit codes and elapsed-time proxies. A documented design is not a test pass. |
-| 23 Known limitations | Startup requires an explicit prompt. Autonomy operates during active sessions; there is no 24/7 scheduler, background runtime, universal interception, trusted actual-model cost feed, hostile-worker isolation or production deployment evidence. |
-| 24 Open gaps | Git-head binding, hosted CI and merge verification passed. Only the operator gap interview/final acceptance remain pending. The code and root integration have separate independent acceptance decisions. Real repositories, production services and ticket systems require separately authorized enrollment. |
-| 25 Operator acceptance | APP-000001 approves the initial contract, not future outcomes. Post-installation gap responses and final operator acceptance remain pending. Only the operator can accept the installation as complete or agree to a limited installation. |
-| 26 Start Coordinator | From /Users/Shared request: “Read agent-org/AGENTS.md, initialize the Coordinator, reconcile open work and interrupted runs, and report the next authorized action.” See the [startup lifecycle](../shared/SESSION_LIFECYCLE.md). |
+| 23 Known limitations | Root AGENTS.md now supplies startup instructions from /Users/Shared under APP-000008; see amendment evidence. Autonomy operates during active sessions; there is no 24/7 scheduler, background runtime, universal interception, trusted actual-model cost feed, hostile-worker isolation or production deployment evidence. |
+| 24 Open gaps | Git-head binding, hosted CI and merge verification passed. Operator gap interview/final acceptance is complete under APP-000008. Root entrypoint amendment has its own scoped review. The code and root integration have separate independent acceptance decisions. Real repositories, production services and ticket systems require separately authorized enrollment. |
+| 25 Operator acceptance | APP-000001 approves the initial contract, not future outcomes. APP-000008 records accepted gap responses and final operator acceptance. Only the operator can accept the installation as complete or agree to a limited installation. |
+| 26 Start Coordinator | Start Codex from /Users/Shared; root AGENTS.md loads the organization without cd into agent-org or an extra activation prompt. See the [startup lifecycle](../shared/SESSION_LIFECYCLE.md). |
 
 ## Organization changes
 
@@ -68,4 +68,8 @@ The staging audit also caught a copied temporary rollback checkout. It was remov
 
 ## Release evidence
 
-[Integration evidence](../factory/reports/INSTALLATION_INTEGRATION.md) binds the independent decisions, actual final CI, merge and post-merge content. Operator acceptance remains pending; prior initial-contract acceptance is preserved separately.
+[Integration evidence](../factory/reports/INSTALLATION_INTEGRATION.md) binds the independent decisions, actual final CI, merge and post-merge content. APP-000008 records actual final operator acceptance; initial-contract acceptance remains separately preserved.
+
+## Root entrypoint amendment
+
+APP-000008 explicitly supersedes the earlier no-root-AGENTS restriction for a thin startup bridge only. REQ-000043 and TASK-000025 separate organization, host-project and integration obligations. Current behavior and evidence: [root entrypoint verification](../factory/reports/ROOT_ENTRYPOINT.md). Original snapshots and observed historical tests remain unchanged.

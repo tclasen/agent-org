@@ -1,6 +1,6 @@
-# Installation plan v0.1 — awaiting implementation authorization
+# Installation plan v0.1 — implemented and operator accepted; root amendment authorized
 
-Implementation approval recorded in [APP-000001](../approvals/APP-000001.md). Exact approved v0.1 is preserved under approved-v0.1/. Final acceptance remains pending.
+Implementation approval recorded in [APP-000001](../approvals/APP-000001.md). Exact approved v0.1 is preserved under approved-v0.1/. Final acceptance is recorded in APP-000008; the same grant authorizes the root startup bridge.
 - Target System: organization
 - Change Classification: organization
 - Authorized Scope: Current approved installation contract and evidence view under agent-org/intake; APP-000001 defines operational scope.
@@ -112,3 +112,7 @@ Operator authorization: APP-000001. Exact approved document hashes/source are re
 ## Current evidence view
 
 Implementation approval is complete under APP-000001. Read [installation results](INSTALLATION_RESULTS.md), task/run/approval records and [final report](../artifacts/INSTALLATION_REPORT.md) for current outcomes. Original approved wording and hashes remain immutable in approved-v0.1/. Operator final acceptance remains separate.
+
+## Current operator disposition
+
+APP-000008 accepts the delivered installation and ten post-installation checks, and explicitly authorizes the root AGENTS.md bridge. TASK-000025 tracks the amendment through independent review and normal PR integration; prior snapshots remain historical.
