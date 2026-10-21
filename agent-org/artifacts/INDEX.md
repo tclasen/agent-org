@@ -1,6 +1,6 @@
 # Artifacts registry
 
-Individual records own their current status, scope, authority and evidence. Archived snapshots and references do not allocate new identifiers.
+Individual records own current status, scope and evidence; archived references do not allocate IDs.
 
 - [ART-000001 — Git bootstrap evidence](ART-000001.md)
 - [ART-000002 — Governance/instrumentation review candidate](ART-000002.md)

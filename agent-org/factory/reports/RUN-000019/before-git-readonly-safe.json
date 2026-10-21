@@ -1,0 +1,13 @@
+{
+  "command": [
+    "git",
+    "-c",
+    "safe.directory=/Users/Shared",
+    "status",
+    "--porcelain=v1",
+    "--untracked-files=all"
+  ],
+  "exit": 0,
+  "stdout": "A  .github/workflows/agent-org.yml\nA  .gitignore\n",
+  "stderr": ""
+}

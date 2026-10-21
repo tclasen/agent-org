@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-21T21:08:22.964928+00:00",
+  "run19_manifest_sha256": "bfc056e0575a261e78a70680c769c89437960b04d7800075013b1ca97fb28a1f",
+  "run19_artifacts_verified": 52,
+  "previous_factory_inventory_count": 320,
+  "changed_existing_paths": [
+    "factory/benchmarks/efficiency.json",
+    "factory/benchmarks/repair.json",
+    "factory/events/installation.jsonl",
+    "factory/quality-gates/improvement.py",
+    "factory/tests/test_gate_regressions.py"
+  ],
+  "ledger_old_prefix_hash": "dbf69c58ad36ea2729ae9627646065a7b3df947aff0c30f4602271a7eaa697e7",
+  "ledger_current_hash": "0b5667aa636fcf0a0c5b7bc3794ecd03b52465cb49f513e830d565acb00ed8db",
+  "ledger_events_validated": 4,
+  "root_event_ids": [
+    "EVT-000003",
+    "EVT-000004"
+  ],
+  "attribution": "Coordinator explicitly declared RUN1/TASK5/APP1 authorship. Local chain/prefix/identities verified; external GitHub claims not independently fetched in read-only no-network review.",
+  "scope_failure_preserved": "b500d5f3fcde104ad2b891fd93c1fcd09af48e799ac6eb872c77a53b274e583e"
+}

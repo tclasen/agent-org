@@ -1,6 +1,6 @@
 # Capabilities registry
 
-Individual records own their current status, scope, authority and evidence. Archived snapshots and references do not allocate new identifiers.
+Individual records own current status, scope and evidence; archived references do not allocate IDs.
 
 - [CAP-000001 — CAP-000001 — Classification and reconciliation](CAP-000001.md) — verified_supported_paths
 - [CAP-000002 — CAP-000002 — Multi-repository boundaries / profiles](CAP-000002.md) — verified_supported_paths

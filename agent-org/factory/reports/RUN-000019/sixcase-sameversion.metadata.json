@@ -1,0 +1,13 @@
+{
+  "args": [
+    "python3",
+    "-B",
+    "/private/tmp/RUN-000019-evidence/sixcase_sameversion_replay.py"
+  ],
+  "cwd": "/Users/Shared/agent-org",
+  "exit": 0,
+  "started_at": "2026-10-21T21:06:03.219274+00:00",
+  "seconds": 0.1879788750084117,
+  "stdout_sha256": "b812fb8b7e519eb70d1bbc1ff6676e0f29fb0ff521cfb9dde5197a1ebade27b8",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

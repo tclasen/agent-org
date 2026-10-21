@@ -251,6 +251,9 @@ def _evaluate(plan, evidence, approvals, context):
         observed_attempts = sum(len(pair[side + "_attempts"])
                                 for pair in pairs for side in ("baseline", "candidate")
                                 if isinstance(pair.get(side + "_attempts"), list))
+        complete_attempt_telemetry = len(pairs) == len(case_ids) and all(
+            isinstance(pair.get(side + "_attempts"), list) and pair[side + "_attempts"]
+            for pair in pairs for side in ("baseline", "candidate"))
         for pair in pairs:
             mismatch(type(stopping.get("seed")) is int and pair.get("order") != orders.get(pair.get("case_id")), "paired ordering differs from preregistration")
             values = [pair.get("baseline"), pair.get("candidate")]
@@ -276,10 +279,10 @@ def _evaluate(plan, evidence, approvals, context):
             baselines.append(baseline)
             differences.append(baseline - candidate if plan.get("direction") == "lower" else candidate - baseline)
         if _number(usage.get("attempts")):
-            # Missing rows leave the full count unknown. Supplied records always
-            # provide a lower bound; a complete workload must reconcile exactly.
+            # Missing rows or attempt containers leave the full count unknown.
+            # Observed records always bound usage; complete telemetry is exact.
             mismatch(usage["attempts"] < observed_attempts or
-                     (len(pairs) == len(case_ids) and usage["attempts"] != observed_attempts),
+                     (complete_attempt_telemetry and usage["attempts"] != observed_attempts),
                      "reported attempts differ from observable attempt records")
         if _number(budget.get("attempts")) and observed_attempts >= budget["attempts"]:
             missing.append("resource budget exhausted: attempts")

@@ -1,6 +1,6 @@
 # Requirements registry
 
-Individual records own their current status, scope, authority and evidence. Archived snapshots and references do not allocate new identifiers.
+Individual records own current status, scope and evidence; archived references do not allocate IDs.
 
 - [REQ-000001 — REQ-000001](organization/REQ-000001.md) — accepted
 - [REQ-000002 — REQ-000002](organization/REQ-000002.md) — accepted

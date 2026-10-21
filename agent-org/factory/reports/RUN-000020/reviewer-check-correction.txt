@@ -1,0 +1,2 @@
+Initial review script failed before behavioral execution: replacement of all version 1.0.0 fields was overbroad. Read actual diff; only spec.version changed. Narrowed verifier to spec literal; no candidate/evidence changes.
+Second verifier setup failed on before-inventory envelope lookup, before ledger checks. Corrected lookup to files key; candidate untouched.

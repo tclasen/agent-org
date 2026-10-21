@@ -1,6 +1,6 @@
 # Tasks registry
 
-Individual records own their current status, scope, authority and evidence. Archived snapshots and references do not allocate new identifiers.
+Individual records own current status, scope and evidence; archived references do not allocate IDs.
 
 - [TASK-000001 — TASK-000001 — Install governed organization](cross-boundary/TASK-000001.md) — in_progress
 - [TASK-000002 — TASK-000002 — Organization instructions and governance](organization/TASK-000002.md) — in_review
@@ -23,3 +23,5 @@ Individual records own their current status, scope, authority and evidence. Arch
 - [TASK-000019 — Independent validator correction promotion decision](organization/TASK-000019.md) — in_review
 - [TASK-000020 — Independent versioned measurement correction review](organization/TASK-000020.md) — ready
 - [TASK-000021 — Make final installation evidence clear and reviewable](organization/TASK-000021.md) — ready
+- [TASK-000022 — Independent final measurement adoption decision](organization/TASK-000022.md) — ready
+- [TASK-000023 — Independent host integration review](project/TASK-000023.md) — ready

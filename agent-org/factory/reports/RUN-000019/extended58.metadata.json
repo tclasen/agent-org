@@ -1,0 +1,12 @@
+{
+  "args": [
+    "python3",
+    "-B",
+    "factory/reports/RUN-000015/extended-replay.py"
+  ],
+  "exit": 0,
+  "started_at": "2026-10-21T21:05:32.849585+00:00",
+  "seconds": 0.2600889590103179,
+  "stdout_sha256": "6055130e4491960c313aaa3bc13a7ef5552de78f157de2c3bc523e6f1c222288",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

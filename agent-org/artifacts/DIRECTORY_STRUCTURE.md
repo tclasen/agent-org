@@ -1,6 +1,6 @@
 # Complete installation file structure
 
-This lists actual installation files intended for Git, including retained evidence and rejected baselines. Ignored temporary fixture checkouts and bytecode are excluded; they are not durable organization source. The two approved root integration files are `.gitignore` and `.github/workflows/agent-org.yml`. No root AGENTS or harness directory is added.
+Actual installation files below exclude ignored execution checkouts/bytecode. Root integration consists only of `.gitignore` and `.github/workflows/agent-org.yml`. No root AGENTS or harness configuration is added.
 
 ```text
 agent-org/
@@ -38,6 +38,7 @@ agent-org/
 │   ├── APP-000003.md
 │   ├── APP-000004.md
 │   ├── APP-000005.md
+│   ├── APP-000006.md
 │   └── INDEX.md
 ├── artifacts/
 │   ├── ART-000001.md
@@ -80,6 +81,10 @@ agent-org/
 │   ├── EVAL-000002.md
 │   ├── EVAL-000003.md
 │   ├── EVAL-000004.md
+│   ├── EVAL-000005.md
+│   ├── EVAL-000006.md
+│   ├── EVAL-000007.md
+│   ├── FAILURES.md
 │   └── INDEX.md
 ├── experiments/
 │   ├── EXP-000001.md
@@ -108,22 +113,30 @@ agent-org/
 │   │   │   └── test_improvement.py
 │   │   ├── guide-initial/
 │   │   │   └── PROJECT_ENROLLMENT.md
-│   │   └── measurement-candidate-attempt1/
+│   │   ├── measurement-candidate-attempt1/
+│   │   │   ├── benchmarks/
+│   │   │   │   ├── efficiency.json
+│   │   │   │   └── repair.json
+│   │   │   ├── dora/
+│   │   │   │   ├── DEFINITIONS.md
+│   │   │   │   ├── calculator.py
+│   │   │   │   └── fixtures/
+│   │   │   │       └── expected.json
+│   │   │   ├── quality-gates/
+│   │   │   │   ├── DEFINITION.md
+│   │   │   │   └── improvement.py
+│   │   │   └── tests/
+│   │   │       ├── test_dora.py
+│   │   │       ├── test_gate_regressions.py
+│   │   │       └── test_improvement.py
+│   │   └── measurement-candidate-retry1/
 │   │       ├── benchmarks/
 │   │       │   ├── efficiency.json
 │   │       │   └── repair.json
-│   │       ├── dora/
-│   │       │   ├── DEFINITIONS.md
-│   │       │   ├── calculator.py
-│   │       │   └── fixtures/
-│   │       │       └── expected.json
 │   │       ├── quality-gates/
-│   │       │   ├── DEFINITION.md
 │   │       │   └── improvement.py
 │   │       └── tests/
-│   │           ├── test_dora.py
-│   │           ├── test_gate_regressions.py
-│   │           └── test_improvement.py
+│   │           └── test_gate_regressions.py
 │   ├── benchmarks/
 │   │   ├── README.md
 │   │   ├── efficiency.json
@@ -153,6 +166,7 @@ agent-org/
 │   │   └── scorecards.py
 │   ├── provenance/
 │   │   ├── README.md
+│   │   ├── installation-environment.json
 │   │   └── installation-precommit.json
 │   ├── quality-gates/
 │   │   ├── DEFINITION.md
@@ -266,98 +280,6 @@ agent-org/
 │   │   │   ├── gate-repair-cli.metadata.json
 │   │   │   ├── gate-repair-cli.stderr.txt
 │   │   │   ├── gate-repair-cli.stdout.txt
-│   │   │   ├── isolated-restore/
-│   │   │   │   └── factory/
-│   │   │   │       ├── README.md
-│   │   │   │       ├── artifacts/
-│   │   │   │       │   ├── INDEX.md
-│   │   │   │       │   └── installation/
-│   │   │   │       │       ├── alpha-baseline.txt
-│   │   │   │       │       ├── behavior/
-│   │   │   │       │       │   └── coordinator-RUN-000010/
-│   │   │   │       │       │       ├── HANDOFF.md
-│   │   │   │       │       │       ├── artifact-manifest.json
-│   │   │   │       │       │       ├── checkpoint.json
-│   │   │   │       │       │       ├── controlled-scenarios.json
-│   │   │   │       │       │       ├── discovery/
-│   │   │   │       │       │       │   └── agents/
-│   │   │   │       │       │       │       ├── INDEX.md
-│   │   │   │       │       │       │       ├── architect/
-│   │   │   │       │       │       │       │   ├── AGENTS.md
-│   │   │   │       │       │       │       │   └── CONTEXT.md
-│   │   │   │       │       │       │       ├── chief-of-staff/
-│   │   │   │       │       │       │       │   ├── AGENTS.md
-│   │   │   │       │       │       │       │   └── CONTEXT.md
-│   │   │   │       │       │       │       ├── coordinator/
-│   │   │   │       │       │       │       │   ├── AGENTS.md
-│   │   │   │       │       │       │       │   └── CONTEXT.md
-│   │   │   │       │       │       │       ├── developer/
-│   │   │   │       │       │       │       │   ├── AGENTS.md
-│   │   │   │       │       │       │       │   └── CONTEXT.md
-│   │   │   │       │       │       │       ├── executor/
-│   │   │   │       │       │       │       │   ├── AGENTS.md
-│   │   │   │       │       │       │       │   └── CONTEXT.md
-│   │   │   │       │       │       │       ├── planner/
-│   │   │   │       │       │       │       │   ├── AGENTS.md
-│   │   │   │       │       │       │       │   └── CONTEXT.md
-│   │   │   │       │       │       │       ├── qualification-specialist/
-│   │   │   │       │       │       │       │   ├── AGENTS.md
-│   │   │   │       │       │       │       │   └── CONTEXT.md
-│   │   │   │       │       │       │       ├── researcher/
-│   │   │   │       │       │       │       │   ├── AGENTS.md
-│   │   │   │       │       │       │       │   └── CONTEXT.md
-│   │   │   │       │       │       │       └── reviewer/
-│   │   │   │       │       │       │           ├── AGENTS.md
-│   │   │   │       │       │       │           └── CONTEXT.md
-│   │   │   │       │       │       ├── discovery.json
-│   │   │   │       │       │       ├── recovery.json
-│   │   │   │       │       │       └── source-pins.json
-│   │   │   │       │       └── projects/
-│   │   │   │       │           ├── alpha/
-│   │   │   │       │           │   ├── test_title.py
-│   │   │   │       │           │   └── title.py
-│   │   │   │       │           └── beta/
-│   │   │   │       │               └── sentinel.md
-│   │   │   │       ├── benchmarks/
-│   │   │   │       │   ├── README.md
-│   │   │   │       │   ├── efficiency.json
-│   │   │   │       │   └── repair.json
-│   │   │   │       ├── dora/
-│   │   │   │       │   ├── DEFINITIONS.md
-│   │   │   │       │   ├── calculator.py
-│   │   │   │       │   ├── classification.json
-│   │   │   │       │   └── fixtures/
-│   │   │   │       │       ├── classification.json
-│   │   │   │       │       ├── events.json
-│   │   │   │       │       └── expected.json
-│   │   │   │       ├── events/
-│   │   │   │       │   ├── README.md
-│   │   │   │       │   └── installation.jsonl
-│   │   │   │       ├── instrumentation/
-│   │   │   │       │   ├── README.md
-│   │   │   │       │   ├── __init__.py
-│   │   │   │       │   ├── check.py
-│   │   │   │       │   ├── common.py
-│   │   │   │       │   ├── events.py
-│   │   │   │       │   ├── records.py
-│   │   │   │       │   ├── runner.py
-│   │   │   │       │   └── scope.py
-│   │   │   │       ├── metrics/
-│   │   │   │       │   ├── DEFINITIONS.md
-│   │   │   │       │   └── scorecards.py
-│   │   │   │       ├── provenance/
-│   │   │   │       │   ├── README.md
-│   │   │   │       │   └── installation-precommit.json
-│   │   │   │       ├── quality-gates/
-│   │   │   │       │   ├── DEFINITION.md
-│   │   │   │       │   └── improvement.py
-│   │   │   │       └── tests/
-│   │   │   │           ├── test_dora.py
-│   │   │   │           ├── test_events.py
-│   │   │   │           ├── test_improvement.py
-│   │   │   │           ├── test_records.py
-│   │   │   │           ├── test_runner.py
-│   │   │   │           └── test_validator_regressions.py
 │   │   │   ├── isolated-restore.metadata.json
 │   │   │   ├── isolated-restore.stderr.txt
 │   │   │   ├── isolated-restore.stdout.txt
@@ -420,6 +342,112 @@ agent-org/
 │   │   │   ├── retained-original.metadata.json
 │   │   │   ├── retained-original.stderr.txt
 │   │   │   └── retained-original.stdout.jsonl
+│   │   ├── RUN-000017/
+│   │   │   ├── REVIEW.md
+│   │   │   ├── dora.diff
+│   │   │   ├── dora_definition.diff
+│   │   │   ├── evidence-manifest.json
+│   │   │   ├── extended58.metadata.json
+│   │   │   ├── extended58.stderr
+│   │   │   ├── extended58.stdout
+│   │   │   ├── full-suite.metadata.json
+│   │   │   ├── full-suite.stderr
+│   │   │   ├── full-suite.stdout
+│   │   │   ├── gate.diff
+│   │   │   ├── gate_definition.diff
+│   │   │   ├── independent-results.json
+│   │   │   ├── independent_checks.py
+│   │   │   ├── missing-attempts-results.json
+│   │   │   ├── missing_attempts_repro.py
+│   │   │   ├── original22.json
+│   │   │   ├── pins-end.json
+│   │   │   ├── pins-start.json
+│   │   │   ├── rollback30.metadata.json
+│   │   │   ├── rollback30.stderr
+│   │   │   └── rollback30.stdout
+│   │   ├── RUN-000019/
+│   │   │   ├── before-git-readonly-safe.json
+│   │   │   ├── before-git-readonly.json
+│   │   │   ├── before-inventory.json
+│   │   │   ├── candidate-freeze-proposal.json
+│   │   │   ├── concurrent-root-ledger-append.json
+│   │   │   ├── efficiency.json.diff
+│   │   │   ├── end-git-readonly.json
+│   │   │   ├── end-inventory-failure.json
+│   │   │   ├── end-inventory.json
+│   │   │   ├── extended58.metadata.json
+│   │   │   ├── extended58.stderr
+│   │   │   ├── extended58.stdout
+│   │   │   ├── final-manifest.json
+│   │   │   ├── full-suite.metadata.json
+│   │   │   ├── full-suite.stderr
+│   │   │   ├── full-suite.stdout
+│   │   │   ├── gate-efficiency-cli.metadata.json
+│   │   │   ├── gate-efficiency-cli.stderr
+│   │   │   ├── gate-efficiency-cli.stdout
+│   │   │   ├── gate-repair-cli.metadata.json
+│   │   │   ├── gate-repair-cli.stderr
+│   │   │   ├── gate-repair-cli.stdout
+│   │   │   ├── improvement.py.diff
+│   │   │   ├── isolated-restore/
+│   │   │   │   ├── benchmarks/
+│   │   │   │   │   ├── efficiency.json
+│   │   │   │   │   └── repair.json
+│   │   │   │   ├── dora/
+│   │   │   │   │   ├── calculator.py
+│   │   │   │   │   └── fixtures/
+│   │   │   │   │       ├── classification.json
+│   │   │   │   │       ├── events.json
+│   │   │   │   │       └── expected.json
+│   │   │   │   ├── instrumentation/
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── common.py
+│   │   │   │   │   └── events.py
+│   │   │   │   ├── metrics/
+│   │   │   │   │   └── scorecards.py
+│   │   │   │   ├── quality-gates/
+│   │   │   │   │   └── improvement.py
+│   │   │   │   └── tests/
+│   │   │   │       ├── test_dora.py
+│   │   │   │       └── test_improvement.py
+│   │   │   ├── isolated-restore-input-pins.json
+│   │   │   ├── isolated-restore30.metadata.json
+│   │   │   ├── isolated-restore30.stderr
+│   │   │   ├── isolated-restore30.stdout
+│   │   │   ├── original22.metadata.json
+│   │   │   ├── original22.stderr
+│   │   │   ├── original22.stdout
+│   │   │   ├── repair.json.diff
+│   │   │   ├── retry1-before/
+│   │   │   │   └── factory/
+│   │   │   │       ├── benchmarks/
+│   │   │   │       │   ├── efficiency.json
+│   │   │   │       │   └── repair.json
+│   │   │   │       ├── quality-gates/
+│   │   │   │       │   └── improvement.py
+│   │   │   │       └── tests/
+│   │   │   │           └── test_gate_regressions.py
+│   │   │   ├── sixcase-sameversion.metadata.json
+│   │   │   ├── sixcase-sameversion.stderr
+│   │   │   ├── sixcase-sameversion.stdout
+│   │   │   ├── sixcase_sameversion_replay.py
+│   │   │   └── test_gate_regressions.py.diff
+│   │   ├── RUN-000020/
+│   │   │   ├── REVIEW.md
+│   │   │   ├── efficiency.json.diff
+│   │   │   ├── evidence-manifest.json
+│   │   │   ├── evidence-verification.json
+│   │   │   ├── evidence_checks.py
+│   │   │   ├── finalize.py
+│   │   │   ├── focused-results.json
+│   │   │   ├── improvement.py.diff
+│   │   │   ├── pins-end.json
+│   │   │   ├── pins-start.json
+│   │   │   ├── repair.json.diff
+│   │   │   ├── review_checks.py
+│   │   │   ├── reviewer-check-correction.txt
+│   │   │   └── test_gate_regressions.py.diff
+│   │   ├── initial-ci.json
 │   │   ├── live-command-capture.json
 │   │   ├── scorecard-observations.json
 │   │   └── scorecards.json
@@ -551,7 +579,11 @@ agent-org/
 │   ├── RUN-000015.md
 │   ├── RUN-000016.md
 │   ├── RUN-000017.md
-│   └── RUN-000018.md
+│   ├── RUN-000018.md
+│   ├── RUN-000019.md
+│   ├── RUN-000020.md
+│   ├── RUN-000021.md
+│   └── RUN-000022.md
 ├── shared/
 │   ├── CONTEXT_MANAGEMENT.md
 │   ├── CONVENTIONS.md
@@ -594,12 +626,14 @@ agent-org/
 │   │   ├── TASK-000018.md
 │   │   ├── TASK-000019.md
 │   │   ├── TASK-000020.md
-│   │   └── TASK-000021.md
+│   │   ├── TASK-000021.md
+│   │   └── TASK-000022.md
 │   └── project/
 │       ├── TASK-000005.md
 │       ├── TASK-000007.md
 │       ├── TASK-000010.md
-│       └── TASK-000016.md
+│       ├── TASK-000016.md
+│       └── TASK-000023.md
 ├── triggers/
 │   └── TRG-000001.md
 └── workflows/
@@ -612,4 +646,4 @@ agent-org/
     └── WF-000006.md
 ```
 
-Ignored execution fixtures exist under `factory/artifacts/installation/` (alpha/beta Git repositories and live behavior trial copies). Their source/evidence hashes and durable summaries are retained under `factory/reports/`. `old/` is outside this tree and remains uncommitted/read-only.
+Ignored live fixtures under factory/artifacts/installation contain alpha/beta Git repositories, behavior copies and the retained rollback scratch copy. Raw evidence and hashes remain in factory/reports. old/ is outside the organization and stays read-only/uncommitted.

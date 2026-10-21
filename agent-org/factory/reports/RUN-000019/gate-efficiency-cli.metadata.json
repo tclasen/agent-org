@@ -1,0 +1,13 @@
+{
+  "args": [
+    "python3",
+    "-B",
+    "factory/quality-gates/improvement.py",
+    "factory/benchmarks/efficiency.json"
+  ],
+  "exit": 0,
+  "started_at": "2026-10-21T21:05:33.197318+00:00",
+  "seconds": 0.08908416700433008,
+  "stdout_sha256": "449cd833a5d561d91a26f86d7b3f5f471f037aabbdb125f8b4893b747cb2306a",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

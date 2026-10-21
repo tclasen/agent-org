@@ -1,7 +1,7 @@
 # Installation status
 
-State: INCOMPLETE_OR_BLOCKED — approved implementation and verification in progress; final operator acceptance pending. APP-000001 approves immutable approved-v0.1/. Current evidence is in INSTALLATION_RESULTS.md and artifacts/INSTALLATION_REPORT.md.
+State: INCOMPLETE_OR_BLOCKED — all implementation components are independently qualified; final PR integration and operator acceptance remain. APP-000001 approves the original contracts and exclusions. APP-000005 qualifies the validator repair; APP-000006 qualifies exact measurement1.0.1 under prior normative rules; EVAL-000007 independently accepts the two root integration files.
 
-Completed: eight-role configuration; native fresh workers using three requested model configurations; scoped synthetic project implementation/review/local integration; independent validator repair and Chief of Staff eligibility approval; actual command event capture; live startup/discovery/recovery/boundary trials; guide intent-repair. Rejected initial measurement gate is preserved; separately versioned correction undergoing qualification. PR/CI/merge and final gap interview remain.
+Actual evidence includes85 local tests,120 fresh independent measurement cases,235 validator cases, actual native delegation/startup/recovery/non-software and project trials. Initial PR1 CI passed77 tests at5ab279c; final-head CI is still required. No old/projectcheckout/gitlink content is committed. No real product is enrolled, no legacy migration or production operations occurred.
 
-Empty Git bootstrap a9d57b9 established main without bypass; work on install/agent-organization. old remains untouched/uncommitted. No real managed project is enrolled or migrated. No production history, background daemon, universal interception or actual model/cost metadata is claimed.
+See INSTALLATION_RESULTS.md and artifacts/INSTALLATION_REPORT.md for the complete matrix/report. Final operator acceptance is separate from earlier implementation approval and remains pending.

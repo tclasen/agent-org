@@ -1,6 +1,6 @@
 # Runs registry
 
-Individual records own their current status, scope, authority and evidence. Archived snapshots and references do not allocate new identifiers.
+Individual records own current status, scope and evidence; archived references do not allocate IDs.
 
 - [RUN-000001 — RUN-000001](RUN-000001.md) — in_progress
 - [RUN-000002 — RUN-000002](RUN-000002.md) — completed
@@ -18,5 +18,9 @@ Individual records own their current status, scope, authority and evidence. Arch
 - [RUN-000014 — Fresh non-software Researcher](RUN-000014.md) — completed
 - [RUN-000015 — Versioned measurement correction developer](RUN-000015.md) — completed
 - [RUN-000016 — Independent correction promotion Chief of Staff](RUN-000016.md) — completed
-- [RUN-000017 — Independent measurement correction reviewer](RUN-000017.md) — in_progress
-- [RUN-000018 — Final report writing and evidence reconciliation](RUN-000018.md) — in_progress
+- [RUN-000017 — Independent measurement correction reviewer](RUN-000017.md) — completed
+- [RUN-000018 — Final report writing and evidence reconciliation](RUN-000018.md) — completed
+- [RUN-000019 — Final permitted measurement correction retry](RUN-000019.md) — completed
+- [RUN-000020 — Independent final retry measurement review](RUN-000020.md) — completed
+- [RUN-000021 — Independent final measurement Chief of Staff](RUN-000021.md) — completed
+- [RUN-000022 — Independent host integration reviewer](RUN-000022.md) — completed

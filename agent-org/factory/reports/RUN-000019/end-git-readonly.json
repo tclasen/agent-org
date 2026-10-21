@@ -1,0 +1,13 @@
+{
+  "args": [
+    "git",
+    "-c",
+    "safe.directory=/Users/Shared",
+    "status",
+    "--porcelain=v1",
+    "--untracked-files=all"
+  ],
+  "exit": 0,
+  "stdout": " M agent-org/artifacts/ART-000005.md\n M agent-org/factory/benchmarks/efficiency.json\n M agent-org/factory/benchmarks/repair.json\n M agent-org/factory/events/installation.jsonl\n M agent-org/factory/quality-gates/improvement.py\n M agent-org/factory/tests/test_gate_regressions.py\n M agent-org/runs/RUN-000018.md\n M agent-org/runs/RUN-000019.md\n M agent-org/tasks/project/TASK-000005.md\n?? agent-org/factory/reports/RUN-000019/candidate-freeze-proposal.json\n?? agent-org/factory/reports/initial-ci.json\n?? agent-org/runs/RUN-000020.md\n",
+  "stderr": ""
+}

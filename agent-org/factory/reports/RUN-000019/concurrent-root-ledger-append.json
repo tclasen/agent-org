@@ -1,0 +1,51 @@
+{
+  "appended_events": [
+    {
+      "agent_id": "AGENT-000001",
+      "classification": "cross_boundary",
+      "data": {
+        "commit_id": "5ab279cb814437445c20cef71068891b15b671fe",
+        "outcome": "draft_created",
+        "provenance": "Coordinator transcribed actual native GitHub connector result; explicit capture, not universal hook",
+        "source": "https://github.com/tclasen/agent-org/pull/1"
+      },
+      "event_id": "EVT-000003",
+      "event_type": "pr.created",
+      "hash": "5f9076c1b4d1baa96db5ad0eb1cb2e0f6b4a0d87549ae2195e5e3323b976deb5",
+      "ingested_at": "2026-10-21T21:06:11.893101Z",
+      "occurred_at": "2026-10-21T21:04:30Z",
+      "previous_hash": "2585d8757b4c6bf2ea3211cbd7e14f9c53f03e3c37bccc725f96e6fb5b891fe7",
+      "run_id": "RUN-000001",
+      "schema_version": 1,
+      "sequence": 3,
+      "task_id": "TASK-000005"
+    },
+    {
+      "agent_id": "AGENT-000001",
+      "classification": "cross_boundary",
+      "data": {
+        "commit_id": "5ab279cb814437445c20cef71068891b15b671fe",
+        "outcome": "success",
+        "provenance": "Coordinator transcribed actual native GitHub connector result; explicit capture, not universal hook",
+        "source": "https://github.com/tclasen/agent-org/actions/runs/39675768661"
+      },
+      "event_id": "EVT-000004",
+      "event_type": "ci.observed",
+      "hash": "d712c808c1daa7e5f8405a1d49aecb8276aa1af4354649144639e44c2bc98ad7",
+      "ingested_at": "2026-10-21T21:06:11.893101Z",
+      "occurred_at": "2026-10-21T21:06:11.893101Z",
+      "previous_hash": "5f9076c1b4d1baa96db5ad0eb1cb2e0f6b4a0d87549ae2195e5e3323b976deb5",
+      "run_id": "RUN-000001",
+      "schema_version": 1,
+      "sequence": 4,
+      "task_id": "TASK-000005"
+    }
+  ],
+  "at": "2026-10-21T21:07:36.254932+00:00",
+  "attribution": "Coordinator /root; not RUN19 worker effect",
+  "authority": "Coordinator reconciliation message: RUN1 TASK5 APP1 independently authorized root append",
+  "entire_ledger_hash_chain_valid": true,
+  "inventory_assertion_failure_retained": "end-inventory-failure.json",
+  "prior_prefix_sha256": "dbf69c58ad36ea2729ae9627646065a7b3df947aff0c30f4602271a7eaa697e7",
+  "prior_prefix_unchanged": true
+}

@@ -1,0 +1,13 @@
+{
+  "args": [
+    "python3",
+    "-B",
+    "factory/tests/test_gate_regressions.py",
+    "--replay-json"
+  ],
+  "exit": 0,
+  "started_at": "2026-10-21T21:05:32.602392+00:00",
+  "seconds": 0.24622495801304467,
+  "stdout_sha256": "762734bf280dc4dbd752ca18d4d4218d51fd3d7fcb0572dff14e9b79cf18a310",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

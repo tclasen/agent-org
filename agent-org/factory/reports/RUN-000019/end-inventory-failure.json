@@ -1,0 +1,22 @@
+{
+  "action": "Stopped; Coordinator reconciliation required; no tests or fixes after failure",
+  "at": "2026-10-21T21:06:51.985255+00:00",
+  "current_pins": {
+    "factory/benchmarks/efficiency.json": "3541a267fa9a233196a191b6be89be58694bb3461ccc1ae66e6aa34b6c4e77e6",
+    "factory/benchmarks/repair.json": "6e5f534f4252c609be71c7216708af74e17563f42b11ef13f3d0556bb69f0b7b",
+    "factory/events/installation.jsonl": "0b5667aa636fcf0a0c5b7bc3794ecd03b52465cb49f513e830d565acb00ed8db",
+    "factory/quality-gates/improvement.py": "b85841b308ebe73cb0dcd9b33e9672ccc87eee1767c4e64eae5a2f7b62aa9c60",
+    "factory/tests/test_gate_regressions.py": "f8c8e17c9c520faa077181367f9985f2e0b3d1696d708e6bc3d161ae4784d688"
+  },
+  "error": "AssertionError: changed paths include out-of-worker-scope factory/events/installation.jsonl",
+  "exit": 1,
+  "observed_changed_paths": [
+    "factory/benchmarks/efficiency.json",
+    "factory/benchmarks/repair.json",
+    "factory/events/installation.jsonl",
+    "factory/quality-gates/improvement.py",
+    "factory/tests/test_gate_regressions.py"
+  ],
+  "stage": "end inventory verification",
+  "worker_effects": "Worker did not write installation event ledger; four authorized files unchanged since freeze"
+}

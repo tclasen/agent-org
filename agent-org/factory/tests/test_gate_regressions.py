@@ -220,6 +220,86 @@ class GateRegressionTests(unittest.TestCase):
             r = dora.calculate([], D.CLASSIFICATION, D.START, D.END)
             self.assertIsNone(r['services']['service-a']['deployment_frequency']['per_day'])
 
+    def assert_missing_attempt_container_is_inconclusive(self, claim, mutation):
+        # RUN17's six independent inputs: all rows remain, usage stays at 40,
+        # and one candidate attempt container contributes an unknown count.
+        for gate in (OLD_GATE, T.gate):
+            b = bundle_for(gate, claim)
+            pair = b['evidence']['pairs'][0]
+            if mutation == 'missing':
+                del pair['candidate_attempts']
+            else:
+                pair['candidate_attempts'] = None if mutation == 'null' else []
+            T.reapprove(b)
+            result = decision(gate, b)
+            self.assertEqual(result['decision'], 'inconclusive', (claim, mutation, result))
+            self.assertFalse(result['benefit'])
+            self.assertEqual(result['reasons'], [])
+            self.assertIn('all attempts including failures/retries required', result['measurement_gaps'])
+
+    def test_outcome_missing_attempt_container_is_inconclusive(self):
+        self.assert_missing_attempt_container_is_inconclusive('outcome', 'missing')
+
+    def test_outcome_null_attempt_container_is_inconclusive(self):
+        self.assert_missing_attempt_container_is_inconclusive('outcome', 'null')
+
+    def test_outcome_empty_attempt_container_is_inconclusive(self):
+        self.assert_missing_attempt_container_is_inconclusive('outcome', 'empty')
+
+    def test_efficiency_missing_attempt_container_is_inconclusive(self):
+        self.assert_missing_attempt_container_is_inconclusive('efficiency', 'missing')
+
+    def test_efficiency_null_attempt_container_is_inconclusive(self):
+        self.assert_missing_attempt_container_is_inconclusive('efficiency', 'null')
+
+    def test_efficiency_empty_attempt_container_is_inconclusive(self):
+        self.assert_missing_attempt_container_is_inconclusive('efficiency', 'empty')
+
+    def test_incomplete_attempt_lower_bound_and_exhaustion_remain_enforced(self):
+        for claim in ('outcome', 'efficiency'):
+            for side in ('baseline', 'candidate'):
+                for mutation in ('missing', 'null', 'empty'):
+                    for supplied in (38, 39, 40):
+                        with self.subTest(claim=claim, side=side, mutation=mutation, supplied=supplied):
+                            b = bundle_for(T.gate, claim)
+                            pair = b['evidence']['pairs'][0]
+                            if mutation == 'missing':
+                                del pair[side + '_attempts']
+                            else:
+                                pair[side + '_attempts'] = None if mutation == 'null' else []
+                            b['evidence']['usage']['attempts'] = supplied
+                            T.reapprove(b)
+                            result = decision(T.gate, b)
+                            self.assertEqual(result['decision'], 'reject' if supplied < 39 else 'inconclusive')
+                            self.assertFalse(result['benefit'])
+                            if supplied < 39:
+                                self.assertIn('reported attempts differ from observable attempt records', result['reasons'])
+                    # Reported and observed limits each continue to prevent pass.
+                    for limit in (38, 39, 40):
+                        b = bundle_for(T.gate, claim)
+                        b['evidence']['pairs'][0][side + '_attempts'] = None
+                        b['plan']['budget']['attempts'] = limit
+                        rebind(b)
+                        result = decision(T.gate, b)
+                        self.assertEqual(result['decision'], 'inconclusive')
+                        self.assertFalse(result['benefit'])
+                        self.assertIn('resource budget exhausted: attempts', result['measurement_gaps'])
+
+    def test_complete_attempt_telemetry_reconciles_exactly(self):
+        for claim in ('outcome', 'efficiency'):
+            for supplied in (39, 40, 41):
+                b = bundle_for(T.gate, claim)
+                b['evidence']['usage']['attempts'] = supplied
+                T.reapprove(b)
+                result = decision(T.gate, b)
+                self.assertEqual(result['decision'], 'pass' if supplied == 40 else 'reject')
+                if supplied == 40:
+                    self.assertEqual(result['benefit']['interval_95'], [10.0, 10.0])
+                    self.assertEqual(result['benefit']['relative_benefit'], .1)
+                else:
+                    self.assertFalse(result['benefit'])
+                    self.assertIn('reported attempts differ from observable attempt records', result['reasons'])
+
 
 if __name__ == '__main__':
     if '--replay-json' in sys.argv:
