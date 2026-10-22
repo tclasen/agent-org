@@ -24,3 +24,14 @@ Record repository/remote identity, PR URL and merged status, tested candidate, m
 Keep undelivered work in an existing nonterminal state (for example in_review, verified or blocked), with owner, blocker, PR/branch if available and exact next action. Do not invent new task-state names. If permission, network, protection, review or CI prevents delivery, report the task incomplete and preserve its work. Final reports must distinguish implementation/review from verified remote-main delivery. The gate applies to the acceptance record itself: a proposed closure committed in a PR takes effect only after its merge and verification; record the observed outcome in the session handoff, with later durable reconciliation as needed. No recursive pre-merge claim that a closure is already delivered.
 
 Prior local-only acceptance remains historical evidence, not proof of delivery under this directive. Reconcile outstanding changes without altering historical evidence or silently expanding earlier grants.
+
+## Final-response delivery audit
+
+Before ending a change request, Coordinator checks every task-owned change and required child against the remote-main completion gate above. Apply this audit even when the request only says to create or edit a file, and even for documentation or administrative records. Task size and wording do not remove standing delivery authority.
+
+1. Inventory owned changes, pending branches/PRs, required children and cleanup obligations. Preserve unrelated work.
+2. For each undelivered change, continue the authorized commit, push, independent review/approval, PR checks, normal merge and remote-main verification during the active task. Local edits, a commit, a push or an open PR are intermediate states; do not end with those as the completed outcome or ask whether to perform already authorized delivery.
+3. Before reporting completion, obtain the repository/PR/merge/main/content/check evidence required above, reconcile required children and release claims, and complete safe task-worktree cleanup. Keep any cleanup blocker explicit and separate from delivery status.
+4. If an actual permission, network, review, protection or CI blocker prevents progress, attempt applicable authorized recovery and ordinary tool escalation within retry limits. Preserve ownership and a durable handoff with the exact failed action, observed error, pending branch/PR and next safe action. Report the task incomplete and the concrete blocker; an unattempted delivery step or an assumed need for renewed operator approval is not a blocker.
+
+Explicit operator instructions to work locally only, pause or cancel override standing delivery for their stated scope. Status-only replies authorize no changes. This audit is an agent obligation using existing tools; it does not claim a harness-enforced final-response hook or guaranteed future compliance.

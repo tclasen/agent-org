@@ -152,3 +152,9 @@ Individual records own scope, current status and historical evidence. This catal
 - [TASK-000104 — Approve README delivery](organization/TASK-000104.md) — in_progress; closure conditional on verified PR delivery
 
 - [TASK-000105 — README delivery integration](cross-boundary/TASK-000105.md) — in_progress
+
+- [TASK-000106 — Final-response delivery safeguard](organization/TASK-000106.md) — awaiting_acceptance; conditional on verified delivery
+
+- [TASK-000107 — Final-response delivery safeguard](organization/TASK-000107.md) — awaiting_acceptance; conditional on verified delivery
+
+- [TASK-000108 — Final-response delivery safeguard](organization/TASK-000108.md) — awaiting_acceptance; conditional on verified delivery

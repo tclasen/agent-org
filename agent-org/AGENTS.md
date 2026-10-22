@@ -12,6 +12,8 @@ Before mutations/delegation establish scope, valid plan/authority, dependency re
 
 Organization changes require independent Reviewer and Chief of Staff approval; implementers cannot approve their own work. All content uses PRs and verified owning-remote main delivery before completion. Standing delivery authority covers routine commit/push/PR/allowed merge/verification, preserving protections. Worker done, local changes and open PRs remain intermediate.
 
+Before sending a final response to any change request, apply the [final-response delivery audit](policies/ACCEPTANCE.md#final-response-delivery-audit). This is a mandatory stopping check, including for a one-file documentation edit; do not wait for the operator to remind you to deliver.
+
 ## Read before the matching action
 
 | Action | Source |

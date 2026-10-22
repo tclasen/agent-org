@@ -34,3 +34,5 @@ Individual records own scope, current status and historical evidence.
 - [APP-000021 — Independent deterministic autonomy capability adoption](APP-000021.md) — approved
 
 - [APP-000030 — Operator README delivery directive](APP-000030.md) — approved; promotion requires independent decision
+
+- [APP-000032 — Final-response delivery safeguard](APP-000032.md) — approved operator grant
