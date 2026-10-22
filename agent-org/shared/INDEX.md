@@ -9,19 +9,18 @@
 - Related Tasks: TASK-000002
 - Approval Requirements: APP-000001; future revisions follow policies/APPROVALS.md
 
-Start with [SESSION_LIFECYCLE](SESSION_LIFECYCLE.md) and [RECORD_FORMATS](RECORD_FORMATS.md). Records preserve state; they do not execute work.
+Open the matching reference when its trigger applies. Schemas preserve state; they do not execute work. Go directly to known files; this catalog does not require loading every entry.
 
-- [Record and communication conventions](CONVENTIONS.md)
-- [Stable identity and serialized allocation](IDENTIFIERS.md)
-- [Formal record fields and provenance](RECORD_FORMATS.md)
-- [Task graph, readiness and claims](WORK_GRAPH.md)
-- [Startup, execution and shutdown](SESSION_LIFECYCLE.md)
-- [Structured handoff contract](HANDOFFS.md)
-- [Minimal explicit worker context](CONTEXT_MANAGEMENT.md)
-- [Interrupted work and side-effect reconciliation](RECONCILIATION.md)
-- [Adapters, provenance and independent integration](INTEGRATION.md)
-- [Intent-to-outcome reconciliation](INTENT_RECONCILIATION.md)
-- [Separate scorecards and measurement health](SCORECARDS.md)
-- [Copyable schemas](templates/INDEX.md)
-
-- [Historical lessons from legacy organizations](LEGACY_LEARNINGS.md)
+| Need | Source |
+| --- | --- |
+| Startup/resumption/shutdown | [Session lifecycle](SESSION_LIFECYCLE.md) |
+| Write formal records | [Required fields](RECORD_FORMATS.md), [communication conventions](CONVENTIONS.md) |
+| Allocate IDs | [Identifiers](IDENTIFIERS.md), [current allocation ledger](ID_LEDGER.md) |
+| Admit/claim/depend on a task | [Work graph](WORK_GRAPH.md) |
+| Delegate or trim context | [Context manifests and retrieval](CONTEXT_MANAGEMENT.md) |
+| Return/checkpoint worker results | [Handoff contract](HANDOFFS.md), [copyable schemas](templates/INDEX.md) |
+| Retry interrupted/uncertain effects | [Reconciliation](RECONCILIATION.md) |
+| Integrate independent systems/adapters | [Integration](INTEGRATION.md) |
+| Compare delivery with original intent | [Intent reconciliation](INTENT_RECONCILIATION.md) |
+| Interpret organization/product/measurement scores | [Separate scorecards](SCORECARDS.md) |
+| Consult historical evaluation/recovery precedents | [Legacy lessons](LEGACY_LEARNINGS.md) |
