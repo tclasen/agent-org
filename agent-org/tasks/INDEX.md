@@ -104,14 +104,14 @@ Individual records own scope, current status and historical evidence. This catal
 
 - [TASK-000062 — Approve research delivery and proposal boundaries](organization/TASK-000062.md) — awaiting_acceptance
 
-- [TASK-000066 — Progressive disclosure delivery](cross-boundary/TASK-000066.md) — in_progress
+- [TASK-000066 — Progressive disclosure delivery](cross-boundary/TASK-000066.md) — awaiting_acceptance (closure proposed after PR13 verified remote-main delivery)
 
-- [TASK-000067 — Implement task-directed organization context](organization/TASK-000067.md) — in_review
+- [TASK-000067 — Implement task-directed organization context](organization/TASK-000067.md) — awaiting_acceptance (closure proposed after PR13 verified remote-main delivery)
 
-- [TASK-000068 — Streamline root startup bridge](project/TASK-000068.md) — in_review
+- [TASK-000068 — Streamline root startup bridge](project/TASK-000068.md) — awaiting_acceptance (closure proposed after PR13 verified remote-main delivery)
 
-- [TASK-000069 — Independent progressive disclosure review](organization/TASK-000069.md) — in_progress
+- [TASK-000069 — Independent progressive disclosure review](organization/TASK-000069.md) — awaiting_acceptance (closure proposed after PR13 verified remote-main delivery)
 
-- [TASK-000070 — Progressive disclosure plan and promotion approval](organization/TASK-000070.md) — in_progress
+- [TASK-000070 — Progressive disclosure plan and promotion approval](organization/TASK-000070.md) — awaiting_acceptance (closure proposed after PR13 verified remote-main delivery)
 
-- [TASK-000071 — Plan progressive disclosure](organization/TASK-000071.md) — verified
+- [TASK-000071 — Plan progressive disclosure](organization/TASK-000071.md) — awaiting_acceptance (closure proposed after PR13 verified remote-main delivery)

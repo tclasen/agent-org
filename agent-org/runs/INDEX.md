@@ -94,14 +94,14 @@ Individual records own scope, current status and historical evidence. This catal
 
 - [RUN-000056 — Approve research delivery and proposal boundaries](RUN-000056.md) — completed
 
-- [RUN-000062 — Progressive disclosure delivery](RUN-000062.md) — running
+- [RUN-000062 — Progressive disclosure delivery](RUN-000062.md) — completed
 
 - [RUN-000063 — Implement task-directed organization context](RUN-000063.md) — completed
 
 - [RUN-000064 — Streamline root startup bridge](RUN-000064.md) — completed
 
-- [RUN-000065 — Independent progressive disclosure review](RUN-000065.md) — running
+- [RUN-000065 — Independent progressive disclosure review](RUN-000065.md) — completed
 
-- [RUN-000066 — Progressive disclosure plan and promotion approval](RUN-000066.md) — running
+- [RUN-000066 — Progressive disclosure plan and promotion approval](RUN-000066.md) — completed
 
 - [RUN-000067 — Plan progressive disclosure](RUN-000067.md) — completed

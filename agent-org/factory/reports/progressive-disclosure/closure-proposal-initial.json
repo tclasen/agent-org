@@ -1,0 +1,21 @@
+{
+  "errors": [
+    "TASK-000066: acceptance lacks evidence/reconciliation",
+    "TASK-000066: missing independent Organization Acceptance",
+    "TASK-000066: missing independent Project Acceptance",
+    "TASK-000066: missing independent Integration Acceptance",
+    "TASK-000067: acceptance lacks evidence/reconciliation",
+    "TASK-000069: acceptance lacks evidence/reconciliation",
+    "TASK-000070: acceptance lacks evidence/reconciliation",
+    "TASK-000071: acceptance lacks evidence/reconciliation",
+    "TASK-000068: acceptance lacks evidence/reconciliation"
+  ],
+  "limits": [
+    "structural checks do not prove behavioral acceptance",
+    "approval exact-scope APIs must be called by admission workflow",
+    "no universal interception",
+    "provenance required by evidence-producing callers"
+  ],
+  "record_count": 249,
+  "valid": false
+}

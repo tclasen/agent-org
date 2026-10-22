@@ -23,3 +23,5 @@ Individual records own scope, current status and historical evidence.
 - [APP-000012 — Operator local clone and cleanup](APP-000012.md) — approved
 
 - [APP-000016 — Mandatory remote-main delivery](APP-000016.md) — approved
+
+- [APP-000019 — Progressive disclosure promotion decision](APP-000019.md) — approved, exact final-head reconciliation required
