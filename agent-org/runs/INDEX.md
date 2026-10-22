@@ -66,3 +66,15 @@ Individual records own scope, current status and historical evidence.
 - [RUN-000049 — Tessl research Reviewer](RUN-000049.md) — running
 
 - [RUN-000050 — Tessl research Chief of Staff](RUN-000050.md) — running
+
+- [RUN-000051 — Research autonomous factories and organization improvements](RUN-000051.md) — running
+
+- [RUN-000052 — Research software factories and outcome evaluation](RUN-000052.md) — completed
+
+- [RUN-000053 — Research agent organizations and durable execution](RUN-000053.md) — completed
+
+- [RUN-000054 — Research empirical recursive self improvement](RUN-000054.md) — completed
+
+- [RUN-000055 — Independently review autonomous organization research](RUN-000055.md) — completed
+
+- [RUN-000056 — Approve research delivery and proposal boundaries](RUN-000056.md) — completed
