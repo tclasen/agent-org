@@ -66,3 +66,18 @@ Individual records own scope, current status and historical evidence.
 - [RUN-000049 — Tessl research Reviewer](RUN-000049.md) — running
 
 - [RUN-000050 — Tessl research Chief of Staff](RUN-000050.md) — running
+- [RUN-000041 — Clone cleanup Coordinator](RUN-000041.md) — completed
+
+- [RUN-000042 — Clone cleanup Planner](RUN-000042.md) — completed
+
+- [RUN-000043 — Cleanup Reviewer](RUN-000043.md) — completed
+
+- [RUN-000044 — Cleanup Chief of Staff](RUN-000044.md) — completed
+
+- [RUN-000061 — Cleanup remote delivery Coordinator](RUN-000061.md) — running
+
+- [RUN-000058 — Cleanup remote delivery Planner](RUN-000058.md) — running
+
+- [RUN-000059 — Cleanup remote delivery Reviewer](RUN-000059.md) — pending
+
+- [RUN-000060 — Cleanup remote delivery Chief of Staff](RUN-000060.md) — pending

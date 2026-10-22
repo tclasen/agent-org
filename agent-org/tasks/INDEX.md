@@ -66,3 +66,28 @@ Individual records own scope, current status and historical evidence.
 - [TASK-000055 — Independent Tessl research review](organization/TASK-000055.md) — awaiting_acceptance
 
 - [TASK-000056 — Independent Tessl research approval](organization/TASK-000056.md) — awaiting_acceptance
+- [TASK-000041 — Clone five projects and retire embedded organizations](cross-boundary/TASK-000041.md) — verified
+
+- [TASK-000042 — Record clone and cleanup evidence](organization/TASK-000042.md) — verified
+
+- [TASK-000043 — tclasen/commons](project/TASK-000043.md) — accepted
+
+- [TASK-000044 — tclasen/every_game](project/TASK-000044.md) — accepted
+
+- [TASK-000045 — tclasen/semantic_search](project/TASK-000045.md) — accepted
+
+- [TASK-000046 — tclasen/wired_to_survive](project/TASK-000046.md) — accepted
+
+- [TASK-000047 — tclasen-agent/llm-cost-calculator](project/TASK-000047.md) — accepted
+
+- [TASK-000048 — Nested clone Git exclusions](project/TASK-000048.md) — verified
+
+- [TASK-000049 — Independent cleanup Reviewer](organization/TASK-000049.md) — verified
+
+- [TASK-000050 — Independent cleanup Chief of Staff](organization/TASK-000050.md) — verified
+
+- [TASK-000063 — Clarify standing delivery and reconcile cleanup](organization/TASK-000063.md) — in_progress
+
+- [TASK-000064 — Review exact delivery candidates](organization/TASK-000064.md) — in_progress
+
+- [TASK-000065 — Approve final organization delivery](organization/TASK-000065.md) — planned

@@ -1,0 +1,52 @@
+{
+  "commons": {
+    "head": "2b70f724b02199cfacb12ec07e39b6d03a012490",
+    "tree": "fe4ffb9a8b498f5359eea9e3fcf05691ce5b6dcf",
+    "branch": "chore/centralize-agent-org-20261022",
+    "remote": "https://github.com/tclasen/commons.git",
+    "repository": "tclasen/commons",
+    "pr": 4,
+    "pr_url": "https://github.com/tclasen/commons/pull/4",
+    "merge_method": "merge"
+  },
+  "every_game": {
+    "head": "2088ca394fe2e0814abd4f38e55a07c505d5f25c",
+    "tree": "5c4879ef464582ab773b171457c89ad3ba0f73b7",
+    "branch": "chore/centralize-agent-org-20261022",
+    "remote": "https://github.com/tclasen/every_game.git",
+    "repository": "tclasen/every_game",
+    "pr": 152,
+    "pr_url": "https://github.com/tclasen/every_game/pull/152",
+    "merge_method": "merge"
+  },
+  "semantic_search": {
+    "head": "a5c153d1953d60ee0e749b2179b19bcadd6ff642",
+    "tree": "0b5fdc77faa3480c63eb075a29e41114de899a27",
+    "branch": "chore/centralize-agent-org-20261022",
+    "remote": "https://github.com/tclasen/semantic_search.git",
+    "repository": "tclasen/semantic_search",
+    "pr": 114,
+    "pr_url": "https://github.com/tclasen/semantic_search/pull/114",
+    "merge_method": "squash"
+  },
+  "wired_to_survive": {
+    "head": "c155f694d6172f8f2de575261507fe00171a19dd",
+    "tree": "28ebae707d98bf4a7f984c3a86311563066f458d",
+    "branch": "chore/centralize-agent-org-20261022",
+    "remote": "https://github.com/tclasen/wired_to_survive.git",
+    "repository": "tclasen/wired_to_survive",
+    "pr": 238,
+    "pr_url": "https://github.com/tclasen/wired_to_survive/pull/238",
+    "merge_method": "squash"
+  },
+  "llm-cost-calculator": {
+    "head": "c96967558d3d1f8521e32abe531f98efd57514b5",
+    "tree": "26d1fca6e2fa502db12e85ea968d99fb01771890",
+    "branch": "chore/centralize-agent-org-20261022",
+    "remote": "https://github.com/tclasen-agent/llm-cost-calculator.git",
+    "repository": "tclasen-agent/llm-cost-calculator",
+    "pr": 1,
+    "pr_url": "https://github.com/tclasen-agent/llm-cost-calculator/pull/1",
+    "merge_method": "squash"
+  }
+}
