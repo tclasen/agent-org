@@ -25,3 +25,7 @@ Individual records own scope, current status and historical evidence.
 - [APP-000016 — Mandatory remote-main delivery](APP-000016.md) — approved
 
 - [APP-000019 — Progressive disclosure promotion decision](APP-000019.md) — approved, exact final-head reconciliation required
+
+- [APP-000026 — Operator worktree cleanup directive](APP-000026.md)
+
+- [APP-000027 — Independent worktree cleanup promotion decision](APP-000027.md)

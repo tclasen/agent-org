@@ -113,3 +113,7 @@ Individual records own scope, current status and historical evidence. This catal
 - [RUN-000077 — Commons video Chief of Staff](RUN-000077.md) — completed (conditional delivery reconciliation)
 
 - [RUN-000078 — Commons video Planner](RUN-000078.md) — completed (conditional delivery reconciliation)
+
+- [RUN-000089](RUN-000089.md) — worktree cleanup Coordinator
+- [RUN-000090](RUN-000090.md) — worktree cleanup Reviewer
+- [RUN-000091](RUN-000091.md) — worktree cleanup Chief of Staff

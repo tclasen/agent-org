@@ -20,3 +20,5 @@ APP-000015 is reserved for the independent research-delivery decision by TASK-00
 Commons video reservation 2026-10-22T01:57:14.055392+00:00: TASK-000079..84, RUN-000075..78, APP-000022..23. Coordinator /root owns these; preserve autonomy TASK72..78/RUN68..74/REQ52/APP20..21. No worker allocates IDs.
 
 REQ-000053 reserved for Commons video requirement under TASK-000079; distinct from autonomy REQ-000052.
+
+Worktree cleanup reservation 2026-10-22T02:15:32.088934+00:00: TASK-000095..97, RUN-000089..91, APP-000026..27. Coordinator /root owns instruction cleanup; preserve project demos TASK85..94/RUN80..88/APP24..25 and all earlier allocations. No worker allocates IDs.
