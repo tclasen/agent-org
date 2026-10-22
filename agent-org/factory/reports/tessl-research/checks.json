@@ -1,0 +1,32 @@
+{
+  "observed_at": "2026-10-22T00:53:33.064731+00:00",
+  "baseline": "ca6ff20e551bf974c6f52cbdb2f7ebe15facf378",
+  "report_sha256": "64da9988873e20cf21ae96c0697848260b8333e49f9a823c04f386066cd11875",
+  "local_link_occurrences": 18,
+  "unique_web_sources": 18,
+  "local_source_sha256": {
+    "../factory/README.md": "d9337de93b809e724bc259353ccc83f3bcc50a79deb0c724b62271d8a8271785",
+    "../factory/metrics/DEFINITIONS.md": "d91a754ff2ce3ea5c5098b619e31617b7258ecece2864c1c18aae19ebe7f5a79",
+    "../policies/ACCEPTANCE.md": "758fdb2825ab129e1c8d8753decb43e694322b645db82013a9c6dcd534dbf5b4",
+    "../policies/AUTHORITY.md": "082de2f8fec06bc6dc9027d2f8605ca61cda12a5f5c175d1c3019bd1035d1118",
+    "../policies/PLANNING.md": "5106f3f295505ffa62e5987015767204b290bb25b8a7c53881c087948d771966",
+    "../policies/SELF_IMPROVEMENT.md": "cc0bb4daca4a99e6925846e10b43d19405d191d321304f736024d0ee16c38e5e",
+    "../shared/CONTEXT_MANAGEMENT.md": "0f40bf8877274632a8c597190f8bd351c391757455ff3a0feb5d399672217ed6",
+    "../shared/LEGACY_LEARNINGS.md": "50dae5b34185e4dd0cd65cb2a1a5966302ec4c808a588fa37be8cfdc24cef912",
+    "../shared/SESSION_LIFECYCLE.md": "6be929e669e3bfd606f819c21141f733623ca992ae7a6ea23f61025857796b00",
+    "../shared/WORK_GRAPH.md": "cdd27373777e73ce61f06520ac5d078c234fc77ab8e20cbd2282024e8d32219f",
+    "../workflows/WF-000004.md": "87c46b7790d82dd94a5ac14473aa37a5ee5e56aaf300c2f3a7f759c92cd6a851"
+  },
+  "checks": {
+    "structural_validation": "pass; 198 records including both independent review runs",
+    "unit_suite": "85 tests pass",
+    "whitespace": "pass",
+    "relative_links": "pass"
+  },
+  "limitations": [
+    "No behavioral changes adopted",
+    "Public podcast write-ups reviewed, not audio",
+    "Browser source content is mutable; local source hashes are exact",
+    "No direct native cost or activation telemetry"
+  ]
+}
