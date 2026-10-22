@@ -61,3 +61,5 @@ Individual records own current status, scope and evidence; archived references d
 - [REQ-000048 — Parent organization for five local clones](cross-boundary/REQ-000048.md) — accepted operator requirement
 
 - [REQ-000051 — Source grounded autonomy research](organization/REQ-000051.md) — accepted
+
+- [REQ-000053 — Commons milestone demo video requirement](cross-boundary/REQ-000053.md)
