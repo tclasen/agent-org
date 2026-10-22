@@ -31,26 +31,26 @@ Individual records own scope, current status and historical evidence.
 - [RUN-000027 — Root entrypoint Chief of Staff verification](RUN-000027.md) — completed
 - [RUN-000028 — Corrected root entrypoint review](RUN-000028.md) — completed
 
-- [RUN-000029 — Legacy learning and retirement preparation](RUN-000029.md) — in_progress
+- [RUN-000029 — Legacy learning and retirement preparation](RUN-000029.md) — completed
 
-- [RUN-000030 — Plan legacy preservation and coverage](RUN-000030.md) — in_progress
+- [RUN-000030 — Plan legacy preservation and coverage](RUN-000030.md) — completed
 
-- [RUN-000031 — Extract factory and work organization learnings](RUN-000031.md) — planned
+- [RUN-000031 — Extract factory and work organization learnings](RUN-000031.md) — completed
 
-- [RUN-000032 — Extract project organization learnings](RUN-000032.md) — planned
+- [RUN-000032 — Extract project organization learnings](RUN-000032.md) — completed
 
-- [RUN-000033 — Inventory and preserve legacy project Git state](RUN-000033.md) — planned
+- [RUN-000033 — Inventory and preserve legacy project Git state](RUN-000033.md) — completed
 
-- [RUN-000034 — Preserve projects/factory_catalog Git history](RUN-000034.md) — in_progress
+- [RUN-000034 — Preserve projects/factory_catalog Git history](RUN-000034.md) — completed
 
-- [RUN-000035 — Preserve projects/penny Git history](RUN-000035.md) — in_progress
+- [RUN-000035 — Preserve projects/penny Git history](RUN-000035.md) — completed
 
-- [RUN-000036 — Preserve projects/semantic_search Git history](RUN-000036.md) — in_progress
+- [RUN-000036 — Preserve projects/semantic_search Git history](RUN-000036.md) — completed
 
-- [RUN-000037 — Preserve projects/wired_to_survive Git history](RUN-000037.md) — in_progress
+- [RUN-000037 — Preserve projects/wired_to_survive Git history](RUN-000037.md) — completed
 
-- [RUN-000038 — Preserve projects/factory_evals Git history](RUN-000038.md) — in_progress
+- [RUN-000038 — Preserve projects/factory_evals Git history](RUN-000038.md) — completed
 
-- [RUN-000039 — Independently verify legacy harvest and preservation](RUN-000039.md) — in_progress
+- [RUN-000039 — Independently verify legacy harvest and preservation](RUN-000039.md) — completed
 
-- [RUN-000040 — Approve scoped legacy learning adoption](RUN-000040.md) — ready
+- [RUN-000040 — Approve scoped legacy learning adoption](RUN-000040.md) — completed
