@@ -1,11 +1,9 @@
-# Project enrollment
+# Project routing
 
-The factory repository is github.com/tclasen/agent-org; organization governance lives here. Installation synthetic repositories exist only for qualification.
+This registry stores identity and links only. Read authoritative project instructions and project records in the owning repository; do not store product progress or evidence here.
 
-| Project | Repository | Bounded enrollment |
-| --- | --- | --- |
-| Commons | tclasen/commons | [Profile](commons/PROFILE.md): demo video verification documentation under APP-000022; broader product authority is not implied. |
-
-For each future project create a Markdown profile with a Coordinator-allocated project identifier, canonical local path, Git repository identity/remote, authoritative requirements and ticket/board references, owner/delegates, permitted operations/environments, verification commands, protected paths, overrides, service mapping, and enrollment approval. Discover existing rules before proposing edits. Resolve identity and authority conflicts before writes. Keep project checkouts outside agent-org, preferably `projects/<id>` relative to the Git repository root, excluded from factory Git.
-
-Overrides refine project practice; they cannot expand authority, erase evidence or silently modify organization behavior. Project-side instruction changes are project work; changing the organization's profile/workflow may be organization or cross-boundary work depending on actual affected systems.
+- [commons](https://github.com/tclasen/commons) — [instructions](https://github.com/tclasen/commons/blob/main/AGENTS.md), [records](https://github.com/tclasen/commons/blob/main/docs/agent-records/record-ownership-2026-10-22/README.md).
+- [every_game](https://github.com/tclasen/every_game) — [instructions](https://github.com/tclasen/every_game/blob/main/AGENTS.md), [records](https://github.com/tclasen/every_game/blob/main/docs/agent-records/record-ownership-2026-10-22/README.md).
+- [wired_to_survive](https://github.com/tclasen/wired_to_survive) — [instructions](https://github.com/tclasen/wired_to_survive/blob/main/AGENTS.md), [records](https://github.com/tclasen/wired_to_survive/blob/main/docs/agent-records/record-ownership-2026-10-22/README.md).
+- [llm-cost-calculator](https://github.com/tclasen-agent/llm-cost-calculator) — [instructions](https://github.com/tclasen-agent/llm-cost-calculator/blob/main/AGENTS.md), [records](https://github.com/tclasen-agent/llm-cost-calculator/blob/main/docs/agent-records/record-ownership-2026-10-22/README.md).
+- [semantic_search](https://github.com/tclasen/semantic_search) — [instructions](https://github.com/tclasen/semantic_search/blob/main/AGENTS.md), [records](https://github.com/tclasen/semantic_search/blob/main/docs/agent-records/record-ownership-2026-10-22/README.md).

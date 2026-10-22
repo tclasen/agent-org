@@ -17,11 +17,11 @@ Start Codex from the Git repository root. The [root AGENTS.md](../../AGENTS.md) 
 
 Project enrollment is a record of bounded authority; it does not authorize a project change by itself. Read the organization [authority policy](../policies/AUTHORITY.md), [scope boundaries](../policies/SCOPE_BOUNDARIES.md), [project change policy](../policies/PROJECT_CHANGES.md), [permission policy](../policies/PERMISSIONS.md), and [cross-boundary policy](../policies/CROSS_BOUNDARY_CHANGES.md). Resolve the target, repository identity, and source-of-truth conflicts before any write. Project reads do not grant project writes, and a connected tool is not permission.
 
-The [project registry](projects/INDEX.md) currently records no real product repository as enrolled. The factory repository is organization infrastructure; synthetic repositories support qualification only. Neither grants authority to migrate a legacy or product repository.
+The [project registry](projects/INDEX.md) contains minimal identity and routing links. Detailed enrollment and authority records live in each owning repository. A registry entry alone grants no project work authority; synthetic qualification fixtures grant no real product authority.
 
 ## Enrollment record
 
-Coordinator allocates the project ID and records a Markdown profile under `agent-org/knowledge/projects/<project-id>/`. Follow the [project profile template](projects/TEMPLATE.md). At minimum, the enrollment task and profile must make these eight scope fields explicit:
+Coordinator allocates the project ID and records only identity and authoritative links under `agent-org/knowledge/projects/<project-id>/`. Follow the [routing template](projects/TEMPLATE.md). Store the detailed enrollment task and profile in the owning project repository. That owning record must make these eight scope fields explicit:
 
 1. **Target system** — project, organization, or cross-boundary.
 2. **Change classification** — consistent with the target.
@@ -32,7 +32,7 @@ Coordinator allocates the project ID and records a Markdown profile under `agent
 7. **Related tasks** — task IDs, or none.
 8. **Approval requirements** — the applicable grant IDs and approval status.
 
-Also record the allocated project ID, verified canonical local root, repository identity and remote, authoritative ticket/board and specification references, owner and delegates, permitted environments and commands, protected paths, Git/PR rules, verification commands and baseline, project overrides, service mappings, and observability gaps. Use the profile as a pointer to those authorities; do not copy requirements that could diverge. Keep the project checkout and Git history separate from `agent-org`.
+In the owning project record, retain the project ID, verified local root, repository/remote, ticket/specification references, owner/delegates, scope, environments/commands, protected paths, Git rules, verification baseline, overrides, services and observability gaps. The organization profile links to that authority; it does not duplicate those details. Keep project checkout, records and Git history separate from `agent-org`, following [record ownership](../policies/RECORD_OWNERSHIP.md).
 
 ## Authority and work
 

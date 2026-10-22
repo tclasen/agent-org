@@ -1,26 +1,8 @@
-# Remote-main delivery reconciliation
+# Relocated project records
 
-- Target System: cross_boundary
-- Change Classification: cross_boundary
-- Authorized Scope: APP-000016 six owning repositories; normal protected PR delivery; durable instructions
-- Affected Paths or Resources: five project cleanup PRs, parent cleanup/instructions PR, scoped organization records
-- Owning Role: Coordinator
-- Related Requirements: REQ-000048, REQ-000049
-- Related Tasks: TASK-000041, TASK-000063, TASK-000064, TASK-000065
-- Approval Requirements: APP-000016, fresh exact-candidate review, distinct organization approval, normal checks/protections
+Project-specific content lives in the owning repository. This file retains routing links only; it contains no project progress, test results or runtime authority.
 
-The operator superseded the prior local-only execution boundary. Historical PLAN/CHECKS/REVIEW/APPROVAL/CLOSURE and manifests retain the earlier observations; they are not current acceptance. The five projects now have verified owning-remote delivery in delivery-heads.json. Parent delivery remains pending this PR's review/checks/merge; administrative closure proposed in this PR takes effect only after that merge and observed remote-main verification.
-
-The standing completion rule already shipped in policy PR8 (ca6ff20). This PR clarifies that routine commits/pushes/PRs/allowed merges for authorized change scope are part of the standing directive, without expanding product scope, deployment, spending or protection authority. Root instructions and delivery policy retain all independent-review, check and branch-protection requirements.
-
-Five project PRs are merged: commons5, every_game153, semantic_search115, wired_to_survive239, llm-cost-calculator2. Exact heads, merge commits, fetched-main tips, approved/merged tree identities, GitHub valid-signature verdicts, verification times and clean main synchronization are in delivery-heads.json. Full-tree equality verifies squash content as well as merge commits. The calculator PR validation workflow passed; unchanged application/GPU suites are not claimed as fresh product acceptance.
-
-Preserved execution failures and repairs: root network/Git-index access required sandbox escalation; no permission rejection was bypassed. Initial commits used a key registered to the agent with a different default committer identity; GitHub returned unknown_key and blocked signature-required repositories. Equivalent commits on new branches used the matching agent noreply identity, all five GitHub signatures became valid, and all five ordinary PR merges succeeded. Original branches and closed superseded PRs remain; no force push, shared-history rewrite, protection weakening or direct-main push occurred. Superseded heads/PRs are recorded separately. Calculator had pull requests disabled; enabling that feature was necessary setup for mandated PR delivery and changed no permission or protection rule.
-
-Root upstream PR9 research and concurrent reservations were reconciled before mutation. Snapshot/patch recovery copies preserved cleanup-owned tracked edits while the root fast-forwarded, then append-only index/handoff changes were combined. No research/old sources were edited or staged. IDs were remapped before publication to preserve all discovered published/reserved identities. The structural validator initially rejected TASK50 requiring remotely accepted TASK49; the relation now correctly validates the available review artifact, while both administrative records retain the mandatory remote-main gate. No evaluator or acceptance criterion was weakened.
-
-Rollback remains a scoped corrective/revert PR. No new product behavior, paid inference, release or deployment is part of this task. Existing CI triggered by authorized pushes/PRs remains under repository controls. Completion will be reported only after the parent PR and its administrative closure are merged and fetched remote-main content is verified; no further local evidence edits will be left as completed work.
-
-## Final closure proposal in PR11
-
-Fresh independent Reviewer approved exact substantive root implementation72e57cf59179abe03d3c22e9d56dc3ca04437381/tree d05be7b55158df0deee1b42c58a0f7a4e8fa0a38. Distinct Chief of Staff approved it and the review evidence. Their committed attestations plus this conditional task/run reconciliation are the only final delta. Any native final-head confirmation must inspect that delta and all host checks before normal merge. All proposed terminal states/claim releases take effect only upon this PR's successful merge and observed remote-main verification. The final observed merge/main evidence is returned in the active-session handoff; no additional unshipped evidence edit is required or claimed.
+- [every_game records](https://github.com/tclasen/every_game/blob/main/docs/agent-records/record-ownership-2026-10-22/README.md)
+- [wired_to_survive records](https://github.com/tclasen/wired_to_survive/blob/main/docs/agent-records/record-ownership-2026-10-22/README.md)
+- [llm-cost-calculator records](https://github.com/tclasen-agent/llm-cost-calculator/blob/main/docs/agent-records/record-ownership-2026-10-22/README.md)
+- [semantic_search records](https://github.com/tclasen/semantic_search/blob/main/docs/agent-records/record-ownership-2026-10-22/README.md)

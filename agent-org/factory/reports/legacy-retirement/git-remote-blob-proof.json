@@ -1,76 +1,11 @@
 {
-  "observed_at": "2026-10-21T23:44:01.711423+00:00",
-  "results": [
-    {
-      "repository": "projects/factory_catalog",
-      "commit": "3dd0ed22a6041c56a21e275f603f71457341712c",
-      "path": "AGENTS.md",
-      "remote_read_code": 0,
-      "bytes": 4101,
-      "sha256": "35d79fd0b422f6b8a48123b2560bb922304c32c8ce514ee576d4685efbc1ce84",
-      "matches_original": true,
-      "error": ""
-    },
-    {
-      "repository": "projects/penny",
-      "commit": "ccd05aadd22c77786a4e3c2ef322c9205b2960b8",
-      "path": "AGENTS.md",
-      "remote_read_code": 0,
-      "bytes": 15666,
-      "sha256": "b05d9c41c87855ab335fbd20fb632daaa3ea18cd90f0a408e7578497cdf06a71",
-      "matches_original": true,
-      "error": ""
-    },
-    {
-      "repository": "projects/penny",
-      "commit": "16342ccc52864b1cc3a917b1c743280a18dbf1ff",
-      "path": "docs/TRACEABILITY.md",
-      "remote_read_code": 0,
-      "bytes": 56809,
-      "sha256": "9bfaa079530b0b205f92fdcc8229f58c629d51d65a30df2647d7029e16445603",
-      "matches_original": true,
-      "error": ""
-    },
-    {
-      "repository": "projects/penny",
-      "commit": "16342ccc52864b1cc3a917b1c743280a18dbf1ff",
-      "path": "docs/adr/0004-layered-city-and-installed-content.md",
-      "remote_read_code": 0,
-      "bytes": 14362,
-      "sha256": "4ad9e774b34771b5520305063198c06a3d0f21a418d4f2b513abd7aeab591420",
-      "matches_original": true,
-      "error": ""
-    },
-    {
-      "repository": "projects/semantic_search",
-      "commit": "779e87831fd7ad83b3f766cc82ec3b131873f2db",
-      "path": "scripts/app.py",
-      "remote_read_code": 0,
-      "bytes": 74245,
-      "sha256": "b81177b9b570dd996d533344bf8dcc131c6cdfc731b0768d074b642ea913243c",
-      "matches_original": true,
-      "error": ""
-    },
-    {
-      "repository": "projects/wired_to_survive",
-      "commit": "4badd283c5f53ef10f90037f1c83db7cda35453f",
-      "path": "docs/factory/HOOKS.md",
-      "remote_read_code": 0,
-      "bytes": 4843,
-      "sha256": "d4460e7375a1898ce6624c7fb95349d11fab204b74de16d0a8352080e12e948c",
-      "matches_original": true,
-      "error": ""
-    },
-    {
-      "repository": "projects/factory_evals",
-      "commit": "0559d82db5da43beda51f2ca7676ec268313026e",
-      "path": "README.md",
-      "remote_read_code": 0,
-      "bytes": 2882,
-      "sha256": "8e0a9a5a4168b9f196c3fa120d85b756568139b1fbac0ec0c535c4b11e609324",
-      "matches_original": true,
-      "error": ""
-    }
+  "record_ownership": "forwarding pointer only; authoritative project data resides with owning repository",
+  "locations": [
+    "https://github.com/tclasen/commons/blob/main/docs/agent-records/record-ownership-2026-10-22/README.md",
+    "https://github.com/tclasen/every_game/blob/main/docs/agent-records/record-ownership-2026-10-22/README.md",
+    "https://github.com/tclasen/wired_to_survive/blob/main/docs/agent-records/record-ownership-2026-10-22/README.md",
+    "https://github.com/tclasen-agent/llm-cost-calculator/blob/main/docs/agent-records/record-ownership-2026-10-22/README.md",
+    "https://github.com/tclasen/semantic_search/blob/main/docs/agent-records/record-ownership-2026-10-22/README.md"
   ],
-  "limits": "Targeted changed source/doc blob retrieval in addition to every archived commit/tree. Does not verify all historical asset blobs or application behavior."
+  "authority": "no project operation or acceptance authority in this pointer"
 }

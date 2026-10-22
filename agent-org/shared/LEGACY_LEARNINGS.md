@@ -36,6 +36,6 @@ Use this reference when planning evaluations, interpreting telemetry, checking c
 | Work matched comparison |Candidate7/16,baseline6/16;two wins,one loss,13ties;median time ratio1.04 |Aggregate gain does not waive the frozen no-cell-loss rule |
 | Competition journal |531 records,73 unique lessons;failed/superseded/infrastructure-attention runs retained |Records/events are not independent trials or completed trajectories |
 | Penny local observation DB |58,347events;0bundle rows/acknowledgments |Local observation history is not proof of remote archival |
-| Wired local trial |40trials;median ratios0.9813 and0.9527,below required10%improvement |Inconclusive, despite narrower successful checks |
+| Historical local agent trial |40trials;median ratios0.9813 and0.9527,below required10%improvement |Inconclusive, despite narrower successful checks |
 
 These are source-bound historical findings, not newly executed experiments. See the full reports for exact definitions, dates, source digests, missingness and counterevidence. Concrete policy/tool changes suggested by this evidence still need a separately admitted task, current baseline, independent review and the existing approval process.

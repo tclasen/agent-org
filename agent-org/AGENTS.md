@@ -27,3 +27,5 @@ Before sending a final response to any change request, apply the [final-response
 | Other procedures/tools/history | [Policy triggers](policies/INDEX.md), [shared schemas](shared/INDEX.md), [workflows](workflows/INDEX.md), [factory](factory/README.md), [knowledge](knowledge/INDEX.md), [organization catalog](README.md) |
 
 Read each applicable source before its action; summaries never replace authority. Stop expanding when scope, procedure and acceptance are clear. Use targeted search for uncertain obligations.
+
+Record storage follows [record ownership](policies/RECORD_OWNERSHIP.md): organization governance stays here; project-specific records stay in their owning repositories. Organization entries retain only minimal routing links.
