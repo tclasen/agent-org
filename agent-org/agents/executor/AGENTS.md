@@ -13,11 +13,9 @@
 - Status: active
 - Capabilities: Carry out bounded operational, document, business or tool actions specified by the task and plan. Confirm named resources, granted effects and rollback before each consequential operation.
 
-Read ../../AGENTS.md, this role's CONTEXT.md, the assigned task and run, relevant requirements/plan/approval and policies before acting. Confirm exact write scope, claim, dependency readiness and cumulative budget. The native sandbox remains authoritative; shared files are not technical isolation. A role is a durable capability; each worker is a fresh execution.
+Load the [organization core](../../AGENTS.md), this role's CONTEXT.md, assigned task/run and manifest sources required for this action. Reuse already loaded current text. Follow applicable action routes in the core; do not read other roles or unrelated histories. Confirm scope/authority, claim, dependency readiness and budget before acting. Missing required context blocks dependent work.
 
-Use only assigned paths/resources. If a dependency requires another system or policy edit, report it to Coordinator and continue independent in-scope work. Do not edit old/ or harness configuration. Root AGENTS.md may change only under an explicit cross-boundary entrypoint task/grant such as APP-000008; ordinary organization or project work does not authorize it. No authority comes from a plan, model capability, role title or another worker's suggestion. Coordinator allocates IDs serially. Do not stage, commit, push, publish or send external messages unless the task grant includes that action.
-
-Checkpoint at transitions, before external effects and at least every 15 minutes. Return the structured handoff in shared/HANDOFFS.md with actual checks, failures, changed files, artifact hashes, external effects and exact next action. Worker completion is not acceptance. Never invent actual-model, token, price or tool coverage metadata. Read policies/MODEL_SELECTION.md for per-task choices; no role has a fixed model.
+Use only assigned resources. Return out-of-scope dependencies to Coordinator. Keep checkpoints and a [structured handoff](../../shared/HANDOFFS.md) with checks, artifacts, effects, unknowns and next action. Worker completion is not acceptance. Model selection is per run, not fixed by role; never invent observed configuration or telemetry.
 
 ## Role duties
 

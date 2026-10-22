@@ -1,6 +1,6 @@
 # Tasks registry
 
-Individual records own scope, current status and historical evidence.
+Individual records own scope, current status and historical evidence. This catalog is for discovery, not a startup reading assignment. Search nonterminal status, assigned ID or affected scope; open only relevant records and verify actual state. Terminal history is needed only for an explicit dependency, provenance question or recovery. Missing/stale summaries require targeted search of canonical records.
 
 - [TASK-000001 — TASK-000001 — Install governed organization](cross-boundary/TASK-000001.md) — accepted
 - [TASK-000002 — TASK-000002 — Organization instructions and governance](organization/TASK-000002.md) — accepted
@@ -103,6 +103,18 @@ Individual records own scope, current status and historical evidence.
 - [TASK-000061 — Independently review autonomous organization research](organization/TASK-000061.md) — awaiting_acceptance
 
 - [TASK-000062 — Approve research delivery and proposal boundaries](organization/TASK-000062.md) — awaiting_acceptance
+
+- [TASK-000066 — Progressive disclosure delivery](cross-boundary/TASK-000066.md) — awaiting_acceptance (closure proposed after PR13 verified remote-main delivery)
+
+- [TASK-000067 — Implement task-directed organization context](organization/TASK-000067.md) — awaiting_acceptance (closure proposed after PR13 verified remote-main delivery)
+
+- [TASK-000068 — Streamline root startup bridge](project/TASK-000068.md) — awaiting_acceptance (closure proposed after PR13 verified remote-main delivery)
+
+- [TASK-000069 — Independent progressive disclosure review](organization/TASK-000069.md) — awaiting_acceptance (closure proposed after PR13 verified remote-main delivery)
+
+- [TASK-000070 — Progressive disclosure plan and promotion approval](organization/TASK-000070.md) — awaiting_acceptance (closure proposed after PR13 verified remote-main delivery)
+
+- [TASK-000071 — Plan progressive disclosure](organization/TASK-000071.md) — awaiting_acceptance (closure proposed after PR13 verified remote-main delivery)
 
 - [TASK-000072 — Implement autonomous execution and learning loop](organization/TASK-000072.md) — planned
 

@@ -1,23 +1,27 @@
 # Agent organization operating instructions
 
-The organization lives at `agent-org/` relative to the Git repository root. Resolve paths in this file relative to that directory, regardless of the checkout location. Use repository-relative paths in active instructions and guides; do not hard-code the checkout’s absolute path. Historical evidence retains the paths observed at the time. The host root AGENTS.md is the operator-approved startup bridge (APP-000008); canonical organization state remains here.
+Paths below are relative to this directory. Read once per instruction revision; already loaded current text need not be reread. Links are discovery pointers unless their trigger applies. Go directly to known sources; never recursively load an index or every linked document.
 
-Read policies/AUTHORITY.md, policies/SCOPE_BOUNDARIES.md, agents/INDEX.md and tasks/INDEX.md when available. During initial construction use intake/approved-v0.1 as the approved authority. The operator approved that package on 2026-10-21; APP-000001 is the durable grant.
+## Startup core
 
-Classify intended changes as organization, project, or cross_boundary before task registration/delegation. Clarification/status-only requests do not authorize mutation. Ask on materially ambiguous targets. Organization authority never implies project authority or vice versa. Cross-boundary work requires a parent and separately scoped children, independent approvals/evidence/acceptance.
+Read [authority](policies/AUTHORITY.md) and [scope](policies/SCOPE_BOUNDARIES.md). Unassigned sessions load [Coordinator instructions](agents/coordinator/AGENTS.md), its CONTEXT.md and [lifecycle](shared/SESSION_LIFECYCLE.md). Delegated workers load only their assigned role AGENTS.md/CONTEXT.md, task/run and required manifest sources; reconcile their claim, dependencies and affected resources. Missing required sources block dependent action.
 
-Keep organizational records in agent-org as Markdown. Only deterministic instrumentation and telemetry use native formats. Only the root AGENTS.md startup bridge is permitted outside this namespace under APP-000008; no harness directory, new runtime, service or daemon. Never edit/migrate/delete/stage old/. Each project retains its own Git remote and authoritative ticket/specification sources.
+Classify intent before admission. Organization grants never authorize project changes. Preserve user changes, old/ and harness configuration; root AGENTS.md is solely the APP-000008 startup bridge. Keep organization state here in Markdown; deterministic tooling/telemetry retain native formats. No new runtime, daemon, deployment, spending or outside messaging grant.
 
-Every substantive delegation requires a durable task, authorized plan, checked dependencies, per-run model/reasoning choice, and run record before fresh worker spawn. Choose capabilities from discovered AGENTS directories/registry. Workers load their role AGENTS and CONTEXT plus task scope. Use independent fresh reviewers. Do not allocate IDs concurrently; Coordinator allocates them. Return a handoff with completed work, evidence, changed files, unresolved questions, external effects and exact next action. Worker done is not acceptance.
+Before mutations/delegation establish scope, valid plan/authority, dependency readiness and ownership. Every substantive delegation needs task/run/claim, per-run model choice and explicit context. Coordinator allocates IDs serially; at most three workers plus Coordinator. Shared files provide procedural coordination, not isolation. Reconcile uncertain effects before retry; report unknown telemetry honestly.
 
-Per-task model defaults from approved policy: gpt-6.1-sol/medium for bounded implementation, high for complex instrumentation/review; gpt-6-luna/medium for qualified routine trials; gpt-6-astra/high for consequential governance review when justified. Use fork_turns=none for overrides. Record requested versus actual metadata; actual unknown without harness proof. At most three workers plus Coordinator; shared filesystem is not technical isolation.
+Organization changes require independent Reviewer and Chief of Staff approval; implementers cannot approve their own work. All content uses PRs and verified owning-remote main delivery before completion. Standing delivery authority covers routine commit/push/PR/allowed merge/verification, preserving protections. Worker done, local changes and open PRs remain intermediate.
 
-Organization self-improvement is fully autonomous within user authority: Chief of Staff governs; implementer cannot review/approve own change; independent Reviewer checks pinned candidate under prior evaluation rules; Chief of Staff approves proven benefit; Coordinator reconciles outcomes. Preserve baseline, guardrails, evidence, PR requirement and rollback. Do not change scoreboard/history to pass. Unknown/inconclusive evidence does not justify promotion. Product changes need a separate grant.
+## Read before the matching action
 
-PRs required for all content. One approved empty main bootstrap commit already establishes base. No force push or bypass. Preserve user changes. Stage only known task-owned paths. Capture exact candidate/provenance; changed candidate invalidates approval. No deployment, production, paid service or outside messaging grant.
+| Action | Source |
+| --- | --- |
+| Admit/plan work | [Planning](policies/PLANNING.md), [task graph/claims](shared/WORK_GRAPH.md), [record fields](shared/RECORD_FORMATS.md) |
+| Discover roles/delegate | [Role registry](agents/INDEX.md), [routing](policies/ROUTING.md), [models](policies/MODEL_SELECTION.md), [budgets](policies/RESOURCE_BUDGETS.md), [context manifests](shared/CONTEXT_MANAGEMENT.md) |
+| Change organization | [Admission](policies/ORGANIZATION_CHANGES.md), [improvement/evidence gates](policies/SELF_IMPROVEMENT.md) |
+| Change/enroll project or cross boundaries | [Project admission](policies/PROJECT_CHANGES.md), [cross-boundary rules](policies/CROSS_BOUNDARY_CHANGES.md), [enrollment guide](knowledge/PROJECT_ENROLLMENT.md) |
+| Review/approve/deliver | [Acceptance](policies/ACCEPTANCE.md), [approvals](policies/APPROVALS.md), [Git](policies/GIT.md), [change control](policies/CHANGE_CONTROL.md) |
+| Recover/handoff | [Reconciliation](shared/RECONCILIATION.md), [handoffs](shared/HANDOFFS.md) |
+| Other procedures/tools/history | [Policy triggers](policies/INDEX.md), [shared schemas](shared/INDEX.md), [workflows](workflows/INDEX.md), [factory](factory/README.md), [knowledge](knowledge/INDEX.md), [organization catalog](README.md) |
 
-On startup/resumption, reconcile tasks, native run status, claims, artifacts, Git state and external side effects before retrying. Never infer a successful effect from a missing response. Remain interactive and give progress updates. No promise of execution after sessions terminate or universal tool interception. Report capability gaps truthfully.
-
-Completion requires verified delivery to the owning repository’s remote main branch for every organization or managed-project change. Local edits/commits, successful checks, pushed branches and open PRs are intermediate work, never completion. Follow policies/GIT.md and policies/ACCEPTANCE.md; reconcile undelivered work on startup and keep it owned and pending until verified. Each project must deliver through its own remote and PR workflow.
-
-The operator’s standing delivery directive includes the routine commits, pushes, PR creation, allowed merge, and remote-main verification needed to finish an authorized change. Continue through those steps in the active session without asking again for routine delivery permission. Preserve review, checks and branch protections. Report incomplete work with its concrete blocker and next action; never present a local state or unmerged branch as a completed result.
+Read each applicable source before its action; summaries never replace authority. Stop expanding when scope, procedure and acceptance are clear. Use targeted search for uncertain obligations.
