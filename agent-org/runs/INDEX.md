@@ -132,3 +132,9 @@ Individual records own scope, current status and historical evidence. This catal
 - [RUN-000074 — Qualify fresh worker recovery and refusal](RUN-000074.md) — completed
 
 - [RUN-000079 — Qualify fresh worker recovery and refusal](RUN-000079.md) — completed
+
+- [RUN-000096 — README Coordinator](RUN-000096.md) — in_progress; closure conditional on verified PR delivery
+
+- [RUN-000097 — README Reviewer](RUN-000097.md) — in_progress; closure conditional on verified PR delivery
+
+- [RUN-000098 — README Chief of Staff](RUN-000098.md) — in_progress; closure conditional on verified PR delivery

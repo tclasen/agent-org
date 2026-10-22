@@ -32,3 +32,5 @@ Individual records own scope, current status and historical evidence.
 - [APP-000020 — Independent deterministic autonomy implementation plan approval](APP-000020.md) — approved
 
 - [APP-000021 — Independent deterministic autonomy capability adoption](APP-000021.md) — approved
+
+- [APP-000030 — Operator README delivery directive](APP-000030.md) — approved; promotion requires independent decision

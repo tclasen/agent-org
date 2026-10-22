@@ -26,3 +26,5 @@ Worktree cleanup reservation 2026-10-22T02:15:32.088934+00:00: TASK-000095..97, 
 Autonomy implementation reservation 2026-10-22T01:39:44.573658+00:00: TASK-000072..78, RUN-000068..74, REQ-000052, EXP-000002, APP-000020..21. Coordinator /root in feat/autonomy-workflow owns these; preserve progressive-disclosure reservations66..71/62..67/18..19. No worker allocates IDs.
 
 Identity reconciliation 2026-10-22T02:10:48.290517+00:00: published Commons PR14 owns RUN-000075..78. The unpublished autonomy second recovery execution provisionally labeledRUN75 is remapped to RUN-000079 before publication. Its original manifest/journal/report identifiers and hashes remain historical evidence; the new formal record discloses the alias. RUN79 is reserved to this owner; no published Commons definition is changed.
+
+README delivery reservation 2026-10-22T02:53:36.975293+00:00: TASK-000102..104, RUN-000096..98, APP-000030. Coordinator /root owns root README and scoped delivery records; preserve all prior reservations.
