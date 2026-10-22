@@ -144,3 +144,11 @@ Individual records own scope, current status and historical evidence. This catal
 - [TASK-000077 — Govern implementation plan and promotion](organization/TASK-000077.md) — awaiting_acceptance
 
 - [TASK-000078 — Qualify fresh worker recovery and refusal](organization/TASK-000078.md) — awaiting_acceptance
+
+- [TASK-000102 — Deliver top-level README](project/TASK-000102.md) — in_progress; closure conditional on verified PR delivery
+
+- [TASK-000103 — Review README delivery](organization/TASK-000103.md) — in_progress; closure conditional on verified PR delivery
+
+- [TASK-000104 — Approve README delivery](organization/TASK-000104.md) — in_progress; closure conditional on verified PR delivery
+
+- [TASK-000105 — README delivery integration](cross-boundary/TASK-000105.md) — in_progress
