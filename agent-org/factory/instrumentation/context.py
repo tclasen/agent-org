@@ -171,10 +171,18 @@ def build_manifest(root, task_id, run_id, role, sources=()):
             if not re.search(r"\b(?:[Rr]ead|[Ll]oad|[Bb]efore substantive work)\b", paragraph):
                 continue
             directives.append({"source": path, "instruction": paragraph})
-            targets = re.findall(r"\[[^\]]+\]\(([^)]+)\)", paragraph)
-            if re.match(r"(?:Read|Load)\b", paragraph.strip()):
-                targets += re.findall(r"`([^`\n]+\.md)`", paragraph)
-                targets += re.findall(r"(?<![\w`/.])((?:\.\./|\./)[A-Za-z0-9_./-]+\.md)\b", paragraph)
+            targets = []
+            # Sentence/clause scope matters: adjacent historical, conditional or
+            # unassigned-session links do not inherit an earlier Read directive.
+            for clause in re.split(r"(?<=[.!?;])\s+", paragraph):
+                clause = clause.strip()
+                if not re.match(r"(?:Read|Load|You must (?:read|load))\b", clause, re.I):
+                    continue
+                if re.search(r"\b(?:if|when|unless|unassigned)\b|not a startup reading assignment", clause, re.I):
+                    continue
+                targets += re.findall(r"\[[^\]]+\]\(([^)]+)\)", clause)
+                targets += re.findall(r"`([^`\n]+\.md)`", clause)
+                targets += re.findall(r"(?<![\w`/.])((?:\.\./|\./)[A-Za-z0-9_./-]+\.md)\b", clause)
             for target in dict.fromkeys(targets):
                 if re.match(r"[a-z]+:", target) or target.startswith("#"):
                     continue

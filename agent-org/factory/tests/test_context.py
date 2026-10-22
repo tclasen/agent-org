@@ -161,6 +161,25 @@ class ContextTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "required reading graph exceeds 256 sources"):
             self.manifest()
 
+    def test_core_unassigned_clause_does_not_import_other_role(self):
+        self.write("AGENTS.md", "Read [authority](policies/AUTHORITY.md) and [scope](policies/SCOPE_BOUNDARIES.md). Unassigned sessions load [Coordinator instructions](agents/coordinator/AGENTS.md), its CONTEXT.md and [lifecycle](shared/SESSION_LIFECYCLE.md). Delegated workers load only their assigned role.\n")
+        manifest = self.manifest()
+        paths = {entry["path"] for entry in manifest["sources"]}
+        self.assertIn("agent-org/policies/AUTHORITY.md", paths)
+        self.assertIn("agent-org/policies/SCOPE_BOUNDARIES.md", paths)
+        self.assertFalse(any("agents/coordinator/" in path for path in paths))
+        self.assertTrue(any("Unassigned sessions" in d["instruction"] for d in manifest["required_reading_instructions"]))
+
+    def test_conditional_history_and_negated_links_are_not_assignments(self):
+        self.write("agents/developer/CONTEXT.md", "For enrolled project work, read that project's profile before acting. Preserve other projects. Historical installation/intake evidence is available through [approvals](../../approvals/INDEX.md) and [intake](../../intake/INDEX.md) when reconstructing authority/history; it is not a startup reading assignment.\n\nDo not read [unrelated role](../coordinator/AGENTS.md). Read [conditional](../../knowledge/CONDITIONAL.md) only when reviewing history.\n")
+        manifest = self.manifest()
+        paths = {entry["path"] for entry in manifest["sources"]}
+        self.assertNotIn("agent-org/approvals/INDEX.md", paths)
+        self.assertNotIn("agent-org/intake/INDEX.md", paths)
+        self.assertNotIn("agent-org/knowledge/CONDITIONAL.md", paths)
+        self.assertFalse(any("agents/coordinator/" in path for path in paths))
+        self.assertTrue(any("not a startup reading assignment" in d["instruction"] for d in manifest["required_reading_instructions"]))
+
     def test_plain_and_quoted_required_paths_are_checked(self):
         self.write("agents/developer/AGENTS.md", "Read ../../shared/EXTRA.md and `../../shared/MORE.md`.\n")
         with self.assertRaises(ValueError):

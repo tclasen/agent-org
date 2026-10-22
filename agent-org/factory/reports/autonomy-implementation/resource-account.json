@@ -1,0 +1,13 @@
+{
+  "clock": "one shared parent experiment active-session wall clock",
+  "registered_at": "2026-10-22T01:39:44.573658+00:00",
+  "observed_at": "2026-10-22T02:08:29.660354+00:00",
+  "cumulative_seconds": 1725.086696,
+  "limit_seconds": 3600,
+  "children_and_retries": "all child and retry intervals remain inside this same unreset clock; overlap is counted once",
+  "interruption": "no time was subtracted for the user interruption/resumption",
+  "agent_seconds": null,
+  "tokens": null,
+  "cost": null,
+  "limits": "Concurrent aggregate model compute/agent seconds are not observable and are not inferred. No resource-efficiency claim. The clock measures bounded active-session qualification, not compute consumption. Independent Chief of Staff resolves the existing clock-definition ambiguity; no code, acceptance threshold or workload changed."
+}

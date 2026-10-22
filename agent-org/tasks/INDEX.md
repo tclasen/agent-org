@@ -116,16 +116,16 @@ Individual records own scope, current status and historical evidence. This catal
 
 - [TASK-000071 — Plan progressive disclosure](organization/TASK-000071.md) — awaiting_acceptance (closure proposed after PR13 verified remote-main delivery)
 
-- [TASK-000072 — Implement autonomous execution and learning loop](organization/TASK-000072.md) — planned
+- [TASK-000072 — Implement autonomous execution and learning loop](organization/TASK-000072.md) — awaiting_acceptance
 
-- [TASK-000073 — Implement current state reconciliation](organization/TASK-000073.md) — planned
+- [TASK-000073 — Implement current state reconciliation](organization/TASK-000073.md) — awaiting_acceptance
 
-- [TASK-000074 — Implement recoverable effect journal](organization/TASK-000074.md) — planned
+- [TASK-000074 — Implement recoverable effect journal](organization/TASK-000074.md) — awaiting_acceptance
 
-- [TASK-000075 — Implement context and candidate learning tools](organization/TASK-000075.md) — planned
+- [TASK-000075 — Implement context and candidate learning tools](organization/TASK-000075.md) — awaiting_acceptance
 
-- [TASK-000076 — Independently verify autonomous execution candidate](organization/TASK-000076.md) — planned
+- [TASK-000076 — Independently verify autonomous execution candidate](organization/TASK-000076.md) — awaiting_acceptance
 
-- [TASK-000077 — Govern implementation plan and promotion](organization/TASK-000077.md) — planned
+- [TASK-000077 — Govern implementation plan and promotion](organization/TASK-000077.md) — awaiting_acceptance
 
-- [TASK-000078 — Qualify fresh worker recovery and refusal](organization/TASK-000078.md) — planned
+- [TASK-000078 — Qualify fresh worker recovery and refusal](organization/TASK-000078.md) — awaiting_acceptance

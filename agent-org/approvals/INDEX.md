@@ -27,3 +27,5 @@ Individual records own scope, current status and historical evidence.
 - [APP-000019 — Progressive disclosure promotion decision](APP-000019.md) — approved, exact final-head reconciliation required
 
 - [APP-000020 — Independent deterministic autonomy implementation plan](APP-000020.md) — approved
+
+- [APP-000021 — Independent deterministic autonomy capability adoption](APP-000021.md) — approved
