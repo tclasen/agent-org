@@ -31,26 +31,26 @@ Individual records own scope, current status and historical evidence.
 - [TASK-000027 — Create root startup entrypoint](project/TASK-000027.md) — accepted
 - [TASK-000028 — Independently verify root startup integration](organization/TASK-000028.md) — accepted
 
-- [TASK-000029 — Legacy learning and retirement preparation](cross-boundary/TASK-000029.md) — in_progress
+- [TASK-000029 — Legacy learning and retirement preparation](cross-boundary/TASK-000029.md) — accepted
 
-- [TASK-000030 — Plan legacy preservation and coverage](organization/TASK-000030.md) — in_progress
+- [TASK-000030 — Plan legacy preservation and coverage](organization/TASK-000030.md) — accepted
 
-- [TASK-000031 — Extract factory and work organization learnings](organization/TASK-000031.md) — ready
+- [TASK-000031 — Extract factory and work organization learnings](organization/TASK-000031.md) — accepted
 
-- [TASK-000032 — Extract project organization learnings](organization/TASK-000032.md) — ready
+- [TASK-000032 — Extract project organization learnings](organization/TASK-000032.md) — accepted
 
-- [TASK-000033 — Inventory and preserve legacy project Git state](project/TASK-000033.md) — ready
+- [TASK-000033 — Inventory and preserve legacy project Git state](project/TASK-000033.md) — accepted
 
-- [TASK-000034 — Preserve projects/factory_catalog Git history](project/TASK-000034.md) — in_progress
+- [TASK-000034 — Preserve projects/factory_catalog Git history](project/TASK-000034.md) — accepted
 
-- [TASK-000035 — Preserve projects/penny Git history](project/TASK-000035.md) — in_progress
+- [TASK-000035 — Preserve projects/penny Git history](project/TASK-000035.md) — accepted
 
-- [TASK-000036 — Preserve projects/semantic_search Git history](project/TASK-000036.md) — in_progress
+- [TASK-000036 — Preserve projects/semantic_search Git history](project/TASK-000036.md) — accepted
 
-- [TASK-000037 — Preserve projects/wired_to_survive Git history](project/TASK-000037.md) — in_progress
+- [TASK-000037 — Preserve projects/wired_to_survive Git history](project/TASK-000037.md) — accepted
 
-- [TASK-000038 — Preserve projects/factory_evals Git history](project/TASK-000038.md) — in_progress
+- [TASK-000038 — Preserve projects/factory_evals Git history](project/TASK-000038.md) — accepted
 
-- [TASK-000039 — Independently verify legacy harvest and preservation](organization/TASK-000039.md) — in_progress
+- [TASK-000039 — Independently verify legacy harvest and preservation](organization/TASK-000039.md) — accepted
 
-- [TASK-000040 — Approve scoped legacy learning adoption](organization/TASK-000040.md) — ready
+- [TASK-000040 — Approve scoped legacy learning adoption](organization/TASK-000040.md) — accepted

@@ -75,3 +75,26 @@ Recloning is a source-recovery path, not a restoration of original disk state. O
 Coordinator's exact next action is to verify the115 source hashes and final review/approval bytes, stage only task-owned organization paths, capture the resulting commit/tree, and submit the scoped organization PR. Run required current hosted checks and honor protections/review resolution; no bypass, force push or deployment. Verify merged revision/content before reporting delivery. A changed source file invalidates the bound candidate and requires repinning plus affected independent review/adoption. Review/adoption outputs and RUN39/40 are the manifest's explicit exclusions, not a blanket exemption for other edits.
 
 After verified merge, reconcile factual task/run closure through the separately pinned, independently reviewed delta agreed with Coordinator. Preserve this release pin and failed evidence. Rollback uses a scoped corrective/revert PR from the known-good baseline; additive remote preservation refs are not automatically deleted. Worker completion and this approval do not themselves establish successful PR integration or operator deletion.
+
+## Supplemental independent decision: factual closure
+
+**Decision: APPROVE the separately pinned25-path factual closure delta for normal PR/check delivery.** Source work was delivered through PR #5 before this closure was accepted. No unresolved material closure finding remains. The source adoption decisions above remain unchanged; this supplement does not replace the historical source pin or imply that the administrative closure PR has already merged.
+
+| Closure input | Bound identity |
+| --- | --- |
+| `closure-files.json`,25 factual source paths | SHA256 `43f4cfb7915e9f27c777e164ce0626d2ed1094d2ab5b73dff30b1b41a094d804` |
+| Independent final closure `REVIEW.md` | SHA256 `4268c000e08dbec7fd33e0133d19e2f78bcc272ae23b6ebeb58b37b06b07e369` |
+| Completed independent `RUN-000039.md` | SHA256 `e190118162aef575bfe652939507d045522da4a3523aa2060ce43b3a19c98224` |
+| Closure baseline/source merge | `e5d33be520f917c5f2a7b35decc21ec295b21ae5` |
+| Reviewed source head | `1607807982343501aba35d071ad4eebbd569c660` |
+| Exact source and merged tree | `b60a5ccde532b510096c68652767d7de5649fef3` |
+
+I independently verified all25 closure hashes and the final Reviewer bytes before this decision. I inspected every unique changed line across the24 tracked operational files, plus CLOSURE.md:12 task records,10 run records and two registries. Changes reconcile accepted/completed status, released source-work claims, next actions, observed effects and structured acceptance evidence. No authority, evaluator, grant, substantive lesson, recovery payload or project file is changed by that delta. The initial closure validation failure and its acceptance-field correction remain recorded; evaluation rules were not changed to obtain a pass.
+
+Local Git independently confirms the reviewed source and merge have the exact same tree. I rehashed all118 historical source paths directly from the merged commit against the original approved manifest, with zero mismatches; its REVIEW/APPROVAL hashes match the identities recorded in CLOSURE.md. The historical pin is retained at its approved commit while current factual statuses deliberately differ. Current native validation independently passes183 records/no errors and whitespace checks pass.
+
+Read-only GitHub connector queries independently confirm PR #5 merged with the exact head/merge identities above. PR workflow39696578656 and main workflow39696627273 each have successful verify jobs, including exact checkout, records/scope, deterministic behavioral tests and whitespace steps. Reviewer independently corroborates delivery, both workflow job sets and no review threads. These observations justify accepting TASK29–40 as delivered source work, marking RUN29–40 completed and releasing their completed source claims. Coordinator continues to own the separate closure delivery obligation.
+
+This Chief of Staff execution did not implement the factual closure or author its independent review; only this approval and RUN40 are written. No Git/network mutation, external message, deletion, legacy execution or new broad source scan was performed. Actual model/reasoning/usage/cost remain unknown without trusted native metadata. All original raw-state/semantic-review/privacy/blob/LFS restoration limits and APP11 boundaries remain unchanged; administrative acceptance establishes no new product outcome or exhaustive backup claim.
+
+Exact next action: Coordinator verifies this25-path closure pin plus final independent review/adoption bytes, stages only the named factual delta and explicit excluded review/approval outputs, captures closure commit/tree, submits its scoped PR and honors required hosted checks/protections before normal merge and merged-content verification. A changed factual candidate needs repinning and affected independent review/approval. The closure manifest, REVIEW/APPROVAL and RUN39/40 are its explicit exclusions; this is not permission for other unreviewed edits. Rollback remains a scoped corrective/revert PR without deleting remote archive refs. No further operator gate is required for this authorized factual reconciliation.

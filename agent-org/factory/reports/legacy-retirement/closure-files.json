@@ -1,0 +1,39 @@
+{
+  "observed_at": "2026-10-21T23:57:47.635564+00:00",
+  "baseline": "e5d33be520f917c5f2a7b35decc21ec295b21ae5",
+  "scope": "Factual task/run closure only; source package already merged via PR #5",
+  "files": {
+    "agent-org/factory/reports/legacy-retirement/CLOSURE.md": "24f8ac562220fd97a6359c728dbd2bce1f82a9125c7664fccb16659586b4aa23",
+    "agent-org/runs/INDEX.md": "926bd090c0ccbfd99e6b5913e806d39f183d72fc522d5804695fdede2297c9b9",
+    "agent-org/runs/RUN-000029.md": "504658742d79447f3bc841ab1f72b29d0234178ffe5e8e8ed67201af0d7778e7",
+    "agent-org/runs/RUN-000030.md": "c499ce8cc0680fb6b58356fd81ac86a1d3b44660803260e5d99b3f66fdfefc7c",
+    "agent-org/runs/RUN-000031.md": "1d1111429dd4814960fcc222573feb499f46f0430346bdb684a6115218f29870",
+    "agent-org/runs/RUN-000032.md": "78f1f5ba38b1ea2431c80d9cf53db0bbb29c3ade6f21acd726aa933571a384a9",
+    "agent-org/runs/RUN-000033.md": "1755209958751f7d79ddaa91794ec82a680104f6013ac3418c958d67a3227294",
+    "agent-org/runs/RUN-000034.md": "256992af589cd3a98ee441edf1b8d8378d578e630f0aabae9712646e63173b7c",
+    "agent-org/runs/RUN-000035.md": "2cf90a97189f976f60346dd4271e3c67dbae57f00d690396b2da63e94fbde2dc",
+    "agent-org/runs/RUN-000036.md": "6a8eda12a6da7d921798b529c7ceef8ff2049fe5de5cce5d3ea4990075b56e45",
+    "agent-org/runs/RUN-000037.md": "35d4a3568b9d49470d7a5d7943a2374c597fb4100ea7874a7e4338fdc46a0e72",
+    "agent-org/runs/RUN-000038.md": "abca814afdde4027105e7c87c0a536fd341871c3e07c134f8fafd4cf69de7c3a",
+    "agent-org/tasks/INDEX.md": "a3d938059dae392da72e6e408ab5a545eb8d69aa94a3f467c6322dc284b48569",
+    "agent-org/tasks/cross-boundary/TASK-000029.md": "de05c506f2127448f55b6103212eb2ba7864bf6dab4629e1b2e28d4461cdf146",
+    "agent-org/tasks/organization/TASK-000030.md": "84ae420488edcb097dd43d5613b94a97e93edeb84a1b40a1c0da6beba50624d5",
+    "agent-org/tasks/organization/TASK-000031.md": "e0fb815383a27dace0cff2ab8b047eae42ba77ebb0caee64d8934480042d28fe",
+    "agent-org/tasks/organization/TASK-000032.md": "122e59cc4fa2165087288f328f83e65854cf46ab38292ad0db4470f78dd3b7b3",
+    "agent-org/tasks/organization/TASK-000039.md": "375aa5b73fda82c3c2027cf07416ef1d2e59a40e429c9730821b089f12352255",
+    "agent-org/tasks/organization/TASK-000040.md": "8c905a8810b65a20a493e66ec140bb12ebab5e37f64a5aa2dba0c4a88cbf59ce",
+    "agent-org/tasks/project/TASK-000033.md": "3eff4ae645733d416786b25546bc7a54aa2bb80b2d2860cfa9d5185c333e13ec",
+    "agent-org/tasks/project/TASK-000034.md": "973e025435f13ad3b921fa7d601da3448c5d95889e3dd4d5f5a8b7ee9dbeb3f8",
+    "agent-org/tasks/project/TASK-000035.md": "a1f93635191c7c4f5d07735aaaddfd93ec570ee3f339660f4ddfe86fb45692c0",
+    "agent-org/tasks/project/TASK-000036.md": "f408b3c912a550aaf40c8a3bb1316b22419cb8553475274349199d5e8652da57",
+    "agent-org/tasks/project/TASK-000037.md": "07819a57560e99feed06f94704d2175ab5ba82c17da44abde06d5a9c6967cb6a",
+    "agent-org/tasks/project/TASK-000038.md": "09a26119d230381a9ee6b52d920dd36f4933aef8cad8981f94ca73f6eb1979b7"
+  },
+  "excluded_outputs": [
+    "agent-org/factory/reports/legacy-retirement/closure-files.json",
+    "agent-org/factory/reports/legacy-retirement/REVIEW.md",
+    "agent-org/factory/reports/legacy-retirement/APPROVAL.md",
+    "agent-org/runs/RUN-000039.md",
+    "agent-org/runs/RUN-000040.md"
+  ]
+}
