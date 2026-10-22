@@ -91,3 +91,15 @@ Individual records own scope, current status and historical evidence.
 - [TASK-000064 — Review exact delivery candidates](organization/TASK-000064.md) — in_progress
 
 - [TASK-000065 — Approve final organization delivery](organization/TASK-000065.md) — planned
+
+- [TASK-000057 — Research autonomous factories and organization improvements](organization/TASK-000057.md) — awaiting_acceptance
+
+- [TASK-000058 — Research software factories and outcome evaluation](organization/TASK-000058.md) — awaiting_acceptance
+
+- [TASK-000059 — Research agent organizations and durable execution](organization/TASK-000059.md) — awaiting_acceptance
+
+- [TASK-000060 — Research empirical recursive self improvement](organization/TASK-000060.md) — awaiting_acceptance
+
+- [TASK-000061 — Independently review autonomous organization research](organization/TASK-000061.md) — awaiting_acceptance
+
+- [TASK-000062 — Approve research delivery and proposal boundaries](organization/TASK-000062.md) — awaiting_acceptance

@@ -1,0 +1,20 @@
+{
+  "observed_at": "2026-10-22T01:17:37.741459+00:00",
+  "baseline": "8916d3589054a6416098598a029d64c1d676dd7f",
+  "research_sha256": {
+    "agent-org/knowledge/autonomy-research/FACTORIES.md": "06c516c34c0d07082f76c9dcabbbe9034bbc57ced10ba95938d61c1ddc684ce0",
+    "agent-org/knowledge/autonomy-research/ORGANIZATIONS.md": "b7e4ad251db14a9582c9aa962046205caf4fcac2fb91df40af4324a80f42c23c",
+    "agent-org/knowledge/autonomy-research/README.md": "1ac77e2aeaf7a6c8fa4a11f58235e82878644123cc9e3b3d3a188915d42487a6",
+    "agent-org/knowledge/autonomy-research/SELF_IMPROVEMENT.md": "20781525ed8186dd365a8809485f1bcec00855c900b1c291dd29ec8a0cf4a6a7"
+  },
+  "prior_evaluator_sha256": "b85841b308ebe73cb0dcd9b33e9672ccc87eee1767c4e64eae5a2f7b62aa9c60",
+  "verification": {
+    "unit_tests": {
+      "command": "python3 -m unittest discover -s agent-org/factory/tests -q",
+      "exit_code": 0,
+      "tests": 85
+    },
+    "scope": "Research Markdown and task-owned administrative records only. No runtime/evaluator/policy/project source edits.",
+    "limitations": "Local helper tests do not establish research source truth or operational autonomy."
+  }
+}
