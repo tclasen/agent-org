@@ -128,6 +128,9 @@ Individual records own scope, current status and historical evidence. This catal
 
 - [TASK-000084 — Plan Commons video requirement](cross-boundary/TASK-000084.md) — awaiting_acceptance (PR6/PR14 delivery gate)
 
+- [TASK-000095 — Worktree lifecycle instructions and retrospective cleanup](organization/TASK-000095.md) — awaiting_acceptance
+- [TASK-000096 — Independent worktree cleanup review](organization/TASK-000096.md) — awaiting_acceptance
+- [TASK-000097 — Independent worktree cleanup approval](organization/TASK-000097.md) — awaiting_acceptance
 - [TASK-000072 — Implement autonomous execution and learning loop](organization/TASK-000072.md) — awaiting_acceptance
 
 - [TASK-000073 — Implement current state reconciliation](organization/TASK-000073.md) — awaiting_acceptance

@@ -114,6 +114,9 @@ Individual records own scope, current status and historical evidence. This catal
 
 - [RUN-000078 — Commons video Planner](RUN-000078.md) — completed (conditional delivery reconciliation)
 
+- [RUN-000089](RUN-000089.md) — worktree cleanup Coordinator
+- [RUN-000090](RUN-000090.md) — worktree cleanup Reviewer
+- [RUN-000091](RUN-000091.md) — worktree cleanup Chief of Staff
 - [RUN-000068 — Implement autonomous execution and learning loop](RUN-000068.md) — running
 
 - [RUN-000069 — Implement current state reconciliation](RUN-000069.md) — completed

@@ -21,6 +21,7 @@ Commons video reservation 2026-10-22T01:57:14.055392+00:00: TASK-000079..84, RUN
 
 REQ-000053 reserved for Commons video requirement under TASK-000079; distinct from autonomy REQ-000052.
 
+Worktree cleanup reservation 2026-10-22T02:15:32.088934+00:00: TASK-000095..97, RUN-000089..91, APP-000026..27. Coordinator /root owns instruction cleanup; preserve project demos TASK85..94/RUN80..88/APP24..25 and all earlier allocations. No worker allocates IDs.
 
 Autonomy implementation reservation 2026-10-22T01:39:44.573658+00:00: TASK-000072..78, RUN-000068..74, REQ-000052, EXP-000002, APP-000020..21. Coordinator /root in feat/autonomy-workflow owns these; preserve progressive-disclosure reservations66..71/62..67/18..19. No worker allocates IDs.
 
