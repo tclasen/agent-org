@@ -93,3 +93,17 @@ Individual records own scope, current status and historical evidence.
 - [RUN-000055 — Independently review autonomous organization research](RUN-000055.md) — completed
 
 - [RUN-000056 — Approve research delivery and proposal boundaries](RUN-000056.md) — completed
+
+- [RUN-000068 — Implement autonomous execution and learning loop](RUN-000068.md) — planned
+
+- [RUN-000069 — Implement current state reconciliation](RUN-000069.md) — planned
+
+- [RUN-000070 — Implement recoverable effect journal](RUN-000070.md) — planned
+
+- [RUN-000071 — Implement context and candidate learning tools](RUN-000071.md) — planned
+
+- [RUN-000072 — Independently verify autonomous execution candidate](RUN-000072.md) — planned
+
+- [RUN-000073 — Govern implementation plan and promotion](RUN-000073.md) — planned
+
+- [RUN-000074 — Qualify fresh worker recovery and refusal](RUN-000074.md) — planned

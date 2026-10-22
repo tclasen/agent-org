@@ -2,7 +2,7 @@
 
 Coordinator serializes allocations; never reuse IDs, including rejected/canceled work. Actual formal definitions plus this ledger are authoritative. Archived references and synthetic fixture namespaces do not allocate live records. Unknown concurrent allocation blocks mutation.
 
-Allocated through: AGENT-000008, DEC-000015, REQ-000051, AC-000048, CAP-000022, WF-000006, TASK-000065, RUN-000061, APP-000017, ART-000005, INIT-000001, INTENT-000001, TRG-000001, EXP-000001, EVAL-000007, FAIL-000016. Failure definitions are in evaluations/FAILURES.md. DEC-000001..14 remain in intake history. EVT-000001..000004 are actual installation stream events; synthetic test events remain separately labeled.
+Allocated through: AGENT-000008, DEC-000015, REQ-000052, AC-000048, CAP-000022, WF-000006, TASK-000078, RUN-000074, APP-000021, ART-000005, INIT-000001, INTENT-000001, TRG-000001, EXP-000002, EVAL-000007, FAIL-000016. Failure definitions are in evaluations/FAILURES.md. DEC-000001..14 remain in intake history. EVT-000001..000004 are actual installation stream events; synthetic test events remain separately labeled.
 
 Delivery admission observed Tessl published TASK-000054..56/RUN-000048..50, and active autonomy worktree reservations TASK-000057..62/RUN-000051..56/REQ-000051/APP-000015. Cleanup delivery records were remapped before publication to TASK-000063..65, RUN-000058..61 and APP-000016. No published or reserved identities were reused.
 
@@ -13,3 +13,7 @@ Research admission reconciled merged REQ-000050, TASK-000054..56 and RUN-000048.
 
 
 APP-000015 is reserved for the independent research-delivery decision by TASK-000062/RUN-000056. The exact-head decision will be retained with PR evidence; reservation alone grants no promotion.
+
+Progressive disclosure reconciliation reservation: TASK-000066..71, RUN-000062..67, APP-000018..19. Old provisional TASK-000057..62/RUN-000052..57/APP-000016..17 on draft PR12 are superseded due to concurrent research/cleanup allocations; preserve other owners. New worktree/branch docs/progressive-disclosure-reconciled will use these IDs only. Coordinator /root owns this reservation; workers allocate none.
+
+Autonomy implementation reservation 2026-10-22T01:39:44.573658+00:00: TASK-000072..78, RUN-000068..74, REQ-000052, EXP-000002, APP-000020..21. Coordinator /root in feat/autonomy-workflow owns these; preserve progressive-disclosure reservations66..71/62..67/18..19. No worker allocates IDs.

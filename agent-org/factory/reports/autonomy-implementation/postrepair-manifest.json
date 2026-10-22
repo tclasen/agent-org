@@ -1,0 +1,202 @@
+{
+  "authorized_scope": "agent-org/factory/reports/autonomy-implementation/RECOVERY.md; agent-org/runs/RUN-000074.md; agent-org/factory/reports/autonomy-implementation/recovery-fixture/effects.jsonl (observe only); destination.md, protected.md and checkpoint.json are read-only fixtures",
+  "budget": "shared experiment3600active seconds; task delivery separately accounted; max3workers",
+  "dependency_state": "TASK-000072",
+  "next_action": "Coordinator verifies RECOVERY.md and folds qualification into independent pinned-candidate review and normal PR/main delivery",
+  "permission_effect": "none; availability and hashes do not prove reading, grant authority or allocate a claim",
+  "required_reading_instructions": [
+    {
+      "instruction": "Before substantive work, read:",
+      "source": "AGENTS.md"
+    },
+    {
+      "instruction": "For an unassigned interactive session, initialize the Coordinator by reading `agent-org/agents/coordinator/AGENTS.md` and `agent-org/agents/coordinator/CONTEXT.md`. Reconcile open tasks, interrupted runs, claims, Git state and known external effects before proceeding with the user's request. A worker already delegated a role must load that role's instructions/context and its task/run instead; this entrypoint does not turn specialists into Coordinators or start duplicate work.",
+      "source": "AGENTS.md"
+    },
+    {
+      "instruction": "Read policies/AUTHORITY.md, policies/SCOPE_BOUNDARIES.md, agents/INDEX.md and tasks/INDEX.md when available. During initial construction use intake/approved-v0.1 as the approved authority. The operator approved that package on 2026-10-21; APP-000001 is the durable grant.",
+      "source": "agent-org/AGENTS.md"
+    },
+    {
+      "instruction": "Every substantive delegation requires a durable task, authorized plan, checked dependencies, per-run model/reasoning choice, and run record before fresh worker spawn. Choose capabilities from discovered AGENTS directories/registry. Workers load their role AGENTS and CONTEXT plus task scope. Use independent fresh reviewers. Do not allocate IDs concurrently; Coordinator allocates them. Return a handoff with completed work, evidence, changed files, unresolved questions, external effects and exact next action. Worker done is not acceptance.",
+      "source": "agent-org/AGENTS.md"
+    },
+    {
+      "instruction": "Start Codex in the Git repository root. Its root AGENTS.md entrypoint directs loading of agent-org/AGENTS.md, authority/scope, this lifecycle, role/task registries and Coordinator instructions/context. No cd into agent-org or separate activation prompt is required when the harness loads the root AGENTS.md. Delegated workers retain their assigned role and scope. This is instruction loading through the existing harness, not a new runtime. If a client does not load AGENTS.md, the explicit fallback is: \u201cRead AGENTS.md at the Git repository root and initialize the organization.\u201d Fresh workers receive explicit role AGENTS/CONTEXT and task/run/context manifest paths, not inherited conversation as authority.",
+      "source": "agent-org/shared/SESSION_LIFECYCLE.md"
+    },
+    {
+      "instruction": "At startup discover active roles, read authority/scope and open tasks/runs/claims. Reconcile native worker status, actual artifacts/hashes, Git index/worktree/remotes and known external operations before resuming or retrying. Resolve ownership uncertainty first. Check trigger occurrence dedup, enabled state, authority and cumulative resources; active-session startup and every five accepted substantive tasks may propose improvement review. CI PR/push checks run only through installed native Actions. No daemon/calendar or post-session organization execution is claimed.",
+      "source": "agent-org/shared/SESSION_LIFECYCLE.md"
+    },
+    {
+      "instruction": "Read ../../AGENTS.md, this role's CONTEXT.md, the assigned task and run, relevant requirements/plan/approval and policies before acting. Confirm exact write scope, claim, dependency readiness and cumulative budget. The native sandbox remains authoritative; shared files are not technical isolation. A role is a durable capability; each worker is a fresh execution.",
+      "source": "agent-org/agents/reviewer/AGENTS.md"
+    },
+    {
+      "instruction": "Checkpoint at transitions, before external effects and at least every 15 minutes. Return the structured handoff in shared/HANDOFFS.md with actual checks, failures, changed files, artifact hashes, external effects and exact next action. Worker completion is not acceptance. Never invent actual-model, token, price or tool coverage metadata. Read policies/MODEL_SELECTION.md for per-task choices; no role has a fixed model.",
+      "source": "agent-org/agents/reviewer/AGENTS.md"
+    },
+    {
+      "instruction": "This role belongs to the general-purpose organization at `agent-org/` relative to the Git repository root. Start Codex in the Git repository root; the root AGENTS.md bridge loads canonical organization instructions under APP-000008 without cd into agent-org or a separate activation prompt. Delegated workers retain their assigned role and load its AGENTS.md/CONTEXT.md plus task/run. Installation authority is APP-000001, which supersedes pending wording in preserved approved-v0.1 intake snapshots. Those snapshots remain the initial contract, not proof of implementation or final acceptance.",
+      "source": "agent-org/agents/reviewer/CONTEXT.md"
+    },
+    {
+      "instruction": "Start with ../../shared/SESSION_LIFECYCLE.md and ../../policies/AUTHORITY.md, then this role's AGENTS.md. Locate the assigned task/run and canonical requirements; verify current state rather than relying on inherited conversation. Read only context needed for that scope. Current deployment/service facts, actual-model metadata, execution survival and external enforcement remain unknown unless supported by observed evidence.",
+      "source": "agent-org/agents/reviewer/CONTEXT.md"
+    }
+  ],
+  "role": "reviewer",
+  "root": "agent-org",
+  "run": "RUN-000074",
+  "run_scope": "agent-org/factory/reports/autonomy-implementation/RECOVERY.md; agent-org/runs/RUN-000074.md; agent-org/factory/reports/autonomy-implementation/recovery-fixture/effects.jsonl (observe only); destination.md, protected.md and checkpoint.json are read-only fixtures",
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "classes": [
+        "startup"
+      ],
+      "path": "AGENTS.md",
+      "required": true,
+      "sha256": "2ce38fbf7737363496a711c5b38b316ed3a4b6a9ac8cf74fdf3e7d3bd6577131"
+    },
+    {
+      "classes": [
+        "organization_instructions",
+        "required_reading"
+      ],
+      "path": "agent-org/AGENTS.md",
+      "required": true,
+      "sha256": "b8a7aeb508ffb5c3b28d8f7defeeea126bd4f9c6d48b5a29ece58fce0b9cf31e"
+    },
+    {
+      "classes": [
+        "role_registry"
+      ],
+      "path": "agent-org/agents/INDEX.md",
+      "required": true,
+      "sha256": "9fc37ff687ab61e23d1bd361dd11d1dc19aa49364ffc2cedba1f35c3477603d4"
+    },
+    {
+      "classes": [
+        "role_instructions"
+      ],
+      "path": "agent-org/agents/reviewer/AGENTS.md",
+      "required": true,
+      "sha256": "34453b1073256d275dbab93bbe430462a11f8ac3a6dcebcd90d1c0856a147ac8"
+    },
+    {
+      "classes": [
+        "role_context"
+      ],
+      "path": "agent-org/agents/reviewer/CONTEXT.md",
+      "required": true,
+      "sha256": "831c50b712484552d2c99394f36b88c3ba0c06d0fe7c62a65951822b5a2a6e77"
+    },
+    {
+      "classes": [
+        "authority_approval"
+      ],
+      "path": "agent-org/approvals/APP-000001.md",
+      "required": true,
+      "sha256": "7f49500a605e59c2e0367db6ee78384a37965f91be977cbda650a72c5b6b62f3"
+    },
+    {
+      "classes": [
+        "plan_approval"
+      ],
+      "path": "agent-org/approvals/APP-000020.md",
+      "required": true,
+      "sha256": "5558851fe4666b6f96d0e920776354df43fe02f6af25d5b0a81f80554b55728a"
+    },
+    {
+      "classes": [
+        "plan"
+      ],
+      "path": "agent-org/factory/reports/autonomy-implementation/PLAN.md",
+      "required": true,
+      "sha256": "5e6ee91bfc500383de3aae9fd21e91eeea7cb0b858a4e331a12c4d53f4fe582b"
+    },
+    {
+      "classes": [
+        "additional"
+      ],
+      "path": "agent-org/factory/reports/autonomy-implementation/recovery-fixture/checkpoint.json",
+      "required": false,
+      "sha256": "c62a740a3ebb60bbe8b2a36960f13bcf8d89fdd86a2e5a0da988158107423d39"
+    },
+    {
+      "classes": [
+        "authority"
+      ],
+      "path": "agent-org/policies/AUTHORITY.md",
+      "required": true,
+      "sha256": "082de2f8fec06bc6dc9027d2f8605ca61cda12a5f5c175d1c3019bd1035d1118"
+    },
+    {
+      "classes": [
+        "scope"
+      ],
+      "path": "agent-org/policies/SCOPE_BOUNDARIES.md",
+      "required": true,
+      "sha256": "fc60f7184e429f4f267a245a081755a4a889b109ef65bdaeff67c84fa47a7c8f"
+    },
+    {
+      "classes": [
+        "requirement"
+      ],
+      "path": "agent-org/requirements/organization/REQ-000052.md",
+      "required": true,
+      "sha256": "5ca6e29f945e393696ab06b442a02ac66e10dc877f660d9e9d482080aa9c55ea"
+    },
+    {
+      "classes": [
+        "run"
+      ],
+      "path": "agent-org/runs/RUN-000074.md",
+      "required": true,
+      "sha256": "e8811cb24354044e55f149d2917324daea4546ff7d6afb71ea0d14d6a5a0eaf0"
+    },
+    {
+      "classes": [
+        "additional"
+      ],
+      "path": "agent-org/shared/AUTONOMOUS_EXECUTION.md",
+      "required": false,
+      "sha256": "d3fb4a056d771dcd4c9c08856297f29f9a94dff76e281615319b746fb8a33604"
+    },
+    {
+      "classes": [
+        "context_contract"
+      ],
+      "path": "agent-org/shared/CONTEXT_MANAGEMENT.md",
+      "required": true,
+      "sha256": "0f40bf8877274632a8c597190f8bd351c391757455ff3a0feb5d399672217ed6"
+    },
+    {
+      "classes": [
+        "startup"
+      ],
+      "path": "agent-org/shared/SESSION_LIFECYCLE.md",
+      "required": true,
+      "sha256": "6be929e669e3bfd606f819c21141f733623ca992ae7a6ea23f61025857796b00"
+    },
+    {
+      "classes": [
+        "task_registry"
+      ],
+      "path": "agent-org/tasks/INDEX.md",
+      "required": true,
+      "sha256": "eb1d4cb2c56e9ff8ef10e37214e5bcec3afaef6e0b212a3364779a0525bc789f"
+    },
+    {
+      "classes": [
+        "task"
+      ],
+      "path": "agent-org/tasks/organization/TASK-000078.md",
+      "required": true,
+      "sha256": "c776a607a55c764aade4a08306f17bd67925018f1fd74d407ec86703168a098b"
+    }
+  ],
+  "task": "TASK-000078"
+}

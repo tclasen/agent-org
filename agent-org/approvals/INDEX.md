@@ -20,3 +20,5 @@ Individual records own scope, current status and historical evidence.
 - [APP-000012 — Operator local clone and cleanup](APP-000012.md) — approved
 
 - [APP-000016 — Mandatory remote-main delivery](APP-000016.md) — approved
+
+- [APP-000020 — Independent deterministic autonomy implementation plan](APP-000020.md) — approved

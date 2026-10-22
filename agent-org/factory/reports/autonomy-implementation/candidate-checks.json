@@ -1,0 +1,80 @@
+{
+  "observed_at": "2026-10-22T01:55:18.090034+00:00",
+  "results": [
+    {
+      "command": [
+        "python3",
+        "agent-org/factory/instrumentation/scenarios.py",
+        "--root",
+        "agent-org"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "output": "agent-org/factory/reports/autonomy-implementation/scenarios.json"
+    },
+    {
+      "command": [
+        "python3",
+        "agent-org/factory/metrics/autonomy.py",
+        "agent-org/factory/reports/autonomy-implementation/metrics-fixture-input.json"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "output": "agent-org/factory/reports/autonomy-implementation/metrics-fixture-output.json"
+    },
+    {
+      "command": [
+        "python3",
+        "agent-org/factory/instrumentation/learning.py",
+        "validate",
+        "--root",
+        "agent-org"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "output": "agent-org/factory/reports/autonomy-implementation/archive-validation.json"
+    },
+    {
+      "command": [
+        "python3",
+        "agent-org/factory/instrumentation/context.py",
+        "--root",
+        "agent-org",
+        "--task",
+        "TASK-000078",
+        "--run",
+        "RUN-000074",
+        "--role",
+        "reviewer",
+        "--source",
+        "shared/AUTONOMOUS_EXECUTION.md",
+        "--source",
+        "factory/reports/autonomy-implementation/recovery-fixture/checkpoint.json"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "output": "agent-org/factory/reports/autonomy-implementation/postrepair-manifest.json"
+    },
+    {
+      "command": [
+        "python3",
+        "agent-org/factory/instrumentation/check.py",
+        "--root",
+        "agent-org"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "output": "agent-org/factory/reports/autonomy-implementation/records.json"
+    }
+  ],
+  "source_sha256": {
+    "agent-org/factory/instrumentation/context.py": "98f1daa2743c66ba5add6982a2cda2b1bdf2331e4aa1ef0e0deeeb18c5a33747",
+    "agent-org/factory/instrumentation/effects.py": "866b7b84be0ff47282373450e0c81c7e3b606fdacc810a822366a70b2f8c651e",
+    "agent-org/factory/instrumentation/learning.py": "f1b51235a0fd88f908c8b1c89b5fe166edcf28ab665b2b1bb773e864e22eda6b",
+    "agent-org/factory/instrumentation/reconcile.py": "125fff48792ff19f921e825aca7d2383d324a153c87d52f11895806684c5c54f",
+    "agent-org/factory/instrumentation/scenarios.py": "68ebf59301448164085d2ff9853b6b812ede3fd5e9dd764a0ad3cb31742a1e00",
+    "agent-org/factory/metrics/autonomy.py": "43290a58c9908a8c6d7f1b66b704841555b44d8b5af1a087e0709cf597b1f7d2"
+  },
+  "full_suite": "Independent Reviewer 142tests passed after F1/F2 repair; see REVIEW.md",
+  "limits": "metrics values synthetic; actual model/tokens/cost unknown; no stochastic benefit claim"
+}

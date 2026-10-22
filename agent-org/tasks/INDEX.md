@@ -103,3 +103,17 @@ Individual records own scope, current status and historical evidence.
 - [TASK-000061 — Independently review autonomous organization research](organization/TASK-000061.md) — awaiting_acceptance
 
 - [TASK-000062 — Approve research delivery and proposal boundaries](organization/TASK-000062.md) — awaiting_acceptance
+
+- [TASK-000072 — Implement autonomous execution and learning loop](organization/TASK-000072.md) — planned
+
+- [TASK-000073 — Implement current state reconciliation](organization/TASK-000073.md) — planned
+
+- [TASK-000074 — Implement recoverable effect journal](organization/TASK-000074.md) — planned
+
+- [TASK-000075 — Implement context and candidate learning tools](organization/TASK-000075.md) — planned
+
+- [TASK-000076 — Independently verify autonomous execution candidate](organization/TASK-000076.md) — planned
+
+- [TASK-000077 — Govern implementation plan and promotion](organization/TASK-000077.md) — planned
+
+- [TASK-000078 — Qualify fresh worker recovery and refusal](organization/TASK-000078.md) — planned

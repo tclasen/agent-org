@@ -1,0 +1,11 @@
+{
+  "errors": [],
+  "lineage": {
+    "registry-reconciliation": [
+      "registry-update-ancestor"
+    ],
+    "registry-update-ancestor": []
+  },
+  "permission_effect": "none; archive validation does not approve or promote candidates",
+  "warnings": []
+}
