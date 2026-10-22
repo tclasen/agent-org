@@ -1,38 +1,13 @@
-# Approvals registry
+# Approvals
 
-Individual records own scope, current status and historical evidence.
+Organization records remain in their canonical family directories. A relocated project record contains only a forwarding pointer; its authoritative content and current state live in its owning repository. Forwarding entries grant no project authority.
 
-- [APP-000001 — Installation implementation authorization](APP-000001.md) — approved
-- [APP-000002 — Independent organization experiment-plan approval](APP-000002.md) — approved
-- [APP-000003 — Independent organization experiment-plan amendment approval](APP-000003.md) — approved
-- [APP-000004 — Independent versioned measurement correction plan approval](APP-000004.md) — approved
-- [APP-000005 — Independent validator correction eligibility approval](APP-000005.md) — approved
-- [APP-000006 — Independent measurement1.0.1 adoption eligibility](APP-000006.md) — approved
-- [APP-000007 — Independent release evidence approval](APP-000007.md) — approved
-- [APP-000008 — Operator final acceptance and root entrypoint amendment](APP-000008.md) — approved
-- [APP-000009 — Independent root entrypoint adoption approval](APP-000009.md) — approved
+Current ownership work: REQ-000056, TASK-000151 through TASK-000160, RUN-000146 through RUN-000155, APP-000109. APP110–112 remain reserved pending exact independent decisions. See [record ownership](../policies/RECORD_OWNERSHIP.md) and [project routing](../knowledge/projects/INDEX.md).
 
-- [APP-000010 — Legacy learning preservation and sync](APP-000010.md) — approved
+APP-000110 admits exact independent ownership review; APP-000111 admits dependent independent organization decision; APP-000112 remains reserved until issued by Chief of Staff.
 
-- [APP-000011 — Disposal after learning harvest](APP-000011.md) — approved
+APP-000113 admits bounded rejected projection repair only; no publication before fresh affected review.
 
-- [APP-000013 — Operator remote main completion directive](APP-000013.md) — approved
+APP-000114 admits bounded completion/formatting corrections under original user ownership scope; no runtime or blanket later-head approval.
 
-- [APP-000018 — Reconciled progressive disclosure plan](APP-000018.md) — approved
-
-- [APP-000012 — Operator local clone and cleanup](APP-000012.md) — approved
-
-- [APP-000016 — Mandatory remote-main delivery](APP-000016.md) — approved
-
-- [APP-000019 — Progressive disclosure promotion decision](APP-000019.md) — approved, exact final-head reconciliation required
-
-- [APP-000026 — Operator worktree cleanup directive](APP-000026.md)
-
-- [APP-000027 — Independent worktree cleanup promotion decision](APP-000027.md)
-- [APP-000020 — Independent deterministic autonomy implementation plan approval](APP-000020.md) — approved
-
-- [APP-000021 — Independent deterministic autonomy capability adoption](APP-000021.md) — approved
-
-- [APP-000030 — Operator README delivery directive](APP-000030.md) — approved; promotion requires independent decision
-
-- [APP-000032 — Final-response delivery safeguard](APP-000032.md) — approved operator grant
+APP-000115 exact affected recheck; APP-000116 dependent independent organization decision. APP111 is archived/superseded; APP112 remains reserved.

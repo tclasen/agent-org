@@ -16,3 +16,5 @@ Admit a project task with exact writable paths/resources, product requirements/a
 Implement/test/review product behavior in the project's own repository. Maintain its own commits/PRs under its policy, and independently accept outcomes using recorded project authority. Organization evaluation cannot replace product verification. A necessary policy/adapter change is a linked organization child, with a cross-boundary parent if both systems change.
 
 Every managed-project change is subject to the organization remote-main completion gate in ACCEPTANCE.md. Admission must identify that project’s canonical remote/main, PR/review/check requirements and merge authority. Overrides cannot waive this completion gate. If a required main branch or merge grant is missing, record the specific blocker before dependent delivery; keep work pending. Track delivery separately for every repository, without treating the organization repository as a substitute.
+
+Record storage follows [record ownership](RECORD_OWNERSHIP.md): organization governance stays here; project-specific records stay in their owning repositories. Organization entries retain only minimal routing links.

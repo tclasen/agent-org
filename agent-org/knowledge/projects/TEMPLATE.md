@@ -1,17 +1,9 @@
-# Project enrollment template
+# Project routing template
 
-- Project ID: Coordinator allocated
-- Canonical Path: existing verified root
-- Repository Identity: remote and stable host ID
-- Task Authority: issue tracker/board/local source; write permissions and synchronization direction
-- Requirements Authority: canonical specification references; do not copy divergent requirements
-- Owner and Delegates: named grant owners
-- Scope: permitted reads/writes/resources/environments, protected paths
-- Git Policy: branch/PR/review/push/merge/worktrees
-- Verification: actual inspected commands, baseline failures and quality thresholds
-- Overrides: central profile references to existing project instructions; precedence conflicts explicitly resolved
-- Services: identities/environments/production threshold/failure/recovery semantics; none until approved
-- Approval: exact enrollment/task grants
-- Observability: available events, provenance and gaps
+- Project ID: Coordinator-allocated routing identity
+- Repository Identity: verified owning repository URL
+- Instructions: link to owning AGENTS.md or equivalent
+- Requirements Authority: link to owning canonical specification
+- Project Records: link to owning enrollment/authority/task/run/evidence records
 
-Enrollment is not an unrestricted change request. Real project tasks get their own requirements, plans, authorization and acceptance.
+Keep only identity and routing links in the organization profile. Store verified local roots, owner/delegates, scopes, environments, commands, native rules, baselines, progress, services and observability details in the owning project records. Enrollment and routing grant no project authority; read the canonical bounded grant before work. Follow [record ownership](../../policies/RECORD_OWNERSHIP.md).
