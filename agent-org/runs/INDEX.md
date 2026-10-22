@@ -55,11 +55,11 @@ Individual records own scope, current status and historical evidence.
 
 - [RUN-000040 — Approve scoped legacy learning adoption](RUN-000040.md) — completed
 
-- [RUN-000045 — Require verified remote main delivery](RUN-000045.md) — running
+- [RUN-000045 — Require verified remote main delivery](RUN-000045.md) — completed
 
-- [RUN-000046 — Independent remote delivery policy review](RUN-000046.md) — running
+- [RUN-000046 — Independent remote delivery policy review](RUN-000046.md) — completed
 
-- [RUN-000047 — Independent remote delivery policy approval](RUN-000047.md) — running
+- [RUN-000047 — Independent remote delivery policy approval](RUN-000047.md) — completed
 
 - [RUN-000048 — Tessl research Coordinator](RUN-000048.md) — running
 
@@ -74,13 +74,13 @@ Individual records own scope, current status and historical evidence.
 
 - [RUN-000044 — Cleanup Chief of Staff](RUN-000044.md) — completed
 
-- [RUN-000061 — Cleanup remote delivery Coordinator](RUN-000061.md) — running
+- [RUN-000061 — Cleanup remote delivery Coordinator](RUN-000061.md) — completed
 
-- [RUN-000058 — Cleanup remote delivery Planner](RUN-000058.md) — running
+- [RUN-000058 — Cleanup remote delivery Planner](RUN-000058.md) — completed
 
-- [RUN-000059 — Cleanup remote delivery Reviewer](RUN-000059.md) — pending
+- [RUN-000059 — Cleanup remote delivery Reviewer](RUN-000059.md) — completed
 
-- [RUN-000060 — Cleanup remote delivery Chief of Staff](RUN-000060.md) — pending
+- [RUN-000060 — Cleanup remote delivery Chief of Staff](RUN-000060.md) — completed
 
 - [RUN-000051 — Research autonomous factories and organization improvements](RUN-000051.md) — running
 

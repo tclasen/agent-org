@@ -33,3 +33,7 @@ Coordinator reconciled five clones and scoped cleanup under APP-000012 with inde
 ## Renewed mandatory delivery — TASK-000041 / RUN-000061
 
 The prior local-only cleanup completion was reopened under APP-000016. Five project PRs now have verified fetched-main content equality (delivery-heads.json). Parent standing authorization/instructions and records remain pending this PR normal review/checks/merge. Proposed closure takes effect only after its own merge and verified remote main; final observed result is returned in the session handoff without leaving another unshipped evidence edit. No research worktree mutation or protection bypass.
+
+## PR11 conditional final handoff
+
+Five project PRs have verified remote-main delivery. Independent Reviewer and distinct Chief of Staff approve the pinned root implementation and scoped final attestation/status delta. This PR carries proposed terminal task/run reconciliation, effective only after its own normal merge, passing checks and Coordinator fetched-main verification. No task-owned pending branch or local commit can satisfy completion. Final observed root PR/main result is reported in the active session; preserve unrelated progressive-disclosure ledger reservations without staging them as cleanup work.
