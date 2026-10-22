@@ -127,3 +127,17 @@ Individual records own scope, current status and historical evidence. This catal
 - [TASK-000083 — Approve Commons admission records](organization/TASK-000083.md) — awaiting_acceptance (PR6/PR14 delivery gate)
 
 - [TASK-000084 — Plan Commons video requirement](cross-boundary/TASK-000084.md) — awaiting_acceptance (PR6/PR14 delivery gate)
+
+- [TASK-000072 — Implement autonomous execution and learning loop](organization/TASK-000072.md) — awaiting_acceptance
+
+- [TASK-000073 — Implement current state reconciliation](organization/TASK-000073.md) — awaiting_acceptance
+
+- [TASK-000074 — Implement recoverable effect journal](organization/TASK-000074.md) — awaiting_acceptance
+
+- [TASK-000075 — Implement context and candidate learning tools](organization/TASK-000075.md) — awaiting_acceptance
+
+- [TASK-000076 — Independently verify autonomous execution candidate](organization/TASK-000076.md) — awaiting_acceptance
+
+- [TASK-000077 — Govern implementation plan and promotion](organization/TASK-000077.md) — awaiting_acceptance
+
+- [TASK-000078 — Qualify fresh worker recovery and refusal](organization/TASK-000078.md) — awaiting_acceptance

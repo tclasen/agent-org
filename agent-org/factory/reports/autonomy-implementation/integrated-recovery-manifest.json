@@ -1,0 +1,258 @@
+{
+  "schema_version": "1.0",
+  "root": "agent-org",
+  "task": "TASK-000078",
+  "run": "RUN-000075",
+  "role": "reviewer",
+  "authorized_scope": "agent-org/factory/reports/autonomy-implementation/RECOVERY.md; agent-org/runs/RUN-000075.md; agent-org/factory/reports/autonomy-implementation/recovery-fixture/effects.jsonl (observe only); all other recovery fixture files read-only",
+  "run_scope": "agent-org/factory/reports/autonomy-implementation/RECOVERY.md; agent-org/runs/RUN-000075.md; agent-org/factory/reports/autonomy-implementation/recovery-fixture/effects.jsonl (observe only); all other recovery fixture files read-only",
+  "dependency_state": "TASK-000072",
+  "budget": "shared experiment3600active seconds; task delivery separately accounted; max3workers",
+  "next_action": "Coordinator verifies RECOVERY.md and folds qualification into independent pinned-candidate review and normal PR/main delivery",
+  "sources": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "cce663d080b13bc84c9b7803a3dfeefaecf654132d43032dc5d56d01b87a3b08",
+      "classes": [
+        "startup"
+      ],
+      "required": true
+    },
+    {
+      "path": "agent-org/AGENTS.md",
+      "sha256": "f559df4ff65a8ac3cd41a7ccf25d226adc7d3e0a079e15a35606942a9ee63f18",
+      "classes": [
+        "organization_instructions",
+        "required_reading"
+      ],
+      "required": true
+    },
+    {
+      "path": "agent-org/agents/INDEX.md",
+      "sha256": "69c59627c99eab3aa0a341e733b3c44f328f3d900476aba906d2a6ae702164a5",
+      "classes": [
+        "role_registry"
+      ],
+      "required": true
+    },
+    {
+      "path": "agent-org/agents/coordinator/AGENTS.md",
+      "sha256": "f456df7343e8d069de6b819ba3bfb44cd9298dded1a4ac793c4bca01d4ebef76",
+      "classes": [
+        "required_reading"
+      ],
+      "required": true
+    },
+    {
+      "path": "agent-org/agents/reviewer/AGENTS.md",
+      "sha256": "44c74153fcb9a21eb69026d303428666ef4e5cc878cd9cccdd2607c5fa8920ff",
+      "classes": [
+        "role_instructions"
+      ],
+      "required": true
+    },
+    {
+      "path": "agent-org/agents/reviewer/CONTEXT.md",
+      "sha256": "40eeb8053d4ba743fb805bd2ddde44c603c926d66b99b2c9b49046db54e5c872",
+      "classes": [
+        "role_context"
+      ],
+      "required": true
+    },
+    {
+      "path": "agent-org/approvals/APP-000001.md",
+      "sha256": "7f49500a605e59c2e0367db6ee78384a37965f91be977cbda650a72c5b6b62f3",
+      "classes": [
+        "authority_approval"
+      ],
+      "required": true
+    },
+    {
+      "path": "agent-org/approvals/APP-000020.md",
+      "sha256": "5558851fe4666b6f96d0e920776354df43fe02f6af25d5b0a81f80554b55728a",
+      "classes": [
+        "plan_approval"
+      ],
+      "required": true
+    },
+    {
+      "path": "agent-org/approvals/INDEX.md",
+      "sha256": "5953be0a1e5fbbb1f2df6b96cc4fbbedb7435dbcd2188bfce3f70e169d45e11c",
+      "classes": [
+        "required_reading"
+      ],
+      "required": true
+    },
+    {
+      "path": "agent-org/factory/reports/autonomy-implementation/PLAN.md",
+      "sha256": "5e6ee91bfc500383de3aae9fd21e91eeea7cb0b858a4e331a12c4d53f4fe582b",
+      "classes": [
+        "plan"
+      ],
+      "required": true
+    },
+    {
+      "path": "agent-org/factory/reports/autonomy-implementation/recovery-fixture/checkpoint-integrated.json",
+      "sha256": "a1b6f39346db3afec899845b9865b282caf5a45741ad78c6c2a04423c72a9dc0",
+      "classes": [
+        "additional"
+      ],
+      "required": false
+    },
+    {
+      "path": "agent-org/intake/INDEX.md",
+      "sha256": "c59c00e340330f80caf4770854a44d8d32e5ebb43e461d54a9fb2d9bcebd3063",
+      "classes": [
+        "required_reading"
+      ],
+      "required": true
+    },
+    {
+      "path": "agent-org/policies/AUTHORITY.md",
+      "sha256": "082de2f8fec06bc6dc9027d2f8605ca61cda12a5f5c175d1c3019bd1035d1118",
+      "classes": [
+        "authority",
+        "required_reading"
+      ],
+      "required": true
+    },
+    {
+      "path": "agent-org/policies/SCOPE_BOUNDARIES.md",
+      "sha256": "fc60f7184e429f4f267a245a081755a4a889b109ef65bdaeff67c84fa47a7c8f",
+      "classes": [
+        "scope",
+        "required_reading"
+      ],
+      "required": true
+    },
+    {
+      "path": "agent-org/requirements/organization/REQ-000052.md",
+      "sha256": "5ca6e29f945e393696ab06b442a02ac66e10dc877f660d9e9d482080aa9c55ea",
+      "classes": [
+        "requirement"
+      ],
+      "required": true
+    },
+    {
+      "path": "agent-org/runs/RUN-000075.md",
+      "sha256": "390c466384c7d271c46e74070a70fab6b948f2cbe218dd2096775210e629d964",
+      "classes": [
+        "run"
+      ],
+      "required": true
+    },
+    {
+      "path": "agent-org/shared/AUTONOMOUS_EXECUTION.md",
+      "sha256": "d3fb4a056d771dcd4c9c08856297f29f9a94dff76e281615319b746fb8a33604",
+      "classes": [
+        "required_reading",
+        "additional"
+      ],
+      "required": true
+    },
+    {
+      "path": "agent-org/shared/CONTEXT_MANAGEMENT.md",
+      "sha256": "c0c8908b250e367726c5aa90664352cfefef9bf7dd4d79d2db9ec6dd04a8f6a6",
+      "classes": [
+        "context_contract"
+      ],
+      "required": true
+    },
+    {
+      "path": "agent-org/shared/RECONCILIATION.md",
+      "sha256": "49b333bf26d5c65f4cde94ffc3e4f04c13e394c2d4dc41d0495611bdab3ea4c0",
+      "classes": [
+        "required_reading"
+      ],
+      "required": true
+    },
+    {
+      "path": "agent-org/shared/SESSION_LIFECYCLE.md",
+      "sha256": "6a5f4d0d9031c9d37ac89207dd5bc898ffeb0a76118a947f5cdb02e3839ea777",
+      "classes": [
+        "startup",
+        "required_reading"
+      ],
+      "required": true
+    },
+    {
+      "path": "agent-org/tasks/INDEX.md",
+      "sha256": "16e739efdb34aa10d7beeabff4c8b7d10a735ba906814197f4c9c611373f1847",
+      "classes": [
+        "task_registry"
+      ],
+      "required": true
+    },
+    {
+      "path": "agent-org/tasks/organization/TASK-000078.md",
+      "sha256": "e1317f2acbc6b66aa746e49a3d8d513fc7f5783e1573c1cc15083f7563c25f0c",
+      "classes": [
+        "task"
+      ],
+      "required": true
+    }
+  ],
+  "required_reading_instructions": [
+    {
+      "source": "AGENTS.md",
+      "instruction": "For sessions started here, read [agent-org/AGENTS.md](agent-org/AGENTS.md) and follow its bounded startup instructions. Resolve this path from this file's directory (the repository root)."
+    },
+    {
+      "source": "AGENTS.md",
+      "instruction": "Canonical governance and durable state live in agent-org/. Initialize the Coordinator only for an unassigned interactive session; delegated workers retain their role/task. Load task-specific sources when their documented trigger applies. This bridge grants no project authority. If required startup files are unavailable, report the blocker; do not invent replacements.\n"
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "instruction": "Paths below are relative to this directory. Read once per instruction revision; already loaded current text need not be reread. Links are discovery pointers unless their trigger applies. Go directly to known sources; never recursively load an index or every linked document."
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "instruction": "Read [authority](policies/AUTHORITY.md) and [scope](policies/SCOPE_BOUNDARIES.md). Unassigned sessions load [Coordinator instructions](agents/coordinator/AGENTS.md), its CONTEXT.md and [lifecycle](shared/SESSION_LIFECYCLE.md). Delegated workers load only their assigned role AGENTS.md/CONTEXT.md, task/run and required manifest sources; reconcile their claim, dependencies and affected resources. Missing required sources block dependent action."
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "instruction": "## Read before the matching action"
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "instruction": "Read each applicable source before its action; summaries never replace authority. Stop expanding when scope, procedure and acceptance are clear. Use targeted search for uncertain obligations.\n"
+    },
+    {
+      "source": "agent-org/shared/SESSION_LIFECYCLE.md",
+      "instruction": "The repository-root AGENTS.md activates the canonical organization entrypoint; no directory change or separate activation prompt is required. A client that does not load it can explicitly read that file. This uses the existing harness, not a new runtime. Do not reread unchanged startup sources or initialize a second Coordinator for a delegated worker."
+    },
+    {
+      "source": "agent-org/shared/SESSION_LIFECYCLE.md",
+      "instruction": "Coordinator checks native workers, Git status/branch/remotes and task/run summaries for nonterminal work. Search registries or canonical records for active status and relevant paths; open records only for pending delivery, interrupted work, overlapping claims, blocking dependencies or affected external effects. Do not read all historical tasks/runs/handoffs. Summaries are discovery aids: verify against actual state and broaden the search if missing, stale or inconsistent. Resolve ownership/effect uncertainty before overlapping mutation or retry."
+    },
+    {
+      "source": "agent-org/shared/SESSION_LIFECYCLE.md",
+      "instruction": "Inventory undelivered changes/branches/PRs for organization and active managed repositories. Keep them owned and pending until verified owning-remote main delivery; pursue authorized delivery during the active session. Preserve unrelated work. For recovery details read [reconciliation](RECONCILIATION.md) before retrying. Delegated workers reconcile only assigned task/run/dependencies/claims/resources and report other conflicts to Coordinator."
+    },
+    {
+      "source": "agent-org/agents/reviewer/AGENTS.md",
+      "instruction": "Load the [organization core](../../AGENTS.md), this role's CONTEXT.md, assigned task/run and manifest sources required for this action. Reuse already loaded current text. Follow applicable action routes in the core; do not read other roles or unrelated histories. Confirm scope/authority, claim, dependency readiness and budget before acting. Missing required context blocks dependent work."
+    },
+    {
+      "source": "agent-org/agents/reviewer/CONTEXT.md",
+      "instruction": "For enrolled project work, read that project's profile, applicable instructions and authoritative ticket/specification before acting. Preserve other projects and old/. Historical installation/intake evidence is available through [approvals](../../approvals/INDEX.md) and [intake](../../intake/INDEX.md) when reconstructing authority/history; it is not a startup reading assignment. Unknown service, model, survival and external-enforcement facts require observed evidence.\n"
+    },
+    {
+      "source": "agent-org/policies/SCOPE_BOUNDARIES.md",
+      "instruction": "Only agent-org is general organization write scope. The installation names .gitignore and .github/workflows/agent-org.yml as separate host integration exceptions, not blanket root authority. APP-000008 additionally authorizes root AGENTS.md solely as a startup bridge; all other organizational state remains in agent-org. No harness configuration. old/ is read-only reference, never edited/migrated/deleted/staged. Project checkouts retain separate histories/remotes and stay out of the factory index. Scope includes resources and external effects, not only file names."
+    },
+    {
+      "source": "agent-org/agents/coordinator/AGENTS.md",
+      "instruction": "Load the [organization core](../../AGENTS.md), this role's CONTEXT.md, assigned task/run and manifest sources required for this action. Reuse already loaded current text. Follow applicable action routes in the core; do not read other roles or unrelated histories. Confirm scope/authority, claim, dependency readiness and budget before acting. Missing required context blocks dependent work."
+    },
+    {
+      "source": "agent-org/shared/RECONCILIATION.md",
+      "instruction": "Apply [autonomous execution](AUTONOMOUS_EXECUTION.md) during startup/resumption and before uncertain effect replay. Run the read-only reconciliation consumer, inspect all attributed source disagreements, prepare the scoped manifest, and reconcile journal observations with the real destination before another authorized action. Use its learning and scenario procedures for recurring corrections and fresh-worker recovery; keep existing authority and independent acceptance rules.\n"
+    },
+    {
+      "source": "agent-org/shared/AUTONOMOUS_EXECUTION.md",
+      "instruction": "Use the actual admitted task/run/role. The manifest pins required instructions, authority, plan, requirements and task-specific sources. Pass its exact output and paths to a fresh worker. Missing, mismatched or escaped sources stop preparation. A manifest establishes availability and identities; it does not prove that a worker read or applied the instructions. Keep scope and source freshness checks before execution. It creates no task identity or permission."
+    }
+  ],
+  "permission_effect": "none; availability and hashes do not prove reading, grant authority or allocate a claim"
+}

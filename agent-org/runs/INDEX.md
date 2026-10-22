@@ -113,3 +113,19 @@ Individual records own scope, current status and historical evidence. This catal
 - [RUN-000077 — Commons video Chief of Staff](RUN-000077.md) — completed (conditional delivery reconciliation)
 
 - [RUN-000078 — Commons video Planner](RUN-000078.md) — completed (conditional delivery reconciliation)
+
+- [RUN-000068 — Implement autonomous execution and learning loop](RUN-000068.md) — running
+
+- [RUN-000069 — Implement current state reconciliation](RUN-000069.md) — completed
+
+- [RUN-000070 — Implement recoverable effect journal](RUN-000070.md) — completed
+
+- [RUN-000071 — Implement context and candidate learning tools](RUN-000071.md) — completed
+
+- [RUN-000072 — Independently verify autonomous execution candidate](RUN-000072.md) — completed
+
+- [RUN-000073 — Govern implementation plan and promotion](RUN-000073.md) — completed
+
+- [RUN-000074 — Qualify fresh worker recovery and refusal](RUN-000074.md) — completed
+
+- [RUN-000079 — Qualify fresh worker recovery and refusal](RUN-000079.md) — completed

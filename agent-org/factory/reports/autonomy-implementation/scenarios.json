@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "observation_kind": "controlled_local_cli_scenarios",
+  "passed": true,
+  "scenario_count": 10,
+  "results": [
+    {
+      "scenario": "registry_disagreement",
+      "expected": "detect title and suffix discrepancy; do not release claim",
+      "passed": true,
+      "exit_code": 1,
+      "observation": {
+        "diagnostic_codes": [
+          "ledger_checkpoint_behind",
+          "missing_family",
+          "observations_unavailable",
+          "registry_status_mismatch",
+          "registry_title_mismatch",
+          "registry_unavailable",
+          "unresolved_owner"
+        ],
+        "claim_released": [
+          false
+        ]
+      }
+    },
+    {
+      "scenario": "scoped_manifest",
+      "expected": "manifest retains mandatory authority",
+      "passed": true,
+      "exit_code": 0,
+      "observation": {
+        "source_count": 16
+      }
+    },
+    {
+      "scenario": "missing_authority_refusal",
+      "expected": "refuse missing authority",
+      "passed": true,
+      "exit_code": 1,
+      "observation": {
+        "errors": [
+          "missing source: policies/AUTHORITY.md"
+        ],
+        "permission_effect": "none"
+      }
+    },
+    {
+      "scenario": "effect_prepare",
+      "expected": "prepare bounded intent",
+      "passed": true,
+      "exit_code": 0,
+      "observation": {
+        "appended": true,
+        "attempt_eligible": true,
+        "attempts": 0,
+        "authority_granted": false,
+        "conflicts": [],
+        "effect_id": "controlled-write",
+        "journal_hash": "1c5f256701c4ad12f21616348fc7e8f013d53db1d698bd6ab14dbe83aa2758c9",
+        "next_action": "record_attempt_before_authorized_dispatch",
+        "observation": "prepared",
+        "receipts": [],
+        "source_authentication": "caller_attributed_only"
+      }
+    },
+    {
+      "scenario": "effect_attempt",
+      "expected": "record before dispatch",
+      "passed": true,
+      "exit_code": 0,
+      "observation": {
+        "appended": true,
+        "attempt_eligible": false,
+        "attempts": 1,
+        "authority_granted": false,
+        "conflicts": [],
+        "effect_id": "controlled-write",
+        "journal_hash": "f85ebadb0c1861dea1cbacdd3d35db0ce4295a9bec958998795f4694e72420c3",
+        "next_action": "reconcile_without_replay",
+        "observation": "attempted_unknown",
+        "receipts": [],
+        "source_authentication": "caller_attributed_only"
+      }
+    },
+    {
+      "scenario": "lost_acknowledgement_no_replay",
+      "expected": "second attempt cannot redispatch while unknown",
+      "passed": true,
+      "exit_code": 0,
+      "observation": {
+        "appended": false,
+        "attempt_eligible": false,
+        "attempts": 1,
+        "authority_granted": false,
+        "conflicts": [],
+        "effect_id": "controlled-write",
+        "next_action": "reconcile_without_replay",
+        "observation": "attempted_unknown",
+        "receipts": [],
+        "source_authentication": "caller_attributed_only"
+      }
+    },
+    {
+      "scenario": "destination_observed",
+      "expected": "matching receipt retained",
+      "passed": true,
+      "exit_code": 0,
+      "observation": {
+        "appended": true,
+        "attempt_eligible": false,
+        "attempts": 1,
+        "authority_granted": false,
+        "conflicts": [],
+        "effect_id": "controlled-write",
+        "journal_hash": "d25919617aa10ed392abf1cf43e3b546aa6de603aa90bb1007aafee507ba68ae",
+        "next_action": "no_additional_attempt",
+        "observation": "destination_confirmed",
+        "receipts": [
+          {
+            "candidate_hash": "f20aa1730b234087489773cebbe6f039db5eb0b49b4769b9be55a5294e7d8aa8",
+            "observed_at": "2026-10-22T00:00:00Z",
+            "remote_identity": "fixture-commit",
+            "resource": "fixture-repo",
+            "source": "controlled fixture destination lookup",
+            "status": "confirmed",
+            "target": "fixture-main"
+          }
+        ],
+        "source_authentication": "caller_attributed_only"
+      }
+    },
+    {
+      "scenario": "confirmed_effect_no_replay",
+      "expected": "confirmed destination prevents another attempt",
+      "passed": true,
+      "exit_code": 0,
+      "observation": {
+        "appended": false,
+        "attempt_eligible": false,
+        "attempts": 1,
+        "authority_granted": false,
+        "conflicts": [],
+        "effect_id": "controlled-write",
+        "next_action": "no_additional_attempt",
+        "observation": "destination_confirmed",
+        "receipts": [
+          {
+            "candidate_hash": "f20aa1730b234087489773cebbe6f039db5eb0b49b4769b9be55a5294e7d8aa8",
+            "observed_at": "2026-10-22T00:00:00Z",
+            "remote_identity": "fixture-commit",
+            "resource": "fixture-repo",
+            "source": "controlled fixture destination lookup",
+            "status": "confirmed",
+            "target": "fixture-main"
+          }
+        ],
+        "source_authentication": "caller_attributed_only"
+      }
+    },
+    {
+      "scenario": "escaped_journal_refusal",
+      "expected": "refuse escaped journal and preserve resource",
+      "passed": true,
+      "exit_code": 2,
+      "observation": {
+        "non_json_output": "",
+        "stderr": "{\"error\": \"journal must be relative below factory/reports or factory/events\", \"attempt_eligible\": false, \"authority_granted\": false}\n"
+      }
+    },
+    {
+      "scenario": "exposed_final_partition_refusal",
+      "expected": "detect exposure and incident-family leakage",
+      "passed": true,
+      "exit_code": 1,
+      "observation": {
+        "errors": [
+          "final-test exposure used by descendant: descendant <- ancestor",
+          "incident-family partition leakage: fixture-family spans development, final"
+        ],
+        "lineage": {
+          "ancestor": [],
+          "descendant": [
+            "ancestor"
+          ]
+        },
+        "permission_effect": "none; archive validation does not approve or promote candidates",
+        "warnings": [
+          "ancestor: final-test exposure retained; descendants cannot reuse it"
+        ]
+      }
+    }
+  ],
+  "limits": [
+    "No remote service, model or hidden holdout tested.",
+    "Fresh-worker and real PR delivery evidence are separate.",
+    "No promotion decision or universal interception claim."
+  ]
+}

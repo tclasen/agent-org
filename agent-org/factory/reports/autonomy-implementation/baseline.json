@@ -1,0 +1,78 @@
+{
+  "observed_at": "2026-10-22T01:40:18.145741+00:00",
+  "revision": "e08e2ff512d9b7f5abc799aa7bace75492b919b7",
+  "pins": {
+    "agent-org/policies/SELF_IMPROVEMENT.md": "cc0bb4daca4a99e6925846e10b43d19405d191d321304f736024d0ee16c38e5e",
+    "agent-org/policies/MEASUREMENT_INDEPENDENCE.md": "899d12e5d92d5a22ef16aa929f154efe1c7748997b071b043769d06a03970194",
+    "agent-org/factory/quality-gates/improvement.py": "b85841b308ebe73cb0dcd9b33e9672ccc87eee1767c4e64eae5a2f7b62aa9c60",
+    "agent-org/factory/instrumentation/records.py": "e4bc284cececd7dcb02733eac5edf6a23209ba0b898cd17397facdcc36a35f08",
+    "agent-org/experiments/EXP-000002.md": "6913d3b73bb3bd554c1e82dbd3633b61a1d223f3eeaa43226bfbd46a85c6b866"
+  },
+  "results": [
+    {
+      "argv": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "agent-org/factory/tests",
+        "-q"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "----------------------------------------------------------------------\nRan 85 tests in 2.713s\n\nOK\n"
+    },
+    {
+      "argv": [
+        "python3",
+        "agent-org/factory/instrumentation/check.py",
+        "--root",
+        "agent-org"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"errors\": [],\n  \"limits\": [\n    \"structural checks do not prove behavioral acceptance\",\n    \"approval exact-scope APIs must be called by admission workflow\",\n    \"no universal interception\",\n    \"provenance required by evidence-producing callers\"\n  ],\n  \"record_count\": 251,\n  \"valid\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "agent-org/factory/instrumentation/reconcile.py",
+        "--help"
+      ],
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "/opt/homebrew/Cellar/python@3.15/3.15.0_1/Frameworks/Python.framework/Versions/3.15/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/Shared/autonomy-implementation/agent-org/factory/instrumentation/reconcile.py': [Errno 2] No such file or directory\n"
+    },
+    {
+      "argv": [
+        "python3",
+        "agent-org/factory/instrumentation/effects.py",
+        "--help"
+      ],
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "/opt/homebrew/Cellar/python@3.15/3.15.0_1/Frameworks/Python.framework/Versions/3.15/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/Shared/autonomy-implementation/agent-org/factory/instrumentation/effects.py': [Errno 2] No such file or directory\n"
+    },
+    {
+      "argv": [
+        "python3",
+        "agent-org/factory/instrumentation/context.py",
+        "--help"
+      ],
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "/opt/homebrew/Cellar/python@3.15/3.15.0_1/Frameworks/Python.framework/Versions/3.15/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/Shared/autonomy-implementation/agent-org/factory/instrumentation/context.py': [Errno 2] No such file or directory\n"
+    },
+    {
+      "argv": [
+        "python3",
+        "agent-org/factory/instrumentation/learning.py",
+        "--help"
+      ],
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "/opt/homebrew/Cellar/python@3.15/3.15.0_1/Frameworks/Python.framework/Versions/3.15/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/Shared/autonomy-implementation/agent-org/factory/instrumentation/learning.py': [Errno 2] No such file or directory\n"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "attempts": 3,
+  "tasks": 2,
+  "retry_attempts": 1,
+  "observed_retry_attempts": 1,
+  "unknown_attempt_ordinals": 0,
+  "outcomes": {
+    "accepted": 1,
+    "failed": 1,
+    "blocked": 0,
+    "unknown": 1
+  },
+  "accepted_rate": 0.5,
+  "outcome_denominator": 2,
+  "unknown_outcomes": 1,
+  "all_attempts_accepted": {
+    "tasks": 0,
+    "known_tasks": 1,
+    "unknown_tasks": 1
+  },
+  "reliability": {
+    "recovery_success": {
+      "true": 1,
+      "known": 1,
+      "unknown": 2,
+      "total": 3,
+      "rate": 1.0
+    },
+    "effect_reconciled_before_retry": {
+      "true": 0,
+      "known": 0,
+      "unknown": 3,
+      "total": 3,
+      "rate": null
+    },
+    "lesson_recurred": {
+      "true": 0,
+      "known": 0,
+      "unknown": 3,
+      "total": 3,
+      "rate": null
+    }
+  },
+  "resources": {
+    "active_seconds": {
+      "observed_sum": 25,
+      "total": null,
+      "known": 2,
+      "unknown": 1
+    },
+    "tokens": {
+      "observed_sum": null,
+      "total": null,
+      "known": 0,
+      "unknown": 3
+    },
+    "cost_usd": {
+      "observed_sum": null,
+      "total": null,
+      "known": 0,
+      "unknown": 3
+    }
+  },
+  "measurement_health": {
+    "source": "caller-attributed observations only",
+    "actual_model": "unknown",
+    "coverage": "unobserved operations not inferred",
+    "promotion": "none; prior independent evidence gate remains authoritative"
+  }
+}
