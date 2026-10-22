@@ -105,3 +105,11 @@ Individual records own scope, current status and historical evidence. This catal
 - [RUN-000066 — Progressive disclosure plan and promotion approval](RUN-000066.md) — completed
 
 - [RUN-000067 — Plan progressive disclosure](RUN-000067.md) — completed
+
+- [RUN-000075 — Commons video Coordinator](RUN-000075.md) — running
+
+- [RUN-000076 — Commons video Reviewer](RUN-000076.md) — running
+
+- [RUN-000077 — Commons video Chief of Staff](RUN-000077.md) — running
+
+- [RUN-000078 — Commons video Planner](RUN-000078.md) — running

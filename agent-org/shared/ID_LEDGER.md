@@ -16,3 +16,7 @@ Delivery admission observed Tessl published TASK-000054..56/RUN-000048..50, and 
 Active cleanup delivery reservations: TASK-000063 Coordinator, TASK-000064 Reviewer, TASK-000065 Chief of Staff; RUN-000058 Planner, RUN-000059 Reviewer, RUN-000060 Chief of Staff, RUN-000061 Coordinator; APP-000016 direct operator grant. RUN-000057 and APP-000017 observed concurrent reservations are preserved for their other owner. These cleanup identities must not be reallocated.
 Research admission reconciled merged REQ-000050, TASK-000054..56 and RUN-000048..50 omitted by the prior ledger checkpoint. New research allocations are serialized in this worktree; workers allocate no IDs.
 APP-000015 is reserved for the independent research-delivery decision by TASK-000062/RUN-000056. The exact-head decision will be retained with PR evidence; reservation alone grants no promotion.
+
+Commons video reservation 2026-10-22T01:57:14.055392+00:00: TASK-000079..84, RUN-000075..78, APP-000022..23. Coordinator /root owns these; preserve autonomy TASK72..78/RUN68..74/REQ52/APP20..21. No worker allocates IDs.
+
+REQ-000053 reserved for Commons video requirement under TASK-000079; distinct from autonomy REQ-000052.

@@ -115,3 +115,15 @@ Individual records own scope, current status and historical evidence. This catal
 - [TASK-000070 — Progressive disclosure plan and promotion approval](organization/TASK-000070.md) — awaiting_acceptance (closure proposed after PR13 verified remote-main delivery)
 
 - [TASK-000071 — Plan progressive disclosure](organization/TASK-000071.md) — awaiting_acceptance (closure proposed after PR13 verified remote-main delivery)
+
+- [TASK-000079 — Add Commons milestone demo video requirement](cross-boundary/TASK-000079.md) — in_progress
+
+- [TASK-000080 — Commons demo video documentation](project/TASK-000080.md) — in_progress
+
+- [TASK-000081 — Bounded Commons enrollment and delivery records](organization/TASK-000081.md) — in_progress
+
+- [TASK-000082 — Independent Commons video requirement review](cross-boundary/TASK-000082.md) — in_progress
+
+- [TASK-000083 — Approve Commons admission records](organization/TASK-000083.md) — in_progress
+
+- [TASK-000084 — Plan Commons video requirement](cross-boundary/TASK-000084.md) — in_progress
