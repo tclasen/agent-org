@@ -1,0 +1,19 @@
+{
+  "agent-org/policies/ACCEPTANCE.md": "758fdb2825ab129e1c8d8753decb43e694322b645db82013a9c6dcd534dbf5b4",
+  "agent-org/policies/APPROVALS.md": "65e6f15ab93cdf1aba5eecc172a51aa8484e0be35a67e29936b5b3cacca976b2",
+  "agent-org/policies/AUTHORITY.md": "082de2f8fec06bc6dc9027d2f8605ca61cda12a5f5c175d1c3019bd1035d1118",
+  "agent-org/policies/CHANGE_CONTROL.md": "95b9916fbbd0ce42e8d32c70b98c20b9bc15103761e62af18df8c69459254207",
+  "agent-org/policies/CROSS_BOUNDARY_CHANGES.md": "bed6b939ac983ef3ff8920b6abd3e14e452f382b82f71ba5bbb24561854cb86c",
+  "agent-org/policies/DATA_HANDLING.md": "c25477b44f819b9c5ebbf422b40edfeee4df79884ee3bd29f4a80f059f3c5461",
+  "agent-org/policies/GIT.md": "da2e78ae1f7ff9674cb1f892baf24ea1b549abbe76fa497b4e585d59869c0c2a",
+  "agent-org/policies/MEASUREMENT_INDEPENDENCE.md": "899d12e5d92d5a22ef16aa929f154efe1c7748997b071b043769d06a03970194",
+  "agent-org/policies/MODEL_SELECTION.md": "d500ac114d42bdae6dc72e434b393815dd6f7c0e6d9a39f3cb0ae6e9a9d416b5",
+  "agent-org/policies/ORGANIZATION_CHANGES.md": "8eda199f28fe4e8c1161a04f8ae0dedb1e457e907928598cfd70bccb42e587f1",
+  "agent-org/policies/PERMISSIONS.md": "9a331b54b85e7d6072e55e4f46a9291db98674b4d542e82bd41e00cecee1e986",
+  "agent-org/policies/PLANNING.md": "5106f3f295505ffa62e5987015767204b290bb25b8a7c53881c087948d771966",
+  "agent-org/policies/PROJECT_CHANGES.md": "5daa5595ce27ed4550d6d3a3f227ff2b4d3ad4187c9fb781071c7928cbe69b2a",
+  "agent-org/policies/RESOURCE_BUDGETS.md": "47416e3ad0ee31ba15e3c1c8cd92373caa6b500d296ef3956f1d82a6ee474f8c",
+  "agent-org/policies/ROUTING.md": "ea7e4df8c4d7a3514a90e543b7acf1f19f5db481fe863ab0a117e65052a07f38",
+  "agent-org/policies/SCOPE_BOUNDARIES.md": "fc60f7184e429f4f267a245a081755a4a889b109ef65bdaeff67c84fa47a7c8f",
+  "agent-org/policies/SELF_IMPROVEMENT.md": "cc0bb4daca4a99e6925846e10b43d19405d191d321304f736024d0ee16c38e5e"
+}

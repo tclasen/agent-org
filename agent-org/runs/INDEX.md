@@ -1,6 +1,6 @@
 # Runs registry
 
-Individual records own scope, current status and historical evidence.
+Individual records own scope, current status and historical evidence. This catalog is for discovery, not a startup reading assignment. Search nonterminal status, assigned ID or affected scope; open only relevant records and verify actual state. Terminal history is needed only for an explicit dependency, provenance question or recovery. Missing/stale summaries require targeted search of canonical records.
 
 - [RUN-000001 — RUN-000001](RUN-000001.md) — completed
 - [RUN-000002 — RUN-000002](RUN-000002.md) — completed
@@ -78,3 +78,15 @@ Individual records own scope, current status and historical evidence.
 - [RUN-000055 — Independently review autonomous organization research](RUN-000055.md) — completed
 
 - [RUN-000056 — Approve research delivery and proposal boundaries](RUN-000056.md) — completed
+
+- [RUN-000062 — Progressive disclosure delivery](RUN-000062.md) — running
+
+- [RUN-000063 — Implement task-directed organization context](RUN-000063.md) — completed
+
+- [RUN-000064 — Streamline root startup bridge](RUN-000064.md) — completed
+
+- [RUN-000065 — Independent progressive disclosure review](RUN-000065.md) — running
+
+- [RUN-000066 — Progressive disclosure plan and promotion approval](RUN-000066.md) — running
+
+- [RUN-000067 — Plan progressive disclosure](RUN-000067.md) — completed

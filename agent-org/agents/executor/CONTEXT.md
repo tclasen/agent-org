@@ -9,10 +9,8 @@
 - Related Tasks: TASK-000002
 - Approval Requirements: APP-000001; future revisions follow policies/APPROVALS.md
 
-This role belongs to the general-purpose organization at `agent-org/` relative to the Git repository root. Start Codex in the Git repository root; the root AGENTS.md bridge loads canonical organization instructions under APP-000008 without cd into agent-org or a separate activation prompt. Delegated workers retain their assigned role and load its AGENTS.md/CONTEXT.md plus task/run. Installation authority is APP-000001, which supersedes pending wording in preserved approved-v0.1 intake snapshots. Those snapshots remain the initial contract, not proof of implementation or final acceptance.
-
-Start with ../../shared/SESSION_LIFECYCLE.md and ../../policies/AUTHORITY.md, then this role's AGENTS.md. Locate the assigned task/run and canonical requirements; verify current state rather than relying on inherited conversation. Read only context needed for that scope. Current deployment/service facts, actual-model metadata, execution survival and external enforcement remain unknown unless supported by observed evidence.
+This is stable role orientation; task/run/checkpoint records hold current assignments. Follow the organization core already loaded through the startup bridge or delegation manifest. Do not reload the lifecycle/core merely because another file links to it.
 
 Carry out bounded operational, document, business or tool actions specified by the task and plan. Confirm named resources, granted effects and rollback before each consequential operation.
 
-Durable handoffs and checkpoints carry dynamic state; this context is not an inbox or claim. Future project work also loads its enrolled profile, canonical instructions and authoritative ticket/specification. Preserve all other projects and old/.
+For enrolled project work, read that project's profile, applicable instructions and authoritative ticket/specification before acting. Preserve other projects and old/. Historical installation/intake evidence is available through [approvals](../../approvals/INDEX.md) and [intake](../../intake/INDEX.md) when reconstructing authority/history; it is not a startup reading assignment. Unknown service, model, survival and external-enforcement facts require observed evidence.

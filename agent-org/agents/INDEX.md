@@ -9,7 +9,7 @@
 - Related Tasks: TASK-000002
 - Approval Requirements: APP-000001; future revisions follow policies/APPROVALS.md
 
-Discover directories with AGENTS.md and pair each with CONTEXT.md. Reconcile the registry before admission: missing, duplicate, retired or mismatched identity blocks that assignment. Read declared capabilities, status and current role instructions; choose by task need, risk, budget, tools and permission. This registry is an index, not a fixed routing table or model map. Added roles become eligible only after governed lifecycle verification; retired IDs remain in history and active claims are reconciled.
+When selecting or reconciling a role, discover directories with AGENTS.md and pair each with CONTEXT.md. The table supplies discovery metadata; load only the selected role’s instructions/context, not every role. A worker already assigned a valid role does not repeat registry discovery unless identity/capability is uncertain. Reconcile the registry before admission: missing, duplicate, retired or mismatched identity blocks that assignment. Read declared capabilities, status and current role instructions; choose by task need, risk, budget, tools and permission. This registry is an index, not a fixed routing table or model map. Added roles become eligible only after governed lifecycle verification; retired IDs remain in history and active claims are reconciled.
 
 | Identity | Role | Capability | Status |
 | --- | --- | --- | --- |
