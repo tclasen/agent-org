@@ -2,7 +2,7 @@
 
 Coordinator serializes allocations; never reuse an allocated identity. The earlier source branches remain preserved locally; detailed project records reside with their owning repository.
 
-Allocated through: AGENT-000008, DEC-000015, REQ-000056, AC-000048, CAP-000022, WF-000006, TASK-000160, RUN-000155, APP-000120, ART-000005, INIT-000001, INTENT-000001, TRG-000001, EXP-000002, EVAL-000007, FAIL-000016.
+Allocated through: AGENT-000008, DEC-000015, REQ-000057, AC-000048, CAP-000022, WF-000006, TASK-000175, RUN-000170, APP-000176, ART-000005, INIT-000001, INTENT-000001, TRG-000001, EXP-000002, EVAL-000007, FAIL-000016.
 
 All earlier identities through those high-water marks remain allocated, including failed, canceled and superseded work. APP110/111 are reserved review/CoS admissions; APP112 is reserved independent decision and not yet approved. TASK151–160/RUN146–155 belong to the current ownership separation. No worker allocates IDs.
 
@@ -13,3 +13,36 @@ Ownership completion repair reservation 2026-10-22T14:46:52.091385+00:00: APP114
 Record ownership affected review reservation 2026-10-22T14:50:55.779117+00:00: APP115/116 PLAN4 review/CoS admissions, existing TASK159/160/RUN154/155; APP112 still reserved independent decision.
 
 CI registry repair reservation 2026-10-22T15:19:59.478096+00:00: APP117 PLAN5 bounded organization registry repair, APP118 independent affected Reviewer, APP119 dependent independent CoS admission, APP120 reserved exact decision. Existing TASK157/159/160 and RUN152/154/155; no new project or runtime effects.
+
+## Resumed coordination allocations
+
+Identifiers below are reserved serially by Coordinator. Canonical scope, status, authority and evidence reside with the owning record. Allocation or reservation does not grant execution. Project routing is in the minimal external task/approval pointers.
+
+| Allocation time (UTC) | Identifiers |
+| --- | --- |
+| 2026-10-22T15:40:26.151269+00:00 | REQ57; TASK161–166; RUN156–161; APP121–122 |
+| 2026-10-22T15:49:08.827369+00:00 | TASK167; RUN162; APP123–127 |
+| 2026-10-22T15:52:59.565135+00:00 | APP128 |
+| 2026-10-22T16:07:41.878914+00:00 | TASK168–169; RUN163–164; APP129–131 |
+| 2026-10-22T16:11:39.043779+00:00 | APP132–134 |
+| 2026-10-22T16:17:19.411451+00:00 | TASK170; RUN165; APP135 |
+| 2026-10-22T16:26:08.317495+00:00 | TASK171; RUN166; APP136–138 |
+| 2026-10-22T16:39:31.176559+00:00 | APP139–141 |
+| 2026-10-22T16:44:43.987784+00:00 | APP142 |
+| 2026-10-22T16:57:16.778019+00:00 | TASK172; RUN167; APP143–144 |
+| 2026-10-22T17:06:53.083485+00:00 | APP145–147 |
+| 2026-10-22T17:10:23.272879+00:00 | TASK173; RUN168; APP148–150 |
+| 2026-10-22T17:16:31.287026+00:00 | APP151 |
+| 2026-10-22T17:32:09.136070+00:00 | APP152–154 |
+| 2026-10-22T17:40:21.478062+00:00 | TASK174–175; RUN169–170; APP155–159 |
+| 2026-10-22T17:56:36.037169+00:00 | APP160 |
+| 2026-10-22T18:04:38.640448+00:00 | APP161 |
+| 2026-10-22T18:07:48.341123+00:00 | APP162 |
+| 2026-10-22T18:27:34.652295+00:00 | APP163–164 |
+| 2026-10-22T18:37:39.428374+00:00 | APP165–167 |
+| 2026-10-22T18:41:49.591311+00:00 | APP168 |
+| 2026-10-22T18:54:45.647165+00:00 | APP169 |
+| 2026-10-22T19:19:57.411869+00:00 | APP170–171 |
+| 2026-10-22T19:37:51.140920+00:00 | APP172 |
+| 2026-10-22T19:55:25.028410+00:00 | APP173–175 |
+| 2026-10-22T19:56:30.838541+00:00 | APP176 |

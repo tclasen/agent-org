@@ -2,7 +2,7 @@
 
 Organization records remain in their canonical family directories. A relocated project record contains only a forwarding pointer; its authoritative content and current state live in its owning repository. Forwarding entries grant no project authority.
 
-Current ownership work: REQ-000056, TASK-000151 through TASK-000160, RUN-000146 through RUN-000155, APP-000109. APP110–112 remain reserved pending exact independent decisions. See [record ownership](../policies/RECORD_OWNERSHIP.md) and [project routing](../knowledge/projects/INDEX.md).
+Earlier ownership reconciliation sources: REQ-000056, TASK-000151 through TASK-000160, RUN-000146 through RUN-000155, APP-000109. APP110–112 remain reserved pending exact independent decisions. See [record ownership](../policies/RECORD_OWNERSHIP.md) and [project routing](../knowledge/projects/INDEX.md).
 
 ## Organization task discovery
 
@@ -66,3 +66,9 @@ Historical organization registry labels and status snapshots below are retained 
 - [TASK-000106 — Final-response delivery safeguard](organization/TASK-000106.md) — awaiting_acceptance; conditional on verified delivery
 - [TASK-000107 — Final-response delivery safeguard](organization/TASK-000107.md) — awaiting_acceptance; conditional on verified delivery
 - [TASK-000108 — Final-response delivery safeguard](organization/TASK-000108.md) — awaiting_acceptance; conditional on verified delivery
+
+## Resumed coordination
+
+- [TASK-000161](cross-boundary/TASK-000161.md) — active coordination; project outcomes remain in owning repositories.
+- [TASK-000174](organization/TASK-000174.md) — independent coordination review.
+- [TASK-000175](organization/TASK-000175.md) — independent organization decision after review.
