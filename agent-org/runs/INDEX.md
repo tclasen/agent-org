@@ -69,12 +69,12 @@ Individual records own scope, current status and historical evidence.
 
 - [RUN-000051 — Research autonomous factories and organization improvements](RUN-000051.md) — running
 
-- [RUN-000052 — completed software factories and outcome evaluation](RUN-000052.md) — completed
+- [RUN-000052 — Research software factories and outcome evaluation](RUN-000052.md) — completed
 
-- [RUN-000053 — completed agent organizations and durable execution](RUN-000053.md) — completed
+- [RUN-000053 — Research agent organizations and durable execution](RUN-000053.md) — completed
 
-- [RUN-000054 — completed empirical recursive self improvement](RUN-000054.md) — completed
+- [RUN-000054 — Research empirical recursive self improvement](RUN-000054.md) — completed
 
-- [RUN-000055 — completed review autonomous organization research](RUN-000055.md) — planned
+- [RUN-000055 — Independently review autonomous organization research](RUN-000055.md) — completed
 
-- [RUN-000056 — completed research delivery and proposal boundaries](RUN-000056.md) — planned
+- [RUN-000056 — Approve research delivery and proposal boundaries](RUN-000056.md) — completed
