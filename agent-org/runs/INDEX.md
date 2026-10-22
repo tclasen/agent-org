@@ -60,3 +60,9 @@ Individual records own scope, current status and historical evidence.
 - [RUN-000046 — Independent remote delivery policy review](RUN-000046.md) — running
 
 - [RUN-000047 — Independent remote delivery policy approval](RUN-000047.md) — running
+
+- [RUN-000048 — Tessl research Coordinator](RUN-000048.md) — running
+
+- [RUN-000049 — Tessl research Reviewer](RUN-000049.md) — running
+
+- [RUN-000050 — Tessl research Chief of Staff](RUN-000050.md) — running

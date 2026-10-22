@@ -56,3 +56,5 @@ Individual records own current status, scope and evidence; archived references d
 - [REQ-000047 — Independently adopt legacy knowledge evidence](organization/REQ-000047.md) — accepted
 
 - [REQ-000049 — Remote main completion](organization/REQ-000049.md) — accepted operator requirement
+
+- [REQ-000050 — Tessl factory research](organization/REQ-000050.md)

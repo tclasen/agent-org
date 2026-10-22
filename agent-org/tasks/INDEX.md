@@ -60,3 +60,9 @@ Individual records own scope, current status and historical evidence.
 - [TASK-000052 — Independent remote delivery policy review](organization/TASK-000052.md) — awaiting_acceptance
 
 - [TASK-000053 — Independent remote delivery policy approval](organization/TASK-000053.md) — awaiting_acceptance
+
+- [TASK-000054 — Tessl factory research](organization/TASK-000054.md) — awaiting_acceptance
+
+- [TASK-000055 — Independent Tessl research review](organization/TASK-000055.md) — awaiting_acceptance
+
+- [TASK-000056 — Independent Tessl research approval](organization/TASK-000056.md) — awaiting_acceptance
