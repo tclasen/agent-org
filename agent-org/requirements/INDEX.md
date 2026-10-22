@@ -58,5 +58,6 @@ Individual records own current status, scope and evidence; archived references d
 - [REQ-000049 — Remote main completion](organization/REQ-000049.md) — accepted operator requirement
 
 - [REQ-000050 — Tessl factory research](organization/REQ-000050.md)
+- [REQ-000048 — Parent organization for five local clones](cross-boundary/REQ-000048.md) — accepted operator requirement
 
 - [REQ-000051 — Source grounded autonomy research](organization/REQ-000051.md) — accepted

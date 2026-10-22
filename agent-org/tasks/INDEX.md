@@ -55,17 +55,42 @@ Individual records own scope, current status and historical evidence.
 
 - [TASK-000040 — Approve scoped legacy learning adoption](organization/TASK-000040.md) — accepted
 
-- [TASK-000051 — Require verified remote main delivery](organization/TASK-000051.md) — awaiting_acceptance
+- [TASK-000051 — Require verified remote main delivery](organization/TASK-000051.md) — accepted
 
-- [TASK-000052 — Independent remote delivery policy review](organization/TASK-000052.md) — awaiting_acceptance
+- [TASK-000052 — Independent remote delivery policy review](organization/TASK-000052.md) — accepted
 
-- [TASK-000053 — Independent remote delivery policy approval](organization/TASK-000053.md) — awaiting_acceptance
+- [TASK-000053 — Independent remote delivery policy approval](organization/TASK-000053.md) — accepted
 
 - [TASK-000054 — Tessl factory research](organization/TASK-000054.md) — awaiting_acceptance
 
 - [TASK-000055 — Independent Tessl research review](organization/TASK-000055.md) — awaiting_acceptance
 
 - [TASK-000056 — Independent Tessl research approval](organization/TASK-000056.md) — awaiting_acceptance
+- [TASK-000041 — Clone five projects and retire embedded organizations](cross-boundary/TASK-000041.md) — accepted
+
+- [TASK-000042 — Record clone and cleanup evidence](organization/TASK-000042.md) — accepted
+
+- [TASK-000043 — tclasen/commons](project/TASK-000043.md) — accepted
+
+- [TASK-000044 — tclasen/every_game](project/TASK-000044.md) — accepted
+
+- [TASK-000045 — tclasen/semantic_search](project/TASK-000045.md) — accepted
+
+- [TASK-000046 — tclasen/wired_to_survive](project/TASK-000046.md) — accepted
+
+- [TASK-000047 — tclasen-agent/llm-cost-calculator](project/TASK-000047.md) — accepted
+
+- [TASK-000048 — Nested clone Git exclusions](project/TASK-000048.md) — accepted
+
+- [TASK-000049 — Independent cleanup Reviewer](organization/TASK-000049.md) — accepted
+
+- [TASK-000050 — Independent cleanup Chief of Staff](organization/TASK-000050.md) — accepted
+
+- [TASK-000063 — Clarify standing delivery and reconcile cleanup](organization/TASK-000063.md) — accepted
+
+- [TASK-000064 — Review exact delivery candidates](organization/TASK-000064.md) — accepted
+
+- [TASK-000065 — Approve final organization delivery](organization/TASK-000065.md) — accepted
 
 - [TASK-000057 — Research autonomous factories and organization improvements](organization/TASK-000057.md) — awaiting_acceptance
 
