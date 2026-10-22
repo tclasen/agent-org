@@ -9,22 +9,23 @@
 - Related Tasks: TASK-000002
 - Approval Requirements: APP-000001; future revisions follow policies/APPROVALS.md
 
-Policy authority begins with [AUTHORITY](AUTHORITY.md) and [SCOPE_BOUNDARIES](SCOPE_BOUNDARIES.md). Read policies relevant to assigned work; no index entry is execution authority.
+Authority begins with [AUTHORITY](AUTHORITY.md) and [SCOPE_BOUNDARIES](SCOPE_BOUNDARIES.md). This is a discovery map, not a required reading list or execution grant. Read the matching source before its action; go directly to known paths.
 
-- [Authority and autonomy](AUTHORITY.md)
-- [Target classification and scope boundaries](SCOPE_BOUNDARIES.md)
-- [Organization change admission](ORGANIZATION_CHANGES.md)
-- [Project change admission](PROJECT_CHANGES.md)
-- [Cross-boundary decomposition and acceptance](CROSS_BOUNDARY_CHANGES.md)
-- [Planning and execution separation](PLANNING.md)
-- [Evidence, verification and acceptance](ACCEPTANCE.md)
-- [Permission and external-effect handling](PERMISSIONS.md)
-- [Approval validity and separation](APPROVALS.md)
-- [Per-run model and reasoning selection](MODEL_SELECTION.md)
-- [Cumulative resources and retry limits](RESOURCE_BUDGETS.md)
-- [Data handling and evidence retention](DATA_HANDLING.md)
-- [Candidate identity, Git and promotion control](CHANGE_CONTROL.md)
-- [Autonomous recursive evidence-qualified improvement](SELF_IMPROVEMENT.md)
-- [Measurement independence and bounded proof](MEASUREMENT_INDEPENDENCE.md)
-- [Capability routing](ROUTING.md)
-- [Git delivery quick reference](GIT.md)
+| When needed | Canonical policy |
+| --- | --- |
+| Establish grant/approver or permissible target | [Authority](AUTHORITY.md), [scope boundaries](SCOPE_BOUNDARIES.md) |
+| Change organization instructions/capabilities | [Organization admission](ORGANIZATION_CHANGES.md) |
+| Change an enrolled project | [Project admission](PROJECT_CHANGES.md) |
+| Affect both systems/root integration | [Cross-boundary decomposition](CROSS_BOUNDARY_CHANGES.md) |
+| Register requirements/plan/admit execution | [Planning](PLANNING.md) |
+| Judge evidence or close a task | [Acceptance](ACCEPTANCE.md) |
+| Execute permission-sensitive/external effects | [Permissions](PERMISSIONS.md) |
+| Issue or validate approval | [Approval validity and independence](APPROVALS.md) |
+| Select a worker model/reasoning | [Model selection](MODEL_SELECTION.md) |
+| Allocate resources, delegate or retry | [Budgets and retry limits](RESOURCE_BUDGETS.md) |
+| Handle sensitive sources, logs or retention | [Data handling](DATA_HANDLING.md) |
+| Pin/change/promote a candidate | [Change control](CHANGE_CONTROL.md) |
+| Propose/evaluate organization improvement | [Self-improvement](SELF_IMPROVEMENT.md) |
+| Change evaluators or interpret measurement proof | [Measurement independence](MEASUREMENT_INDEPENDENCE.md) |
+| Discover/select/retire capabilities | [Routing](ROUTING.md) |
+| Commit, push, create/merge PR or verify remote main | [Git delivery](GIT.md) |

@@ -1,6 +1,6 @@
 # Tasks registry
 
-Individual records own scope, current status and historical evidence.
+Individual records own scope, current status and historical evidence. This catalog is for discovery, not a startup reading assignment. Search nonterminal status, assigned ID or affected scope; open only relevant records and verify actual state. Terminal history is needed only for an explicit dependency, provenance question or recovery. Missing/stale summaries require targeted search of canonical records.
 
 - [TASK-000001 — TASK-000001 — Install governed organization](cross-boundary/TASK-000001.md) — accepted
 - [TASK-000002 — TASK-000002 — Organization instructions and governance](organization/TASK-000002.md) — accepted
@@ -60,3 +60,15 @@ Individual records own scope, current status and historical evidence.
 - [TASK-000052 — Independent remote delivery policy review](organization/TASK-000052.md) — awaiting_acceptance
 
 - [TASK-000053 — Independent remote delivery policy approval](organization/TASK-000053.md) — awaiting_acceptance
+
+- [TASK-000057 — Progressive disclosure delivery](cross-boundary/TASK-000057.md) — in_progress
+
+- [TASK-000058 — Implement task-directed organization context](organization/TASK-000058.md) — in_review
+
+- [TASK-000059 — Streamline root startup bridge](project/TASK-000059.md) — in_review
+
+- [TASK-000060 — Independent progressive disclosure review](organization/TASK-000060.md) — in_progress
+
+- [TASK-000061 — Progressive disclosure plan and promotion approval](organization/TASK-000061.md) — planned
+
+- [TASK-000062 — Plan progressive disclosure](organization/TASK-000062.md) — verified

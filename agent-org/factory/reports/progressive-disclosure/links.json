@@ -1,0 +1,1231 @@
+{
+  "checked": 245,
+  "errors": [],
+  "links": [
+    {
+      "source": "AGENTS.md",
+      "target": "agent-org/AGENTS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "policies/AUTHORITY.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "policies/SCOPE_BOUNDARIES.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "agents/coordinator/AGENTS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "shared/SESSION_LIFECYCLE.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "policies/PLANNING.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "shared/WORK_GRAPH.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "shared/RECORD_FORMATS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "agents/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "policies/ROUTING.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "policies/MODEL_SELECTION.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "policies/RESOURCE_BUDGETS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "shared/CONTEXT_MANAGEMENT.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "policies/ORGANIZATION_CHANGES.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "policies/SELF_IMPROVEMENT.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "policies/PROJECT_CHANGES.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "policies/CROSS_BOUNDARY_CHANGES.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "knowledge/PROJECT_ENROLLMENT.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "policies/ACCEPTANCE.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "policies/APPROVALS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "policies/GIT.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "policies/CHANGE_CONTROL.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "shared/RECONCILIATION.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "shared/HANDOFFS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "policies/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "shared/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "workflows/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "factory/README.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "knowledge/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/AGENTS.md",
+      "target": "README.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "../AGENTS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "AGENTS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "agents/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "capabilities/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "tasks/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "runs/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "policies/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "shared/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "workflows/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "knowledge/PROJECT_ENROLLMENT.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "knowledge/projects/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "factory/README.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "approvals/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "decisions/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "intake/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "intents/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "initiatives/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "requirements/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "evaluations/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "experiments/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "artifacts/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "factory/baselines/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "factory/reports/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "triggers/TRG-000001.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/README.md",
+      "target": "factory/reports/progressive-disclosure/RESEARCH.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/INDEX.md",
+      "target": "coordinator/AGENTS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/INDEX.md",
+      "target": "chief-of-staff/AGENTS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/INDEX.md",
+      "target": "planner/AGENTS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/INDEX.md",
+      "target": "researcher/AGENTS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/INDEX.md",
+      "target": "architect/AGENTS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/INDEX.md",
+      "target": "developer/AGENTS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/INDEX.md",
+      "target": "executor/AGENTS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/INDEX.md",
+      "target": "reviewer/AGENTS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/architect/AGENTS.md",
+      "target": "../../AGENTS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/architect/AGENTS.md",
+      "target": "../../shared/HANDOFFS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/architect/CONTEXT.md",
+      "target": "../../approvals/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/architect/CONTEXT.md",
+      "target": "../../intake/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/chief-of-staff/AGENTS.md",
+      "target": "../../AGENTS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/chief-of-staff/AGENTS.md",
+      "target": "../../shared/HANDOFFS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/chief-of-staff/CONTEXT.md",
+      "target": "../../approvals/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/chief-of-staff/CONTEXT.md",
+      "target": "../../intake/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/coordinator/AGENTS.md",
+      "target": "../../AGENTS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/coordinator/AGENTS.md",
+      "target": "../../shared/HANDOFFS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/coordinator/CONTEXT.md",
+      "target": "../../approvals/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/coordinator/CONTEXT.md",
+      "target": "../../intake/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/coordinator/CONTEXT.md",
+      "target": "../../shared/LEGACY_LEARNINGS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/developer/AGENTS.md",
+      "target": "../../AGENTS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/developer/AGENTS.md",
+      "target": "../../shared/HANDOFFS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/developer/CONTEXT.md",
+      "target": "../../approvals/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/developer/CONTEXT.md",
+      "target": "../../intake/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/executor/AGENTS.md",
+      "target": "../../AGENTS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/executor/AGENTS.md",
+      "target": "../../shared/HANDOFFS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/executor/CONTEXT.md",
+      "target": "../../approvals/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/executor/CONTEXT.md",
+      "target": "../../intake/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/planner/AGENTS.md",
+      "target": "../../AGENTS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/planner/AGENTS.md",
+      "target": "../../shared/HANDOFFS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/planner/CONTEXT.md",
+      "target": "../../approvals/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/planner/CONTEXT.md",
+      "target": "../../intake/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/researcher/AGENTS.md",
+      "target": "../../AGENTS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/researcher/AGENTS.md",
+      "target": "../../shared/HANDOFFS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/researcher/CONTEXT.md",
+      "target": "../../approvals/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/researcher/CONTEXT.md",
+      "target": "../../intake/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/reviewer/AGENTS.md",
+      "target": "../../AGENTS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/reviewer/AGENTS.md",
+      "target": "../../shared/HANDOFFS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/reviewer/CONTEXT.md",
+      "target": "../../approvals/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/agents/reviewer/CONTEXT.md",
+      "target": "../../intake/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/approvals/INDEX.md",
+      "target": "APP-000001.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/approvals/INDEX.md",
+      "target": "APP-000002.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/approvals/INDEX.md",
+      "target": "APP-000003.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/approvals/INDEX.md",
+      "target": "APP-000004.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/approvals/INDEX.md",
+      "target": "APP-000005.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/approvals/INDEX.md",
+      "target": "APP-000006.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/approvals/INDEX.md",
+      "target": "APP-000007.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/approvals/INDEX.md",
+      "target": "APP-000008.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/approvals/INDEX.md",
+      "target": "APP-000009.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/approvals/INDEX.md",
+      "target": "APP-000010.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/approvals/INDEX.md",
+      "target": "APP-000011.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/approvals/INDEX.md",
+      "target": "APP-000013.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/approvals/INDEX.md",
+      "target": "APP-000016.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/factory/reports/progressive-disclosure/PLAN.md",
+      "target": "RESEARCH.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/policies/INDEX.md",
+      "target": "AUTHORITY.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/policies/INDEX.md",
+      "target": "SCOPE_BOUNDARIES.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/policies/INDEX.md",
+      "target": "AUTHORITY.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/policies/INDEX.md",
+      "target": "SCOPE_BOUNDARIES.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/policies/INDEX.md",
+      "target": "ORGANIZATION_CHANGES.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/policies/INDEX.md",
+      "target": "PROJECT_CHANGES.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/policies/INDEX.md",
+      "target": "CROSS_BOUNDARY_CHANGES.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/policies/INDEX.md",
+      "target": "PLANNING.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/policies/INDEX.md",
+      "target": "ACCEPTANCE.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/policies/INDEX.md",
+      "target": "PERMISSIONS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/policies/INDEX.md",
+      "target": "APPROVALS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/policies/INDEX.md",
+      "target": "MODEL_SELECTION.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/policies/INDEX.md",
+      "target": "RESOURCE_BUDGETS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/policies/INDEX.md",
+      "target": "DATA_HANDLING.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/policies/INDEX.md",
+      "target": "CHANGE_CONTROL.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/policies/INDEX.md",
+      "target": "SELF_IMPROVEMENT.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/policies/INDEX.md",
+      "target": "MEASUREMENT_INDEPENDENCE.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/policies/INDEX.md",
+      "target": "ROUTING.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/policies/INDEX.md",
+      "target": "GIT.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000001.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000002.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000003.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000004.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000005.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000006.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000007.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000008.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000009.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000010.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000011.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000012.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000013.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000014.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000015.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000016.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000017.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000018.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000019.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000020.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000021.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000022.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000023.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000024.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000025.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000026.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000027.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000028.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000029.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000030.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000031.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000032.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000033.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000034.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000035.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000036.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000037.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000038.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000039.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000040.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000045.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000046.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000047.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000052.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000053.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000054.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000055.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000056.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000057.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/shared/CONTEXT_MANAGEMENT.md",
+      "target": "../AGENTS.md#read-before-the-matching-action",
+      "valid": true
+    },
+    {
+      "source": "agent-org/shared/CONTEXT_MANAGEMENT.md",
+      "target": "../README.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/shared/INDEX.md",
+      "target": "SESSION_LIFECYCLE.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/shared/INDEX.md",
+      "target": "RECORD_FORMATS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/shared/INDEX.md",
+      "target": "CONVENTIONS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/shared/INDEX.md",
+      "target": "IDENTIFIERS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/shared/INDEX.md",
+      "target": "ID_LEDGER.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/shared/INDEX.md",
+      "target": "WORK_GRAPH.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/shared/INDEX.md",
+      "target": "CONTEXT_MANAGEMENT.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/shared/INDEX.md",
+      "target": "HANDOFFS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/shared/INDEX.md",
+      "target": "templates/INDEX.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/shared/INDEX.md",
+      "target": "RECONCILIATION.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/shared/INDEX.md",
+      "target": "INTEGRATION.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/shared/INDEX.md",
+      "target": "INTENT_RECONCILIATION.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/shared/INDEX.md",
+      "target": "SCORECARDS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/shared/INDEX.md",
+      "target": "LEGACY_LEARNINGS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/shared/SESSION_LIFECYCLE.md",
+      "target": "RECONCILIATION.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/shared/SESSION_LIFECYCLE.md",
+      "target": "HANDOFFS.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "cross-boundary/TASK-000001.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000002.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000003.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000004.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "project/TASK-000005.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "cross-boundary/TASK-000006.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "project/TASK-000007.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000008.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000009.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "project/TASK-000010.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000011.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000012.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000013.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000014.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000015.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "project/TASK-000016.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000017.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000018.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000019.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000020.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000021.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000022.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "project/TASK-000023.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000024.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "cross-boundary/TASK-000025.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000026.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "project/TASK-000027.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000028.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "cross-boundary/TASK-000029.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000030.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000031.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000032.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "project/TASK-000033.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "project/TASK-000034.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "project/TASK-000035.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "project/TASK-000036.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "project/TASK-000037.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "project/TASK-000038.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000039.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000040.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000051.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000052.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000053.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "cross-boundary/TASK-000057.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000058.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "project/TASK-000059.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000060.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000061.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000062.md",
+      "valid": true
+    }
+  ]
+}

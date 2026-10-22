@@ -17,3 +17,5 @@ Individual records own scope, current status and historical evidence.
 - [APP-000011 — Disposal after learning harvest](APP-000011.md) — approved
 
 - [APP-000013 — Operator remote main completion directive](APP-000013.md) — approved
+
+- [APP-000016 — Progressive disclosure plan approval](APP-000016.md) — approved

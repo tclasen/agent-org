@@ -1,0 +1,22 @@
+{
+  "errors": [
+    "TASK-000057: broken Plan Approval reference APP-000016",
+    "TASK-000058: broken Plan Approval reference APP-000016",
+    "TASK-000060: broken Plan Approval reference APP-000016",
+    "TASK-000061: broken Plan Approval reference APP-000016",
+    "TASK-000062: broken Plan Approval reference APP-000016",
+    "TASK-000059: broken Plan Approval reference APP-000016",
+    "TASK-000057: not authorized",
+    "TASK-000057: missing approved plan grant",
+    "TASK-000062: not authorized",
+    "TASK-000062: missing approved plan grant"
+  ],
+  "limits": [
+    "structural checks do not prove behavioral acceptance",
+    "approval exact-scope APIs must be called by admission workflow",
+    "no universal interception",
+    "provenance required by evidence-producing callers"
+  ],
+  "record_count": 203,
+  "valid": false
+}
