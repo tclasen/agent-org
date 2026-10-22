@@ -140,3 +140,9 @@ Individual records own scope, current status and historical evidence. This catal
 - [RUN-000098 — README Chief of Staff](RUN-000098.md) — in_progress; closure conditional on verified PR delivery
 
 - [RUN-000099 — README integration Coordinator](RUN-000099.md) — in_progress
+
+- [RUN-000100 — Final-response delivery safeguard](RUN-000100.md) — awaiting_acceptance; conditional on verified delivery
+
+- [RUN-000101 — Final-response delivery safeguard](RUN-000101.md) — awaiting_acceptance; conditional on verified delivery
+
+- [RUN-000102 — Final-response delivery safeguard](RUN-000102.md) — awaiting_acceptance; conditional on verified delivery
