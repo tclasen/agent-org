@@ -19,3 +19,7 @@ Individual records own scope, current status and historical evidence.
 - [APP-000013 — Operator remote main completion directive](APP-000013.md) — approved
 
 - [APP-000018 — Reconciled progressive disclosure plan](APP-000018.md) — approved
+
+- [APP-000012 — Operator local clone and cleanup](APP-000012.md) — approved
+
+- [APP-000016 — Mandatory remote-main delivery](APP-000016.md) — approved

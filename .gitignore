@@ -6,3 +6,10 @@
 **/__pycache__/
 *.py[cod]
 /agent-org/factory/events/*.lock
+
+# Independent project clones; each retains its own Git history.
+/commons/
+/every_game/
+/semantic_search/
+/wired_to_survive/
+/llm-cost-calculator/
