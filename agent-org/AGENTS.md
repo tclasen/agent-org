@@ -1,6 +1,6 @@
 # Agent organization operating instructions
 
-Resolve paths in this file relative to agent-org/. The host root AGENTS.md is the operator-approved startup bridge (APP-000008); canonical organization state remains here.
+The organization lives at `agent-org/` relative to the Git repository root. Resolve paths in this file relative to that directory, regardless of the checkout location. Use repository-relative paths in active instructions and guides; do not hard-code the checkout’s absolute path. Historical evidence retains the paths observed at the time. The host root AGENTS.md is the operator-approved startup bridge (APP-000008); canonical organization state remains here.
 
 Read policies/AUTHORITY.md, policies/SCOPE_BOUNDARIES.md, agents/INDEX.md and tasks/INDEX.md when available. During initial construction use intake/approved-v0.1 as the approved authority. The operator approved that package on 2026-10-21; APP-000001 is the durable grant.
 

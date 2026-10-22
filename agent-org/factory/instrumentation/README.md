@@ -2,7 +2,7 @@
 
 Python 3.11+ standard library, POSIX `fcntl`/process groups. No service, hook installation, scheduler or tool interception.
 
-From `/Users/Shared`:
+From the Git repository root:
 
 ```sh
 python3 -m unittest discover -s agent-org/factory/tests -v

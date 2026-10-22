@@ -11,7 +11,7 @@
 
 This is a Markdown-first general-purpose organization using native Codex workers and small deterministic factory tools. Coordinator owns intent/routing/reconciliation; Chief of Staff independently governs evidence-qualified autonomous organization evolution. Each project keeps its own repository, remote and authoritative specification/ticket sources. Software delivery is one instrumented workflow alongside research, writing, analysis and operations.
 
-Start Codex from `/Users/Shared`; the [root AGENTS.md](../AGENTS.md) activates this organization and initializes the Coordinator. You do not need to cd into agent-org or supply an activation prompt. Canonical instructions/state remain here. Clients that do not load AGENTS.md can explicitly read the root file; no universal harness behavior or background execution is claimed.
+Start Codex from the Git repository root; the [root AGENTS.md](../AGENTS.md) activates this organization and initializes the Coordinator. You do not need to cd into agent-org or supply an activation prompt. Canonical instructions/state remain here. Clients that do not load AGENTS.md can explicitly read the root file; no universal harness behavior or background execution is claimed.
 
 Read [authority](policies/AUTHORITY.md), [scope](policies/SCOPE_BOUNDARIES.md), [role discovery](agents/INDEX.md), [tasks](tasks/INDEX.md), [shared lifecycle](shared/SESSION_LIFECYCLE.md) and [workflows](workflows/INDEX.md). Formal records carry scope/authority metadata and serialized stable IDs. Fresh task-selected workers return durable handoffs; independent reviewers verify pinned candidates; every factory content change goes through PR. Organization maintenance approval is autonomous when evidence qualifies; project grants remain separate.
 
