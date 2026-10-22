@@ -2,7 +2,7 @@
 
 - Project ID: commons
 - Canonical Path: /Users/Shared/commons (verified Git root)
-- Repository Identity: https://github.com/tclasen/commons.git; independent Git history; owning branch main
+- Repository Identity: https://github.com/tclasen/commons.git; GitHub repository ID 1428455417; independent Git history; owning branch main
 - Task Authority: current operator request recorded in APP-000022 / TASK-000080; task scope is documentation only
 - Requirements Authority: project AGENTS.md, README.md, docs/requirements.md (preserved initial specification), docs/implementation-plan.md; GitHub tclasen/commons issues remain canonical tickets where applicable
 - Owner and Delegates: operator is project authority; Coordinator executes only the bounded grant; independent Reviewer verifies exact candidate
