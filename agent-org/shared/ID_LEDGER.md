@@ -17,8 +17,11 @@ Active cleanup delivery reservations: TASK-000063 Coordinator, TASK-000064 Revie
 Research admission reconciled merged REQ-000050, TASK-000054..56 and RUN-000048..50 omitted by the prior ledger checkpoint. New research allocations are serialized in this worktree; workers allocate no IDs.
 APP-000015 is reserved for the independent research-delivery decision by TASK-000062/RUN-000056. The exact-head decision will be retained with PR evidence; reservation alone grants no promotion.
 
-Autonomy implementation reservation 2026-10-22T01:39:44.573658+00:00: TASK-000072..78, RUN-000068..74, REQ-000052, EXP-000002, APP-000020..21. Coordinator /root in feat/autonomy-workflow owns these; preserve progressive-disclosure reservations66..71/62..67/18..19. No worker allocates IDs.
+Commons video reservation 2026-10-22T01:57:14.055392+00:00: TASK-000079..84, RUN-000075..78, APP-000022..23. Coordinator /root owns these; preserve autonomy TASK72..78/RUN68..74/REQ52/APP20..21. No worker allocates IDs.
 
-RUN-000075 reserves a fresh TASK-000078 recovery execution after integrating remote-main60dc577 instructions; RUN74 prior evidence remains retained. No task identity is reused or new experiment created.
+REQ-000053 reserved for Commons video requirement under TASK-000079; distinct from autonomy REQ-000052.
+
+
+Autonomy implementation reservation 2026-10-22T01:39:44.573658+00:00: TASK-000072..78, RUN-000068..74, REQ-000052, EXP-000002, APP-000020..21. Coordinator /root in feat/autonomy-workflow owns these; preserve progressive-disclosure reservations66..71/62..67/18..19. No worker allocates IDs.
 
 Identity reconciliation 2026-10-22T02:10:48.290517+00:00: published Commons PR14 owns RUN-000075..78. The unpublished autonomy second recovery execution provisionally labeledRUN75 is remapped to RUN-000079 before publication. Its original manifest/journal/report identifiers and hashes remain historical evidence; the new formal record discloses the alias. RUN79 is reserved to this owner; no published Commons definition is changed.
