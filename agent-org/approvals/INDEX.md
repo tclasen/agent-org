@@ -15,3 +15,5 @@ Individual records own scope, current status and historical evidence.
 - [APP-000010 — Legacy learning preservation and sync](APP-000010.md) — approved
 
 - [APP-000011 — Disposal after learning harvest](APP-000011.md) — approved
+
+- [APP-000013 — Operator remote main completion directive](APP-000013.md) — approved

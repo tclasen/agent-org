@@ -54,3 +54,9 @@ Individual records own scope, current status and historical evidence.
 - [RUN-000039 — Independently verify legacy harvest and preservation](RUN-000039.md) — completed
 
 - [RUN-000040 — Approve scoped legacy learning adoption](RUN-000040.md) — completed
+
+- [RUN-000045 — Require verified remote main delivery](RUN-000045.md) — running
+
+- [RUN-000046 — Independent remote delivery policy review](RUN-000046.md) — running
+
+- [RUN-000047 — Independent remote delivery policy approval](RUN-000047.md) — running

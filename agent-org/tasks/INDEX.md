@@ -54,3 +54,9 @@ Individual records own scope, current status and historical evidence.
 - [TASK-000039 — Independently verify legacy harvest and preservation](organization/TASK-000039.md) — accepted
 
 - [TASK-000040 — Approve scoped legacy learning adoption](organization/TASK-000040.md) — accepted
+
+- [TASK-000051 — Require verified remote main delivery](organization/TASK-000051.md) — in_progress
+
+- [TASK-000052 — Independent remote delivery policy review](organization/TASK-000052.md) — in_progress
+
+- [TASK-000053 — Independent remote delivery policy approval](organization/TASK-000053.md) — in_progress
