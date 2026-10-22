@@ -1,0 +1,11 @@
+{
+  "errors": [],
+  "limits": [
+    "structural checks do not prove behavioral acceptance",
+    "approval exact-scope APIs must be called by admission workflow",
+    "no universal interception",
+    "provenance required by evidence-producing callers"
+  ],
+  "record_count": 253,
+  "valid": true
+}

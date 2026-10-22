@@ -131,3 +131,16 @@ Individual records own scope, current status and historical evidence. This catal
 - [TASK-000095 — Worktree lifecycle instructions and retrospective cleanup](organization/TASK-000095.md) — awaiting_acceptance
 - [TASK-000096 — Independent worktree cleanup review](organization/TASK-000096.md) — awaiting_acceptance
 - [TASK-000097 — Independent worktree cleanup approval](organization/TASK-000097.md) — awaiting_acceptance
+- [TASK-000072 — Implement autonomous execution and learning loop](organization/TASK-000072.md) — awaiting_acceptance
+
+- [TASK-000073 — Implement current state reconciliation](organization/TASK-000073.md) — awaiting_acceptance
+
+- [TASK-000074 — Implement recoverable effect journal](organization/TASK-000074.md) — awaiting_acceptance
+
+- [TASK-000075 — Implement context and candidate learning tools](organization/TASK-000075.md) — awaiting_acceptance
+
+- [TASK-000076 — Independently verify autonomous execution candidate](organization/TASK-000076.md) — awaiting_acceptance
+
+- [TASK-000077 — Govern implementation plan and promotion](organization/TASK-000077.md) — awaiting_acceptance
+
+- [TASK-000078 — Qualify fresh worker recovery and refusal](organization/TASK-000078.md) — awaiting_acceptance

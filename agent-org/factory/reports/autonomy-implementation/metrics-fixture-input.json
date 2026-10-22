@@ -1,0 +1,30 @@
+[
+  {
+    "attempt_id": "fixture-a1",
+    "task_id": "fixture-a",
+    "source": "synthetic C5 qualification, not organization productivity",
+    "outcome": "failed",
+    "attempt_number": 1,
+    "resources": {
+      "active_seconds": 10
+    }
+  },
+  {
+    "attempt_id": "fixture-a2",
+    "task_id": "fixture-a",
+    "source": "synthetic C5 qualification, not organization productivity",
+    "outcome": "accepted",
+    "attempt_number": 2,
+    "recovery_success": true,
+    "resources": {
+      "active_seconds": 15
+    }
+  },
+  {
+    "attempt_id": "fixture-b1",
+    "task_id": "fixture-b",
+    "source": "synthetic incomplete observation",
+    "outcome": "unknown",
+    "attempt_number": 1
+  }
+]

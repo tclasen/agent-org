@@ -29,3 +29,6 @@ Individual records own scope, current status and historical evidence.
 - [APP-000026 — Operator worktree cleanup directive](APP-000026.md)
 
 - [APP-000027 — Independent worktree cleanup promotion decision](APP-000027.md)
+- [APP-000020 — Independent deterministic autonomy implementation plan approval](APP-000020.md) — approved
+
+- [APP-000021 — Independent deterministic autonomy capability adoption](APP-000021.md) — approved

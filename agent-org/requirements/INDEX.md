@@ -63,3 +63,5 @@ Individual records own current status, scope and evidence; archived references d
 - [REQ-000051 — Source grounded autonomy research](organization/REQ-000051.md) — accepted
 
 - [REQ-000053 — Commons milestone demo video requirement](cross-boundary/REQ-000053.md)
+
+- [REQ-000052 — Implement research inspired autonomous execution](organization/REQ-000052.md) — accepted
