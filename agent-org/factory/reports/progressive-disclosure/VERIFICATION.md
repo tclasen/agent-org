@@ -2,7 +2,7 @@
 
 - Target System: cross_boundary
 - Change Classification: cross_boundary
-- Authorized Scope: approved PLAN.md revision 1 instruction/navigation correction and root bridge
+- Authorized Scope: approved PLAN.md revision 3 instruction/navigation correction and root bridge
 - Affected Paths or Resources: named organization surfaces; root AGENTS.md only
 - Owning Role: Coordinator
 - Related Requirements: REQ-000001, REQ-000008, REQ-000034
@@ -42,14 +42,14 @@ Each row adds its selected details to the relevant fixed core and exact assignme
 
 ## PD-04: preserved invariants
 
-All 17 substantive policy bodies are byte-identical to baseline; [policy-hashes.json](policy-hashes.json) records hashes. Only policies/INDEX navigation changes. Existing tooling, evaluator, tests, authority grants, approved intake and historical evidence are unchanged.
+All 17 substantive policy bodies are byte-identical to the latest delivery base e08e2ff; sixteen equal original ca6ff20 and GIT contains only upstream PR11’s standing-delivery paragraph; [policy-hashes.json](policy-hashes.json) records hashes. Only policies/INDEX navigation changes. Existing tooling, evaluator, tests, authority grants, approved intake and historical evidence are unchanged.
 
 | Invariant | Candidate evidence |
 | --- | --- |
-| Classification and separate grants/children | Core requires classification; AUTHORITY/SCOPE unchanged; TASK58 organization and TASK59 root child remain separately scoped |
+| Classification and separate grants/children | Core requires classification; AUTHORITY/SCOPE unchanged; TASK67 organization and TASK68 root child remain separately scoped |
 | Native sandbox, old/ exclusion, no harness/service/product expansion | Core states exclusions; role confirms scope/ownership; no affected path outside named surfaces/root bridge |
 | Per-run honest configuration and cumulative budgets | Core/roles retain unknown telemetry; model/budget policies linked before delegation; unchanged policies |
-| Independent reviewer and Chief of Staff | Core and role duties retain independence, exact-candidate rules via action routes; APP16 plan approval precedes implementation |
+| Independent reviewer and Chief of Staff | Core and role duties retain independence, exact-candidate rules via action routes; original provisional APP16 preceded initial implementation; APP18 renews reconciled continuation |
 | Candidate identity, PR and remote-main delivery | Core preserves standing routine delivery grant and intermediate-work distinction; unchanged CHANGE_CONTROL/GIT/ACCEPTANCE govern effects |
 | No blind retry or background execution promise | Core/lifecycle require effect reconciliation, bounded active-session continuation and durable handoff |
 | Statistical and evaluator rules | SELF_IMPROVEMENT/MEASUREMENT_INDEPENDENCE unchanged; deterministic requested correction only; no stochastic benefit claim |
@@ -62,7 +62,7 @@ Link check: extract Markdown local destinations in changed/new files, resolve re
 
 ## PD-06: regression and retained failures
 
-Interpreter: Python 3.15.0 on Darwin arm64. Exact baseline archive check: valid, 191 records, zero errors; existing unittest suite 85/85 passes. Reconciled candidate structural check: valid, 224 records, zero errors; 85/85 tests pass. Commands:
+Interpreter: Python 3.15.0 on Darwin arm64. Exact baseline archive check: valid, 191 records, zero errors; existing unittest suite 85/85 passes. Revision 2 candidate structural check: valid, 224 records, zero errors; 85/85 tests pass. Commands:
 
 ```sh
 python3 agent-org/factory/instrumentation/check.py --root agent-org
@@ -74,12 +74,16 @@ Raw results are baseline-validation.json, baseline-tests.log, candidate-validati
 
 ## PD-07: review and delivery
 
-Implementation/criteria are pinned in candidate-manifest.json before independent review. REVIEW.md and APP17 will bind candidate/evidence; no implementation author may self-approve. Review/approval outputs are excluded from self-hashing and must be reconciled against the final delivery commit. Any implementation change requires affected recheck/renewed approval.
+Implementation/criteria are pinned in candidate-manifest.json before independent review. REVIEW.md and APP19 will bind candidate/evidence; no implementation author may self-approve. Review/approval outputs are excluded from self-hashing and must be reconciled against the final delivery commit. Any implementation change requires affected recheck/renewed approval.
 
 At this point no completion is asserted: normal PR merge, host checks/thread handling and verified remote-main containment remain pending. Parent and child task statuses remain nonterminal. Coordinator owns delivery and the final observed PR/main identifiers. No deployment, messaging or project side effects occurred.
 
-Reconciled candidate uses delivery base79298fe; all instructions/evaluator criteria remain based onca6ff20. Records remapped under PLAN revision2, preserving all new remote research. Refreshed counts/link/check/test evidence supersedes the initial snapshots; final review binds a new manifest.
+Revision 2 candidate used delivery base79298fe; all instructions/evaluator criteria remain based onca6ff20. Records remapped under PLAN revision2, preserving all new remote research. Refreshed counts/link/check/test evidence supersedes the initial snapshots; final review binds a new manifest.
 
 Regeneration note: the first reconciled link scan found its own not-yet-written links.json/policy-hashes.json artifact references; both files were materialized before the diagnosed rerun. No instruction link was missing. The final regenerated scan result supersedes the initial-set count.
 
 Final pre-review regenerated local-link inventory: 266 checked destinations, no errors; all updated references are within the reconciled repository.
+
+Revision 3 integration: cleanup PR11 main e08e2ff preserved through normal branch merge. All disclosure instruction files retain their reviewed bytes; only metadata/evidence/registry integration changes. Final structural count/link/policy evidence will be recorded before pin.
+
+Final revision 3 integrated evidence after APP18 renewal and merge7329c03: valid248 formal records/errors0; all85 existing tests pass; local link scan289/errors0; all17 substantive policies byte-identical to delivery basee08e2ff. Word counts remain common901/Coordinator1732/known-role maximum1411. Git worktree has no unresolved merge entries; only task-owned revision/evidence updates remain.

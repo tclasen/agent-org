@@ -85,6 +85,6 @@ test_timeout (test_runner.RunnerTest.test_timeout) ... ok
 test_independent_criteria (test_validator_regressions.ValidatorRegressions.test_independent_criteria) ... ok
 
 ----------------------------------------------------------------------
-Ran 85 tests in 2.702s
+Ran 85 tests in 2.527s
 
 OK

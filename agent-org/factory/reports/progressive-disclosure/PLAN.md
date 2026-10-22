@@ -1,4 +1,4 @@
-# Progressive disclosure plan — revision 2
+# Progressive disclosure plan — revision 3
 
 - Target System: cross_boundary
 - Change Classification: cross_boundary
@@ -120,3 +120,7 @@ Revision 1 Planner handoff: only this file was authored under TASK-000071/RUN-00
 Revision 1 original hash aa5f1369237f85c4272e8cfed08034014599add8cc12748d9ca9451824950459 is preserved on draft PR12 at05ebfd8. Remote main advanced to79298fe via unrelated research PR9/10 and allocated overlapping provisional records. No original review/promotion decision was issued. Retain baseline ca6ff20, all criteria/thresholds/workload/budget/rollback and unchanged substantive policies/evaluator. New delivery base79298fe preserves all research. Only provisional task/run/approval references and worktree identity change; new Chief plan decision required before continuation. Earlier implementation was produced after the then-valid provisional APP16; its content is unchanged. New APP18 independently authorizes continued evaluation/delivery, and APP19 will govern promotion. This is not a reset of budget or an outcome-driven criterion change.
 
 Identity mapping: original provisional TASK57..62 → TASK66..71; RUN52..57 → RUN62..67; APP16/17 → APP18/19. Other owners' already published/reserved records remain intact. Coordinator records source-ledger reservation before transfer.
+
+## Revision 3 — integrate concurrently delivered cleanup
+
+Remote main e08e2ff merged cleanup PR11 after revision2 approval. Normal branch merge preserves all its project-cleanup records, exclusions and policy clarification. No criteria, workload, numeric bounds, budget or evaluator code changed. GIT.md's upstream standing-delivery paragraph is retained verbatim; compare our policy delta against e08e2ff. Relative to original ca6ff20, sixteen substantive policies remain byte-identical and GIT differs only by that independently authorized upstream clarification. Candidate core already expressed the same standing routine commit/push/PR/allowed merge/main-verification directive; resolving the AGENTS conflict keeps its existing bounded text and that rule. Registry/ledger conflicts union both owners' entries; no identities reused or historical content overwritten. New continuation approval for this revision is required before refreshed evaluation. Original baseline counts stay fixed; latest delivery base becomes e08e2ff.

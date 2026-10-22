@@ -2,7 +2,7 @@
 
 - Target System: cross_boundary
 - Change Classification: cross_boundary
-- Authorized Scope: PLAN.md revision 2 named organization guidance surfaces under TASK-000067; root AGENTS.md startup bridge only under TASK-000068; assigned approval records under TASK-000070
+- Authorized Scope: PLAN.md revision 3 named organization guidance surfaces under TASK-000067; root AGENTS.md startup bridge only under TASK-000068; assigned approval records under TASK-000070
 - Affected Paths or Resources: agent-org guidance/navigation and scoped evidence; root AGENTS.md only for startup integration
 - Owning Role: Chief of Staff
 - Related Requirements: REQ-000001, REQ-000008, REQ-000034
@@ -10,17 +10,31 @@
 - Approval Requirements: APP-000001, APP-000008, APP-000013; APP-000018 continuation decision; APP-000019 remains required for promotion
 
 - Decision: approved for scoped continuation/evaluation and normal PR preparation; no promotion or acceptance
-- Decided At: 2026-10-22T01:33:17.496703+00:00
+- Decided At: 2026-10-22T01:37:13.222204+00:00
 - Approver: independent Chief of Staff /root/disclosure_approval, AGENT-000002, TASK-000070 / RUN-000066
 - Independence: same independent approval execution as the initial plan decision; no instruction implementation or plan authorship
 - Requested Configuration: RUN-000066 now records gpt-6-astra/high; original provisional RUN-000056 recorded gpt-6.1-sol/high
 - Actual Model / Reasoning: unknown; record configuration is not proof of runtime identity or a model switch
-- Plan Revision: 2
-- Plan SHA256: 2b0ba4a305d3915d608c786e9fecae7b00fc87ca29d5a452cd18a15098aa6de9
+- Plan Revision: 3
+- Plan SHA256: 0f731009537d5d60977da34082b67c8f965103caef18140a6e9db2c3875fe814
 - Evaluation Baseline: ca6ff20e551bf974c6f52cbdb2f7ebe15facf378
-- Delivery Base: 79298feb5913157c8c8f4706c26520f8cfd99699
+- Delivery Base: e08e2ff512d9b7f5abc799aa7bace75492b919b7
 - Prior Candidate Evidence Commit: 05ebfd82d2ae28a9f62bd6563c22fe8a618a847f
 - Promotion Candidate: not approved by this continuation decision
+
+## Active revision 3 continuation decision
+
+Approved continuation under PLAN revision 3 after narrow upstream-input reconciliation; promotion remains pending APP-000019. At this decision all 24 disclosure instruction/navigation files still match original candidate 05ebfd8 bytes. Architecture and complete preregistered workload/acceptance sections equal revision 2 exactly. All substantive policy files currently match independently delivered upstream e08e2ff; GIT.md alone differs from the initial evaluation baseline by the upstream standing-delivery clarification, retained verbatim (current SHA256 `2138a5f2a2f603b979790367892962b9299ffcf1444e296fdb17089bca6d300f`). This clarification supplies no new product scope and retains PR, independent review/approval, host protection and verified remote-main gates. It does not change the deterministic/stochastic evaluator criteria. Original baseline counts, prior promotion rules and evaluator code/tests remain the comparison standard.
+
+The normal in-progress branch merge preserves upstream cleanup records and exclusions; this task does not newly implement or accept them. Conflict marker checks on the three resolved working files pass. The Git index still reported unmerged entries when inspected; Coordinator must finalize its resolution and commit before constructing a reviewable integrated pin. This continuation decision permits that reconciliation/evaluation sequence, not a claim that the integrated merge or final candidate review has already completed. Fresh Reviewer must examine the actual integrated candidate/evidence and correct metadata, not stale earlier pins.
+
+Revision2 decision is immutable at commit `99c7b8101c8db9bdf8a1e54860a4e04b22809542`: PLAN hash `2b0ba4a305d3915d608c786e9fecae7b00fc87ca29d5a452cd18a15098aa6de9`, prior report hash `a297fb4338920512f3bc66193159e08703869155ef1818b7108b09e5b79b2530`, prior APP18 hash `39e2d82f057c1eeb8839916669a6bfb213198e8b7b59294215a7f2cf86e20673`. I replayed these hashes from Git. Revision1 provenance on PR12 remains unchanged below. This update does not retrospectively predate implementation or reset the original cumulative 90-active-minute budget/retries. It applies only to revision 3 and existing child scopes/grants; changed inputs or failed/missing evidence require renewed affected checks. Prior baseline failure/candidate pass/regression, all PD criteria/scenarios, statistical rules, rollback preserving unrelated upstream content, independent review and verified remote-main completion remain mandatory.
+
+Current exact next action: Coordinator finalizes the normal merge, pins the integrated candidate and refreshed evidence, obtains Reviewer TASK-000069/RUN-000065 decision, then requests APP-000019. Only this report and APP18 changed in this approval execution. No Git index/ref, merge, instruction or external operation performed by the approver. Actual model/reasoning remain unknown.
+
+## Preserved revision 2 decision rationale
+
+The sections below record the prior decision at 2026-10-22T01:33:17.496703+00:00. Their earlier input identities and state observations are historical; the active revision 3 fields and reconciliation decision above govern continuation.
 
 ## Source authority and historical provenance
 

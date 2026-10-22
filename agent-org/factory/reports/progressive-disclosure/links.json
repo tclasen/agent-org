@@ -1,5 +1,5 @@
 {
-  "checked": 266,
+  "checked": 289,
   "errors": [],
   "links": [
     {
@@ -548,6 +548,16 @@
       "valid": true
     },
     {
+      "source": "agent-org/approvals/INDEX.md",
+      "target": "APP-000012.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/approvals/INDEX.md",
+      "target": "APP-000016.md",
+      "valid": true
+    },
+    {
       "source": "agent-org/factory/reports/progressive-disclosure/PLAN.md",
       "target": "RESEARCH.md",
       "valid": true
@@ -890,6 +900,46 @@
     {
       "source": "agent-org/runs/INDEX.md",
       "target": "RUN-000050.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000041.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000042.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000043.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000044.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000061.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000058.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000059.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/runs/INDEX.md",
+      "target": "RUN-000060.md",
       "valid": true
     },
     {
@@ -1270,6 +1320,71 @@
     {
       "source": "agent-org/tasks/INDEX.md",
       "target": "organization/TASK-000056.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "cross-boundary/TASK-000041.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000042.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "project/TASK-000043.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "project/TASK-000044.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "project/TASK-000045.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "project/TASK-000046.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "project/TASK-000047.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "project/TASK-000048.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000049.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000050.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000063.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000064.md",
+      "valid": true
+    },
+    {
+      "source": "agent-org/tasks/INDEX.md",
+      "target": "organization/TASK-000065.md",
       "valid": true
     },
     {
