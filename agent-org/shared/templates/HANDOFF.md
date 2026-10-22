@@ -26,3 +26,7 @@ Copy into an authorized record/checkpoint and replace angle-bracket placeholders
 - Resource Use: <cumulative known totals/retries and unknowns>
 - Claim Disposition: <retain/release/transfer state>
 - Next Action: <one exact safe action and required authority>
+
+- Delivery State: <pending or verified on owning remote main; local/branch/PR only is pending>
+- Delivery Evidence: <repository/remote, main, PR URL/merged status, tested candidate, merge SHA, observed main tip/time, ancestry/content result, checks>
+- Pending Delivery Owner and Next Action: <owner, blocker and exact action, or none after verification>
