@@ -1,6 +1,6 @@
 # Agent organization entrypoint
 
-Activate the organization in `agent-org/` for sessions started in this directory. Resolve the paths below relative to this file's directory (`/Users/Shared`), not the shell's later working directory. Do not require the operator to change into `agent-org/` or provide a separate activation prompt.
+Activate the organization in `agent-org/` for sessions started in this directory. Resolve the paths below relative to this file's directory (the Git repository root), not the shell's later working directory. Do not require the operator to change into `agent-org/` or provide a separate activation prompt.
 
 Before substantive work, read:
 

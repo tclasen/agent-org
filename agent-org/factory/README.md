@@ -11,7 +11,7 @@
 
 Factory contains small deterministic Python standard-library validation, scoped snapshot, explicit-command capture, event/provenance, metric and experiment utilities. They assist native workers; they never dispatch agents or provide a permanent scheduler/service/message broker. Governance/decisions remain Markdown; code/tests and versioned native telemetry are the narrow format exception.
 
-From /Users/Shared the installation verification entrypoints are:
+From the Git repository root the installation verification entrypoints are:
 
 ```sh
 python3 -m unittest discover -s agent-org/factory/tests -v

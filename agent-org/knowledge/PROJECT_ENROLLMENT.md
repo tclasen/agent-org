@@ -11,7 +11,7 @@
 
 ## Start the Coordinator
 
-Start Codex from `/Users/Shared`. The [root AGENTS.md](../../AGENTS.md) entrypoint loads the organization and initializes the Coordinator, without cd into agent-org or an additional activation prompt. Delegated workers retain their assigned roles. If a client does not load AGENTS.md, explicitly reading the root entrypoint remains a fallback. See [session lifecycle](../shared/SESSION_LIFECYCLE.md).
+Start Codex from the Git repository root. The [root AGENTS.md](../../AGENTS.md) entrypoint loads the organization and initializes the Coordinator, without cd into agent-org or an additional activation prompt. Delegated workers retain their assigned roles. If a client does not load AGENTS.md, explicitly reading the root entrypoint remains a fallback. See [session lifecycle](../shared/SESSION_LIFECYCLE.md).
 
 ## Before enrollment
 
