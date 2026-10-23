@@ -1,0 +1,27 @@
+# Allocation checkpoint13 independent review — PASS
+
+- Target System: organization
+- Change Classification: organization
+- Authorized Scope: APP-000320 plan revision13 exact seven-file generic allocation checkpoint and own independent output
+- Affected Paths or Resources: APP320/321; TASK174/175; RUN169/170; shared/ID_LEDGER.md; this report; ignored review320 evidence
+- Owning Role: Reviewer
+- Related Requirements: REQ-000057, REQ-000056
+- Related Tasks: TASK-000174, TASK-000175, TASK-000161; RUN-000169
+- Approval Requirements: distinct Chief of Staff under APP321/create-only APP322; normal protected owning PR/CI/verified remote-main delivery
+
+- Status: review_complete
+- Decision: PASS exact seven subjects plus this report; independent approval and remote-main delivery remain pending.
+
+Candidate `agent-org/factory/artifacts/resumed-allocation13-20261023/candidate320.json`, SHA256 `3d9f4a36474aecbf731ba19bd9fd1785c8e737cce999817bce587e7b1c089bbf`, binds seven matching subjects. Native read-only HEAD and commit-object inspection verify base `a9bd3c012bf8dd7448812fea5175f941b9147aa2`, tree `6d37f6b7deeba03741b093ec7efa47f972adf3e4`. Independent SHA1 reconstruction of the whole stage0 index tree matches the base tree. Native cached diff is empty; index SHA256 `ab8e433889e45e2fda89ed307b390478f35283704fa1bef081a3547e0016500d` remains unchanged. Before this report, native porcelain shows exactly the seven admitted paths: five modifications and two new admissions. Each subject is a regular non-executable 100644 file, without symlinks.
+
+Verified scope: removing only the new timestamp/APP320–383 row and reverting APP383 highwater to APP319 reconstructs the base ledger byte for byte. All earlier allocations, failures and supersessions are preserved. The 64 reservations grant no execution, product acceptance or budget reset. Task/run diffs contain only plan13/admission/checkpoint/output substitutions; all other bytes are unchanged. Formal metadata fields and current references agree. APP320 admits this review; APP321 requires exact independent APP320 Reviewer PASS before a separate decision and authorizes no later activation edit. APP322 remains absent/reserved for a create-only decision. Prior allocation12 admissions, APP290 and report match the prior independent CoS map. Parent TASK161/RUN156 remain in_progress.
+
+Verified ownership and authority: the seven subjects add only generic organization allocation and admission/routing metadata, with no project facts, specifications, results, payloads, credentials, runtime approval or project execution authority. All other compared tracked organization/root integration bytes remain unchanged. Root README.md is explicitly excluded from working-content comparison; no project checkout or old/ content was read. Root retains delivery/tree/mode verification ownership. No project or host runtime result is claimed.
+
+Verified evaluation: all 48 protected policy/evaluator/instrumentation/test/bridge identities and the task index remain exact. Prior full 144-test PASS log `factory/artifacts/resumed-milestones-20261022/review174/v3-tests.log` retains SHA256 `ac55d32c86dbed3b5a84598c9e786cfee6a622bf7d98795ac5ec4ff4156cf816`; reuse is limited to those unchanged inputs. Fresh structural validation reports valid with zero errors. No broad suite rerun, failed check or diagnosed correction occurred. Prior failures and repair evidence remain immutable. Structural success establishes mapped organization structure, not universal behavioral enforcement or project acceptance.
+
+Evidence and commands: ignored `factory/artifacts/resumed-allocation13-20261023/review320/` contains checks.py/checks.json, native base/status/diff evidence, structural output, qualified-map.json and freeze.json. Executed `python3 -B agent-org/factory/artifacts/resumed-allocation13-20261023/review320/checks.py` and the unchanged `python3 -B agent-org/factory/instrumentation/check.py --root /Users/Shared/agent-org`; exit0. The machine map binds seven subjects plus this report with SHA256 and modes, without selfhash cycle. Final freeze rechecks all eight files, base/index, native dirty union and structural output.
+
+Reviewer `/root/org_allocation320`, TASK174/RUN169 plan13, is independent of implementation. Requested inherited gpt-6.1-sol/high; actual model/reasoning/tokens/cost and precise active time are unknown. Budget CPU2/checkpoint10active/max2diagnosed corrections; zero corrections. Changed paths are only this report and own ignored review320 evidence. No IDs allocated, Git/index mutation, project inspection, evaluator/dependency changes, runtime/model/GPU/auth/network/install/outside effects or delegation occurred. Existing protected and test evidence was read only. All subject READ and own report/review320 WRITE claims release at freeze; STOP. Any changed candidate requires affected requalification.
+
+Delivery is pending and Coordinator-owned: independent APP321/APP322 decision, normal protected owning organization PR/CI/merge and verified remote-main content are required. No PR/merge/main delivery was attempted or observed in this bounded review. Review completion is intermediate, never parent/product completion or FULLY_ACCEPTED. Next safe action: distinct admitted Chief of Staff independently verify the frozen eight-file map and create APP322 if qualified, then Coordinator handles protected delivery. No blocker or unresolved defect found within the admitted review scope.
