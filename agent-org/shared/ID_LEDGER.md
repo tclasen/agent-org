@@ -2,7 +2,7 @@
 
 Coordinator serializes allocations; never reuse an allocated identity. The earlier source branches remain preserved locally; detailed project records reside with their owning repository.
 
-Allocated through: AGENT-000008, DEC-000015, REQ-000057, AC-000048, CAP-000022, WF-000006, TASK-000175, RUN-000170, APP-000383, ART-000005, INIT-000001, INTENT-000001, TRG-000001, EXP-000002, EVAL-000007, FAIL-000016.
+Allocated through: AGENT-000008, DEC-000015, REQ-000057, AC-000048, CAP-000022, WF-000006, TASK-000175, RUN-000170, APP-000447, ART-000005, INIT-000001, INTENT-000001, TRG-000001, EXP-000002, EVAL-000007, FAIL-000016.
 
 All earlier identities through those high-water marks remain allocated, including failed, canceled and superseded work. APP110/111 are reserved review/CoS admissions; APP112 is reserved independent decision and not yet approved. TASK151–160/RUN146–155 belong to the current ownership separation. No worker allocates IDs.
 
@@ -58,3 +58,4 @@ Identifiers below are reserved serially by Coordinator. Canonical scope, status,
 | 2026-10-23T02:17:16.767908+00:00 | APP256–287 |
 | 2026-10-23T06:19:40.889909+00:00 | APP288–319 |
 | 2026-10-23T08:59:24.874916+00:00 | APP320–383 |
+| 2026-10-23T18:01:02.016158+00:00 | APP384–447 |
