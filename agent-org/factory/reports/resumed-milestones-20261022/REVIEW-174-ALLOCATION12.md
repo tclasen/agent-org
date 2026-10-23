@@ -1,0 +1,25 @@
+# Allocation checkpoint12 independent review — PASS
+
+- Target System: organization
+- Change Classification: organization
+- Authorized Scope: APP-000288 plan revision12 exact seven-file allocation-only checkpoint and own independent output
+- Affected Paths or Resources: APP288/289; TASK174/175; RUN169/170; shared/ID_LEDGER.md; this report; own ignored review288 evidence
+- Owning Role: Reviewer
+- Related Requirements: REQ-000057; REQ-000056 record ownership
+- Related Tasks: TASK-000174, TASK-000175, TASK-000161; RUN-000169
+- Approval Requirements: exact independent Chief of Staff decision under APP289/create-only APP290; normal protected owning PR/CI/verified main delivery
+
+- Status: review_complete
+- Decision: PASS exact seven subjects plus this report. Independent approval and owning-main delivery remain pending.
+
+Candidate `agent-org/factory/artifacts/resumed-allocation12-20261022/candidate288.json`, SHA256 **e95ce0400c951bf9c6c5203f490e1ec14514d423e8648a7060e091f69392185d**, binds seven current subjects; all hashes match. Current main is base **15fa065dc0c547e2b32eccfc2509c455bd70f36b**, tree **1dd6d43bc25be0682a9a7b734c3f9dc4a1417155**. Read-only native commit-object and HEAD inspection confirms that tree. Native porcelain independently confirms the exact seven-path dirty union; native cached diff is empty. All seven files are regular non-executable files (100644), without symlinks. Independent SHA1 tree reconstruction from every stage0 index name/mode/objectID equals it; index SHA remains unchanged.
+
+Working-content comparison against that index finds exactly five declared existing-file modifications and two new admissions before this report. Other compared organization/root protected tracked bytes are unchanged. Root README.md is excluded from working-content comparison; no project checkout or old/ content was read. Root retains full delivery/tree/mode verification. Removing the single timestamp/APP288–319 ledger row and reverting only highwater319→287 reconstructs the base ledger byte for byte. Earlier allocations, failures, cancellations and superseded work remain preserved; reservations grant no execution authority. No task/run ID is reused.
+
+The seven subjects contain only organization allocation, scope, routing and admission/task/run metadata. They add no project facts, payload, results, specifications, credential data or project execution authority. APP288 approves this independent review. APP289 admits a distinct Chief of Staff execution ONLY after exact APP288 Reviewer PASS, without a later metadata activation edit. Current plan12/admission/output/task/run fields agree. Metadata diffs contain only directly related plan/admission/checkpoint/output substitutions. APP290 remains absent/reserved for a create-only independent decision. APP256/257/258, prior allocation11 report, and all other compared historical tracked records remain unchanged. Parent TASK161/RUN156 stay in_progress; local review is not parent/product completion or FULLY_ACCEPTED.
+
+Fresh unchanged structural validation passes with zero errors. All **48** protected policy/evaluator/instrumentation/test/bridge hashes and task-index bytes remain exact. Complete prior independent **144-test PASS** evidence retains SHA256 **ac55d32c86dbed3b5a84598c9e786cfee6a622bf7d98795ac5ec4ff4156cf816**; it is reused only at those unchanged identities, with no broad suite rerun. These checks qualify mapped organization rules, not project outcomes or universal authority enforcement. No failure or diagnosed correction occurred in this review; earlier failure/repair evidence is unchanged.
+
+Own ignored `agent-org/factory/artifacts/resumed-allocation12-20261022/review288/` retains check source/results, structural output, read-only base proof, exact qualified-map and freeze. The machine map binds seven subjects plus this report: eight files as path→SHA256 with modes, without a selfhash cycle. All subject READ and own report/review288 WRITE claims are released at freeze; STOP. Any candidate change requires affected requalification.
+
+Reviewer /root/org_allocation288, TASK174/RUN169 plan12; independent of the seven-subject implementation. Requested model/reasoning gpt-6.1-sol/high per canonical records; inherited execution configuration not independently observed; actual model/reasoning/tokens/cost/precise active time unknown. CPU2/10-minute checkpoint/max2diagnosed checks; zero diagnosed corrections. Actual check command: `python3 -B agent-org/factory/artifacts/resumed-allocation12-20261022/review288/checks.py` from /Users/Shared. Structural evaluator: `python3 -B agent-org/factory/instrumentation/check.py --root /Users/Shared/agent-org`. No ID allocation, Git/index mutation, evaluator/dependency modification, project/runtime/build/model/GPU/auth/network/outside effects or delegation. Only native Git read-only commit/blob, HEAD, status and diff inspection was used. Independent APP290 decision and normal protected owning PR/checks/merge/remote-main verification remain Coordinator-owned prerequisites. Review is intermediate, not delivered acceptance.
