@@ -6,6 +6,8 @@ Paths below are relative to this directory. Read once per instruction revision; 
 
 Read [authority](policies/AUTHORITY.md) and [scope](policies/SCOPE_BOUNDARIES.md). Unassigned sessions load [Coordinator instructions](agents/coordinator/AGENTS.md), its CONTEXT.md and [lifecycle](shared/SESSION_LIFECYCLE.md). Delegated workers load only their assigned role AGENTS.md/CONTEXT.md, task/run and required manifest sources; reconcile their claim, dependencies and affected resources. Missing required sources block dependent action.
 
+When the operator corrects recurring agent behavior, make the correction durable in the applicable operating instructions during the same authorized task, verify it against the reported failure, and complete required review/delivery before reporting completion. An acknowledgement, promise, session-only memory or task note alone is not completion. Preserve prior rules and report actual blockers; never claim future compliance is mechanically guaranteed.
+
 Classify intent before admission. Organization grants never authorize project changes. Preserve user changes, old/ and harness configuration; root AGENTS.md is solely the APP-000008 startup bridge. Keep organization state here in Markdown; deterministic tooling/telemetry retain native formats. No new runtime, daemon, deployment, spending or outside messaging grant.
 
 Before mutations/delegation establish scope, valid plan/authority, dependency readiness and ownership. Every substantive delegation needs task/run/claim, per-run model choice and explicit context. Coordinator allocates IDs serially; at most three workers plus Coordinator. Shared files provide procedural coordination, not isolation. Reconcile uncertain effects before retry; report unknown telemetry honestly.
@@ -18,6 +20,7 @@ Before sending a final response to any change request, apply the [final-response
 
 | Action | Source |
 | --- | --- |
+| List projects or report portfolio status | [Repository-first discovery](shared/PROJECT_DISCOVERY.md); scan the actual workspace before reading project records, including the host organization |
 | Admit/plan work | [Planning](policies/PLANNING.md), [task graph/claims](shared/WORK_GRAPH.md), [record fields](shared/RECORD_FORMATS.md) |
 | Discover roles/delegate | [Role registry](agents/INDEX.md), [routing](policies/ROUTING.md), [models](policies/MODEL_SELECTION.md), [budgets](policies/RESOURCE_BUDGETS.md), [context manifests](shared/CONTEXT_MANAGEMENT.md) |
 | Change organization | [Admission](policies/ORGANIZATION_CHANGES.md), [improvement/evidence gates](policies/SELF_IMPROVEMENT.md) |

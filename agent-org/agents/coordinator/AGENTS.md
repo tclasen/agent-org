@@ -19,6 +19,8 @@ Use only assigned resources. Return out-of-scope dependencies to Coordinator. Ke
 
 ## Role duties
 
+For project lists and portfolio status, follow [repository-first discovery](../../shared/PROJECT_DISCOVERY.md). Establish membership from a fresh filesystem/Git scan, including unregistered/local-only projects and the host agent-org repository; an internal registry is never the inventory source.
+
 Discover actual role directories and agents/INDEX.md; choose capabilities, not a hard-coded role switch. Create scoped task/plan/run records before substantive delegation, check dependencies/approvals/conflicting claims, allocate IDs and register native worker identity. Keep at most three workers plus Coordinator. Fresh workers receive explicit paths and context manifest; overrides require fork_turns=none. Route cross-boundary work into separate children and independently reconcile each system.
 
 Remain interactive while workers run. Inspect exact evidence and PR state before acceptance. Autonomously carry out already authorized work; organization approval belongs to independent Chief of Staff, project approval to its recorded authority. Stop new delegation on cancellation, reconcile effects before retry, and persist the next safe action. A parent cannot close before required children and integration pass.

@@ -1,0 +1,28 @@
+# Repository-first project discovery
+
+- Target System: organization
+- Change Classification: organization
+- Authorized Scope: read-only discovery in the operator-requested workspace and repository-local status sources
+- Affected Paths or Resources: filesystem/Git metadata and repository-local instructions, README, specifications and plans; no automatic writes or services
+- Owning Role: Coordinator
+- Related Requirements: REQ-000061
+- Related Tasks: TASK-000279
+- Approval Requirements: direct owner discovery instruction; APP-000456; independent exact-candidate review and Chief of Staff approval before normal PR/main delivery
+
+Use this procedure every time the operator asks which projects are here/being managed or requests portfolio status. Discover membership from current on-disk repositories before consulting project records. Do not use an internal registry, enrollment list, task history, Git tracked-file list or remembered roster as the discovery source or as a filter. Another agent or the operator may have cloned or initialized a repository without updating records.
+
+## Scan the actual workspace
+
+1. Establish the requested filesystem scope. Default here is the shared workspace `/Users/Shared`, including its host Git repository, rather than only the current project subdirectory. State a narrower requested scope. Use read-only filesystem traversal that includes hidden and ignored directories and detects `.git` directories and `.git` files (linked worktrees/submodules). A starting command is `find /Users/Shared -name .git -print -prune`; capture its exit status and errors. Continue below discovered working-tree roots to find nested independent repositories; prune only Git metadata itself. Do not limit traversal to tracked files or immediate children, or silently prune build/cache/evidence directories. Recognize bare repository candidates by Git metadata (HEAD/objects/refs/config) where present; the `.git` command alone is not a complete bare-repository scan.
+2. Validate every candidate with Git. Observe its actual top-level path, git directory, common git directory and bare status using `git -C <path> rev-parse --show-toplevel`, `--absolute-git-dir`, `--git-common-dir`, `--is-bare-repository` as applicable; use `git worktree list --porcelain` for registered worktrees. Do not treat a marker or successful parent-repository lookup as proof of an independent repository at that candidate. Record inaccessible, invalid or ambiguous candidates explicitly.
+3. Identify linked worktrees by the same canonical common Git directory and report one project with its relevant checkouts. Separate clones remain distinct repositories even when they share an origin; group them under a product only when local evidence supports that identity, retaining the paths. Do not infer sameness from a directory name or shared remote alone. Include the host organization: agent-org lives inside the `/Users/Shared` Git repository and belongs in the project list alongside product repositories.
+4. Inspect repository-local instructions and purpose sources to distinguish project checkouts from vendored tools, dependencies, caches and synthetic Git fixtures. Account for those classifications and exclusions in a compact coverage note, with local evidence; never silently omit an unfamiliar or unregistered repository. If the purpose/management status is unclear, list it as discovered with status unknown rather than excluding it. An explicit retirement decision remains effective: identify a physically present retired checkout as such if encountered; discovery does not reactivate it or create a former-project roster.
+5. Do not follow directory symlinks blindly or cross the requested root. Record symlinks, unreadable paths, external worktrees and other traversal exclusions/gaps. Resolve relevant in-scope aliases safely and deduplicate canonical paths. If a boundary or error prevents complete discovery, say what was scanned and what remains unknown; never call a partial scan exhaustive. Reconcile candidates added/removed during scanning before claiming a current total; no static scan guarantees a changing filesystem cannot change again.
+
+## Read status from discovered repositories
+
+Read each discovered project's applicable instructions and current repository-local README, specification, plan and recent delivery evidence. Distinguish current source/main evidence from stale historical tasks and conditional completion text. Report status and next planned milestone with source links; mark absent or conflicting facts unknown instead of inventing a milestone. Organization routing records may supply optional links only after discovery; they cannot determine which repositories appear.
+
+Repository presence is evidence of existence, not enrollment, ownership or mutation authority. Status reads do not authorize implementation, registry updates, deployments, services, spending, external messaging or restoration of retired work. Preserve local-only delivery instructions and separate repository histories.
+
+Before sending the list, check every validated repository candidate has a disposition, every included project has status/milestone evidence or an explicit unknown, linked worktrees are not double-counted, the host organization is included, and discovery scope/gaps are disclosed. Recheck the reported omission directly: an unregistered local-only project must be discoverable without consulting any organization index. These are mandatory agent checks, not a harness-enforced guarantee of future obedience.

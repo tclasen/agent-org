@@ -1,0 +1,5 @@
+# Required context
+
+Read canonical organization core; assigned role AGENTS.md/CONTEXT.md; assigned TASK/RUN and REQ61; this plan/baseline; AUTHORITY, SCOPE_BOUNDARIES, ORGANIZATION_CHANGES, SELF_IMPROVEMENT, ACCEPTANCE, APPROVALS, RECORD_FORMATS and WORK_GRAPH. Source: core, coordinator AGENTS, current project routing index and new PROJECT_DISCOVERY when present. Reviewer owns only REVIEW.md/TASK280/RUN273; CoS owns only APP456/458/TASK281/RUN274. Root source/Git owner. Read source hashes in BASELINE and later CANDIDATE; no project writes, services, network or delegation by children. APP457 reserved Reviewer exact decision if needed, reviewer may write it. Native model inherited, actual telemetry unknown. Budget10active minutes per child, CPU2.
+
+Fixed criteria REQ61 A–D and eight task cases registered before source results. Available when triggered: factory README for verification commands, GIT/CHANGE_CONTROL for root delivery; prior baseline source via git show. No historical task sweep needed.
