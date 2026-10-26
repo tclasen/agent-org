@@ -1,4 +1,4 @@
-# Lessons retained from the retired organizations
+# Project-agnostic organization lessons
 
 - Target System: organization
 - Change Classification: organization
@@ -9,7 +9,9 @@
 - Related Tasks: TASK-000029, TASK-000031, TASK-000032, TASK-000039, TASK-000040
 - Approval Requirements: APP-000010; independent review/adoption under existing rules
 
-Use this reference when planning evaluations, interpreting telemetry, checking completion or recovering interrupted work. It preserves historical evidence; it does not change authority, adopt a new evaluator, choose a model, or claim current production performance. Exact source identities, fuller findings and limitations live in the [factory/work harvest](../factory/reports/legacy-retirement/factory-learnings.md) and [project harvest](../factory/reports/legacy-retirement/project-learnings.md). The [recovery map](../factory/reports/legacy-retirement/README.md) separates remotely preserved source from summarized raw evidence.
+Use this reference when planning evaluations, interpreting telemetry, checking completion or recovering interrupted work. Retain and consolidate lessons from project work by general problem, condition and actionable principle, with supporting evidence and limits. Follow [record ownership](../policies/RECORD_OWNERSHIP.md#project-retirement-and-reusable-lessons); this guide is reusable knowledge, not a former-project inventory.
+
+It preserves historical evidence; it does not change authority, adopt a new evaluator, choose a model, or claim current production performance. Exact source identities, fuller findings and limitations live in the [factory/work harvest](../factory/reports/legacy-retirement/factory-learnings.md) and [project harvest](../factory/reports/legacy-retirement/project-learnings.md). The [recovery map](../factory/reports/legacy-retirement/README.md) separates remotely preserved source from summarized raw evidence. These links support provenance questions; they are not current project routes or an instruction to monitor former projects.
 
 ## Lessons to carry into decisions
 
@@ -26,16 +28,6 @@ Use this reference when planning evaluations, interpreting telemetry, checking c
 11. **Keep canonical knowledge separate from private user context.** Preserve source revisions, uncertainty, semantic identity and correction history. A generated index, resume or report must not become a second conflicting authority or silently import personal material.
 12. **Retirement must inspect more than main.** This harvest found broken moved worktrees/alternates, an untracked instrumentation file, standalone non-Git tooling and a unique reflog commit. Archive meaningful source, classify fixtures/dependencies, and say which ignored evidence is summarized rather than restorable.
 
-## Quantitative anchors and their limits
+## Evidence and future adoption
 
-| Historical evidence | Retained observation | What it does not establish |
-| --- | --- | --- |
-| Meta-factory three-arm state comparison | N=1 each;80 grading groups; conversation17pass/6fail/57untested, Projects32/6/42;Git-file original grading entries missing | No workflow winner, reliable cost-per-accepted-task or production DORA |
-| Catalog partial desktop trial |243 assigned,211 objective scores;primary53/71,57/70,57/70 | No confirmed treatment effect; cancelled/unbalanced remainder retained |
-| Work selected outcome screen |104 episodes/296sessions;49/104 primary successes;usage275/296 |21 missing usage receipts are not zero; later61/104 is a separate exploratory correction |
-| Work matched comparison |Candidate7/16,baseline6/16;two wins,one loss,13ties;median time ratio1.04 |Aggregate gain does not waive the frozen no-cell-loss rule |
-| Competition journal |531 records,73 unique lessons;failed/superseded/infrastructure-attention runs retained |Records/events are not independent trials or completed trajectories |
-| Penny local observation DB |58,347events;0bundle rows/acknowledgments |Local observation history is not proof of remote archival |
-| Historical local agent trial |40trials;median ratios0.9813 and0.9527,below required10%improvement |Inconclusive, despite narrower successful checks |
-
-These are source-bound historical findings, not newly executed experiments. See the full reports for exact definitions, dates, source digests, missingness and counterevidence. Concrete policy/tool changes suggested by this evidence still need a separately admitted task, current baseline, independent review and the existing approval process.
+Source-bound quantitative findings remain in the linked historical reports, with their definitions, dates, source digests, missingness and counterevidence. They are not newly executed experiments or a roster to maintain here. Concrete policy/tool changes suggested by this evidence still need a separately admitted task, current baseline, independent review and the existing approval process.

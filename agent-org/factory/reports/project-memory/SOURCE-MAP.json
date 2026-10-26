@@ -1,0 +1,17 @@
+{
+  "base": "cda13d554a9db0ce46de6c75fc7216bdd690fbc4",
+  "files": {
+    "agent-org/knowledge/projects/INDEX.md": "b254d97f2edbb3d44874b0d21ce75999c9121f6ed0bfb5111e6a725f32153c9e",
+    "agent-org/policies/RECORD_OWNERSHIP.md": "00d1899d17b45a095a933b2b61df84556023c4073606480f74892fbc12f20e10",
+    "agent-org/knowledge/PROJECT_ENROLLMENT.md": "cf7f2e958ffe7b311244b4532ff28a246960e696ad1f706ff9af643d9def68a1",
+    "agent-org/shared/LEGACY_LEARNINGS.md": "8de23d63f849d0040489d1773da4a444808abe01f1952c6572348e687dfbc277"
+  },
+  "criteria": {
+    "four_active_routes_unchanged": true,
+    "twelve_lessons_verbatim": true,
+    "historical_lesson_links_retained": true,
+    "no_retired_names_or_exclusion_section": true,
+    "no_project_quantitative_table": true,
+    "local_links_resolve": true
+  }
+}

@@ -1,0 +1,7 @@
+# Required context and boundaries
+
+This is a bounded owner-requested documentation correction, not an experiment or project enrollment. Read the assigned role AGENTS.md and CONTEXT.md, agent-org/AGENTS.md startup sources for delegated workers, assigned task/run, REQ-000060, the exact four source documents in TASK276, and applicable authority/organization-change/ownership/approval/acceptance policies. Baseline SHA256 identities are in BASELINE.json; source files may change only after plan approval. Root owns source/Git and owns all additional admission/evidence records. Reviewer and Chief of Staff may write only assigned evidence/task/run/approval paths. Each must report required files read and unknowns. Do not read all historical records or mutate any project.
+
+Available when triggered: SELF_IMPROVEMENT.md for improvement claims (none made), shared/RECORD_FORMATS.md and WORK_GRAPH.md for record verification, policies/GIT.md and CHANGE_CONTROL.md for final delivery. Existing historic linked learning reports are supporting evidence only if a provenance question arises. Final SOURCE-MAP.json will pin technical sources; final exact-head no-edit confirmations bind the complete publication union, including derived records.
+
+No project identities/roster are to be added to new operational instructions. Original public history and frozen audit evidence are preserved, not maintained as a former-project directory. Fresh authority is required before any unlisted project work.
