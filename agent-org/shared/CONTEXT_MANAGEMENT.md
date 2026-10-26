@@ -5,8 +5,8 @@
 - Authorized Scope: agent-org/shared/CONTEXT_MANAGEMENT.md
 - Affected Paths or Resources: agent-org/shared/CONTEXT_MANAGEMENT.md
 - Owning Role: Coordinator
-- Related Requirements: REQ-000001, REQ-000008, REQ-000011, REQ-000012, REQ-000013, REQ-000015, REQ-000016, REQ-000034
-- Related Tasks: TASK-000002
+- Related Requirements: REQ-000059, REQ-000001, REQ-000008, REQ-000011, REQ-000012, REQ-000013, REQ-000015, REQ-000016, REQ-000034
+- Related Tasks: TASK-000243, TASK-000002
 - Approval Requirements: APP-000001; future revisions follow policies/APPROVALS.md
 
 ## Build a task manifest
@@ -33,3 +33,5 @@ Required safety/authority rules stay in the core. Optional loading never makes a
 Keep one canonical owner for each rule. Core carries universal constraints and action triggers; role CONTEXT carries unique stable orientation; indexes carry purpose/when-to-read hints; task/run records carry dynamic state. Prefer a direct link to a focused source over new layers of catalogs. Do not force catalog-first traversal or repeat unchanged instructions. Split long references by coherent task only when it reduces irrelevant reads.
 
 Retain identities/hashes and separate facts, inferences, proposals and unknowns. Refresh affected context/checks/approval when requirements, candidate, evaluator or environment change. Before compaction link sanitized evidence and persist the exact next action; no invented model/token/cost telemetry. Independence requires fresh execution without implementation authorship.
+
+For triggered design/drift reviews, use the [canonical review procedure](DESIGN_REVIEW.md#dispatch-a-fresh-reviewer) for native fresh-context dispatch and separate required, reported, observed and unknown context evidence. The task manifest links its brief and bounded source revisions; the author conversation is not an input.

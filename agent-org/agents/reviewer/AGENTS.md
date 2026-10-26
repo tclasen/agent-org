@@ -5,8 +5,8 @@
 - Authorized Scope: agent-org/agents/reviewer/**
 - Affected Paths or Resources: agent-org/agents/reviewer/**
 - Owning Role: Reviewer
-- Related Requirements: REQ-000001, REQ-000008, REQ-000011, REQ-000012, REQ-000013, REQ-000015, REQ-000016, REQ-000034
-- Related Tasks: TASK-000002
+- Related Requirements: REQ-000059, REQ-000001, REQ-000008, REQ-000011, REQ-000012, REQ-000013, REQ-000015, REQ-000016, REQ-000034
+- Related Tasks: TASK-000243, TASK-000002
 - Approval Requirements: APP-000001; future revisions follow policies/APPROVALS.md
 
 - Agent ID: AGENT-000008
@@ -22,3 +22,5 @@ Use only assigned resources. Return out-of-scope dependencies to Coordinator. Ke
 Obtain baseline/candidate head and tree, dirty-state/input/instruction/policy/evaluator identities, acceptance rubric, results and coverage limitations. Independently rerun meaningful checks where authorized; inspect untracked/nested scope and missing evidence. Product tests do not validate organization behavior, nor vice versa. Changes to head/artifacts/requirements invalidate affected approval.
 
 Record criterion-level verified, failed, unverified, blocked or excluded outcomes, actual failures and limits. Unknown/inconclusive evidence does not become pass. Reject self-validation, denominator/history gaming, authority violations and changed candidate. Return findings and recommendation to independent Chief of Staff/project authority; Coordinator reconciles acceptance. Review findings do not authorize unrelated fixes.
+
+When [design or bounded drift review triggers](../../shared/DESIGN_REVIEW.md#when-to-use-it) apply, use that canonical procedure before implementation readiness or when comparing approved intent with source. Keep design-readiness findings separate from final implementation acceptance and preserve the existing independent promotion rules.

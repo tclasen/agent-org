@@ -59,3 +59,9 @@ Identifiers below are reserved serially by Coordinator. Canonical scope, status,
 | 2026-10-23T06:19:40.889909+00:00 | APP288–319 |
 | 2026-10-23T08:59:24.874916+00:00 | APP320–383 |
 | 2026-10-23T18:01:02.016158+00:00 | APP384–447 |
+
+## EGM incorporation reservation
+
+| Allocation time (UTC) | Identifiers and reconciliation |
+| --- | --- |
+| 2026-10-26T15:15:56.154464+00:00 | Reconciled prior research REQ58/TASK240–242/RUN235–237/APP426–427; reserve REQ59,TASK243–247,RUN238–242,APP448–449 for EGM operational incorporation; APP447 prior high-water preserved |
