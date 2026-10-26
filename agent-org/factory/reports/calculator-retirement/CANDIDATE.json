@@ -1,0 +1,109 @@
+{
+  "organization_base": "2e23a87d37aa39b457f592fea970274c273449e4",
+  "project_base": "5df91ae23f90b76d7c47b155f135c01b8dfe9a25",
+  "inputs": [
+    {
+      "path": "agent-org/knowledge/projects/INDEX.md",
+      "sha256": "2f6a7bc27652212e9f6e0978aa8d9aeb3514d3aa124af13e12c068d242240df1",
+      "deleted": false
+    },
+    {
+      "path": "agent-org/knowledge/projects/llm-cost-calculator/PROFILE.md",
+      "sha256": null,
+      "deleted": true
+    },
+    {
+      "path": "agent-org/runs/RUN-000160.md",
+      "sha256": "6e8e8a6b613e66109513df7f9d585391170e8024f633de413a2b8485a1284722",
+      "deleted": false
+    },
+    {
+      "path": "agent-org/runs/RUN-000164.md",
+      "sha256": "2ffe938c4e2a559108946a46c1f6e3e57be8d9578639c4d69138019b43360790",
+      "deleted": false
+    },
+    {
+      "path": "agent-org/shared/ID_LEDGER.md",
+      "sha256": "4fe3c5470ce86bea8c9e2642616fd4380c67f8da583166cda006a1809581122d",
+      "deleted": false
+    },
+    {
+      "path": "agent-org/tasks/project/TASK-000165.md",
+      "sha256": "663f03ebc6ab9e130e06f5d03fb9bf9e653c5214231f684f26c84ac44fc243ad",
+      "deleted": false
+    },
+    {
+      "path": "agent-org/tasks/project/TASK-000169.md",
+      "sha256": "e8181d22045bbd62b9cf948671f15c12e0a08e786b342f2d1dfc79a0205869dd",
+      "deleted": false
+    },
+    {
+      "path": "agent-org/tasks/project/TASK-000273.md",
+      "sha256": "49d795197e0dfb3069c06e5245ff84b912502f78b22d42c7dcdb0fa5c5b95837",
+      "deleted": false
+    },
+    {
+      "path": "agent-org/tasks/cross-boundary/TASK-000271.md",
+      "sha256": "090965f958e0a28bc274a4e32d1723ab6afdb2fe05b7da3cc9f1be40451cb78b",
+      "deleted": false
+    },
+    {
+      "path": "agent-org/tasks/organization/TASK-000272.md",
+      "sha256": "d08a0b3527eecd316f839de0e3db469524a3354073632e20dc6ae0dc221414a8",
+      "deleted": false
+    },
+    {
+      "path": "agent-org/tasks/organization/TASK-000274.md",
+      "sha256": "71fd6206a5ba7fbdb4c3eff1b50fc2043d0f84ddeed2be57eb0ed08b3087fc78",
+      "deleted": false
+    },
+    {
+      "path": "agent-org/tasks/organization/TASK-000275.md",
+      "sha256": "cbb83f5dedae0729b87eb77fbd71dda0b548bfa53c5e23f2f12cffdd5137f353",
+      "deleted": false
+    },
+    {
+      "path": "agent-org/runs/RUN-000266.md",
+      "sha256": "0967d3292cf8f274d2b8349abf21afc57f7c652c55eefab8d625fd93bbcbb222",
+      "deleted": false
+    },
+    {
+      "path": "agent-org/runs/RUN-000267.md",
+      "sha256": "6f474fc3b83f294eebb058a1f37755716447e0d9a7a2bf90b7353c8df6f3a94d",
+      "deleted": false
+    },
+    {
+      "path": "agent-org/runs/RUN-000268.md",
+      "sha256": "3e050ef336e31b34b9d867942f435232b6a8751638a5579d1be7114b1363d598",
+      "deleted": false
+    },
+    {
+      "path": "agent-org/approvals/APP-000452.md",
+      "sha256": "0465160e66f96821a8589d163ae39f03fa1f39ebf92ef4e9bda486b2297e0ac4",
+      "deleted": false
+    },
+    {
+      "path": "llm-cost-calculator/docs/agent-records/retirement-2026-10-26/TASK-000273.md",
+      "sha256": "c6b2bff8fbaa730ffae60e5fb87286bd44bf58e414506e5b0c205068c9771109",
+      "deleted": false
+    },
+    {
+      "path": "llm-cost-calculator/docs/agent-records/retirement-2026-10-26/PRESERVATION.md",
+      "sha256": "d7bb794879b3d22a9099a4ccb6daa126235f52ce0e30eca005df155e95bf8582",
+      "deleted": false
+    },
+    {
+      "path": "agent-org/approvals/APP-000125.md",
+      "sha256": "4483315e4eda2d45444922852f4b656e8e843b6b920033703fe64573db63c613",
+      "deleted": false
+    },
+    {
+      "path": "agent-org/approvals/APP-000130.md",
+      "sha256": "51de2148610a8eaa7b805f5b2b537b5316510d901cd1cc6105f833386d3c39b2",
+      "deleted": false
+    }
+  ],
+  "excluded": "unrelated bigdata, all other products, historical branches; ignored recovery archive local only",
+  "revision": 2,
+  "amendment": "Reviewer F01: two historical local approval forwarding pointers repaired to existing remote; original map preserved."
+}
