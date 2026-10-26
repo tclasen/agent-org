@@ -48,8 +48,11 @@ Revision1 operational content, after completed fixed trials and conditional admi
 | agent-org/shared/templates/DRIFT_REVIEW.md | 6a08f9da27d4995de781604c80c1d29c0a5c26cf570019a81a17302124b312fd |
 | agent-org/shared/templates/IMPLEMENTATION_BRIEF.md | 4cef428fdcf96f02a3541c3b49871346b699f9145ae0dc22336517dca5a28bb9 |
 | agent-org/shared/templates/INDEX.md | 248a1b7c872e25583454bcc1b93d744656061b356b51aaf7d78e5745c1a8368f |
-| agent-org/tasks/organization/TASK-000243.md | 793dee1dd9e191348266352a8d741cae8b98844c53d8dc1f8c1e8b3878be01c0 |
+| agent-org/tasks/organization/TASK-000243.md | 2443b71387a48a23ce16ce1890d80aa48c86d62c6dbc041b9f630cb05c2687d4 |
 | agent-org/tasks/organization/TASK-000244.md | 7bfae6be3be76c93c70c55a56812f43cc93cbe983ee7de912330af99711aa789 |
 | agent-org/tasks/organization/TASK-000245.md | f9dfd62ebfe0703bb773c1bfdba0031bec25e2762b1a4da1ecb2081fc5392cf3 |
 | agent-org/tasks/organization/TASK-000246.md | ce376aa90137ba5a69b4681cad7d24cc88dee915ff0fa0b056b45616b6b107ac |
 | agent-org/tasks/organization/TASK-000247.md | 2ba3c0d1259901526764fd410a47f15f538cd20d1490cc1a2ef9ab4151559854 |
+| agent-org/factory/reports/egm-incorporation/BUDGET_AMENDMENT.md | 5bdac65084c741591b252df085fff5a3a800b1d9536b9251da857ce62fc7c7b8 |
+
+Administrative amendment1 adds only delivery resource source and parent header; original40-input identity remains historical in REVIEW. Current41rows bind that delta, with no source/case/result change.
