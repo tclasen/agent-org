@@ -1,0 +1,42 @@
+{
+  "observed_at": "2026-10-26T21:03:24.477941+00:00",
+  "checks": [
+    {
+      "argv": [
+        "python3",
+        "agent-org/factory/instrumentation/check.py",
+        "--root",
+        "agent-org"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"errors\": [],\n  \"limits\": [\n    \"structural checks do not prove behavioral acceptance\",\n    \"approval exact-scope APIs must be called by admission workflow\",\n    \"no universal interception\",\n    \"provenance required by evidence-producing callers\"\n  ],\n  \"record_count\": 702,\n  \"valid\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "unchanged_regression_suite": {
+    "command": "python3 -m unittest discover -s agent-org/factory/tests -q",
+    "tests": 144,
+    "seconds": 7.709,
+    "exit_code": 0,
+    "note": "final four-doc functional content; subsequent registry EOF blank removal only"
+  },
+  "tracked_organization_files": 1473,
+  "changed_tracked_since_snapshot": [
+    "agent-org/knowledge/PROJECT_ENROLLMENT.md",
+    "agent-org/knowledge/projects/INDEX.md",
+    "agent-org/policies/RECORD_OWNERSHIP.md",
+    "agent-org/shared/LEGACY_LEARNINGS.md"
+  ],
+  "scope_limit": "Ledger captured after own allocation. Git baseline diff separately includes ledger. No project writes by this task; no runtime or benefit claim.",
+  "source_map_sha256": "ae640ef52473456369ad3a6f0900248fdfe53877ca01e0d003268ee8a19c2329"
+}

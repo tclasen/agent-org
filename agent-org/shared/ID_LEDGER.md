@@ -71,3 +71,7 @@ Identifiers below are reserved serially by Coordinator. Canonical scope, status,
 2026-10-26T20:42:44.254972+00:00: TASK271–275, RUN266–268, APP450–451 reserved after workspace scan found TASK270/RUN265/APP449. Direct owner retirement request; no product implementation or runtime grant.
 
 APP452 records direct owner retirement admission; APP450/451 remain reserved independent exact-candidate decisions.
+
+## Current routing and reusable lessons
+
+2026-10-26T20:59:44.103367+00:00: reserve REQ60, TASK276–278, RUN269–271, APP453(plan)/454(review)/455(final Chief of Staff). No project authority or runtime effects.

@@ -1,0 +1,15 @@
+# Current routing and reusable lessons handoff
+
+Task TASK-000276 / RUN-000269; Coordinator /root, organization-only. Original outcome: do not track former projects; keep general lessons and make this persist. REQ-000060/plan1 and independent APP453 authorize four-document correction. Root owns Git and source; TASK277/RUN270 fresh Reviewer and TASK278/RUN271 distinct Chief of Staff own only assigned evidence.
+
+## Implemented and verified
+
+Current registry keeps existing four active routes and removes the former-project excluded section. Canonical record ownership requires current-only routes/profiles, general problem-oriented lessons, fresh authority for unlisted work, and a check of lessons/routing before removal closure. Enrollment and lesson guide link that rule. All twelve original numbered lessons and their evidence links remain; source-specific quantitative detail remains in unchanged historical reports. No recurring former-project reconciliation is introduced. Historical audit records remain immutable provenance, not a current management directory.
+
+Exact source hashes and criterion checks: SOURCE-MAP.json. Original scoped input identities: BASELINE.json; original tracked organization file hashes: TRACKED-BEFORE.json. VERIFICATION.json records structural/whitespace results, unchanged144-test pass, and exact four-document change set after ledger allocation. ADMISSION-CHECK.md retains initial metadata/reference/EOF/script failures and corrections; no check or evidence gate weakened. No project/harness/runtime/service/GPU/model/paid effects. Actual model/reasoning/tokens/cost and aggregate active labor remain unknown; bounded root60min/children15min, CPU2, two diagnosed retries. No task worktree was created; primary checkout retained.
+
+## Delivery and ownership
+
+Owning repository /Users/Shared; origin https://github.com/tclasen/agent-org.git; baseline cda13d554a9db0ce46de6c75fc7216bdd690fbc4; branch docs/current-projects-and-reusable-lessons. Unrelated untracked bigdata/ and retired-project-evidence/ remain untouched and excluded from staging. Source edits are implementation, not completed delivery. APP454 fresh source review and APP455 final Chief of Staff decision plus final exact-head no-edit confirmations are required before merge. Root serializes explicit staging/index writes, normal PR/merge, fetched-main containment and tree equality. Required children and parent completion are conditional on that verified own-main delivery; derived acceptance content cannot self-assert a future result.
+
+Exact next safe action: obtain APP454 and APP455, freeze the complete reviewed publication union, get both independent final-head no-edit confirmations, deliver through a normal protected merge PR, verify remote-main content/ancestry/checks, return primary to clean main and release claims. Record observed final PR/merge/main/content in session output and ignored local delivery receipt, without recursive unshipped closure changes. No protection bypass, force/reset/clean or branch deletion. If actual delivery fails after bounded recovery, retain branch/owner and exact blocker.
