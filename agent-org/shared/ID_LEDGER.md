@@ -65,3 +65,9 @@ Identifiers below are reserved serially by Coordinator. Canonical scope, status,
 | Allocation time (UTC) | Identifiers and reconciliation |
 | --- | --- |
 | 2026-10-26T15:15:56.154464+00:00 | Reconciled prior research REQ58/TASK240–242/RUN235–237/APP426–427; reserve REQ59,TASK243–247,RUN238–242,APP448–449 for EGM operational incorporation; APP447 prior high-water preserved |
+
+## Calculator retirement reservation
+
+2026-10-26T20:42:44.254972+00:00: TASK271–275, RUN266–268, APP450–451 reserved after workspace scan found TASK270/RUN265/APP449. Direct owner retirement request; no product implementation or runtime grant.
+
+APP452 records direct owner retirement admission; APP450/451 remain reserved independent exact-candidate decisions.
