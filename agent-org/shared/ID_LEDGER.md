@@ -75,3 +75,7 @@ APP452 records direct owner retirement admission; APP450/451 remain reserved ind
 ## Current routing and reusable lessons
 
 2026-10-26T20:59:44.103367+00:00: reserve REQ60, TASK276–278, RUN269–271, APP453(plan)/454(review)/455(final Chief of Staff). No project authority or runtime effects.
+
+## Repository-first discovery and durable behavior corrections
+
+2026-10-26T21:18:50.874732+00:00: reserve REQ61, TASK279–281, RUN272–274, APP456(plan)/457(review)/458(final Chief of Staff); prior high-water TASK278/RUN271/APP455 reconciled. No project mutation or enrollment authority.

@@ -1,6 +1,6 @@
 # Project routing
 
-This registry stores identity and links for currently managed projects only. Read authoritative project instructions and project records in the owning repository; do not store product progress or evidence here. Follow [record ownership](../../policies/RECORD_OWNERSHIP.md#project-retirement-and-reusable-lessons) when removing a project; retain general lessons without a former-project roster.
+This registry stores optional identity/routing links for currently managed projects only. It is not a project inventory or an exhaustive membership list. For project lists and portfolio status, first perform [repository-first workspace discovery](../../shared/PROJECT_DISCOVERY.md); absence here never excludes a discovered repository. Read authoritative project instructions and project records in the owning repository; do not store product progress or evidence here. Follow [record ownership](../../policies/RECORD_OWNERSHIP.md#project-retirement-and-reusable-lessons) when removing a project; retain general lessons without a former-project roster.
 
 - [commons](https://github.com/tclasen/commons) — [instructions](https://github.com/tclasen/commons/blob/main/AGENTS.md), [records](https://github.com/tclasen/commons/blob/main/docs/agent-records/record-ownership-2026-10-22/README.md).
 - [every_game](https://github.com/tclasen/every_game) — [instructions](https://github.com/tclasen/every_game/blob/main/AGENTS.md), [records](https://github.com/tclasen/every_game/blob/main/docs/agent-records/record-ownership-2026-10-22/README.md).

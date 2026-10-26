@@ -1,0 +1,14 @@
+# Fixed-case coverage and actual observations
+
+The prior task registered eight cases before operating source edits. This is a content/actual filesystem verification, not eight autonomous live-agent replays. Earlier real answer omitted BigData and agent-org when it used the four-entry index. Prior evaluator unchanged; no future obedience or efficiency claim.
+
+1. Unregistered/local-only: actual BigData marker validates to its own root and .git/common directory; root README and docs/MVP.md describe local-only delivery and initial MVP. Procedure requires discovery before records, independent of index.
+2. Host organization: actual /Users/Shared root Git validates and contains agent-org; included as project, core/coordinator/procedure explicitly require it.
+3. Nested: actual every_game/target/codex-proxy validates independently; its README describes the proxy and every_game/scripts/start_m3_proxy.sh references this path as a tool. Keep distinct tool disposition rather than counting as an independent managed product. No marker pruning by directory kind.
+4. Linked worktree: Git common-directory identity/registered worktrees required by procedure; actual workspace currently has only primary checkouts. No linked-worktree runtime fixture created; semantics inspected, no claimed live linked-worktree demonstration.
+5. Unreadable/symlink scope: actual scan reports0errors/129directorysymlinks; it does not follow them. Procedure requires incomplete-scope disclosure and canonical safe resolution. No forced permission-denial fixture, no claim unreadable path replay.
+6. Retired authority: procedure preserves explicit retirement decisions, allows factual present-checkout disposition, forbids reactivation or creation of a former-project roster; no retirement state/source mutated.
+7. Unknown status/milestone: procedure requires repository-local evidence and explicit unknown for unavailable/conflicting facts; presence gives no grant. No invented milestone required to fill list.
+8. Persistent correction: core now requires same-task durable operating-instruction change and verification under unchanged review/delivery gates; acknowledgement/task-note-only is expressly insufficient. No harness enforcement claim.
+
+Every actual marker: six primary repositories; four valid installation synthetic repositories (alpha/beta and retained copies, installation artifact paths and matching copied histories); three Commons synthetic incomplete markers resolve to Commons parent and are rejected as independent repositories (test_identity.py/independent-r2.py construct them); one empty UV cache .git is invalid (Git refuses); one valid nested codex-proxy tool clone. Total15markers accounted. The six primary names are observed outcomes, not a frozen future roster or routing-index-derived inventory.
