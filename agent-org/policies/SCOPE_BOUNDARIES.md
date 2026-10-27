@@ -17,4 +17,4 @@ Only agent-org is general organization write scope. The installation names .giti
 
 Establish canonical paths, before/after inventories/hashes and Git state, including untracked/nested changes and explicit unreadable/excluded paths. Resolve traversal/symlink escape before mutation. Shared filesystem claims are procedural coordination, not hostile-worker isolation. Out-of-scope dependencies return to Coordinator as linked work; they never justify silent edits.
 
-Record storage follows [record ownership](RECORD_OWNERSHIP.md): organization governance stays here; project-specific records stay in their owning repositories. Organization entries retain only minimal routing links.
+Record storage follows [record ownership](RECORD_OWNERSHIP.md): organization governance stays here; project-specific records stay in their owning repositories. Do not retain managed-project pointers or installation state here; discover authority from authorized session/project sources.

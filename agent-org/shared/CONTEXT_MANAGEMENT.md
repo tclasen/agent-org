@@ -18,7 +18,7 @@ Give each fresh worker explicit role/task/run paths, scope/exclusions, instructi
 | Required for this run/action | Canonical organization/role instructions, task/run, authority/plan/approval and specific sources needed for the assigned step. State why each applies and its revision/hash. Read before dependent action; verify paths exist. |
 | Available when needed | Direct path, one-line purpose and concrete trigger for supporting schemas, history, examples or tooling. Discover from metadata; open only when the trigger applies. |
 
-Include relevant project profile/instructions/canonical sources for project work. Pass pinned criteria/evidence to independent reviewers, not the implementer's conclusions as truth. Use fork_turns=none for model/reasoning overrides; inherited conversation never grants authority.
+Include relevant owning-project profile/instructions/canonical sources for project work; pass local roots, private routing and environment bindings in the native session manifest or authorized external local state, never a committed organization manifest. Pass pinned criteria/evidence to independent reviewers, not the implementer's conclusions as truth. Use fork_turns=none for model/reasoning overrides; inherited conversation never grants authority.
 
 Action-specific destinations are in the [core action routes](../AGENTS.md#read-before-the-matching-action); additional domains are discoverable through the [organization catalog](../README.md). Use these maps only when the destination is unknown.
 

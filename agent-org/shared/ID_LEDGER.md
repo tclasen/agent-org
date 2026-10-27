@@ -83,3 +83,7 @@ APP452 records direct owner retirement admission; APP450/451 remain reserved ind
 2026-10-27: reserve AGENT-000009, REQ-000062, TASK370–372/RUN363–365/APP574–577 for owner-requested Design Director role and independent lifecycle qualification. Prior allocations in the primary checkout remain reserved; this isolated candidate includes only this scoped reservation. Allocation grants no authority.
 
 2026-10-27: reserve APP578–580 for owner-directed evidence relocation and filtered Design Director publication; existing TASK370–372/RUN363–365 continue.
+
+## Portable governance correction
+
+2026-10-27: Coordinator reconciled prior reservations through TASK372/RUN365/APP580 and requirement references through REQ81; reserves REQ82, TASK373–376, RUN366–369, APP581–583 for scoped operating correction and independent admission/review/approval. No project identity, local inventory or new authority follows from allocation.

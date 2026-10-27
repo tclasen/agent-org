@@ -19,7 +19,7 @@ Start in the repository root: [root AGENTS.md](../AGENTS.md) activates [canonica
 | Current assignment/history | [Tasks](tasks/INDEX.md), [runs](runs/INDEX.md); search active/relevant entries before opening records |
 | Rules and schemas | [Policy triggers](policies/INDEX.md), [shared references](shared/INDEX.md) |
 | Admission, execution, review, recovery or enrollment | [Workflow catalog](workflows/INDEX.md) |
-| Project enrollment/profile | [Enrollment guide](knowledge/PROJECT_ENROLLMENT.md), [project profiles](knowledge/projects/INDEX.md) |
+| Project enrollment/profile | [Enrollment guide](knowledge/PROJECT_ENROLLMENT.md), [project-local templates and storage boundary](knowledge/projects/INDEX.md) |
 | Validation, metrics or instrumentation | [Factory commands and components](factory/README.md) |
 | Historical installation/authority or decisions | [Approvals](approvals/INDEX.md), [decisions](decisions/INDEX.md), [preserved intake](intake/INDEX.md) |
 | Intent, priorities or authoritative requirements | [Intents](intents/INDEX.md), [initiatives](initiatives/INDEX.md), [requirements](requirements/INDEX.md) |
