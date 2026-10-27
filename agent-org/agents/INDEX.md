@@ -21,3 +21,4 @@ When selecting or reconciling a role, discover directories with AGENTS.md and pa
 | AGENT-000006 | [Developer](developer/AGENTS.md) | Implement and test only the approved task deliverable. | active |
 | AGENT-000007 | [Executor](executor/AGENTS.md) | Carry out bounded operational, document, business or tool actions specified by the task and plan. | active |
 | AGENT-000008 | [Reviewer](reviewer/AGENTS.md) | Independently verify a pinned candidate against accepted requirements, scope and prior approved evaluation rules. | active |
+| AGENT-000009 | [Design Director](design-director/AGENTS.md) | Own art direction, visual style, product/interaction design, UX and UI; run visual-first preference interviews and produce practical design specifications. | active |
