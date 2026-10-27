@@ -79,3 +79,7 @@ APP452 records direct owner retirement admission; APP450/451 remain reserved ind
 ## Repository-first discovery and durable behavior corrections
 
 2026-10-26T21:18:50.874732+00:00: reserve REQ61, TASK279–281, RUN272–274, APP456(plan)/457(review)/458(final Chief of Staff); prior high-water TASK278/RUN271/APP455 reconciled. No project mutation or enrollment authority.
+
+2026-10-27: reserve AGENT-000009, REQ-000062, TASK370–372/RUN363–365/APP574–577 for owner-requested Design Director role and independent lifecycle qualification. Prior allocations in the primary checkout remain reserved; this isolated candidate includes only this scoped reservation. Allocation grants no authority.
+
+2026-10-27: reserve APP578–580 for owner-directed evidence relocation and filtered Design Director publication; existing TASK370–372/RUN363–365 continue.
