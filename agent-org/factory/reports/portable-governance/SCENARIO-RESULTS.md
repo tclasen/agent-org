@@ -68,3 +68,18 @@ Rule: PROJECT_DISCOVERY scan and final storage paragraph; SESSION_LIFECYCLE stor
 ## Workload limits
 
 These are observed decisions from one fresh execution, not a measured behavioral success rate, user interview, screenshot audit, full historical audit or proof of universal compliance. A/B/C/D/E source requirements were exercised; F's independent-review/check portion is supported by this record and REVIEW.md. Separate Chief of Staff approval, normal PR checks, allowed merge and verified owning-main delivery remain pending.
+
+## Affected replay at 9c0c9ab21f648c9f39ed9da1d7e814cb93a1e198
+
+Observed at 2026-10-27T17:28:56.155889+00:00, same independent Reviewer execution; previous eight-case results remain intact for their original candidate. New candidate head `9c0c9ab21f648c9f39ed9da1d7e814cb93a1e198`, tree `87151b30bfee5c1dc96bb0316325b2139f36334d`. The affected changes tighten owner-facing visual discussion and remove residual organization-link wording; fixed criteria/workload and evaluation rules are unchanged.
+
+Fresh chosen responses/actions for B/D/E:
+
+- Case 2: “Viewable examples are unavailable, so the visual preference question is blocked. I cannot record a visual selection.” I offer no prose aesthetic alternatives or description, and claim no display.
+- Case 3: “B: outline/proportions accepted; colors rejected. Props, camera and interface unapproved.” This is a short scope label, not a prose aesthetic description or new preference question. Persist the precise selection and supplied rationale project-locally before dependent work; use actual visuals with any later preference question.
+- Case 4: “Outline/proportions settled; palette remains open.” Reuse the record and prepare actual labeled visuals for any palette question; do not re-ask or describe aesthetic options in prose. Necessary critique/rationale stays in project documentation.
+- Case 5: retain the illustrative project decision record above as written project documentation, including owner rationale and provenance. The new rule expressly permits necessary written rationale there. Do not move that detailed record into an owner-facing visual-choice menu or claim its hypothetical asset exists.
+- Case 7: retain only the generic method in organization guidance. Actual decisions and repository links/fingerprints stay in the owning project; local-root/routing mappings require authorized external state. Produce no pointer fallback. The earlier generic lesson remains valid.
+- Case 8: discover using runtime scope and read status/source links from owning-project records and authorized session context. Do not create or consult organization routing records for membership, or retain a portfolio here. Missing authorized durable external storage still blocks that durable handoff alone.
+
+Affected outcomes: B/D/E source and synthetic decisions verified; no failed decision or retry. Case 6's missing-authority/evidence refusal remains applicable unchanged. A and unrelated C/F evidence is carried forward from the earlier bounded review because source/criteria/evaluator changes do not affect it. No actual images, user interview, project writes/retention, historical migration or statistical benefit were observed.
