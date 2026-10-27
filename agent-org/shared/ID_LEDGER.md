@@ -87,3 +87,5 @@ APP452 records direct owner retirement admission; APP450/451 remain reserved ind
 ## Portable governance correction
 
 2026-10-27: Coordinator reconciled prior reservations through TASK372/RUN365/APP580 and requirement references through REQ81; reserves REQ82, TASK373–376, RUN366–369, APP581–583 for scoped operating correction and independent admission/review/approval. No project identity, local inventory or new authority follows from allocation.
+
+2026-10-27: reserve TASK377–380, RUN370–373, APP584–586 for default native-thread delegation instructions and independent admission/review/approval. Allocation grants no authority.
