@@ -11,7 +11,7 @@ Baseline: 4a1b059b686c1a8b3ca68e88cf349c8e4316368e. Scope is the operating corre
 - `agent-org/knowledge/PROJECT_ENROLLMENT.md` SHA256 `617d20b2d68481f3ecd15843d63c61915d44e4346694c9a8ea7aa705c272f96f`
 - `agent-org/knowledge/projects/INDEX.md` SHA256 `9766f19c85d26fafca3570d1279534b33042dc4926b3100d0a8f5320725dc0ea`
 - `agent-org/knowledge/projects/TEMPLATE.md` SHA256 `d1645f1b4576d2010426e778f5a7705e30a2906ba6fcdda461900528b285e596`
-- `agent-org/policies/DATA_HANDLING.md` SHA256 `d461d00cf2950fbbb6e9f3eb9ac46abfc032a6a1c1973ea65174ec0ee68a7980`
+- `agent-org/policies/DATA_HANDLING.md` SHA256 `dba92a07221f3fc5c0b1486efd473338f87e97f24c01465ee291af4257ce9b04`
 - `agent-org/policies/PROJECT_CHANGES.md` SHA256 `34a33820ea8d5b005a0753bf78aa7b245b048b79444e607c7493a4500f6a9ac9`
 - `agent-org/policies/RECORD_OWNERSHIP.md` SHA256 `0fd755d8dc36e61b12e81df63b5d8fda9c38800e748bd7b8a6995aa547ab5310`
 - `agent-org/policies/ROUTING.md` SHA256 `edb7fdec5c6f9badb5cfcd9437a760eb73403d5b7aa2da14647c6b7341235a4c`
@@ -19,7 +19,7 @@ Baseline: 4a1b059b686c1a8b3ca68e88cf349c8e4316368e. Scope is the operating corre
 - `agent-org/policies/SELF_IMPROVEMENT.md` SHA256 `411eb46c80f28c3ff2b2377484ba0026bee379010ea25953a48acbb67f8bf763`
 - `agent-org/shared/CONTEXT_MANAGEMENT.md` SHA256 `8f4aa11cca3c4b9d51be07de1126b18643390f82c503391443df1852cea83627`
 - `agent-org/shared/DESIGN_REVIEW.md` SHA256 `03fde49cd27852dd84877c384a2d8a217fe615aa0e9e02dd006eb895fea49dab`
-- `agent-org/shared/PROJECT_DISCOVERY.md` SHA256 `b145e6044228018cd58f47cbd3ddb5b0dcee25e060030a80b20e21089e2291e8`
+- `agent-org/shared/PROJECT_DISCOVERY.md` SHA256 `80a2d733e09facae249f58bfa830096abd7a963bb27a43a31be2b95287a163b6`
 - `agent-org/shared/SESSION_LIFECYCLE.md` SHA256 `1609b3c24b0e8f88ca89ccac6a8fa38c86b5fbbc6d5d332503eee17036cfe69b`
 
 Four previously tracked project profile pointers are deleted. Their exact names remain only in pre-existing Git provenance, not a new runtime inventory.

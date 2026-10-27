@@ -21,7 +21,7 @@ Use this procedure every time the operator asks which projects are here/being ma
 
 ## Read status from discovered repositories
 
-Read each discovered project's applicable instructions and current repository-local README, specification, plan and recent delivery evidence. Distinguish current source/main evidence from stale historical tasks and conditional completion text. Report status and next planned milestone with source links; mark absent or conflicting facts unknown instead of inventing a milestone. Organization routing records may supply optional links only after discovery; they cannot determine which repositories appear.
+Read each discovered project's applicable instructions and current repository-local README, specification, plan and recent delivery evidence. Distinguish current source/main evidence from stale historical tasks and conditional completion text. Report status and next planned milestone with source links; mark absent or conflicting facts unknown instead of inventing a milestone. Use owning-project records and authorized session context for source links after discovery; do not create organization routing records or use them to determine which repositories appear.
 
 Repository presence is evidence of existence, not enrollment, ownership or mutation authority. Status reads do not authorize implementation, registry updates, deployments, services, spending, external messaging or restoration of retired work. Preserve local-only delivery instructions and separate repository histories.
 
