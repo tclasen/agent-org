@@ -8,7 +8,7 @@ Read [authority](policies/AUTHORITY.md) and [scope](policies/SCOPE_BOUNDARIES.md
 
 When the operator corrects recurring agent behavior, make the correction durable in the applicable operating instructions during the same authorized task, verify it against the reported failure, and complete required review/delivery before reporting completion. An acknowledgement, promise, session-only memory or task note alone is not completion. Preserve prior rules and report actual blockers; never claim future compliance is mechanically guaranteed.
 
-Classify intent before admission. Organization grants never authorize project changes. Preserve user changes, old/ and harness configuration; root AGENTS.md is solely the APP-000008 startup bridge. Keep organization state here in Markdown; deterministic tooling/telemetry retain native formats. No new runtime, daemon, deployment, spending or outside messaging grant.
+Classify intent before admission. Organization grants never authorize project changes. Preserve user changes, old/ and harness configuration; root AGENTS.md is solely the APP-000008 startup bridge. Keep reusable organization governance here in Markdown; deterministic tooling/telemetry retain native formats. Apply [record ownership](policies/RECORD_OWNERSHIP.md) before persisting anything: project knowledge stays in its owning repository; installation state and project mappings stay outside the reusable repository. No new runtime, daemon, deployment, spending or outside messaging grant.
 
 Before mutations/delegation establish scope, valid plan/authority, dependency readiness and ownership. Every substantive delegation needs task/run/claim, per-run model choice and explicit context. Coordinator allocates IDs serially; at most three workers plus Coordinator. Shared files provide procedural coordination, not isolation. Reconcile uncertain effects before retry; report unknown telemetry honestly.
 
@@ -31,4 +31,4 @@ Before sending a final response to any change request, apply the [final-response
 
 Read each applicable source before its action; summaries never replace authority. Stop expanding when scope, procedure and acceptance are clear. Use targeted search for uncertain obligations.
 
-Record storage follows [record ownership](policies/RECORD_OWNERSHIP.md): organization governance stays here; project-specific records stay in their owning repositories. Organization entries retain only minimal routing links.
+Record storage follows [record ownership](policies/RECORD_OWNERSHIP.md): retain generic rules and sanitized organization evidence here, never managed-project pointers or local environment details. Project decisions and usable references stay project-local; discover current routing from authorized session/project sources.

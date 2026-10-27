@@ -1,9 +1,13 @@
-# Project routing template
+# Project-local profile template
 
-- Project ID: Coordinator-allocated routing identity
-- Repository Identity: verified owning repository URL
-- Instructions: link to owning AGENTS.md or equivalent
-- Requirements Authority: link to owning canonical specification
-- Project Records: link to owning enrollment/authority/task/run/evidence records
+Copy/adapt this template only inside an authorized owning project, following its existing documentation conventions. Do not instantiate it under agent-org.
 
-Keep only identity and routing links in the organization profile. Store verified local roots, owner/delegates, scopes, environments, commands, native rules, baselines, progress, services and observability details in the owning project records. Enrollment and routing grant no project authority; read the canonical bounded grant before work. Follow [record ownership](../../policies/RECORD_OWNERSHIP.md).
+- Purpose and current scope
+- Repository identity and portable instructions entrypoint
+- Requirements/specification authority and owner/delegates
+- Bounded grants, exclusions and verification/delivery rules
+- Decision collection, accepted design guide and durable visual references
+- Current tasks, progress, tests, evidence and unresolved questions
+- Portable environment/command requirements and known limitations
+
+Use repository-relative links. The project must remain understandable to another agent system without an organization routing entry or private chat. Resolve machine roots, host/user details and environment bindings at runtime; keep durable installation mappings in authorized external local state. Read grants before writing; a profile never creates authority. Follow [record ownership](../../policies/RECORD_OWNERSHIP.md).

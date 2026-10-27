@@ -17,7 +17,7 @@ Before implementation, apply design review to a material architecture decision, 
 
 Use bounded drift review when an admitted change affects behavior described by an approved specification, or a discrepancy is reported. Pin the relevant document and source set in the task before scanning. This is a scoped task action, not a recurring schedule or whole-repository sweep. Work already pending under a plan must not be mislabeled a regression merely because it is unfinished.
 
-Organization artifacts stay in agent-org. Product briefs, source maps and findings stay in their owning repository under its actual authority, with minimal routing links here. Never create a project grant through a brief or a drift finding. Component-contract generation is not part of this procedure; admit it separately only if repeated context gaps justify it.
+Organization artifacts stay in agent-org. Product briefs, source maps and findings stay in their owning repository under its actual authority, with no project pointers retained here; use session/project sources for routing. Never create a project grant through a brief or a drift finding. Component-contract generation is not part of this procedure; admit it separately only if repeated context gaps justify it.
 
 ## Prepare one compact brief
 
