@@ -6,7 +6,7 @@ Baseline: 4a1b059b686c1a8b3ca68e88cf349c8e4316368e. Scope is the operating corre
 - `agent-org/README.md` SHA256 `8f78620386d11352b58e698c84c51e6d33baeab660c8d3d34d7a682af596f313`
 - `agent-org/agents/chief-of-staff/AGENTS.md` SHA256 `ca59e82a904076fc9083bea80facc1e1ea4f2389892c673df3a8ebf29480df0d`
 - `agent-org/agents/coordinator/AGENTS.md` SHA256 `06753dc8bbf1586f42b5e4bd3bd4981e6da0c38a4eef3aaba396ae534ece4697`
-- `agent-org/agents/design-director/AGENTS.md` SHA256 `4b0bea7505a1f138c40414e7edb699b246a9a1b4684b177c113ea8f897279737`
+- `agent-org/agents/design-director/AGENTS.md` SHA256 `c8ab0b6785804188233ce16b9592476b6fe268f443a8df921880567c567265e2`
 - `agent-org/agents/design-director/CONTEXT.md` SHA256 `f5b98e82490eacf8678169c72195f4cae83532e7ab33eb4c714b2a1ea5fd82b0`
 - `agent-org/knowledge/PROJECT_ENROLLMENT.md` SHA256 `617d20b2d68481f3ecd15843d63c61915d44e4346694c9a8ea7aa705c272f96f`
 - `agent-org/knowledge/projects/INDEX.md` SHA256 `9766f19c85d26fafca3570d1279534b33042dc4926b3100d0a8f5320725dc0ea`
