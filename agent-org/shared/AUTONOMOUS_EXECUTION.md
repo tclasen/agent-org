@@ -34,6 +34,8 @@ Receipt source, time and remote identity are caller-attributed observations. Jou
 
 ## Convert corrections into tested candidates
 
+For every observed unexpected problem or correction, including first occurrences, immediately apply [root-cause diagnosis and repair](../policies/SELF_IMPROVEMENT.md#root-cause-diagnosis-and-repair) in the active task. Contain under authority, preserve the causal/control-escape evidence, and assign Chief of Staff organization diagnosis and durable corrective action. Reopen an existing incident family on recurrence; no reminder or relabeling closes it. Unresolved causes remain owned and nonterminal. The periodic review supplements this event-driven duty.
+
 At the existing startup/five-accepted-task improvement review, inspect [the correction queue](../knowledge/improvement-candidates/INDEX.md). Each candidate links an observed failure, affected task/run, causal hypothesis, permitted mutation, owner, counterexample, representative test, exposure history and rollback. Keep rejected and inconclusive ancestors. An observation from a single task remains a scoped hypothesis until transfer is tested.
 
 ```sh

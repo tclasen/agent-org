@@ -1,0 +1,11 @@
+# Qualification checks
+
+Baseline306557c: existing structural checker passed774records, zero errors. Candidate instruction repair: `python3 -m unittest discover -s agent-org/factory/tests -q` passed144tests in8.088seconds. Candidate structural checker initially failed because reserved independent approvals were not yet represented and task authority was expressed in prose rather than the required boolean. Those assembly defects were corrected with explicitly non-approving placeholders and Authorized:yes plus its separate actual scope/source; no evaluator changes. Subsequent checker passed788records, zero errors. Existing learning archive validation passed, including the new candidate and retained lineage; git diff --check passed. All original failed assembly observations remain recorded here rather than being reported as initial success.
+
+These checks establish existing deterministic tooling regression and record integrity, not semantic authority, live operational behavior or prevention. Native finite replay is separate. No product code or tool/evaluator implementation changed. Final independent review/approval and verified remote-main delivery remain required.
+
+## Bounded no-additional-policy diagnoses
+
+The initial record-assembly refusal resulted from referencing reserved decisions before their placeholder records existed and expressing a boolean authority field as prose. The existing checker detected both before promotion. Repair: explicitly non-approving reservations and Authorized:yes with separately recorded actual source/scope; then rerun unchanged checker. The immediate record defect is fixed and the detecting control worked. There is no evidence that another global instruction/tool change is needed for these expected assembly checks; independent review must confirm that no approval was fabricated.
+
+The independent Reviewer also reported one invalid learning-CLI root argument; existing validation rejected it with no mutation, and the documented organization-root argument passed. The cause is a caller usage mismatch, not evidence of a faulty CLI or promotion rule. The refusal and recovery are retained; no new capability or generic policy is invented to satisfy a repair count.

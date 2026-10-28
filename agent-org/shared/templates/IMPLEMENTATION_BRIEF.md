@@ -28,3 +28,14 @@ Copy into an authorized task/plan or its owning artifact and replace placeholder
 - Source Manifest: <required inputs with revisions/hashes and reading reasons>
 - Review and Readiness: <fresh review link; pending until independent evidence>
 - Next Action: <bounded action and its authority prerequisites>
+
+## Responsibility comparison for admission and continuation
+
+- Existing Engineering Responsibility: <what the current grant already owns; source>
+- Proposed Responsibility Delta: <new maintenance/operational/security/support obligations, or a justified none>
+- Upstream Support and Exclusions: <supported tools/platform assumptions; what would require unsupported ownership>
+- Aggregate Child Effects: <combined scope across subtasks/probes, not just this file list>
+- Supported Alternatives and Retained Gap: <existing approaches; unresolved requirement rather than an invented waiver>
+- Delta Authority and Decision: <explicit source for each material addition; unresolved means dependent implementation/probes stop>
+
+Use proportionate inline fields in an existing plan; routine work may state a brief justified no-delta result. See PLANNING.md#engineering-responsibility-boundary. This comparison adds no grant.
