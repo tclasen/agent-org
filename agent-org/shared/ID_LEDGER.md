@@ -97,3 +97,5 @@ APP452 records direct owner retirement admission; APP450/451 remain reserved ind
 ## Responsibility boundaries and root-cause correction
 
 2026-10-28: reserve REQ-000083, TASK390–393, RUN382–387 and APP593–595 for the operator-requested engineering-responsibility safeguards and organization root-cause repair loop. Prior allocations through TASK389/RUN381/APP592 remain reserved. Allocation grants no authority and stores no project identity.
+
+2026-10-28 machine-readable reservation reconciliation: REQ-000083, TASK-000390, TASK-000391, TASK-000392, TASK-000393, RUN-000382, RUN-000383, RUN-000384, RUN-000385, RUN-000386, RUN-000387, APP-000593, APP-000594, APP-000595, APP-000596, APP-000597. Earlier shorthand reservations remain history. APP-000596 and APP-000597 reserve independent review/final decisions for task-owned delivery/registry metadata only; no new instruction, evaluator or project scope.
