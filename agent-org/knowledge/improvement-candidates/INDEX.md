@@ -8,4 +8,4 @@ Current execution procedure: [autonomous execution](../../shared/AUTONOMOUS_EXEC
 
 Every observed unexpected problem also triggers immediate root-cause diagnosis and repair under SELF_IMPROVEMENT.md#root-cause-diagnosis-and-repair; periodic selection is not a waiting period. Use the existing candidate/task for cause, escaped control, tested generic repair and recurrence follow-up. First occurrences count; uncertainty and authority blockers remain explicit. See the existing improvement-candidate template for required diagnosis fields.
 
-- [Responsibility boundaries and root-cause repair](responsibility-root-cause.md) — bounded organization instruction candidate under TASK-000390; finite qualification, not a universal prevention claim.
+- [Responsibility boundaries and root-cause repair](responsibility-root-cause-context.md) — current bounded instruction candidate under TASK-000390; retains [its unpromoted ancestor](responsibility-root-cause.md) and finite qualification, not a universal prevention claim.
