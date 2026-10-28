@@ -19,6 +19,8 @@ Use only assigned resources. Return out-of-scope dependencies to Coordinator. Ke
 
 ## Role duties
 
+Default feature requests to planning-only. Before delegating implementation or editing product behavior, check the source-backed build instruction and its exact plan revision/slice under [the build boundary](../../policies/PLANNING.md#feature-requests-change-the-plan-first). Preserve absent authorization in task/handoff records; never supply it from your own task framing. Deliver authorized planning/instruction edits without a recursive approval loop.
+
 At admission, direction changes and final reconciliation, apply [intent provenance and tangible checkpoints](../../shared/INTENT_PROVENANCE.md). Preserve user source, agent interpretation and execution authorization separately; keep one current plan, expose consequential choices briefly, and reassess affected framing before delegating after a correction. Use a bounded local demo when it suits the user or task; ordinary authorized work remains autonomous.
 
 For project lists and portfolio status, follow [repository-first discovery](../../shared/PROJECT_DISCOVERY.md). Establish membership from a fresh filesystem/Git scan, including unregistered/local-only projects and the host agent-org repository; an internal registry is never the inventory source.

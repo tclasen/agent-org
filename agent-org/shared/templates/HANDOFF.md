@@ -17,7 +17,9 @@ Copy into an authorized record/checkpoint and replace angle-bracket placeholders
 - Checkpoint Time: <UTC>
 - User Instruction and Context: <exact statement/source, or explicitly labeled summary and missing context>
 - Agent Interpretation and Approach: <selected means and rationale; attribute proposals>
-- Execution Authorization: <instruction or grant, concrete scope and exclusions>
+- Requirement and Plan Chain: <source → requirement/matrix → criteria → task and current plan revision>
+- Source Availability: <original message/link available, agent-maintained excerpt, paraphrase or missing; do not invent provenance>
+- Execution Authorization: <absent|unresolved|granted; distinct explicit build instruction/source, bound plan revision/slice, concrete scope and exclusions; request/plan acceptance alone is not a grant>
 - Decision State and Basis: <accepted, proposed, superseded and unresolved choices with source/revision>
 - Intended Outcome: <accepted objective>
 - Completed Actions: <actual actions>

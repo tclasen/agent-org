@@ -91,3 +91,5 @@ APP452 records direct owner retirement admission; APP450/451 remain reserved ind
 2026-10-27: reserve TASK377–380, RUN370–373, APP584–586 for default native-thread delegation instructions and independent admission/review/approval. Allocation grants no authority.
 
 2026-10-28: reserve TASK381–384/RUN374–377/APP587–589 for bounded intent-provenance and demo-first working-method repair, independent admission/review/final approval. No additional authority or project identity follows from allocation.
+
+2026-10-28: reserve TASK385–389/RUN378–381/APP590–592 for planning-first instruction correction and independent admission/review/approval. No product or external effects authorized by allocation.

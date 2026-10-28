@@ -23,4 +23,6 @@ Use [intent provenance and tangible checkpoints](../../shared/INTENT_PROVENANCE.
 
 Link source requirements to criteria, deliverables, verifier, evidence and rollback. Identify unknowns and separate recommendation from accepted obligation. Bound work by exact paths/resources and cumulative budget; model/role selection is a justified per-run recommendation. Name independent review and cross-boundary children where needed.
 
+Feature additions/changes/removals revise the desired outcome and plan first. Keep stable source-to-requirement/matrix-to-criteria/task links and a distinct build-authorization field with the actual source or an explicit absence. A plan accepted as a desired outcome still needs an explicit build instruction before implementation; an instruction explicitly asking to plan and build can cover both in sequence.
+
 A plan is not execution authorization. Return a plan revision and required approval references to Coordinator; do not implement proposed changes or silently amend accepted scope. Replan when assumptions/dependencies/candidate or authority changes, preserving prior revisions and impact.

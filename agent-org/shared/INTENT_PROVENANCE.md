@@ -21,7 +21,9 @@ Record these separately before substantive work, at a level proportional to the 
 | Agent interpretation and approach | Intended user outcome, proposed sequence or implementation choice, rationale, assumptions and material alternatives. Attribute agent choices to the agent. |
 | Execution authorization | The actual instruction or standing grant authorizing this concrete scope, its conditions/exclusions and any unresolved consequential choice. Distinguish permission to try a slice from acceptance of the slice or its wider design. |
 
-A brief assent such as a synthetic "build that" can authorize the clearly identified preceding slice. It does not prove the user read every detail, selected every alternative, authored the proposed ordering, or accepted future work. Preserve that bounded meaning in the task and later explanations. Explicit approval of a clearly identified set of changes authorizes that set without another routine confirmation. Routine engineering choices within valid scope remain autonomous.
+A feature request expresses the desired outcome and defaults to planning-only under [the build boundary](../policies/PLANNING.md#feature-requests-change-the-plan-first). Keep requirement acceptance separate from implementation authorization. Before build delegation, identify the actual build instruction and the plan revision/slice it names; absent evidence remains absent. A task author cannot create permission by writing an Authorized field. A reviewer must derive the authority from source independently, not inherit that field as fact. Fresh-context handoffs carry source availability and the distinct build-authorization state; copied quotations without an accessible original are agent-maintained source evidence, not authenticated proof.
+
+A brief assent such as a synthetic "build that" can authorize the clearly identified preceding slice. It does not prove the user read every detail, selected every alternative, authored the proposed ordering, or accepted future work. Preserve that bounded meaning in the task and later explanations. Explicit approval to build a clearly identified set of changes authorizes that implementation scope without another routine confirmation; accepting the plan or desired outcome alone does not. Routine engineering choices within valid scope remain autonomous.
 
 If the referent or a consequential choice is materially ambiguous, resolve only the ambiguity that blocks dependent action. Continue independent authorized work. Do not bury a publication, destructive action, spending, priority change or other new external effect inside a long plan and treat a general assent as its authorization. Use existing permission boundaries; no new universal approval queue is introduced.
 
@@ -47,7 +49,7 @@ Before beginning a milestone, give a compact outcome checkpoint, normally one to
 
 ## Demonstrate before asking for broad direction
 
-When the user prefers something tangible, or uncertainty is best resolved by use, choose the smallest useful reversible demonstration within already authorized scope. Prefer a local working slice using real behavior and representative data. Identify a mockup, replay or prototype honestly; do not present it as completed integration. If a needed decision is not authorized, prepare the concrete reviewable work that is safe and independent of that decision, then ask only about the dependent effect.
+When the user prefers something tangible, or uncertainty is best resolved by use, choose the smallest useful reversible demonstration within already authorized scope. A working prototype or demo that implements feature behavior requires the explicit build authority above; tangible-review preference alone authorizes neither. Prefer a local working slice using real behavior and representative data. Identify a mockup, replay or prototype honestly; do not present it as completed integration. If a needed decision is not authorized, prepare the concrete reviewable work that is safe and independent of that decision, then ask only about the dependent effect.
 
 Show the demo first at review, with a short readable video when that helps the user evaluate behavior. Explain relevant outcomes at the actual scene rather than substituting a presentation of requirements for demonstrated functionality. Keep unmet requirements and limitations explicit. Retain a concise text description, captions or equivalent accessible explanation and a link to detailed evidence; video preference does not eliminate accessibility or durable reasoning. Do not impose this style on users or tasks that need another form of review.
 
@@ -63,6 +65,10 @@ The existing independent Reviewer checks two separate questions, in order:
 2. **Implementation correctness:** verify the pinned candidate against that valid scope using the existing technical, evidence and boundary checks.
 
 A technically correct result with failed outcome/authority fit is not accepted. Review independence must include the source of the problem framing, not merely a different execution checking the same assumed objective. Record the two outcomes separately in the existing review; no new permanent role or replacement evaluator is required.
+
+## Authorization review checkpoint
+
+Before implementation, outcome review asks two separate questions: “Is this behavior requested?” and “What explicitly authorizes building this plan/slice now?” Require a source for each. If only the first is established, return a plan; do not delegate the build. Recheck the same distinction before acceptance. Test/PR success and a complete requirements matrix cannot repair missing build permission. Technical review must record an authority failure even when the resulting behavior is useful and correct. This is a procedural checkpoint, not a claim that tools mechanically prevent code changes.
 
 ## Respond to corrections
 
