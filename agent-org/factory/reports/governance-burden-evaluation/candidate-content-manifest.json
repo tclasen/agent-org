@@ -85,8 +85,8 @@
     "agent-org/factory/reports/governance-burden-evaluation/structural-metrics.json": "912fa8337e75bf8d1797adf14a8e5c5f91ea5cd1057bd06c344abb09da95af49",
     "agent-org/requirements/INDEX.md": "55f8250135be41d574c59fef7db199e12e66b74c8267240f947ac56185307583",
     "agent-org/requirements/organization/REQ-000084.md": "3fd6e7851597b9ac6907ac177f1bba517cf513bb725914a109dba67e6f0a002d",
-    "agent-org/runs/INDEX.md": "8b6cd9ccaa21d09a2e60ede830155172c8f3b2ea27703151c2d5baf9f5ba0ae1",
-    "agent-org/runs/RUN-000388.md": "e406ef7339fbd8c38f5c3cd89314a38b80cd4c0ea0adc91aaf8452ba64e29933",
+    "agent-org/runs/INDEX.md": "471bfa5891c8e4f4e21d0b973f7af80df77663e354bb4a142b1f6e66eb3b62c9",
+    "agent-org/runs/RUN-000388.md": "354584d8400e9ec438ad413ca9738433c6d4faa12fbae779ccd9f784f42c9804",
     "agent-org/runs/RUN-000389.md": "3b2b7b7a70daa38068851e4c8b0556e35b8c8bdea859b636281de3e282645825",
     "agent-org/runs/RUN-000390.md": "2a2516e23129f97d0f21973a3f6cb353b930c5ecbbbb391f6110e3cf583f2a22",
     "agent-org/runs/RUN-000391.md": "3d5fa0e0b23df10d218bc845f35c906f60aaaefbc6b75b7b2f7f2571a9ef3ed5",
@@ -95,8 +95,8 @@
     "agent-org/runs/RUN-000394.md": "85cabd50d1b421fb776ba5309d0b33b9e5cf7eeb8557074e367550936a7205e6",
     "agent-org/runs/RUN-000395.md": "5912d90e34bb71cd5ac4a83dda174e58525d89c35ae59bd0db849a817919c6f4",
     "agent-org/shared/ID_LEDGER.md": "6239e698919ada9702b2822e7dcfef9ca9071f032d5e79a7191b4bdffc7532f9",
-    "agent-org/tasks/INDEX.md": "d0ff093f7b634d22843ba544523d371f9f46fb56705f0b60e8d6ba9489c1e032",
-    "agent-org/tasks/organization/TASK-000394.md": "d51342b168db2e23e23446c94de2307475cf9cf8c727e9e74cc0f55f28529bcd",
+    "agent-org/tasks/INDEX.md": "855509d11a4f03854c84ca58db309d74e12cbd38b0477dbb943f31ee5056e4dd",
+    "agent-org/tasks/organization/TASK-000394.md": "493385951e34926862017ae3b8894036a8047a0e276d3fb614ceb192e6e20617",
     "agent-org/tasks/organization/TASK-000395.md": "a36db2278e124af1cdb10342e3315342ce727299f7b5188aeab7c1d6259199d3",
     "agent-org/tasks/organization/TASK-000396.md": "1d0ae56909a9d21fc4b95366c7581a8a616172dbfe3f9e1cf8cebf2248daf6cb",
     "agent-org/tasks/organization/TASK-000397.md": "69580e5b3e6f7c332209a427837d3dcdd117fee813d41b8078cc7cab52b0d31c",
@@ -104,6 +104,6 @@
     "agent-org/tasks/organization/TASK-000399.md": "5437a3a28b152c630c5bf15a793129583df90b5b3d5f408a2e399574ddc839f4"
   },
   "file_count_excluding_this_manifest": 98,
-  "aggregate_sha256": "ecf018070db0eaf273ddbb0865d4cc40509838089cf4b31e7d150bf119e1f853",
+  "aggregate_sha256": "98f7972c47a9fa24375d0356307927e348152aa362aaf80ce62b2ef80a95a505",
   "limits": "Describes the isolated delivery candidate, not unrelated primary-checkout changes; final head/tree, hosted checks and owning-remote main are verified separately."
 }

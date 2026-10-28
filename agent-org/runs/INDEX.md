@@ -15,7 +15,7 @@ Current ownership work: REQ-000056, TASK-000151 through TASK-000160, RUN-000146 
 
 ## Governance burden evaluation
 
-- [RUN-000388 — coordination](RUN-000388.md) — in_progress
+- [RUN-000388 — coordination](RUN-000388.md) — blocked
 - [RUN-000389 — structural audit](RUN-000389.md) — verified
 - [RUN-000390 — process audit](RUN-000390.md) — verified
 - [RUN-000391 — baseline behavioral pilot](RUN-000391.md) — verified

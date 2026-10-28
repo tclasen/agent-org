@@ -84,7 +84,7 @@ Historical organization registry labels and status snapshots below are retained 
 
 These terminal states are proposed closures effective only after verified delivery of the same evidence PR; before that observation acceptance remains pending.
 
-- [TASK-000394 — Coordinate parallel governance evaluation](organization/TASK-000394.md) — accepted
+- [TASK-000394 — Coordinate parallel governance evaluation](organization/TASK-000394.md) — blocked
 - [TASK-000395 — Measure instruction footprint and duplication](organization/TASK-000395.md) — accepted
 - [TASK-000396 — Trace proportionality and process failure risks](organization/TASK-000396.md) — accepted
 - [TASK-000397 — Run fixed behavioral navigation pilot](organization/TASK-000397.md) — accepted
