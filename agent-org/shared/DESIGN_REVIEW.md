@@ -83,3 +83,9 @@ Include coverage and excluded/unreadable sources even when clean. Say no drift d
 ## Boundaries and qualification
 
 Keep prior grants, independence, worker/retry limits and exact-candidate acceptance intact. Neither exhausted review rounds nor a generated report creates acceptance. This procedure installs no plugin, service, provider or new scheduler and claims no measured efficiency or universal compliance. Future productivity or evaluator changes require their own qualification under existing prior rules. Roll back a regression through a normal corrective PR restoring known-good instructions while retaining findings and trial evidence.
+
+## Independently establish the responsibility delta
+
+Before the three technical lenses, the fresh Reviewer reads the original authority and determines the engineering responsibilities already included, then compares the proposed aggregate work. Use the responsibility fields in the existing brief/review. Do not inherit the implementer's claim of unchanged scope, compare only writable files/features, or assume a technically small patch is a small maintenance commitment. Explicitly consider retaining a requirement gap and supported alternatives, rather than comparing only increasingly elaborate implementations.
+
+Record separately: (1) outcome and responsibility/authority fit, (2) architectural simplicity and correctness/readiness. State the source authorizing any material added maintenance/operational obligation, prior support assumption changed and aggregate child effects. An unsupported addition fails admission even if technically feasible; return it for a scope decision under PLANNING.md. Existing explicit ownership can make low-level work legitimate; no universal technology exclusion or routine approval queue follows. Missing source or ambiguous responsibility remains unresolved. A technical pass cannot repair the authority finding.

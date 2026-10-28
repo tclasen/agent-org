@@ -5,3 +5,7 @@ Use this queue during existing active-session improvement reviews. Entries retai
 - [Registry reconciliation](registry-reconciliation.md) — implemented deterministic candidate under EXP-000002; qualification and delivery tracked by TASK-000072. Protects canonical status and ID interpretation after the observed registry-label and stale-checkpoint incidents.
 
 Current execution procedure: [autonomous execution](../../shared/AUTONOMOUS_EXECUTION.md). New corrections are records with evidence and counterexamples, not immediate global instructions. Prior promotion and rollback rules remain authoritative.
+
+Every observed unexpected problem also triggers immediate root-cause diagnosis and repair under SELF_IMPROVEMENT.md#root-cause-diagnosis-and-repair; periodic selection is not a waiting period. Use the existing candidate/task for cause, escaped control, tested generic repair and recurrence follow-up. First occurrences count; uncertainty and authority blockers remain explicit. See the existing improvement-candidate template for required diagnosis fields.
+
+- [Responsibility boundaries and root-cause repair](responsibility-root-cause.md) — bounded organization instruction candidate under TASK-000390; finite qualification, not a universal prevention claim.

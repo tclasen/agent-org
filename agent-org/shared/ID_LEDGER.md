@@ -93,3 +93,7 @@ APP452 records direct owner retirement admission; APP450/451 remain reserved ind
 2026-10-28: reserve TASK381–384/RUN374–377/APP587–589 for bounded intent-provenance and demo-first working-method repair, independent admission/review/final approval. No additional authority or project identity follows from allocation.
 
 2026-10-28: reserve TASK385–389/RUN378–381/APP590–592 for planning-first instruction correction and independent admission/review/approval. No product or external effects authorized by allocation.
+
+## Responsibility boundaries and root-cause correction
+
+2026-10-28: reserve REQ-000083, TASK390–393, RUN382–387 and APP593–595 for the operator-requested engineering-responsibility safeguards and organization root-cause repair loop. Prior allocations through TASK389/RUN381/APP592 remain reserved. Allocation grants no authority and stores no project identity.

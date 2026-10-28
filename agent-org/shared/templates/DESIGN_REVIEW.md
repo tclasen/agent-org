@@ -43,3 +43,12 @@ Copy into the assigned task/run evidence and set actual metadata/scope. This sch
 - Next Safe Action: <owner; scoped action; required authority>
 
 Keep raw reports and prior revisions. One reviewer applying three lenses is one perspective. Missing context, target change, dispute or exhausted attempts cannot be silently promoted to a clean pass.
+
+## Independent responsibility and authority assessment
+
+- Original Authority Read: <source/revision and limits, separately from implementer claims>
+- Existing versus Proposed Responsibility: <before/after maintenance, operation, support and aggregate child scope>
+- Added Responsibility Decision: <material/within grant/unresolved, source and reason>
+- Supported Alternative or Explicit Gap: <why unsupported ownership is necessary or should remain unadmitted>
+- Outcome/Responsibility Fit: <pass/fail/unresolved before technical lenses>
+- Technical Result: <separate; cannot override failed or unresolved authority>
