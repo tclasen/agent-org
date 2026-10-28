@@ -13,6 +13,8 @@ Every criterion records expected and observed behavior, tested revision/environm
 
 Workers return handoffs; fresh independent Reviewer checks the pinned candidate, scope and accepted criteria. Chief of Staff approves qualified organization outcomes autonomously; project authority decides product acceptance; Coordinator reconciles original intent, task graph and integration. Do not close a parent before required children. A superficially complete deliverable that misses intent reopens for scoped repair.
 
+Review [outcome and authority fit before implementation correctness](../shared/INTENT_PROVENANCE.md#review-fit-before-correctness). Inspect user-source context separately from the implementer's framing, and record the two outcomes separately. A technical pass cannot establish user priority, expand authorization or accept an unresolved proposal; existing evaluator and promotion gates remain unchanged.
+
 Approval binds exact candidate and evidence. A changed head/tree/artifact, requirement, evaluator or environment invalidates affected checks/approval; rerun proportionately. PRs and allowed host checks/thread resolution remain mandatory. Final installation acceptance is separately operator-owned after all required scenarios, exclusions and gap interview. FULLY_ACCEPTED requires no mandatory unresolved capability; LIMITED_INSTALLATION requires explicit operator acceptance of extra exclusions, otherwise INCOMPLETE_OR_BLOCKED.
 
 ## Remote-main completion gate

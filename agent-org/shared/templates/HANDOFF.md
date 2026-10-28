@@ -15,6 +15,10 @@ Copy into an authorized record/checkpoint and replace angle-bracket placeholders
 - Run: <allocated run reference>
 - Native Worker: <observed ID or unknown>
 - Checkpoint Time: <UTC>
+- User Instruction and Context: <exact statement/source, or explicitly labeled summary and missing context>
+- Agent Interpretation and Approach: <selected means and rationale; attribute proposals>
+- Execution Authorization: <instruction or grant, concrete scope and exclusions>
+- Decision State and Basis: <accepted, proposed, superseded and unresolved choices with source/revision>
 - Intended Outcome: <accepted objective>
 - Completed Actions: <actual actions>
 - Changed Files: <exact paths or none>

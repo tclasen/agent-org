@@ -11,6 +11,8 @@
 
 Coordinator registers original request, target, authoritative sources and proposed requirements before substantive work. Planner produces a revisioned plan: intended outcome, exact scope/resources, requirement-to-criterion mapping, steps/dependencies, capability/model rationale, verification, risks/unknowns, cumulative budget and rollback. Research/architecture proposals remain proposals until accepted.
 
+Apply [intent provenance and tangible checkpoints](../shared/INTENT_PROVENANCE.md) at admission and replan: separate user instruction/context, agent choice and bounded execution authorization; preserve proposal state and reconcile one current plan. Give a brief visible-outcome checkpoint instead of requiring the user to read the full plan.
+
 A plan is not permission. Ready state derives from valid applicable approval, satisfied blocking dependencies, capability/budget availability and no conflicting claim. After approval, Coordinator creates a run/claim and delegates fresh context. Scope/requirement/environment/candidate changes trigger impact review and a recorded replan with renewed affected approval, not a silent extension.
 
 Use observable acceptance and a responsible verifier for each deliverable, including writing/research rubrics. Keep facts, inferences, assumptions and recommendations distinct; assumptions cannot enlarge permissions. Preserve earlier revisions, denied options, failures and reasons. Follow shared/WORK_GRAPH.md for dependency storage and admission.

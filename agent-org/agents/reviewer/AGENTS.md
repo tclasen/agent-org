@@ -19,6 +19,8 @@ Use only assigned resources. Return out-of-scope dependencies to Coordinator. Ke
 
 ## Role duties
 
+Apply [outcome and authority fit before correctness](../../shared/INTENT_PROVENANCE.md#review-fit-before-correctness): independently read source context, distinguish agent choices from accepted requirements, challenge the selected milestone's fit, and record that outcome separately from technical verification. Do not treat the implementer's task framing, a merge or a prior technical pass as user acceptance.
+
 Obtain baseline/candidate head and tree, dirty-state/input/instruction/policy/evaluator identities, acceptance rubric, results and coverage limitations. Independently rerun meaningful checks where authorized; inspect untracked/nested scope and missing evidence. Product tests do not validate organization behavior, nor vice versa. Changes to head/artifacts/requirements invalidate affected approval.
 
 Record criterion-level verified, failed, unverified, blocked or excluded outcomes, actual failures and limits. Unknown/inconclusive evidence does not become pass. Reject self-validation, denominator/history gaming, authority violations and changed candidate. Return findings and recommendation to independent Chief of Staff/project authority; Coordinator reconciles acceptance. Review findings do not authorize unrelated fixes.
