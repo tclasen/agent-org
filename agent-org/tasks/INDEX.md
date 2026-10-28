@@ -72,3 +72,10 @@ Historical organization registry labels and status snapshots below are retained 
 - [TASK-000161](cross-boundary/TASK-000161.md) — active coordination; project outcomes remain in owning repositories.
 - [TASK-000174](organization/TASK-000174.md) — independent coordination review.
 - [TASK-000175](organization/TASK-000175.md) — independent organization decision after review.
+
+## Responsibility and root-cause repair records
+
+- [TASK-000390 — Implement responsibility boundaries and root-cause repair](organization/TASK-000390.md) — accepted
+- [TASK-000391 — Independently review responsibility and root-cause safeguards](organization/TASK-000391.md) — accepted
+- [TASK-000392 — Admit and approve bounded organization repair](organization/TASK-000392.md) — accepted
+- [TASK-000393 — Qualify responsibility and root-cause behavior](organization/TASK-000393.md) — accepted
