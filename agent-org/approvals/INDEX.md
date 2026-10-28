@@ -17,5 +17,5 @@ APP-000115 exact affected recheck; APP-000116 dependent independent organization
 - [APP-000593 — Responsibility boundaries and root-cause repair admission](APP-000593.md) — approved
 - [APP-000594 — Independent responsibility and root-cause review decision](APP-000594.md) — approved
 - [APP-000595 — Independent responsibility and root-cause final decision](APP-000595.md) — approved
-- [APP-000596 — Reserved delivery/registry reconciliation decision](APP-000596.md) — awaiting_approval
+- [APP-000596 — Reserved delivery/registry reconciliation decision](APP-000596.md) — approved
 - [APP-000597 — Reserved delivery/registry reconciliation decision](APP-000597.md) — awaiting_approval
