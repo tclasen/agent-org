@@ -14,3 +14,5 @@
 Initial structuralcheck failed on pending approval references and noncanonical task fields/duplicate run metadata. Created the pending independentdecision record and normalized record syntax; no scope/criterion/evaluator changes. Final structural rerun passes. Failed first result is retained here, not erased from the assessment.
 
 Proposed closure takes effect only after exact assembledcandidate confirmation, independent final approval, allowed PRmerge, owning-remotemain verification and scoped worktreecleanup. No runtime, provider, protected-branch bypass or publication of local demo artifacts occurs in this organization child.
+
+CI subsequently detected a duplicate Claim field in the final approval run record. The local shell sequence had returned the later whitespace-check status, masking the failed structural command. The duplicate is renamed Handoff Claim; the evaluator remains unchanged. Final revalidation uses fail-fast command execution and inspects the structural result before promotion.
