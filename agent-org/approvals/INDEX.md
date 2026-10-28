@@ -19,3 +19,9 @@ APP-000115 exact affected recheck; APP-000116 dependent independent organization
 - [APP-000595 — Independent responsibility and root-cause final decision](APP-000595.md) — approved
 - [APP-000596 — Reserved delivery/registry reconciliation decision](APP-000596.md) — approved
 - [APP-000597 — Reserved delivery/registry reconciliation decision](APP-000597.md) — approved
+
+## Governance burden evaluation
+
+- [APP-000598 — Governance burden evaluation admission](APP-000598.md) — approved
+- [APP-000599 — Governance burden evaluation independent review](APP-000599.md) — approved
+- [APP-000600 — Governance burden evaluation final artifact decision](APP-000600.md) — approved

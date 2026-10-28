@@ -1,0 +1,169 @@
+{
+  "baseline": {
+    "reported_paths_count": 14,
+    "measured_reported_sources": [
+      {
+        "path": "agent-org/factory/reports/governance-burden-evaluation/baseline-envelope.md",
+        "words": 240,
+        "class": "experimental-task-material"
+      },
+      {
+        "path": "agent-org/AGENTS.md",
+        "words": 716,
+        "class": "governance-source"
+      },
+      {
+        "path": "agent-org/policies/AUTHORITY.md",
+        "words": 225,
+        "class": "governance-source"
+      },
+      {
+        "path": "agent-org/policies/SCOPE_BOUNDARIES.md",
+        "words": 290,
+        "class": "governance-source"
+      },
+      {
+        "path": "agent-org/agents/researcher/AGENTS.md",
+        "words": 254,
+        "class": "governance-source"
+      },
+      {
+        "path": "agent-org/agents/researcher/CONTEXT.md",
+        "words": 150,
+        "class": "governance-source"
+      },
+      {
+        "path": "agent-org/factory/reports/governance-burden-evaluation/baseline-cases.json",
+        "words": 551,
+        "class": "experimental-task-material"
+      },
+      {
+        "path": "agent-org/shared/CONTEXT_MANAGEMENT.md",
+        "words": 679,
+        "class": "governance-source"
+      },
+      {
+        "path": "agent-org/policies/SELF_IMPROVEMENT.md",
+        "words": 1212,
+        "class": "governance-source"
+      },
+      {
+        "path": "agent-org/policies/ROUTING.md",
+        "words": 341,
+        "class": "governance-source"
+      },
+      {
+        "path": "agent-org/policies/PLANNING.md",
+        "words": 1064,
+        "class": "governance-source"
+      },
+      {
+        "path": "agent-org/policies/ACCEPTANCE.md",
+        "words": 789,
+        "class": "governance-source"
+      },
+      {
+        "path": "agent-org/policies/MEASUREMENT_INDEPENDENCE.md",
+        "words": 226,
+        "class": "governance-source"
+      },
+      {
+        "path": "agent-org/policies/MODEL_SELECTION.md",
+        "words": 236,
+        "class": "governance-source"
+      }
+    ],
+    "governance_source_words": 6182,
+    "task_material_words": 791,
+    "limits": "Post-hoc word count of self-reported paths; not token/context occupancy, actual input accounting, time or efficiency measurement. Requested gpt-6-luna/medium is not trusted actual-configuration telemetry."
+  },
+  "candidate": {
+    "reported_paths_count": 16,
+    "measured_reported_sources": [
+      {
+        "path": "agent-org/AGENTS.md",
+        "words": 716,
+        "class": "governance-source"
+      },
+      {
+        "path": "agent-org/policies/AUTHORITY.md",
+        "words": 225,
+        "class": "governance-source"
+      },
+      {
+        "path": "agent-org/policies/SCOPE_BOUNDARIES.md",
+        "words": 290,
+        "class": "governance-source"
+      },
+      {
+        "path": "agent-org/agents/researcher/AGENTS.md",
+        "words": 254,
+        "class": "governance-source"
+      },
+      {
+        "path": "agent-org/agents/researcher/CONTEXT.md",
+        "words": 150,
+        "class": "governance-source"
+      },
+      {
+        "path": "agent-org/policies/MODEL_SELECTION.md",
+        "words": 236,
+        "class": "governance-source"
+      },
+      {
+        "path": "agent-org/factory/reports/governance-burden-evaluation/candidate-envelope.md",
+        "words": 240,
+        "class": "experimental-task-material"
+      },
+      {
+        "path": "agent-org/factory/reports/governance-burden-evaluation/candidate-cases.json",
+        "words": 551,
+        "class": "experimental-task-material"
+      },
+      {
+        "path": "agent-org/factory/reports/governance-burden-evaluation/navigation-aid.md",
+        "words": 159,
+        "class": "experimental-task-material"
+      },
+      {
+        "path": "agent-org/policies/PLANNING.md",
+        "words": 1064,
+        "class": "governance-source"
+      },
+      {
+        "path": "agent-org/policies/ROUTING.md",
+        "words": 341,
+        "class": "governance-source"
+      },
+      {
+        "path": "agent-org/policies/SELF_IMPROVEMENT.md",
+        "words": 1212,
+        "class": "governance-source"
+      },
+      {
+        "path": "agent-org/policies/APPROVALS.md",
+        "words": 215,
+        "class": "governance-source"
+      },
+      {
+        "path": "agent-org/policies/ACCEPTANCE.md",
+        "words": 789,
+        "class": "governance-source"
+      },
+      {
+        "path": "agent-org/policies/RESOURCE_BUDGETS.md",
+        "words": 470,
+        "class": "governance-source"
+      },
+      {
+        "path": "agent-org/shared/CONTEXT_MANAGEMENT.md",
+        "words": 679,
+        "class": "governance-source"
+      }
+    ],
+    "governance_source_words": 6641,
+    "task_material_words": 950,
+    "limits": "Post-hoc word count of self-reported paths; not token/context occupancy, actual input accounting, time or efficiency measurement. Requested gpt-6-luna/medium is not trusted actual-configuration telemetry."
+  },
+  "navigation_aid_words": 159
+}

@@ -1,0 +1,217 @@
+{
+  "AGENTS.md": {
+    "snapshot": "source-snapshots/AGENTS.md.txt",
+    "sha256": "13e3631b70d14c83f59ed5bf8929e909ec536d163279e61b4a267f15e49b4b49",
+    "pinning": "before evaluations"
+  },
+  "policies/AUTHORITY.md": {
+    "snapshot": "source-snapshots/policies__AUTHORITY.md.txt",
+    "sha256": "082de2f8fec06bc6dc9027d2f8605ca61cda12a5f5c175d1c3019bd1035d1118",
+    "pinning": "before evaluations"
+  },
+  "policies/SCOPE_BOUNDARIES.md": {
+    "snapshot": "source-snapshots/policies__SCOPE_BOUNDARIES.md.txt",
+    "sha256": "605778f942bead5b135d79e94ec803138150c6ab4a0cddc7531a5bdff292bed5",
+    "pinning": "before evaluations"
+  },
+  "policies/SELF_IMPROVEMENT.md": {
+    "snapshot": "source-snapshots/policies__SELF_IMPROVEMENT.md.txt",
+    "sha256": "41187ca5a70e8c5e531fb02488509c52423b2af116b8d769d055bfe1c39849e9",
+    "pinning": "before evaluations"
+  },
+  "policies/PLANNING.md": {
+    "snapshot": "source-snapshots/policies__PLANNING.md.txt",
+    "sha256": "5608e3beb92f4b6b951578c8282dff1e6ccf838418ce5f9e83b756b14f9ed7fb",
+    "pinning": "before evaluations"
+  },
+  "policies/ACCEPTANCE.md": {
+    "snapshot": "source-snapshots/policies__ACCEPTANCE.md.txt",
+    "sha256": "193a3150240ad64542b033d9c31f500077c5ff80c824510808f3660f974a33a8",
+    "pinning": "before evaluations"
+  },
+  "policies/APPROVALS.md": {
+    "snapshot": "source-snapshots/policies__APPROVALS.md.txt",
+    "sha256": "65e6f15ab93cdf1aba5eecc172a51aa8484e0be35a67e29936b5b3cacca976b2",
+    "pinning": "before evaluations"
+  },
+  "policies/ORGANIZATION_CHANGES.md": {
+    "snapshot": "source-snapshots/policies__ORGANIZATION_CHANGES.md.txt",
+    "sha256": "8eda199f28fe4e8c1161a04f8ae0dedb1e457e907928598cfd70bccb42e587f1",
+    "pinning": "before evaluations"
+  },
+  "policies/ROUTING.md": {
+    "snapshot": "source-snapshots/policies__ROUTING.md.txt",
+    "sha256": "edb7fdec5c6f9badb5cfcd9437a760eb73403d5b7aa2da14647c6b7341235a4c",
+    "pinning": "before evaluations"
+  },
+  "policies/MODEL_SELECTION.md": {
+    "snapshot": "source-snapshots/policies__MODEL_SELECTION.md.txt",
+    "sha256": "d500ac114d42bdae6dc72e434b393815dd6f7c0e6d9a39f3cb0ae6e9a9d416b5",
+    "pinning": "before evaluations"
+  },
+  "policies/RESOURCE_BUDGETS.md": {
+    "snapshot": "source-snapshots/policies__RESOURCE_BUDGETS.md.txt",
+    "sha256": "5857e89874c0bc6cc1aca6cd338e930c3865f5db1d510e8905f964efb65f9960",
+    "pinning": "before evaluations"
+  },
+  "policies/RECORD_OWNERSHIP.md": {
+    "snapshot": "source-snapshots/policies__RECORD_OWNERSHIP.md.txt",
+    "sha256": "0fd755d8dc36e61b12e81df63b5d8fda9c38800e748bd7b8a6995aa547ab5310",
+    "pinning": "before evaluations"
+  },
+  "agents/coordinator/AGENTS.md": {
+    "snapshot": "source-snapshots/agents__coordinator__AGENTS.md.txt",
+    "sha256": "5b0fac6998ce8dc15340d62796f534cbe353210e6ccfe6d1c2c203b89b499bef",
+    "pinning": "before evaluations"
+  },
+  "agents/coordinator/CONTEXT.md": {
+    "snapshot": "source-snapshots/agents__coordinator__CONTEXT.md.txt",
+    "sha256": "808c424701d834879020d741a783ecd1692a30e03284d15083ddb56c1854a3db",
+    "pinning": "before evaluations"
+  },
+  "agents/chief-of-staff/AGENTS.md": {
+    "snapshot": "source-snapshots/agents__chief-of-staff__AGENTS.md.txt",
+    "sha256": "6e3892f8900a8b8328fd0eaa991a3b463b75fa8a7e56aa5c73eabf69ce61cc97",
+    "pinning": "before evaluations"
+  },
+  "agents/chief-of-staff/CONTEXT.md": {
+    "snapshot": "source-snapshots/agents__chief-of-staff__CONTEXT.md.txt",
+    "sha256": "131cf31dabdc53147e52ec3144fb0a72ce4266b3cbafb5dd595a39d473e4b38f",
+    "pinning": "before evaluations"
+  },
+  "agents/researcher/AGENTS.md": {
+    "snapshot": "source-snapshots/agents__researcher__AGENTS.md.txt",
+    "sha256": "0488e19263b95e8ae47ffbcf71134002f87c589ab97cb5d4e6a3484478d9e9ba",
+    "pinning": "before evaluations"
+  },
+  "agents/researcher/CONTEXT.md": {
+    "snapshot": "source-snapshots/agents__researcher__CONTEXT.md.txt",
+    "sha256": "a55151dcfb17eaab4524272ecab4a453a5bb388791e93adf4366d2879061090a",
+    "pinning": "before evaluations"
+  },
+  "agents/reviewer/AGENTS.md": {
+    "snapshot": "source-snapshots/agents__reviewer__AGENTS.md.txt",
+    "sha256": "d370a55b59de16042dbae83aea4f720e1bcf11919faa74d9b958b98e08a7bec2",
+    "pinning": "before evaluations"
+  },
+  "agents/reviewer/CONTEXT.md": {
+    "snapshot": "source-snapshots/agents__reviewer__CONTEXT.md.txt",
+    "sha256": "40eeb8053d4ba743fb805bd2ddde44c603c926d66b99b2c9b49046db54e5c872",
+    "pinning": "before evaluations"
+  },
+  "shared/SESSION_LIFECYCLE.md": {
+    "snapshot": "source-snapshots/shared__SESSION_LIFECYCLE.md.txt",
+    "sha256": "1609b3c24b0e8f88ca89ccac6a8fa38c86b5fbbc6d5d332503eee17036cfe69b",
+    "pinning": "before evaluations"
+  },
+  "shared/CONTEXT_MANAGEMENT.md": {
+    "snapshot": "source-snapshots/shared__CONTEXT_MANAGEMENT.md.txt",
+    "sha256": "3a4faaa659fbbfeda75a97205bc40c59e6a43973c700e2ef9b3b207cf8ebb50d",
+    "pinning": "before evaluations"
+  },
+  "shared/WORK_GRAPH.md": {
+    "snapshot": "source-snapshots/shared__WORK_GRAPH.md.txt",
+    "sha256": "cdd27373777e73ce61f06520ac5d078c234fc77ab8e20cbd2282024e8d32219f",
+    "pinning": "before evaluations"
+  },
+  "shared/RECORD_FORMATS.md": {
+    "snapshot": "source-snapshots/shared__RECORD_FORMATS.md.txt",
+    "sha256": "317236250041fdacb1135350309ec287186aa7ed22c2f4605a7b6a47a60833fb",
+    "pinning": "before evaluations"
+  },
+  "shared/INTENT_PROVENANCE.md": {
+    "snapshot": "source-snapshots/shared__INTENT_PROVENANCE.md.txt",
+    "sha256": "ec0a646cae64423e74bf6b5c6251d0dd0e72536cc99a85abb363f1972794316f",
+    "pinning": "before evaluations"
+  },
+  "workflows/WF-000004.md": {
+    "snapshot": "source-snapshots/workflows__WF-000004.md.txt",
+    "sha256": "39a5370a46b8cd9a2a8b5e4aee81cf5ba20300b82703963706a5782d7a5a250c",
+    "pinning": "before evaluations"
+  },
+  "policies/MEASUREMENT_INDEPENDENCE.md": {
+    "snapshot": "source-snapshots/policies__MEASUREMENT_INDEPENDENCE.md.txt",
+    "sha256": "899d12e5d92d5a22ef16aa929f154efe1c7748997b071b043769d06a03970194",
+    "pinning": "post-execution observation of an additionally reported baseline read; not claimed preregistered"
+  },
+  "README.md": {
+    "snapshot": "source-snapshots/README.md.txt",
+    "sha256": "8f78620386d11352b58e698c84c51e6d33baeab660c8d3d34d7a682af596f313",
+    "pinning": "post-execution structural-route census observation; not claimed preregistered"
+  },
+  "agents/INDEX.md": {
+    "snapshot": "source-snapshots/agents__INDEX.md.txt",
+    "sha256": "aca01d05667d51fb3cab488c07ac9ec40bd3c8eedf534391c1a094dd0c8989e0",
+    "pinning": "post-execution structural-route census observation; not claimed preregistered"
+  },
+  "factory/README.md": {
+    "snapshot": "source-snapshots/factory__README.md.txt",
+    "sha256": "d9337de93b809e724bc259353ccc83f3bcc50a79deb0c724b62271d8a8271785",
+    "pinning": "post-execution structural-route census observation; not claimed preregistered"
+  },
+  "knowledge/INDEX.md": {
+    "snapshot": "source-snapshots/knowledge__INDEX.md.txt",
+    "sha256": "3cb2a11b507f74b687eb98a96a7ce8e17abc661f5f42f93dd92f92dc98ad869b",
+    "pinning": "post-execution structural-route census observation; not claimed preregistered"
+  },
+  "knowledge/PROJECT_ENROLLMENT.md": {
+    "snapshot": "source-snapshots/knowledge__PROJECT_ENROLLMENT.md.txt",
+    "sha256": "617d20b2d68481f3ecd15843d63c61915d44e4346694c9a8ea7aa705c272f96f",
+    "pinning": "post-execution structural-route census observation; not claimed preregistered"
+  },
+  "policies/CHANGE_CONTROL.md": {
+    "snapshot": "source-snapshots/policies__CHANGE_CONTROL.md.txt",
+    "sha256": "95b9916fbbd0ce42e8d32c70b98c20b9bc15103761e62af18df8c69459254207",
+    "pinning": "post-execution structural-route census observation; not claimed preregistered"
+  },
+  "policies/CROSS_BOUNDARY_CHANGES.md": {
+    "snapshot": "source-snapshots/policies__CROSS_BOUNDARY_CHANGES.md.txt",
+    "sha256": "bed6b939ac983ef3ff8920b6abd3e14e452f382b82f71ba5bbb24561854cb86c",
+    "pinning": "post-execution structural-route census observation; not claimed preregistered"
+  },
+  "policies/GIT.md": {
+    "snapshot": "source-snapshots/policies__GIT.md.txt",
+    "sha256": "5e0494d5903bada6d309295d06b8fcf815972165a05e517cc692a6460b806001",
+    "pinning": "post-execution structural-route census observation; not claimed preregistered"
+  },
+  "policies/INDEX.md": {
+    "snapshot": "source-snapshots/policies__INDEX.md.txt",
+    "sha256": "49e5aa5e5f5ed6c2291aef910360aba65696581baed2bf81aebf09e1f9897e8f",
+    "pinning": "post-execution structural-route census observation; not claimed preregistered"
+  },
+  "policies/PROJECT_CHANGES.md": {
+    "snapshot": "source-snapshots/policies__PROJECT_CHANGES.md.txt",
+    "sha256": "34a33820ea8d5b005a0753bf78aa7b245b048b79444e607c7493a4500f6a9ac9",
+    "pinning": "post-execution structural-route census observation; not claimed preregistered"
+  },
+  "shared/HANDOFFS.md": {
+    "snapshot": "source-snapshots/shared__HANDOFFS.md.txt",
+    "sha256": "301097f99ec138bce5d7fe2ee88811e27542140f2fab45cfda97f8f7f15e0e40",
+    "pinning": "post-execution structural-route census observation; not claimed preregistered"
+  },
+  "shared/INDEX.md": {
+    "snapshot": "source-snapshots/shared__INDEX.md.txt",
+    "sha256": "56b35d959eb2a4998b06ec49a1dd0786a2f7ef83e40c0f786b5c7cc959855132",
+    "pinning": "post-execution structural-route census observation; not claimed preregistered"
+  },
+  "shared/PROJECT_DISCOVERY.md": {
+    "snapshot": "source-snapshots/shared__PROJECT_DISCOVERY.md.txt",
+    "sha256": "80a2d733e09facae249f58bfa830096abd7a963bb27a43a31be2b95287a163b6",
+    "pinning": "post-execution structural-route census observation; not claimed preregistered"
+  },
+  "shared/RECONCILIATION.md": {
+    "snapshot": "source-snapshots/shared__RECONCILIATION.md.txt",
+    "sha256": "49b333bf26d5c65f4cde94ffc3e4f04c13e394c2d4dc41d0495611bdab3ea4c0",
+    "pinning": "post-execution structural-route census observation; not claimed preregistered"
+  },
+  "workflows/INDEX.md": {
+    "snapshot": "source-snapshots/workflows__INDEX.md.txt",
+    "sha256": "2877962c9efb88fe11c884135453f7c99bfe6677e3f18da385a9ee34b5cd1105",
+    "pinning": "post-execution structural-route census observation; not claimed preregistered"
+  },
+  "root-bridge": {
+    "snapshot": "source-snapshots/root-bridge.txt",
+    "sha256": "cce663d080b13bc84c9b7803a3dfeefaecf654132d43032dc5d56d01b87a3b08",
+    "pinning": "post-execution separately observed startup bridge"
+  }
+}

@@ -1,0 +1,1444 @@
+{
+  "baseline_label": "current working instruction content, including pre-existing edits; not assumed clean remote-main",
+  "core_direct_route_unique_files": 26,
+  "core_direct_route_unique_words": 11698,
+  "direct_core_action_routes": [
+    {
+      "action": "List projects or report portfolio status",
+      "direct_file_count": 1,
+      "direct_files": [
+        "shared/PROJECT_DISCOVERY.md"
+      ],
+      "direct_words": 831,
+      "researcher_union_words": 2466
+    },
+    {
+      "action": "Admit/plan work",
+      "direct_file_count": 3,
+      "direct_files": [
+        "policies/PLANNING.md",
+        "shared/WORK_GRAPH.md",
+        "shared/RECORD_FORMATS.md"
+      ],
+      "direct_words": 1874,
+      "researcher_union_words": 3509
+    },
+    {
+      "action": "Discover roles/delegate",
+      "direct_file_count": 5,
+      "direct_files": [
+        "agents/INDEX.md",
+        "policies/ROUTING.md",
+        "policies/MODEL_SELECTION.md",
+        "policies/RESOURCE_BUDGETS.md",
+        "shared/CONTEXT_MANAGEMENT.md"
+      ],
+      "direct_words": 2093,
+      "researcher_union_words": 3728
+    },
+    {
+      "action": "Change organization",
+      "direct_file_count": 2,
+      "direct_files": [
+        "policies/ORGANIZATION_CHANGES.md",
+        "policies/SELF_IMPROVEMENT.md"
+      ],
+      "direct_words": 1396,
+      "researcher_union_words": 3031
+    },
+    {
+      "action": "Change/enroll project or cross boundaries",
+      "direct_file_count": 3,
+      "direct_files": [
+        "policies/PROJECT_CHANGES.md",
+        "policies/CROSS_BOUNDARY_CHANGES.md",
+        "knowledge/PROJECT_ENROLLMENT.md"
+      ],
+      "direct_words": 1151,
+      "researcher_union_words": 2786
+    },
+    {
+      "action": "Review/approve/deliver",
+      "direct_file_count": 4,
+      "direct_files": [
+        "policies/ACCEPTANCE.md",
+        "policies/APPROVALS.md",
+        "policies/GIT.md",
+        "policies/CHANGE_CONTROL.md"
+      ],
+      "direct_words": 2018,
+      "researcher_union_words": 3653
+    },
+    {
+      "action": "Recover/handoff",
+      "direct_file_count": 2,
+      "direct_files": [
+        "shared/RECONCILIATION.md",
+        "shared/HANDOFFS.md"
+      ],
+      "direct_words": 1056,
+      "researcher_union_words": 2691
+    },
+    {
+      "action": "Other procedures/tools/history",
+      "direct_file_count": 6,
+      "direct_files": [
+        "policies/INDEX.md",
+        "shared/INDEX.md",
+        "workflows/INDEX.md",
+        "factory/README.md",
+        "knowledge/INDEX.md",
+        "README.md"
+      ],
+      "direct_words": 1279,
+      "researcher_union_words": 2914
+    }
+  ],
+  "exact_repeated_metadata": [
+    {
+      "excess_words_over_one_copy": 176,
+      "occurrence_count": 23,
+      "occurrences": [
+        {
+          "line": 10,
+          "path": "policies/AUTHORITY.md"
+        },
+        {
+          "line": 10,
+          "path": "policies/SCOPE_BOUNDARIES.md"
+        },
+        {
+          "line": 10,
+          "path": "policies/SELF_IMPROVEMENT.md"
+        },
+        {
+          "line": 10,
+          "path": "policies/PLANNING.md"
+        },
+        {
+          "line": 10,
+          "path": "policies/ACCEPTANCE.md"
+        },
+        {
+          "line": 10,
+          "path": "policies/APPROVALS.md"
+        },
+        {
+          "line": 10,
+          "path": "policies/ORGANIZATION_CHANGES.md"
+        },
+        {
+          "line": 10,
+          "path": "policies/ROUTING.md"
+        },
+        {
+          "line": 10,
+          "path": "policies/MODEL_SELECTION.md"
+        },
+        {
+          "line": 10,
+          "path": "policies/RESOURCE_BUDGETS.md"
+        },
+        {
+          "line": 10,
+          "path": "agents/coordinator/AGENTS.md"
+        },
+        {
+          "line": 10,
+          "path": "agents/coordinator/CONTEXT.md"
+        },
+        {
+          "line": 10,
+          "path": "agents/chief-of-staff/AGENTS.md"
+        },
+        {
+          "line": 10,
+          "path": "agents/chief-of-staff/CONTEXT.md"
+        },
+        {
+          "line": 10,
+          "path": "agents/researcher/AGENTS.md"
+        },
+        {
+          "line": 10,
+          "path": "agents/researcher/CONTEXT.md"
+        },
+        {
+          "line": 10,
+          "path": "agents/reviewer/AGENTS.md"
+        },
+        {
+          "line": 10,
+          "path": "agents/reviewer/CONTEXT.md"
+        },
+        {
+          "line": 10,
+          "path": "shared/SESSION_LIFECYCLE.md"
+        },
+        {
+          "line": 10,
+          "path": "shared/CONTEXT_MANAGEMENT.md"
+        },
+        {
+          "line": 10,
+          "path": "shared/WORK_GRAPH.md"
+        },
+        {
+          "line": 10,
+          "path": "shared/RECORD_FORMATS.md"
+        },
+        {
+          "line": 11,
+          "path": "workflows/WF-000004.md"
+        }
+      ],
+      "text": "- Approval Requirements: APP-000001; future revisions follow policies/APPROVALS.md",
+      "words_per_occurrence": 8
+    },
+    {
+      "excess_words_over_one_copy": 96,
+      "occurrence_count": 25,
+      "occurrences": [
+        {
+          "line": 4,
+          "path": "policies/AUTHORITY.md"
+        },
+        {
+          "line": 4,
+          "path": "policies/SCOPE_BOUNDARIES.md"
+        },
+        {
+          "line": 4,
+          "path": "policies/SELF_IMPROVEMENT.md"
+        },
+        {
+          "line": 4,
+          "path": "policies/PLANNING.md"
+        },
+        {
+          "line": 4,
+          "path": "policies/ACCEPTANCE.md"
+        },
+        {
+          "line": 4,
+          "path": "policies/APPROVALS.md"
+        },
+        {
+          "line": 4,
+          "path": "policies/ORGANIZATION_CHANGES.md"
+        },
+        {
+          "line": 4,
+          "path": "policies/ROUTING.md"
+        },
+        {
+          "line": 4,
+          "path": "policies/MODEL_SELECTION.md"
+        },
+        {
+          "line": 4,
+          "path": "policies/RESOURCE_BUDGETS.md"
+        },
+        {
+          "line": 4,
+          "path": "policies/RECORD_OWNERSHIP.md"
+        },
+        {
+          "line": 4,
+          "path": "agents/coordinator/AGENTS.md"
+        },
+        {
+          "line": 4,
+          "path": "agents/coordinator/CONTEXT.md"
+        },
+        {
+          "line": 4,
+          "path": "agents/chief-of-staff/AGENTS.md"
+        },
+        {
+          "line": 4,
+          "path": "agents/chief-of-staff/CONTEXT.md"
+        },
+        {
+          "line": 4,
+          "path": "agents/researcher/AGENTS.md"
+        },
+        {
+          "line": 4,
+          "path": "agents/researcher/CONTEXT.md"
+        },
+        {
+          "line": 4,
+          "path": "agents/reviewer/AGENTS.md"
+        },
+        {
+          "line": 4,
+          "path": "agents/reviewer/CONTEXT.md"
+        },
+        {
+          "line": 4,
+          "path": "shared/SESSION_LIFECYCLE.md"
+        },
+        {
+          "line": 4,
+          "path": "shared/CONTEXT_MANAGEMENT.md"
+        },
+        {
+          "line": 4,
+          "path": "shared/WORK_GRAPH.md"
+        },
+        {
+          "line": 4,
+          "path": "shared/RECORD_FORMATS.md"
+        },
+        {
+          "line": 4,
+          "path": "shared/INTENT_PROVENANCE.md"
+        },
+        {
+          "line": 5,
+          "path": "workflows/WF-000004.md"
+        }
+      ],
+      "text": "- Change Classification: organization",
+      "words_per_occurrence": 4
+    },
+    {
+      "excess_words_over_one_copy": 78,
+      "occurrence_count": 14,
+      "occurrences": [
+        {
+          "line": 7,
+          "path": "policies/AUTHORITY.md"
+        },
+        {
+          "line": 7,
+          "path": "policies/SCOPE_BOUNDARIES.md"
+        },
+        {
+          "line": 7,
+          "path": "policies/SELF_IMPROVEMENT.md"
+        },
+        {
+          "line": 7,
+          "path": "policies/PLANNING.md"
+        },
+        {
+          "line": 7,
+          "path": "policies/ACCEPTANCE.md"
+        },
+        {
+          "line": 7,
+          "path": "policies/APPROVALS.md"
+        },
+        {
+          "line": 7,
+          "path": "policies/ORGANIZATION_CHANGES.md"
+        },
+        {
+          "line": 7,
+          "path": "policies/ROUTING.md"
+        },
+        {
+          "line": 7,
+          "path": "policies/MODEL_SELECTION.md"
+        },
+        {
+          "line": 7,
+          "path": "policies/RESOURCE_BUDGETS.md"
+        },
+        {
+          "line": 7,
+          "path": "policies/RECORD_OWNERSHIP.md"
+        },
+        {
+          "line": 7,
+          "path": "agents/chief-of-staff/AGENTS.md"
+        },
+        {
+          "line": 7,
+          "path": "agents/chief-of-staff/CONTEXT.md"
+        },
+        {
+          "line": 8,
+          "path": "workflows/WF-000004.md"
+        }
+      ],
+      "text": "- Owning Role: Chief of Staff",
+      "words_per_occurrence": 6
+    },
+    {
+      "excess_words_over_one_copy": 24,
+      "occurrence_count": 7,
+      "occurrences": [
+        {
+          "line": 7,
+          "path": "agents/coordinator/AGENTS.md"
+        },
+        {
+          "line": 7,
+          "path": "agents/coordinator/CONTEXT.md"
+        },
+        {
+          "line": 7,
+          "path": "shared/SESSION_LIFECYCLE.md"
+        },
+        {
+          "line": 7,
+          "path": "shared/CONTEXT_MANAGEMENT.md"
+        },
+        {
+          "line": 7,
+          "path": "shared/WORK_GRAPH.md"
+        },
+        {
+          "line": 7,
+          "path": "shared/RECORD_FORMATS.md"
+        },
+        {
+          "line": 7,
+          "path": "shared/INTENT_PROVENANCE.md"
+        }
+      ],
+      "text": "- Owning Role: Coordinator",
+      "words_per_occurrence": 4
+    },
+    {
+      "excess_words_over_one_copy": 4,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "line": 7,
+          "path": "agents/researcher/AGENTS.md"
+        },
+        {
+          "line": 7,
+          "path": "agents/researcher/CONTEXT.md"
+        }
+      ],
+      "text": "- Owning Role: Researcher",
+      "words_per_occurrence": 4
+    },
+    {
+      "excess_words_over_one_copy": 4,
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "line": 7,
+          "path": "agents/reviewer/AGENTS.md"
+        },
+        {
+          "line": 7,
+          "path": "agents/reviewer/CONTEXT.md"
+        }
+      ],
+      "text": "- Owning Role: Reviewer",
+      "words_per_occurrence": 4
+    },
+    {
+      "excess_words_over_one_copy": 198,
+      "occurrence_count": 19,
+      "occurrences": [
+        {
+          "line": 8,
+          "path": "policies/AUTHORITY.md"
+        },
+        {
+          "line": 8,
+          "path": "policies/SCOPE_BOUNDARIES.md"
+        },
+        {
+          "line": 8,
+          "path": "policies/SELF_IMPROVEMENT.md"
+        },
+        {
+          "line": 8,
+          "path": "policies/ACCEPTANCE.md"
+        },
+        {
+          "line": 8,
+          "path": "policies/APPROVALS.md"
+        },
+        {
+          "line": 8,
+          "path": "policies/ORGANIZATION_CHANGES.md"
+        },
+        {
+          "line": 8,
+          "path": "policies/ROUTING.md"
+        },
+        {
+          "line": 8,
+          "path": "policies/MODEL_SELECTION.md"
+        },
+        {
+          "line": 8,
+          "path": "policies/RESOURCE_BUDGETS.md"
+        },
+        {
+          "line": 8,
+          "path": "agents/coordinator/AGENTS.md"
+        },
+        {
+          "line": 8,
+          "path": "agents/coordinator/CONTEXT.md"
+        },
+        {
+          "line": 8,
+          "path": "agents/chief-of-staff/AGENTS.md"
+        },
+        {
+          "line": 8,
+          "path": "agents/chief-of-staff/CONTEXT.md"
+        },
+        {
+          "line": 8,
+          "path": "agents/researcher/AGENTS.md"
+        },
+        {
+          "line": 8,
+          "path": "agents/researcher/CONTEXT.md"
+        },
+        {
+          "line": 8,
+          "path": "agents/reviewer/CONTEXT.md"
+        },
+        {
+          "line": 8,
+          "path": "shared/SESSION_LIFECYCLE.md"
+        },
+        {
+          "line": 8,
+          "path": "shared/WORK_GRAPH.md"
+        },
+        {
+          "line": 8,
+          "path": "shared/RECORD_FORMATS.md"
+        }
+      ],
+      "text": "- Related Requirements: REQ-000001, REQ-000008, REQ-000011, REQ-000012, REQ-000013, REQ-000015, REQ-000016, REQ-000034",
+      "words_per_occurrence": 11
+    },
+    {
+      "excess_words_over_one_copy": 24,
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "line": 8,
+          "path": "policies/PLANNING.md"
+        },
+        {
+          "line": 8,
+          "path": "agents/reviewer/AGENTS.md"
+        },
+        {
+          "line": 8,
+          "path": "shared/CONTEXT_MANAGEMENT.md"
+        }
+      ],
+      "text": "- Related Requirements: REQ-000059, REQ-000001, REQ-000008, REQ-000011, REQ-000012, REQ-000013, REQ-000015, REQ-000016, REQ-000034",
+      "words_per_occurrence": 12
+    },
+    {
+      "excess_words_over_one_copy": 76,
+      "occurrence_count": 20,
+      "occurrences": [
+        {
+          "line": 9,
+          "path": "policies/AUTHORITY.md"
+        },
+        {
+          "line": 9,
+          "path": "policies/SCOPE_BOUNDARIES.md"
+        },
+        {
+          "line": 9,
+          "path": "policies/SELF_IMPROVEMENT.md"
+        },
+        {
+          "line": 9,
+          "path": "policies/ACCEPTANCE.md"
+        },
+        {
+          "line": 9,
+          "path": "policies/APPROVALS.md"
+        },
+        {
+          "line": 9,
+          "path": "policies/ORGANIZATION_CHANGES.md"
+        },
+        {
+          "line": 9,
+          "path": "policies/ROUTING.md"
+        },
+        {
+          "line": 9,
+          "path": "policies/MODEL_SELECTION.md"
+        },
+        {
+          "line": 9,
+          "path": "policies/RESOURCE_BUDGETS.md"
+        },
+        {
+          "line": 9,
+          "path": "agents/coordinator/AGENTS.md"
+        },
+        {
+          "line": 9,
+          "path": "agents/coordinator/CONTEXT.md"
+        },
+        {
+          "line": 9,
+          "path": "agents/chief-of-staff/AGENTS.md"
+        },
+        {
+          "line": 9,
+          "path": "agents/chief-of-staff/CONTEXT.md"
+        },
+        {
+          "line": 9,
+          "path": "agents/researcher/AGENTS.md"
+        },
+        {
+          "line": 9,
+          "path": "agents/researcher/CONTEXT.md"
+        },
+        {
+          "line": 9,
+          "path": "agents/reviewer/CONTEXT.md"
+        },
+        {
+          "line": 9,
+          "path": "shared/SESSION_LIFECYCLE.md"
+        },
+        {
+          "line": 9,
+          "path": "shared/WORK_GRAPH.md"
+        },
+        {
+          "line": 9,
+          "path": "shared/RECORD_FORMATS.md"
+        },
+        {
+          "line": 10,
+          "path": "workflows/WF-000004.md"
+        }
+      ],
+      "text": "- Related Tasks: TASK-000002",
+      "words_per_occurrence": 4
+    },
+    {
+      "excess_words_over_one_copy": 10,
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "line": 9,
+          "path": "policies/PLANNING.md"
+        },
+        {
+          "line": 9,
+          "path": "agents/reviewer/AGENTS.md"
+        },
+        {
+          "line": 9,
+          "path": "shared/CONTEXT_MANAGEMENT.md"
+        }
+      ],
+      "text": "- Related Tasks: TASK-000243, TASK-000002",
+      "words_per_occurrence": 5
+    },
+    {
+      "excess_words_over_one_copy": 96,
+      "occurrence_count": 25,
+      "occurrences": [
+        {
+          "line": 3,
+          "path": "policies/AUTHORITY.md"
+        },
+        {
+          "line": 3,
+          "path": "policies/SCOPE_BOUNDARIES.md"
+        },
+        {
+          "line": 3,
+          "path": "policies/SELF_IMPROVEMENT.md"
+        },
+        {
+          "line": 3,
+          "path": "policies/PLANNING.md"
+        },
+        {
+          "line": 3,
+          "path": "policies/ACCEPTANCE.md"
+        },
+        {
+          "line": 3,
+          "path": "policies/APPROVALS.md"
+        },
+        {
+          "line": 3,
+          "path": "policies/ORGANIZATION_CHANGES.md"
+        },
+        {
+          "line": 3,
+          "path": "policies/ROUTING.md"
+        },
+        {
+          "line": 3,
+          "path": "policies/MODEL_SELECTION.md"
+        },
+        {
+          "line": 3,
+          "path": "policies/RESOURCE_BUDGETS.md"
+        },
+        {
+          "line": 3,
+          "path": "policies/RECORD_OWNERSHIP.md"
+        },
+        {
+          "line": 3,
+          "path": "agents/coordinator/AGENTS.md"
+        },
+        {
+          "line": 3,
+          "path": "agents/coordinator/CONTEXT.md"
+        },
+        {
+          "line": 3,
+          "path": "agents/chief-of-staff/AGENTS.md"
+        },
+        {
+          "line": 3,
+          "path": "agents/chief-of-staff/CONTEXT.md"
+        },
+        {
+          "line": 3,
+          "path": "agents/researcher/AGENTS.md"
+        },
+        {
+          "line": 3,
+          "path": "agents/researcher/CONTEXT.md"
+        },
+        {
+          "line": 3,
+          "path": "agents/reviewer/AGENTS.md"
+        },
+        {
+          "line": 3,
+          "path": "agents/reviewer/CONTEXT.md"
+        },
+        {
+          "line": 3,
+          "path": "shared/SESSION_LIFECYCLE.md"
+        },
+        {
+          "line": 3,
+          "path": "shared/CONTEXT_MANAGEMENT.md"
+        },
+        {
+          "line": 3,
+          "path": "shared/WORK_GRAPH.md"
+        },
+        {
+          "line": 3,
+          "path": "shared/RECORD_FORMATS.md"
+        },
+        {
+          "line": 3,
+          "path": "shared/INTENT_PROVENANCE.md"
+        },
+        {
+          "line": 4,
+          "path": "workflows/WF-000004.md"
+        }
+      ],
+      "text": "- Target System: organization",
+      "words_per_occurrence": 4
+    }
+  ],
+  "exact_repeated_nonmetadata_lines_min_8_words": [
+    {
+      "excess_words_over_one_copy": 147,
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "line": 16,
+          "path": "agents/coordinator/CONTEXT.md"
+        },
+        {
+          "line": 16,
+          "path": "agents/chief-of-staff/CONTEXT.md"
+        },
+        {
+          "line": 16,
+          "path": "agents/researcher/CONTEXT.md"
+        },
+        {
+          "line": 16,
+          "path": "agents/reviewer/CONTEXT.md"
+        }
+      ],
+      "text": "For enrolled project work, read that project's profile, applicable instructions and authoritative ticket/specification before acting. Preserve other projects and old/. Historical installation/intake evidence is available through [approvals](../../approvals/INDEX.md) and [intake](../../intake/INDEX.md) when reconstructing authority/history; it is not a startup reading assignment. Unknown service, model, survival and external-enforcement facts require observed evidence.",
+      "words_per_occurrence": 49
+    },
+    {
+      "excess_words_over_one_copy": 153,
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "line": 16,
+          "path": "agents/coordinator/AGENTS.md"
+        },
+        {
+          "line": 16,
+          "path": "agents/chief-of-staff/AGENTS.md"
+        },
+        {
+          "line": 16,
+          "path": "agents/researcher/AGENTS.md"
+        },
+        {
+          "line": 16,
+          "path": "agents/reviewer/AGENTS.md"
+        }
+      ],
+      "text": "Load the [organization core](../../AGENTS.md), this role's CONTEXT.md, assigned task/run and manifest sources required for this action. Reuse already loaded current text. Follow applicable action routes in the core; do not read other roles or unrelated histories. Confirm scope/authority, claim, dependency readiness and budget before acting. Missing required context blocks dependent work.",
+      "words_per_occurrence": 51
+    },
+    {
+      "excess_words_over_one_copy": 105,
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "line": 12,
+          "path": "agents/coordinator/CONTEXT.md"
+        },
+        {
+          "line": 12,
+          "path": "agents/chief-of-staff/CONTEXT.md"
+        },
+        {
+          "line": 12,
+          "path": "agents/researcher/CONTEXT.md"
+        },
+        {
+          "line": 12,
+          "path": "agents/reviewer/CONTEXT.md"
+        }
+      ],
+      "text": "This is stable role orientation; task/run/checkpoint records hold current assignments. Follow the organization core already loaded through the startup bridge or delegation manifest. Do not reload the lifecycle/core merely because another file links to it.",
+      "words_per_occurrence": 35
+    },
+    {
+      "excess_words_over_one_copy": 129,
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "line": 18,
+          "path": "agents/coordinator/AGENTS.md"
+        },
+        {
+          "line": 18,
+          "path": "agents/chief-of-staff/AGENTS.md"
+        },
+        {
+          "line": 18,
+          "path": "agents/researcher/AGENTS.md"
+        },
+        {
+          "line": 18,
+          "path": "agents/reviewer/AGENTS.md"
+        }
+      ],
+      "text": "Use only assigned resources. Return out-of-scope dependencies to Coordinator. Keep checkpoints and a [structured handoff](../../shared/HANDOFFS.md) with checks, artifacts, effects, unknowns and next action. Worker completion is not acceptance. Model selection is per run, not fixed by role; never invent observed configuration or telemetry.",
+      "words_per_occurrence": 43
+    }
+  ],
+  "exact_repeated_prose_sentences_min_8_words": [
+    {
+      "excess_words_over_one_copy": 27,
+      "occurrence_count": 4,
+      "occurrences": [
+        "agents/coordinator/AGENTS.md",
+        "agents/chief-of-staff/AGENTS.md",
+        "agents/researcher/AGENTS.md",
+        "agents/reviewer/AGENTS.md"
+      ],
+      "text": "Confirm scope/authority, claim, dependency readiness and budget before acting.",
+      "words_per_occurrence": 9
+    },
+    {
+      "excess_words_over_one_copy": 36,
+      "occurrence_count": 4,
+      "occurrences": [
+        "agents/coordinator/CONTEXT.md",
+        "agents/chief-of-staff/CONTEXT.md",
+        "agents/researcher/CONTEXT.md",
+        "agents/reviewer/CONTEXT.md"
+      ],
+      "text": "Do not reload the lifecycle/core merely because another file links to it.",
+      "words_per_occurrence": 12
+    },
+    {
+      "excess_words_over_one_copy": 45,
+      "occurrence_count": 4,
+      "occurrences": [
+        "agents/coordinator/AGENTS.md",
+        "agents/chief-of-staff/AGENTS.md",
+        "agents/researcher/AGENTS.md",
+        "agents/reviewer/AGENTS.md"
+      ],
+      "text": "Follow applicable action routes in the core; do not read other roles or unrelated histories.",
+      "words_per_occurrence": 15
+    },
+    {
+      "excess_words_over_one_copy": 39,
+      "occurrence_count": 4,
+      "occurrences": [
+        "agents/coordinator/CONTEXT.md",
+        "agents/chief-of-staff/CONTEXT.md",
+        "agents/researcher/CONTEXT.md",
+        "agents/reviewer/CONTEXT.md"
+      ],
+      "text": "Follow the organization core already loaded through the startup bridge or delegation manifest.",
+      "words_per_occurrence": 13
+    },
+    {
+      "excess_words_over_one_copy": 45,
+      "occurrence_count": 4,
+      "occurrences": [
+        "agents/coordinator/CONTEXT.md",
+        "agents/chief-of-staff/CONTEXT.md",
+        "agents/researcher/CONTEXT.md",
+        "agents/reviewer/CONTEXT.md"
+      ],
+      "text": "For enrolled project work, read that project's profile, applicable instructions and authoritative ticket/specification before acting.",
+      "words_per_occurrence": 15
+    },
+    {
+      "excess_words_over_one_copy": 57,
+      "occurrence_count": 4,
+      "occurrences": [
+        "agents/coordinator/CONTEXT.md",
+        "agents/chief-of-staff/CONTEXT.md",
+        "agents/researcher/CONTEXT.md",
+        "agents/reviewer/CONTEXT.md"
+      ],
+      "text": "Historical installation/intake evidence is available through [approvals](../../approvals/INDEX.md) and [intake](../../intake/INDEX.md) when reconstructing authority/history; it is not a startup reading assignment.",
+      "words_per_occurrence": 19
+    },
+    {
+      "excess_words_over_one_copy": 42,
+      "occurrence_count": 4,
+      "occurrences": [
+        "agents/coordinator/AGENTS.md",
+        "agents/chief-of-staff/AGENTS.md",
+        "agents/researcher/AGENTS.md",
+        "agents/reviewer/AGENTS.md"
+      ],
+      "text": "Keep checkpoints and a [structured handoff](../../shared/HANDOFFS.md) with checks, artifacts, effects, unknowns and next action.",
+      "words_per_occurrence": 14
+    },
+    {
+      "excess_words_over_one_copy": 48,
+      "occurrence_count": 4,
+      "occurrences": [
+        "agents/coordinator/AGENTS.md",
+        "agents/chief-of-staff/AGENTS.md",
+        "agents/researcher/AGENTS.md",
+        "agents/reviewer/AGENTS.md"
+      ],
+      "text": "Load the [organization core](../../AGENTS.md), this role's CONTEXT.md, assigned task/run and manifest sources required for this action.",
+      "words_per_occurrence": 16
+    },
+    {
+      "excess_words_over_one_copy": 45,
+      "occurrence_count": 4,
+      "occurrences": [
+        "agents/coordinator/AGENTS.md",
+        "agents/chief-of-staff/AGENTS.md",
+        "agents/researcher/AGENTS.md",
+        "agents/reviewer/AGENTS.md"
+      ],
+      "text": "Model selection is per run, not fixed by role; never invent observed configuration or telemetry.",
+      "words_per_occurrence": 15
+    },
+    {
+      "excess_words_over_one_copy": 30,
+      "occurrence_count": 4,
+      "occurrences": [
+        "agents/coordinator/CONTEXT.md",
+        "agents/chief-of-staff/CONTEXT.md",
+        "agents/researcher/CONTEXT.md",
+        "agents/reviewer/CONTEXT.md"
+      ],
+      "text": "This is stable role orientation; task/run/checkpoint records hold current assignments.",
+      "words_per_occurrence": 10
+    },
+    {
+      "excess_words_over_one_copy": 30,
+      "occurrence_count": 4,
+      "occurrences": [
+        "agents/coordinator/CONTEXT.md",
+        "agents/chief-of-staff/CONTEXT.md",
+        "agents/researcher/CONTEXT.md",
+        "agents/reviewer/CONTEXT.md"
+      ],
+      "text": "Unknown service, model, survival and external-enforcement facts require observed evidence.",
+      "words_per_occurrence": 10
+    }
+  ],
+  "handoff_source_sections": {
+    "contract_words": 297,
+    "historical_section_words": 490,
+    "split_marker": "## Remote-main policy delivery",
+    "total_words": 787
+  },
+  "limits": [
+    "No tokenizer, token/context/time/cost/productivity or causal estimate.",
+    "Sentence splitting is a declared heuristic; semantic rule repetition is assessed separately.",
+    "Direct routes are conditional alternatives, not a universal load requirement or transitive closure.",
+    "Manifest is a selected corpus, not all organization instructions; unpinned route hashes are measured now.",
+    "Repeated-text counts overlap between metrics and are not additive deletable-word totals."
+  ],
+  "manifest_verification": {
+    "checked": 26,
+    "hash_mismatches": [],
+    "word_mismatches": []
+  },
+  "method_version": 1,
+  "root_bridge": {
+    "pinned_in_manifest": false,
+    "sha256": "cce663d080b13bc84c9b7803a3dfeefaecf654132d43032dc5d56d01b87a3b08",
+    "words": 75
+  },
+  "route_source_inventory": {
+    "README.md": {
+      "pinned_in_manifest": false,
+      "sha256": "8f78620386d11352b58e698c84c51e6d33baeab660c8d3d34d7a682af596f313",
+      "words": 321
+    },
+    "agents/INDEX.md": {
+      "pinned_in_manifest": false,
+      "sha256": "aca01d05667d51fb3cab488c07ac9ec40bd3c8eedf534391c1a094dd0c8989e0",
+      "words": 367
+    },
+    "factory/README.md": {
+      "pinned_in_manifest": false,
+      "sha256": "d9337de93b809e724bc259353ccc83f3bcc50a79deb0c724b62271d8a8271785",
+      "words": 337
+    },
+    "knowledge/INDEX.md": {
+      "pinned_in_manifest": false,
+      "sha256": "3cb2a11b507f74b687eb98a96a7ce8e17abc661f5f42f93dd92f92dc98ad869b",
+      "words": 59
+    },
+    "knowledge/PROJECT_ENROLLMENT.md": {
+      "pinned_in_manifest": false,
+      "sha256": "617d20b2d68481f3ecd15843d63c61915d44e4346694c9a8ea7aa705c272f96f",
+      "words": 658
+    },
+    "policies/ACCEPTANCE.md": {
+      "pinned_in_manifest": true,
+      "sha256": "193a3150240ad64542b033d9c31f500077c5ff80c824510808f3660f974a33a8",
+      "words": 789
+    },
+    "policies/APPROVALS.md": {
+      "pinned_in_manifest": true,
+      "sha256": "65e6f15ab93cdf1aba5eecc172a51aa8484e0be35a67e29936b5b3cacca976b2",
+      "words": 215
+    },
+    "policies/CHANGE_CONTROL.md": {
+      "pinned_in_manifest": false,
+      "sha256": "95b9916fbbd0ce42e8d32c70b98c20b9bc15103761e62af18df8c69459254207",
+      "words": 281
+    },
+    "policies/CROSS_BOUNDARY_CHANGES.md": {
+      "pinned_in_manifest": false,
+      "sha256": "bed6b939ac983ef3ff8920b6abd3e14e452f382b82f71ba5bbb24561854cb86c",
+      "words": 202
+    },
+    "policies/GIT.md": {
+      "pinned_in_manifest": false,
+      "sha256": "5e0494d5903bada6d309295d06b8fcf815972165a05e517cc692a6460b806001",
+      "words": 733
+    },
+    "policies/INDEX.md": {
+      "pinned_in_manifest": false,
+      "sha256": "49e5aa5e5f5ed6c2291aef910360aba65696581baed2bf81aebf09e1f9897e8f",
+      "words": 242
+    },
+    "policies/MODEL_SELECTION.md": {
+      "pinned_in_manifest": true,
+      "sha256": "d500ac114d42bdae6dc72e434b393815dd6f7c0e6d9a39f3cb0ae6e9a9d416b5",
+      "words": 236
+    },
+    "policies/ORGANIZATION_CHANGES.md": {
+      "pinned_in_manifest": true,
+      "sha256": "8eda199f28fe4e8c1161a04f8ae0dedb1e457e907928598cfd70bccb42e587f1",
+      "words": 184
+    },
+    "policies/PLANNING.md": {
+      "pinned_in_manifest": true,
+      "sha256": "5608e3beb92f4b6b951578c8282dff1e6ccf838418ce5f9e83b756b14f9ed7fb",
+      "words": 1064
+    },
+    "policies/PROJECT_CHANGES.md": {
+      "pinned_in_manifest": false,
+      "sha256": "34a33820ea8d5b005a0753bf78aa7b245b048b79444e607c7493a4500f6a9ac9",
+      "words": 291
+    },
+    "policies/RESOURCE_BUDGETS.md": {
+      "pinned_in_manifest": true,
+      "sha256": "5857e89874c0bc6cc1aca6cd338e930c3865f5db1d510e8905f964efb65f9960",
+      "words": 470
+    },
+    "policies/ROUTING.md": {
+      "pinned_in_manifest": true,
+      "sha256": "edb7fdec5c6f9badb5cfcd9437a760eb73403d5b7aa2da14647c6b7341235a4c",
+      "words": 341
+    },
+    "policies/SELF_IMPROVEMENT.md": {
+      "pinned_in_manifest": true,
+      "sha256": "41187ca5a70e8c5e531fb02488509c52423b2af116b8d769d055bfe1c39849e9",
+      "words": 1212
+    },
+    "shared/CONTEXT_MANAGEMENT.md": {
+      "pinned_in_manifest": true,
+      "sha256": "3a4faaa659fbbfeda75a97205bc40c59e6a43973c700e2ef9b3b207cf8ebb50d",
+      "words": 679
+    },
+    "shared/HANDOFFS.md": {
+      "pinned_in_manifest": false,
+      "sha256": "301097f99ec138bce5d7fe2ee88811e27542140f2fab45cfda97f8f7f15e0e40",
+      "words": 787
+    },
+    "shared/INDEX.md": {
+      "pinned_in_manifest": false,
+      "sha256": "56b35d959eb2a4998b06ec49a1dd0786a2f7ef83e40c0f786b5c7cc959855132",
+      "words": 202
+    },
+    "shared/PROJECT_DISCOVERY.md": {
+      "pinned_in_manifest": false,
+      "sha256": "80a2d733e09facae249f58bfa830096abd7a963bb27a43a31be2b95287a163b6",
+      "words": 831
+    },
+    "shared/RECONCILIATION.md": {
+      "pinned_in_manifest": false,
+      "sha256": "49b333bf26d5c65f4cde94ffc3e4f04c13e394c2d4dc41d0495611bdab3ea4c0",
+      "words": 269
+    },
+    "shared/RECORD_FORMATS.md": {
+      "pinned_in_manifest": true,
+      "sha256": "317236250041fdacb1135350309ec287186aa7ed22c2f4605a7b6a47a60833fb",
+      "words": 361
+    },
+    "shared/WORK_GRAPH.md": {
+      "pinned_in_manifest": true,
+      "sha256": "cdd27373777e73ce61f06520ac5d078c234fc77ab8e20cbd2282024e8d32219f",
+      "words": 449
+    },
+    "workflows/INDEX.md": {
+      "pinned_in_manifest": false,
+      "sha256": "2877962c9efb88fe11c884135453f7c99bfe6677e3f18da385a9ee34b5cd1105",
+      "words": 118
+    }
+  },
+  "scope": "26 manifest files; root bridge separately; direct core route targets separately; no recursive closure",
+  "source_manifest_sha256": "2d6cd50f77ae7cdb17bcd7e4a68baa9ba59f85b56c1b55ef07d1ca5e26db16e7",
+  "sources": {
+    "AGENTS.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 36,
+      "metadata_words": 0,
+      "nonmetadata_words": 716,
+      "sha256": "13e3631b70d14c83f59ed5bf8929e909ec536d163279e61b4a267f15e49b4b49",
+      "words": 716
+    },
+    "agents/chief-of-staff/AGENTS.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 5,
+      "metadata_words": 47,
+      "nonmetadata_words": 401,
+      "sha256": "6e3892f8900a8b8328fd0eaa991a3b463b75fa8a7e56aa5c73eabf69ce61cc97",
+      "words": 448
+    },
+    "agents/chief-of-staff/CONTEXT.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 2,
+      "metadata_words": 47,
+      "nonmetadata_words": 116,
+      "sha256": "131cf31dabdc53147e52ec3144fb0a72ce4266b3cbafb5dd595a39d473e4b38f",
+      "words": 163
+    },
+    "agents/coordinator/AGENTS.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 10,
+      "metadata_words": 45,
+      "nonmetadata_words": 666,
+      "sha256": "5b0fac6998ce8dc15340d62796f534cbe353210e6ccfe6d1c2c203b89b499bef",
+      "words": 711
+    },
+    "agents/coordinator/CONTEXT.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 3,
+      "metadata_words": 45,
+      "nonmetadata_words": 154,
+      "sha256": "808c424701d834879020d741a783ecd1692a30e03284d15083ddb56c1854a3db",
+      "words": 199
+    },
+    "agents/researcher/AGENTS.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 2,
+      "metadata_words": 45,
+      "nonmetadata_words": 209,
+      "sha256": "0488e19263b95e8ae47ffbcf71134002f87c589ab97cb5d4e6a3484478d9e9ba",
+      "words": 254
+    },
+    "agents/researcher/CONTEXT.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 2,
+      "metadata_words": 45,
+      "nonmetadata_words": 105,
+      "sha256": "a55151dcfb17eaab4524272ecab4a453a5bb388791e93adf4366d2879061090a",
+      "words": 150
+    },
+    "agents/reviewer/AGENTS.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 6,
+      "metadata_words": 47,
+      "nonmetadata_words": 484,
+      "sha256": "d370a55b59de16042dbae83aea4f720e1bcf11919faa74d9b958b98e08a7bec2",
+      "words": 531
+    },
+    "agents/reviewer/CONTEXT.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 2,
+      "metadata_words": 45,
+      "nonmetadata_words": 120,
+      "sha256": "40eeb8053d4ba743fb805bd2ddde44c603c926d66b99b2c9b49046db54e5c872",
+      "words": 165
+    },
+    "policies/ACCEPTANCE.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 1,
+      "metadata_words": 47,
+      "nonmetadata_words": 742,
+      "sha256": "193a3150240ad64542b033d9c31f500077c5ff80c824510808f3660f974a33a8",
+      "words": 789
+    },
+    "policies/APPROVALS.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 0,
+      "metadata_words": 47,
+      "nonmetadata_words": 168,
+      "sha256": "65e6f15ab93cdf1aba5eecc172a51aa8484e0be35a67e29936b5b3cacca976b2",
+      "words": 215
+    },
+    "policies/AUTHORITY.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 0,
+      "metadata_words": 47,
+      "nonmetadata_words": 178,
+      "sha256": "082de2f8fec06bc6dc9027d2f8605ca61cda12a5f5c175d1c3019bd1035d1118",
+      "words": 225
+    },
+    "policies/MODEL_SELECTION.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 0,
+      "metadata_words": 47,
+      "nonmetadata_words": 189,
+      "sha256": "d500ac114d42bdae6dc72e434b393815dd6f7c0e6d9a39f3cb0ae6e9a9d416b5",
+      "words": 236
+    },
+    "policies/ORGANIZATION_CHANGES.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 0,
+      "metadata_words": 47,
+      "nonmetadata_words": 137,
+      "sha256": "8eda199f28fe4e8c1161a04f8ae0dedb1e457e907928598cfd70bccb42e587f1",
+      "words": 184
+    },
+    "policies/PLANNING.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 2,
+      "metadata_words": 49,
+      "nonmetadata_words": 1015,
+      "sha256": "5608e3beb92f4b6b951578c8282dff1e6ccf838418ce5f9e83b756b14f9ed7fb",
+      "words": 1064
+    },
+    "policies/RECORD_OWNERSHIP.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 1,
+      "metadata_words": 60,
+      "nonmetadata_words": 756,
+      "sha256": "0fd755d8dc36e61b12e81df63b5d8fda9c38800e748bd7b8a6995aa547ab5310",
+      "words": 816
+    },
+    "policies/RESOURCE_BUDGETS.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 1,
+      "metadata_words": 47,
+      "nonmetadata_words": 423,
+      "sha256": "5857e89874c0bc6cc1aca6cd338e930c3865f5db1d510e8905f964efb65f9960",
+      "words": 470
+    },
+    "policies/ROUTING.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 0,
+      "metadata_words": 47,
+      "nonmetadata_words": 294,
+      "sha256": "edb7fdec5c6f9badb5cfcd9437a760eb73403d5b7aa2da14647c6b7341235a4c",
+      "words": 341
+    },
+    "policies/SCOPE_BOUNDARIES.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 1,
+      "metadata_words": 47,
+      "nonmetadata_words": 243,
+      "sha256": "605778f942bead5b135d79e94ec803138150c6ab4a0cddc7531a5bdff292bed5",
+      "words": 290
+    },
+    "policies/SELF_IMPROVEMENT.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 2,
+      "metadata_words": 47,
+      "nonmetadata_words": 1165,
+      "sha256": "41187ca5a70e8c5e531fb02488509c52423b2af116b8d769d055bfe1c39849e9",
+      "words": 1212
+    },
+    "shared/CONTEXT_MANAGEMENT.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 3,
+      "metadata_words": 47,
+      "nonmetadata_words": 632,
+      "sha256": "3a4faaa659fbbfeda75a97205bc40c59e6a43973c700e2ef9b3b207cf8ebb50d",
+      "words": 679
+    },
+    "shared/INTENT_PROVENANCE.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 5,
+      "metadata_words": 66,
+      "nonmetadata_words": 1454,
+      "sha256": "ec0a646cae64423e74bf6b5c6251d0dd0e72536cc99a85abb363f1972794316f",
+      "words": 1520
+    },
+    "shared/RECORD_FORMATS.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 0,
+      "metadata_words": 45,
+      "nonmetadata_words": 316,
+      "sha256": "317236250041fdacb1135350309ec287186aa7ed22c2f4605a7b6a47a60833fb",
+      "words": 361
+    },
+    "shared/SESSION_LIFECYCLE.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 5,
+      "metadata_words": 45,
+      "nonmetadata_words": 437,
+      "sha256": "1609b3c24b0e8f88ca89ccac6a8fa38c86b5fbbc6d5d332503eee17036cfe69b",
+      "words": 482
+    },
+    "shared/WORK_GRAPH.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 0,
+      "metadata_words": 45,
+      "nonmetadata_words": 404,
+      "sha256": "cdd27373777e73ce61f06520ac5d078c234fc77ab8e20cbd2282024e8d32219f",
+      "words": 449
+    },
+    "workflows/WF-000004.md": {
+      "hash_matches": true,
+      "manifest_words_match": true,
+      "markdown_link_occurrences": 1,
+      "metadata_words": 44,
+      "nonmetadata_words": 523,
+      "sha256": "39a5370a46b8cd9a2a8b5e4aee81cf5ba20300b82703963706a5782d7a5a250c",
+      "words": 567
+    }
+  },
+  "startup_profiles_excluding_bridge_and_dynamic_task_context": {
+    "chief-of-staff": {
+      "file_count": 5,
+      "files": [
+        "AGENTS.md",
+        "policies/AUTHORITY.md",
+        "policies/SCOPE_BOUNDARIES.md",
+        "agents/chief-of-staff/AGENTS.md",
+        "agents/chief-of-staff/CONTEXT.md"
+      ],
+      "words": 1842
+    },
+    "coordinator": {
+      "file_count": 6,
+      "files": [
+        "AGENTS.md",
+        "policies/AUTHORITY.md",
+        "policies/SCOPE_BOUNDARIES.md",
+        "agents/coordinator/AGENTS.md",
+        "agents/coordinator/CONTEXT.md",
+        "shared/SESSION_LIFECYCLE.md"
+      ],
+      "words": 2623
+    },
+    "researcher": {
+      "file_count": 5,
+      "files": [
+        "AGENTS.md",
+        "policies/AUTHORITY.md",
+        "policies/SCOPE_BOUNDARIES.md",
+        "agents/researcher/AGENTS.md",
+        "agents/researcher/CONTEXT.md"
+      ],
+      "words": 1635
+    },
+    "reviewer": {
+      "file_count": 5,
+      "files": [
+        "AGENTS.md",
+        "policies/AUTHORITY.md",
+        "policies/SCOPE_BOUNDARIES.md",
+        "agents/reviewer/AGENTS.md",
+        "agents/reviewer/CONTEXT.md"
+      ],
+      "words": 1927
+    }
+  },
+  "totals": {
+    "distinct_metadata_lines": 68,
+    "exact_duplicate_metadata_excess_words": 786,
+    "exact_duplicate_nonmetadata_line_excess_words": 534,
+    "exact_duplicate_sentence_excess_words": 444,
+    "files": 26,
+    "metadata_field_occurrences": 200,
+    "metadata_words": 1190,
+    "nonmetadata_words": 12047,
+    "words": 13237
+  },
+  "word_definition": "len(UTF-8 decoded text.split()); Markdown syntax and metadata included"
+}
