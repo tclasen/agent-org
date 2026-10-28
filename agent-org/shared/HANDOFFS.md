@@ -11,6 +11,8 @@
 
 Every substantive worker returns/persists a handoff with Task/Run/role/native identity, target/classification, authorized scope and checkpoint time; original intended outcome and completed actions; exact changed paths; artifact locations/hashes and actual commands/exit results; criterion outcomes/failures/limits; unresolved questions/dependencies; intended/observed external effects and identifiers; cumulative budgets/retries; current claim/continuation ownership; and one exact next safe action with required authority.
 
+Preserve the [intent provenance chain](INTENT_PROVENANCE.md): source request with context, agent-selected approach, bounded execution authorization, and accepted/superseded/unresolved choices. Link each basis and keep missing source context explicit. Summary or compaction must not merge these into an invented user instruction or silently promote proposals.
+
 Use templates/HANDOFF.md for a copyable schema. Link canonical records rather than copying secrets or entire transcripts. Separate requested from observed metadata and implemented from verified results. If nothing changed/effected, say none. Mark uncertainty explicitly; a missing tool response is not success.
 
 Coordinator validates scope, hashes, claim and evidence, then admits independent review. Handoff completion is not approval or acceptance. Fresh replacement must be able to act from linked records without inherited conversation; demonstrate this with actual recovery trial, not only field completeness. Persist handoff at transitions/interruption or before handing ownership to another native worker.

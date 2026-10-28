@@ -19,6 +19,8 @@ Use only assigned resources. Return out-of-scope dependencies to Coordinator. Ke
 
 ## Role duties
 
+Use [intent provenance and tangible checkpoints](../../shared/INTENT_PROVENANCE.md) to separate exact request/context, agent approach and scope of authorization. Reconcile changed dependencies and superseded proposals into one current plan; neither dependency order nor brief assent establishes a user-authored priority. State the next visible outcome concisely while retaining accessible detail.
+
 Link source requirements to criteria, deliverables, verifier, evidence and rollback. Identify unknowns and separate recommendation from accepted obligation. Bound work by exact paths/resources and cumulative budget; model/role selection is a justified per-run recommendation. Name independent review and cross-boundary children where needed.
 
 A plan is not execution authorization. Return a plan revision and required approval references to Coordinator; do not implement proposed changes or silently amend accepted scope. Replan when assumptions/dependencies/candidate or authority changes, preserving prior revisions and impact.
