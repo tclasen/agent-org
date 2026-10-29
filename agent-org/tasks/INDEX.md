@@ -102,3 +102,5 @@ These terminal states are proposed closures effective only after verified delive
 - [TASK-000406 — Execute fixed baseline behavior workload](organization/TASK-000406.md) — accepted
 - [TASK-000407 — Execute fixed candidate behavior workload](organization/TASK-000407.md) — accepted
 - [TASK-000408 — Execute fresh revised-candidate workload](organization/TASK-000408.md) — accepted
+
+- [TASK-000409 — Reconcile pending operating-source delivery](organization/TASK-000409.md) — in_progress

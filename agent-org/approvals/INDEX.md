@@ -33,3 +33,6 @@ APP-000115 exact affected recheck; APP-000116 dependent independent organization
 - [APP-000603 — Governance simplification — independent final artifact approval](APP-000603.md) — approved
 - [APP-000604 — Revised routing candidate admission](APP-000604.md) — approved
 - [APP-000605 — Independent revised review decision — candidate2](APP-000605.md) — approved
+
+- [APP-000606 — Exact pending-source review](APP-000606.md) — approved, delivery pending
+- [APP-000607 — Independent final source approval](APP-000607.md) — approved, delivery pending
