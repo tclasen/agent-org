@@ -103,3 +103,9 @@ APP452 records direct owner retirement admission; APP450/451 remain reserved ind
 ## Governance burden evaluation allocation
 
 2026-10-28: reserve REQ-000084, TASK-000394, TASK-000395, TASK-000396, TASK-000397, TASK-000398, TASK-000399, RUN-000388, RUN-000389, RUN-000390, RUN-000391, RUN-000392, RUN-000393, RUN-000394, RUN-000395, APP-000598, APP-000599, APP-000600. Evaluation-only authority under current operator request and APP-000598; no policy promotion, project changes or runtime mappings.
+
+## Governance simplification allocation
+
+2026-10-28T23:24:26.272225+00:00: reserve REQ-000085, TASK-000400, TASK-000401, TASK-000402, TASK-000403, TASK-000404, TASK-000405, TASK-000406, TASK-000407, RUN-000396, RUN-000397, RUN-000398, RUN-000399, RUN-000400, RUN-000401, RUN-000402, RUN-000403, RUN-000404, APP-000601, APP-000602, APP-000603. Current operator fix-and-push instruction; no new project, evaluator or publication bypass grant.
+
+2026-10-28T23:47:09.183758+00:00: reserve TASK-000408, RUN-000405, APP-000604, APP-000605. One revised governance routing experiment under REQ-000085; candidate1 rejection retained, no evaluator/project scope or budget reset.

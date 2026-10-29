@@ -1,0 +1,21 @@
+{
+  "required_sources_read": [
+    "policies/AUTHORITY.md",
+    "policies/SCOPE_BOUNDARIES.md",
+    "policies/PLANNING.md",
+    "policies/MEASUREMENT_INDEPENDENCE.md",
+    "policies/APPROVALS.md",
+    "policies/ACCEPTANCE.md",
+    "shared/CONTEXT_MANAGEMENT.md",
+    "AGENTS.md",
+    "agents/researcher/AGENTS.md",
+    "agents/researcher/CONTEXT.md",
+    "policies/SELF_IMPROVEMENT.md",
+    "workflows/WF-000004.md",
+    "candidate-cases.json"
+  ],
+  "unavailable_sources": [],
+  "incidental_exposure": [],
+  "requested_configuration": "gpt-6-luna / medium (as reported in the parent dispatch)",
+  "actual_configuration": "unknown; no trusted runtime model/capacity telemetry was provided or observed"
+}

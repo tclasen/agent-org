@@ -84,9 +84,21 @@ Historical organization registry labels and status snapshots below are retained 
 
 These terminal states are proposed closures effective only after verified delivery of the same evidence PR; before that observation acceptance remains pending.
 
-- [TASK-000394 — Coordinate parallel governance evaluation](organization/TASK-000394.md) — blocked
+- [TASK-000394 — Coordinate parallel governance evaluation](organization/TASK-000394.md) — accepted
 - [TASK-000395 — Measure instruction footprint and duplication](organization/TASK-000395.md) — accepted
 - [TASK-000396 — Trace proportionality and process failure risks](organization/TASK-000396.md) — accepted
 - [TASK-000397 — Run fixed behavioral navigation pilot](organization/TASK-000397.md) — accepted
 - [TASK-000398 — Independently verify evaluation evidence](organization/TASK-000398.md) — accepted
 - [TASK-000399 — Approve bounded findings and proposal disposition](organization/TASK-000399.md) — accepted
+
+## Governance simplification
+
+- [TASK-000400 — Deliver all evaluated governance fixes](organization/TASK-000400.md) — accepted
+- [TASK-000401 — Consolidate hot-path instructions and preserve history](organization/TASK-000401.md) — accepted
+- [TASK-000402 — Repair proportionate incident routing and workflow duplication](organization/TASK-000402.md) — accepted
+- [TASK-000403 — Qualify simplification and repair evaluation protocol](organization/TASK-000403.md) — accepted
+- [TASK-000404 — Independently review readiness and final simplification](organization/TASK-000404.md) — accepted
+- [TASK-000405 — Admit and approve evidence-qualified simplification](organization/TASK-000405.md) — accepted
+- [TASK-000406 — Execute fixed baseline behavior workload](organization/TASK-000406.md) — accepted
+- [TASK-000407 — Execute fixed candidate behavior workload](organization/TASK-000407.md) — accepted
+- [TASK-000408 — Execute fresh revised-candidate workload](organization/TASK-000408.md) — accepted

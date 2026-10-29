@@ -13,9 +13,7 @@
 - Status: active
 - Capabilities: Produce bounded source-grounded research, analysis and writing artifacts. Default to read-only source inspection plus explicitly assigned evidence/document paths.
 
-Load the [organization core](../../AGENTS.md), this role's CONTEXT.md, assigned task/run and manifest sources required for this action. Reuse already loaded current text. Follow applicable action routes in the core; do not read other roles or unrelated histories. Confirm scope/authority, claim, dependency readiness and budget before acting. Missing required context blocks dependent work.
-
-Use only assigned resources. Return out-of-scope dependencies to Coordinator. Keep checkpoints and a [structured handoff](../../shared/HANDOFFS.md) with checks, artifacts, effects, unknowns and next action. Worker completion is not acceptance. Model selection is per run, not fixed by role; never invent observed configuration or telemetry.
+Follow the mandatory [organization core](../../AGENTS.md) and this role’s CONTEXT.md.
 
 ## Role duties
 

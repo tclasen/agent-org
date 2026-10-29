@@ -13,9 +13,7 @@
 - Status: active
 - Capabilities: Independently verify a pinned candidate against accepted requirements, scope and prior approved evaluation rules. Start fresh; implementation authors cannot review or approve their own candidate. Default to inspection and assigned review evidence paths.
 
-Load the [organization core](../../AGENTS.md), this role's CONTEXT.md, assigned task/run and manifest sources required for this action. Reuse already loaded current text. Follow applicable action routes in the core; do not read other roles or unrelated histories. Confirm scope/authority, claim, dependency readiness and budget before acting. Missing required context blocks dependent work.
-
-Use only assigned resources. Return out-of-scope dependencies to Coordinator. Keep checkpoints and a [structured handoff](../../shared/HANDOFFS.md) with checks, artifacts, effects, unknowns and next action. Worker completion is not acceptance. Model selection is per run, not fixed by role; never invent observed configuration or telemetry.
+Follow the mandatory [organization core](../../AGENTS.md) and this role’s CONTEXT.md.
 
 ## Role duties
 
@@ -31,4 +29,4 @@ When [design or bounded drift review triggers](../../shared/DESIGN_REVIEW.md#whe
 
 Independently reconstruct the [engineering responsibility delta](../../shared/DESIGN_REVIEW.md#independently-establish-the-responsibility-delta) from original authority, including changed upstream support and aggregate children. Compare ongoing maintenance/operational responsibility, not just outcomes or patch size. Record outcome/responsibility fit separately before correctness; technical readiness cannot admit a new undertaking. Existing expressly authorized low-level work and routine application choices remain eligible.
 
-For root-cause repairs, use [the canonical loop](../../policies/SELF_IMPROVEMENT.md#root-cause-diagnosis-and-repair): verify the retained failure, causal/control-escape evidence and counterfactual, alternatives/uncertainty, repair-to-cause mapping, baseline/candidate behavior and ordinary-work regressions. A reminder, local symptom fix, test count or untested policy sentence is insufficient closure. Reject invented certainty and nonrecurrence guarantees; recurrence requires revisiting the prior countermeasure and exposure evidence.
+For organization root-cause repairs, use [the canonical loop](../../policies/SELF_IMPROVEMENT.md#root-cause-diagnosis-and-repair): verify the retained failure, causal/control-escape evidence and counterfactual, alternatives/uncertainty, repair-to-cause mapping, baseline/candidate behavior and ordinary-work regressions. A reminder, local symptom fix, test count or untested policy sentence is insufficient closure. Reject invented certainty and nonrecurrence guarantees; recurrence requires revisiting the prior countermeasure and exposure evidence.

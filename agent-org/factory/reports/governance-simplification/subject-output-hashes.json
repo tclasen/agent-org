@@ -1,0 +1,30 @@
+{
+  "baseline": {
+    "responses": 20,
+    "files": {
+      "baseline-responses.json": "8945c966f45d3602151bb92920b9c709c80a5d66a9fa488c3708de764d23ed4c",
+      "baseline-exposure.json": "b3eded5de1a0de631e0ab0b65616dcf1e74e66bf568d66162e2b0a3ef43943ff"
+    },
+    "requested_configuration": {
+      "model": "gpt-6-luna",
+      "reasoning": "medium"
+    },
+    "actual_configuration": "unknown; invocation request accepted without error but no trusted metadata",
+    "execution": "fresh collaboration fork_turns=none; native IDs session-only",
+    "scope": "hypothetical policy decisions only; self-reported exposure, no host-enforced secrecy claim"
+  },
+  "candidate": {
+    "responses": 20,
+    "files": {
+      "candidate-responses.json": "45264fe117d8a40e81f239925eb4fa4bb95cb0477542bcee2dc32bfd58e2abca",
+      "candidate-exposure.json": "dac77d2017aa6ed95a83856c04c8993857848bb9b3d94917a1b9efa90ccd85b5"
+    },
+    "requested_configuration": {
+      "model": "gpt-6-luna",
+      "reasoning": "medium"
+    },
+    "actual_configuration": "unknown; invocation request accepted without error but no trusted metadata",
+    "execution": "fresh collaboration fork_turns=none; native IDs session-only",
+    "scope": "hypothetical policy decisions only; self-reported exposure, no host-enforced secrecy claim"
+  }
+}

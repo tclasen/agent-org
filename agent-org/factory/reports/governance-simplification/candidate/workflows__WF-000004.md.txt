@@ -1,0 +1,32 @@
+# WF-000004 — Autonomous evidence-qualified recursive improvement
+
+- ID: WF-000004
+- Target System: organization
+- Change Classification: organization
+- Authorized Scope: agent-org/workflows/WF-000004.md
+- Affected Paths or Resources: agent-org/workflows/WF-000004.md
+- Owning Role: Chief of Staff
+- Related Requirements: REQ-000008, REQ-000009, REQ-000035, REQ-000036, REQ-000033
+- Related Tasks: TASK-000002
+- Approval Requirements: APP-000001; future revisions follow policies/APPROVALS.md
+
+- Status: active
+- Inputs: Every observed unexpected problem/correction (including first occurrence), or proposed organization hypothesis; user authority, approved baseline/prior evaluator and shared budget
+- Outputs: Evidenced local resolution where eligible; otherwise owned organization assessment and independent bound approval/reject/inconclusive, with verified promotion/rollback if qualified
+- Refusal Cases: Candidate evaluates itself, moved denominator/history, self-granted authority, missing target telemetry, guardrail regression or exhausted budget
+- Evidence: Registered plan, baseline/candidate/evaluator/workload hashes, all outcomes, reviewer/approver independence and PR/rollback provenance
+- Exit Criterion: Only evidence-qualified exact candidate promoted; rejected/inconclusive candidates stay unpromoted; rollback restores verified known-good behavior
+
+## Procedure
+
+1. Apply the canonical [first-occurrence diagnosis and resolution rules](../policies/SELF_IMPROVEMENT.md#root-cause-diagnosis-and-repair) during the active task. Coordinator ensures containment and diagnosis ownership. Retain every observation. Eligible local issues remain in the existing task under ordinary review; exclusions route to Chief of Staff. Do not turn a local resolution into organization qualification.
+2. For organization assessment/repair, Chief of Staff selects the bounded hypothesis and follows the canonical [preregistration, prior-evaluator, qualification and rollback requirements](../policies/SELF_IMPROVEMENT.md), including its independent Reviewer and distinct Chief of Staff decisions. Those requirements remain controlling; this workflow supplies no alternative thresholds or waiver. Preserve approved instructions/evaluator and all outcomes. No project write comes from this workflow; a needed project change requires its separate authority/task.
+3. Coordinator reconciles authority/intent and integrates a qualified exact candidate through [mandatory PR delivery](WF-000003.md). Bind candidate/evidence identities, recheck affected changes and verify owning-remote main under [acceptance](../policies/ACCEPTANCE.md#remote-main-completion-gate). Apply canonical diagnosis/recurrence follow-up and rollback; neither delivery nor a local recovery proves nonrecurrence.
+
+## Revision and execution evidence
+
+2026-10-21: Installed under TASK-000002 / APP-000001. This is a reusable workflow definition, not a completed run or asserted test pass. Each invocation links its own task, run, approval, evidence and acceptance.
+
+## Executable learning loop
+
+At the existing improvement-review trigger, apply [autonomous execution](../shared/AUTONOMOUS_EXECUTION.md): validate the correction queue and candidate lineage/exposure, select one admitted bounded experiment, pin a scoped manifest, run retained behavioral cases and report complete resource observations. No queue entry, archive rank, scenario pass or scorecard replaces the canonical qualification and delivery requirements above. Keep prior evaluator and known-good rollback; new evaluator semantics remain a separate independently governed candidate.

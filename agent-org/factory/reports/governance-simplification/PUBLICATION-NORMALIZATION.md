@@ -1,0 +1,5 @@
+# Final publication normalization
+
+Final standard git diff whitespace checking detected new blank lines at EOF in core AGENTS and Design Director CONTEXT. These came from paragraph removal and were caught before push. Only the extra EOF line feeds were removed; every instruction word, field, anchor and meaningful byte remains. The two before/after hashes and exact removed byte counts are in candidate-publication-manifest.json. All other31qualified source files match candidate2 exactly.
+
+The original candidate2 treatment/snapshots/decisions/manifests and failed candidate1 remain immutable. This is a nonsemantic delivery-formatting correction, not a third candidate experiment or a new evaluator. Existing assertions are rerun against the normalized publication-source manifest, and final independent reviewers approve the exact assembled delivery bytes. The existing whitespace gate suffices; no new organization rule is justified. Full144software tests passed before this formatting-only normalization; hosted full checks still apply to the exact final PR.
