@@ -7,3 +7,7 @@ Current ownership work: REQ-000056, TASK-000151 through TASK-000160, RUN-000146 
 ## Responsibility and root-cause repair records
 
 - [REQ-000083 — Engineering responsibility boundaries and root-cause repair](organization/REQ-000083.md) — accepted
+
+## Governance burden evaluation
+
+- [REQ-000084 — Evaluate governance burden and identify bounded improvements](organization/REQ-000084.md) — planned

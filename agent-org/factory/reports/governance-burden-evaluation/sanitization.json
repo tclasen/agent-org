@@ -1,0 +1,10 @@
+{
+  "baseline-exposure.md": {
+    "operation": "Replace installation-specific absolute root prefix with repository-relative agent-org/ prefix; preserve all read/exposure statements. Original path spelling is available in active session tool output; no raw local-path artifact is published.",
+    "original_sha256": "06bb4268d2102da7813128faa7336e52c2ddefeded34ba4321452888e15ad223",
+    "sanitized_sha256": "be40a1a02ef46b8b129bebfefecf0287f71586d1241fe10919b9c628bc5485c2"
+  },
+  "candidate-exposure.md": {
+    "operation": "Worker normalized path names to repository-relative paths before final handoff; all source/exposure facts retained."
+  }
+}

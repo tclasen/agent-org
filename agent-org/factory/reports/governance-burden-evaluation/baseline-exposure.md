@@ -1,0 +1,25 @@
+# Baseline exposure account
+
+- Task/run: TASK-000397 / RUN-000391
+- Assigned role: Researcher
+- Treatment/scope: baseline synthetic decision responses only; no scenario actions executed.
+- Paths read:
+  - `agent-org/factory/reports/governance-burden-evaluation/baseline-envelope.md`
+  - `agent-org/AGENTS.md`
+  - `agent-org/policies/AUTHORITY.md`
+  - `agent-org/policies/SCOPE_BOUNDARIES.md`
+  - `agent-org/agents/researcher/AGENTS.md`
+  - `agent-org/agents/researcher/CONTEXT.md`
+  - `agent-org/factory/reports/governance-burden-evaluation/baseline-cases.json`
+  - `agent-org/shared/CONTEXT_MANAGEMENT.md`
+  - `agent-org/policies/SELF_IMPROVEMENT.md`
+  - `agent-org/policies/ROUTING.md`
+  - `agent-org/policies/PLANNING.md`
+  - `agent-org/policies/ACCEPTANCE.md`
+  - `agent-org/policies/MEASUREMENT_INDEPENDENCE.md`
+  - `agent-org/policies/MODEL_SELECTION.md`
+- Exposure: no preregistration, rubric, audit report, approval content, mixed-purpose task/run records, or other condition files were read. The baseline envelope, scenario cases, and mandatory governance sources were read.
+- Instruction words: not measured.
+- Tool failures: none observed.
+- Actual model, reasoning, token usage, cost, and context capacity: unknown; no trusted harness metadata was available in the supplied context.
+- Isolation limit: this is a worker-reported read account; it does not establish host-enforced isolation or universal compliance.

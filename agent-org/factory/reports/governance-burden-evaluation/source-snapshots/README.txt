@@ -1,0 +1,1 @@
+Historical evaluation inputs only. These .txt snapshots have no operating authority and are not startup instructions. source-snapshot-index.json maps them to canonical source names and observed SHA256 identities. Baseline is current working bytes, not assumed clean remote main. Additional post-execution reads are labeled. Do not load this folder during ordinary task startup.

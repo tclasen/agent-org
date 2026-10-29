@@ -1,0 +1,112 @@
+{
+  "observed_at": "2026-10-28T22:38:33.884577+00:00",
+  "base_commit": "e179a52079be1731d30914348203376adec5e674",
+  "baseline": "current working instruction content, including pre-existing edits; not assumed clean remote-main",
+  "sources": {
+    "AGENTS.md": {
+      "sha256": "13e3631b70d14c83f59ed5bf8929e909ec536d163279e61b4a267f15e49b4b49",
+      "words": 716
+    },
+    "policies/AUTHORITY.md": {
+      "sha256": "082de2f8fec06bc6dc9027d2f8605ca61cda12a5f5c175d1c3019bd1035d1118",
+      "words": 225
+    },
+    "policies/SCOPE_BOUNDARIES.md": {
+      "sha256": "605778f942bead5b135d79e94ec803138150c6ab4a0cddc7531a5bdff292bed5",
+      "words": 290
+    },
+    "policies/SELF_IMPROVEMENT.md": {
+      "sha256": "41187ca5a70e8c5e531fb02488509c52423b2af116b8d769d055bfe1c39849e9",
+      "words": 1212
+    },
+    "policies/PLANNING.md": {
+      "sha256": "5608e3beb92f4b6b951578c8282dff1e6ccf838418ce5f9e83b756b14f9ed7fb",
+      "words": 1064
+    },
+    "policies/ACCEPTANCE.md": {
+      "sha256": "193a3150240ad64542b033d9c31f500077c5ff80c824510808f3660f974a33a8",
+      "words": 789
+    },
+    "policies/APPROVALS.md": {
+      "sha256": "65e6f15ab93cdf1aba5eecc172a51aa8484e0be35a67e29936b5b3cacca976b2",
+      "words": 215
+    },
+    "policies/ORGANIZATION_CHANGES.md": {
+      "sha256": "8eda199f28fe4e8c1161a04f8ae0dedb1e457e907928598cfd70bccb42e587f1",
+      "words": 184
+    },
+    "policies/ROUTING.md": {
+      "sha256": "edb7fdec5c6f9badb5cfcd9437a760eb73403d5b7aa2da14647c6b7341235a4c",
+      "words": 341
+    },
+    "policies/MODEL_SELECTION.md": {
+      "sha256": "d500ac114d42bdae6dc72e434b393815dd6f7c0e6d9a39f3cb0ae6e9a9d416b5",
+      "words": 236
+    },
+    "policies/RESOURCE_BUDGETS.md": {
+      "sha256": "5857e89874c0bc6cc1aca6cd338e930c3865f5db1d510e8905f964efb65f9960",
+      "words": 470
+    },
+    "policies/RECORD_OWNERSHIP.md": {
+      "sha256": "0fd755d8dc36e61b12e81df63b5d8fda9c38800e748bd7b8a6995aa547ab5310",
+      "words": 816
+    },
+    "agents/coordinator/AGENTS.md": {
+      "sha256": "5b0fac6998ce8dc15340d62796f534cbe353210e6ccfe6d1c2c203b89b499bef",
+      "words": 711
+    },
+    "agents/coordinator/CONTEXT.md": {
+      "sha256": "808c424701d834879020d741a783ecd1692a30e03284d15083ddb56c1854a3db",
+      "words": 199
+    },
+    "agents/chief-of-staff/AGENTS.md": {
+      "sha256": "6e3892f8900a8b8328fd0eaa991a3b463b75fa8a7e56aa5c73eabf69ce61cc97",
+      "words": 448
+    },
+    "agents/chief-of-staff/CONTEXT.md": {
+      "sha256": "131cf31dabdc53147e52ec3144fb0a72ce4266b3cbafb5dd595a39d473e4b38f",
+      "words": 163
+    },
+    "agents/researcher/AGENTS.md": {
+      "sha256": "0488e19263b95e8ae47ffbcf71134002f87c589ab97cb5d4e6a3484478d9e9ba",
+      "words": 254
+    },
+    "agents/researcher/CONTEXT.md": {
+      "sha256": "a55151dcfb17eaab4524272ecab4a453a5bb388791e93adf4366d2879061090a",
+      "words": 150
+    },
+    "agents/reviewer/AGENTS.md": {
+      "sha256": "d370a55b59de16042dbae83aea4f720e1bcf11919faa74d9b958b98e08a7bec2",
+      "words": 531
+    },
+    "agents/reviewer/CONTEXT.md": {
+      "sha256": "40eeb8053d4ba743fb805bd2ddde44c603c926d66b99b2c9b49046db54e5c872",
+      "words": 165
+    },
+    "shared/SESSION_LIFECYCLE.md": {
+      "sha256": "1609b3c24b0e8f88ca89ccac6a8fa38c86b5fbbc6d5d332503eee17036cfe69b",
+      "words": 482
+    },
+    "shared/CONTEXT_MANAGEMENT.md": {
+      "sha256": "3a4faaa659fbbfeda75a97205bc40c59e6a43973c700e2ef9b3b207cf8ebb50d",
+      "words": 679
+    },
+    "shared/WORK_GRAPH.md": {
+      "sha256": "cdd27373777e73ce61f06520ac5d078c234fc77ab8e20cbd2282024e8d32219f",
+      "words": 449
+    },
+    "shared/RECORD_FORMATS.md": {
+      "sha256": "317236250041fdacb1135350309ec287186aa7ed22c2f4605a7b6a47a60833fb",
+      "words": 361
+    },
+    "shared/INTENT_PROVENANCE.md": {
+      "sha256": "ec0a646cae64423e74bf6b5c6251d0dd0e72536cc99a85abb363f1972794316f",
+      "words": 1520
+    },
+    "workflows/WF-000004.md": {
+      "sha256": "39a5370a46b8cd9a2a8b5e4aee81cf5ba20300b82703963706a5782d7a5a250c",
+      "words": 567
+    }
+  },
+  "actual_model_reasoning_context_tokens_cost": "unknown; requested configuration is not observed execution metadata"
+}

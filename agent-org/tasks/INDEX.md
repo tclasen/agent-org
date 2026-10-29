@@ -79,3 +79,14 @@ Historical organization registry labels and status snapshots below are retained 
 - [TASK-000391 — Independently review responsibility and root-cause safeguards](organization/TASK-000391.md) — accepted
 - [TASK-000392 — Admit and approve bounded organization repair](organization/TASK-000392.md) — accepted
 - [TASK-000393 — Qualify responsibility and root-cause behavior](organization/TASK-000393.md) — accepted
+
+## Governance burden evaluation
+
+These terminal states are proposed closures effective only after verified delivery of the same evidence PR; before that observation acceptance remains pending.
+
+- [TASK-000394 — Coordinate parallel governance evaluation](organization/TASK-000394.md) — blocked
+- [TASK-000395 — Measure instruction footprint and duplication](organization/TASK-000395.md) — accepted
+- [TASK-000396 — Trace proportionality and process failure risks](organization/TASK-000396.md) — accepted
+- [TASK-000397 — Run fixed behavioral navigation pilot](organization/TASK-000397.md) — accepted
+- [TASK-000398 — Independently verify evaluation evidence](organization/TASK-000398.md) — accepted
+- [TASK-000399 — Approve bounded findings and proposal disposition](organization/TASK-000399.md) — accepted
