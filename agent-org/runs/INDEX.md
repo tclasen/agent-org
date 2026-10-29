@@ -36,3 +36,5 @@ Current ownership work: REQ-000056, TASK-000151 through TASK-000160, RUN-000146 
 - [RUN-000403 — independent readiness and final review](RUN-000403.md) — verified
 - [RUN-000404 — independent final approval](RUN-000404.md) — verified
 - [RUN-000405 — Fresh revised-candidate behavior run](RUN-000405.md) — verified
+
+- [RUN-000406 — Final source delivery](RUN-000406.md) — in_progress

@@ -42,7 +42,7 @@ An optional parent-only marker probe may observe whether one fresh child knows d
 
 ## Review three distinct questions
 
-Use the [design review schema](templates/DESIGN_REVIEW.md). One fresh Reviewer can cover these lenses; record that this is one perspective. Independent parallel perspectives, when justified, must fit the existing three-worker ceiling and depth budget. No new permanent role or synthesizer is required.
+Use the [design review schema](templates/DESIGN_REVIEW.md). One fresh Reviewer can cover these lenses; record that this is one perspective. Independent parallel perspectives, when justified, use actual runtime capacity and nonconflicting claims under RESOURCE_BUDGETS.md; there is no organization worker-count or delegation-depth ceiling. No new permanent role or synthesizer is required.
 
 | Lens | Required question and evidence |
 | --- | --- |
@@ -82,7 +82,7 @@ Include coverage and excluded/unreadable sources even when clean. Say no drift d
 
 ## Boundaries and qualification
 
-Keep prior grants, independence, worker/retry limits and exact-candidate acceptance intact. Neither exhausted review rounds nor a generated report creates acceptance. This procedure installs no plugin, service, provider or new scheduler and claims no measured efficiency or universal compliance. Future productivity or evaluator changes require their own qualification under existing prior rules. Roll back a regression through a normal corrective PR restoring known-good instructions while retaining findings and trial evidence.
+Keep prior grants, independence, actual runtime capacity, retry limits and exact-candidate acceptance intact. Neither exhausted review rounds nor a generated report creates acceptance. This procedure installs no plugin, service, provider or new scheduler and claims no measured efficiency or universal compliance. Future productivity or evaluator changes require their own qualification under existing prior rules. Roll back a regression through a normal corrective PR restoring known-good instructions while retaining findings and trial evidence.
 
 ## Independently establish the responsibility delta
 
