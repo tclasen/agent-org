@@ -26,7 +26,7 @@ Current ownership work: REQ-000056, TASK-000151 through TASK-000160, RUN-000146 
 
 ## Governance simplification
 
-- [RUN-000396 — coordination](RUN-000396.md) — blocked
+- [RUN-000396 — coordination](RUN-000396.md) — verified
 - [RUN-000397 — text consolidation](RUN-000397.md) — verified
 - [RUN-000398 — proportionate process repair](RUN-000398.md) — verified
 - [RUN-000399 — qualification preparation](RUN-000399.md) — verified
