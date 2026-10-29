@@ -34,7 +34,7 @@ Receipt source, time and remote identity are caller-attributed observations. Jou
 
 ## Convert corrections into tested candidates
 
-For every observed unexpected problem or correction, including first occurrences, immediately apply [root-cause diagnosis and repair](../policies/SELF_IMPROVEMENT.md#root-cause-diagnosis-and-repair) in the active task. Contain under authority, preserve the causal/control-escape evidence, and assign Chief of Staff organization diagnosis and durable corrective action. Reopen an existing incident family on recurrence; no reminder or relabeling closes it. Unresolved causes remain owned and nonterminal. The periodic review supplements this event-driven duty.
+Apply the canonical [first-occurrence diagnosis and resolution rules](../policies/SELF_IMPROVEMENT.md#root-cause-diagnosis-and-repair) to every actual unexpected problem/correction during the active task. Retain evidence and bounded diagnosis even for eligible local resolution. Coordinator ensures ownership and routes exclusions to Chief of Staff; recurrence reopens the prior incident/countermeasure. The periodic review supplements this duty. Local resolution does not create an improvement candidate or qualify an organization repair.
 
 At the existing startup/five-accepted-task improvement review, inspect [the correction queue](../knowledge/improvement-candidates/INDEX.md). Each candidate links an observed failure, affected task/run, causal hypothesis, permitted mutation, owner, counterexample, representative test, exposure history and rollback. Keep rejected and inconclusive ancestors. An observation from a single task remains a scoped hypothesis until transfer is tested.
 
@@ -44,7 +44,8 @@ python3 agent-org/factory/instrumentation/learning.py validate --root agent-org
 
 Candidate Markdown lives in `knowledge/improvement-candidates/` and `experiments/candidates/`. Use `learning.py scaffold --help` for deterministic record scaffolding on stdout; Coordinator still allocates formal task/run/experiment identities. Validate lineage before selection. Duplicate content, cycles, missing parents and incident-family partition overlap are errors. Final-test feedback exposed to a proposer makes that case development evidence for descendants; do not reuse it as independent final evidence.
 
-Select one bounded experiment under WF-000004. Pin baseline, criteria, candidate, workload and prior evaluator before results. Run the current improvement evidence gate where applicable. Deterministic repair requires retained baseline failure, candidate pass and regressions. Stochastic benefit retains at least20 paired cases, randomized order, positive95% interval and5% practical efficiency benefit; missing measurements are inconclusive. A candidate archive never promotes code or resets cumulative budget. Fresh Reviewer and distinct Chief of Staff decide under prior rules, then complete PR/main delivery.
+Select one admitted bounded experiment under [WF-000004](../workflows/WF-000004.md). Apply the canonical [preregistration, independent qualification, prior-evaluator and delivery requirements](../policies/SELF_IMPROVEMENT.md); the archive never promotes a candidate or resets cumulative budget. Preserve all outcomes and known-good rollback. These tool procedures do not change the evaluator.
+
 
 ## Exercise behavior and disclose measurement coverage
 

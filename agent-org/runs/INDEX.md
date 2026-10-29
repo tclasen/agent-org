@@ -23,3 +23,16 @@ Current ownership work: REQ-000056, TASK-000151 through TASK-000160, RUN-000146 
 - [RUN-000393 — independent evidence review](RUN-000393.md) — verified
 - [RUN-000394 — final evidence decision](RUN-000394.md) — verified
 - [RUN-000395 — independent admission](RUN-000395.md) — verified
+
+## Governance simplification
+
+- [RUN-000396 — coordination](RUN-000396.md) — blocked
+- [RUN-000397 — text consolidation](RUN-000397.md) — verified
+- [RUN-000398 — proportionate process repair](RUN-000398.md) — verified
+- [RUN-000399 — qualification preparation](RUN-000399.md) — verified
+- [RUN-000400 — independent admission](RUN-000400.md) — verified
+- [RUN-000401 — baseline subject](RUN-000401.md) — verified
+- [RUN-000402 — candidate subject](RUN-000402.md) — verified
+- [RUN-000403 — independent readiness and final review](RUN-000403.md) — verified
+- [RUN-000404 — independent final approval](RUN-000404.md) — verified
+- [RUN-000405 — Fresh revised-candidate behavior run](RUN-000405.md) — verified

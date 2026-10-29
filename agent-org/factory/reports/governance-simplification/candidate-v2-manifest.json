@@ -1,0 +1,173 @@
+{
+  "candidate_revision": 2,
+  "frozen_at": "2026-10-28T23:52:16.302235+00:00",
+  "sources": {
+    "AGENTS.md": {
+      "sha256": "5f2c3867df532550b2ced452c75e5c4240fc8bde49195eaaed2f590df2623fdb",
+      "words": 761,
+      "snapshot": "candidate-v2/AGENTS.md.txt"
+    },
+    "policies/AUTHORITY.md": {
+      "sha256": "082de2f8fec06bc6dc9027d2f8605ca61cda12a5f5c175d1c3019bd1035d1118",
+      "words": 225,
+      "snapshot": "candidate-v2/policies__AUTHORITY.md.txt"
+    },
+    "policies/SCOPE_BOUNDARIES.md": {
+      "sha256": "605778f942bead5b135d79e94ec803138150c6ab4a0cddc7531a5bdff292bed5",
+      "words": 290,
+      "snapshot": "candidate-v2/policies__SCOPE_BOUNDARIES.md.txt"
+    },
+    "policies/SELF_IMPROVEMENT.md": {
+      "sha256": "39d1305251ab835d310e34a552035ae227d60440370fae6e22ae626c36d457a2",
+      "words": 1420,
+      "snapshot": "candidate-v2/policies__SELF_IMPROVEMENT.md.txt"
+    },
+    "policies/APPROVALS.md": {
+      "sha256": "65e6f15ab93cdf1aba5eecc172a51aa8484e0be35a67e29936b5b3cacca976b2",
+      "words": 215,
+      "snapshot": "candidate-v2/policies__APPROVALS.md.txt"
+    },
+    "policies/ACCEPTANCE.md": {
+      "sha256": "193a3150240ad64542b033d9c31f500077c5ff80c824510808f3660f974a33a8",
+      "words": 789,
+      "snapshot": "candidate-v2/policies__ACCEPTANCE.md.txt"
+    },
+    "policies/MEASUREMENT_INDEPENDENCE.md": {
+      "sha256": "899d12e5d92d5a22ef16aa929f154efe1c7748997b071b043769d06a03970194",
+      "words": 226,
+      "snapshot": "candidate-v2/policies__MEASUREMENT_INDEPENDENCE.md.txt"
+    },
+    "policies/PLANNING.md": {
+      "sha256": "5608e3beb92f4b6b951578c8282dff1e6ccf838418ce5f9e83b756b14f9ed7fb",
+      "words": 1064,
+      "snapshot": "candidate-v2/policies__PLANNING.md.txt"
+    },
+    "policies/ROUTING.md": {
+      "sha256": "edb7fdec5c6f9badb5cfcd9437a760eb73403d5b7aa2da14647c6b7341235a4c",
+      "words": 341,
+      "snapshot": "candidate-v2/policies__ROUTING.md.txt"
+    },
+    "shared/CONTEXT_MANAGEMENT.md": {
+      "sha256": "3a4faaa659fbbfeda75a97205bc40c59e6a43973c700e2ef9b3b207cf8ebb50d",
+      "words": 679,
+      "snapshot": "candidate-v2/shared__CONTEXT_MANAGEMENT.md.txt"
+    },
+    "shared/RECORD_FORMATS.md": {
+      "sha256": "317236250041fdacb1135350309ec287186aa7ed22c2f4605a7b6a47a60833fb",
+      "words": 361,
+      "snapshot": "candidate-v2/shared__RECORD_FORMATS.md.txt"
+    },
+    "shared/HANDOFFS.md": {
+      "sha256": "06aa90e8663b189f4d6e9f5ec5d453c82815dd90f91beccfbc944231e2820777",
+      "words": 313,
+      "snapshot": "candidate-v2/shared__HANDOFFS.md.txt"
+    },
+    "shared/AUTONOMOUS_EXECUTION.md": {
+      "sha256": "e7c883fac9c734073fa04cd3346b3a73f57c8da870c3c0ee35380a9615f847eb",
+      "words": 908,
+      "snapshot": "candidate-v2/shared__AUTONOMOUS_EXECUTION.md.txt"
+    },
+    "shared/DESIGN_REVIEW.md": {
+      "sha256": "566a0a69dcf6f048cc81996a48c45c0790c89a4b088d7fa9a6e423dda5b386d6",
+      "words": 1649,
+      "snapshot": "candidate-v2/shared__DESIGN_REVIEW.md.txt"
+    },
+    "workflows/WF-000004.md": {
+      "sha256": "df65b72cb5d6591d1307b242a39267bde11081b6b6564bf3b7c8a65145380b68",
+      "words": 405,
+      "snapshot": "candidate-v2/workflows__WF-000004.md.txt"
+    },
+    "agents/architect/AGENTS.md": {
+      "sha256": "c08d26a4ea181686cd46f7327c3255739a5516cb03dc4af9942ff67af6432491",
+      "words": 164,
+      "snapshot": "candidate-v2/agents__architect__AGENTS.md.txt"
+    },
+    "agents/chief-of-staff/AGENTS.md": {
+      "sha256": "da4651e1c94a67a5c2877de29e1b0cd3943ce75fc4a6437f455f6773625050cd",
+      "words": 372,
+      "snapshot": "candidate-v2/agents__chief-of-staff__AGENTS.md.txt"
+    },
+    "agents/coordinator/AGENTS.md": {
+      "sha256": "6c849b3b4af74eaf3512b84c6fa94dbd1cfdd4f36a171bbd0ae9990ab83771ba",
+      "words": 591,
+      "snapshot": "candidate-v2/agents__coordinator__AGENTS.md.txt"
+    },
+    "agents/design-director/AGENTS.md": {
+      "sha256": "998dc063aa6c8704685fd33701012ed5b1c99c2ad9a9ab2ff3a861045f19aa5d",
+      "words": 885,
+      "snapshot": "candidate-v2/agents__design-director__AGENTS.md.txt"
+    },
+    "agents/developer/AGENTS.md": {
+      "sha256": "c94bad30fa653af00a3c9ce6875d4342be3499e58187ee0be09286c9687e6fe0",
+      "words": 173,
+      "snapshot": "candidate-v2/agents__developer__AGENTS.md.txt"
+    },
+    "agents/executor/AGENTS.md": {
+      "sha256": "4247d02ba14db6439d1e231e0963e25108a86829684858a7b910d4c872a013c1",
+      "words": 171,
+      "snapshot": "candidate-v2/agents__executor__AGENTS.md.txt"
+    },
+    "agents/planner/AGENTS.md": {
+      "sha256": "fa565bd87e4c080e39550ecabb60e42a0fd0c623fbe2174330ad616e5a20dae4",
+      "words": 269,
+      "snapshot": "candidate-v2/agents__planner__AGENTS.md.txt"
+    },
+    "agents/researcher/AGENTS.md": {
+      "sha256": "b9445186a4dcc1923596701fbd896eef1e9c9a34deae5330a672257d67acb533",
+      "words": 169,
+      "snapshot": "candidate-v2/agents__researcher__AGENTS.md.txt"
+    },
+    "agents/reviewer/AGENTS.md": {
+      "sha256": "fb8490efa28b6b712e9a39b5ae8e581640c41817bedeb3caf7c49c89c55263b7",
+      "words": 447,
+      "snapshot": "candidate-v2/agents__reviewer__AGENTS.md.txt"
+    },
+    "agents/architect/CONTEXT.md": {
+      "sha256": "c902a0759b467867d81285aaa965395536c19517eee871c1664d9e9b2783580f",
+      "words": 67,
+      "snapshot": "candidate-v2/agents__architect__CONTEXT.md.txt"
+    },
+    "agents/chief-of-staff/CONTEXT.md": {
+      "sha256": "c652a705d766f51e9ead11eac96458bfa24f419d6db307d60a6bb579d8eb5163",
+      "words": 71,
+      "snapshot": "candidate-v2/agents__chief-of-staff__CONTEXT.md.txt"
+    },
+    "agents/coordinator/CONTEXT.md": {
+      "sha256": "ad73b30ec0db687dfdce23959972955879e12264797dabc54800d99afe6fbc1c",
+      "words": 93,
+      "snapshot": "candidate-v2/agents__coordinator__CONTEXT.md.txt"
+    },
+    "agents/design-director/CONTEXT.md": {
+      "sha256": "f254b7c726b5fc7ad39aff8929867656d03ebcf6f121a1397370f1c73b31f050",
+      "words": 192,
+      "snapshot": "candidate-v2/agents__design-director__CONTEXT.md.txt"
+    },
+    "agents/developer/CONTEXT.md": {
+      "sha256": "639b089408b9725ed24bfd83c9cbe1fe55ed042fc9aabf939cbff28de754010a",
+      "words": 67,
+      "snapshot": "candidate-v2/agents__developer__CONTEXT.md.txt"
+    },
+    "agents/executor/CONTEXT.md": {
+      "sha256": "a87435b940f0abd36fc136300d888d0d1aa3f014f386e671ade65168dffacf46",
+      "words": 67,
+      "snapshot": "candidate-v2/agents__executor__CONTEXT.md.txt"
+    },
+    "agents/planner/CONTEXT.md": {
+      "sha256": "ca857bd32289be04c6af42eb28c8b063aa777ef58c76f6080e71f85db6ec4639",
+      "words": 67,
+      "snapshot": "candidate-v2/agents__planner__CONTEXT.md.txt"
+    },
+    "agents/researcher/CONTEXT.md": {
+      "sha256": "0302cd0a132ff7e72abbe7a511f1d39c147d6f8258e4767f61f1be408a2854a2",
+      "words": 67,
+      "snapshot": "candidate-v2/agents__researcher__CONTEXT.md.txt"
+    },
+    "agents/reviewer/CONTEXT.md": {
+      "sha256": "e7c05da3f463fd6061a0a2ff955059419aae827d4b75a4eb1adbe580c488e479",
+      "words": 67,
+      "snapshot": "candidate-v2/agents__reviewer__CONTEXT.md.txt"
+    }
+  },
+  "source_frozen_before_withheld_case_disclosure": true,
+  "source_author_report": "Process author reported no revised workload/rubric/order reads; only SELF and PROCESS-REPAIR-2 written. Qualification author reported no revised-case/rubric reads; parent withheld contents until this freeze. Self-report and shared-filesystem limits retained."
+}

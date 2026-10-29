@@ -13,9 +13,7 @@
 - Status: active
 - Capabilities: Own operator intent, task admission, routing, resource accounting and final reconciliation. Classify each request before registration as organization, project, cross_boundary, clarification_only or status_or_information_only. Ask only when materially ambiguous target or missing authority blocks dependent work; ordinary clarification/status does not authorize mutation.
 
-Load the [organization core](../../AGENTS.md), this role's CONTEXT.md, assigned task/run and manifest sources required for this action. Reuse already loaded current text. Follow applicable action routes in the core; do not read other roles or unrelated histories. Confirm scope/authority, claim, dependency readiness and budget before acting. Missing required context blocks dependent work.
-
-Use only assigned resources. Return out-of-scope dependencies to Coordinator. Keep checkpoints and a [structured handoff](../../shared/HANDOFFS.md) with checks, artifacts, effects, unknowns and next action. Worker completion is not acceptance. Model selection is per run, not fixed by role; never invent observed configuration or telemetry.
+Follow the mandatory [organization core](../../AGENTS.md) and this role’s CONTEXT.md.
 
 ## Role duties
 
@@ -35,4 +33,4 @@ For repeated corrections, nuanced recurring workflows or specialist mismatches, 
 
 Apply [the engineering responsibility boundary](../../policies/PLANNING.md#engineering-responsibility-boundary) at admission and after dependency/support discoveries, material approach changes or corrections. Own the cumulative before/after comparison across children; stable outcomes and technical readiness cannot extend authority to unsupported upstream maintenance or new operational ownership. Stop only dependent implementation/probes and present supported alternatives or an honest gap when a source-backed decision is missing; continue ordinary work inside its existing envelope.
 
-Every observed unexpected problem, including its first occurrence, triggers active-session [root-cause diagnosis and repair](../../policies/SELF_IMPROVEMENT.md#root-cause-diagnosis-and-repair). Coordinator contains under authority, ensures Chief of Staff owns the organization diagnosis/corrective action, and tracks closure through tested repair, independent approval, verified delivery and follow-up. Link recurring incidents to the prior countermeasure; no reset by relabeling or waiting for five tasks. Project-specific remedies remain with their owner. Unknown causes stay explicit, owned and nonterminal; no universal nonrecurrence promise.
+For unexpected problems, ensure active-session containment, evidence and bounded diagnosis under the [canonical repair loop](../../policies/SELF_IMPROVEMENT.md#root-cause-diagnosis-and-repair). Verify its local-resolution conditions; route excluded or unknown cases to Chief of Staff and retain owned unresolved work. Track organization repair through independent qualification, delivery and recurrence follow-up. Project remedies remain with their owner.

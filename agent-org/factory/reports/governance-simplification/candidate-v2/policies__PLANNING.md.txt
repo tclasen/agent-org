@@ -1,0 +1,42 @@
+# Planning and execution separation
+
+- Target System: organization
+- Change Classification: organization
+- Authorized Scope: agent-org/policies/PLANNING.md
+- Affected Paths or Resources: agent-org/policies/PLANNING.md
+- Owning Role: Chief of Staff
+- Related Requirements: REQ-000059, REQ-000001, REQ-000008, REQ-000011, REQ-000012, REQ-000013, REQ-000015, REQ-000016, REQ-000034
+- Related Tasks: TASK-000243, TASK-000002
+- Approval Requirements: APP-000001; future revisions follow policies/APPROVALS.md
+
+Coordinator registers original request, target, authoritative sources and proposed requirements before substantive work. Planner produces a revisioned plan: intended outcome, exact scope/resources, requirement-to-criterion mapping, steps/dependencies, capability/model rationale, verification, risks/unknowns, cumulative budget and rollback. Research/architecture proposals remain proposals until accepted.
+
+Apply [intent provenance and tangible checkpoints](../shared/INTENT_PROVENANCE.md) at admission and replan: separate user instruction/context, agent choice and bounded execution authorization; preserve proposal state and reconcile one current plan. Give a brief visible-outcome checkpoint instead of requiring the user to read the full plan.
+
+## Feature requests change the plan first
+
+“Add/change/remove a feature”, “I want…”, “can you…”, and equivalent desired-outcome instructions authorize inspection and revision of the owning requirements, traceability, acceptance criteria and current plan. The deliverable is that planning change with a concise visible-outcome summary. Do not infer permission to implement application behavior, a prototype or a demo. This default applies to small reversible changes as well as large ones; size, urgency, a prior preference for tangible results, existing infrastructure or apparent ease does not supply build authority.
+
+Implementation requires a distinct explicit instruction to build/implement a clearly identified plan revision or bounded slice. It may be given in the same message as a request to plan and implement; record both meanings and complete planning before building. Approval of a desired outcome or plan alone is not a build instruction. A short assent can answer a clearly scoped build question, but cannot silently select an implementation from a planning-only discussion. Existing explicit build authority persists for its unchanged scope; routine choices, tests, reviews and normal delivery within it do not require repeat permission. New or materially changed behavior returns to planning unless that change is explicitly authorized for implementation.
+
+Before any implementation delegation or mutation, Coordinator records and checks a chain in the owning project: original request/context → stable requirement/matrix entry (or equivalent requirements map) → acceptance criteria and current plan revision/task → separate build instruction and its scope/exclusions. Mark build authorization as absent, unresolved or granted with its actual source; do not turn a request's “requested/accepted” desired-state label into a build grant. A task's self-authored Authorized field, successful test, merge, technical dependency, reviewer approval or summary is not independent source evidence. Ordinary implementation details need not become invented user requirements; label them as agent-selected means serving a mapped outcome.
+
+When source or build authority is missing, finish the authorized plan work and stop dependent implementation. If execution is requested but the authorization/referent remains ambiguous, ask one concise question naming the proposed slice and consequence. Do not automatically ask to build every plan or create a repeated confirmation loop. A direct request to edit instructions, requirements or plans authorizes that documentation deliverable and its required review/PR delivery now; it does not recursively require another planning approval or authorize product implementation. A hypothetical request about removing unsupported features authorizes an audit, not deletion.
+
+Fresh-context startup follows the recorded chain, including a transcript/message link where available, exact relevant excerpts and surrounding context, or an explicitly labeled paraphrase. If no independently accessible original survives, disclose that agent-maintained excerpts are evidence of a recorded claim, not authenticated proof of consent. Do not manufacture a source link or retrospectively add build authorization. Missing matrix mappings may be reconciled from genuine source evidence with the correction date/history retained; do not represent the new row as a pre-build check that actually occurred.
+
+A plan is not permission. Ready state derives from valid applicable approval, satisfied blocking dependencies, capability/budget availability and no conflicting claim. After approval, Coordinator creates a run/claim and delegates fresh context. Scope/requirement/environment/candidate changes trigger impact review and a recorded replan with renewed affected approval, not a silent extension.
+
+Use observable acceptance and a responsible verifier for each deliverable, including writing/research rubrics. Keep facts, inferences, assumptions and recommendations distinct; assumptions cannot enlarge permissions. Preserve earlier revisions, denied options, failures and reasons. Follow shared/WORK_GRAPH.md for dependency storage and admission.
+
+Before implementation readiness, assess the [design and bounded drift review triggers](../shared/DESIGN_REVIEW.md#when-to-use-it). Link the applicable brief and independent review in the plan; routine work records its non-trigger reason. The canonical procedure owns the lenses, evidence and discrepancy rules; existing authority and final acceptance remain separate.
+
+## Engineering responsibility boundary
+
+An implementation grant covers an outcome within a bounded engineering responsibility. Before admission, record proportionately in the existing plan/brief: the responsibilities already owned; proposed additions; supported dependency/platform assumptions; ongoing maintenance or operational obligations; exclusions; and the source authorizing each material addition. A file allowlist, unchanged feature/target list or broad instruction to finish is insufficient evidence that these responsibilities are unchanged. Do not invent exclusions retroactively or silently narrow an operator requirement.
+
+A material addition includes taking ownership of unsupported upstream behavior, a runtime/compiler/platform compatibility layer or replacement, a substantial new subsystem, or a newly operated service/security/data responsibility. These are examples of responsibility changes, not technology bans: an explicitly authorized compiler or platform project may already include them. A routine parser repair, normal test or selection of a supported dependency within the accepted envelope remains autonomous. A dependency's version number alone does not decide materiality; inspect its support, operation and maintenance consequences.
+
+When a discovery crosses that boundary, Coordinator stops only dependent implementation and implementation probes, records the before/after responsibility delta and reassesses the aggregate parent scope, including child tasks already admitted. Ordinary read-only source/document research to establish supported alternatives may continue within its grant. Prefer existing supported approaches; if none meets the requirement, retain an explicit gap and present the consequential scope/support tradeoff. Do not automatically own the unsupported layer, remove a requirement, or launch a compatibility project. New responsibility requires an explicit source-backed operator/delegate scope and build decision; an agent-written plan, task allocation or technical readiness pass cannot supply it. Unrelated authorized work continues.
+
+Reassess at dependency/support surprises, material approach changes, corrections and milestone transitions. Several small subtasks or bounded probes can together create a new undertaking; child budgets/claims and the original completion instruction do not reset the boundary. Use a short checkpoint explaining the added responsibility and decision, rather than asking for approval on ordinary coding choices. Independent review reconstructs this comparison from original authority before assessing technical readiness.

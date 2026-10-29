@@ -11,3 +11,7 @@ Current ownership work: REQ-000056, TASK-000151 through TASK-000160, RUN-000146 
 ## Governance burden evaluation
 
 - [REQ-000084 — Evaluate governance burden and identify bounded improvements](organization/REQ-000084.md) — planned
+
+## Governance simplification
+
+- [REQ-000085 — Reduce governance burden while preserving required protection](organization/REQ-000085.md) — awaiting_acceptance

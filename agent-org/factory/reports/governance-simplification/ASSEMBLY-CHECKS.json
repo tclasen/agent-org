@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "fix_baseline": "e102b341411fb75de2b06a6a216c498928405762",
+  "formal_validation": {
+    "errors": [],
+    "limits": [
+      "structural checks do not prove behavioral acceptance",
+      "approval exact-scope APIs must be called by admission workflow",
+      "no universal interception",
+      "provenance required by evidence-producing callers"
+    ],
+    "record_count": 833,
+    "valid": true
+  },
+  "publication_static_checks": {
+    "passed": 103,
+    "total": 103,
+    "raw_result_sha256": "b0e3e40286102de2d3c9d700008b4a435933ac0489a645b4fdbee96080258fbb"
+  },
+  "full_software_regressions": {
+    "passed": 144,
+    "seconds": 10.502,
+    "exit_code": 0,
+    "scope": "existing suite, no production tooling/test changes; before2LF-only formatting normalization"
+  },
+  "historical_storage": {
+    "packed_snapshots": 4,
+    "lossless_original_hashes_verified": true,
+    "normal_whitespace_gate_unchanged": true,
+    "current_publication_qualifier_after_pack": "103/103 pass without restoring historical invalid-format variants"
+  },
+  "registry_reconciliation": {
+    "ok": true,
+    "errors": 0,
+    "owned_diagnostics": 0,
+    "outside_task_diagnostics": "808 warnings not assessed, no globally clean claim"
+  },
+  "candidate1": "rejected APP602, all original outcomes/criteria immutable",
+  "candidate2": "APP605 and APP603 bounded qualification, source-format normalization and final assembly receive affected exact-head confirmation",
+  "public_delivery": "operator explicit named publicpayload/fix push authorized; PR49 CI passed; default-branch merge separately rejected and remains pending user consent",
+  "python": "3.15.2"
+}

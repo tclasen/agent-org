@@ -1,0 +1,507 @@
+{
+  "scope": "Read-only inventory of active Python instrumentation, tests and quality gates; historical reports/baselines excluded. No claim of every external consumer.",
+  "fields": [
+    "Target System",
+    "Change Classification",
+    "Authorized Scope",
+    "Affected Paths or Resources",
+    "Owning Role",
+    "Related Requirements",
+    "Related Tasks",
+    "Approval Requirements"
+  ],
+  "policy": "shared/RECORD_FORMATS.md requires exact eight metadata lines. Production records.py SCOPE_FIELDS and validate_tree consume these; approval validation consumes target/scope; context.py consumes ownership/scope/requirement/approval/plan linkage.",
+  "disposition": "Retain required metadata; deletion is unsupported and outside approved scope. No schema or production-tool change.",
+  "inline_plan_sources": [
+    {
+      "path": "shared/DESIGN_REVIEW.md",
+      "text": "or the same fields inline in the existing plan"
+    },
+    {
+      "path": "policies/PLANNING.md",
+      "text": "A direct request to edit instructions, requirements or plans authorizes that documentation deliverable and its required review/PR delivery now"
+    },
+    {
+      "path": "factory/instrumentation/context.py",
+      "lines": [
+        147,
+        155
+      ],
+      "text": "Plan Path or Plan Source selects a canonical org-local source, without requiring a separately allocated plan or filename."
+    }
+  ],
+  "inline_execution_proof": "qualify.py existing-inline-plan-reuse check uses maintained test_context fixture and unmodified production context.build_manifest; task is task+plan source and standalone PLAN is removed from temporary fixture. Semantic acceptance and authority are not inferred.",
+  "consumers": [
+    {
+      "path": "factory/instrumentation/check.py",
+      "sha256": "da22192e7b87d2c054f070ab2b7841cb133a11cd7a19f39e87ea0e9f70f27fb2",
+      "kind": "production consumer",
+      "matches": [
+        {
+          "line": 6,
+          "text": "    from .records import validate_tree"
+        },
+        {
+          "line": 8,
+          "text": "    from records import validate_tree"
+        },
+        {
+          "line": 15,
+          "text": "    result = validate_tree(args.root)"
+        }
+      ]
+    },
+    {
+      "path": "factory/instrumentation/context.py",
+      "sha256": "e8144495fba1ec1511568bc022aac25b68f12442b3711e5d6683ab8a94d53bcf",
+      "kind": "production consumer",
+      "matches": [
+        {
+          "line": 113,
+          "text": "        if normalize_role(values.get(\"Owning Role\", \"\")) != role:"
+        },
+        {
+          "line": 115,
+          "text": "    if not task.get(\"Authorized Scope\") or not run.get(\"Authorized Scope\"):"
+        },
+        {
+          "line": 117,
+          "text": "    if task[\"Authorized Scope\"] != run[\"Authorized Scope\"]:"
+        },
+        {
+          "line": 123,
+          "text": "    requirements = re.findall(r\"REQ-\\d{6}\", task.get(\"Related Requirements\", \"\"))"
+        },
+        {
+          "line": 128,
+          "text": "    approval_ids = set(re.findall(r\"APP-\\d{6}\", task.get(\"Approval Requirements\", \"\")))"
+        },
+        {
+          "line": 147,
+          "text": "    plan_path = task.get(\"Plan Path\") or task.get(\"Plan Source\")"
+        },
+        {
+          "line": 212,
+          "text": "            \"authorized_scope\": task[\"Authorized Scope\"], \"run_scope\": run[\"Authorized Scope\"],"
+        },
+        {
+          "line": 222,
+          "text": "             f\"- Role: {manifest['role']}\", f\"- Authorized Scope: {manifest['authorized_scope']}\","
+        }
+      ]
+    },
+    {
+      "path": "factory/instrumentation/reconcile.py",
+      "sha256": "125fff48792ff19f921e825aca7d2383d324a153c87d52f11895806684c5c54f",
+      "kind": "production consumer",
+      "matches": [
+        {
+          "line": 36,
+          "text": "    from .records import CLASSIFICATION_DIRS, ID_RE, RECORD_DIRS, parse_record, references"
+        },
+        {
+          "line": 38,
+          "text": "    from records import CLASSIFICATION_DIRS, ID_RE, RECORD_DIRS, parse_record, references"
+        },
+        {
+          "line": 156,
+          "text": "                        parsed = parse_record(path)  # Existing formal metadata parser is authoritative."
+        },
+        {
+          "line": 157,
+          "text": "                        identifier = parsed.fields.get('Agent ID') if prefix == 'AGENT' else parsed.id"
+        },
+        {
+          "line": 165,
+          "text": "                                    title=_title(text), status=parsed.fields.get('Status', 'unknown'),"
+        },
+        {
+          "line": 281,
+          "text": "                tasks = sorted(references(fields.get('Task', fields.get('Related Tasks', ''))))"
+        },
+        {
+          "line": 286,
+          "text": "                        claim=fields.get('Claim', 'unknown'), native_status='unknown',"
+        },
+        {
+          "line": 369,
+          "text": "        binding = {'repository': fields.get('Delivery Repository', fields.get('Repository')),"
+        },
+        {
+          "line": 370,
+          "text": "                   'ref': fields.get('Delivery Ref'),"
+        },
+        {
+          "line": 371,
+          "text": "                   'candidate_commit': fields.get('Candidate Commit', fields.get('Candidate Revision'))}"
+        },
+        {
+          "line": 377,
+          "text": "        if fields.get('Merge Commit') and item['merge_commit'] != fields['Merge Commit']:"
+        }
+      ]
+    },
+    {
+      "path": "factory/instrumentation/records.py",
+      "sha256": "e4bc284cececd7dcb02733eac5edf6a23209ba0b898cd17397facdcc36a35f08",
+      "kind": "production consumer",
+      "matches": [
+        {
+          "line": 11,
+          "text": "SCOPE_FIELDS = ('Target System', 'Change Classification', 'Authorized Scope', 'Affected Paths or Resources', 'Owning Role', 'Related Requirements', 'Related Tasks', 'Approval Requirements')"
+        },
+        {
+          "line": 35,
+          "text": "        return self.fields.get('ID')"
+        },
+        {
+          "line": 38,
+          "text": "def parse_record(path):"
+        },
+        {
+          "line": 84,
+          "text": "def validate_approval(grant, *, target, paths, operation=None, candidate_hash=None, now=None):"
+        },
+        {
+          "line": 92,
+          "text": "    if fields.get('Status') != 'approved':"
+        },
+        {
+          "line": 94,
+          "text": "    approved_targets = {p.strip() for p in fields.get('Approved Targets', fields.get('Target System', '')).split(',')}"
+        },
+        {
+          "line": 97,
+          "text": "    if fields.get('Revoked', 'no').lower() != 'no':"
+        },
+        {
+          "line": 99,
+          "text": "    if fields.get('Expires At'):"
+        },
+        {
+          "line": 106,
+          "text": "    allowed = _scopes(fields.get('Authorized Scope', ''))"
+        },
+        {
+          "line": 110,
+          "text": "    if operation is not None and operation not in {p.strip() for p in fields.get('Operations', '').split(',')}:"
+        },
+        {
+          "line": 112,
+          "text": "    if candidate_hash is not None and fields.get('Candidate Hash') != candidate_hash:"
+        },
+        {
+          "line": 147,
+          "text": "        deps = references(fields.get('Dependencies', ''))"
+        },
+        {
+          "line": 148,
+          "text": "        kind = fields.get('Dependency Type', '')"
+        },
+        {
+          "line": 157,
+          "text": "            elif kind in BLOCKING and fields.get('Status') in ACTIVE | {'accepted'} and records[dep].fields.get('Status') not in {'accepted', 'archived'}:"
+        },
+        {
+          "line": 159,
+          "text": "        if fields.get('Status') in ACTIVE | {'accepted'}:"
+        },
+        {
+          "line": 160,
+          "text": "            if fields.get('Authorized', '').lower() != 'yes':"
+        },
+        {
+          "line": 162,
+          "text": "            approvals = references(fields.get('Plan Approval', ''))"
+        },
+        {
+          "line": 163,
+          "text": "            if not approvals or any(a not in records or records[a].fields.get('Status') != 'approved' for a in approvals):"
+        },
+        {
+          "line": 165,
+          "text": "            if fields.get('Budget Available', 'yes') != 'yes' or fields.get('Capability Available', 'yes') != 'yes':"
+        },
+        {
+          "line": 167,
+          "text": "        children = [r for r in tasks.values() if key in references(r.fields.get('Parent', ''))]"
+        },
+        {
+          "line": 168,
+          "text": "        if fields.get('Status') == 'accepted':"
+        },
+        {
+          "line": 169,
+          "text": "            if not fields.get('Acceptance Evidence') or not fields.get('Intent Reconciliation'):"
+        },
+        {
+          "line": 171,
+          "text": "            if any(r.fields.get('Status') != 'accepted' for r in children):"
+        },
+        {
+          "line": 173,
+          "text": "        if fields.get('Target System') == 'cross_boundary' and fields.get('Status') == 'accepted':"
+        },
+        {
+          "line": 174,
+          "text": "            if not {'organization', 'project'} <= {r.fields.get('Target System') for r in children}:"
+        },
+        {
+          "line": 177,
+          "text": "                if fields.get(field) != 'passed':"
+        },
+        {
+          "line": 194,
+          "text": "    graph = {key: references(r.fields.get('Parent', '')) for key, r in tasks.items()}"
+        },
+        {
+          "line": 201,
+          "text": "        if not key.startswith('RUN-') or record.fields.get('Status') not in {'ready', 'in_progress', 'running', 'unknown', 'interrupted'}:"
+        },
+        {
+          "line": 203,
+          "text": "        for task in references(record.fields.get('Task', record.fields.get('Related Tasks', ''))):"
+        },
+        {
+          "line": 207,
+          "text": "        if record.fields.get('Status') in {'unknown', 'interrupted'} and record.fields.get('Reconciled') != 'yes':"
+        },
+        {
+          "line": 227,
+          "text": "def validate_tree(root):"
+        },
+        {
+          "line": 239,
+          "text": "            record = parse_record(path)"
+        },
+        {
+          "line": 259,
+          "text": "                    if record.fields.get(field) != expected_target:"
+        },
+        {
+          "line": 265,
+          "text": "        for field in SCOPE_FIELDS + (TASK_FIELDS if record.id.startswith('TASK-') else ()):"
+        },
+        {
+          "line": 266,
+          "text": "            if not record.fields.get(field):"
+        },
+        {
+          "line": 269,
+          "text": "            if record.fields.get(field) not in {'organization', 'project', 'cross_boundary'}:"
+        },
+        {
+          "line": 271,
+          "text": "        if record.id.startswith('TASK-') and record.fields.get('Status') not in STATES:"
+        },
+        {
+          "line": 274,
+          "text": "        for field in ('Related Requirements', 'Related Tasks', 'Approval Requirements', 'Plan Approval', 'Parent', 'Task'):"
+        },
+        {
+          "line": 276,
+          "text": "                for ref in references(record.fields.get(field, '')):"
+        },
+        {
+          "line": 281,
+          "text": "        if record.id.startswith('TASK-') and not references(record.fields.get('Related Requirements', '')):"
+        }
+      ]
+    },
+    {
+      "path": "factory/instrumentation/scenarios.py",
+      "sha256": "68ebf59301448164085d2ff9853b6b812ede3fd5e9dd764a0ad3cb31742a1e00",
+      "kind": "production consumer",
+      "matches": [
+        {
+          "line": 20,
+          "text": "                'Authorized Scope': 'agent-org/**', 'Affected Paths or Resources': 'agent-org/**',"
+        },
+        {
+          "line": 21,
+          "text": "                'Owning Role': 'Developer', 'Related Requirements': 'REQ-999001',"
+        },
+        {
+          "line": 22,
+          "text": "                'Related Tasks': 'none', 'Approval Requirements': 'APP-999001', 'Status': 'in_progress'}"
+        },
+        {
+          "line": 39,
+          "text": "               'Plan Path': 'shared/fixture-plan.md', 'Claim': 'RUN-999001'})"
+        }
+      ]
+    },
+    {
+      "path": "factory/tests/test_context.py",
+      "sha256": "19e827a7fc12c8460c261fee6dfe2bbf3b5b0ce50bd519df7966fdd9e89292b2",
+      "kind": "test consumer",
+      "matches": [
+        {
+          "line": 32,
+          "text": "- Authorized Scope: agent-org/factory/instrumentation/example.py"
+        },
+        {
+          "line": 33,
+          "text": "- Related Requirements: REQ-000001"
+        },
+        {
+          "line": 34,
+          "text": "- Approval Requirements: APP-000001"
+        },
+        {
+          "line": 43,
+          "text": "- Authorized Scope: agent-org/factory/instrumentation/example.py"
+        }
+      ]
+    },
+    {
+      "path": "factory/tests/test_reconcile.py",
+      "sha256": "77184111e267cc87114b778c82f4b6c82b81dc5c59a8d4c62d5766f9d0e24aec",
+      "kind": "test consumer",
+      "matches": [
+        {
+          "line": 11,
+          "text": "from instrumentation.records import parse_record"
+        },
+        {
+          "line": 69,
+          "text": "        self.assertEqual(result['records'][0]['fields'], parse_record(self.task).fields)"
+        }
+      ]
+    },
+    {
+      "path": "factory/tests/test_records.py",
+      "sha256": "d82018e58d0b22f865f455a27fb905d598d130b701710a8f7f6256253d8e2db9",
+      "kind": "test consumer",
+      "matches": [
+        {
+          "line": 8,
+          "text": "from instrumentation.records import Record, parse_record, references, validate_approval, validate_claims, validate_evidence, validate_graph, validate_recovery, validate_transition, validate_tree"
+        },
+        {
+          "line": 13,
+          "text": "    fields = {'ID': identifier, 'Target System': 'organization', 'Change Classification': 'organization', 'Authorized Scope': 'agent-org/**', 'Affected Paths or Resources': 'agent-org/**', 'Owning Role': 'Developer', 'Related Requirements': 'REQ-000001', 'Related Tasks': 'none', 'Approval Requirements': 'APP-000001'}"
+        },
+        {
+          "line": 45,
+          "text": "        self.assertEqual(parse_record(path).id, 'TASK-000001')"
+        },
+        {
+          "line": 46,
+          "text": "        result = validate_tree(self.root)"
+        },
+        {
+          "line": 55,
+          "text": "        self.assertTrue(any('duplicate ID' in e for e in validate_tree(self.root)['errors']))"
+        },
+        {
+          "line": 59,
+          "text": "        self.assertTrue(any('missing Authorized Scope' in e for e in validate_tree(self.root)['errors']))"
+        },
+        {
+          "line": 61,
+          "text": "        self.assertTrue(any('missing formal ID' in e for e in validate_tree(self.root)['errors']))"
+        },
+        {
+          "line": 67,
+          "text": "        self.assertFalse(validate_tree(self.root)['valid'])"
+        },
+        {
+          "line": 68,
+          "text": "        self.write(record(**{'Related Requirements': 'REQ-999999'}))"
+        },
+        {
+          "line": 69,
+          "text": "        self.assertTrue(any('broken' in e for e in validate_tree(self.root)['errors']))"
+        },
+        {
+          "line": 77,
+          "text": "        self.assertTrue(validate_tree(self.root)['valid'])"
+        },
+        {
+          "line": 114,
+          "text": "        self.assertFalse(validate_tree(self.root)['valid'])"
+        },
+        {
+          "line": 115,
+          "text": "        self.assertFalse(validate_tree(self.root / 'missing')['valid'])"
+        },
+        {
+          "line": 123,
+          "text": "        self.assertEqual(validate_tree(self.root)['record_count'], 4)"
+        },
+        {
+          "line": 161,
+          "text": "        approval = grant(**{'Authorized Scope': 'org/**', 'Operations': 'write', 'Candidate Hash': 'pinned'})"
+        },
+        {
+          "line": 162,
+          "text": "        self.assertEqual(validate_approval(approval, target='organization', paths=['org/policy.md'], operation='write', candidate_hash='pinned'), [])"
+        },
+        {
+          "line": 163,
+          "text": "        self.assertTrue(validate_approval(approval, target='project', paths=['project/app.py']))"
+        },
+        {
+          "line": 164,
+          "text": "        self.assertTrue(validate_approval(approval, target='organization', paths=['org2/policy.md']))"
+        },
+        {
+          "line": 165,
+          "text": "        self.assertTrue(validate_approval(approval, target='organization', paths=['../org/policy.md']))"
+        },
+        {
+          "line": 166,
+          "text": "        self.assertTrue(validate_approval(approval, target='organization', paths=['org/x'], operation='deploy'))"
+        },
+        {
+          "line": 167,
+          "text": "        self.assertTrue(validate_approval(approval, target='organization', paths=['org/x'], candidate_hash='changed'))"
+        },
+        {
+          "line": 169,
+          "text": "        self.assertTrue(validate_approval(approval, target='organization', paths=['org/x'], now='2026-10-01T00:00:00Z'))"
+        },
+        {
+          "line": 172,
+          "text": "        approval = grant(**{'Target System': 'cross_boundary', 'Authorized Scope': 'org/**; project/**'})"
+        },
+        {
+          "line": 173,
+          "text": "        self.assertTrue(validate_approval(approval, target='project', paths=['project/app']))"
+        },
+        {
+          "line": 175,
+          "text": "        self.assertEqual(validate_approval(approval, target='project', paths=['project/app']), [])"
+        },
+        {
+          "line": 176,
+          "text": "        self.assertEqual(validate_approval(approval, target='organization', paths=['org/rules']), [])"
+        }
+      ]
+    },
+    {
+      "path": "factory/tests/test_validator_regressions.py",
+      "sha256": "dd7e110de12d8d92cd8b77efeef614bc317800e69634cf444b0c689df4f9205f",
+      "kind": "test consumer",
+      "matches": [
+        {
+          "line": 45,
+          "text": "              'Change Classification': 'organization', 'Authorized Scope': 'agent-org/**',"
+        },
+        {
+          "line": 47,
+          "text": "              'Related Requirements': 'REQ-000001', 'Related Tasks': 'none',"
+        },
+        {
+          "line": 48,
+          "text": "              'Approval Requirements': 'APP-000001'}"
+        },
+        {
+          "line": 114,
+          "text": "        return module.validate_tree(root)['errors']"
+        }
+      ]
+    }
+  ]
+}

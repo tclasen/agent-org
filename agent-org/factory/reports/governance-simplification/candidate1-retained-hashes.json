@@ -1,0 +1,18 @@
+{
+  "candidate-manifest.json": "347ec4aedbb0dc2a63c4590fc645a6858a72499a0ec7a3dcc96ee7af1ac08fa4",
+  "dispatch-hashes.json": "d210cfe9297259fa1eb44dc8d5f1be524ef891bd0bd0c148dda1e5fdd1f14bd0",
+  "baseline-dispatch.md": "63f4b402726b3666dd922b1f667589cc4496f3722b26be79f1f93d2335e18590",
+  "candidate-dispatch.md": "80a73aa144c015ce1ee11b0e4784e2d61e6443d1bb68213569e2487dc597c9a6",
+  "baseline-responses.json": "8945c966f45d3602151bb92920b9c709c80a5d66a9fa488c3708de764d23ed4c",
+  "baseline-exposure.json": "b3eded5de1a0de631e0ab0b65616dcf1e74e66bf568d66162e2b0a3ef43943ff",
+  "candidate-responses.json": "45264fe117d8a40e81f239925eb4fa4bb95cb0477542bcee2dc32bfd58e2abca",
+  "candidate-exposure.json": "dac77d2017aa6ed95a83856c04c8993857848bb9b3d94917a1b9efa90ccd85b5",
+  "SCORES.json": "87201c2501d900c7d942d978debf27960919670ddd42b0645a1d426e1bfd84b1",
+  "FINAL-REVIEW.md": "b04ade3cfba8d8ed55200cbc9d5d269f7d74f190a78a12613983f5cf44960056",
+  "test-results.json": "9f3035972d48783993880d2fac6a217f9284adce77209301754d32a3ceffab0e",
+  "qualify.py": "444421deee61c55b6ad6862107bb2227b702179211432134195ea47584349193",
+  "QUALIFICATION.md": "b87272944908488d0513ba9127b9907bbb0be9c5db23fd7228b7a5334870690a",
+  "PROCESS-REPAIR.md": "359831e573654e210cb0efc49f1ed2bd53f328bf7c8c354ca9e1981a8643c971",
+  "TEXT-REPAIR.md": "128e72ac3909ca9e780505025c8715b9216349201d137fbf7335cf2568d0f29b",
+  "CORE-ROLE-EDITS.md": "2bb198bc1dd7d97abf8bdc572e7b445604d6842989991fe3dccaf5f171c1bcf7"
+}

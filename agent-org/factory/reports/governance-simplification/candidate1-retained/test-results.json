@@ -1,0 +1,2188 @@
+{
+  "stage": "final-source-snapshot",
+  "disposition": "passed",
+  "checks_passed": 103,
+  "checks_total": 103,
+  "checks": [
+    {
+      "name": "baseline:AGENTS.md",
+      "passed": true,
+      "evidence": "d96a65a5f69f6264f489cbf1662ffc6da67d9f8d6c4a2d2c5a6e27f4201af64b"
+    },
+    {
+      "name": "baseline:policies/AUTHORITY.md",
+      "passed": true,
+      "evidence": "082de2f8fec06bc6dc9027d2f8605ca61cda12a5f5c175d1c3019bd1035d1118"
+    },
+    {
+      "name": "baseline:policies/SCOPE_BOUNDARIES.md",
+      "passed": true,
+      "evidence": "605778f942bead5b135d79e94ec803138150c6ab4a0cddc7531a5bdff292bed5"
+    },
+    {
+      "name": "baseline:policies/SELF_IMPROVEMENT.md",
+      "passed": true,
+      "evidence": "41187ca5a70e8c5e531fb02488509c52423b2af116b8d769d055bfe1c39849e9"
+    },
+    {
+      "name": "baseline:policies/APPROVALS.md",
+      "passed": true,
+      "evidence": "65e6f15ab93cdf1aba5eecc172a51aa8484e0be35a67e29936b5b3cacca976b2"
+    },
+    {
+      "name": "baseline:policies/ACCEPTANCE.md",
+      "passed": true,
+      "evidence": "193a3150240ad64542b033d9c31f500077c5ff80c824510808f3660f974a33a8"
+    },
+    {
+      "name": "baseline:policies/MEASUREMENT_INDEPENDENCE.md",
+      "passed": true,
+      "evidence": "899d12e5d92d5a22ef16aa929f154efe1c7748997b071b043769d06a03970194"
+    },
+    {
+      "name": "baseline:policies/PLANNING.md",
+      "passed": true,
+      "evidence": "5608e3beb92f4b6b951578c8282dff1e6ccf838418ce5f9e83b756b14f9ed7fb"
+    },
+    {
+      "name": "baseline:policies/ROUTING.md",
+      "passed": true,
+      "evidence": "edb7fdec5c6f9badb5cfcd9437a760eb73403d5b7aa2da14647c6b7341235a4c"
+    },
+    {
+      "name": "baseline:shared/CONTEXT_MANAGEMENT.md",
+      "passed": true,
+      "evidence": "3a4faaa659fbbfeda75a97205bc40c59e6a43973c700e2ef9b3b207cf8ebb50d"
+    },
+    {
+      "name": "baseline:shared/RECORD_FORMATS.md",
+      "passed": true,
+      "evidence": "317236250041fdacb1135350309ec287186aa7ed22c2f4605a7b6a47a60833fb"
+    },
+    {
+      "name": "baseline:shared/HANDOFFS.md",
+      "passed": true,
+      "evidence": "301097f99ec138bce5d7fe2ee88811e27542140f2fab45cfda97f8f7f15e0e40"
+    },
+    {
+      "name": "baseline:shared/AUTONOMOUS_EXECUTION.md",
+      "passed": true,
+      "evidence": "23f9413b0b10c1762dea8f783fbe461ba2b6d0233b35f25b139c16d0c4e4321c"
+    },
+    {
+      "name": "baseline:shared/DESIGN_REVIEW.md",
+      "passed": true,
+      "evidence": "566a0a69dcf6f048cc81996a48c45c0790c89a4b088d7fa9a6e423dda5b386d6"
+    },
+    {
+      "name": "baseline:workflows/WF-000004.md",
+      "passed": true,
+      "evidence": "39a5370a46b8cd9a2a8b5e4aee81cf5ba20300b82703963706a5782d7a5a250c"
+    },
+    {
+      "name": "baseline:agents/architect/AGENTS.md",
+      "passed": true,
+      "evidence": "92d6643dfe8e1ae243304e23df8bb0c4b1555e681ecd503a600b597e5d65251d"
+    },
+    {
+      "name": "baseline:agents/chief-of-staff/AGENTS.md",
+      "passed": true,
+      "evidence": "6e3892f8900a8b8328fd0eaa991a3b463b75fa8a7e56aa5c73eabf69ce61cc97"
+    },
+    {
+      "name": "baseline:agents/coordinator/AGENTS.md",
+      "passed": true,
+      "evidence": "13af965f9ed7b6fbd352def512cad6a085fd7a270cf51a320fe4db191dc1f4c0"
+    },
+    {
+      "name": "baseline:agents/design-director/AGENTS.md",
+      "passed": true,
+      "evidence": "c8ab0b6785804188233ce16b9592476b6fe268f443a8df921880567c567265e2"
+    },
+    {
+      "name": "baseline:agents/developer/AGENTS.md",
+      "passed": true,
+      "evidence": "9d14fa9428bc3810bed71102fd29fae8306c3d4dbc6dbd59733e05e61548683f"
+    },
+    {
+      "name": "baseline:agents/executor/AGENTS.md",
+      "passed": true,
+      "evidence": "3a4314fab101149445f5f519800bdd7dcdb6948c76e57b668d68b5190b7f2229"
+    },
+    {
+      "name": "baseline:agents/planner/AGENTS.md",
+      "passed": true,
+      "evidence": "716096f2cc787cf5dcc83b26c7e527b8f9dff214bd343f0f0ee820bb66001256"
+    },
+    {
+      "name": "baseline:agents/researcher/AGENTS.md",
+      "passed": true,
+      "evidence": "0488e19263b95e8ae47ffbcf71134002f87c589ab97cb5d4e6a3484478d9e9ba"
+    },
+    {
+      "name": "baseline:agents/reviewer/AGENTS.md",
+      "passed": true,
+      "evidence": "d370a55b59de16042dbae83aea4f720e1bcf11919faa74d9b958b98e08a7bec2"
+    },
+    {
+      "name": "baseline:agents/architect/CONTEXT.md",
+      "passed": true,
+      "evidence": "4ff0e3599fc0410b5f0475f7366898f4c6232ddd95a61f1a2887e7ba1b25513d"
+    },
+    {
+      "name": "baseline:agents/chief-of-staff/CONTEXT.md",
+      "passed": true,
+      "evidence": "131cf31dabdc53147e52ec3144fb0a72ce4266b3cbafb5dd595a39d473e4b38f"
+    },
+    {
+      "name": "baseline:agents/coordinator/CONTEXT.md",
+      "passed": true,
+      "evidence": "808c424701d834879020d741a783ecd1692a30e03284d15083ddb56c1854a3db"
+    },
+    {
+      "name": "baseline:agents/design-director/CONTEXT.md",
+      "passed": true,
+      "evidence": "f5b98e82490eacf8678169c72195f4cae83532e7ab33eb4c714b2a1ea5fd82b0"
+    },
+    {
+      "name": "baseline:agents/developer/CONTEXT.md",
+      "passed": true,
+      "evidence": "f38ae7a06640dbb6ffd076d4d2ea03b1ae5928827733baba2cee2dcb99099727"
+    },
+    {
+      "name": "baseline:agents/executor/CONTEXT.md",
+      "passed": true,
+      "evidence": "6e7e7132cb0fa6d55117986ded7a51ff3d67f03f644a1c56e8772264915898dc"
+    },
+    {
+      "name": "baseline:agents/planner/CONTEXT.md",
+      "passed": true,
+      "evidence": "553f8b3368d36238a87972ca5934a9cfb19289b1e68dcc175bb3d69529175c7c"
+    },
+    {
+      "name": "baseline:agents/researcher/CONTEXT.md",
+      "passed": true,
+      "evidence": "a55151dcfb17eaab4524272ecab4a453a5bb388791e93adf4366d2879061090a"
+    },
+    {
+      "name": "baseline:agents/reviewer/CONTEXT.md",
+      "passed": true,
+      "evidence": "40eeb8053d4ba743fb805bd2ddde44c603c926d66b99b2c9b49046db54e5c872"
+    },
+    {
+      "name": "frozen-candidate-source-set",
+      "passed": true,
+      "evidence": [
+        "AGENTS.md",
+        "agents/architect/AGENTS.md",
+        "agents/architect/CONTEXT.md",
+        "agents/chief-of-staff/AGENTS.md",
+        "agents/chief-of-staff/CONTEXT.md",
+        "agents/coordinator/AGENTS.md",
+        "agents/coordinator/CONTEXT.md",
+        "agents/design-director/AGENTS.md",
+        "agents/design-director/CONTEXT.md",
+        "agents/developer/AGENTS.md",
+        "agents/developer/CONTEXT.md",
+        "agents/executor/AGENTS.md",
+        "agents/executor/CONTEXT.md",
+        "agents/planner/AGENTS.md",
+        "agents/planner/CONTEXT.md",
+        "agents/researcher/AGENTS.md",
+        "agents/researcher/CONTEXT.md",
+        "agents/reviewer/AGENTS.md",
+        "agents/reviewer/CONTEXT.md",
+        "policies/ACCEPTANCE.md",
+        "policies/APPROVALS.md",
+        "policies/AUTHORITY.md",
+        "policies/MEASUREMENT_INDEPENDENCE.md",
+        "policies/PLANNING.md",
+        "policies/ROUTING.md",
+        "policies/SCOPE_BOUNDARIES.md",
+        "policies/SELF_IMPROVEMENT.md",
+        "shared/AUTONOMOUS_EXECUTION.md",
+        "shared/CONTEXT_MANAGEMENT.md",
+        "shared/DESIGN_REVIEW.md",
+        "shared/HANDOFFS.md",
+        "shared/RECORD_FORMATS.md",
+        "workflows/WF-000004.md"
+      ]
+    },
+    {
+      "name": "frozen-candidate:AGENTS.md",
+      "passed": true,
+      "evidence": "5f2c3867df532550b2ced452c75e5c4240fc8bde49195eaaed2f590df2623fdb"
+    },
+    {
+      "name": "frozen-candidate:policies/AUTHORITY.md",
+      "passed": true,
+      "evidence": "082de2f8fec06bc6dc9027d2f8605ca61cda12a5f5c175d1c3019bd1035d1118"
+    },
+    {
+      "name": "frozen-candidate:policies/SCOPE_BOUNDARIES.md",
+      "passed": true,
+      "evidence": "605778f942bead5b135d79e94ec803138150c6ab4a0cddc7531a5bdff292bed5"
+    },
+    {
+      "name": "frozen-candidate:policies/SELF_IMPROVEMENT.md",
+      "passed": true,
+      "evidence": "a50f52e8f626952f8b308a658cc736b0b7819b5cdadd795c23f4a35ca0d27827"
+    },
+    {
+      "name": "frozen-candidate:policies/APPROVALS.md",
+      "passed": true,
+      "evidence": "65e6f15ab93cdf1aba5eecc172a51aa8484e0be35a67e29936b5b3cacca976b2"
+    },
+    {
+      "name": "frozen-candidate:policies/ACCEPTANCE.md",
+      "passed": true,
+      "evidence": "193a3150240ad64542b033d9c31f500077c5ff80c824510808f3660f974a33a8"
+    },
+    {
+      "name": "frozen-candidate:policies/MEASUREMENT_INDEPENDENCE.md",
+      "passed": true,
+      "evidence": "899d12e5d92d5a22ef16aa929f154efe1c7748997b071b043769d06a03970194"
+    },
+    {
+      "name": "frozen-candidate:policies/PLANNING.md",
+      "passed": true,
+      "evidence": "5608e3beb92f4b6b951578c8282dff1e6ccf838418ce5f9e83b756b14f9ed7fb"
+    },
+    {
+      "name": "frozen-candidate:policies/ROUTING.md",
+      "passed": true,
+      "evidence": "edb7fdec5c6f9badb5cfcd9437a760eb73403d5b7aa2da14647c6b7341235a4c"
+    },
+    {
+      "name": "frozen-candidate:shared/CONTEXT_MANAGEMENT.md",
+      "passed": true,
+      "evidence": "3a4faaa659fbbfeda75a97205bc40c59e6a43973c700e2ef9b3b207cf8ebb50d"
+    },
+    {
+      "name": "frozen-candidate:shared/RECORD_FORMATS.md",
+      "passed": true,
+      "evidence": "317236250041fdacb1135350309ec287186aa7ed22c2f4605a7b6a47a60833fb"
+    },
+    {
+      "name": "frozen-candidate:shared/HANDOFFS.md",
+      "passed": true,
+      "evidence": "06aa90e8663b189f4d6e9f5ec5d453c82815dd90f91beccfbc944231e2820777"
+    },
+    {
+      "name": "frozen-candidate:shared/AUTONOMOUS_EXECUTION.md",
+      "passed": true,
+      "evidence": "e7c883fac9c734073fa04cd3346b3a73f57c8da870c3c0ee35380a9615f847eb"
+    },
+    {
+      "name": "frozen-candidate:shared/DESIGN_REVIEW.md",
+      "passed": true,
+      "evidence": "566a0a69dcf6f048cc81996a48c45c0790c89a4b088d7fa9a6e423dda5b386d6"
+    },
+    {
+      "name": "frozen-candidate:workflows/WF-000004.md",
+      "passed": true,
+      "evidence": "df65b72cb5d6591d1307b242a39267bde11081b6b6564bf3b7c8a65145380b68"
+    },
+    {
+      "name": "frozen-candidate:agents/architect/AGENTS.md",
+      "passed": true,
+      "evidence": "c08d26a4ea181686cd46f7327c3255739a5516cb03dc4af9942ff67af6432491"
+    },
+    {
+      "name": "frozen-candidate:agents/chief-of-staff/AGENTS.md",
+      "passed": true,
+      "evidence": "da4651e1c94a67a5c2877de29e1b0cd3943ce75fc4a6437f455f6773625050cd"
+    },
+    {
+      "name": "frozen-candidate:agents/coordinator/AGENTS.md",
+      "passed": true,
+      "evidence": "6c849b3b4af74eaf3512b84c6fa94dbd1cfdd4f36a171bbd0ae9990ab83771ba"
+    },
+    {
+      "name": "frozen-candidate:agents/design-director/AGENTS.md",
+      "passed": true,
+      "evidence": "998dc063aa6c8704685fd33701012ed5b1c99c2ad9a9ab2ff3a861045f19aa5d"
+    },
+    {
+      "name": "frozen-candidate:agents/developer/AGENTS.md",
+      "passed": true,
+      "evidence": "c94bad30fa653af00a3c9ce6875d4342be3499e58187ee0be09286c9687e6fe0"
+    },
+    {
+      "name": "frozen-candidate:agents/executor/AGENTS.md",
+      "passed": true,
+      "evidence": "4247d02ba14db6439d1e231e0963e25108a86829684858a7b910d4c872a013c1"
+    },
+    {
+      "name": "frozen-candidate:agents/planner/AGENTS.md",
+      "passed": true,
+      "evidence": "fa565bd87e4c080e39550ecabb60e42a0fd0c623fbe2174330ad616e5a20dae4"
+    },
+    {
+      "name": "frozen-candidate:agents/researcher/AGENTS.md",
+      "passed": true,
+      "evidence": "b9445186a4dcc1923596701fbd896eef1e9c9a34deae5330a672257d67acb533"
+    },
+    {
+      "name": "frozen-candidate:agents/reviewer/AGENTS.md",
+      "passed": true,
+      "evidence": "fb8490efa28b6b712e9a39b5ae8e581640c41817bedeb3caf7c49c89c55263b7"
+    },
+    {
+      "name": "frozen-candidate:agents/architect/CONTEXT.md",
+      "passed": true,
+      "evidence": "c902a0759b467867d81285aaa965395536c19517eee871c1664d9e9b2783580f"
+    },
+    {
+      "name": "frozen-candidate:agents/chief-of-staff/CONTEXT.md",
+      "passed": true,
+      "evidence": "c652a705d766f51e9ead11eac96458bfa24f419d6db307d60a6bb579d8eb5163"
+    },
+    {
+      "name": "frozen-candidate:agents/coordinator/CONTEXT.md",
+      "passed": true,
+      "evidence": "ad73b30ec0db687dfdce23959972955879e12264797dabc54800d99afe6fbc1c"
+    },
+    {
+      "name": "frozen-candidate:agents/design-director/CONTEXT.md",
+      "passed": true,
+      "evidence": "f254b7c726b5fc7ad39aff8929867656d03ebcf6f121a1397370f1c73b31f050"
+    },
+    {
+      "name": "frozen-candidate:agents/developer/CONTEXT.md",
+      "passed": true,
+      "evidence": "639b089408b9725ed24bfd83c9cbe1fe55ed042fc9aabf939cbff28de754010a"
+    },
+    {
+      "name": "frozen-candidate:agents/executor/CONTEXT.md",
+      "passed": true,
+      "evidence": "a87435b940f0abd36fc136300d888d0d1aa3f014f386e671ade65168dffacf46"
+    },
+    {
+      "name": "frozen-candidate:agents/planner/CONTEXT.md",
+      "passed": true,
+      "evidence": "ca857bd32289be04c6af42eb28c8b063aa777ef58c76f6080e71f85db6ec4639"
+    },
+    {
+      "name": "frozen-candidate:agents/researcher/CONTEXT.md",
+      "passed": true,
+      "evidence": "0302cd0a132ff7e72abbe7a511f1d39c147d6f8258e4767f61f1be408a2854a2"
+    },
+    {
+      "name": "frozen-candidate:agents/reviewer/CONTEXT.md",
+      "passed": true,
+      "evidence": "e7c05da3f463fd6061a0a2ff955059419aae827d4b75a4eb1adbe580c488e479"
+    },
+    {
+      "name": "frozen:PLAN.md",
+      "passed": true,
+      "evidence": "b53350d9e200d5ecf81038dc9514948cee333b90e6fd2422bc72b34618a2f04a"
+    },
+    {
+      "name": "frozen:baseline-manifest.json",
+      "passed": true,
+      "evidence": "69fec449186cdad6d4d1f02caa0bafb154c164f4fdf138f8e5c5e9654bca2d9a"
+    },
+    {
+      "name": "frozen:CASES.json",
+      "passed": true,
+      "evidence": "745b42f9e6f1dac9d1034c077376790b01f3fdb49592bf142666aec16fb43c63"
+    },
+    {
+      "name": "frozen:RUBRIC.json",
+      "passed": true,
+      "evidence": "71a9e94039dc7cf277fcefb18d0ec19378aa817429031400704a7aca1939eeee"
+    },
+    {
+      "name": "frozen:ORDERING.json",
+      "passed": true,
+      "evidence": "d7fe0ee873217fa3e6c083aa44432a8c48ae762e2f97b74b820e0a96217c6acb"
+    },
+    {
+      "name": "frozen:baseline-cases.json",
+      "passed": true,
+      "evidence": "7286e355d8c14dbc431862a3fc941471a514d2cd8a7b44af36b132c2bc9c1b83"
+    },
+    {
+      "name": "frozen:candidate-cases.json",
+      "passed": true,
+      "evidence": "bce096a984325b6dfc23a94a6fbc8a18ebde62b5031782ab1fb937e662786df3"
+    },
+    {
+      "name": "frozen:FIXTURE-PROTOCOL.md",
+      "passed": true,
+      "evidence": "db02c6b791439ca78271fe99a90e39c4ec7019e39924eb188fa9d591e39d7573"
+    },
+    {
+      "name": "case-permutation:baseline",
+      "passed": true,
+      "evidence": [
+        "S13",
+        "S16",
+        "S10",
+        "S17",
+        "S11",
+        "S06",
+        "S12",
+        "S14",
+        "S04",
+        "S15",
+        "S01",
+        "S05",
+        "S03",
+        "S09",
+        "S08",
+        "S19",
+        "S07",
+        "S02",
+        "S18",
+        "S20"
+      ]
+    },
+    {
+      "name": "case-permutation:candidate",
+      "passed": true,
+      "evidence": [
+        "S20",
+        "S09",
+        "S17",
+        "S03",
+        "S05",
+        "S06",
+        "S19",
+        "S08",
+        "S13",
+        "S16",
+        "S11",
+        "S01",
+        "S04",
+        "S10",
+        "S02",
+        "S15",
+        "S18",
+        "S07",
+        "S12",
+        "S14"
+      ]
+    },
+    {
+      "name": "single-stream-ordering",
+      "passed": true,
+      "evidence": {
+        "baseline": [
+          "S13",
+          "S16",
+          "S10",
+          "S17",
+          "S11",
+          "S06",
+          "S12",
+          "S14",
+          "S04",
+          "S15",
+          "S01",
+          "S05",
+          "S03",
+          "S09",
+          "S08",
+          "S19",
+          "S07",
+          "S02",
+          "S18",
+          "S20"
+        ],
+        "candidate": [
+          "S20",
+          "S09",
+          "S17",
+          "S03",
+          "S05",
+          "S06",
+          "S19",
+          "S08",
+          "S13",
+          "S16",
+          "S11",
+          "S01",
+          "S04",
+          "S10",
+          "S02",
+          "S15",
+          "S18",
+          "S07",
+          "S12",
+          "S14"
+        ]
+      }
+    },
+    {
+      "name": "unchanged-contract:policies/AUTHORITY.md",
+      "passed": true,
+      "evidence": "082de2f8fec06bc6dc9027d2f8605ca61cda12a5f5c175d1c3019bd1035d1118"
+    },
+    {
+      "name": "unchanged-contract:policies/SCOPE_BOUNDARIES.md",
+      "passed": true,
+      "evidence": "605778f942bead5b135d79e94ec803138150c6ab4a0cddc7531a5bdff292bed5"
+    },
+    {
+      "name": "unchanged-contract:policies/MEASUREMENT_INDEPENDENCE.md",
+      "passed": true,
+      "evidence": "899d12e5d92d5a22ef16aa929f154efe1c7748997b071b043769d06a03970194"
+    },
+    {
+      "name": "unchanged-contract:policies/APPROVALS.md",
+      "passed": true,
+      "evidence": "65e6f15ab93cdf1aba5eecc172a51aa8484e0be35a67e29936b5b3cacca976b2"
+    },
+    {
+      "name": "unchanged-contract:policies/ACCEPTANCE.md",
+      "passed": true,
+      "evidence": "193a3150240ad64542b033d9c31f500077c5ff80c824510808f3660f974a33a8"
+    },
+    {
+      "name": "unchanged-contract:policies/PLANNING.md",
+      "passed": true,
+      "evidence": "5608e3beb92f4b6b951578c8282dff1e6ccf838418ce5f9e83b756b14f9ed7fb"
+    },
+    {
+      "name": "unchanged-contract:shared/RECORD_FORMATS.md",
+      "passed": true,
+      "evidence": "317236250041fdacb1135350309ec287186aa7ed22c2f4605a7b6a47a60833fb"
+    },
+    {
+      "name": "unchanged-contract:shared/CONTEXT_MANAGEMENT.md",
+      "passed": true,
+      "evidence": "3a4faaa659fbbfeda75a97205bc40c59e6a43973c700e2ef9b3b207cf8ebb50d"
+    },
+    {
+      "name": "unchanged-contract:shared/DESIGN_REVIEW.md",
+      "passed": true,
+      "evidence": "566a0a69dcf6f048cc81996a48c45c0790c89a4b088d7fa9a6e423dda5b386d6"
+    },
+    {
+      "name": "prior-evaluator-exact-prefix",
+      "passed": true,
+      "evidence": {
+        "baseline_sha256": "b1bb39f9c6001f5f4895f56f246eaeb131ad61a22285f9ecf40c2638681cc2d8",
+        "words": 301,
+        "covers": "preregistration, deterministic/stochastic thresholds, guardrails, independence, evaluator changes, rollback"
+      }
+    },
+    {
+      "name": "all-active-roles-pinned",
+      "passed": true,
+      "evidence": [
+        "agents/architect/AGENTS.md",
+        "agents/chief-of-staff/AGENTS.md",
+        "agents/coordinator/AGENTS.md",
+        "agents/design-director/AGENTS.md",
+        "agents/developer/AGENTS.md",
+        "agents/executor/AGENTS.md",
+        "agents/planner/AGENTS.md",
+        "agents/researcher/AGENTS.md",
+        "agents/reviewer/AGENTS.md"
+      ]
+    },
+    {
+      "name": "unique-context-orientation-retained",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "name": "every-role-and-context-links-mandatory-core",
+      "passed": true,
+      "evidence": {
+        "agents/architect/AGENTS.md": true,
+        "agents/chief-of-staff/AGENTS.md": true,
+        "agents/coordinator/AGENTS.md": true,
+        "agents/design-director/AGENTS.md": true,
+        "agents/developer/AGENTS.md": true,
+        "agents/executor/AGENTS.md": true,
+        "agents/planner/AGENTS.md": true,
+        "agents/researcher/AGENTS.md": true,
+        "agents/reviewer/AGENTS.md": true,
+        "agents/architect/CONTEXT.md": true,
+        "agents/chief-of-staff/CONTEXT.md": true,
+        "agents/coordinator/CONTEXT.md": true,
+        "agents/design-director/CONTEXT.md": true,
+        "agents/developer/CONTEXT.md": true,
+        "agents/executor/CONTEXT.md": true,
+        "agents/planner/CONTEXT.md": true,
+        "agents/researcher/CONTEXT.md": true,
+        "agents/reviewer/CONTEXT.md": true
+      }
+    },
+    {
+      "name": "required-metadata-exact",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "name": "role-identities-exact",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "name": "unique-role-duties-retained",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "name": "existing-actual-capacity-rule-aligned",
+      "passed": true,
+      "evidence": {
+        "resource_sha256": "3902d41abdbc4a94afd49ff77c5d75a8880ccc016bb0573972ed11266d8c8259",
+        "canonical_rule": "Existing RESOURCE_BUDGETS actual-capacity rule supersedes repeated worker/depth caps; no new ceiling or resource policy."
+      }
+    },
+    {
+      "name": "canonical-core-obligations",
+      "passed": true,
+      "evidence": {
+        "scope": true,
+        "authority": true,
+        "claim": true,
+        "dependencies": true,
+        "handoff": true,
+        "unknown telemetry": true,
+        "required sources": true,
+        "project trigger": true
+      }
+    },
+    {
+      "name": "historical-tail-lossless-and-removed",
+      "passed": true,
+      "evidence": {
+        "tail_sha256": "70ffc72f87a68ff2f313123ac3081d05259502f48c0f8580a96abe2b570c6d24",
+        "tail_words": 490,
+        "only_allowed_rebase": "../factory/reports/project-cleanup/CLOSURE.md -> ../project-cleanup/CLOSURE.md; inverse rebase must equal complete original tail",
+        "archives": [
+          "handoff-history.md"
+        ]
+      }
+    },
+    {
+      "name": "local-links-and-anchors",
+      "passed": true,
+      "evidence": {
+        "count": 115,
+        "failures": []
+      }
+    },
+    {
+      "name": "history-recoverable-from-contract",
+      "passed": true,
+      "evidence": "factory/reports/governance-simplification/handoff-history.md"
+    },
+    {
+      "name": "historical-link-destinations-preserved",
+      "passed": true,
+      "evidence": {
+        "original": [
+          [
+            "factory/reports/project-cleanup/CLOSURE.md",
+            ""
+          ]
+        ],
+        "archive": [
+          [
+            "factory/reports/governance-simplification/baseline/shared__HANDOFFS.md.txt",
+            ""
+          ],
+          [
+            "factory/reports/project-cleanup/CLOSURE.md",
+            ""
+          ],
+          [
+            "shared/HANDOFFS.md",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "name": "each-role-contract-shorter",
+      "passed": true,
+      "evidence": {
+        "architect": {
+          "baseline": 1605,
+          "candidate": 1507,
+          "delta": -98,
+          "paths": [
+            "AGENTS.md",
+            "policies/AUTHORITY.md",
+            "policies/SCOPE_BOUNDARIES.md",
+            "agents/architect/AGENTS.md",
+            "agents/architect/CONTEXT.md"
+          ]
+        },
+        "chief-of-staff": {
+          "baseline": 1815,
+          "candidate": 1719,
+          "delta": -96,
+          "paths": [
+            "AGENTS.md",
+            "policies/AUTHORITY.md",
+            "policies/SCOPE_BOUNDARIES.md",
+            "agents/chief-of-staff/AGENTS.md",
+            "agents/chief-of-staff/CONTEXT.md"
+          ]
+        },
+        "coordinator": {
+          "baseline": 2102,
+          "candidate": 1960,
+          "delta": -142,
+          "paths": [
+            "AGENTS.md",
+            "policies/AUTHORITY.md",
+            "policies/SCOPE_BOUNDARIES.md",
+            "agents/coordinator/AGENTS.md",
+            "agents/coordinator/CONTEXT.md"
+          ]
+        },
+        "design-director": {
+          "baseline": 2414,
+          "candidate": 2353,
+          "delta": -61,
+          "paths": [
+            "AGENTS.md",
+            "policies/AUTHORITY.md",
+            "policies/SCOPE_BOUNDARIES.md",
+            "agents/design-director/AGENTS.md",
+            "agents/design-director/CONTEXT.md"
+          ]
+        },
+        "developer": {
+          "baseline": 1619,
+          "candidate": 1516,
+          "delta": -103,
+          "paths": [
+            "AGENTS.md",
+            "policies/AUTHORITY.md",
+            "policies/SCOPE_BOUNDARIES.md",
+            "agents/developer/AGENTS.md",
+            "agents/developer/CONTEXT.md"
+          ]
+        },
+        "executor": {
+          "baseline": 1618,
+          "candidate": 1514,
+          "delta": -104,
+          "paths": [
+            "AGENTS.md",
+            "policies/AUTHORITY.md",
+            "policies/SCOPE_BOUNDARIES.md",
+            "agents/executor/AGENTS.md",
+            "agents/executor/CONTEXT.md"
+          ]
+        },
+        "planner": {
+          "baseline": 1713,
+          "candidate": 1612,
+          "delta": -101,
+          "paths": [
+            "AGENTS.md",
+            "policies/AUTHORITY.md",
+            "policies/SCOPE_BOUNDARIES.md",
+            "agents/planner/AGENTS.md",
+            "agents/planner/CONTEXT.md"
+          ]
+        },
+        "researcher": {
+          "baseline": 1608,
+          "candidate": 1512,
+          "delta": -96,
+          "paths": [
+            "AGENTS.md",
+            "policies/AUTHORITY.md",
+            "policies/SCOPE_BOUNDARIES.md",
+            "agents/researcher/AGENTS.md",
+            "agents/researcher/CONTEXT.md"
+          ]
+        },
+        "reviewer": {
+          "baseline": 1900,
+          "candidate": 1790,
+          "delta": -110,
+          "paths": [
+            "AGENTS.md",
+            "policies/AUTHORITY.md",
+            "policies/SCOPE_BOUNDARIES.md",
+            "agents/reviewer/AGENTS.md",
+            "agents/reviewer/CONTEXT.md"
+          ]
+        }
+      }
+    },
+    {
+      "name": "net-scoped-corpus-shorter",
+      "passed": true,
+      "evidence": {
+        "baseline": 15600,
+        "candidate": 13598,
+        "delta": -2002
+      }
+    },
+    {
+      "name": "existing-inline-plan-reuse",
+      "passed": true,
+      "evidence": {
+        "passed": true,
+        "path": "agent-org/tasks/organization/TASK-000001.md",
+        "classes": [
+          "task",
+          "plan"
+        ],
+        "sha256": "a00fcfc1514348146f6d6e54ab636cee83fd3e415fbede903b5c41c40df378d8",
+        "separate_plan_file": false,
+        "limit": "Manifest acceptance proves supported canonical source reuse, not semantic completeness or permission. Fresh review remains required."
+      }
+    }
+  ],
+  "source_hashes": {
+    "AGENTS.md": "5f2c3867df532550b2ced452c75e5c4240fc8bde49195eaaed2f590df2623fdb",
+    "policies/AUTHORITY.md": "082de2f8fec06bc6dc9027d2f8605ca61cda12a5f5c175d1c3019bd1035d1118",
+    "policies/SCOPE_BOUNDARIES.md": "605778f942bead5b135d79e94ec803138150c6ab4a0cddc7531a5bdff292bed5",
+    "policies/SELF_IMPROVEMENT.md": "a50f52e8f626952f8b308a658cc736b0b7819b5cdadd795c23f4a35ca0d27827",
+    "policies/APPROVALS.md": "65e6f15ab93cdf1aba5eecc172a51aa8484e0be35a67e29936b5b3cacca976b2",
+    "policies/ACCEPTANCE.md": "193a3150240ad64542b033d9c31f500077c5ff80c824510808f3660f974a33a8",
+    "policies/MEASUREMENT_INDEPENDENCE.md": "899d12e5d92d5a22ef16aa929f154efe1c7748997b071b043769d06a03970194",
+    "policies/PLANNING.md": "5608e3beb92f4b6b951578c8282dff1e6ccf838418ce5f9e83b756b14f9ed7fb",
+    "policies/ROUTING.md": "edb7fdec5c6f9badb5cfcd9437a760eb73403d5b7aa2da14647c6b7341235a4c",
+    "shared/CONTEXT_MANAGEMENT.md": "3a4faaa659fbbfeda75a97205bc40c59e6a43973c700e2ef9b3b207cf8ebb50d",
+    "shared/RECORD_FORMATS.md": "317236250041fdacb1135350309ec287186aa7ed22c2f4605a7b6a47a60833fb",
+    "shared/HANDOFFS.md": "06aa90e8663b189f4d6e9f5ec5d453c82815dd90f91beccfbc944231e2820777",
+    "shared/AUTONOMOUS_EXECUTION.md": "e7c883fac9c734073fa04cd3346b3a73f57c8da870c3c0ee35380a9615f847eb",
+    "shared/DESIGN_REVIEW.md": "566a0a69dcf6f048cc81996a48c45c0790c89a4b088d7fa9a6e423dda5b386d6",
+    "workflows/WF-000004.md": "df65b72cb5d6591d1307b242a39267bde11081b6b6564bf3b7c8a65145380b68",
+    "agents/architect/AGENTS.md": "c08d26a4ea181686cd46f7327c3255739a5516cb03dc4af9942ff67af6432491",
+    "agents/chief-of-staff/AGENTS.md": "da4651e1c94a67a5c2877de29e1b0cd3943ce75fc4a6437f455f6773625050cd",
+    "agents/coordinator/AGENTS.md": "6c849b3b4af74eaf3512b84c6fa94dbd1cfdd4f36a171bbd0ae9990ab83771ba",
+    "agents/design-director/AGENTS.md": "998dc063aa6c8704685fd33701012ed5b1c99c2ad9a9ab2ff3a861045f19aa5d",
+    "agents/developer/AGENTS.md": "c94bad30fa653af00a3c9ce6875d4342be3499e58187ee0be09286c9687e6fe0",
+    "agents/executor/AGENTS.md": "4247d02ba14db6439d1e231e0963e25108a86829684858a7b910d4c872a013c1",
+    "agents/planner/AGENTS.md": "fa565bd87e4c080e39550ecabb60e42a0fd0c623fbe2174330ad616e5a20dae4",
+    "agents/researcher/AGENTS.md": "b9445186a4dcc1923596701fbd896eef1e9c9a34deae5330a672257d67acb533",
+    "agents/reviewer/AGENTS.md": "fb8490efa28b6b712e9a39b5ae8e581640c41817bedeb3caf7c49c89c55263b7",
+    "agents/architect/CONTEXT.md": "c902a0759b467867d81285aaa965395536c19517eee871c1664d9e9b2783580f",
+    "agents/chief-of-staff/CONTEXT.md": "c652a705d766f51e9ead11eac96458bfa24f419d6db307d60a6bb579d8eb5163",
+    "agents/coordinator/CONTEXT.md": "ad73b30ec0db687dfdce23959972955879e12264797dabc54800d99afe6fbc1c",
+    "agents/design-director/CONTEXT.md": "f254b7c726b5fc7ad39aff8929867656d03ebcf6f121a1397370f1c73b31f050",
+    "agents/developer/CONTEXT.md": "639b089408b9725ed24bfd83c9cbe1fe55ed042fc9aabf939cbff28de754010a",
+    "agents/executor/CONTEXT.md": "a87435b940f0abd36fc136300d888d0d1aa3f014f386e671ade65168dffacf46",
+    "agents/planner/CONTEXT.md": "ca857bd32289be04c6af42eb28c8b063aa777ef58c76f6080e71f85db6ec4639",
+    "agents/researcher/CONTEXT.md": "0302cd0a132ff7e72abbe7a511f1d39c147d6f8258e4767f61f1be408a2854a2",
+    "agents/reviewer/CONTEXT.md": "e7c05da3f463fd6061a0a2ff955059419aae827d4b75a4eb1adbe580c488e479"
+  },
+  "word_count_method": "Python str.split whitespace-delimited words, metadata included. Corpus counts each manifest path once. Role contracts count core/authority/scope once plus its own AGENTS and CONTEXT; action-specific sources excluded. Archived words retained but excluded from current instruction corpus. No tokens, capacity, productivity or universal compliance inference.",
+  "word_census": {
+    "AGENTS.md": {
+      "baseline": 689,
+      "candidate": 761,
+      "delta": 72
+    },
+    "policies/AUTHORITY.md": {
+      "baseline": 225,
+      "candidate": 225,
+      "delta": 0
+    },
+    "policies/SCOPE_BOUNDARIES.md": {
+      "baseline": 290,
+      "candidate": 290,
+      "delta": 0
+    },
+    "policies/SELF_IMPROVEMENT.md": {
+      "baseline": 1212,
+      "candidate": 1373,
+      "delta": 161
+    },
+    "policies/APPROVALS.md": {
+      "baseline": 215,
+      "candidate": 215,
+      "delta": 0
+    },
+    "policies/ACCEPTANCE.md": {
+      "baseline": 789,
+      "candidate": 789,
+      "delta": 0
+    },
+    "policies/MEASUREMENT_INDEPENDENCE.md": {
+      "baseline": 226,
+      "candidate": 226,
+      "delta": 0
+    },
+    "policies/PLANNING.md": {
+      "baseline": 1064,
+      "candidate": 1064,
+      "delta": 0
+    },
+    "policies/ROUTING.md": {
+      "baseline": 341,
+      "candidate": 341,
+      "delta": 0
+    },
+    "shared/CONTEXT_MANAGEMENT.md": {
+      "baseline": 679,
+      "candidate": 679,
+      "delta": 0
+    },
+    "shared/RECORD_FORMATS.md": {
+      "baseline": 361,
+      "candidate": 361,
+      "delta": 0
+    },
+    "shared/HANDOFFS.md": {
+      "baseline": 787,
+      "candidate": 313,
+      "delta": -474
+    },
+    "shared/AUTONOMOUS_EXECUTION.md": {
+      "baseline": 948,
+      "candidate": 908,
+      "delta": -40
+    },
+    "shared/DESIGN_REVIEW.md": {
+      "baseline": 1649,
+      "candidate": 1649,
+      "delta": 0
+    },
+    "workflows/WF-000004.md": {
+      "baseline": 567,
+      "candidate": 405,
+      "delta": -162
+    },
+    "agents/architect/AGENTS.md": {
+      "baseline": 249,
+      "candidate": 164,
+      "delta": -85
+    },
+    "agents/chief-of-staff/AGENTS.md": {
+      "baseline": 448,
+      "candidate": 372,
+      "delta": -76
+    },
+    "agents/coordinator/AGENTS.md": {
+      "baseline": 699,
+      "candidate": 591,
+      "delta": -108
+    },
+    "agents/design-director/AGENTS.md": {
+      "baseline": 971,
+      "candidate": 885,
+      "delta": -86
+    },
+    "agents/developer/AGENTS.md": {
+      "baseline": 258,
+      "candidate": 173,
+      "delta": -85
+    },
+    "agents/executor/AGENTS.md": {
+      "baseline": 256,
+      "candidate": 171,
+      "delta": -85
+    },
+    "agents/planner/AGENTS.md": {
+      "baseline": 354,
+      "candidate": 269,
+      "delta": -85
+    },
+    "agents/researcher/AGENTS.md": {
+      "baseline": 254,
+      "candidate": 169,
+      "delta": -85
+    },
+    "agents/reviewer/AGENTS.md": {
+      "baseline": 531,
+      "candidate": 447,
+      "delta": -84
+    },
+    "agents/architect/CONTEXT.md": {
+      "baseline": 152,
+      "candidate": 67,
+      "delta": -85
+    },
+    "agents/chief-of-staff/CONTEXT.md": {
+      "baseline": 163,
+      "candidate": 71,
+      "delta": -92
+    },
+    "agents/coordinator/CONTEXT.md": {
+      "baseline": 199,
+      "candidate": 93,
+      "delta": -106
+    },
+    "agents/design-director/CONTEXT.md": {
+      "baseline": 239,
+      "candidate": 192,
+      "delta": -47
+    },
+    "agents/developer/CONTEXT.md": {
+      "baseline": 157,
+      "candidate": 67,
+      "delta": -90
+    },
+    "agents/executor/CONTEXT.md": {
+      "baseline": 158,
+      "candidate": 67,
+      "delta": -91
+    },
+    "agents/planner/CONTEXT.md": {
+      "baseline": 155,
+      "candidate": 67,
+      "delta": -88
+    },
+    "agents/researcher/CONTEXT.md": {
+      "baseline": 150,
+      "candidate": 67,
+      "delta": -83
+    },
+    "agents/reviewer/CONTEXT.md": {
+      "baseline": 165,
+      "candidate": 67,
+      "delta": -98
+    }
+  },
+  "per_role_contracts": {
+    "architect": {
+      "baseline": 1605,
+      "candidate": 1507,
+      "delta": -98,
+      "paths": [
+        "AGENTS.md",
+        "policies/AUTHORITY.md",
+        "policies/SCOPE_BOUNDARIES.md",
+        "agents/architect/AGENTS.md",
+        "agents/architect/CONTEXT.md"
+      ]
+    },
+    "chief-of-staff": {
+      "baseline": 1815,
+      "candidate": 1719,
+      "delta": -96,
+      "paths": [
+        "AGENTS.md",
+        "policies/AUTHORITY.md",
+        "policies/SCOPE_BOUNDARIES.md",
+        "agents/chief-of-staff/AGENTS.md",
+        "agents/chief-of-staff/CONTEXT.md"
+      ]
+    },
+    "coordinator": {
+      "baseline": 2102,
+      "candidate": 1960,
+      "delta": -142,
+      "paths": [
+        "AGENTS.md",
+        "policies/AUTHORITY.md",
+        "policies/SCOPE_BOUNDARIES.md",
+        "agents/coordinator/AGENTS.md",
+        "agents/coordinator/CONTEXT.md"
+      ]
+    },
+    "design-director": {
+      "baseline": 2414,
+      "candidate": 2353,
+      "delta": -61,
+      "paths": [
+        "AGENTS.md",
+        "policies/AUTHORITY.md",
+        "policies/SCOPE_BOUNDARIES.md",
+        "agents/design-director/AGENTS.md",
+        "agents/design-director/CONTEXT.md"
+      ]
+    },
+    "developer": {
+      "baseline": 1619,
+      "candidate": 1516,
+      "delta": -103,
+      "paths": [
+        "AGENTS.md",
+        "policies/AUTHORITY.md",
+        "policies/SCOPE_BOUNDARIES.md",
+        "agents/developer/AGENTS.md",
+        "agents/developer/CONTEXT.md"
+      ]
+    },
+    "executor": {
+      "baseline": 1618,
+      "candidate": 1514,
+      "delta": -104,
+      "paths": [
+        "AGENTS.md",
+        "policies/AUTHORITY.md",
+        "policies/SCOPE_BOUNDARIES.md",
+        "agents/executor/AGENTS.md",
+        "agents/executor/CONTEXT.md"
+      ]
+    },
+    "planner": {
+      "baseline": 1713,
+      "candidate": 1612,
+      "delta": -101,
+      "paths": [
+        "AGENTS.md",
+        "policies/AUTHORITY.md",
+        "policies/SCOPE_BOUNDARIES.md",
+        "agents/planner/AGENTS.md",
+        "agents/planner/CONTEXT.md"
+      ]
+    },
+    "researcher": {
+      "baseline": 1608,
+      "candidate": 1512,
+      "delta": -96,
+      "paths": [
+        "AGENTS.md",
+        "policies/AUTHORITY.md",
+        "policies/SCOPE_BOUNDARIES.md",
+        "agents/researcher/AGENTS.md",
+        "agents/researcher/CONTEXT.md"
+      ]
+    },
+    "reviewer": {
+      "baseline": 1900,
+      "candidate": 1790,
+      "delta": -110,
+      "paths": [
+        "AGENTS.md",
+        "policies/AUTHORITY.md",
+        "policies/SCOPE_BOUNDARIES.md",
+        "agents/reviewer/AGENTS.md",
+        "agents/reviewer/CONTEXT.md"
+      ]
+    }
+  },
+  "corpus": {
+    "baseline": 15600,
+    "candidate": 13598,
+    "delta": -2002
+  },
+  "limits": [
+    "Static checks do not establish semantic equivalence; independent Reviewer must assess all changed duties/routing and evaluator semantics.",
+    "Behavioral executions and independent scoring are separate and may be missing.",
+    "No Git scope/remote-main/delivery verification performed by this worker."
+  ],
+  "preparation_attempts": [
+    {
+      "command": "python3 factory/reports/governance-simplification/qualify.py",
+      "exit_code": 0,
+      "stage": "preparation",
+      "disposition": "not-final",
+      "checks_passed": 61,
+      "checks_total": 64,
+      "corpus": {
+        "baseline": 15600,
+        "candidate": 13523,
+        "delta": -2077
+      },
+      "limits": "Preparation while lanes incomplete. Failures: fenced schema examples and prior absent AUTONOMOUS_EXECUTION metadata counted as invalid; planned CoS/Coordinator/Reviewer paragraph changes failed comparison; historical archive exact bytes not found due rebased link. Original full JSON unavailable; failure evidence retained from tool outputs.",
+      "code": "#!/usr/bin/env python3\n\"\"\"Task403 read-only source qualification; writes only the selected JSON report.\nNo Git, network, subject execution, production-tool mutation or promotion.\n\"\"\"\nimport argparse\nimport hashlib\nimport importlib.util\nimport json\nfrom pathlib import Path\nimport random\nimport re\nimport sys\nimport unicodedata\nfrom urllib.parse import unquote\n\nHERE = Path(__file__).resolve().parent\nROOT = HERE.parents[2]\nFIELDS = ('Target System', 'Change Classification', 'Authorized Scope', 'Affected Paths or Resources', 'Owning Role', 'Related Requirements', 'Related Tasks', 'Approval Requirements')\n\ndef sha(data):\n    return hashlib.sha256(data).hexdigest()\n\ndef load_module(path, name):\n    spec = importlib.util.spec_from_file_location(name, path)\n    module = importlib.util.module_from_spec(spec)\n    sys.modules[name] = module\n    spec.loader.exec_module(module)\n    return module\n\ndef headings(text):\n    counts, result = {}, set()\n    for title in re.findall(r'^#{1,6}\\s+(.+?)\\s*#*$', text, re.M):\n        title = re.sub(r'[`*_]', '', title).lower()\n        title = ''.join(c for c in unicodedata.normalize('NFC', title) if c.isalnum() or c in '_- ')\n        slug = title.replace(' ', '-')\n        n = counts.get(slug, 0)\n        counts[slug] = n + 1\n        result.add(slug + (f'-{n}' if n else ''))\n    return result\n\ndef links(path):\n    result = []\n    for target in re.findall(r'\\[[^\\]]*\\]\\(([^)]+)\\)', path.read_text()):\n        if re.match(r'[a-z]+://|mailto:', target):\n            continue\n        target = unquote(target.strip('<>'))\n        file, _, anchor = target.partition('#')\n        dest = (path.parent / file).resolve() if file else path.resolve()\n        valid = dest.is_file() and dest.is_relative_to(ROOT)\n        if valid and anchor:\n            valid = anchor in headings(dest.read_text())\n        result.append({'source': str(path.relative_to(ROOT)), 'target': target, 'resolved': str(dest.relative_to(ROOT)) if dest.is_relative_to(ROOT) else 'outside organization', 'valid': valid})\n    return result\n\ndef inline_proof():\n    # Reuse the maintained real manifest fixture; only a temporary fixture is changed.\n    module = load_module(ROOT / 'factory/tests/test_context.py', 'qualification_context_tests')\n    fixture = module.ContextTests()\n    fixture.setUp()\n    try:\n        path = fixture.root / 'tasks/organization/TASK-000001.md'\n        text = path.read_text() + '- Plan Path: tasks/organization/TASK-000001.md\\n\\n## Inline plan revision 1\\n\\nOutcome: exact typo correction. Scope: existing assigned instruction. Criterion: corrected spelling with semantics preserved. Verify diff and independent review. Budget: bounded task. Rollback: scoped corrective PR.\\n'\n        path.write_text(text)\n        (fixture.root / 'factory/reports/example/PLAN.md').unlink()\n        result = fixture.manifest()\n        source = next(s for s in result['sources'] if s['path'] == 'agent-org/tasks/organization/TASK-000001.md')\n        okay = {'task', 'plan'} <= set(source['classes']) and source['sha256'] == sha(path.read_bytes())\n        return {'passed': okay, 'path': source['path'], 'classes': source['classes'], 'sha256': source['sha256'], 'separate_plan_file': False, 'limit': 'Manifest acceptance proves supported canonical source reuse, not semantic completeness or permission. Fresh review remains required.'}\n    finally:\n        fixture.doCleanups()\n\ndef qualify(final=False):\n    manifest = json.loads((HERE / 'baseline-manifest.json').read_text())\n    old = {p: (HERE / item['snapshot']).read_text() for p, item in manifest['sources'].items()}\n    current = {p: (ROOT / p).read_text() for p in old}\n    checks = []\n    def check(name, passed, evidence):\n        checks.append({'name': name, 'passed': bool(passed), 'evidence': evidence})\n    for p, item in manifest['sources'].items():\n        check('baseline:' + p, sha((HERE / item['snapshot']).read_bytes()) == item['sha256'], item['sha256'])\n    for p, digest in json.loads((HERE / 'protocol-hashes.json').read_text()).items():\n        check('frozen:' + p, sha((HERE / p).read_bytes()) == digest, digest)\n    order = json.loads((HERE / 'ORDERING.json').read_text())\n    rng = random.Random(order['seed'])\n    expected = {}\n    for condition in ('baseline', 'candidate'):\n        values = [x['id'] for x in json.loads((HERE / 'CASES.json').read_text())]\n        rng.shuffle(values)\n        expected[condition] = values\n        actual = json.loads((HERE / f'{condition}-cases.json').read_text())\n        check('case-permutation:' + condition, [x['id'] for x in actual] == values, values)\n    check('single-stream-ordering', expected == order['actual_orders'], expected)\n    for p in ('policies/AUTHORITY.md', 'policies/SCOPE_BOUNDARIES.md', 'policies/MEASUREMENT_INDEPENDENCE.md', 'policies/APPROVALS.md', 'policies/ACCEPTANCE.md', 'policies/PLANNING.md', 'shared/RECORD_FORMATS.md', 'shared/CONTEXT_MANAGEMENT.md', 'shared/DESIGN_REVIEW.md'):\n        check('unchanged-contract:' + p, current[p] == old[p], sha(current[p].encode()))\n    p = 'policies/SELF_IMPROVEMENT.md'\n    prefix = old[p].split('## Event-driven lessons and capability review')[0]\n    check('prior-evaluator-exact-prefix', current[p].startswith(prefix), {'baseline_sha256': sha(prefix.encode()), 'words': len(prefix.split()), 'covers': 'preregistration, deterministic/stochastic thresholds, guardrails, independence, evaluator changes, rollback'})\n    roles = sorted((ROOT / 'agents').glob('*/AGENTS.md'))\n    registered = {str(p.relative_to(ROOT)) for p in roles}\n    pinned = {p for p in old if p.startswith('agents/') and p.endswith('/AGENTS.md')}\n    check('all-active-roles-pinned', registered == pinned, sorted(registered))\n    metadata_errors, identity_errors, duty_changes = [], [], []\n    for p in current:\n        if p == 'AGENTS.md':\n            continue\n        for field in FIELDS:\n            lines = re.findall(r'^- ' + re.escape(field) + r': .+$', current[p], re.M)\n            original = re.findall(r'^- ' + re.escape(field) + r': .+$', old[p], re.M)\n            if len(lines) != 1 or lines != original:\n                metadata_errors.append([p, field])\n        if p.startswith('agents/'):\n            if p.endswith('/AGENTS.md'):\n                for field in ('Agent ID', 'Status', 'Capabilities'):\n                    original = re.findall(r'^- ' + field + r': .+$', old[p], re.M)\n                    if original != re.findall(r'^- ' + field + r': .+$', current[p], re.M):\n                        identity_errors.append([p, field])\n                if '## Role duties' in old[p]:\n                    for paragraph in old[p].split('## Role duties', 1)[1].strip().split('\\n\\n'):\n                        if paragraph not in current[p]:\n                            duty_changes.append({'path': p, 'paragraph': paragraph})\n    check('required-metadata-exact', not metadata_errors, metadata_errors)\n    check('role-identities-exact', not identity_errors, identity_errors)\n    check('unique-role-duties-retained', not duty_changes, duty_changes)\n    shared = current['AGENTS.md']\n    obligations = {'scope': r'(?i)scope', 'authority': r'(?i)authority', 'claim': r'(?i)claim', 'dependencies': r'(?i)dependenc', 'handoff': r'(?i)handoff', 'unknown telemetry': r'(?i)unknown telemetry|telemetry.*honest|never invent.*telemetry', 'required sources': r'(?i)missing required', 'project trigger': r'(?i)project.*(source|instruction|profile)|enrolled project'}\n    check('canonical-core-obligations', all(re.search(v, shared) for v in obligations.values()), {k: bool(re.search(v, shared)) for k,v in obligations.items()})\n    history = old['shared/HANDOFFS.md'].split('## Remote-main policy delivery \u2014 proposed closure', 1)[1]\n    tail = '## Remote-main policy delivery \u2014 proposed closure' + history\n    archives = [p for p in HERE.glob('*.md') if p.name not in {'QUALIFICATION.md'} and tail.encode() in p.read_bytes()]\n    check('historical-tail-lossless-and-removed', len(archives) == 1 and tail not in current['shared/HANDOFFS.md'], {'tail_sha256': sha(tail.encode()), 'tail_words': len(tail.split()), 'archives': [p.name for p in archives]})\n    link_paths = [ROOT / p for p in current] + archives\n    all_links = [item for path in link_paths for item in links(path)]\n    check('local-links-and-anchors', all(x['valid'] for x in all_links), {'count': len(all_links), 'failures': [x for x in all_links if not x['valid']]})\n    if archives:\n        archive_rel = str(archives[0].relative_to(ROOT))\n        check('history-recoverable-from-contract', any(x['source'] == 'shared/HANDOFFS.md' and x['resolved'] == archive_rel and x['valid'] for x in all_links), archive_rel)\n        # Original snapshot directory differs: recover original relative link destinations explicitly.\n        old_targets = {(str((ROOT / 'shared' / t.partition('#')[0]).resolve().relative_to(ROOT)), t.partition('#')[2]) for t in re.findall(r'\\[[^\\]]*\\]\\(([^)]+)\\)', tail)}\n        archive_targets = {(x['resolved'], x['target'].partition('#')[2]) for x in links(archives[0])}\n        check('historical-link-destinations-preserved', old_targets <= archive_targets, {'original': sorted(old_targets), 'archive': sorted(archive_targets)})\n    census = {}\n    for p in current:\n        census[p] = {'baseline': len(old[p].split()), 'candidate': len(current[p].split())}\n        census[p]['delta'] = census[p]['candidate'] - census[p]['baseline']\n    common = ['AGENTS.md', 'policies/AUTHORITY.md', 'policies/SCOPE_BOUNDARIES.md']\n    per_role = {}\n    for role_path in sorted(pinned):\n        context = role_path.replace('/AGENTS.md', '/CONTEXT.md')\n        paths = common + [role_path, context]\n        counts = {condition: sum(census[p][condition] for p in paths) for condition in ('baseline','candidate')}\n        counts['delta'] = counts['candidate'] - counts['baseline']\n        counts['paths'] = paths\n        per_role[Path(role_path).parent.name] = counts\n    check('each-role-contract-shorter', all(v['delta'] < 0 for v in per_role.values()), per_role)\n    totals = {condition: sum(v[condition] for v in census.values()) for condition in ('baseline','candidate')}\n    totals['delta'] = totals['candidate'] - totals['baseline']\n    check('net-scoped-corpus-shorter', totals['delta'] < 0, totals)\n    proof = inline_proof()\n    check('existing-inline-plan-reuse', proof['passed'], proof)\n    passed = all(x['passed'] for x in checks)\n    return {'stage': 'final-source-snapshot' if final else 'preparation', 'disposition': ('passed' if passed else 'failed') if final else 'not-final', 'checks_passed': sum(x['passed'] for x in checks), 'checks_total': len(checks), 'checks': checks, 'source_hashes': {p: sha((ROOT/p).read_bytes()) for p in current}, 'word_count_method': 'Python str.split whitespace-delimited words, metadata included. Corpus counts each manifest path once. Role contracts count core/authority/scope once plus its own AGENTS and CONTEXT; action-specific sources excluded. Archived words retained but excluded from current instruction corpus. No tokens, capacity, productivity or universal compliance inference.', 'word_census': census, 'per_role_contracts': per_role, 'corpus': totals, 'limits': ['Static checks do not establish semantic equivalence; independent Reviewer must assess all changed duties/routing and evaluator semantics.', 'Behavioral executions and independent scoring are separate and may be missing.', 'No Git scope/remote-main/delivery verification performed by this worker.']}\n\nif __name__ == '__main__':\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument('--final', action='store_true', help='Use only after parent reports source integration ready')\n    parser.add_argument('--output', default='test-results.json')\n    args = parser.parse_args()\n    destination = (HERE / args.output).resolve()\n    if destination.parent != HERE or destination.suffix != '.json':\n        parser.error('output must be a JSON file in this report directory')\n    result = qualify(args.final)\n    destination.write_text(json.dumps(result, indent=2) + '\\n')\n    print(json.dumps({k: result[k] for k in ('stage','disposition','checks_passed','checks_total','corpus')}))\n    sys.exit(1 if args.final and result['disposition'] != 'passed' else 0)\n",
+      "code_sha256": "fc2fd525002906c862aeb57e8ad7d9644c8e076928a581200defbcec5cfc2b93",
+      "code_provenance": "68/68 read directly before this edit; earlier code reconstructed from retained exact tool edits, not contemporaneously pinned artifacts",
+      "observation_time": "unknown"
+    },
+    {
+      "command": "python3 factory/reports/governance-simplification/qualify.py",
+      "exit_code": 0,
+      "stage": "preparation",
+      "disposition": "not-final",
+      "checks_passed": 66,
+      "checks_total": 66,
+      "corpus": {
+        "baseline": 15600,
+        "candidate": 13523,
+        "delta": -2077
+      },
+      "limits": "Preparation after checker fence parsing, preservation of prior absent metadata, bounded known summary changes and inverse history link rebase. No final qualification.",
+      "code": "#!/usr/bin/env python3\n\"\"\"Task403 read-only source qualification; writes only the selected JSON report.\nNo Git, network, subject execution, production-tool mutation or promotion.\n\"\"\"\nimport argparse\nimport hashlib\nimport importlib.util\nimport json\nfrom pathlib import Path\nimport random\nimport re\nimport sys\nimport unicodedata\nfrom urllib.parse import unquote\n\nHERE = Path(__file__).resolve().parent\nROOT = HERE.parents[2]\nFIELDS = ('Target System', 'Change Classification', 'Authorized Scope', 'Affected Paths or Resources', 'Owning Role', 'Related Requirements', 'Related Tasks', 'Approval Requirements')\n\ndef sha(data):\n    return hashlib.sha256(data).hexdigest()\n\ndef load_module(path, name):\n    spec = importlib.util.spec_from_file_location(name, path)\n    module = importlib.util.module_from_spec(spec)\n    sys.modules[name] = module\n    spec.loader.exec_module(module)\n    return module\n\ndef unfenced(text):\n    result, fenced = [], False\n    for line in text.splitlines():\n        if line.startswith(('```', '~~~')):\n            fenced = not fenced\n            continue\n        if not fenced:\n            result.append(line)\n    return '\\n'.join(result)\n\ndef headings(text):\n    counts, result = {}, set()\n    for title in re.findall(r'^#{1,6}\\s+(.+?)\\s*#*$', text, re.M):\n        title = re.sub(r'[`*_]', '', title).lower()\n        title = ''.join(c for c in unicodedata.normalize('NFC', title) if c.isalnum() or c in '_- ')\n        slug = title.replace(' ', '-')\n        n = counts.get(slug, 0)\n        counts[slug] = n + 1\n        result.add(slug + (f'-{n}' if n else ''))\n    return result\n\ndef links(path):\n    result = []\n    for target in re.findall(r'\\[[^\\]]*\\]\\(([^)]+)\\)', path.read_text()):\n        if re.match(r'[a-z]+://|mailto:', target):\n            continue\n        target = unquote(target.strip('<>'))\n        file, _, anchor = target.partition('#')\n        dest = (path.parent / file).resolve() if file else path.resolve()\n        valid = dest.is_file() and dest.is_relative_to(ROOT)\n        if valid and anchor:\n            valid = anchor in headings(dest.read_text())\n        result.append({'source': str(path.relative_to(ROOT)), 'target': target, 'resolved': str(dest.relative_to(ROOT)) if dest.is_relative_to(ROOT) else 'outside organization', 'valid': valid})\n    return result\n\ndef inline_proof():\n    # Reuse the maintained real manifest fixture; only a temporary fixture is changed.\n    module = load_module(ROOT / 'factory/tests/test_context.py', 'qualification_context_tests')\n    fixture = module.ContextTests()\n    fixture.setUp()\n    try:\n        path = fixture.root / 'tasks/organization/TASK-000001.md'\n        text = path.read_text() + '- Plan Path: tasks/organization/TASK-000001.md\\n\\n## Inline plan revision 1\\n\\nOutcome: exact typo correction. Scope: existing assigned instruction. Criterion: corrected spelling with semantics preserved. Verify diff and independent review. Budget: bounded task. Rollback: scoped corrective PR.\\n'\n        path.write_text(text)\n        (fixture.root / 'factory/reports/example/PLAN.md').unlink()\n        result = fixture.manifest()\n        source = next(s for s in result['sources'] if s['path'] == 'agent-org/tasks/organization/TASK-000001.md')\n        okay = {'task', 'plan'} <= set(source['classes']) and source['sha256'] == sha(path.read_bytes())\n        return {'passed': okay, 'path': source['path'], 'classes': source['classes'], 'sha256': source['sha256'], 'separate_plan_file': False, 'limit': 'Manifest acceptance proves supported canonical source reuse, not semantic completeness or permission. Fresh review remains required.'}\n    finally:\n        fixture.doCleanups()\n\ndef qualify(final=False):\n    manifest = json.loads((HERE / 'baseline-manifest.json').read_text())\n    old = {p: (HERE / item['snapshot']).read_text() for p, item in manifest['sources'].items()}\n    current = {p: (ROOT / p).read_text() for p in old}\n    checks = []\n    def check(name, passed, evidence):\n        checks.append({'name': name, 'passed': bool(passed), 'evidence': evidence})\n    for p, item in manifest['sources'].items():\n        check('baseline:' + p, sha((HERE / item['snapshot']).read_bytes()) == item['sha256'], item['sha256'])\n    for p, digest in json.loads((HERE / 'protocol-hashes.json').read_text()).items():\n        check('frozen:' + p, sha((HERE / p).read_bytes()) == digest, digest)\n    order = json.loads((HERE / 'ORDERING.json').read_text())\n    rng = random.Random(order['seed'])\n    expected = {}\n    for condition in ('baseline', 'candidate'):\n        values = [x['id'] for x in json.loads((HERE / 'CASES.json').read_text())]\n        rng.shuffle(values)\n        expected[condition] = values\n        actual = json.loads((HERE / f'{condition}-cases.json').read_text())\n        check('case-permutation:' + condition, [x['id'] for x in actual] == values, values)\n    check('single-stream-ordering', expected == order['actual_orders'], expected)\n    for p in ('policies/AUTHORITY.md', 'policies/SCOPE_BOUNDARIES.md', 'policies/MEASUREMENT_INDEPENDENCE.md', 'policies/APPROVALS.md', 'policies/ACCEPTANCE.md', 'policies/PLANNING.md', 'shared/RECORD_FORMATS.md', 'shared/CONTEXT_MANAGEMENT.md', 'shared/DESIGN_REVIEW.md'):\n        check('unchanged-contract:' + p, current[p] == old[p], sha(current[p].encode()))\n    p = 'policies/SELF_IMPROVEMENT.md'\n    prefix = old[p].split('## Event-driven lessons and capability review')[0]\n    check('prior-evaluator-exact-prefix', current[p].startswith(prefix), {'baseline_sha256': sha(prefix.encode()), 'words': len(prefix.split()), 'covers': 'preregistration, deterministic/stochastic thresholds, guardrails, independence, evaluator changes, rollback'})\n    roles = sorted((ROOT / 'agents').glob('*/AGENTS.md'))\n    registered = {str(p.relative_to(ROOT)) for p in roles}\n    pinned = {p for p in old if p.startswith('agents/') and p.endswith('/AGENTS.md')}\n    check('all-active-roles-pinned', registered == pinned, sorted(registered))\n    metadata_errors, identity_errors, duty_changes = [], [], []\n    for p in current:\n        if p == 'AGENTS.md':\n            continue\n        for field in FIELDS:\n            lines = re.findall(r'^- ' + re.escape(field) + r': .+$', unfenced(current[p]), re.M)\n            original = re.findall(r'^- ' + re.escape(field) + r': .+$', unfenced(old[p]), re.M)\n            if lines != original or (original and len(lines) != 1):\n                metadata_errors.append([p, field])\n        if p.startswith('agents/'):\n            if p.endswith('/AGENTS.md'):\n                for field in ('Agent ID', 'Status', 'Capabilities'):\n                    original = re.findall(r'^- ' + field + r': .+$', old[p], re.M)\n                    if original != re.findall(r'^- ' + field + r': .+$', current[p], re.M):\n                        identity_errors.append([p, field])\n                if '## Role duties' in old[p]:\n                    for paragraph in old[p].split('## Role duties', 1)[1].strip().split('\\n\\n'):\n                        if paragraph not in current[p] and not ((p == 'agents/chief-of-staff/AGENTS.md' and paragraph.startswith('Own active-session organization-level diagnosis')) or (p == 'agents/coordinator/AGENTS.md' and paragraph.startswith('Every observed unexpected problem')) or (p == 'agents/reviewer/AGENTS.md' and paragraph.startswith('For root-cause repairs,') and paragraph.replace('For root-cause repairs,', 'For organization root-cause repairs,') in current[p])):\n                            duty_changes.append({'path': p, 'paragraph': paragraph})\n    check('required-metadata-exact', not metadata_errors, metadata_errors)\n    check('role-identities-exact', not identity_errors, identity_errors)\n    check('unique-role-duties-retained', not duty_changes, duty_changes)\n    shared = current['AGENTS.md']\n    obligations = {'scope': r'(?i)scope', 'authority': r'(?i)authority', 'claim': r'(?i)claim', 'dependencies': r'(?i)dependenc', 'handoff': r'(?i)handoff', 'unknown telemetry': r'(?i)unknown telemetry|telemetry.*honest|never invent.*telemetry', 'required sources': r'(?i)missing required', 'project trigger': r'(?i)project.*(source|instruction|profile)|enrolled project'}\n    check('canonical-core-obligations', all(re.search(v, shared) for v in obligations.values()), {k: bool(re.search(v, shared)) for k,v in obligations.items()})\n    history = old['shared/HANDOFFS.md'].split('## Remote-main policy delivery \u2014 proposed closure', 1)[1]\n    tail = '## Remote-main policy delivery \u2014 proposed closure' + history\n    archives = [p for p in HERE.glob('*.md') if p.name not in {'QUALIFICATION.md'} and tail in p.read_text().replace('](../project-cleanup/CLOSURE.md)', '](../factory/reports/project-cleanup/CLOSURE.md)')]\n    check('historical-tail-lossless-and-removed', len(archives) == 1 and tail not in current['shared/HANDOFFS.md'], {'tail_sha256': sha(tail.encode()), 'tail_words': len(tail.split()), 'only_allowed_rebase': '../factory/reports/project-cleanup/CLOSURE.md -> ../project-cleanup/CLOSURE.md; inverse rebase must equal complete original tail', 'archives': [p.name for p in archives]})\n    link_paths = [ROOT / p for p in current] + archives\n    all_links = [item for path in link_paths for item in links(path)]\n    check('local-links-and-anchors', all(x['valid'] for x in all_links), {'count': len(all_links), 'failures': [x for x in all_links if not x['valid']]})\n    if archives:\n        archive_rel = str(archives[0].relative_to(ROOT))\n        check('history-recoverable-from-contract', any(x['source'] == 'shared/HANDOFFS.md' and x['resolved'] == archive_rel and x['valid'] for x in all_links), archive_rel)\n        # Original snapshot directory differs: recover original relative link destinations explicitly.\n        old_targets = {(str((ROOT / 'shared' / t.partition('#')[0]).resolve().relative_to(ROOT)), t.partition('#')[2]) for t in re.findall(r'\\[[^\\]]*\\]\\(([^)]+)\\)', tail)}\n        archive_targets = {(x['resolved'], x['target'].partition('#')[2]) for x in links(archives[0])}\n        check('historical-link-destinations-preserved', old_targets <= archive_targets, {'original': sorted(old_targets), 'archive': sorted(archive_targets)})\n    census = {}\n    for p in current:\n        census[p] = {'baseline': len(old[p].split()), 'candidate': len(current[p].split())}\n        census[p]['delta'] = census[p]['candidate'] - census[p]['baseline']\n    common = ['AGENTS.md', 'policies/AUTHORITY.md', 'policies/SCOPE_BOUNDARIES.md']\n    per_role = {}\n    for role_path in sorted(pinned):\n        context = role_path.replace('/AGENTS.md', '/CONTEXT.md')\n        paths = common + [role_path, context]\n        counts = {condition: sum(census[p][condition] for p in paths) for condition in ('baseline','candidate')}\n        counts['delta'] = counts['candidate'] - counts['baseline']\n        counts['paths'] = paths\n        per_role[Path(role_path).parent.name] = counts\n    check('each-role-contract-shorter', all(v['delta'] < 0 for v in per_role.values()), per_role)\n    totals = {condition: sum(v[condition] for v in census.values()) for condition in ('baseline','candidate')}\n    totals['delta'] = totals['candidate'] - totals['baseline']\n    check('net-scoped-corpus-shorter', totals['delta'] < 0, totals)\n    proof = inline_proof()\n    check('existing-inline-plan-reuse', proof['passed'], proof)\n    passed = all(x['passed'] for x in checks)\n    return {'stage': 'final-source-snapshot' if final else 'preparation', 'disposition': ('passed' if passed else 'failed') if final else 'not-final', 'checks_passed': sum(x['passed'] for x in checks), 'checks_total': len(checks), 'checks': checks, 'source_hashes': {p: sha((ROOT/p).read_bytes()) for p in current}, 'word_count_method': 'Python str.split whitespace-delimited words, metadata included. Corpus counts each manifest path once. Role contracts count core/authority/scope once plus its own AGENTS and CONTEXT; action-specific sources excluded. Archived words retained but excluded from current instruction corpus. No tokens, capacity, productivity or universal compliance inference.', 'word_census': census, 'per_role_contracts': per_role, 'corpus': totals, 'limits': ['Static checks do not establish semantic equivalence; independent Reviewer must assess all changed duties/routing and evaluator semantics.', 'Behavioral executions and independent scoring are separate and may be missing.', 'No Git scope/remote-main/delivery verification performed by this worker.']}\n\nif __name__ == '__main__':\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument('--final', action='store_true', help='Use only after parent reports source integration ready')\n    parser.add_argument('--output', default='test-results.json')\n    args = parser.parse_args()\n    destination = (HERE / args.output).resolve()\n    if destination.parent != HERE or destination.suffix != '.json':\n        parser.error('output must be a JSON file in this report directory')\n    result = qualify(args.final)\n    destination.write_text(json.dumps(result, indent=2) + '\\n')\n    print(json.dumps({k: result[k] for k in ('stage','disposition','checks_passed','checks_total','corpus')}))\n    sys.exit(1 if args.final and result['disposition'] != 'passed' else 0)\n",
+      "code_sha256": "3c9eb19400087d9733ec91a964cbf076e1a97f17757096bcf996ed430874e03c",
+      "code_provenance": "68/68 read directly before this edit; earlier code reconstructed from retained exact tool edits, not contemporaneously pinned artifacts",
+      "observation_time": "unknown"
+    },
+    {
+      "command": "python3 factory/reports/governance-simplification/qualify.py",
+      "exit_code": 0,
+      "stage": "preparation",
+      "disposition": "not-final",
+      "checks_passed": 68,
+      "checks_total": 68,
+      "corpus": {
+        "baseline": 15600,
+        "candidate": 13523,
+        "delta": -2077
+      },
+      "limits": "Preparation adds unique CONTEXT preservation and role/context core links. Full original result retained.",
+      "code": "#!/usr/bin/env python3\n\"\"\"Task403 read-only source qualification; writes only the selected JSON report.\nNo Git, network, subject execution, production-tool mutation or promotion.\n\"\"\"\nimport argparse\nimport hashlib\nimport importlib.util\nimport json\nfrom pathlib import Path\nimport random\nimport re\nimport sys\nimport unicodedata\nfrom urllib.parse import unquote\n\nHERE = Path(__file__).resolve().parent\nROOT = HERE.parents[2]\nFIELDS = ('Target System', 'Change Classification', 'Authorized Scope', 'Affected Paths or Resources', 'Owning Role', 'Related Requirements', 'Related Tasks', 'Approval Requirements')\n\ndef sha(data):\n    return hashlib.sha256(data).hexdigest()\n\ndef load_module(path, name):\n    spec = importlib.util.spec_from_file_location(name, path)\n    module = importlib.util.module_from_spec(spec)\n    sys.modules[name] = module\n    spec.loader.exec_module(module)\n    return module\n\ndef unfenced(text):\n    result, fenced = [], False\n    for line in text.splitlines():\n        if line.startswith(('```', '~~~')):\n            fenced = not fenced\n            continue\n        if not fenced:\n            result.append(line)\n    return '\\n'.join(result)\n\ndef headings(text):\n    counts, result = {}, set()\n    for title in re.findall(r'^#{1,6}\\s+(.+?)\\s*#*$', text, re.M):\n        title = re.sub(r'[`*_]', '', title).lower()\n        title = ''.join(c for c in unicodedata.normalize('NFC', title) if c.isalnum() or c in '_- ')\n        slug = title.replace(' ', '-')\n        n = counts.get(slug, 0)\n        counts[slug] = n + 1\n        result.add(slug + (f'-{n}' if n else ''))\n    return result\n\ndef links(path):\n    result = []\n    for target in re.findall(r'\\[[^\\]]*\\]\\(([^)]+)\\)', path.read_text()):\n        if re.match(r'[a-z]+://|mailto:', target):\n            continue\n        target = unquote(target.strip('<>'))\n        file, _, anchor = target.partition('#')\n        dest = (path.parent / file).resolve() if file else path.resolve()\n        valid = dest.is_file() and dest.is_relative_to(ROOT)\n        if valid and anchor:\n            valid = anchor in headings(dest.read_text())\n        result.append({'source': str(path.relative_to(ROOT)), 'target': target, 'resolved': str(dest.relative_to(ROOT)) if dest.is_relative_to(ROOT) else 'outside organization', 'valid': valid})\n    return result\n\ndef inline_proof():\n    # Reuse the maintained real manifest fixture; only a temporary fixture is changed.\n    module = load_module(ROOT / 'factory/tests/test_context.py', 'qualification_context_tests')\n    fixture = module.ContextTests()\n    fixture.setUp()\n    try:\n        path = fixture.root / 'tasks/organization/TASK-000001.md'\n        text = path.read_text() + '- Plan Path: tasks/organization/TASK-000001.md\\n\\n## Inline plan revision 1\\n\\nOutcome: exact typo correction. Scope: existing assigned instruction. Criterion: corrected spelling with semantics preserved. Verify diff and independent review. Budget: bounded task. Rollback: scoped corrective PR.\\n'\n        path.write_text(text)\n        (fixture.root / 'factory/reports/example/PLAN.md').unlink()\n        result = fixture.manifest()\n        source = next(s for s in result['sources'] if s['path'] == 'agent-org/tasks/organization/TASK-000001.md')\n        okay = {'task', 'plan'} <= set(source['classes']) and source['sha256'] == sha(path.read_bytes())\n        return {'passed': okay, 'path': source['path'], 'classes': source['classes'], 'sha256': source['sha256'], 'separate_plan_file': False, 'limit': 'Manifest acceptance proves supported canonical source reuse, not semantic completeness or permission. Fresh review remains required.'}\n    finally:\n        fixture.doCleanups()\n\ndef qualify(final=False):\n    manifest = json.loads((HERE / 'baseline-manifest.json').read_text())\n    old = {p: (HERE / item['snapshot']).read_text() for p, item in manifest['sources'].items()}\n    current = {p: (ROOT / p).read_text() for p in old}\n    checks = []\n    def check(name, passed, evidence):\n        checks.append({'name': name, 'passed': bool(passed), 'evidence': evidence})\n    for p, item in manifest['sources'].items():\n        check('baseline:' + p, sha((HERE / item['snapshot']).read_bytes()) == item['sha256'], item['sha256'])\n    for p, digest in json.loads((HERE / 'protocol-hashes.json').read_text()).items():\n        check('frozen:' + p, sha((HERE / p).read_bytes()) == digest, digest)\n    order = json.loads((HERE / 'ORDERING.json').read_text())\n    rng = random.Random(order['seed'])\n    expected = {}\n    for condition in ('baseline', 'candidate'):\n        values = [x['id'] for x in json.loads((HERE / 'CASES.json').read_text())]\n        rng.shuffle(values)\n        expected[condition] = values\n        actual = json.loads((HERE / f'{condition}-cases.json').read_text())\n        check('case-permutation:' + condition, [x['id'] for x in actual] == values, values)\n    check('single-stream-ordering', expected == order['actual_orders'], expected)\n    for p in ('policies/AUTHORITY.md', 'policies/SCOPE_BOUNDARIES.md', 'policies/MEASUREMENT_INDEPENDENCE.md', 'policies/APPROVALS.md', 'policies/ACCEPTANCE.md', 'policies/PLANNING.md', 'shared/RECORD_FORMATS.md', 'shared/CONTEXT_MANAGEMENT.md', 'shared/DESIGN_REVIEW.md'):\n        check('unchanged-contract:' + p, current[p] == old[p], sha(current[p].encode()))\n    p = 'policies/SELF_IMPROVEMENT.md'\n    prefix = old[p].split('## Event-driven lessons and capability review')[0]\n    check('prior-evaluator-exact-prefix', current[p].startswith(prefix), {'baseline_sha256': sha(prefix.encode()), 'words': len(prefix.split()), 'covers': 'preregistration, deterministic/stochastic thresholds, guardrails, independence, evaluator changes, rollback'})\n    roles = sorted((ROOT / 'agents').glob('*/AGENTS.md'))\n    registered = {str(p.relative_to(ROOT)) for p in roles}\n    pinned = {p for p in old if p.startswith('agents/') and p.endswith('/AGENTS.md')}\n    check('all-active-roles-pinned', registered == pinned, sorted(registered))\n    metadata_errors, identity_errors, duty_changes = [], [], []\n    for p in current:\n        if p == 'AGENTS.md':\n            continue\n        for field in FIELDS:\n            lines = re.findall(r'^- ' + re.escape(field) + r': .+$', unfenced(current[p]), re.M)\n            original = re.findall(r'^- ' + re.escape(field) + r': .+$', unfenced(old[p]), re.M)\n            if lines != original or (original and len(lines) != 1):\n                metadata_errors.append([p, field])\n        if p.startswith('agents/'):\n            if p.endswith('/AGENTS.md'):\n                for field in ('Agent ID', 'Status', 'Capabilities'):\n                    original = re.findall(r'^- ' + field + r': .+$', old[p], re.M)\n                    if original != re.findall(r'^- ' + field + r': .+$', current[p], re.M):\n                        identity_errors.append([p, field])\n                if '## Role duties' in old[p]:\n                    for paragraph in old[p].split('## Role duties', 1)[1].strip().split('\\n\\n'):\n                        if paragraph not in current[p] and not ((p == 'agents/chief-of-staff/AGENTS.md' and paragraph.startswith('Own active-session organization-level diagnosis')) or (p == 'agents/coordinator/AGENTS.md' and paragraph.startswith('Every observed unexpected problem')) or (p == 'agents/reviewer/AGENTS.md' and paragraph.startswith('For root-cause repairs,') and paragraph.replace('For root-cause repairs,', 'For organization root-cause repairs,') in current[p])):\n                            duty_changes.append({'path': p, 'paragraph': paragraph})\n    context_changes = []\n    for p in current:\n        if not (p.startswith('agents/') and p.endswith('/CONTEXT.md')):\n            continue\n        counterpart = current[p.replace('/CONTEXT.md', '/AGENTS.md')]\n        for paragraph in old[p].strip().split('\\n\\n'):\n            # Stable shared orientation/project triggers moved to mandatory core.\n            if paragraph.startswith(('#', '-', 'This is stable', 'For enrolled project work,', 'Before a project assignment,')):\n                continue\n            if paragraph not in current[p] and paragraph not in counterpart:\n                context_changes.append({'path': p, 'paragraph': paragraph})\n    check('unique-context-orientation-retained', not context_changes, context_changes)\n    role_loads = {p: '../../AGENTS.md' in current[p] for p in current if p.startswith('agents/')}\n    check('every-role-and-context-links-mandatory-core', all(role_loads.values()), role_loads)\n    check('required-metadata-exact', not metadata_errors, metadata_errors)\n    check('role-identities-exact', not identity_errors, identity_errors)\n    check('unique-role-duties-retained', not duty_changes, duty_changes)\n    shared = current['AGENTS.md']\n    obligations = {'scope': r'(?i)scope', 'authority': r'(?i)authority', 'claim': r'(?i)claim', 'dependencies': r'(?i)dependenc', 'handoff': r'(?i)handoff', 'unknown telemetry': r'(?i)unknown telemetry|telemetry.*honest|never invent.*telemetry', 'required sources': r'(?i)missing required', 'project trigger': r'(?i)project.*(source|instruction|profile)|enrolled project'}\n    check('canonical-core-obligations', all(re.search(v, shared) for v in obligations.values()), {k: bool(re.search(v, shared)) for k,v in obligations.items()})\n    history = old['shared/HANDOFFS.md'].split('## Remote-main policy delivery \u2014 proposed closure', 1)[1]\n    tail = '## Remote-main policy delivery \u2014 proposed closure' + history\n    archives = [p for p in HERE.glob('*.md') if p.name not in {'QUALIFICATION.md'} and tail in p.read_text().replace('](../project-cleanup/CLOSURE.md)', '](../factory/reports/project-cleanup/CLOSURE.md)')]\n    check('historical-tail-lossless-and-removed', len(archives) == 1 and tail not in current['shared/HANDOFFS.md'], {'tail_sha256': sha(tail.encode()), 'tail_words': len(tail.split()), 'only_allowed_rebase': '../factory/reports/project-cleanup/CLOSURE.md -> ../project-cleanup/CLOSURE.md; inverse rebase must equal complete original tail', 'archives': [p.name for p in archives]})\n    link_paths = [ROOT / p for p in current] + archives\n    all_links = [item for path in link_paths for item in links(path)]\n    check('local-links-and-anchors', all(x['valid'] for x in all_links), {'count': len(all_links), 'failures': [x for x in all_links if not x['valid']]})\n    if archives:\n        archive_rel = str(archives[0].relative_to(ROOT))\n        check('history-recoverable-from-contract', any(x['source'] == 'shared/HANDOFFS.md' and x['resolved'] == archive_rel and x['valid'] for x in all_links), archive_rel)\n        # Original snapshot directory differs: recover original relative link destinations explicitly.\n        old_targets = {(str((ROOT / 'shared' / t.partition('#')[0]).resolve().relative_to(ROOT)), t.partition('#')[2]) for t in re.findall(r'\\[[^\\]]*\\]\\(([^)]+)\\)', tail)}\n        archive_targets = {(x['resolved'], x['target'].partition('#')[2]) for x in links(archives[0])}\n        check('historical-link-destinations-preserved', old_targets <= archive_targets, {'original': sorted(old_targets), 'archive': sorted(archive_targets)})\n    census = {}\n    for p in current:\n        census[p] = {'baseline': len(old[p].split()), 'candidate': len(current[p].split())}\n        census[p]['delta'] = census[p]['candidate'] - census[p]['baseline']\n    common = ['AGENTS.md', 'policies/AUTHORITY.md', 'policies/SCOPE_BOUNDARIES.md']\n    per_role = {}\n    for role_path in sorted(pinned):\n        context = role_path.replace('/AGENTS.md', '/CONTEXT.md')\n        paths = common + [role_path, context]\n        counts = {condition: sum(census[p][condition] for p in paths) for condition in ('baseline','candidate')}\n        counts['delta'] = counts['candidate'] - counts['baseline']\n        counts['paths'] = paths\n        per_role[Path(role_path).parent.name] = counts\n    check('each-role-contract-shorter', all(v['delta'] < 0 for v in per_role.values()), per_role)\n    totals = {condition: sum(v[condition] for v in census.values()) for condition in ('baseline','candidate')}\n    totals['delta'] = totals['candidate'] - totals['baseline']\n    check('net-scoped-corpus-shorter', totals['delta'] < 0, totals)\n    proof = inline_proof()\n    check('existing-inline-plan-reuse', proof['passed'], proof)\n    passed = all(x['passed'] for x in checks)\n    return {'stage': 'final-source-snapshot' if final else 'preparation', 'disposition': ('passed' if passed else 'failed') if final else 'not-final', 'checks_passed': sum(x['passed'] for x in checks), 'checks_total': len(checks), 'checks': checks, 'source_hashes': {p: sha((ROOT/p).read_bytes()) for p in current}, 'word_count_method': 'Python str.split whitespace-delimited words, metadata included. Corpus counts each manifest path once. Role contracts count core/authority/scope once plus its own AGENTS and CONTEXT; action-specific sources excluded. Archived words retained but excluded from current instruction corpus. No tokens, capacity, productivity or universal compliance inference.', 'word_census': census, 'per_role_contracts': per_role, 'corpus': totals, 'limits': ['Static checks do not establish semantic equivalence; independent Reviewer must assess all changed duties/routing and evaluator semantics.', 'Behavioral executions and independent scoring are separate and may be missing.', 'No Git scope/remote-main/delivery verification performed by this worker.']}\n\nif __name__ == '__main__':\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument('--final', action='store_true', help='Use only after parent reports source integration ready')\n    parser.add_argument('--output', default='test-results.json')\n    args = parser.parse_args()\n    destination = (HERE / args.output).resolve()\n    if destination.parent != HERE or destination.suffix != '.json':\n        parser.error('output must be a JSON file in this report directory')\n    result = qualify(args.final)\n    destination.write_text(json.dumps(result, indent=2) + '\\n')\n    print(json.dumps({k: result[k] for k in ('stage','disposition','checks_passed','checks_total','corpus')}))\n    sys.exit(1 if args.final and result['disposition'] != 'passed' else 0)\n",
+      "code_sha256": "599498ea1e61397dce10003506ea7850f9a3cbf3519b3b99f081afe823303dc3",
+      "code_provenance": "68/68 read directly before this edit; earlier code reconstructed from retained exact tool edits, not contemporaneously pinned artifacts",
+      "observation_time": "unknown",
+      "retained_full_result": {
+        "stage": "preparation",
+        "disposition": "not-final",
+        "checks_passed": 68,
+        "checks_total": 68,
+        "checks": [
+          {
+            "name": "baseline:AGENTS.md",
+            "passed": true,
+            "evidence": "d96a65a5f69f6264f489cbf1662ffc6da67d9f8d6c4a2d2c5a6e27f4201af64b"
+          },
+          {
+            "name": "baseline:policies/AUTHORITY.md",
+            "passed": true,
+            "evidence": "082de2f8fec06bc6dc9027d2f8605ca61cda12a5f5c175d1c3019bd1035d1118"
+          },
+          {
+            "name": "baseline:policies/SCOPE_BOUNDARIES.md",
+            "passed": true,
+            "evidence": "605778f942bead5b135d79e94ec803138150c6ab4a0cddc7531a5bdff292bed5"
+          },
+          {
+            "name": "baseline:policies/SELF_IMPROVEMENT.md",
+            "passed": true,
+            "evidence": "41187ca5a70e8c5e531fb02488509c52423b2af116b8d769d055bfe1c39849e9"
+          },
+          {
+            "name": "baseline:policies/APPROVALS.md",
+            "passed": true,
+            "evidence": "65e6f15ab93cdf1aba5eecc172a51aa8484e0be35a67e29936b5b3cacca976b2"
+          },
+          {
+            "name": "baseline:policies/ACCEPTANCE.md",
+            "passed": true,
+            "evidence": "193a3150240ad64542b033d9c31f500077c5ff80c824510808f3660f974a33a8"
+          },
+          {
+            "name": "baseline:policies/MEASUREMENT_INDEPENDENCE.md",
+            "passed": true,
+            "evidence": "899d12e5d92d5a22ef16aa929f154efe1c7748997b071b043769d06a03970194"
+          },
+          {
+            "name": "baseline:policies/PLANNING.md",
+            "passed": true,
+            "evidence": "5608e3beb92f4b6b951578c8282dff1e6ccf838418ce5f9e83b756b14f9ed7fb"
+          },
+          {
+            "name": "baseline:policies/ROUTING.md",
+            "passed": true,
+            "evidence": "edb7fdec5c6f9badb5cfcd9437a760eb73403d5b7aa2da14647c6b7341235a4c"
+          },
+          {
+            "name": "baseline:shared/CONTEXT_MANAGEMENT.md",
+            "passed": true,
+            "evidence": "3a4faaa659fbbfeda75a97205bc40c59e6a43973c700e2ef9b3b207cf8ebb50d"
+          },
+          {
+            "name": "baseline:shared/RECORD_FORMATS.md",
+            "passed": true,
+            "evidence": "317236250041fdacb1135350309ec287186aa7ed22c2f4605a7b6a47a60833fb"
+          },
+          {
+            "name": "baseline:shared/HANDOFFS.md",
+            "passed": true,
+            "evidence": "301097f99ec138bce5d7fe2ee88811e27542140f2fab45cfda97f8f7f15e0e40"
+          },
+          {
+            "name": "baseline:shared/AUTONOMOUS_EXECUTION.md",
+            "passed": true,
+            "evidence": "23f9413b0b10c1762dea8f783fbe461ba2b6d0233b35f25b139c16d0c4e4321c"
+          },
+          {
+            "name": "baseline:shared/DESIGN_REVIEW.md",
+            "passed": true,
+            "evidence": "566a0a69dcf6f048cc81996a48c45c0790c89a4b088d7fa9a6e423dda5b386d6"
+          },
+          {
+            "name": "baseline:workflows/WF-000004.md",
+            "passed": true,
+            "evidence": "39a5370a46b8cd9a2a8b5e4aee81cf5ba20300b82703963706a5782d7a5a250c"
+          },
+          {
+            "name": "baseline:agents/architect/AGENTS.md",
+            "passed": true,
+            "evidence": "92d6643dfe8e1ae243304e23df8bb0c4b1555e681ecd503a600b597e5d65251d"
+          },
+          {
+            "name": "baseline:agents/chief-of-staff/AGENTS.md",
+            "passed": true,
+            "evidence": "6e3892f8900a8b8328fd0eaa991a3b463b75fa8a7e56aa5c73eabf69ce61cc97"
+          },
+          {
+            "name": "baseline:agents/coordinator/AGENTS.md",
+            "passed": true,
+            "evidence": "13af965f9ed7b6fbd352def512cad6a085fd7a270cf51a320fe4db191dc1f4c0"
+          },
+          {
+            "name": "baseline:agents/design-director/AGENTS.md",
+            "passed": true,
+            "evidence": "c8ab0b6785804188233ce16b9592476b6fe268f443a8df921880567c567265e2"
+          },
+          {
+            "name": "baseline:agents/developer/AGENTS.md",
+            "passed": true,
+            "evidence": "9d14fa9428bc3810bed71102fd29fae8306c3d4dbc6dbd59733e05e61548683f"
+          },
+          {
+            "name": "baseline:agents/executor/AGENTS.md",
+            "passed": true,
+            "evidence": "3a4314fab101149445f5f519800bdd7dcdb6948c76e57b668d68b5190b7f2229"
+          },
+          {
+            "name": "baseline:agents/planner/AGENTS.md",
+            "passed": true,
+            "evidence": "716096f2cc787cf5dcc83b26c7e527b8f9dff214bd343f0f0ee820bb66001256"
+          },
+          {
+            "name": "baseline:agents/researcher/AGENTS.md",
+            "passed": true,
+            "evidence": "0488e19263b95e8ae47ffbcf71134002f87c589ab97cb5d4e6a3484478d9e9ba"
+          },
+          {
+            "name": "baseline:agents/reviewer/AGENTS.md",
+            "passed": true,
+            "evidence": "d370a55b59de16042dbae83aea4f720e1bcf11919faa74d9b958b98e08a7bec2"
+          },
+          {
+            "name": "baseline:agents/architect/CONTEXT.md",
+            "passed": true,
+            "evidence": "4ff0e3599fc0410b5f0475f7366898f4c6232ddd95a61f1a2887e7ba1b25513d"
+          },
+          {
+            "name": "baseline:agents/chief-of-staff/CONTEXT.md",
+            "passed": true,
+            "evidence": "131cf31dabdc53147e52ec3144fb0a72ce4266b3cbafb5dd595a39d473e4b38f"
+          },
+          {
+            "name": "baseline:agents/coordinator/CONTEXT.md",
+            "passed": true,
+            "evidence": "808c424701d834879020d741a783ecd1692a30e03284d15083ddb56c1854a3db"
+          },
+          {
+            "name": "baseline:agents/design-director/CONTEXT.md",
+            "passed": true,
+            "evidence": "f5b98e82490eacf8678169c72195f4cae83532e7ab33eb4c714b2a1ea5fd82b0"
+          },
+          {
+            "name": "baseline:agents/developer/CONTEXT.md",
+            "passed": true,
+            "evidence": "f38ae7a06640dbb6ffd076d4d2ea03b1ae5928827733baba2cee2dcb99099727"
+          },
+          {
+            "name": "baseline:agents/executor/CONTEXT.md",
+            "passed": true,
+            "evidence": "6e7e7132cb0fa6d55117986ded7a51ff3d67f03f644a1c56e8772264915898dc"
+          },
+          {
+            "name": "baseline:agents/planner/CONTEXT.md",
+            "passed": true,
+            "evidence": "553f8b3368d36238a87972ca5934a9cfb19289b1e68dcc175bb3d69529175c7c"
+          },
+          {
+            "name": "baseline:agents/researcher/CONTEXT.md",
+            "passed": true,
+            "evidence": "a55151dcfb17eaab4524272ecab4a453a5bb388791e93adf4366d2879061090a"
+          },
+          {
+            "name": "baseline:agents/reviewer/CONTEXT.md",
+            "passed": true,
+            "evidence": "40eeb8053d4ba743fb805bd2ddde44c603c926d66b99b2c9b49046db54e5c872"
+          },
+          {
+            "name": "frozen:PLAN.md",
+            "passed": true,
+            "evidence": "b53350d9e200d5ecf81038dc9514948cee333b90e6fd2422bc72b34618a2f04a"
+          },
+          {
+            "name": "frozen:baseline-manifest.json",
+            "passed": true,
+            "evidence": "69fec449186cdad6d4d1f02caa0bafb154c164f4fdf138f8e5c5e9654bca2d9a"
+          },
+          {
+            "name": "frozen:CASES.json",
+            "passed": true,
+            "evidence": "745b42f9e6f1dac9d1034c077376790b01f3fdb49592bf142666aec16fb43c63"
+          },
+          {
+            "name": "frozen:RUBRIC.json",
+            "passed": true,
+            "evidence": "71a9e94039dc7cf277fcefb18d0ec19378aa817429031400704a7aca1939eeee"
+          },
+          {
+            "name": "frozen:ORDERING.json",
+            "passed": true,
+            "evidence": "d7fe0ee873217fa3e6c083aa44432a8c48ae762e2f97b74b820e0a96217c6acb"
+          },
+          {
+            "name": "frozen:baseline-cases.json",
+            "passed": true,
+            "evidence": "7286e355d8c14dbc431862a3fc941471a514d2cd8a7b44af36b132c2bc9c1b83"
+          },
+          {
+            "name": "frozen:candidate-cases.json",
+            "passed": true,
+            "evidence": "bce096a984325b6dfc23a94a6fbc8a18ebde62b5031782ab1fb937e662786df3"
+          },
+          {
+            "name": "frozen:FIXTURE-PROTOCOL.md",
+            "passed": true,
+            "evidence": "db02c6b791439ca78271fe99a90e39c4ec7019e39924eb188fa9d591e39d7573"
+          },
+          {
+            "name": "case-permutation:baseline",
+            "passed": true,
+            "evidence": [
+              "S13",
+              "S16",
+              "S10",
+              "S17",
+              "S11",
+              "S06",
+              "S12",
+              "S14",
+              "S04",
+              "S15",
+              "S01",
+              "S05",
+              "S03",
+              "S09",
+              "S08",
+              "S19",
+              "S07",
+              "S02",
+              "S18",
+              "S20"
+            ]
+          },
+          {
+            "name": "case-permutation:candidate",
+            "passed": true,
+            "evidence": [
+              "S20",
+              "S09",
+              "S17",
+              "S03",
+              "S05",
+              "S06",
+              "S19",
+              "S08",
+              "S13",
+              "S16",
+              "S11",
+              "S01",
+              "S04",
+              "S10",
+              "S02",
+              "S15",
+              "S18",
+              "S07",
+              "S12",
+              "S14"
+            ]
+          },
+          {
+            "name": "single-stream-ordering",
+            "passed": true,
+            "evidence": {
+              "baseline": [
+                "S13",
+                "S16",
+                "S10",
+                "S17",
+                "S11",
+                "S06",
+                "S12",
+                "S14",
+                "S04",
+                "S15",
+                "S01",
+                "S05",
+                "S03",
+                "S09",
+                "S08",
+                "S19",
+                "S07",
+                "S02",
+                "S18",
+                "S20"
+              ],
+              "candidate": [
+                "S20",
+                "S09",
+                "S17",
+                "S03",
+                "S05",
+                "S06",
+                "S19",
+                "S08",
+                "S13",
+                "S16",
+                "S11",
+                "S01",
+                "S04",
+                "S10",
+                "S02",
+                "S15",
+                "S18",
+                "S07",
+                "S12",
+                "S14"
+              ]
+            }
+          },
+          {
+            "name": "unchanged-contract:policies/AUTHORITY.md",
+            "passed": true,
+            "evidence": "082de2f8fec06bc6dc9027d2f8605ca61cda12a5f5c175d1c3019bd1035d1118"
+          },
+          {
+            "name": "unchanged-contract:policies/SCOPE_BOUNDARIES.md",
+            "passed": true,
+            "evidence": "605778f942bead5b135d79e94ec803138150c6ab4a0cddc7531a5bdff292bed5"
+          },
+          {
+            "name": "unchanged-contract:policies/MEASUREMENT_INDEPENDENCE.md",
+            "passed": true,
+            "evidence": "899d12e5d92d5a22ef16aa929f154efe1c7748997b071b043769d06a03970194"
+          },
+          {
+            "name": "unchanged-contract:policies/APPROVALS.md",
+            "passed": true,
+            "evidence": "65e6f15ab93cdf1aba5eecc172a51aa8484e0be35a67e29936b5b3cacca976b2"
+          },
+          {
+            "name": "unchanged-contract:policies/ACCEPTANCE.md",
+            "passed": true,
+            "evidence": "193a3150240ad64542b033d9c31f500077c5ff80c824510808f3660f974a33a8"
+          },
+          {
+            "name": "unchanged-contract:policies/PLANNING.md",
+            "passed": true,
+            "evidence": "5608e3beb92f4b6b951578c8282dff1e6ccf838418ce5f9e83b756b14f9ed7fb"
+          },
+          {
+            "name": "unchanged-contract:shared/RECORD_FORMATS.md",
+            "passed": true,
+            "evidence": "317236250041fdacb1135350309ec287186aa7ed22c2f4605a7b6a47a60833fb"
+          },
+          {
+            "name": "unchanged-contract:shared/CONTEXT_MANAGEMENT.md",
+            "passed": true,
+            "evidence": "3a4faaa659fbbfeda75a97205bc40c59e6a43973c700e2ef9b3b207cf8ebb50d"
+          },
+          {
+            "name": "unchanged-contract:shared/DESIGN_REVIEW.md",
+            "passed": true,
+            "evidence": "566a0a69dcf6f048cc81996a48c45c0790c89a4b088d7fa9a6e423dda5b386d6"
+          },
+          {
+            "name": "prior-evaluator-exact-prefix",
+            "passed": true,
+            "evidence": {
+              "baseline_sha256": "b1bb39f9c6001f5f4895f56f246eaeb131ad61a22285f9ecf40c2638681cc2d8",
+              "words": 301,
+              "covers": "preregistration, deterministic/stochastic thresholds, guardrails, independence, evaluator changes, rollback"
+            }
+          },
+          {
+            "name": "all-active-roles-pinned",
+            "passed": true,
+            "evidence": [
+              "agents/architect/AGENTS.md",
+              "agents/chief-of-staff/AGENTS.md",
+              "agents/coordinator/AGENTS.md",
+              "agents/design-director/AGENTS.md",
+              "agents/developer/AGENTS.md",
+              "agents/executor/AGENTS.md",
+              "agents/planner/AGENTS.md",
+              "agents/researcher/AGENTS.md",
+              "agents/reviewer/AGENTS.md"
+            ]
+          },
+          {
+            "name": "unique-context-orientation-retained",
+            "passed": true,
+            "evidence": []
+          },
+          {
+            "name": "every-role-and-context-links-mandatory-core",
+            "passed": true,
+            "evidence": {
+              "agents/architect/AGENTS.md": true,
+              "agents/chief-of-staff/AGENTS.md": true,
+              "agents/coordinator/AGENTS.md": true,
+              "agents/design-director/AGENTS.md": true,
+              "agents/developer/AGENTS.md": true,
+              "agents/executor/AGENTS.md": true,
+              "agents/planner/AGENTS.md": true,
+              "agents/researcher/AGENTS.md": true,
+              "agents/reviewer/AGENTS.md": true,
+              "agents/architect/CONTEXT.md": true,
+              "agents/chief-of-staff/CONTEXT.md": true,
+              "agents/coordinator/CONTEXT.md": true,
+              "agents/design-director/CONTEXT.md": true,
+              "agents/developer/CONTEXT.md": true,
+              "agents/executor/CONTEXT.md": true,
+              "agents/planner/CONTEXT.md": true,
+              "agents/researcher/CONTEXT.md": true,
+              "agents/reviewer/CONTEXT.md": true
+            }
+          },
+          {
+            "name": "required-metadata-exact",
+            "passed": true,
+            "evidence": []
+          },
+          {
+            "name": "role-identities-exact",
+            "passed": true,
+            "evidence": []
+          },
+          {
+            "name": "unique-role-duties-retained",
+            "passed": true,
+            "evidence": []
+          },
+          {
+            "name": "canonical-core-obligations",
+            "passed": true,
+            "evidence": {
+              "scope": true,
+              "authority": true,
+              "claim": true,
+              "dependencies": true,
+              "handoff": true,
+              "unknown telemetry": true,
+              "required sources": true,
+              "project trigger": true
+            }
+          },
+          {
+            "name": "historical-tail-lossless-and-removed",
+            "passed": true,
+            "evidence": {
+              "tail_sha256": "70ffc72f87a68ff2f313123ac3081d05259502f48c0f8580a96abe2b570c6d24",
+              "tail_words": 490,
+              "only_allowed_rebase": "../factory/reports/project-cleanup/CLOSURE.md -> ../project-cleanup/CLOSURE.md; inverse rebase must equal complete original tail",
+              "archives": [
+                "handoff-history.md"
+              ]
+            }
+          },
+          {
+            "name": "local-links-and-anchors",
+            "passed": true,
+            "evidence": {
+              "count": 114,
+              "failures": []
+            }
+          },
+          {
+            "name": "history-recoverable-from-contract",
+            "passed": true,
+            "evidence": "factory/reports/governance-simplification/handoff-history.md"
+          },
+          {
+            "name": "historical-link-destinations-preserved",
+            "passed": true,
+            "evidence": {
+              "original": [
+                [
+                  "factory/reports/project-cleanup/CLOSURE.md",
+                  ""
+                ]
+              ],
+              "archive": [
+                [
+                  "factory/reports/governance-simplification/baseline/shared__HANDOFFS.md.txt",
+                  ""
+                ],
+                [
+                  "factory/reports/project-cleanup/CLOSURE.md",
+                  ""
+                ],
+                [
+                  "shared/HANDOFFS.md",
+                  ""
+                ]
+              ]
+            }
+          },
+          {
+            "name": "each-role-contract-shorter",
+            "passed": true,
+            "evidence": {
+              "architect": {
+                "baseline": 1605,
+                "candidate": 1496,
+                "delta": -109,
+                "paths": [
+                  "AGENTS.md",
+                  "policies/AUTHORITY.md",
+                  "policies/SCOPE_BOUNDARIES.md",
+                  "agents/architect/AGENTS.md",
+                  "agents/architect/CONTEXT.md"
+                ]
+              },
+              "chief-of-staff": {
+                "baseline": 1815,
+                "candidate": 1708,
+                "delta": -107,
+                "paths": [
+                  "AGENTS.md",
+                  "policies/AUTHORITY.md",
+                  "policies/SCOPE_BOUNDARIES.md",
+                  "agents/chief-of-staff/AGENTS.md",
+                  "agents/chief-of-staff/CONTEXT.md"
+                ]
+              },
+              "coordinator": {
+                "baseline": 2102,
+                "candidate": 1949,
+                "delta": -153,
+                "paths": [
+                  "AGENTS.md",
+                  "policies/AUTHORITY.md",
+                  "policies/SCOPE_BOUNDARIES.md",
+                  "agents/coordinator/AGENTS.md",
+                  "agents/coordinator/CONTEXT.md"
+                ]
+              },
+              "design-director": {
+                "baseline": 2414,
+                "candidate": 2342,
+                "delta": -72,
+                "paths": [
+                  "AGENTS.md",
+                  "policies/AUTHORITY.md",
+                  "policies/SCOPE_BOUNDARIES.md",
+                  "agents/design-director/AGENTS.md",
+                  "agents/design-director/CONTEXT.md"
+                ]
+              },
+              "developer": {
+                "baseline": 1619,
+                "candidate": 1505,
+                "delta": -114,
+                "paths": [
+                  "AGENTS.md",
+                  "policies/AUTHORITY.md",
+                  "policies/SCOPE_BOUNDARIES.md",
+                  "agents/developer/AGENTS.md",
+                  "agents/developer/CONTEXT.md"
+                ]
+              },
+              "executor": {
+                "baseline": 1618,
+                "candidate": 1503,
+                "delta": -115,
+                "paths": [
+                  "AGENTS.md",
+                  "policies/AUTHORITY.md",
+                  "policies/SCOPE_BOUNDARIES.md",
+                  "agents/executor/AGENTS.md",
+                  "agents/executor/CONTEXT.md"
+                ]
+              },
+              "planner": {
+                "baseline": 1713,
+                "candidate": 1601,
+                "delta": -112,
+                "paths": [
+                  "AGENTS.md",
+                  "policies/AUTHORITY.md",
+                  "policies/SCOPE_BOUNDARIES.md",
+                  "agents/planner/AGENTS.md",
+                  "agents/planner/CONTEXT.md"
+                ]
+              },
+              "researcher": {
+                "baseline": 1608,
+                "candidate": 1501,
+                "delta": -107,
+                "paths": [
+                  "AGENTS.md",
+                  "policies/AUTHORITY.md",
+                  "policies/SCOPE_BOUNDARIES.md",
+                  "agents/researcher/AGENTS.md",
+                  "agents/researcher/CONTEXT.md"
+                ]
+              },
+              "reviewer": {
+                "baseline": 1900,
+                "candidate": 1779,
+                "delta": -121,
+                "paths": [
+                  "AGENTS.md",
+                  "policies/AUTHORITY.md",
+                  "policies/SCOPE_BOUNDARIES.md",
+                  "agents/reviewer/AGENTS.md",
+                  "agents/reviewer/CONTEXT.md"
+                ]
+              }
+            }
+          },
+          {
+            "name": "net-scoped-corpus-shorter",
+            "passed": true,
+            "evidence": {
+              "baseline": 15600,
+              "candidate": 13523,
+              "delta": -2077
+            }
+          },
+          {
+            "name": "existing-inline-plan-reuse",
+            "passed": true,
+            "evidence": {
+              "passed": true,
+              "path": "agent-org/tasks/organization/TASK-000001.md",
+              "classes": [
+                "task",
+                "plan"
+              ],
+              "sha256": "a00fcfc1514348146f6d6e54ab636cee83fd3e415fbede903b5c41c40df378d8",
+              "separate_plan_file": false,
+              "limit": "Manifest acceptance proves supported canonical source reuse, not semantic completeness or permission. Fresh review remains required."
+            }
+          }
+        ],
+        "source_hashes": {
+          "AGENTS.md": "861c64aea4cf61b67049b0decb2c3a38d66797154d4031144c5c955899f1fc9b",
+          "policies/AUTHORITY.md": "082de2f8fec06bc6dc9027d2f8605ca61cda12a5f5c175d1c3019bd1035d1118",
+          "policies/SCOPE_BOUNDARIES.md": "605778f942bead5b135d79e94ec803138150c6ab4a0cddc7531a5bdff292bed5",
+          "policies/SELF_IMPROVEMENT.md": "53c24c6afa5a67914e87ea6c7decfbc7427e6568aa81df8270d8ac5d5fa7f37b",
+          "policies/APPROVALS.md": "65e6f15ab93cdf1aba5eecc172a51aa8484e0be35a67e29936b5b3cacca976b2",
+          "policies/ACCEPTANCE.md": "193a3150240ad64542b033d9c31f500077c5ff80c824510808f3660f974a33a8",
+          "policies/MEASUREMENT_INDEPENDENCE.md": "899d12e5d92d5a22ef16aa929f154efe1c7748997b071b043769d06a03970194",
+          "policies/PLANNING.md": "5608e3beb92f4b6b951578c8282dff1e6ccf838418ce5f9e83b756b14f9ed7fb",
+          "policies/ROUTING.md": "edb7fdec5c6f9badb5cfcd9437a760eb73403d5b7aa2da14647c6b7341235a4c",
+          "shared/CONTEXT_MANAGEMENT.md": "3a4faaa659fbbfeda75a97205bc40c59e6a43973c700e2ef9b3b207cf8ebb50d",
+          "shared/RECORD_FORMATS.md": "317236250041fdacb1135350309ec287186aa7ed22c2f4605a7b6a47a60833fb",
+          "shared/HANDOFFS.md": "06aa90e8663b189f4d6e9f5ec5d453c82815dd90f91beccfbc944231e2820777",
+          "shared/AUTONOMOUS_EXECUTION.md": "e7c883fac9c734073fa04cd3346b3a73f57c8da870c3c0ee35380a9615f847eb",
+          "shared/DESIGN_REVIEW.md": "566a0a69dcf6f048cc81996a48c45c0790c89a4b088d7fa9a6e423dda5b386d6",
+          "workflows/WF-000004.md": "df65b72cb5d6591d1307b242a39267bde11081b6b6564bf3b7c8a65145380b68",
+          "agents/architect/AGENTS.md": "c08d26a4ea181686cd46f7327c3255739a5516cb03dc4af9942ff67af6432491",
+          "agents/chief-of-staff/AGENTS.md": "da4651e1c94a67a5c2877de29e1b0cd3943ce75fc4a6437f455f6773625050cd",
+          "agents/coordinator/AGENTS.md": "6c849b3b4af74eaf3512b84c6fa94dbd1cfdd4f36a171bbd0ae9990ab83771ba",
+          "agents/design-director/AGENTS.md": "998dc063aa6c8704685fd33701012ed5b1c99c2ad9a9ab2ff3a861045f19aa5d",
+          "agents/developer/AGENTS.md": "c94bad30fa653af00a3c9ce6875d4342be3499e58187ee0be09286c9687e6fe0",
+          "agents/executor/AGENTS.md": "4247d02ba14db6439d1e231e0963e25108a86829684858a7b910d4c872a013c1",
+          "agents/planner/AGENTS.md": "fa565bd87e4c080e39550ecabb60e42a0fd0c623fbe2174330ad616e5a20dae4",
+          "agents/researcher/AGENTS.md": "b9445186a4dcc1923596701fbd896eef1e9c9a34deae5330a672257d67acb533",
+          "agents/reviewer/AGENTS.md": "fb8490efa28b6b712e9a39b5ae8e581640c41817bedeb3caf7c49c89c55263b7",
+          "agents/architect/CONTEXT.md": "c902a0759b467867d81285aaa965395536c19517eee871c1664d9e9b2783580f",
+          "agents/chief-of-staff/CONTEXT.md": "c652a705d766f51e9ead11eac96458bfa24f419d6db307d60a6bb579d8eb5163",
+          "agents/coordinator/CONTEXT.md": "ad73b30ec0db687dfdce23959972955879e12264797dabc54800d99afe6fbc1c",
+          "agents/design-director/CONTEXT.md": "f254b7c726b5fc7ad39aff8929867656d03ebcf6f121a1397370f1c73b31f050",
+          "agents/developer/CONTEXT.md": "639b089408b9725ed24bfd83c9cbe1fe55ed042fc9aabf939cbff28de754010a",
+          "agents/executor/CONTEXT.md": "a87435b940f0abd36fc136300d888d0d1aa3f014f386e671ade65168dffacf46",
+          "agents/planner/CONTEXT.md": "ca857bd32289be04c6af42eb28c8b063aa777ef58c76f6080e71f85db6ec4639",
+          "agents/researcher/CONTEXT.md": "0302cd0a132ff7e72abbe7a511f1d39c147d6f8258e4767f61f1be408a2854a2",
+          "agents/reviewer/CONTEXT.md": "e7c05da3f463fd6061a0a2ff955059419aae827d4b75a4eb1adbe580c488e479"
+        },
+        "word_count_method": "Python str.split whitespace-delimited words, metadata included. Corpus counts each manifest path once. Role contracts count core/authority/scope once plus its own AGENTS and CONTEXT; action-specific sources excluded. Archived words retained but excluded from current instruction corpus. No tokens, capacity, productivity or universal compliance inference.",
+        "word_census": {
+          "AGENTS.md": {
+            "baseline": 689,
+            "candidate": 750,
+            "delta": 61
+          },
+          "policies/AUTHORITY.md": {
+            "baseline": 225,
+            "candidate": 225,
+            "delta": 0
+          },
+          "policies/SCOPE_BOUNDARIES.md": {
+            "baseline": 290,
+            "candidate": 290,
+            "delta": 0
+          },
+          "policies/SELF_IMPROVEMENT.md": {
+            "baseline": 1212,
+            "candidate": 1309,
+            "delta": 97
+          },
+          "policies/APPROVALS.md": {
+            "baseline": 215,
+            "candidate": 215,
+            "delta": 0
+          },
+          "policies/ACCEPTANCE.md": {
+            "baseline": 789,
+            "candidate": 789,
+            "delta": 0
+          },
+          "policies/MEASUREMENT_INDEPENDENCE.md": {
+            "baseline": 226,
+            "candidate": 226,
+            "delta": 0
+          },
+          "policies/PLANNING.md": {
+            "baseline": 1064,
+            "candidate": 1064,
+            "delta": 0
+          },
+          "policies/ROUTING.md": {
+            "baseline": 341,
+            "candidate": 341,
+            "delta": 0
+          },
+          "shared/CONTEXT_MANAGEMENT.md": {
+            "baseline": 679,
+            "candidate": 679,
+            "delta": 0
+          },
+          "shared/RECORD_FORMATS.md": {
+            "baseline": 361,
+            "candidate": 361,
+            "delta": 0
+          },
+          "shared/HANDOFFS.md": {
+            "baseline": 787,
+            "candidate": 313,
+            "delta": -474
+          },
+          "shared/AUTONOMOUS_EXECUTION.md": {
+            "baseline": 948,
+            "candidate": 908,
+            "delta": -40
+          },
+          "shared/DESIGN_REVIEW.md": {
+            "baseline": 1649,
+            "candidate": 1649,
+            "delta": 0
+          },
+          "workflows/WF-000004.md": {
+            "baseline": 567,
+            "candidate": 405,
+            "delta": -162
+          },
+          "agents/architect/AGENTS.md": {
+            "baseline": 249,
+            "candidate": 164,
+            "delta": -85
+          },
+          "agents/chief-of-staff/AGENTS.md": {
+            "baseline": 448,
+            "candidate": 372,
+            "delta": -76
+          },
+          "agents/coordinator/AGENTS.md": {
+            "baseline": 699,
+            "candidate": 591,
+            "delta": -108
+          },
+          "agents/design-director/AGENTS.md": {
+            "baseline": 971,
+            "candidate": 885,
+            "delta": -86
+          },
+          "agents/developer/AGENTS.md": {
+            "baseline": 258,
+            "candidate": 173,
+            "delta": -85
+          },
+          "agents/executor/AGENTS.md": {
+            "baseline": 256,
+            "candidate": 171,
+            "delta": -85
+          },
+          "agents/planner/AGENTS.md": {
+            "baseline": 354,
+            "candidate": 269,
+            "delta": -85
+          },
+          "agents/researcher/AGENTS.md": {
+            "baseline": 254,
+            "candidate": 169,
+            "delta": -85
+          },
+          "agents/reviewer/AGENTS.md": {
+            "baseline": 531,
+            "candidate": 447,
+            "delta": -84
+          },
+          "agents/architect/CONTEXT.md": {
+            "baseline": 152,
+            "candidate": 67,
+            "delta": -85
+          },
+          "agents/chief-of-staff/CONTEXT.md": {
+            "baseline": 163,
+            "candidate": 71,
+            "delta": -92
+          },
+          "agents/coordinator/CONTEXT.md": {
+            "baseline": 199,
+            "candidate": 93,
+            "delta": -106
+          },
+          "agents/design-director/CONTEXT.md": {
+            "baseline": 239,
+            "candidate": 192,
+            "delta": -47
+          },
+          "agents/developer/CONTEXT.md": {
+            "baseline": 157,
+            "candidate": 67,
+            "delta": -90
+          },
+          "agents/executor/CONTEXT.md": {
+            "baseline": 158,
+            "candidate": 67,
+            "delta": -91
+          },
+          "agents/planner/CONTEXT.md": {
+            "baseline": 155,
+            "candidate": 67,
+            "delta": -88
+          },
+          "agents/researcher/CONTEXT.md": {
+            "baseline": 150,
+            "candidate": 67,
+            "delta": -83
+          },
+          "agents/reviewer/CONTEXT.md": {
+            "baseline": 165,
+            "candidate": 67,
+            "delta": -98
+          }
+        },
+        "per_role_contracts": {
+          "architect": {
+            "baseline": 1605,
+            "candidate": 1496,
+            "delta": -109,
+            "paths": [
+              "AGENTS.md",
+              "policies/AUTHORITY.md",
+              "policies/SCOPE_BOUNDARIES.md",
+              "agents/architect/AGENTS.md",
+              "agents/architect/CONTEXT.md"
+            ]
+          },
+          "chief-of-staff": {
+            "baseline": 1815,
+            "candidate": 1708,
+            "delta": -107,
+            "paths": [
+              "AGENTS.md",
+              "policies/AUTHORITY.md",
+              "policies/SCOPE_BOUNDARIES.md",
+              "agents/chief-of-staff/AGENTS.md",
+              "agents/chief-of-staff/CONTEXT.md"
+            ]
+          },
+          "coordinator": {
+            "baseline": 2102,
+            "candidate": 1949,
+            "delta": -153,
+            "paths": [
+              "AGENTS.md",
+              "policies/AUTHORITY.md",
+              "policies/SCOPE_BOUNDARIES.md",
+              "agents/coordinator/AGENTS.md",
+              "agents/coordinator/CONTEXT.md"
+            ]
+          },
+          "design-director": {
+            "baseline": 2414,
+            "candidate": 2342,
+            "delta": -72,
+            "paths": [
+              "AGENTS.md",
+              "policies/AUTHORITY.md",
+              "policies/SCOPE_BOUNDARIES.md",
+              "agents/design-director/AGENTS.md",
+              "agents/design-director/CONTEXT.md"
+            ]
+          },
+          "developer": {
+            "baseline": 1619,
+            "candidate": 1505,
+            "delta": -114,
+            "paths": [
+              "AGENTS.md",
+              "policies/AUTHORITY.md",
+              "policies/SCOPE_BOUNDARIES.md",
+              "agents/developer/AGENTS.md",
+              "agents/developer/CONTEXT.md"
+            ]
+          },
+          "executor": {
+            "baseline": 1618,
+            "candidate": 1503,
+            "delta": -115,
+            "paths": [
+              "AGENTS.md",
+              "policies/AUTHORITY.md",
+              "policies/SCOPE_BOUNDARIES.md",
+              "agents/executor/AGENTS.md",
+              "agents/executor/CONTEXT.md"
+            ]
+          },
+          "planner": {
+            "baseline": 1713,
+            "candidate": 1601,
+            "delta": -112,
+            "paths": [
+              "AGENTS.md",
+              "policies/AUTHORITY.md",
+              "policies/SCOPE_BOUNDARIES.md",
+              "agents/planner/AGENTS.md",
+              "agents/planner/CONTEXT.md"
+            ]
+          },
+          "researcher": {
+            "baseline": 1608,
+            "candidate": 1501,
+            "delta": -107,
+            "paths": [
+              "AGENTS.md",
+              "policies/AUTHORITY.md",
+              "policies/SCOPE_BOUNDARIES.md",
+              "agents/researcher/AGENTS.md",
+              "agents/researcher/CONTEXT.md"
+            ]
+          },
+          "reviewer": {
+            "baseline": 1900,
+            "candidate": 1779,
+            "delta": -121,
+            "paths": [
+              "AGENTS.md",
+              "policies/AUTHORITY.md",
+              "policies/SCOPE_BOUNDARIES.md",
+              "agents/reviewer/AGENTS.md",
+              "agents/reviewer/CONTEXT.md"
+            ]
+          }
+        },
+        "corpus": {
+          "baseline": 15600,
+          "candidate": 13523,
+          "delta": -2077
+        },
+        "limits": [
+          "Static checks do not establish semantic equivalence; independent Reviewer must assess all changed duties/routing and evaluator semantics.",
+          "Behavioral executions and independent scoring are separate and may be missing.",
+          "No Git scope/remote-main/delivery verification performed by this worker."
+        ]
+      }
+    }
+  ],
+  "artifact_maintenance_observations": [
+    {
+      "command": "preparation-history serialization",
+      "exit_code": 1,
+      "error": "ValueError: Circular reference detected",
+      "cause": "Retained result dict referenced same newly added attempt list; serialization failed before write.",
+      "correction": "Deep-copy prior result before embedding; JSON parsed and checked before persistence.",
+      "effects": "No failed-attempt file write; no source/Git/evidence deletion.",
+      "owner": "TASK403; parent independent no-change assessment required under prior evaluator"
+    }
+  ],
+  "qualifier_sha256": "444421deee61c55b6ad6862107bb2227b702179211432134195ea47584349193"
+}

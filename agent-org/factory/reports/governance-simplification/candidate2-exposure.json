@@ -1,0 +1,21 @@
+{
+  "required_sources_read": [
+    "policies/ACCEPTANCE.md",
+    "policies/APPROVALS.md",
+    "policies/AUTHORITY.md",
+    "policies/MEASUREMENT_INDEPENDENCE.md",
+    "policies/PLANNING.md",
+    "policies/SCOPE_BOUNDARIES.md",
+    "shared/CONTEXT_MANAGEMENT.md",
+    "AGENTS.md",
+    "agents/researcher/AGENTS.md",
+    "agents/researcher/CONTEXT.md",
+    "policies/SELF_IMPROVEMENT.md",
+    "workflows/WF-000004.md",
+    "candidate2-cases.json"
+  ],
+  "unavailable_sources": [],
+  "incidental_exposure": ["agent-org/AGENTS.md"],
+  "requested_configuration": "gpt-6-luna/medium (as supplied by parent; this reports requested configuration only)",
+  "actual_configuration": "unknown absent trusted telemetry"
+}

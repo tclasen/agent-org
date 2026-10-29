@@ -25,3 +25,11 @@ APP-000115 exact affected recheck; APP-000116 dependent independent organization
 - [APP-000598 — Governance burden evaluation admission](APP-000598.md) — approved
 - [APP-000599 — Governance burden evaluation independent review](APP-000599.md) — approved
 - [APP-000600 — Governance burden evaluation final artifact decision](APP-000600.md) — approved
+
+## Governance simplification
+
+- [APP-000601 — Bounded governance simplification admission](APP-000601.md) — approved
+- [APP-000602 — Independent review decision — candidate1 not qualified](APP-000602.md) — rejected
+- [APP-000603 — Governance simplification — independent final artifact approval](APP-000603.md) — approved
+- [APP-000604 — Revised routing candidate admission](APP-000604.md) — approved
+- [APP-000605 — Independent revised review decision — candidate2](APP-000605.md) — approved

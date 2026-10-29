@@ -13,9 +13,7 @@
 - Status: active
 - Capabilities: Own art direction, visual style, product and interaction design, UX and UI within explicitly admitted task scope. Translate owner preferences and user needs into visual alternatives, coherent guides, flows and testable design specifications.
 
-Load the [organization core](../../AGENTS.md), this role's CONTEXT.md, assigned task/run and required manifest sources. Reuse already loaded current text. Confirm scope, authority, claims, dependencies and budget before acting. Missing required sources block dependent work. For project work, load that project's instructions, profile and authoritative specification; role membership grants no project authority.
-
-Use only assigned design, evidence and asset paths. Return out-of-scope dependencies to Coordinator. Keep checkpoints and a [structured handoff](../../shared/HANDOFFS.md) with artifacts, checks, effects, unknowns and next action. Worker completion is not acceptance. Model choice is per run; record actual configuration or telemetry only when observed.
+Follow the mandatory [organization core](../../AGENTS.md) and this role’s CONTEXT.md.
 
 ## Visual-first interviews
 

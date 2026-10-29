@@ -1,0 +1,171 @@
+{
+  "base_commit": "e102b341411fb75de2b06a6a216c498928405762",
+  "observed_at": "2026-10-28T23:24:26.272225+00:00",
+  "sources": {
+    "AGENTS.md": {
+      "sha256": "d96a65a5f69f6264f489cbf1662ffc6da67d9f8d6c4a2d2c5a6e27f4201af64b",
+      "words": 689,
+      "snapshot": "baseline/AGENTS.md.txt"
+    },
+    "policies/AUTHORITY.md": {
+      "sha256": "082de2f8fec06bc6dc9027d2f8605ca61cda12a5f5c175d1c3019bd1035d1118",
+      "words": 225,
+      "snapshot": "baseline/policies__AUTHORITY.md.txt"
+    },
+    "policies/SCOPE_BOUNDARIES.md": {
+      "sha256": "605778f942bead5b135d79e94ec803138150c6ab4a0cddc7531a5bdff292bed5",
+      "words": 290,
+      "snapshot": "baseline/policies__SCOPE_BOUNDARIES.md.txt"
+    },
+    "policies/SELF_IMPROVEMENT.md": {
+      "sha256": "41187ca5a70e8c5e531fb02488509c52423b2af116b8d769d055bfe1c39849e9",
+      "words": 1212,
+      "snapshot": "baseline/policies__SELF_IMPROVEMENT.md.txt"
+    },
+    "policies/APPROVALS.md": {
+      "sha256": "65e6f15ab93cdf1aba5eecc172a51aa8484e0be35a67e29936b5b3cacca976b2",
+      "words": 215,
+      "snapshot": "baseline/policies__APPROVALS.md.txt"
+    },
+    "policies/ACCEPTANCE.md": {
+      "sha256": "193a3150240ad64542b033d9c31f500077c5ff80c824510808f3660f974a33a8",
+      "words": 789,
+      "snapshot": "baseline/policies__ACCEPTANCE.md.txt"
+    },
+    "policies/MEASUREMENT_INDEPENDENCE.md": {
+      "sha256": "899d12e5d92d5a22ef16aa929f154efe1c7748997b071b043769d06a03970194",
+      "words": 226,
+      "snapshot": "baseline/policies__MEASUREMENT_INDEPENDENCE.md.txt"
+    },
+    "policies/PLANNING.md": {
+      "sha256": "5608e3beb92f4b6b951578c8282dff1e6ccf838418ce5f9e83b756b14f9ed7fb",
+      "words": 1064,
+      "snapshot": "baseline/policies__PLANNING.md.txt"
+    },
+    "policies/ROUTING.md": {
+      "sha256": "edb7fdec5c6f9badb5cfcd9437a760eb73403d5b7aa2da14647c6b7341235a4c",
+      "words": 341,
+      "snapshot": "baseline/policies__ROUTING.md.txt"
+    },
+    "shared/CONTEXT_MANAGEMENT.md": {
+      "sha256": "3a4faaa659fbbfeda75a97205bc40c59e6a43973c700e2ef9b3b207cf8ebb50d",
+      "words": 679,
+      "snapshot": "baseline/shared__CONTEXT_MANAGEMENT.md.txt"
+    },
+    "shared/RECORD_FORMATS.md": {
+      "sha256": "317236250041fdacb1135350309ec287186aa7ed22c2f4605a7b6a47a60833fb",
+      "words": 361,
+      "snapshot": "baseline/shared__RECORD_FORMATS.md.txt"
+    },
+    "shared/HANDOFFS.md": {
+      "sha256": "301097f99ec138bce5d7fe2ee88811e27542140f2fab45cfda97f8f7f15e0e40",
+      "words": 787,
+      "snapshot": "baseline/shared__HANDOFFS.md.txt"
+    },
+    "shared/AUTONOMOUS_EXECUTION.md": {
+      "sha256": "23f9413b0b10c1762dea8f783fbe461ba2b6d0233b35f25b139c16d0c4e4321c",
+      "words": 948,
+      "snapshot": "baseline/shared__AUTONOMOUS_EXECUTION.md.txt"
+    },
+    "shared/DESIGN_REVIEW.md": {
+      "sha256": "566a0a69dcf6f048cc81996a48c45c0790c89a4b088d7fa9a6e423dda5b386d6",
+      "words": 1649,
+      "snapshot": "baseline/shared__DESIGN_REVIEW.md.txt"
+    },
+    "workflows/WF-000004.md": {
+      "sha256": "39a5370a46b8cd9a2a8b5e4aee81cf5ba20300b82703963706a5782d7a5a250c",
+      "words": 567,
+      "snapshot": "baseline/workflows__WF-000004.md.txt"
+    },
+    "agents/architect/AGENTS.md": {
+      "sha256": "92d6643dfe8e1ae243304e23df8bb0c4b1555e681ecd503a600b597e5d65251d",
+      "words": 249,
+      "snapshot": "baseline/agents__architect__AGENTS.md.txt"
+    },
+    "agents/chief-of-staff/AGENTS.md": {
+      "sha256": "6e3892f8900a8b8328fd0eaa991a3b463b75fa8a7e56aa5c73eabf69ce61cc97",
+      "words": 448,
+      "snapshot": "baseline/agents__chief-of-staff__AGENTS.md.txt"
+    },
+    "agents/coordinator/AGENTS.md": {
+      "sha256": "13af965f9ed7b6fbd352def512cad6a085fd7a270cf51a320fe4db191dc1f4c0",
+      "words": 699,
+      "snapshot": "baseline/agents__coordinator__AGENTS.md.txt"
+    },
+    "agents/design-director/AGENTS.md": {
+      "sha256": "c8ab0b6785804188233ce16b9592476b6fe268f443a8df921880567c567265e2",
+      "words": 971,
+      "snapshot": "baseline/agents__design-director__AGENTS.md.txt"
+    },
+    "agents/developer/AGENTS.md": {
+      "sha256": "9d14fa9428bc3810bed71102fd29fae8306c3d4dbc6dbd59733e05e61548683f",
+      "words": 258,
+      "snapshot": "baseline/agents__developer__AGENTS.md.txt"
+    },
+    "agents/executor/AGENTS.md": {
+      "sha256": "3a4314fab101149445f5f519800bdd7dcdb6948c76e57b668d68b5190b7f2229",
+      "words": 256,
+      "snapshot": "baseline/agents__executor__AGENTS.md.txt"
+    },
+    "agents/planner/AGENTS.md": {
+      "sha256": "716096f2cc787cf5dcc83b26c7e527b8f9dff214bd343f0f0ee820bb66001256",
+      "words": 354,
+      "snapshot": "baseline/agents__planner__AGENTS.md.txt"
+    },
+    "agents/researcher/AGENTS.md": {
+      "sha256": "0488e19263b95e8ae47ffbcf71134002f87c589ab97cb5d4e6a3484478d9e9ba",
+      "words": 254,
+      "snapshot": "baseline/agents__researcher__AGENTS.md.txt"
+    },
+    "agents/reviewer/AGENTS.md": {
+      "sha256": "d370a55b59de16042dbae83aea4f720e1bcf11919faa74d9b958b98e08a7bec2",
+      "words": 531,
+      "snapshot": "baseline/agents__reviewer__AGENTS.md.txt"
+    },
+    "agents/architect/CONTEXT.md": {
+      "sha256": "4ff0e3599fc0410b5f0475f7366898f4c6232ddd95a61f1a2887e7ba1b25513d",
+      "words": 152,
+      "snapshot": "baseline/agents__architect__CONTEXT.md.txt"
+    },
+    "agents/chief-of-staff/CONTEXT.md": {
+      "sha256": "131cf31dabdc53147e52ec3144fb0a72ce4266b3cbafb5dd595a39d473e4b38f",
+      "words": 163,
+      "snapshot": "baseline/agents__chief-of-staff__CONTEXT.md.txt"
+    },
+    "agents/coordinator/CONTEXT.md": {
+      "sha256": "808c424701d834879020d741a783ecd1692a30e03284d15083ddb56c1854a3db",
+      "words": 199,
+      "snapshot": "baseline/agents__coordinator__CONTEXT.md.txt"
+    },
+    "agents/design-director/CONTEXT.md": {
+      "sha256": "f5b98e82490eacf8678169c72195f4cae83532e7ab33eb4c714b2a1ea5fd82b0",
+      "words": 239,
+      "snapshot": "baseline/agents__design-director__CONTEXT.md.txt"
+    },
+    "agents/developer/CONTEXT.md": {
+      "sha256": "f38ae7a06640dbb6ffd076d4d2ea03b1ae5928827733baba2cee2dcb99099727",
+      "words": 157,
+      "snapshot": "baseline/agents__developer__CONTEXT.md.txt"
+    },
+    "agents/executor/CONTEXT.md": {
+      "sha256": "6e7e7132cb0fa6d55117986ded7a51ff3d67f03f644a1c56e8772264915898dc",
+      "words": 158,
+      "snapshot": "baseline/agents__executor__CONTEXT.md.txt"
+    },
+    "agents/planner/CONTEXT.md": {
+      "sha256": "553f8b3368d36238a87972ca5934a9cfb19289b1e68dcc175bb3d69529175c7c",
+      "words": 155,
+      "snapshot": "baseline/agents__planner__CONTEXT.md.txt"
+    },
+    "agents/researcher/CONTEXT.md": {
+      "sha256": "a55151dcfb17eaab4524272ecab4a453a5bb388791e93adf4366d2879061090a",
+      "words": 150,
+      "snapshot": "baseline/agents__researcher__CONTEXT.md.txt"
+    },
+    "agents/reviewer/CONTEXT.md": {
+      "sha256": "40eeb8053d4ba743fb805bd2ddde44c603c926d66b99b2c9b49046db54e5c872",
+      "words": 165,
+      "snapshot": "baseline/agents__reviewer__CONTEXT.md.txt"
+    }
+  }
+}
